@@ -1,7 +1,7 @@
 ---
 title: Home Page
 position: 0
-layout: main-page
+layout: page
 ---
 
 home page
