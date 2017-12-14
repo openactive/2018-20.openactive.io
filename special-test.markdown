@@ -6,3 +6,4 @@ footer: CONTENT THAT IS IN FOOTER
 layout: special
 ---
 
+CONTENT GENERALLY
