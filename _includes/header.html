@@ -24,16 +24,17 @@
             <div class="trigger">
 
                 <nav class="main-nav">
-
                     {% assign navigation_pages = site.html_pages | sort: 'position' %}
                     {% for p in navigation_pages %}
-                    {% if p.position %}
+                        {% if p.is_navigation %}
+                            {% if p.position %}
 
-                    <a class="page-link {% if p.url== page.url %}active {% endif %}" href="{{ p.url | relative_url }}" >{{ p.title }}</a>
+                            <a class="page-link {% if p.url== page.url %}active {% endif %}" href="{{ p.url | relative_url }}">{{
+                                p.title }}</a>
 
-                    {% endif %}
+                            {% endif %}
+                        {% endif %}
                     {% endfor %}
-
                 </nav>
 
             </div>
