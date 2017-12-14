@@ -5,4 +5,4 @@ is_navigation: true
 layout: page
 ---
 
-home page
+home
