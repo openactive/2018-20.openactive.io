@@ -1,6 +1,6 @@
 ---
 title: Help
-position: 1
+position: 3
 layout: blog
 ---
 
