@@ -9,14 +9,11 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -
-    scope:
-      path: "pages"
-    values:
-      layout: "default"
-      is_navigation: false
-
-
+- scope:
+    path: pages
+  values:
+    layout: default
+    is_navigation: false
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
