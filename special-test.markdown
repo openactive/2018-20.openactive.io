@@ -1,9 +1,0 @@
----
-title: SPECIAL TEST
-date: 2017-12-14 15:58:00 Z
-is_navigation: true
-footer: CONTENT THAT IS IN FOOTER
-layout: special
----
-
-CONTENT GENERALLY
