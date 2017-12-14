@@ -1,6 +1,7 @@
 ---
 title: Help
 position: 3
+is_navigation: true
 layout: blog
 ---
 
