@@ -1,6 +1,6 @@
 ---
 title: Privacy Page
-position: 0
+position: 3
 is_secondary_navigation: true
 layout: page
 ---

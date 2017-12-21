@@ -1,6 +1,6 @@
 ---
 title: Contact Page
-position: 0
+position: 1
 is_secondary_navigation: true
 layout: page
 ---

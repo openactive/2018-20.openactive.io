@@ -1,11 +1,11 @@
 @supports (display: grid) {
   .grid_layouts {
     display: grid;
-    //grid-template-columns: repeat(12, unquote("[col]") 1fr);
+    grid-template-columns: repeat(12, unquote("[col]") 1fr);
     //grid-column-gap: 1em;
     //grid-template-rows: minmax(100px, 1fr);
 
-    grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
+    //grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
     grid-row-gap: 1em;
     grid-column-gap: 1em;
     grid-template-rows: minmax(50px, 1fr);
@@ -17,35 +17,38 @@
     }
     .block.one {
       grid-column: col / span 12;
+      grid-row: auto;
     }
     .block.two {
       &:nth-child(2n+1) {
-        grid-column: col / span 6;
+        grid-column: col 1 / span 6;
+        grid-row: auto;
       }
       &:nth-child(2n+2) {
         grid-column: col 7 / span 6;
+        grid-row: auto;
       }
       @media only screen and (max-width: 750px) {
         &:nth-child(2n+1) {
-          grid-column: col / span 12;
+          grid-column: col 0  / span 12;
         }
         &:nth-child(2n+2) {
-          grid-column: col / span 12;
+          grid-column: col 0 / span 12;
         }
       }
       &.tworight {
         &:nth-child(2n+1) {
-          grid-column: col / span 4;
+          grid-column: col 0 / span 4;
         }
         &:nth-child(2n+2) {
           grid-column: col 5 / span 8;
         }
         @media only screen and (max-width: 750px) {
           &:nth-child(2n+1) {
-            grid-column: col / span 12;
+            grid-column: col 0 / span 12;
           }
           &:nth-child(2n+2) {
-            grid-column: col / span 12;
+            grid-column: col 0 / span 12;
           }
         }
       }
