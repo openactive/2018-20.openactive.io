@@ -1,7 +1,7 @@
 ---
 title: Home Page
 position: 0
-is_navigation: true
+is_main_navigation: true
 layout: page
 ---
 
