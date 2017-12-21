@@ -1,0 +1,45 @@
+p.pseudo-class-first-of-type {
+  margin-top: 0;
+}
+
+a.pseudo-class-hover {
+  color: #1d99f4;
+}
+
+a.pseudo-class-visited {
+  color: #1d99f4;
+}
+
+a.pseudo-class-hover {
+  color: #e0f1fd;
+}
+
+a.pseudo-class-active {
+  transition: color .3s;
+  color: white;
+}
+
+a.primary_cta.pseudo-class-hover,
+span.primary_cta > a.pseudo-class-hover,
+input[type=submit].pseudo-class-hover {
+  background-color: rgba(105, 210, 231, 0.5);
+  color: #ffffff;
+}
+
+a.primary_cta.pseudo-class-active,
+span.primary_cta > a.pseudo-class-active,
+input[type=submit].pseudo-class-active {
+  background-color: #F38630;
+  color: #ffffff;
+}
+
+a.secondary_cta.pseudo-class-hover,
+span.secondary_cta > a.pseudo-class-hover {
+  background-color: rgba(105, 210, 231, 0.5);
+}
+
+a.secondary_cta.pseudo-class-active,
+span.secondary_cta > a.pseudo-class-active {
+  background-color: #F38630;
+  color: #ffffff;
+}

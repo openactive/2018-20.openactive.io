@@ -1,0 +1,106 @@
+<h1 class="sg" name="minima">minima</h1>
+<p class="sg"><em>Minima is a one-size-fits-all Jekyll theme for writers</em>. It&apos;s Jekyll&apos;s default (and first) theme. It&apos;s what you get when you run <code>jekyll new</code>.</p>
+<p class="sg"><a href="https://jekyll.github.io/minima/" class="sg">Theme preview</a></p>
+<p class="sg"><img src="/screenshot.png" alt="minima theme preview"></p>
+<h2 class="sg" name="installation">Installation</h2>
+<p class="sg">Add this line to your Jekyll site&apos;s Gemfile:</p>
+<div hljs="" hljs-language="ruby">gem &quot;minima&quot;
+</div>
+<p class="sg">And add this line to your Jekyll site:</p>
+<div hljs="" hljs-language="yaml">theme: minima
+</div>
+<p class="sg">And then execute:</p>
+<div hljs="">$ bundle
+</div>
+<h2 class="sg" name="contents-at-a-glance">Contents At-A-Glance</h2>
+<p class="sg">Minima has been scaffolded by the <code>jekyll new-theme</code> command and therefore has all the necessary files and directories to have a new Jekyll site up and running with zero-configuration.</p>
+<h3 class="sg" name="layouts">Layouts</h3>
+<p class="sg">Refers to files within the <code>_layouts</code> directory, that define the markup for your theme.</p>
+<ul>
+<li class="sg"><code>default.html</code> &#x2014; The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents into this file at the line that says <code>{{ content }}</code> and are linked to this file via <a href="https://jekyllrb.com/docs/frontmatter/" class="sg">FrontMatter</a> declaration <code>layout: default</code>.</li>
+<li class="sg"><code>home.html</code> &#x2014; The layout for your landing-page / home-page / index-page.</li>
+<li class="sg"><code>page.html</code> &#x2014; The layout for your documents that contain FrontMatter, but are not posts.</li>
+<li class="sg"><code>post.html</code> &#x2014; The layout for your posts.</li>
+</ul>
+<h3 class="sg" name="includes">Includes</h3>
+<p class="sg">Refers to snippets of code within the <code>_includes</code> directory that can be inserted in multiple layouts (and another include-file as well) within the same theme-gem.</p>
+<ul>
+<li class="sg"><code>disqus_comments.html</code> &#x2014; Code to markup disqus comment box.</li>
+<li class="sg"><code>footer.html</code> &#x2014; Defines the site&apos;s footer section.</li>
+<li class="sg"><code>google-analytics.html</code> &#x2014; Inserts Google Analytics module (active only in production environment).</li>
+<li class="sg"><code>head.html</code> &#x2014; Code-block that defines the <code>&lt;head&gt;&lt;/head&gt;</code> in <em>default</em> layout.</li>
+<li class="sg"><code>header.html</code> &#x2014; Defines the site&apos;s main header section.</li>
+<li class="sg"><code>icon-* files</code> &#x2014; Inserts github and twitter ids with respective icons.</li>
+</ul>
+<h3 class="sg" name="sass">Sass</h3>
+<p class="sg">Refers to <code>.scss</code> files within the <code>_sass</code> directory that define the theme&apos;s styles.</p>
+<ul>
+<li class="sg"><code>minima.scss</code> &#x2014; The core file imported by preprocessed <code>main.scss</code>, it defines the variable defaults for the theme and also further imports sass partials to supplement itself.</li>
+<li class="sg"><code>minima/_base.scss</code> &#x2014; Resets and defines base styles for various HTML elements.</li>
+<li class="sg"><code>minima/_layout.scss</code> &#x2014; Defines the visual style for various layouts.</li>
+<li class="sg"><code>minima/_syntax-highlighting.scss</code> &#x2014; Defines the styles for syntax-highlighting.</li>
+</ul>
+<h3 class="sg" name="assets">Assets</h3>
+<p class="sg">Refers to various asset files within the <code>assets</code> directory.
+Contains the <code>main.scss</code> that imports sass files from within the <code>_sass</code> directory. This <code>main.scss</code> is what gets processed into the theme&apos;s main stylesheet <code>main.css</code> called by <code>_layouts/default.html</code> via <code>_includes/head.html</code>.</p>
+<p class="sg">This directory can include sub-directories to manage assets of similar type, and will be copied over as is, to the final transformed site directory.</p>
+<h2 class="sg" name="usage">Usage</h2>
+<h3 class="sg" name="customization">Customization</h3>
+<p class="sg">To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
+e.g., to override the <a href="_includes/head.html" class="sg"><code>_includes/head.html</code></a> file to specify a custom style path, create an <code>_includes</code> directory, copy <code>_includes/head.html</code> from minima gem folder to <code>&lt;yoursite&gt;/_includes</code> and start editing that file.</p>
+<p class="sg">The site&apos;s default CSS has now moved to a new place within the gem itself, <a href="assets/main.scss" class="sg"><code>assets/main.scss</code></a>. To <strong>override the default CSS</strong>, the file has to exist at your site source. Do either of the following:</p>
+<ul>
+<li class="sg">Create a new instance of <code>main.scss</code> at site source.
+<ul>
+<li class="sg">Create a new file <code>main.scss</code> at <code>&lt;your-site&gt;/assets/</code></li>
+<li class="sg">Add the frontmatter dashes, and</li>
+<li class="sg">Add <code>@import &quot;minima&quot;;</code>, to <code>&lt;your-site&gt;/assets/main.scss</code></li>
+<li class="sg">Add your custom CSS.</li>
+</ul>
+</li>
+<li class="sg">Download the file from this repo
+<ul>
+<li class="sg">Create  a new file <code>main.scss</code> at <code>&lt;your-site&gt;/assets/</code></li>
+<li class="sg">Copy the contents at <a href="assets/main.scss" class="sg">assets/main.scss</a> onto the <code>main.scss</code> you just created, and edit away!</li>
+</ul>
+</li>
+<li class="sg">Copy directly from Minima 2.0 gem
+<ul>
+<li class="sg">Go to your local minima gem installation directory ( run <code>bundle show minima</code> to get the path to it ).</li>
+<li class="sg">Copy the <code>assets/</code> folder from there into the root of <code>&lt;your-site&gt;</code></li>
+<li class="sg">Change whatever values you want, inside <code>&lt;your-site&gt;/assets/main.scss</code></li>
+</ul>
+</li>
+</ul>
+<p class="sg">--</p>
+<h3 class="sg" name="change-default-date-format">Change default date format</h3>
+<p class="sg">You can change the default date format by specifying <code>site.minima.date_format</code>
+in <code>_config.yml</code>.</p>
+<div hljs=""># Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: &quot;%b %-d, %Y&quot;
+</div>
+<p class="sg">--</p>
+<h3 class="sg" name="enabling-comments-(via-disqus)">Enabling comments (via Disqus)</h3>
+<p class="sg">Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.</p>
+<p class="sg">To enable it, add the following lines to your Jekyll site:</p>
+<div hljs="" hljs-language="yaml">  disqus:
+    shortname: my_disqus_shortname
+</div>
+<p class="sg">You can find out more about Disqus&apos; shortnames <a href="https://help.disqus.com/customer/portal/articles/466208" class="sg">here</a>.</p>
+<p class="sg">Comments are enabled by default and will only appear in production, i.e., <code>JEKYLL_ENV=production</code></p>
+<p class="sg">If you don&apos;t want to display comments for a particular post you can disable them by adding <code>comments: false</code> to that post&apos;s YAML Front Matter.</p>
+<p class="sg">--</p>
+<h3 class="sg" name="enabling-google-analytics">Enabling Google Analytics</h3>
+<p class="sg">To enable Google Anaytics, add the following lines to your Jekyll site:</p>
+<div hljs="" hljs-language="yaml">  google_analytics: UA-NNNNNNNN-N
+</div>
+<p class="sg">Google Analytics will only appear in production, i.e., <code>JEKYLL_ENV=production</code></p>
+<h2 class="sg" name="contributing">Contributing</h2>
+<p class="sg">Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the <a href="http://contributor-covenant.org" class="sg">Contributor Covenant</a> code of conduct.</p>
+<h2 class="sg" name="development">Development</h2>
+<p class="sg">To set up your environment to develop this theme, run <code>script/bootstrap</code>.</p>
+<p class="sg">To test your theme, run <code>script/server</code> (or <code>bundle exec jekyll serve</code>) and open your browser at <code>http://localhost:4000</code>. This starts a Jekyll server using your theme and the contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.</p>
+<h2 class="sg" name="license">License</h2>
+<p class="sg">The theme is available as open source under the terms of the <a href="http://opensource.org/licenses/MIT" class="sg">MIT License</a>.</p>

@@ -1,46 +1,28 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
+<footer>
+    <h2>{{ site.title | escape }}</h2>
+    {% if site.author %}
+    <p>{{ site.author | escape }} </p>
+    {% endif %}
+    {% if site.email %}
+    <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    {% endif %}
+    <nav>
+        <ul>
+            {% assign navigation_pages = site.html_pages | sort: 'position' %}
+            {% for p in navigation_pages %}
+            {% if p.is_secondary_navigation %}
+            {% if p.position %}
+            <li>
+                <a class="{% if p.url== page.url %}active {% endif %}" href="{{ p.url | relative_url }}">{{ p.title
+                    }}</a>
             </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
+            {% endif %}
+            {% endfor %}
         </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
+    </nav>
+    {% include social.html %}
+    <aside>
         <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-  </div>
-
+    </aside>
 </footer>

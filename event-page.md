@@ -2,7 +2,7 @@
 title: Event Page
 date: 2017-12-14 16:31:00 Z
 position: 5
-is_navigation: true
+is_main_navigation: true
 layout: events
 ---
 

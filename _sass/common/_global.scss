@@ -1,0 +1,46 @@
+//BEM
+//.block            represents the higher level of an abstraction or component.
+//.block__element   represents a descendent of .block that helps form .block as a whole.
+//.block--modifier  represents a different state or version of .block.
+
+.block {
+}
+
+.block__element {
+}
+
+.block--modifier {
+}
+
+body{
+  display: grid;
+  grid-template-columns:
+          [full-start]
+          minmax(calc(calc(100% - 1008px) / 2), 1fr)
+          [main-start]
+          repeat(12, [col] 1fr)
+          [main-end]
+          minmax(calc(calc(100% - 1008px) / 2), 1fr)
+          [full-end];
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  position: relative;
+}
+
+//SECTION WRAPPING, EACH NEW ROW SHOULD HAVE A NEW SECTION, OR IF RELATED OR SHARING A BACKGROUND REPLACE THE INNER WRAPPER
+section, header, footer, main, hr {
+  width: 100%;
+  grid-column: col / span 12;
+}
+
+
+.constrain {
+  max-width: 1600px;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin: auto;
+  @media only screen and (max-width: 768px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

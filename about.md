@@ -2,7 +2,7 @@
 title: About
 permalink: "/about/"
 position: 2
-is_navigation: true
+is_main_navigation: true
 layout: page
 ---
 
