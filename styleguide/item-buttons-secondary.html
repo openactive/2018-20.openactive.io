@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Static Site Pattern Library</title>
+    <title>Open Active Pattern Library</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="mobile-web-app-capable" content="yes">
@@ -22,7 +22,7 @@
         <a class="kss-header__hamburger-trigger">
           <div class="kss-header__hamburger"></div>
         </a>
-        <h1 class="kss-header__title kss-title">Static Site Pattern Library</h1>
+        <h1 class="kss-header__title kss-title">Open Active Pattern Library</h1>
       </section>
     </header>
     <!-- /header. -->
@@ -30,7 +30,7 @@
 
     <!-- navigation. -->
     <section class="kss-navigation">
-      <h1 class="kss-navigation__title kss-title">Static Site Pattern Library</h1>
+      <h1 class="kss-navigation__title kss-title">Open Active Pattern Library</h1>
       <ul class="kss-nav">
         <li class="kss-nav__item">
           <a href="index.html">
@@ -82,26 +82,36 @@
               </a>
 
                 <div class="kss-section__description"><p>Secondary call to action</p>
-<p>:hover       - Hover state.
-:active      - Active state.
-.disabled    - Disabled button. If you use <code>&lt;button&gt;</code> element, that is acceptable to add <code>disabled</code> attribute instead</p>
-<p>sg-wrapper:</p>
-<div style="background: black;">
- <sg-wrapper-content/>
-</div></div>
+</div>
 
             </article>
 
               <article class="kss-section__modifiers">
-                <h1 class="kss-modifiers__heading">Example</h1>
+                <h1 class="kss-modifiers__heading">Examples</h1>
 
+                  <h2 class="kss-modifiers__name">Default styling</h2>
 
-                <div class="kss-modifiers__example"><a class="secondary_cta ">Button</a></div>
+                <div class="kss-modifiers__example"><a class="secondary_cta [modifier class]">Button</a></div>
 
+                  <h2 class="kss-modifiers__name">:hover</h2>
+
+                  <p class="kss-modifiers__description">Hover state.</p>
+
+                  <div class="kss-modifiers__example"><a class="secondary_cta pseudo-class-hover">Button</a></div>
+                  <h2 class="kss-modifiers__name">:active</h2>
+
+                  <p class="kss-modifiers__description">Active state.</p>
+
+                  <div class="kss-modifiers__example"><a class="secondary_cta pseudo-class-active">Button</a></div>
+                  <h2 class="kss-modifiers__name">.disabled</h2>
+
+                  <p class="kss-modifiers__description">Disabled button. If you use <code>&lt;button&gt;</code> element, that is acceptable to add <code>disabled</code> attribute instead</p>
+
+                  <div class="kss-modifiers__example"><a class="secondary_cta disabled">Button</a></div>
               </article>
 
                 <article class="kss-section__markup">
-                  <pre><code class="language-markup">&lt;a class&#x3D;&quot;secondary_cta &quot;&gt;Button&lt;/a&gt;</code></pre>
+                  <pre><code class="language-markup">&lt;a class&#x3D;&quot;secondary_cta [modifier class]&quot;&gt;Button&lt;/a&gt;</code></pre>
                 </article>
 
             </header>

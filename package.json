@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
+    "michelangelo": "^0.6.1",
     "sc5-styleguide": "^2.0.4"
   },
   "scripts": {

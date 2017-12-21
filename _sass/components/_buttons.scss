@@ -47,6 +47,7 @@ a:active {
 // Styleguide buttons.primary
 a.primary_cta, span.primary_cta > a, input[type=submit]{
   display: inline-block;
+  vertical-align: top;
   padding: 10px 15px;
   margin: 0;
   background-color: $brand-three;
@@ -93,9 +94,9 @@ a.primary_cta, span.primary_cta > a, input[type=submit]{
 // Styleguide buttons.secondary
 a.secondary_cta, span.secondary_cta > a {
   display: inline-block;
+  vertical-align: top;
   padding: 10px 15px;
-  margin: 0px;
-  margin-bottom:5px;
+  margin: 0;
 
   background-color: $brand-three;
   color: $white;
