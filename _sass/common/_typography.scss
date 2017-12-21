@@ -20,8 +20,20 @@ h1, h2, h3, h4, h5, h6 {
   line-height: $header-line-height;
   font-weight: 400;
 }
+// Headers
 #page-header{
+  border-bottom: 1px solid $black;
+  padding-bottom:5px;
+  display: inline-block;
+}
+#alt-h1 {
+  border-bottom: 1px solid $black;
+  padding-bottom:5px;
+}
+// Headers
+#alt-h2{
   text-decoration: underline;
+
 }
 
 // Heading One Styles
