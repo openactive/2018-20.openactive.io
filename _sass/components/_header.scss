@@ -1,8 +1,4 @@
 body > header{
-  display: grid;
-  grid-template-columns: repeat(12, unquote("[col]") 1fr);
-  grid-column-gap: 1em;
-  grid-template-rows: minmax(50px, 1fr);
   div, aside, nav{
     display: inline-block;
     box-sizing: border-box;

@@ -25,6 +25,8 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid $black;
   padding-bottom:5px;
   display: inline-block;
+  grid-column: col / span 12;
+
 }
 #alt-h1 {
   border-bottom: 1px solid $black;
@@ -191,7 +193,13 @@ ol {
     list-style: decimal;
   }
 }
+legend{
+  margin-top: $paragraph-margin;
+  font-size: $paragraph-size * 1.5;
+  line-height: $paragraph-line-height;
+  color: $white;
 
+}
 
 // hr
 hr {

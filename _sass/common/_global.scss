@@ -12,27 +12,7 @@
 .block--modifier {
 }
 
-body{
-  display: grid;
-  grid-template-columns:
-          [full-start]
-          minmax(calc(calc(100% - 1008px) / 2), 1fr)
-          [main-start]
-          repeat(12, [col] 1fr)
-          [main-end]
-          minmax(calc(calc(100% - 1008px) / 2), 1fr)
-          [full-end];
-  grid-row-gap: 1em;
-  grid-column-gap: 1em;
-  position: relative;
-}
-
 //SECTION WRAPPING, EACH NEW ROW SHOULD HAVE A NEW SECTION, OR IF RELATED OR SHARING A BACKGROUND REPLACE THE INNER WRAPPER
-section, header, footer, main, hr {
-  width: 100%;
-  grid-column: col / span 12;
-}
-
 
 .constrain {
   max-width: 1600px;
