@@ -1,19 +1,29 @@
 @supports (display: grid) {
-  .grid_layouts {
+  .grid_layouts,
+  header,
+  footer {
     display: grid;
-    grid-template-columns: repeat(12, unquote("[col]") 1fr);
+    //grid-template-columns: repeat(12, unquote("[col]") 1fr);
     //grid-column-gap: 1em;
     //grid-template-rows: minmax(100px, 1fr);
 
-    //grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
+    grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
     grid-row-gap: 1em;
     grid-column-gap: 1em;
     grid-template-rows: minmax(50px, 1fr);
     position: relative;
+
     &.full_width {
       grid-template-columns: repeat(12, unquote("[col]") 1fr);
       grid-column-gap: 1em;
       grid-template-rows: minmax(50px, 1fr);
+    }
+    .block{
+      *{
+        &:nth-child(1){
+          margin-top: 0;
+        }
+      }
     }
     .block.one {
       grid-column: col / span 12;
@@ -187,7 +197,7 @@
           }
         }
       }
-      &.threeleft-split{
+      &.threeleft-split {
         &:nth-child(3n+1) {
           grid-column: col/span 6;
         }
@@ -198,7 +208,7 @@
           grid-column: col 10/span 3;
         }
       }
-      &.threeright-split{
+      &.threeright-split {
         &:nth-child(3n+1) {
           grid-column: col 7/span 3;
         }
@@ -310,9 +320,11 @@
       }
     }
   }
+
 }
+
 html.no-cssgrid {
-  .grid_layouts{
+  .grid_layouts {
     max-width: 1400px;
     padding-right: 10%;
     padding-left: 10%;
@@ -322,7 +334,7 @@ html.no-cssgrid {
       padding-right: 5%;
     }
   }
-  .grid_layouts.full_width{
+  .grid_layouts.full_width {
     max-width: none;
     padding: 0;
   }
