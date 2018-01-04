@@ -75,19 +75,20 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-2" id="kssref-typography-heading-three">
+            <header class="kss-section kss-section--depth-3" id="kssref-forms-input-select">
 
             <article class="kss-section__content">
-                <p class="kss-section__source">Source: <span>common/_typography.scss</span>, line <span>67</span></p>
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>103</span></p>
 
-              <a class="kss-section__permalink" href="#kssref-typography-heading-three">
-                <h2 class="kss-section__item kss-section__item--depth-2">
-                  <span class="kss-section__ref">1.3</span>
-                  <span class="kss-section__name">Heading Three Styles</span>
-                </h2>
+              <a class="kss-section__permalink" href="#kssref-forms-input-select">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.6</span>
+                  <span class="kss-section__name">Select</span>
+                </h3>
               </a>
 
-                <div class="kss-section__description"><p>Smaller Sub Heading Text</p>
+                <div class="kss-section__description"><p>The <code>&lt;select&gt;</code>  element is used to create a drop-down list.</p>
+<p>The <code>&lt;option&gt;</code>  tags inside the <code>&lt;select&gt;</code>  element define the available options in the list.</p>
 </div>
 
             </article>
@@ -96,12 +97,22 @@
                 <h1 class="kss-modifiers__heading">Example</h1>
 
 
-                <div class="kss-modifiers__example"><h3>Heading Three</h3></div>
+                <div class="kss-modifiers__example"><label for="enquiry">Enquiry: </label>
+   <select id="enquiry" name="enquiry">
+     <option value="general">General</option>
+     <option value="sales">Sales</option>
+     <option value="support">Support</option>
+   </select></div>
 
               </article>
 
                 <article class="kss-section__markup">
-                  <pre><code class="language-markup">&lt;h3&gt;Heading Three&lt;/h3&gt;</code></pre>
+                  <pre><code class="language-markup">&lt;label for&#x3D;&quot;enquiry&quot;&gt;Enquiry: &lt;/label&gt;
+   &lt;select id&#x3D;&quot;enquiry&quot; name&#x3D;&quot;enquiry&quot;&gt;
+     &lt;option value&#x3D;&quot;general&quot;&gt;General&lt;/option&gt;
+     &lt;option value&#x3D;&quot;sales&quot;&gt;Sales&lt;/option&gt;
+     &lt;option value&#x3D;&quot;support&quot;&gt;Support&lt;/option&gt;
+   &lt;/select&gt;</code></pre>
                 </article>
 
             </header>
