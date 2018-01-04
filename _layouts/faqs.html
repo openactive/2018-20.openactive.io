@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<section id="events">
+<div id="faqs">
 
     <article>
+
         <header class="post-header">
             <h1 class="post-title">{{ page.title | escape }}</h1>
         </header>
@@ -12,27 +13,27 @@ layout: default
             {{ content }}
         </section>
         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-        <h3>Latest Event</h3>
-        {% for event in site.events limit:1 %}
+        <h3>Latest FAQ's</h3>
+        {% for faq in site.faqs limit:1 %}
         <li>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ event.date | date: date_format }}</span>
-            <a class="post-link" href="{{ event.url | relative_url }}">{{ event.title | escape }}</a>
+            <span class="post-meta">{{ faq.date | date: date_format }}</span>
+            <a class="post-link" href="{{ faq.url | relative_url }}">{{ faq.title | escape }}</a>
         </li>
         {% endfor %}
     </article>
-    {% if site.events %}
+    {% if site.posts %}
     <aside>
-        <h3>Recent events</h3>
+        <h3>Recent FAQ's</h3>
         <ul class="post-list">
-            {% for event in site.events offset:1 %}
+            {% for faq in site.faqs offset:1 %}
             <li>
                 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ event.date | date: date_format }}</span>
-                <a class="post-link" href="{{ event.url | relative_url }}">{{ event.title | escape }}</a>
+                <span class="post-meta">{{ faq.date | date: date_format }}</span>
+                <a class="post-link" href="{{ faq.url | relative_url }}">{{ faq.title | escape }}</a>
             </li>
             {% endfor %}
         </ul>
     </aside>
     {% endif %}
-</section>
+</div>

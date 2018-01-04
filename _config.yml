@@ -9,7 +9,7 @@ collections:
     title: Posts
     output: true
   faqs:
-    title: FAQ's
+    title: FAQs
     output: true
   uploads:
     title: Uploads
