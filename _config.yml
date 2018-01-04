@@ -8,6 +8,9 @@ collections:
   posts:
     title: Posts
     output: true
+  faqs:
+    title: FAQ's
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -26,10 +29,11 @@ description: Write an awesome description for your new site here. You can edit t
 baseurl: "/openactive"
 url: ''
 twitter_username: twitter
-youtube_username: youtube
-facebook_username: facebook
-instagram_username: instagram
-pinterest_username: pinterest
+youtube_username:
+facebook_username:
+instagram_username:
+pinterest_username:
+medium_username: medium
 markdown: kramdown
 plugins:
 - jekyll-feed

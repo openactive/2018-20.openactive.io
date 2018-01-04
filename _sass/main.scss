@@ -1,8 +1,6 @@
 @import "base/reset.scss";
 @import "base/mixins.scss";
 @import "base/demo.scss";
-
-
 // Colours
 //
 // Weight: 2
@@ -10,22 +8,18 @@
 // Styleguide colours
 @import "common/variables";
 @import "common/global";
-
-
 // Typography
 //
 // Weight: 1
 //
 // Styleguide typography
 @import "common/typography";
-
 // Forms
 //
 // Weight: 4
 //
 // Styleguide forms
 @import "common/form";
-
 // Buttons
 //
 // Weight: 3
@@ -38,3 +32,6 @@
 @import "components/social";
 @import "components/header";
 @import "pages/page";
+@import "pages/blog";
+@import "pages/faq";
+

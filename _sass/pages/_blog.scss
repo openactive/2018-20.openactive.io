@@ -1,0 +1,12 @@
+#blog {
+  article {
+    grid-column: col / span 8;
+    header {
+    }
+    #content {
+    }
+  }
+  aside {
+    grid-column: col 9 / span 4;
+  }
+}

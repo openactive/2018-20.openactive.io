@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div id="blog">
+<div id="faq">
     <article>
 
         <header class="post-header">
@@ -11,23 +11,23 @@ layout: default
             {{ content }}
         </section>
         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-        <h3>Latest Post</h3>
-        {% for post in site.posts limit:1 %}
+        <h3>Latest faq</h3>
+        {% for faq in site.faqs limit:1 %}
         <li>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            <span class="post-meta">{{ faq.date | date: date_format }}</span>
+            <a class="post-link" href="{{ faq.url | relative_url }}">{{ faq.title | escape }}</a>
         </li>        {% endfor %}
     </article>
-    {% if site.posts %}
+    {% if site.faqs %}
     <aside>
-        <h3>Recent Posts</h3>
+        <h3>Recent FAQ's</h3>
         <ul class="post-list">
-            {% for post in site.posts offset:1 %}
+            {% for faq in site.faq offset:1 %}
             <li>
                 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                <span class="post-meta">{{ faq.date | date: date_format }}</span>
+                <a class="post-link" href="{{ faq.url | relative_url }}">{{ faq.title | escape }}</a>
             </li>
             {% endfor %}
         </ul>

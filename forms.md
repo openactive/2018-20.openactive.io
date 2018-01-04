@@ -1,7 +1,7 @@
 ---
 title: Forms
 position: 4
-is_main_navigation: true
+is_secondary_navigation: true
 layout: page
 ---
 
