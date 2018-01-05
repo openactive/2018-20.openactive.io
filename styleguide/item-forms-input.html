@@ -78,17 +78,83 @@
             <header class="kss-section kss-section--depth-2" id="kssref-forms-input">
 
             <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>1</span></p>
 
               <a class="kss-section__permalink" href="#kssref-forms-input">
                 <h2 class="kss-section__item kss-section__item--depth-2">
                   <span class="kss-section__ref">4.1</span>
-                  <span class="kss-section__name">forms.input</span>
+                  <span class="kss-section__name">Form Example</span>
                 </h2>
               </a>
 
+                <div class="kss-section__description"><p>The <code>&lt;form&gt;</code>  tag is used to create an HTML form for user input.</p>
+<p>The <code>&lt;form&gt;</code>  element can contain one or more of the following form elements:</p>
+<p><code>&lt;input&gt;</code> , <code>&lt;textarea&gt;</code> , <code>&lt;button&gt;</code> , <code>&lt;select&gt;</code> , <code>&lt;option&gt;</code> , <code>&lt;optgroup&gt;</code> , <code>&lt;fieldset&gt;</code> , <code>&lt;label&gt;</code></p>
+</div>
 
             </article>
 
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><ul id="errors" class="">
+   <li id="info">There were some problems with your form submission:</li>
+</ul>
+<p id="success">Thanks for your message! We will get back to you ASAP!</p>
+<form method="post" action="process.php">
+ <fieldset>
+   <legend>Example Form</legend>
+   <label for="name">Name: <span class="required">*</span></label>
+   <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" autofocus="autofocus"/>
+   <label for="email">Email Address: <span class="required">*</span></label>
+   <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required"/>
+   <label for="telephone">Telephone: </label>
+   <input type="tel" id="telephone" name="telephone" value=""/>
+   <label for="enquiry">Enquiry: </label>
+   <select id="enquiry" name="enquiry">
+     <option value="general">General</option>
+     <option value="sales">Sales</option>
+     <option value="support">Support</option>
+   </select>
+   <label for="message">Message: <span class="required">*</span></label>
+   <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
+   <span id="loading"></span>
+   <input type="submit" value="Holla!" class="primary_cta"/>
+   <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+ </fieldset>
+</form></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;ul id&#x3D;&quot;errors&quot; class&#x3D;&quot;&quot;&gt;
+   &lt;li id&#x3D;&quot;info&quot;&gt;There were some problems with your form submission:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p id&#x3D;&quot;success&quot;&gt;Thanks for your message! We will get back to you ASAP!&lt;/p&gt;
+&lt;form method&#x3D;&quot;post&quot; action&#x3D;&quot;process.php&quot;&gt;
+ &lt;fieldset&gt;
+   &lt;legend&gt;Example Form&lt;/legend&gt;
+   &lt;label for&#x3D;&quot;name&quot;&gt;Name: &lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+   &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name&quot; name&#x3D;&quot;name&quot; value&#x3D;&quot;&quot; placeholder&#x3D;&quot;John Doe&quot; required&#x3D;&quot;required&quot; autofocus&#x3D;&quot;autofocus&quot;/&gt;
+   &lt;label for&#x3D;&quot;email&quot;&gt;Email Address: &lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+   &lt;input type&#x3D;&quot;email&quot; id&#x3D;&quot;email&quot; name&#x3D;&quot;email&quot; value&#x3D;&quot;&quot; placeholder&#x3D;&quot;johndoe@example.com&quot; required&#x3D;&quot;required&quot;/&gt;
+   &lt;label for&#x3D;&quot;telephone&quot;&gt;Telephone: &lt;/label&gt;
+   &lt;input type&#x3D;&quot;tel&quot; id&#x3D;&quot;telephone&quot; name&#x3D;&quot;telephone&quot; value&#x3D;&quot;&quot;/&gt;
+   &lt;label for&#x3D;&quot;enquiry&quot;&gt;Enquiry: &lt;/label&gt;
+   &lt;select id&#x3D;&quot;enquiry&quot; name&#x3D;&quot;enquiry&quot;&gt;
+     &lt;option value&#x3D;&quot;general&quot;&gt;General&lt;/option&gt;
+     &lt;option value&#x3D;&quot;sales&quot;&gt;Sales&lt;/option&gt;
+     &lt;option value&#x3D;&quot;support&quot;&gt;Support&lt;/option&gt;
+   &lt;/select&gt;
+   &lt;label for&#x3D;&quot;message&quot;&gt;Message: &lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+   &lt;textarea id&#x3D;&quot;message&quot; name&#x3D;&quot;message&quot; placeholder&#x3D;&quot;Your message must be greater than 20 charcters&quot; required&#x3D;&quot;required&quot; data-minlength&#x3D;&quot;20&quot;&gt;&lt;/textarea&gt;
+   &lt;span id&#x3D;&quot;loading&quot;&gt;&lt;/span&gt;
+   &lt;input type&#x3D;&quot;submit&quot; value&#x3D;&quot;Holla!&quot; class&#x3D;&quot;primary_cta&quot;/&gt;
+   &lt;p id&#x3D;&quot;req-field-desc&quot;&gt;&lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt; indicates a required field&lt;/p&gt;
+ &lt;/fieldset&gt;
+&lt;/form&gt;</code></pre>
+                </article>
 
             </header>
     </section>
