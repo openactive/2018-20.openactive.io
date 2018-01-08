@@ -1,23 +1,20 @@
 <section id="staticman">
-    <form method="POST" action="https://api.staticman.net/v2/entry/imaginatecreative/openactive/master">
+    <form method="POST" action="https://api.staticman.net/v2/entry/{{site.repository}}/{{ site.staticman.branch }}">
         <fieldset>
-            <legend>Comments</legend>
-            <input name="options[redirect]" type="hidden" value="https://imaginatecreative.github.io/openactive/home/">
+            <legend>{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }}</legend>
+            <input name="options[redirect]" type="hidden" value="https://my-site.com">
             <!-- e.g. "2016-01-02-this-is-a-post" -->
-
-
             <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-
-            <label>Name</label>
+            <label>{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }}</label>
             <input name="fields[name]" type="text">
 
-            <label>E-mail</label>
+            <label>{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email" }}</label>
             <input name="fields[email]" type="email">
 
-            <label>Message</label>
+            <label>{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }}</label>
             <textarea name="fields[message]"></textarea>
 
-            <button type="submit">Go!</button>
+            <button type="submit">{{ site.data.ui-text[site.locale].comment_btn_submit | default: "Submit" }}</button>
         </fieldset>
     </form>
 </section>
