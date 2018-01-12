@@ -1,6 +1,6 @@
 <header role="banner">
 
-    <div style="background: url({{ "/assets/images/logo-placeholder.jpg" | relative_url }})no-repeat center/cover;">
+    <div role="logo" style="background: url({{ "/assets/images/logo-placeholder.jpg" | relative_url }})no-repeat center/cover;">
         {% assign default_paths = site.pages | map: "path" %}
         {% assign page_paths = site.header_pages | default: default_paths %}
         <a href="{{ "/" | relative_url }}">
@@ -13,14 +13,14 @@
 
     {% endif %}
 
-    <nav>
+    <nav tabindex="-1" role="navigation">
         <ul>
             {% assign navigation_pages = site.html_pages | sort: 'position' %}
             {% for p in navigation_pages %}
             {% if p.is_main_navigation %}
             {% if p.position %}
             <li>
-                <a class="{% if p.url== page.url %}active {% endif %}" href="{{ p.url | relative_url }}">{{ p.title
+                <a role="menuitem" class="{% if p.url== page.url %}active {% endif %}" href="{{ p.url | relative_url }}">{{ p.title
                     }}</a>
             </li>
             {% endif %}
