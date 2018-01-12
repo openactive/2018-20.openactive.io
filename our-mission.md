@@ -10,7 +10,7 @@ layout: page
 ### Video || Mission (copy)
 ***
 ***
-### What Is Open Active (copy)?
+### What Is Open Active? (copy)
 ***
 ***
 ### Benefits (copy)

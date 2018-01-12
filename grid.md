@@ -1,5 +1,5 @@
 ---
-title: Grid Page
+title: Grid
 position: 3
 is_secondary_navigation: true
 layout: page

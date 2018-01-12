@@ -26,3 +26,14 @@
     .post-list{}
   }
 }
+
+
+// POST DETAIL
+#post {
+  header {
+    grid-column: col / span 12;
+  }
+  div {
+    grid-column: col / span 12;
+  }
+}

@@ -11,6 +11,9 @@ collections:
   posts:
     title: Posts
     output: true
+  case_studies:
+    title: Case Studies
+    output: true
   uploads:
     title: Uploads
     output: true
