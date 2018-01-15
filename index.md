@@ -21,9 +21,9 @@ layout: page
 ***
 ### Tabbed Content
 + Graphical explanation [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
-+ Booking Systems [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
-+ Activity Providers [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
-+ Use Data [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
++ Booking Systems [Needs Link]( {{ site.baseurl }}{% link how-it-works.md %})  
++ Activity Providers [Needs Link]( {{ site.baseurl }}{% link how-it-works.md %})  
++ Use Data [Needs Link]( {{ site.baseurl }}{% link how-it-works.md %})  
 
 ***
 ***
@@ -45,16 +45,23 @@ layout: page
 ***
 
 ***
-### Getting Started
-***
-***
 ### What is Opportunity Data
++ Graphics
++ Text Content
+
 ***
+
 ***
 ### Accelerator Program
++ [Accelerator]( {{ site.baseurl }}{% link accelerator.md %})  
+
 ***
 ***
 ### Latest News
++ News Article List
++ [All News]( {{ site.baseurl }}{% link blog.md %})  
++ [News Detail]( {{ site.baseurl }}{% link _posts/2017-07-06-build-a-website.md  %})  
+
 ***
 
 
