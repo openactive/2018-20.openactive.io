@@ -5,6 +5,7 @@ position: 1
 is_main_navigation: true
 layout: page
 ---
+
 Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1cOIWKH_yIbYhG7pzKTe31shjfqSgBU5JlKRZrqUazug){:target="_blank"}
 
