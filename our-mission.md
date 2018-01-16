@@ -24,7 +24,7 @@ Content for this page is detailed in the
 ### Benefits (copy)
 + SPORTS & PHYSICAL ACTIVITY PROVIDERS
 + DATA USERS AND DEVELOPERS
-+ INFLUENTIAL ORGANISMS
++ INFLUENTIAL ORGANISATIONS
 
 ***
 ***

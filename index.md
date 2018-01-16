@@ -1,12 +1,11 @@
 ---
 title: Home
-permalink: "/home/"
+permalink: "/"
 position: 0
 is_main_navigation: false
 layout: page
 ---
 
----
 Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1pSzce8tiNHg8eMKUop4FozaJkhGAXNXYpLSANFf-0Z0){:target="_blank"}
 
