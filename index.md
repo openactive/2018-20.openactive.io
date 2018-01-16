@@ -2,12 +2,15 @@
 title: Home
 permalink: "/home/"
 position: 0
-is_main_navigation: true
+is_main_navigation: false
 layout: page
 ---
+---
+Content for this page is detailed in the
+[Google Doc](https://drive.google.com/open?id=1pSzce8tiNHg8eMKUop4FozaJkhGAXNXYpLSANFf-0Z0){:target="_blank"}
 
 ***
-### Hero 
+### Hero
 + Introduction Text
 + Video
 + Key Benefits. Link to: [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
@@ -21,7 +24,7 @@ layout: page
 ***
 ### Tabbed Content
 + Graphical explanation [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
-+ Booking Systems [Needs Link]( {{ site.baseurl }}{% link how-it-works.md %})  
++ Booking Systems [Booking Engines]( {{ site.baseurl }}{% link booking-engine.md %})   
 + Activity Providers [Needs Link]( {{ site.baseurl }}{% link how-it-works.md %})  
 + Use Data [Needs Link]( {{ site.baseurl }}{% link how-it-works.md %})  
 
@@ -53,7 +56,7 @@ layout: page
 
 ***
 ### Accelerator Program
-+ [Accelerator]( {{ site.baseurl }}{% link accelerator.md %})  
++ [Start Ups]( {{ site.baseurl }}{% link start-ups.md %})  
 
 ***
 ***

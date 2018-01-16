@@ -6,6 +6,9 @@ is_main_navigation: true
 layout: page
 ---
 
+Content for this page is detailed in the
+[Google Doc](https://drive.google.com/open?id=170_Ao9Y5WspjoVC_n6OfPLC55QQ8JbYzt_JxK888OvM){:target="_blank"}
+
 ***
 ### Hero Block
 ***

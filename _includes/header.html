@@ -1,9 +1,9 @@
 <header role="banner">
 
-    <div role="logo" style="background: url({{ "/assets/images/logo-placeholder.jpg" | relative_url }})no-repeat center/cover;">
+    <div id="logo" role="logo" style="background: url({{ "/assets/images/logo-placeholder.jpg" | relative_url }})no-repeat center/cover;">
         {% assign default_paths = site.pages | map: "path" %}
         {% assign page_paths = site.header_pages | default: default_paths %}
-        <a href="{{ "/" | relative_url }}">
+        <a class="abs" href="{{ "/home" | relative_url }}">
         <!--<img src="{{ "/assets/images/logo-placeholder.jpg" | relative_url }}" title="{{ site.title | escape }}"alt="Logo">-->
         </a>
     </div>
