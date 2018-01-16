@@ -2,6 +2,9 @@
 title: OpenActive
 timezone: UTC
 collections:
+  case_studies:
+    title: Case Studies
+    output: true
   events:
     title: Events
     output: true
@@ -10,9 +13,6 @@ collections:
     output: true
   posts:
     title: Posts
-    output: true
-  case_studies:
-    title: Case Studies
     output: true
   uploads:
     title: Uploads
