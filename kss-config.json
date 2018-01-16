@@ -6,7 +6,7 @@
   "destination": "styleguide/",
 
   "css": [
-    "../_site/assets/main.css"
+    "../assets/main.css"
   ],
   "builder": "node_modules/michelangelo/kss_styleguide/custom-template/"
 }

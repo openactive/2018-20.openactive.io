@@ -13,7 +13,10 @@ Content for this page is detailed in the
 ### Hero
 + Introduction Text
 + Video
-+ Key Benefits. Link to: [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
++ **Key Benefits** are listed. Link to: [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
+    + Increase the health of the nation by joining open data revolution
+    + Boost your visability by being easily found online
+    + Ensure that they find you by getting your activities listed everywhere
 
 ***
 ***
@@ -59,12 +62,11 @@ Content for this page is detailed in the
 + [Start Ups]( {{ site.baseurl }}{% link start-ups.md %})  
 
 ***
+
 ***
 ### Latest News
-+ News Article List
-+ [All News]( {{ site.baseurl }}{% link blog.md %})  
-+ [News Detail]( {{ site.baseurl }}{% link _posts/2017-07-06-build-a-website.md  %})  
++ News Article List (2)
++ Links to [All News]( {{ site.baseurl }}{% link blog.md %})  
++ And links to [News Detail]( {{ site.baseurl }}{% link _posts/2017-07-06-build-a-website.md  %})  
 
 ***
-
-
