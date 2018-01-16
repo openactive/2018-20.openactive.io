@@ -14,13 +14,9 @@
 
 //SECTION WRAPPING, EACH NEW ROW SHOULD HAVE A NEW SECTION, OR IF RELATED OR SHARING A BACKGROUND REPLACE THE INNER WRAPPER
 
-.constrain {
-  max-width: 1600px;
-  padding-right: 10%;
-  padding-left: 10%;
+.constrain{
+  max-width: calc(100% -  calc(100% - 1008px));
   margin: auto;
-  @media only screen and (max-width: 768px) {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
+  padding: 0 1em;
+  box-sizing: border-box;
 }

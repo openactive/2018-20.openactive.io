@@ -5,6 +5,8 @@ position: 0
 is_main_navigation: false
 layout: page
 ---
+{::options parse_block_html="true" /}
+
 
 Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1pSzce8tiNHg8eMKUop4FozaJkhGAXNXYpLSANFf-0Z0){:target="_blank"}
@@ -47,41 +49,67 @@ Content for this page is detailed in the
     3. Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
 
 ***
-***
-### Getting Started 
-+ [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
+
+
+<div class="block three">
 
 ***
+### Getting Started 
++ **Call To Action Block**
+    + Take the first step enabling open data in your system.
+    + [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
+
+***
+</div>
+
+<div class="block three">
 
 ***
 ### Developer 
-+ [Developer]( {{ site.baseurl }}{% link developer.md %})  
++ **Call To Action Block**
+    + Get stuck into the docs and start using or publishing data today!
+    + [Developer]( {{ site.baseurl }}{% link developer.md %})  
 
 ***
+</div>
+
+<div class="block three">
 
 ***
 ### Community
-+ [Community]( {{ site.baseurl }}{% link community.md %})  
++ **Call To Action Block**
+    + Find out what's happening in the OpenActive community, and how you can get involved!
+    + [Community]( {{ site.baseurl }}{% link community.md %})  
 
 ***
+</div>
+
 
 ***
 ### What is Opportunity Data
-+ Graphics
-+ Text Content
++ An explanation to what and what does not constitute Opportunity Data.
+    + Graphics
+    + Text Content
 
 ***
 
 ***
 ### Accelerator Program
-+ [Start Ups]( {{ site.baseurl }}{% link start-ups.md %})  
++ Prominent call to action to promote the accelorator program
+    + [Start Ups]( {{ site.baseurl }}{% link start-ups.md %})  
 
 ***
 
 ***
 ### Latest News
 + News Article List (2)
-+ Links to [All News]( {{ site.baseurl }}{% link blog.md %})  
-+ And links to [News Detail]( {{ site.baseurl }}{% link _posts/2017-07-06-build-a-website.md  %})  
+    + Post Title
+    + Post Date
+    + Thumbnail
+    + Excerpt
+    + Author
+    + [Link to Detail]( {{ site.baseurl }}{% link _posts/2017-07-06-build-a-website.md  %})  
+    
++ Link to [All News]( {{ site.baseurl }}{% link blog.md %})  
 
 ***

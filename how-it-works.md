@@ -12,25 +12,33 @@ Content for this page is detailed in the
 ***
 ### Hero 
 + Graphic
+    + SVG Graphic to explain the main principles
 
 ***
 ***
 ### Why It Matters
-+ Text Content
++ Explanation
+    + Image
+    + Text Content
 
 ***
 
 ***
 ### Opportunity Data Explained
-+ Graphics
-+ Text Content
-+ FAQ's 
++ A explanation of what Opportunity data **is** and what is **isn't**
+    + Graphics
+    + Text Content
+    + FAQ's
 
 ***
 ***
 ### Case Studies
-+ List of case studies 
-+ [Case Study Detail]( {{ site.baseurl }}{% link _case_studies/case-study-one.markdown  %}) 
++ Case Study Section
+    + List of case studies 
+    + [Case Study Detail]( {{ site.baseurl }}{% link _case_studies/case-study-one.markdown  %}) 
+        + Title
+        + Snippet
+        + Fast Facts
 
 ***
 ***

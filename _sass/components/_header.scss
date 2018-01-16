@@ -1,4 +1,9 @@
 body > header{
+  //grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
+  //grid-row-gap: 1em;
+  //grid-column-gap: 1em;
+  //grid-template-rows: minmax(50px, 1fr);
+  //position: relative;
   div, aside, nav{
     display: inline-block;
     box-sizing: border-box;
