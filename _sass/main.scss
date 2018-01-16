@@ -1,8 +1,7 @@
 @import "base/reset.scss";
 @import "base/mixins.scss";
 @import "base/demo.scss";
-
-
+@import "base/kss.scss";
 // Colours
 //
 // Weight: 2
@@ -10,15 +9,18 @@
 // Styleguide colours
 @import "common/variables";
 @import "common/global";
-
-
 // Typography
 //
 // Weight: 1
 //
 // Styleguide typography
 @import "common/typography";
-
+// Buttons
+//
+// Weight: 3
+//
+// Styleguide buttons
+@import "components/buttons";
 // Forms
 //
 // Weight: 4
@@ -26,14 +28,21 @@
 // Styleguide forms
 @import "common/form";
 
-// Buttons
-//
-// Weight: 3
-//
-// Styleguide buttons
-@import "components/buttons";
 @import "components/grid";
-@import "components/components";
+
 @import "components/footer";
 @import "components/social";
 @import "components/header";
+@import "pages/page";
+@import "pages/blog";
+@import "pages/faqs";
+@import "pages/events";
+@import "pages/faq";
+@import "pages/case-studies";
+
+// Components
+//
+// Weight: 5
+//
+// Styleguide components
+@import "components/components";

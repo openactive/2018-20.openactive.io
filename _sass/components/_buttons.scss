@@ -16,10 +16,12 @@ a {
   font-family: 'Raleway', sans-serif;
   cursor: pointer;
 }
+
 a:link,
 a:visited {
   color: darken($link-color, 10%);
 }
+
 a:hover {
   color: lighten($link-color, 30%)
 }
@@ -28,9 +30,11 @@ a:active {
   transition: color .3s;
   color: lighten($link-color, 40%)
 }
+
 .link {
   text-decoration: none;
 }
+
 // Primary Styles
 //
 // Primary call to action
@@ -45,7 +49,7 @@ a:active {
 // <a class="primary_cta {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.primary
-a.primary_cta, span.primary_cta > a, input[type=submit], button[type=submit]{
+a.primary_cta, span.primary_cta > a, input[type=submit], button[type=submit] {
   display: inline-block;
   vertical-align: top;
   padding: 10px 15px;
@@ -71,13 +75,14 @@ a.primary_cta, span.primary_cta > a, input[type=submit], button[type=submit]{
     background-color: $brand-two;
     color: $white;
   }
-  &.disabled{
+  &.disabled {
     background-color: $gray;
   }
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
   }
 }
+
 // Secondary Styles
 //
 // Secondary call to action
@@ -127,4 +132,14 @@ a.secondary_cta, span.secondary_cta > a {
   @media only screen and (max-width: 768px) {
     padding: 10px 20px;
   }
+}
+#logo {
+  position: relative;
+}
+.abs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }

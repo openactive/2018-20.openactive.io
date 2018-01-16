@@ -1,11 +1,28 @@
 @supports (display: grid) {
+  //section, header{
+  //  grid-column: col / span 12;
+  //}
+
   .grid_layouts,
-  header,
-  footer {
+  body > header,
+  footer,
+  #page,
+  #blog,
+  #post,
+
+  #events,
+  #event,
+
+  #case-studies,
+  #case-study,
+
+  #faqs,
+  #faq,
+
+  #staticman
+  //article
+  {
     display: grid;
-    //grid-template-columns: repeat(12, unquote("[col]") 1fr);
-    //grid-column-gap: 1em;
-    //grid-template-rows: minmax(100px, 1fr);
 
     grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
     grid-row-gap: 1em;
@@ -63,6 +80,7 @@
         }
       }
       &.twoleft {
+        grid-row: auto;
         &:nth-child(2n+1) {
           grid-column: col / span 8;
         }
@@ -81,6 +99,7 @@
 
     }
     .block.three {
+      grid-row: auto;
       &:nth-child(3n+1) {
         grid-column: col / span 4;
       }
@@ -156,6 +175,7 @@
         }
       }
       &.threeleft {
+        grid-row: auto;
         &:nth-child(3n+1) {
           grid-column: col/span 6;
           grid-row: 1/2;
@@ -222,6 +242,7 @@
       }
     }
     .block.four {
+      grid-row: auto;
       &:nth-child(4n+1) {
         grid-column: col / span 3;
       }
@@ -253,6 +274,7 @@
       }
     }
     .block.six {
+      grid-row: auto;
       &:nth-child(6n+1) {
         grid-column: col / span 2;
       }

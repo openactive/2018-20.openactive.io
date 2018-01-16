@@ -4,22 +4,35 @@ layout: default
 
 <section id="events">
 
-    <header>
-        <h1 id="page-header"> {{ page.title | escape }}</h1>
-    </header>
-
-    {{ content }}
-
-    <ul>
-        {% for event in site.events %}
+    <article>
+        <header class="post-header">
+            <h1 class="post-title">{{ page.title | escape }}</h1>
+        </header>
+        <section id="content">
+            {{ content }}
+        </section>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+        <h3>Latest Event</h3>
+        {% for event in site.events limit:1 %}
         <li>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span>{{ event.date | date: date_format }}</span>
-            <a href="{{ event.url | relative_url }}">{{ event.title | escape }}</a>
+            <span class="post-meta">{{ event.date | date: date_format }}</span>
+            <a class="post-link" href="{{ event.url | relative_url }}">{{ event.title | escape }}</a>
         </li>
         {% endfor %}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+    </article>
+    {% if site.events %}
+    <aside>
+        <h3>Recent events</h3>
+        <ul class="post-list">
+            {% for event in site.events offset:1 %}
+            <li>
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                <span class="post-meta">{{ event.date | date: date_format }}</span>
+                <a class="post-link" href="{{ event.url | relative_url }}">{{ event.title | escape }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </aside>
+    {% endif %}
 </section>

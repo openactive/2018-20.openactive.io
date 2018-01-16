@@ -1,0 +1,22 @@
+#case-studies-page {
+  article {
+    grid-column: col / span 8;
+    header {
+    }
+    #content {
+    }
+  }
+  aside {
+    grid-column: col 9 / span 4;
+  }
+}
+
+// CASE STUDY DETAIL
+#case-study {
+  header {
+    grid-column: col / span 12;
+  }
+  div {
+    grid-column: col / span 12;
+  }
+}

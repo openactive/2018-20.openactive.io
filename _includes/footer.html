@@ -6,19 +6,21 @@
     {% if site.email %}
     <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     {% endif %}
-    <nav>
+    <nav role="navigation">
         <ul>
             {% assign navigation_pages = site.html_pages | sort: 'position' %}
             {% for p in navigation_pages %}
             {% if p.is_secondary_navigation %}
             {% if p.position %}
             <li>
-                <a class="{% if p.url== page.url %}active {% endif %}" href="{{ p.url | relative_url }}">{{ p.title
+                <a role="menuitem" class="{% if p.url== page.url %}active {% endif %}" href="{{ p.url | relative_url }}">{{ p.title
                     }}</a>
             </li>
             {% endif %}
             {% endif %}
             {% endfor %}
+            <li><a href="{{"styleguide/index.html" |relative_url}}">StyleGuide</a></li>
+
         </ul>
     </nav>
     {% include social.html %}

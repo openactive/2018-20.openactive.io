@@ -2,24 +2,50 @@
 layout: default
 ---
 
-<div class="home">
+<div id="blog">
 
-    <header class="post-header">
-        <h1 class="post-title">{{ page.title | escape }}</h1>
-    </header>
+    <section class="news-content">
 
-    {{ content }}
+        <article class="page-content">
+            <header class="page-header">
+                <h1 class="page-title">{{ page.title | escape }}</h1>
+            </header>
+            {{ content }}
+            <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+        </article>
 
-    <ul class="post-list">
+        <h3>Latest Posts</h3>
+
         {% for post in site.posts %}
-        <li>
+            {% assign num = forloop.length %}
+        {% endfor %}
+        {{num}}
+
+
+        {% for post in site.posts limit:3 %}
+        <article class="news-article">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <span class="post-meta">{{ post.date | date: date_format }}</span>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </li>
+        </article>
         {% endfor %}
-    </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    </section>
+    {% if site.posts %}
+    <aside>
+        <h3>Recent Posts</h3>
+        <ul class="post-list">
 
+            {% for post in site.posts offset:1 %}
+            <li>
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </aside>
+    {% endif %}
 </div>
+
