@@ -13,23 +13,38 @@ Content for this page is detailed in the
 ### Hero
 + Introduction Text
 + Video
-+ **Key Benefits** are listed. Link to: [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
++ **Key Benefits** Link to: [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
     + Increase the health of the nation by joining open data revolution
-    + Boost your visability by being easily found online
+    + Boost your visibility by being easily found online
     + Ensure that they find you by getting your activities listed everywhere
 
 ***
 ***
 ### Case Studies 
-+ A featured case study(s) and a snippet. Link to: [Case Study Detail]( {{ site.baseurl }}{% link _case_studies/case-study-one.markdown  %}) 
- 
++ A featured case study(s) and a snippet. 
+    + Link to: [Case Study Detail]( {{ site.baseurl }}{% link _case_studies/case-study-one.markdown  %}) 
+    + And Link to: [All Case Studies]( {{ site.baseurl }}{% link case-studies.md %})    
+          
 ***
 ***
 ### Tabbed Content
-+ Graphical explanation [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
-+ Booking Systems [Booking Engines]( {{ site.baseurl }}{% link booking-engine.md %})   
-+ Activity Providers [Needs Link]( {{ site.baseurl }}{% link how-it-works.md %})  
-+ Use Data [Needs Link]( {{ site.baseurl }}{% link how-it-works.md %})  
++ **How it Works** [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
+    + OpenActive makes it as easy as possible for people to discover and participate in your activities. It does this by making your activities available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people. This is achieved using the concept of "open data".
+    + "SVG Animation of how it works"
++ **Booking Systems** [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
+    1. You add a tick-box to your system to allow your customers turn on open data publishing
+    2. You build a simple open API to allow customers to publish thier activity listings information using the OpenActive data standards as a “ *dataset* “
+    3. Your customers’ dataset is listed in our directory, for anyone to access, use or share.
+    4. Your customers’ activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
++ **Activity Providers** [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
+    1. You list details of activities in your existing website or booking system
+    2. You use your website or booking system to publish your activity listings information using the OpenActive data standards as a “ *dataset* “
+    3. Your dataset is listed in our directory, for anyone to access, use or share.
+    4. Your activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
++ **Use Data** [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
+    1. Pick a data source from the list available on OpenActive.
+    2. Join their mailing list and review the documentation.
+    3. Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
 
 ***
 ***
