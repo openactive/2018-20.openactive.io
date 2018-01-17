@@ -13,6 +13,10 @@ Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1pSzce8tiNHg8eMKUop4FozaJkhGAXNXYpLSANFf-0Z0){:target="_blank"}
 
 ***
+![Hero]({{ site.url }}/openactive/assets/images/placeholder.png)
+
+
+
 ### Hero
 + Introduction Text
 + Video
