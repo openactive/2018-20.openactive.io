@@ -4,22 +4,34 @@
 //
 // Weight: 1
 //
-// The primary colors for branding.
+// The primary colors used in the logo.
 //
-//$brand-one  -  #FA6900; Burnt orange
+//$brand-one  -  #FA6900;
 //$brand-two  -  #F38630;
 //$brand-three -  #69d2e7;
 //$brand-four  -  #A7DBD8;
 //$brand-five  -  #E0E4CC;
+//$brand-six -     #7f307a;
+//$brand-seven -   #904d8c;
+//$brand-eight -   #d12d81;
+//$brand-nine -    #a92633;
+//$brand-ten -     #db4640;
+//$brand-eleven - #ec9e52;
 //
 // Styleguide colours.brand
 
 // Colors
-$brand-one: #FA6900;
-$brand-two: #F38630;
-$brand-three: #69d2e7;
-$brand-four: #A7DBD8;
-$brand-five: #E0E4CC;
+$brand-one: #69c5e3;
+$brand-two: #1ba5d8;
+$brand-three: #0d65a0;
+$brand-four: #263d75;
+$brand-five: #33377c;
+$brand-six: #7f307a;
+$brand-seven: #904d8c;
+$brand-eight: #d12d81;
+$brand-nine: #a92633;
+$brand-ten: #db4640;
+$brand-eleven: #ec9e52;
 
 // Base Colors
 //
@@ -38,8 +50,7 @@ $brand-five: #E0E4CC;
 
 $white: #ffffff;
 $gray: gray;
-$black:#2b2b2b;
-
+$black: #2b2b2b;
 
 /*------------------------------------*\
     # Simple Typography Settings
@@ -52,22 +63,22 @@ $font-family: 'Raleway', sans-serif;
 $base-font-size: 16px;
 
 // Paragraph Styles
-$paragraph-color      : #505050;
-$paragraph-size       : rem(17px);
+$paragraph-color: #505050;
+$paragraph-size: rem(17px);
 $paragraph-line-height: 1.5em;
-$paragraph-margin     : 10px;
+$paragraph-margin: 10px;
 
 // Header Styles
-$header-color      : #000000;
-$header-size       : rem(40px);
+$header-color: #000000;
+$header-size: rem(40px);
 $header-line-height: 1.25em;
-$header-margin     : $paragraph-margin * 1.2;
+$header-margin: $paragraph-margin * 1.2;
 
 // Blockquote Styles
-$blockquote-color      : #505050;
-$blockquote-size       : rem(25px);
+$blockquote-color: #505050;
+$blockquote-size: rem(25px);
 $blockquote-line-height: 1.5em;
-$blockquote-margin     : $paragraph-margin * 1.5;
+$blockquote-margin: $paragraph-margin * 1.5;
 
 // Links
 $link-color: #4eaff6;
