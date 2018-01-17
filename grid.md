@@ -5,7 +5,6 @@ is_secondary_navigation: true
 layout: page
 ---
 
-
 <div class="block one">
     <h2>ONE COLUMN </h2>
 </div>
