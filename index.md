@@ -47,28 +47,59 @@ Content for this page is detailed in the
 
 ***
 ### Tabbed Content
-+ **How it Works** [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
-    + OpenActive makes it as easy as possible for people to discover and participate in your activities. It does this by making your activities available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people. This is achieved using the concept of "open data".
-    + "SVG Animation of how it works"
-+ **Booking Systems** [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
-    1. You add a tick-box to your system to allow your customers turn on open data publishing
-    2. You build a simple open API to allow customers to publish thier activity listings information using the OpenActive data standards as a “ *dataset* “
-    3. Your customers’ dataset is listed in our directory, for anyone to access, use or share.
-    4. Your customers’ activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
-+ **Activity Providers** [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
-    1. You list details of activities in your existing website or booking system
-    2. You use your website or booking system to publish your activity listings information using the OpenActive data standards as a “ *dataset* “
-    3. Your dataset is listed in our directory, for anyone to access, use or share.
-    4. Your activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
-+ **Use Data** [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
-    1. Pick a data source from the list available on OpenActive.
-    2. Join their mailing list and review the documentation.
-    3. Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
+
+<div id="tabs">
+<ul class="tabsList" role="tablist">
+<li role="presentation" aria-selected="true"><a href="#how-it-works">How it Works</a></li>
+<li role="presentation" aria-selected="false"><a href="#booking-systems">Booking Systems</a></li>
+<li role="presentation" aria-selected="false"><a href="#activity-provider">Activity Providers</a></li>
+<li role="presentation" aria-selected="false"><a href="#use-data">Use Data</a></li>
+</ul>
+<div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
+
+
++ OpenActive makes it as easy as possible for people to discover and participate in your activities. It does this by making your activities available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people. This is achieved using the concept of "open data".
++ "SVG Animation of how it works"
++ [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
+
+</div>
+<div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true" aria-labelledby="booking-systems">
+
+
+1. You add a tick-box to your system to allow your customers turn on open data publishing
+2. You build a simple open API to allow customers to publish thier activity listings information using the OpenActive data standards as a “ *dataset* “
+3. Your customers’ dataset is listed in our directory, for anyone to access, use or share.
+4. Your customers’ activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
+5. [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})
+
+</div>
+<div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true" aria-labelledby="activity-provider">
+
+1. You list details of activities in your existing website or booking system
+2. You use your website or booking system to publish your activity listings information using the OpenActive data standards as a “ *dataset* “
+3. Your dataset is listed in our directory, for anyone to access, use or share.
+4. Your activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
+5. [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})
+
+</div>
+<div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
+
+1. Pick a data source from the list available on OpenActive.
+2. Join their mailing list and review the documentation.
+3. Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
+4. [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})
+
+</div>
+</div>
+
 
 ***
 
 
-***
+
+
+
+
 
 <section>
 <div class="block three">
@@ -134,4 +165,6 @@ Content for this page is detailed in the
 + Link to [All News]( {{ site.baseurl }}{% link blog.md %})  
 
 ***
+
+
 
