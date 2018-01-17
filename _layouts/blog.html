@@ -2,45 +2,43 @@
 layout: default
 ---
 
-<div id="blog">
+<div class="collection"  id="blog-page">
 
-    <section class="news-content">
 
-        <article class="page-content">
-            <header class="page-header">
-                <h1 class="page-title">{{ page.title | escape }}</h1>
-            </header>
-            {{ content }}
-            <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-        </article>
+    <article class="page-content">
+        <header class="page-header">
+            <h1 class="page-title">{{ page.title | escape }}</h1>
+        </header>
+        {{ content }}
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    </article>
+    <article class="news-content">
+        <h3>Latest Post</h3>
+        {% for post in site.posts limit:1 %}
 
-        <h3>Latest Posts</h3>
+        <a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <p class="post-snippet">{{post.content}}</p>
+        <a href="{{ post.url | relative_url }}">Read more</a>
 
-        {% for post in site.posts %}
-            {% assign num = forloop.length %}
         {% endfor %}
-        {{num}}
+    </article>
 
 
-        {% for post in site.posts limit:3 %}
-        <article class="news-article">
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </article>
-        {% endfor %}
-
-    </section>
     {% if site.posts %}
+    {% for post in site.posts %}
+    {% assign num = forloop.length %}
+    {% endfor %}
     <aside>
-        <h3>Recent Posts</h3>
+        <h3>All Posts({{num}})</h3>
         <ul class="post-list">
 
-            {% for post in site.posts offset:1 %}
+            {% for post in site.posts %}
             <li>
                 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                <a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </li>
             {% endfor %}
         </ul>

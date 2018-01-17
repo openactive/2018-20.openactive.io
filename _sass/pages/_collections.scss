@@ -1,0 +1,40 @@
+.collection {
+  .page-content {
+    grid-column: col / span 8;
+    .page-header {
+      .page-title {
+      }
+    }
+  }
+  .news-content {
+    grid-column: col / span 8;
+    margin-bottom: 10px;
+    .post-title{
+      text-transform: capitalize;
+    }
+    .post-meta{}
+    .post-snippet{}
+  }
+  aside {
+    border-left:1px solid #DADADA;
+    padding-left:2em;
+    grid-column: col 9 / span 4;
+
+
+    grid-row: 1 / last-line;
+    grid-row-start: span 9000;
+
+    .post-list {
+    }
+  }
+}
+
+// POST DETAIL
+#post {
+  header {
+    grid-column: col / span 12;
+  }
+  div {
+    grid-column: col / span 12;
+  }
+}

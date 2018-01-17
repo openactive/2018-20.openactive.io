@@ -1,13 +1,18 @@
 #events {
-  article {
-    grid-column: col / span 8;
-    header {
-    }
-    #content {
+  .page-content {
+    .page-header {
+      .page-title {
+      }
     }
   }
+  .news-content {
+    .post-title{  }
+    .post-meta{}
+    .post-snippet{}
+  }
   aside {
-    grid-column: col 9 / span 4;
+    .post-list {
+    }
   }
 }
 

@@ -3,19 +3,26 @@ title: Home
 permalink: "/"
 position: 0
 is_main_navigation: false
-layout: page
+layout: home
 ---
 
 {::options parse_block_html="true" /}
+
 
 
 Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1pSzce8tiNHg8eMKUop4FozaJkhGAXNXYpLSANFf-0Z0){:target="_blank"}
 
 ***
+
+<section>
+<div class="block two">
+
 ![Hero]({{ site.url }}/openactive/assets/images/placeholder.png)
 
+</div>
 
+<div class="block two">
 
 ### Hero
 + Introduction Text
@@ -24,8 +31,11 @@ Content for this page is detailed in the
     + Increase the health of the nation by joining open data revolution
     + Boost your visibility by being easily found online
     + Ensure that they find you by getting your activities listed everywhere
+    
+</div>
+</section>
 
-***
+
 ***
 ### Case Studies 
 + A featured case study(s) and a snippet. 
@@ -33,6 +43,8 @@ Content for this page is detailed in the
     + And Link to: [All Case Studies]( {{ site.baseurl }}{% link case-studies.md %})    
           
 ***
+
+
 ***
 ### Tabbed Content
 + **How it Works** [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
@@ -56,38 +68,41 @@ Content for this page is detailed in the
 ***
 
 
+***
+
+<section>
 <div class="block three">
 
-***
+
 ### Getting Started 
 + **Call To Action Block**
     + Take the first step enabling open data in your system.
     + [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
 
-***
-</div>
 
+</div>
 <div class="block three">
 
-***
+
 ### Developer 
 + **Call To Action Block**
     + Get stuck into the docs and start using or publishing data today!
     + [Developer]( {{ site.baseurl }}{% link developer.md %})  
 
-***
-</div>
 
+</div>
 <div class="block three">
 
-***
 ### Community
 + **Call To Action Block**
     + Find out what's happening in the OpenActive community, and how you can get involved!
     + [Community]( {{ site.baseurl }}{% link community.md %})  
 
-***
+
 </div>
+</section>
+
+***
 
 
 ***
@@ -97,6 +112,7 @@ Content for this page is detailed in the
     + Text Content
 
 ***
+
 
 ***
 ### Accelerator Program
@@ -118,3 +134,4 @@ Content for this page is detailed in the
 + Link to [All News]( {{ site.baseurl }}{% link blog.md %})  
 
 ***
+

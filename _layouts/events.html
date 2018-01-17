@@ -2,37 +2,45 @@
 layout: default
 ---
 
-<section id="events">
-
-    <article>
-        <header class="post-header">
-            <h1 class="post-title">{{ page.title | escape }}</h1>
+<div class="collection" id="events">
+    <article class="page-content">
+        <header class="page-header">
+            <h1 class="page-title">{{ page.title | escape }}</h1>
         </header>
-        <section id="content">
-            {{ content }}
-        </section>
+        {{ content }}
         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    </article>
+    <article class="news-content">
         <h3>Latest Event</h3>
-        {% for event in site.events limit:1 %}
-        <li>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ event.date | date: date_format }}</span>
-            <a class="post-link" href="{{ event.url | relative_url }}">{{ event.title | escape }}</a>
-        </li>
+        {% for post in site.events limit:1 %}
+
+        <a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <p class="post-snippet">{{post.content}}</p>
+        <a href="{{ post.url | relative_url }}">Read more</a>
+
         {% endfor %}
     </article>
-    {% if site.events %}
+
+
+    {% if site.posts %}
+    {% for post in site.events %}
+    {% assign num = forloop.length %}
+    {% endfor %}
     <aside>
-        <h3>Recent events</h3>
+        <h3>All Events({{num}})</h3>
         <ul class="post-list">
-            {% for event in site.events offset:1 %}
+
+            {% for post in site.events %}
             <li>
                 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ event.date | date: date_format }}</span>
-                <a class="post-link" href="{{ event.url | relative_url }}">{{ event.title | escape }}</a>
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+                <a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </li>
             {% endfor %}
         </ul>
+
     </aside>
     {% endif %}
-</section>
+</div>

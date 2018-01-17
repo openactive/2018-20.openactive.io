@@ -14,7 +14,7 @@
 
 //SECTION WRAPPING, EACH NEW ROW SHOULD HAVE A NEW SECTION, OR IF RELATED OR SHARING A BACKGROUND REPLACE THE INNER WRAPPER
 
-.constrain{
+.constrain,body > header, footer{
   max-width: calc(100% -  calc(100% - 1008px));
   margin: auto;
   padding: 0 1em;

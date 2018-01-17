@@ -4,7 +4,6 @@ permalink: "/getting-started/"
 position: 3
 is_main_navigation: true
 layout: page
-tipue_search_active: true
 ---
 
 Content for this page is detailed in the
