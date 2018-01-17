@@ -11,9 +11,10 @@ Content for this page is detailed in the
 
 ***
 ### Hero 
-+ Introduction text for developers    
-+ Not sure what your doing here? find out by [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
-+ If you know exactly what your after: [Jump to Resources]
++ Text Content
+    + Introduction text for developers    
+    + Not sure what your doing here? find out by [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
+    + If you know exactly what your after: [Jump to Resources]
 
 ***
 ***
@@ -26,14 +27,14 @@ Content for this page is detailed in the
 ***
 ***
 ### Publish Data 
-+ A in-depth explanation of how to **publish** data
-+ [Publish Data]( {{ site.baseurl }}{% link publish-data.md %})  
++ A comprehensive explanation of how to **publish** data
+    + [Heavy Publish Data]( {{ site.baseurl }}{% link publish-data.md %})  
 
 ***
 ***
 ### Use Data
-+ A in-depth explanation of how to **use** data
-+ [Use Data]( {{ site.baseurl }}{% link use-data.md %})  
++ A comprehensive explanation of how to **use** data
+    + [Heavy Use Data]( {{ site.baseurl }}{% link use-data.md %})  
 
 ***
 ***
@@ -44,10 +45,11 @@ Content for this page is detailed in the
 ***
 ***
 ### Resources
-+ [How to's]( {{ site.baseurl }}{% link how-to.md %})  
-+ [Discussions]( {{ site.baseurl }}{% link discussions.md %})  
-+ [References]( {{ site.baseurl }}{% link references.md %})  
-+ [Tutorials]( {{ site.baseurl }}{% link tutorials.md %})  
++ Text to introduce the range of resources there are to support developers
+    + [How to's]( {{ site.baseurl }}{% link how-to.md %})  
+    + [Discussions]( {{ site.baseurl }}{% link discussions.md %})  
+    + [References]( {{ site.baseurl }}{% link references.md %})  
+    + [Tutorials]( {{ site.baseurl }}{% link tutorials.md %})  
 
 ***
 ***
