@@ -43,16 +43,18 @@ Content for this page is detailed in the
 ***
 ***
 ### E-Learning
-+ [How to's]( {{ site.baseurl }}{% link how-to.md %})  
-+ [Discussions]( {{ site.baseurl }}{% link discussions.md %})  
-+ [References]( {{ site.baseurl }}{% link references.md %})  
-+ [Tutorials]( {{ site.baseurl }}{% link tutorials.md %})  
-+ 
++ Text to introduce the ways to learn more about the initiative
+    + [How to's]( {{ site.baseurl }}{% link how-to.md %})  
+    + [Discussions]( {{ site.baseurl }}{% link discussions.md %})  
+    + [References]( {{ site.baseurl }}{% link references.md %})  
+    + [Tutorials]( {{ site.baseurl }}{% link tutorials.md %})  
 
 ***
 ***
 ### Getting Started
-+ [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
++ Text Content
+    + Now you know how it works, let’s look at how you can make your data available or use a dataset for your own application.
+    + [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
 
 
 ***

@@ -11,12 +11,12 @@ Content for this page is detailed in the
 
 ***
 ### Hero Block
-+ Text Content that introduce the community
++ Text Content that introduces the community
 
 ***
 ***
 ### Statistics 
-+ Number of
++ Graphics and icons to represent the number of
     + Community Members
     + Accelerator Start ups
     + Data-sets Published
@@ -26,7 +26,9 @@ Content for this page is detailed in the
 ***
 ### The Community
 + Text Content to explain the communities role
+    + Possible quotes and content to communicate a collaborative/self-organising atmosphere
 + Events Feed
+    + Show upcoming events to users
     + [Events]( {{ site.baseurl }}{% link event-page.md %})    
     + [Event Detail]( {{ site.baseurl }}{% link _events/event-one.markdown  %})   
 
@@ -35,32 +37,37 @@ Content for this page is detailed in the
 ***
 ### Featured News 
 + A Featured Article
-+ Links to [All News]( {{ site.baseurl }}{% link blog.md %})  
-+ And links to [News Detail]( {{ site.baseurl }}{% link _posts/2017-07-06-build-a-website.md  %})  
-
+    + A recent interesting article that a user would find engaging 
+        + Links to [News Detail]( {{ site.baseurl }}{% link _posts/2017-07-06-build-a-website.md  %})  
+    + Links to [All News]( {{ site.baseurl }}{% link blog.md %})  
+  
 ***
 ***
 ### Featured Videos 
-+ A Featured Video
++ A Featured Video from the community
+    + Meetings
+    + Publicity
+    + Explanation 
 
 ***
 ***
 ### Resources
-+ Links to resource on the developer page
-+ [Developer]( {{ site.baseurl }}{% link developer.md %})  
++ Links to resources on the developer page
+    + [Developer]( {{ site.baseurl }}{% link developer.md %})  
 
 ***
 ***
 ### Meet the Community
-+ Showcasing community members (5)
-+ Links to a directory of all community members. [All Members]( {{ site.baseurl }}{% link community-members.md %})  
++ A section to showcase community members (5)
+    + Title / Snippet / Logo 
+    + Links to a directory of all community members. [All Members]( {{ site.baseurl }}{% link community-members.md %})  
 
 ***
 ***
 ### OpenActive Champions
-+ Showcasing Champions of OpenActive
-+ 'OpenActive Champions' needed to meet the local ambassadors progressing the initiative
-+ Links to a directory of community members, where Champions are featured. [Featured Members]( {{ site.baseurl }}{% link community-members.md %})  
++ A section to showcase the Champions of OpenActive
+    + 'OpenActive Champions' needed to meet the local ambassadors progressing the initiative
+    + Links to a directory of community members, where Champions are featured. [Featured Members]( {{ site.baseurl }}{% link community-members.md %})  
 
 ***
 ***
