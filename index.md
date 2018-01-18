@@ -74,6 +74,7 @@ Content for this page is detailed in the
 <div class="block three case-large case-{{ forloop.index }}">
 <img src="{{post.thumbnail_image | relative_url}}">
 <h6>{{ post.title | escape }}</h6>
+{{post.content}}
 </div>
 {% endif %}
 {% endfor %}
