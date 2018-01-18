@@ -14,17 +14,23 @@ Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1pSzce8tiNHg8eMKUop4FozaJkhGAXNXYpLSANFf-0Z0){:target="_blank"}
 
 ***
+### Hero
+
+<div class="notes">
+
+**Notes**: This section is the first thing all users will see, we are showcasing the video along with key benefits. The benefits should appeal to all levels of users  
+**Functionality**: A video is embedded from youtube  
+**Design**: 
+</div>
 
 <section>
 <div class="block two">
-
-![Hero]({{ site.url }}/openactive/assets/images/placeholder.png)
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-
 <div class="block two">
 
-### Hero
+
+   
 + Introduction Text
 + Video
 + **Key Benefits** Link to: [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
@@ -38,7 +44,16 @@ Content for this page is detailed in the
 
 ***
 ### Case Studies 
-+ A featured case study(s) and a snippet. 
+
+<div class="notes">
+
+**Notes**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.  
+**Functionality**: The logos will act as a tabbing system to reveal content from the case study, this would consist of some fast facts about each case.  
+**Design**: 
+</div>
+
+
++ Featured case study(s) and a snippet of info. 
     + Link to: [Case Study Detail]( {{ site.baseurl }}{% link _case_studies/case-study-one.markdown  %}) 
     + And Link to: [All Case Studies]( {{ site.baseurl }}{% link case-studies.md %})    
           
@@ -47,6 +62,14 @@ Content for this page is detailed in the
 
 ***
 ### Tabbed Content
+
+<div class="notes">
+
+**Notes**: 
+**Functionality**:
+**Design**: 
+</div>
+
 
 <div id="tabs">
 <ul class="tabsList" role="tablist">
@@ -72,7 +95,7 @@ Content for this page is detailed in the
 4. Your customers’ activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
 5. [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})
 
-</div>
+</div> 
 <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true" aria-labelledby="activity-provider">
 
 1. You list details of activities in your existing website or booking system

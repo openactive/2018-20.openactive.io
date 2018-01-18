@@ -56,8 +56,11 @@ $black: #2b2b2b;
     # Simple Typography Settings
 \*------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800|Source+Sans+Pro:400,700&subset=latin-ext');
+
 // Font Family
-$font-family: 'Raleway', sans-serif;
+$font-family: 'Source+Sans+Pro', sans-serif;
+$heading-font-family: 'Montserrat', sans-serif;
 
 // Base Font for HTML
 $base-font-size: 16px;
