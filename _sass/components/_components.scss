@@ -1,16 +1,29 @@
 .slidingDiv {
-  height:auto;
-  padding:20px;
-  margin-top:10px;
+  height: auto;
+  padding: 20px;
+  margin-top: 10px;
 }
+
 .show_hide {
-  display:inline-block;
+  display: inline-block;
   width: 100%;
 }
 
-.block.three{
+.call_to_action {
   text-align: center;
   border: 1px solid #DADADA;
   padding: 20px;
+}
+
+#tabs {
+  .tabPanel {
+    p {
+      text-align: center;
+      margin-top: 20px;
+      .primary_cta {
+
+      }
+    }
+  }
 }
 

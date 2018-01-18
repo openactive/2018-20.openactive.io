@@ -49,7 +49,7 @@ Content for this page is detailed in the
 
 **Notes**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.  
 **Functionality**: The logos will act as a tabbing system to reveal content from the case study, this would consist of some fast facts about each case.  
-**Design**: 
+**Design**: The design of this section should be balanced and clearly represent to a user the functionality of the tabs, this would include clearly  active state on tabs to the open content area/ 
 </div>
 
 
@@ -65,9 +65,9 @@ Content for this page is detailed in the
 
 <div class="notes">
 
-**Notes**:  
-**Functionality**:  
-**Design**:  
+**Notes**: These tabs are used to help guide users based on their orientation toward initiative, The first tab would be geared toward a general explanation, whereas the other tabs would be aimed at providing a insight into other specific use cases, such as using or sharing data. Each item will provide a call action to encourage users further along the path.     
+**Functionality**: The the content will be housed in a tabbing system, and the active tab could be changed to suite phases of the initiative.    
+**Design**: The design should be lead by established web conventions, this will aid users when interpreting the content.  
 </div>
 
 
@@ -83,34 +83,40 @@ Content for this page is detailed in the
 
 + OpenActive makes it as easy as possible for people to discover and participate in your activities. It does this by making your activities available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people. This is achieved using the concept of "open data".
 + "SVG Animation of how it works"
-+ [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
+
+[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}  
 
 </div>
 <div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true" aria-labelledby="booking-systems">
 
-
+This tab should give advice for booking systems to get involved in the initiative  
 1. You add a tick-box to your system to allow your customers turn on open data publishing
 2. You build a simple open API to allow customers to publish thier activity listings information using the OpenActive data standards as a “ *dataset* “
 3. Your customers’ dataset is listed in our directory, for anyone to access, use or share.
 4. Your customers’ activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
-5. [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})
+
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
 
 </div> 
 <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true" aria-labelledby="activity-provider">
 
+This Tab should give advice for activity providers to get involved in the initiative by opening their data 
 1. You list details of activities in your existing website or booking system
 2. You use your website or booking system to publish your activity listings information using the OpenActive data standards as a “ *dataset* “
 3. Your dataset is listed in our directory, for anyone to access, use or share.
 4. Your activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
-5. [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})
+
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
 
 </div>
 <div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
 
+This Tab should give advice for individuals or organisations to get involved in the initiative using data 
 1. Pick a data source from the list available on OpenActive.
 2. Join their mailing list and review the documentation.
 3. Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
-4. [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})
+
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
 
 </div>
 </div>
@@ -123,14 +129,14 @@ Content for this page is detailed in the
 
 <div class="notes">
 
-**Notes**:  
-**Functionality**:  
-**Design**:  
+**Notes**: This section is used to direct users around the site  
+**Functionality**: These blocks will contain at minimum title, excerpt & button.  
+**Design**: These represent call to action blocks at a lower hierarchy, the design should reflect this. For example these would be a lower level of prominence than a full with call to action.    
 </div>
 
 
 <section>
-<div class="block three">
+<div class="block three call_to_action">
 
 
 ### Getting Started 
@@ -140,7 +146,7 @@ Take the first step enabling open data in your system.
 
 
 </div>
-<div class="block three">
+<div class="block three call_to_action">
 
 
 ### Developer 
@@ -150,7 +156,7 @@ Get stuck into the docs and start using or publishing data today!
 
 
 </div>
-<div class="block three">
+<div class="block three call_to_action">
 
 ### Community
 What's happening in the community, and how you can get involved!

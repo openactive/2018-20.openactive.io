@@ -6,6 +6,10 @@ $(document).ready(function () {
             $("#tabs").tabs();
         });
 
+        $('.notes-toggle').on("click",function(){
+            $('.notes').slideToggle();
+        });
+
 
         //looks for iframes wraps and adapts the height and width
         (function (window, document, undefined) {
@@ -71,6 +75,10 @@ $(document).ready(function () {
             }
 
         })(window, document);
+
+
+
+
 
     })(jQuery); // Fully reference jQuery after this point.
 });

@@ -49,7 +49,7 @@ a:active {
 // <a class="primary_cta {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.primary
-a.primary_cta, span.primary_cta > a, input[type=submit], button[type=submit] {
+a.primary_cta, span.primary_cta > a, input[type=submit], button[type=submit], button.primary_cta {
   display: inline-block;
   vertical-align: top;
   padding: 10px 15px;
@@ -141,5 +141,9 @@ a.secondary_cta, span.secondary_cta > a {
   width: 100%;
   height: 100%;
   top: 0;
+  left: 0;
+}
+.notes-toggle{
+  position: fixed;
   left: 0;
 }
