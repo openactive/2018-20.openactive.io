@@ -57,16 +57,23 @@ Content for this page is detailed in the
 </div>
 
 
-<section>
+<section class="home-cases">
 <div class="block two subgrid">      
 {% for post in site.case_studies %}
 {% if post.is_featured %}
-<div class="block three">
-
+<div class="block three case-small" id="case-{{ forloop.index }}">
 <img src="{{post.thumbnail_image | relative_url}}">
+</div>
+{% endif %}
+{% endfor %}
+</div>
 
-<h5>{{ post.title | escape }}</h5>
-<a href="{{ post.url | relative_url }}">Read more</a>
+<div class="block two">
+{% for post in site.case_studies %}
+{% if post.is_featured %}
+<div class="block three case-large case-{{ forloop.index }}">
+<img src="{{post.thumbnail_image | relative_url}}">
+<h6>{{ post.title | escape }}</h6>
 </div>
 {% endif %}
 {% endfor %}
