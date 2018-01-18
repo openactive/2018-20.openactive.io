@@ -65,9 +65,9 @@ Content for this page is detailed in the
 
 <div class="notes">
 
-**Notes**: 
-**Functionality**:
-**Design**: 
+**Notes**:  
+**Functionality**:  
+**Design**:  
 </div>
 
 
@@ -118,10 +118,15 @@ Content for this page is detailed in the
 
 ***
 
+### Call To Action Blocks
 
 
+<div class="notes">
 
-
+**Notes**:  
+**Functionality**:  
+**Design**:  
+</div>
 
 
 <section>
@@ -129,9 +134,9 @@ Content for this page is detailed in the
 
 
 ### Getting Started 
-+ **Call To Action Block**
-    + Take the first step enabling open data in your system.
-    + [Getting Started]( {{ site.baseurl }}{% link getting-started.md %})  
+Take the first step enabling open data in your system.  
+
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}  
 
 
 </div>
@@ -139,18 +144,18 @@ Content for this page is detailed in the
 
 
 ### Developer 
-+ **Call To Action Block**
-    + Get stuck into the docs and start using or publishing data today!
-    + [Developer]( {{ site.baseurl }}{% link developer.md %})  
+Get stuck into the docs and start using or publishing data today!  
+
+[Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}  
 
 
 </div>
 <div class="block three">
 
 ### Community
-+ **Call To Action Block**
-    + Find out what's happening in the OpenActive community, and how you can get involved!
-    + [Community]( {{ site.baseurl }}{% link community.md %})  
+What's happening in the community, and how you can get involved!
+  
+[Community]( {{ site.baseurl }}{% link community.md %}){: .primary_cta}  
 
 
 </div>
