@@ -52,15 +52,24 @@ Content for this page is detailed in the
 ##### Section Notes
 **Purpose**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.  
 **Functionality**: The logos will act as a tabbing system to reveal content from the case study, this would consist of some fast facts about each case.  
-**Design**: The design of this section should be balanced and clearly represent to a user the functionality of the tabs, this would include clearly  active state on tabs to the open content area/ 
+**Design**: The design of this section should be balanced and clearly represent to a user the functionality of the tabs, this would include clearly  active state on tabs to the open content area.   
 **Copy-writing Notes**: 
 </div>
 
 
-+ Featured case study(s) and a snippet of info. 
-    + Link to: [Case Study Detail]( {{ site.baseurl }}{% link _case_studies/case-study-one.markdown  %}) 
-    + And Link to: [All Case Studies]( {{ site.baseurl }}{% link case-studies.md %})    
-          
+<section>
+<div class="block two subgrid">      
+{% for post in site.case_studies %}
+{% if post.is_featured %}
+<div class="block three">
+<h5>{{ post.title | escape }}</h5>
+<a href="{{ post.url | relative_url }}">Read more</a>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+</section>
+
 ***
 
 
@@ -237,6 +246,7 @@ What's happening in the community, and how you can get involved!
 + Link to [All News]( {{ site.baseurl }}{% link blog.md %})  
 
 ***
+
 
 
 
