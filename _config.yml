@@ -27,6 +27,11 @@ defaults:
     is_secondary_navigation: false
 - scope:
     path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
     type: case_studies
   values:
     layout: case-study
