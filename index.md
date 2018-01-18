@@ -177,12 +177,12 @@ What's happening in the community, and how you can get involved!
 ***
 ### What is Opportunity Data
 
-##### Section Notes
 <div class="notes">
 
-**Purpose**:     
-**Functionality**:   
-**Design**:
+##### Section Notes
+**Purpose**: The purpose of this section is to graphically clarify for users exactly what is and isn't included in Opportunity Data.      
+**Functionality**: This section will support text and graphics.   
+**Design**: This is a opportunity to animate graphics to create visual intrigue.     
 </div>
 
 + An explanation to what and what does not constitute Opportunity Data.
@@ -198,9 +198,9 @@ What's happening in the community, and how you can get involved!
 <div class="notes">
 
 ##### Section Notes
-**Purpose**:     
-**Functionality**:   
-**Design**:
+**Purpose**: This section is used to direct users to specific pages.     
+**Functionality**: This full width call to action section will provide a title, excerpt and button.    
+**Design**: This represents a call to action blocks at a higher hierarchy, the design should reflect this. For example these full width call to action's would have a higher prominence than smaller ones, but take design cues.    
 </div>
 
 + Prominent call to action to promote the accelorator program
@@ -214,9 +214,9 @@ What's happening in the community, and how you can get involved!
 <div class="notes">
 
 ##### Section Notes
-**Purpose**:     
-**Functionality**:   
-**Design**:
+**Purpose**: This section will expose some latest blog posts for users to quickly gain a insight into recent activity.    
+**Functionality**: Each contain article block will support a title, excerpt, author, post date and thumbnail.  
+**Design**: The design should be lead by established web conventions with regards to article lists so users are able to easily interpret content they are seeing. 
 </div>
 
 + News Article List (2)
