@@ -5,8 +5,6 @@ collections:
   case_studies:
     title: Case Studies
     output: true
-    is_featured: false
-    thumbnail_image:
   events:
     title: Events
     output: true
@@ -27,6 +25,16 @@ defaults:
     layout: default
     is_main_navigation: false
     is_secondary_navigation: false
+- scope:
+    path: ''
+    type: case_studies
+  values:
+    layout: case-study
+    is_featured: false
+    thumbnail_image: ''
+
+
+
 locale: en-US
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
