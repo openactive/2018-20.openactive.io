@@ -34,6 +34,12 @@
           margin-top: 0;
         }
       }
+      &.subgrid{
+        display: grid;
+        grid-template-columns: repeat(12, unquote("[col]") 1fr);
+        grid-column-gap: 1em;
+        grid-template-rows: auto [last-line];
+      }
     }
     .block.one {
       grid-column: col / span 12;
@@ -53,12 +59,6 @@
         &:nth-child(2n+2) {
           grid-column: col / span 12;
         }
-      }
-      &.subgrid{
-        display: grid;
-        grid-template-columns: repeat(12, unquote("[col]") 1fr);
-        grid-column-gap: 1em;
-        grid-template-rows: auto [last-line];
       }
       &.tworight {
         &:nth-child(2n+1) {

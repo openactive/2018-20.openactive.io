@@ -5,6 +5,8 @@ collections:
   case_studies:
     title: Case Studies
     output: true
+    is_featured: false
+    thumbnail_image:
   events:
     title: Events
     output: true

@@ -62,6 +62,9 @@ Content for this page is detailed in the
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="block three">
+
+<img src="{{post.thumbnail_image | relative_url}}">
+
 <h5>{{ post.title | escape }}</h5>
 <a href="{{ post.url | relative_url }}">Read more</a>
 </div>
