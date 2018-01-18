@@ -18,7 +18,8 @@ Content for this page is detailed in the
 
 <div class="notes">
 
-**Notes**: This section is the first thing all users will see, we are showcasing the video along with key benefits. The benefits should appeal to all levels of users  
+##### Section Notes
+**Purpose**: This section is the first thing all users will see, we are showcasing the video along with key benefits. The benefits should appeal to all levels of users  
 **Functionality**: A video is embedded from youtube  
 **Design**: 
 </div>
@@ -47,7 +48,8 @@ Content for this page is detailed in the
 
 <div class="notes">
 
-**Notes**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.  
+##### Section Notes
+**Purpose**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.  
 **Functionality**: The logos will act as a tabbing system to reveal content from the case study, this would consist of some fast facts about each case.  
 **Design**: The design of this section should be balanced and clearly represent to a user the functionality of the tabs, this would include clearly  active state on tabs to the open content area/ 
 </div>
@@ -65,7 +67,8 @@ Content for this page is detailed in the
 
 <div class="notes">
 
-**Notes**: These tabs are used to help guide users based on their orientation toward initiative, The first tab would be geared toward a general explanation, whereas the other tabs would be aimed at providing a insight into other specific use cases, such as using or sharing data. Each item will provide a call action to encourage users further along the path.     
+##### Section Notes
+**Purpose**: These tabs are used to help guide users based on their orientation toward initiative, The first tab would be geared toward a general explanation, whereas the other tabs would be aimed at providing a insight into other specific use cases, such as using or sharing data. Each item will provide a call action to encourage users further along the path.     
 **Functionality**: The the content will be housed in a tabbing system, and the active tab could be changed to suite phases of the initiative.    
 **Design**: The design should be lead by established web conventions, this will aid users when interpreting the content.  
 </div>
@@ -129,7 +132,8 @@ This Tab should give advice for individuals or organisations to get involved in 
 
 <div class="notes">
 
-**Notes**: This section is used to direct users around the site  
+##### Section Notes
+**Purpose**: This section is used to direct users around the site  
 **Functionality**: These blocks will contain at minimum title, excerpt & button.  
 **Design**: These represent call to action blocks at a lower hierarchy, the design should reflect this. For example these would be a lower level of prominence than a full with call to action.    
 </div>
@@ -172,6 +176,15 @@ What's happening in the community, and how you can get involved!
 
 ***
 ### What is Opportunity Data
+
+##### Section Notes
+<div class="notes">
+
+**Purpose**:     
+**Functionality**:   
+**Design**:
+</div>
+
 + An explanation to what and what does not constitute Opportunity Data.
     + Graphics
     + Text Content
@@ -181,6 +194,15 @@ What's happening in the community, and how you can get involved!
 
 ***
 ### Accelerator Program
+
+<div class="notes">
+
+##### Section Notes
+**Purpose**:     
+**Functionality**:   
+**Design**:
+</div>
+
 + Prominent call to action to promote the accelorator program
     + [Start Ups]( {{ site.baseurl }}{% link start-ups.md %})  
 
@@ -188,6 +210,15 @@ What's happening in the community, and how you can get involved!
 
 ***
 ### Latest News
+
+<div class="notes">
+
+##### Section Notes
+**Purpose**:     
+**Functionality**:   
+**Design**:
+</div>
+
 + News Article List (2)
     + Post Title
     + Post Date
