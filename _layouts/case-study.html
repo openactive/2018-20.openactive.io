@@ -1,5 +1,6 @@
 ---
 layout: default
+
 ---
 
 <article id="case-study" itemscope itemtype="http://schema.org/BlogPosting">
@@ -17,7 +18,19 @@ layout: default
   </header>
 
   <div itemprop="articleBody">
+    
     {{ content }}
+    <h4>Facts and Figures</h4>
+    {{page.facts_figures}}
+    <h4>The Challenge</h4>
+    {{page.the_challenge}}
+    <h4>Solving the Problem</h4>
+    {{page.solving_the_problem}}
+    <h4>The Impact</h4>
+    {{page.the_impact}}
+    <h4>What lessons were learned</h4>
+    {{page.lessons_learned}}
+
   </div>
 
   {% if site.disqus.shortname %}
