@@ -20,15 +20,15 @@ layout: default
     
     {{ content }}
     <h4>Facts and Figures</h4>
-    {{page.facts_figures}}
+    {{page.facts_figures | markdownify }}
     <h4>The Challenge</h4>
-    {{page.the_challenge}}
+    {{page.the_challenge_text | markdownify }}
     <h4>Solving the Problem</h4>
-    {{page.solving_the_problem}}
+    {{page.solving_the_problem_text | markdownify }}
     <h4>The Impact</h4>
-    {{page.the_impact}}
+    {{page.the_impact_text | markdownify }}
     <h4>What lessons were learned</h4>
-    {{page.lessons_learned}}
+    {{page.lessons_learned_text | markdownify }}
 
   </div>
 
