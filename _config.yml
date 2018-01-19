@@ -40,10 +40,10 @@ defaults:
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
     facts_figures: 3 -5 facts and figures
-    the_challenge: Explain the challenge you faced
-    solving_the_problem: How did you solve the problem
-    the_impact: What was the impact?
-    lessons_learned: What lessons were learned?
+    the_challenge_text: Explain the challenge you faced
+    solving_the_problem_text: How did you solve the problem
+    the_impact_text: What was the impact?
+    lessons_learned_text: What lessons were learned?
 locale: en-US
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
