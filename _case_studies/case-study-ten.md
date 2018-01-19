@@ -20,7 +20,6 @@ lessons_learned_text: Neque voluptate ut aut unde ducimus velit est sit. Volupta
 layout: case-study
 ---
 
-
 {::options parse_block_html="true" /}
 
 
