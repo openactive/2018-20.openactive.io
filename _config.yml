@@ -44,7 +44,7 @@ defaults:
     solving_the_problem: "How did you solve the problem"
     the_impact: "What was the impact?"
     lessons_learned: "What lessons were learned?"
-    
+
 locale: en-US
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
