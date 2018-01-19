@@ -81,8 +81,6 @@ Content for this page is detailed in the
 </div>
 </section>
 
-***
-
 
 ***
 ### Tabbed Content
@@ -193,8 +191,6 @@ What's happening in the community, and how you can get involved!
 </div>
 </section>
 
-***
-
 
 ***
 ### What is Opportunity Data
@@ -265,27 +261,18 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 <h3>{{ post.title | escape }}</h3>
 {{ post.content | strip_html | truncatewords:75 }}
 
-
 <a class="primary_cta" href="{{ post.url | relative_url }}">Read More</a>
 </div>
 </div>
 {% endif %}
 {% endfor %}
+<div class="block one">
+<a class="primary_cta" href="{{ site.baseurl }}{% link blog.md %}">All News</a>
+</div>
+</section>
 
 
 
-
-+ News Article List (2)
-    + Post Title
-    + Post Date
-    + Thumbnail
-    + Excerpt
-    + Author
-    + [Link to Detail]( {{ site.baseurl }}{% link _posts/2017-07-06-build-a-website.md  %})  
-    
-+ Link to [All News]( {{ site.baseurl }}{% link blog.md %})  
-
-***
 
 
 

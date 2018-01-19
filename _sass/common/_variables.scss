@@ -33,6 +33,7 @@ $brand-nine: #a92633;
 $brand-ten: #db4640;
 $brand-eleven: #ec9e52;
 
+$brand-blue: #253882;
 
 // Base Colors
 //
@@ -53,7 +54,6 @@ $white: #ffffff;
 $gray: gray;
 $black: #2b2b2b;
 
-
 // Sharing Colors
 //
 // Weight: 3
@@ -65,7 +65,6 @@ $black: #2b2b2b;
 // Styleguide colours.sharing
 
 $share: $brand-eleven;
-
 
 // Using Colors
 //
@@ -125,7 +124,7 @@ $blockquote-margin: $paragraph-margin * 1.5;
 // Links
 $link-color: #4eaff6;
 //Nav Links
-$nav-color: #253882;
+$nav-color: $brand-blue;
 
 // hr
 $hr-margin: 30px;
@@ -134,4 +133,14 @@ $hr-margin: 30px;
 $font-weight-bold: 800;
 $border-color: #DADADA;
 
-
+.svg {
+  &.twitter {
+    fill: $brand-blue;
+  }
+  &.youtube{
+    fill: $brand-blue;
+  }
+  &.medium{
+    fill: $brand-blue;
+  }
+}

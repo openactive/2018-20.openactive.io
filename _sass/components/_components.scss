@@ -17,20 +17,43 @@
 .post_list{
   .block.one{
     margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #DADADA;
+    &:nth-last-child(1){
+      border: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
     .two{
       h3{
         text-transform: capitalize;
       }
+      &:nth-child(2){
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        justify-items: stretch;
+        align-items: stretch;
+      }
     }
     p{
       .primary_cta{
-
+        float: right;
       }
     }
   }
 }
 
 #tabs {
+  .tabsList{
+    li{
+      a{
+        font-weight: bold;
+      }
+    }
+  }
   .tabPanel {
     p {
       text-align: center;
