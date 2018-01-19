@@ -30,6 +30,8 @@ defaults:
     type: posts
   values:
     layout: post
+    is_featured: false
+    thumbnail_image: ''
 - scope:
     path: ''
     type: case_studies

@@ -1,10 +1,10 @@
 <header role="banner">
 
-    <div id="logo" role="logo" style="background: url({{ "/assets/images/logo-placeholder.jpg" | relative_url }})no-repeat center/cover;">
+    <div id="logo" role="logo">
         {% assign default_paths = site.pages | map: "path" %}
         {% assign page_paths = site.header_pages | default: default_paths %}
         <a class="abs" href="{{ "/" | relative_url }}">
-        <!--<img src="{{ "/assets/images/logo-placeholder.jpg" | relative_url }}" title="{{ site.title | escape }}"alt="Logo">-->
+        {% include openactivelogostacked.svg %}
         </a>
     </div>
     {% if page_paths %}

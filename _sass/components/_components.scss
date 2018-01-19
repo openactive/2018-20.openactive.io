@@ -14,6 +14,21 @@
   border: 1px solid #DADADA;
   padding: 20px;
 }
+.post_list{
+  .block.one{
+    margin-bottom: 1em;
+    .two{
+      h3{
+        text-transform: capitalize;
+      }
+    }
+    p{
+      .primary_cta{
+
+      }
+    }
+  }
+}
 
 #tabs {
   .tabPanel {

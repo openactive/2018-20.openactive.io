@@ -150,8 +150,6 @@ This Tab should give advice for individuals or organisations to get involved in 
 
 ***
 
-### Call To Action Blocks
-
 
 <div class="notes">
 
@@ -218,19 +216,28 @@ What's happening in the community, and how you can get involved!
 
 
 ***
-### Accelerator Program
+
 
 <div class="notes">
 
 ##### Section Notes
-**Purpose**: This section is used to direct users to specific pages.     
+**Purpose**: This section is used to direct users to specific pages. In this case to promote the accelerator program    
 **Functionality**: This full width call to action section will provide a title, excerpt and button.    
 **Design**: This represents a call to action blocks at a higher hierarchy, the design should reflect this. For example these full width call to action's would have a higher prominence than smaller ones, but take design cues.    
 **Copy-writing Notes**: 
 </div>
 
-+ Prominent call to action to promote the accelorator program
-    + [Start Ups]( {{ site.baseurl }}{% link start-ups.md %})  
+<section>
+<div class="block one call_to_action">
+
+### Accelerator Program
+Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem omnis in rem. Qui perspiciatis ut nobis maxime eligendi similique. Non culpa voluptatem enim nostrum et et.  
+
+[Start Ups]( {{ site.baseurl }}{% link start-ups.md %}){: .primary_cta} 
+
+</div>
+</section>
+
 
 ***
 
@@ -245,6 +252,28 @@ What's happening in the community, and how you can get involved!
 **Design**: The design should be lead by established web conventions with regards to article lists so users are able to easily interpret content they are seeing.   
 **Copy-writing Notes**: 
 </div>
+
+
+<section class="post_list">
+{% for post in site.posts %}    
+{% if post.is_featured %}
+<div class="block one subgrid" id="post-{{ forloop.index }}">
+<div class="block two tworight">
+<img src="{{post.thumbnail_image | relative_url}}">
+</div>
+<div class="block two tworight">
+<h3>{{ post.title | escape }}</h3>
+{{ post.content | strip_html | truncatewords:75 }}
+
+
+<a class="primary_cta" href="{{ post.url | relative_url }}">Read More</a>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+
+
+
 
 + News Article List (2)
     + Post Title

@@ -4,6 +4,8 @@ date: 2017-12-14 12:17:25 Z
 categories:
 - jekyll
 - update
+is_featured: true
+thumbnail_image: "/uploads/placeholder.png"
 layout: post
 ---
 

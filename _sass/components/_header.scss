@@ -4,6 +4,12 @@ body > header{
   //grid-column-gap: 1em;
   //grid-template-rows: minmax(50px, 1fr);
   //position: relative;
+  align-items: end;
+  #logo {
+    position: relative;
+    height: 150px;
+    margin: 1em 0 0 0;
+  }
   div, aside, nav{
     display: inline-block;
     box-sizing: border-box;
@@ -33,6 +39,10 @@ body > header{
         list-style: none;
         margin:0 10px;
         font-size: 0.9em;
+        a,a:link, a:visited{
+          color: $nav-color;
+          font-weight: 600;
+        }
       }
     }
   }
