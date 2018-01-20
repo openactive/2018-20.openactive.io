@@ -5,14 +5,14 @@
   .content{
       grid-column: col / span 12;
   }
-  .home-cases{
-    .case-small{
-      margin-bottom: 1em;
-    }
-    .case-large{
-      display: none;
-      &:nth-child(1){
-        display: block;
+
+}
+.hero{
+  .block{}
+  .block.two{
+    &:nth-child(2){
+      .primary_cta{
+        float: right;
       }
     }
   }

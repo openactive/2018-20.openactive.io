@@ -34,8 +34,8 @@ Content for this page is detailed in the
 ***
 ### Case Studies
 + Case Study Section
-    + List of case studies 
-    + [Case Study Detail]( {{ site.baseurl }}{% link _case_studies/case-study-one.markdown  %}) 
+    + List of case studies
+    + [Case Study Detail]( {{ site.baseurl }}{% link _case_studies/case-study-one.markdown  %})
         + Title
         + Snippet
         + Fast Facts

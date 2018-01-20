@@ -8,48 +8,49 @@ layout: home
 
 {::options parse_block_html="true" /}
 
+<div class="notes">
 
-
+##### Page Notes ~ {{ page.title | escape }}
 Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1pSzce8tiNHg8eMKUop4FozaJkhGAXNXYpLSANFf-0Z0){:target="_blank"}
 
-***
-### Hero
+</div>
+
 
 <div class="notes">
 
-##### Section Notes
+##### Section Notes ~ Hero Block
 **Purpose**: This section is the first thing all users will see, we are showcasing the video along with key benefits. The benefits should appeal to all levels of users  
 **Functionality**: A video is embedded from youtube  
-**Design**: 
+**Design**:   
 **Copy-writing Notes**: 
+
 </div>
 
-<section>
+<section class="hero">
 <div class="block two">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 <div class="block two">
-
-
    
-+ Introduction Text
-+ Video
-+ **Key Benefits** Link to: [How it Works]( {{ site.baseurl }}{% link how-it-works.md %})  
-    + Increase the health of the nation by joining open data revolution
-    + Boost your visibility by being easily found online
-    + Ensure that they find you by getting your activities listed everywhere
+##### Using data to help people get active
+
++ **Key Benefits**  
+    + Increase our nation’s physical health and transform a sector with open data
+    + Boost visibility of your activities and reach everyone, everywhere
+    + Innovate with open data to make discovering ways to get active easier
     
+[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta} 
 </div>
 </section>
 
-
 ***
-### Case Studies 
+
+### Case Studies
 
 <div class="notes">
 
-##### Section Notes
+##### Section Notes ~ Case Studies Block
 **Purpose**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.  
 **Functionality**: The logos will act as a tabbing system to reveal content from the case study, this would consist of some fast facts about each case.  
 **Design**: The design of this section should be balanced and clearly represent to a user the functionality of the tabs, this would include clearly  active state on tabs to the open content area.   
@@ -57,11 +58,11 @@ Content for this page is detailed in the
 </div>
 
 
-<section class="home-cases">
-<div class="block two subgrid">      
+<section class="case-studies">
+<div class="block two subgrid">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
-<div class="block three case-small" id="case-{{ forloop.index }}">
+<div class="block three case-tab" data-tab="{{ forloop.index }}">
 <img src="{{post.thumbnail_image | relative_url}}">
 </div>
 {% endif %}
@@ -71,7 +72,7 @@ Content for this page is detailed in the
 <div class="block two">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
-<div class="block three case-large case-{{ forloop.index }}">
+<div class="block three case-content" id="{{ forloop.index }}">
 <img src="{{post.thumbnail_image | relative_url}}">
 <h6>{{ post.title | escape }}</h6>
 {{post.content}}
@@ -83,11 +84,10 @@ Content for this page is detailed in the
 
 
 ***
-### Tabbed Content
 
 <div class="notes">
 
-##### Section Notes
+##### Section Notes ~ Tabbed Content
 **Purpose**: These tabs are used to help guide users based on their orientation toward initiative, The first tab would be geared toward a general explanation, whereas the other tabs would be aimed at providing a insight into other specific use cases, such as using or sharing data. Each item will provide a call action to encourage users further along the path.     
 **Functionality**: The the content will be housed in a tabbing system, and the active tab could be changed to suite phases of the initiative.    
 **Design**: The design should be lead by established web conventions, this will aid users when interpreting the content.  
@@ -151,7 +151,7 @@ This Tab should give advice for individuals or organisations to get involved in 
 
 <div class="notes">
 
-##### Section Notes
+##### Section Notes ~ CTA Blocks Small
 **Purpose**: This section is used to direct users around the site  
 **Functionality**: These blocks will contain at minimum title, excerpt & button.  
 **Design**: These represent call to action blocks at a lower hierarchy, the design should reflect this. For example these would be a lower level of prominence than a full with call to action.    
@@ -216,7 +216,7 @@ What's happening in the community, and how you can get involved!
 
 <div class="notes">
 
-##### Section Notes
+##### Section Notes ~ CTA Block Large
 **Purpose**: This section is used to direct users to specific pages. In this case to promote the accelerator program    
 **Functionality**: This full width call to action section will provide a title, excerpt and button.    
 **Design**: This represents a call to action blocks at a higher hierarchy, the design should reflect this. For example these full width call to action's would have a higher prominence than smaller ones, but take design cues.    

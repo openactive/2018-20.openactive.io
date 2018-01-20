@@ -64,4 +64,18 @@
     }
   }
 }
-
+.case-studies{
+  .case-tab{
+    margin-bottom: 1em;
+    border: 2px solid transparent;
+    &.current{
+      border: 2px solid $brand-one;
+    }
+  }
+  .case-content{
+    display: none;
+    &.current{
+      display: block;
+    }
+  }
+}

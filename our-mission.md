@@ -16,7 +16,7 @@ Content for this page is detailed in the
 
 <div class="notes">
 
-##### Section Notes
+##### Section Notes ~ Hero Block
 **Purpose**:  
 **Functionality**:  
 **Design**:     
@@ -24,8 +24,7 @@ Content for this page is detailed in the
 
 </div>
 
-### Hero
-<section>
+<section class="hero">
 <div class="block two">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
@@ -62,11 +61,11 @@ We are bringing together sports and physical activity organisations from across 
 
 ### We support organisations to:
 
-+ Open up data – helping them to share and publish data with an open licence.
-+ Innovate with data – helping them to use opportunity data to engage their audience.
-+ Learn about data – providing ODI-certified training to ensure organisations understand what open data is and how publishing data can benefit them.
-+ Create data standards – collaborating to create common standards for consistent, reliable data, which fuels innovation.
-+ Build momentum – spreading the message within the sector, and contributing to supporting materials that anyone can use.
++ **Open up data** – helping them to share and publish data with an open licence.
++ **Innovate with data** – helping them to use opportunity data to engage their audience.
++ **Learn about data** – providing ODI-certified training to ensure organisations understand what open data is and how publishing data can benefit them.
++ **Create data standards** – collaborating to create common standards for consistent, reliable data, which fuels innovation.
++ **Build momentum – spreading** the message within the sector, and contributing to supporting materials that anyone can use.
 + The OpenActive community was started by a group of enthusiastic sports and physical activity organisations who wanted to reach new audiences with better opportunities to get active, using data and smart technology. The ODI is calling on all organisations interested in using opportunity data to get more people active, to join the community.
 
 </div>
