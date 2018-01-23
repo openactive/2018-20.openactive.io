@@ -131,16 +131,7 @@
   }
 }
 
-.left-col-title {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  text-align: right;
-  padding-bottom: 0.5em;
-  border-bottom: 1px solid $gray;
-  color: $brand-blue;
-  margin: 0;
-  font-family: $font-family;
-}
+
 
 .case-studies {
   align-items: start;
@@ -225,10 +216,8 @@
 
 .hero {
   .block {
-    h2 {
-      font-size: 3em;
-      line-height: 0.85;
-      color: $brand-blue;
+    h1 {
+
     }
   }
   .block.two {

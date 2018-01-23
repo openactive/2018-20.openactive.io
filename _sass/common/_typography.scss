@@ -54,7 +54,12 @@ h1, h2, h3, h4, h5, h6 {
 // Styleguide typography.heading-one
 h1 {
   font-size: $header-size;
+  line-height: 0.85;
+  color: $brand-blue;
 }
+
+
+
 
 // Heading Two Styles
 //
@@ -67,14 +72,36 @@ h1 {
 //
 // Styleguide typography.heading-two
 h2 {
-  font-size: $header-size / 1.3;
+  font-size: $header-size / 1.5;
 }
+
+// Sub Heading Two Styles
+//
+// Heading text for sections, appears in left columns at larger screens
+//
+// Weight: 3
+//
+// Markup:
+// <h2 class="sub-heading-two">Heading Two</h2>
+//
+// Styleguide typography.sub-heading-two
+.sub-heading-two {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  text-align: right;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $gray;
+  color: $brand-blue;
+  margin: 0;
+  font-family: $font-family;
+}
+
 
 // Heading Three Styles
 //
 // Smaller Sub Heading Text
 //
-// Weight: 3
+// Weight: 4
 //
 // Markup:
 // <h3>Heading Three</h3>
@@ -88,7 +115,7 @@ h3 {
 //
 // Heading Text
 //
-// Weight: 4
+// Weight: 5
 //
 // Markup:
 // <h4>Heading Four</h4>
@@ -101,7 +128,7 @@ h4 {
 //
 // Heading Text
 //
-// Weight: 5
+// Weight: 6
 //
 // Markup:
 // <h5>Heading Five</h5>
@@ -115,7 +142,7 @@ h5 {
 //
 // Smallest Heading Text
 //
-// Weight: 6
+// Weight: 7
 //
 // Markup:
 // <h6>Heading Six</h6>

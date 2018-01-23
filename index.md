@@ -37,12 +37,12 @@ Content for this page is detailed in the
 <article class="hero subgrid">
 <div class="block two">
 
-<h2>Welcome to OpenActive</h2>
+<h1>Welcome to OpenActive</h1>
 
 <ul class="hero_tab_content">
-<li class="hero-content" id="h1"><h4>Increase our nation’s physical health and transform a sector with open data</h4></li>
-<li class="hero-content" id="h2"><h4>Boost visibility of your activities and reach everyone, everywhere</h4></li>
-<li class="hero-content" id="h3"><h4>Innovate with open data to make discovering ways to get active easier</h4></li>
+<li class="hero-content" id="h1"><p>Increase our nation’s physical health and transform a sector with open data</p></li>
+<li class="hero-content" id="h2"><p>Boost visibility of your activities and reach everyone, everywhere</p></li>
+<li class="hero-content" id="h3"><p>Innovate with open data to make discovering ways to get active easier</p></li>
 </ul>
 
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
@@ -56,7 +56,7 @@ Content for this page is detailed in the
 </article>
 
 
-<h3 class="left-col-title">Case<br> Studies</h3>
+<h2 class="sub-heading-two">Case<br> Studies</h2>
 
 <article class="notes">
 
@@ -86,7 +86,7 @@ Content for this page is detailed in the
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="block three case-content" id="{{ forloop.index }}">
-<h6>{{ post.title | escape }}</h6>
+<h3>{{ post.title | escape }}</h3>
 {{post.content}}
 <a class="primary_cta" href="{{ post.url | relative_url }}">Read More</a>
 
@@ -101,7 +101,7 @@ Content for this page is detailed in the
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="block three case-content aside" data-id="{{ forloop.index }}">
-<h6>DATA EXPOSED</h6>
+<h5>DATA EXPOSED</h5>
 <p>Date</p>
 <p>Location</p>
 <p>Disabled Access</p>
@@ -111,6 +111,9 @@ Content for this page is detailed in the
 {% endif %}
 {% endfor %}
 </aside>
+
+
+<h2 class="sub-heading-two">What do you<br> want to do?</h2>
 
 
 <article class="notes">
@@ -126,7 +129,6 @@ Content for this page is detailed in the
 </article>
 
 
-<h3 class="left-col-title">What do you<br> want to do?</h3>
 
 <article id="tabs">
 <ul class="tabsList" role="tablist">
@@ -206,7 +208,7 @@ Pull in the data to your website or app. If you need help reach out to the OpenA
 <div class="block three call_to_action">
 
 
-### Getting Started 
+#### Getting Started
 Take the first step enabling open data in your system.  
 
 [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}  
@@ -216,7 +218,7 @@ Take the first step enabling open data in your system.
 <div class="block three call_to_action">
 
 
-### Developer 
+#### Developer
 Get stuck into the docs and start using or publishing data today!  
 
 [Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}  
@@ -225,7 +227,7 @@ Get stuck into the docs and start using or publishing data today!
 </div>
 <div class="block three call_to_action">
 
-### Community
+#### Community
 What's happening in the community, and how you can get involved!
 
 [Community]( {{ site.baseurl }}{% link community.md %}){: .primary_cta}  
@@ -235,8 +237,7 @@ What's happening in the community, and how you can get involved!
 </article>
 
 
-***
-<h3 class="left-col-title"> What is Opportunity Data</h3>
+<h2 class="sub-heading-two"> What is <br>Opportunity Data</h2>
 
 <article class="notes">
 
@@ -256,7 +257,8 @@ What's happening in the community, and how you can get involved!
 + Text Content
 </article>
 
-***
+
+<h2 class="sub-heading-two">Join</h2>
 
 
 <article class="notes">
@@ -283,8 +285,7 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 </article>
 
 
-***
-<h3 class="left-col-title">  Latest News</h3>
+<h3 class="sub-heading-two">  Latest News</h3>
 
 <article class="notes">
 
