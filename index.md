@@ -76,7 +76,9 @@ Content for this page is detailed in the
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="block six case-tab" data-tab="{{ forloop.index }}">
-<img src="{{post.thumbnail_image | relative_url}}">
+
+<!-- <img src="{{post.thumbnail_image | relative_url}}"> -->
+
 </div>
 {% endif %}
 {% endfor %}
