@@ -6,4 +6,6 @@ _site
 .idea/markdown-navigator/profiles_settings.xml
 .idea/markdown-navigator.xml
 .idea/markdown-exported-files.xml
+.idea/modules.xml
+.idea/openactive.iml
 
