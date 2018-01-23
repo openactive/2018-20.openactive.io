@@ -4,7 +4,6 @@ date: 2017-12-14 16:18:00 Z
 is_featured: true
 thumbnail_image: "/uploads/placeholder.png"
 layout: case-study
-inblog: true
 ---
 
 Facilis animi deleniti adipisci saepe expedita.

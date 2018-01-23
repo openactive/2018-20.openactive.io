@@ -5,7 +5,6 @@ collections:
   case_studies:
     title: Case Studies
     output: true
-    inblog: true
   events:
     title: Events
     output: true
@@ -15,7 +14,6 @@ collections:
   posts:
     title: Posts
     output: true
-    inblog: true
   uploads:
     title: Uploads
     output: true
