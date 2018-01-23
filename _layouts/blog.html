@@ -13,7 +13,7 @@ layout: default
         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
     </article>
     <article class="news-content">
-        <h3>Latest Post</h3>
+        <!-- <h3>Latest Post</h3>
         {% for post in site.posts limit:1 %}
 
         <a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -22,7 +22,24 @@ layout: default
         <p class="post-snippet">{{post.content}}</p>
         <a href="{{ post.url | relative_url }}">Read more</a>
 
-        {% endfor %}
+        {% endfor %} -->
+
+        <h3>Multi collection test</h3>
+
+    {% assign documents = site.documents | where: 'inblog', true | sort: 'date' | reverse %}
+    <ul class="post-list">
+{% for document in documents limit:10 %}
+
+<li>
+    {% assign date_format = document.minima.date_format | default: "%b %-d, %Y" %}
+    <span class="post-meta {{ document.collection }}">{{ document.date | date: date_format }}</span>
+    <p class="post-snippet">{{document.content}}</p>
+    <a class="post-title post-link" href="{{ site.url }}{{ document.url }}">{{ document.title | escape }}</a>
+</li>
+{% endfor %}
+</ul>
+
+
     </article>
 
 
@@ -45,5 +62,7 @@ layout: default
 
     </aside>
     {% endif %}
+
+    
 </div>
 
