@@ -1,14 +1,12 @@
 body > header {
   display: grid;
-  margin-bottom: 2em;
-  grid-gap: 2em;
-  grid-template-columns:
-          [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr)
-          [main-start] repeat(12, [col-start] 1fr)
-          [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr)
-          [full-end];
+  margin-bottom: 2rem;
+  grid-gap: 2rem;
+  grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
   align-items: stretch;
+  @media only screen and (max-width: 1400px) {
 
+  }
   .g-item {
     &.logo {
       grid-column-start: 1;
@@ -52,25 +50,119 @@ body > header {
       border-bottom: 1px solid $gray;
       color: $brand-blue;
     }
+      @media only screen and (max-width: 1400px) {
+        &.logo {
+          grid-column-start: 2;
+          grid-column-end: 5;
+          grid-row: 1/ span 1;
+        }
+        .headline {}
+        &.navigation {
+          grid-column-start: 10;
+          grid-row: 1/ span 2;
+          grid-column-end: 12;
+          border-bottom: none;
+        }
+        &.button{
+          grid-column-start: 12;
+        }
+      }
   }
+  //.g-item {
+  //  &.logo {
+  //    grid-column-start: 1;
+  //    grid-column-end: 1;
+  //    grid-row: 1/ span 2;
+  //    border-bottom: 1px solid $gray;
+  //
+  //    svg {
+  //      padding-bottom: 2rem;
+  //    }
+  //  }
+  //  &.navigation {
+  //    grid-column-start: 2;
+  //    grid-column-end: 14;
+  //    grid-row: 1/ span 2;
+  //    display: grid;
+  //    align-self: stretch;
+  //    border-bottom: 1px solid $gray;
+  //    grid-gap: 2em;
+  //    grid-template-columns: repeat(12, unquote("[col]") 1fr);
+  //    grid-column-gap: 1em;
+  //    grid-template-rows: minmax(50px, 1fr);      align-items: stretch;
+  //    .headline {
+  //      grid-column: col / span 10;
+  //      grid-row: 2/ span 1;
+  //
+  //      //grid-column-start: 1;
+  //      //grid-column-end: 12;
+  //      //grid-row: 2/ 2;
+  //      //display: grid;
+  //      //align-self: stretch;
+  //
+  //      font-size: 1.8em;
+  //      margin: 0;
+  //      font-family: $font-family;
+  //      font-weight: 200;
+  //      padding-bottom: 2rem;
+  //      color: $brand-blue;
+  //    }
+  //    ul {
+  //      grid-column: col 11 / span 2;
+  //      grid-row: 1/ span 2;
+  //      //grid-column-start: 12;
+  //      //grid-column-end: 15;
+  //      //grid-row: 1/ span 2;
+  //      padding-bottom: 2rem;
+  //    }
+  //  }
+  //  &.button {
+  //    grid-column-start: 14;
+  //    grid-column-end: 14;
+  //    grid-row: 1/ span 2;
+  //    display: inline-flex;
+  //    justify-content: space-between;
+  //    flex-direction: column;
+  //    margin-top: 1rem;
+  //    align-items: flex-start;
+  //    padding-bottom: 2em;
+  //    border-bottom: 1px solid $gray;
+  //
+  //  }
+  //  @media only screen and (max-width: 1400px) {
+  //    &.logo {
+  //      grid-column-start: 2;
+  //      grid-column-end: 5;
+  //      grid-row: 1/ span 1;
+  //    }
+  //    &.navigation {
+  //      grid-row: 2/ span 2;
+  //      .headline {}
+  //    }
+  //    &.logo {}
+  //    &.button{}
+  //  }
+  //}
 
   #logo {
     position: relative;
     min-height: 150px;
-    margin: 1em 0 0 1em;
+    margin: 1rem 0 0 0;
     text-align: right;
     a svg {
       width: 100%;
       max-width: 200px;
+      @media only screen and (max-width: 1400px) {
+        max-width: 250px;
+      }
+
     }
   }
   div, aside, nav {
     box-sizing: border-box;
     vertical-align: top;
   }
-
   nav {
-
     ul {
       margin: 1em 0 0 0;
       display: inline-flex;
@@ -89,14 +181,14 @@ body > header {
       }
     }
   }
-  .button{
-    .primary_cta{
+  .button {
+    .primary_cta {
       display: block;
       text-align: center;
-      &:nth-of-type(1){
+      &:nth-of-type(1) {
         background-color: $brand-one;
       }
-      &:nth-of-type(2){
+      &:nth-of-type(2) {
         margin-top: 1em;
         background-color: $brand-ten;
       }
