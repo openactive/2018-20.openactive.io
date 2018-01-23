@@ -8,10 +8,11 @@
 //  }
 //}
 
+
+
 @supports (display: grid) {
   .page,
-  .collection
-  {
+  .collection {
     display: grid;
     grid-gap: 4em;
     grid-template-columns:
@@ -358,16 +359,33 @@
         }
       }
     }
+
+    article.full-width {
+      grid-column-start: 1;
+      grid-column-end: 15;
+      display: grid;
+      grid-gap: 4em;
+      grid-template-columns:
+              [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr)
+              [main-start] repeat(12, [col-start] 1fr)
+              [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr)
+              [full-end];
+      .one{
+        grid-column-start: 2;
+        grid-column-end: 14;
+      }
+    }
+    .subgrid{
+      display: grid;
+      grid-template-columns: repeat(12, unquote("[col]") 1fr);
+      grid-gap: 2rem;
+      grid-template-rows: auto [last-line];
+    }
+    section{
+      align-items: stretch;
+    }
   }
-  .subgrid{
-    display: grid;
-    grid-template-columns: repeat(12, unquote("[col]") 1fr);
-    grid-gap: 2rem;
-    grid-template-rows: auto [last-line];
-  }
-  section{
-    align-items: stretch;
-  }
+
 }
 
 html.no-cssgrid {

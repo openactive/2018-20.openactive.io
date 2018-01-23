@@ -239,7 +239,7 @@ What's happening in the community, and how you can get involved!
 
 <h2 class="sub-heading-two"> What is <br>Opportunity Data</h2>
 
-<article class="notes">
+<article class="notes ">
 
 ##### Section Notes
 **Purpose**: The purpose of this section is to graphically clarify for users exactly what is and isn't included in Opportunity Data.      
@@ -258,7 +258,7 @@ What's happening in the community, and how you can get involved!
 </article>
 
 
-<h2 class="sub-heading-two">Join</h2>
+
 
 
 <article class="notes">
@@ -273,11 +273,14 @@ What's happening in the community, and how you can get involved!
 **Copy-writing Notes**:
 </article>
 
-<article>
+<article class="full-width share-path">
+
+<h2 class="sub-heading-two">Join</h2>
+
 <div class="block one call_to_action">
 
-### Accelerator Program
-Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem omnis in rem. Qui perspiciatis ut nobis maxime eligendi similique. Non culpa voluptatem enim nostrum et et.  
+## The Accelerator Program
+Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem omnis in rem. Qui perspiciatis ut nobis maxime eligendi similique. Non culpa voluptatem enim nostrum et et.
 
 [Start Ups]( {{ site.baseurl }}{% link start-ups.md %}){: .primary_cta} 
 

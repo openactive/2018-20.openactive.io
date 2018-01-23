@@ -33,6 +33,9 @@ $brand-nine: #a92633;
 $brand-ten: #db4640;
 $brand-eleven: #ec9e52;
 
+
+
+
 $brand-blue: #253882;
 
 // Base Colors
@@ -65,8 +68,10 @@ $black: #2b2b2b;
 //
 // Styleguide colours.sharing
 
-$share: $brand-eleven;
-
+$share: $brand-ten;
+.share-path{
+  background-color: $share;
+}
 // Using Colors
 //
 // Weight: 4
@@ -78,6 +83,9 @@ $share: $brand-eleven;
 // Styleguide colours.use
 
 $use: $brand-six;
+.use-path{
+  background-color: $use;
+}
 
 // General Colors
 //
@@ -90,6 +98,9 @@ $use: $brand-six;
 // Styleguide colours.general
 
 $general: $brand-one;
+.general-path{
+  background-color: $general;
+}
 
 /*------------------------------------*\
     # Simple Typography Settings
