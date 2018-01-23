@@ -89,11 +89,18 @@ h2 {
   grid-column-start: 1;
   grid-column-end: 1;
   text-align: right;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid $gray;
   color: $brand-blue;
   margin: 0;
   font-family: $font-family;
+}
+.full-width{
+  .sub-heading-two{
+    padding: 2rem 0 0.5rem 0;
+    border-bottom: 1px solid $white;
+    align-self: flex-start;
+  }
 }
 
 

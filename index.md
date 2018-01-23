@@ -284,7 +284,13 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 
 [Start Ups]( {{ site.baseurl }}{% link start-ups.md %}){: .primary_cta} 
 
+
 </div>
+
+<figure>
+<img src="{{ site.url }}/openactive/assets/images/placeholder.png">
+</figure>
+
 </article>
 
 
