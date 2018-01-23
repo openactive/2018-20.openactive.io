@@ -10,11 +10,11 @@
 }
 
 .call_to_action {
-  padding:2rem 0;
+  padding: 2rem 0;
   * {
     color: $white;
   }
-  &.one{
+  &.one {
     text-align: left;
   }
   &.three {
@@ -60,9 +60,10 @@
     float: right;
   }
 }
-.full-width{
-  .call_to_action{
-    h2{
+
+.full-width {
+  .call_to_action {
+    h2 {
       margin-bottom: 2rem;
     }
   }
@@ -104,29 +105,42 @@
     margin: 0;
     position: relative;
     width: 96%;
-    background-color: $brand-one;
+    background-color: $gray;
+    .slider {
+      display: inline-block;
+      width: 30px;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      transition: all .4s linear;
+      background-color: $brand-one;
+    }
+
     li {
       flex: 1 1 auto;
       align-self: auto;
       display: inline-block;
       text-align: center;
       margin: 0;
-      padding:1rem;
       cursor: pointer;
       a {
         font-weight: bold;
-        color: $white;
+        color: $brand-one;
         transform: skew(30deg);
+        padding: 1rem;
         display: inline-block;
       }
     }
-    li.current{
-      background-color: $brand-blue;
+    li.current {
+      a {
+        color: $white;
+      }
     }
   }
   .tabPanel {
     text-align: left;
-    h3{
+    h3 {
       font-size: 2.7rem;
       font-family: $font-family;
       font-weight: 600;
@@ -147,8 +161,6 @@
     }
   }
 }
-
-
 
 .case-studies {
   align-items: start;

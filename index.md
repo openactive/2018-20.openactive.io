@@ -131,11 +131,14 @@ Content for this page is detailed in the
 
 
 <article id="tabs">
+
 <ul class="tabsList" role="tablist">
 <li role="presentation" aria-selected="true"><a href="#how-it-works">How it Works</a></li>
 <li role="presentation" aria-selected="false"><a href="#booking-systems">Booking Systems</a></li>
 <li role="presentation" aria-selected="false"><a href="#activity-provider">Activity Providers</a></li>
 <li role="presentation" aria-selected="false"><a href="#use-data">Use Data</a></li>
+<div class="slider"></div>
+
 </ul>
 <div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
 
