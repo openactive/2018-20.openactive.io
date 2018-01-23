@@ -146,12 +146,14 @@ a {
   &:hover {
     color: darken($link-color, 10%);
   }
+  &:focus {
+    //outline: 3px dotted #811d15!important;
+  }
 }
 
 // Lists
 ul, ol {
   margin: $paragraph-margin 0 10px 20px;
-
   li {
     margin-top: 10px;
     line-height: $paragraph-line-height;
@@ -311,6 +313,7 @@ img {
 }
 
 .notes {
+  display: none;
   padding: 20px;
   background-color: #f9f9f9;
   border: 1px solid #DADADA;

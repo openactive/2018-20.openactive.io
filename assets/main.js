@@ -1,26 +1,47 @@
 $(document).ready(function () {
     (function ($) {
-        console.log('hello');
 
-        $(function () {
-            $("#tabs").tabs();
+        //HERO BLOCK
+        //cache a reference to the tabs
+        var tabsHero = $('.hero-tab');
+        $('.hero-tab:first').addClass('current');
+        $('.hero-content:first').addClass('current');
+        //on click to tab, turn it on, and turn previously-on tab off
+        tabsHero.click(function () {
+            console.log('clicked');
+            var tab_id = $(this).attr('data-tab');
+
+            $('.hero-tab').removeClass('current');
+            $('.hero-content').removeClass('current');
+            $(this).addClass('current');
+            $("#" + tab_id).addClass('current');
         });
+        //auto-rotate every 5 seconds
+        setInterval(function () {
+            //get currently-on tab
+            var onTab = tabsHero.filter('.current');
+            //click either next tab, if exists, else first one
+            var nextTab = onTab.index() < tabsHero.length - 1 ? onTab.next() : tabsHero.first();
+            nextTab.click();
+        }, 5000);
 
 
-
+        //CASE STUDIES
         //cache a reference to the tabs
         var tabs = $('.case-tab');
         $('.case-tab:first').addClass('current');
         $('.case-content:first').addClass('current');
+        $('.aside.case-content:first').addClass('current');
+
         //on click to tab, turn it on, and turn previously-on tab off
         tabs.click(function () {
-            console.log('clicked');
             var tab_id = $(this).attr('data-tab');
-
             $('.case-tab').removeClass('current');
             $('.case-content').removeClass('current');
+            $('.aside.case-content').removeClass('current');
             $(this).addClass('current');
-            $("#"+tab_id).addClass('current');
+            $("#" + tab_id).addClass('current');
+            $("[data-id=" + tab_id + "]").addClass('current');
         });
         //auto-rotate every 5 seconds
         setInterval(function () {
@@ -30,6 +51,40 @@ $(document).ready(function () {
             var nextTab = onTab.index() < tabs.length - 1 ? onTab.next() : tabs.first();
             nextTab.click();
         }, 5000);
+
+
+        //TABS
+        //cache a reference to the tabs
+        var tabsTab = $('.tabsList li');
+        $('.tabsList li:first')
+            .addClass('current')
+            .attr("aria-selected", "true");
+
+
+        $('.tabPanel:first')
+            .addClass('current')
+            .attr("aria-hidden", "true");
+
+        //on click to tab, turn it on, and turn previously-on tab off
+        tabsTab.click(function ($e) {
+            $e.preventDefault();
+            var tab_idTab = $(this).find('a').attr('href');
+            $('.tabsList li')
+                .removeClass('current')
+                .attr("aria-selected", "false");
+
+            $('.tabPanel')
+                .removeClass('current')
+                .attr("aria-hidden", "true");
+
+            $(this)
+                .addClass('current')
+                .attr("aria-selected", "true");
+            $(tab_idTab)
+                .addClass('current')
+                .attr("aria-hidden", "false");
+        });
+
 
         $('.notes-toggle').on("click", function () {
             $('.notes').slideToggle();

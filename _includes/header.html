@@ -16,8 +16,8 @@
             {% for p in navigation_pages %}
             {% if p.is_main_navigation %}
             {% if p.position %}
-            <li>
-                <a role="menuitem" class="{% if p.url== page.url %}active {% endif %}"
+            <li class="{% if p.url== page.url %}active {% endif %}">
+                <a role="menuitem"
                    href="{{ p.url | relative_url }}">{{ p.title
                     }}</a>
             </li>

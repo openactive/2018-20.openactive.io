@@ -2,7 +2,7 @@
 title: Home
 permalink: "/"
 position: 0
-is_main_navigation: false
+is_main_navigation: true
 layout: home
 ---
 
@@ -29,16 +29,21 @@ Content for this page is detailed in the
 **Copy-writing Notes**:
 
 </article>
-
+<nav class="hero_tab_nav">
+  <div class="hero-tab" data-tab="h1"></div>
+  <div class="hero-tab" data-tab="h2"></div>
+  <div class="hero-tab" data-tab="h3"></div>
+</nav>
 <article class="hero subgrid">
 <div class="block two">
 
-## Welcome to OpenActive
+<h2>Welcome to OpenActive</h2>
 
-+ **Key Benefits**
-    + Increase our nation’s physical health and transform a sector with open data
-    + Boost visibility of your activities and reach everyone, everywhere
-    + Innovate with open data to make discovering ways to get active easier
+<ul class="hero_tab_content">
+  <li class="hero-content" id="h1"><h4>Increase our nation’s physical health and transform a sector with open data</h4></li>
+  <li class="hero-content" id="h2"><h4>Boost visibility of your activities and reach everyone, everywhere</h4></li>
+  <li class="hero-content" id="h3"><h4>Innovate with open data to make discovering ways to get active easier</h4></li>
+</ul>
 
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
 
@@ -51,7 +56,7 @@ Content for this page is detailed in the
 </article>
 
 
-### Case Studies
+<h3 class="left-col-title">Case<br> Studies</h3>
 
 <article class="notes">
 
@@ -77,7 +82,7 @@ Content for this page is detailed in the
 {% endfor %}
 </div>
 
-<div class="block two twoleft">
+<div class="block two twoleft case-wrap">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="block three case-content" id="{{ forloop.index }}">
@@ -92,7 +97,21 @@ Content for this page is detailed in the
 </article>
 
 
-***
+<aside class="case-study-info">
+{% for post in site.case_studies %}
+{% if post.is_featured %}
+<div class="block three case-content aside" data-id="{{ forloop.index }}">
+<h6>DATA EXPOSED</h6>
+<p>Date</p>
+<p>Location</p>
+<p>Disabled Access</p>
+<p>{{ post.title | escape }}</p>
+
+</div>
+{% endif %}
+{% endfor %}
+</aside>
+
 
 <article class="notes">
 
@@ -107,58 +126,60 @@ Content for this page is detailed in the
 </article>
 
 
-<!-- <article id="tabs"> -->
-<!-- <ul class="tabsList" role="tablist"> -->
-<!-- <li role="presentation" aria-selected="true"><a href="#how-it-works">How it Works</a></li> -->
-<!-- <li role="presentation" aria-selected="false"><a href="#booking-systems">Booking Systems</a></li> -->
-<!-- <li role="presentation" aria-selected="false"><a href="#activity-provider">Activity Providers</a></li> -->
-<!-- <li role="presentation" aria-selected="false"><a href="#use-data">Use Data</a></li> -->
-<!-- </ul> -->
-<!-- <div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works"> -->
+<h3 class="left-col-title">What do you<br> want to do?</h3>
+
+ <article id="tabs">
+ <ul class="tabsList" role="tablist">
+ <li role="presentation" aria-selected="true"><a href="#how-it-works">How it Works</a></li>
+ <li role="presentation" aria-selected="false"><a href="#booking-systems">Booking Systems</a></li>
+ <li role="presentation" aria-selected="false"><a href="#activity-provider">Activity Providers</a></li>
+ <li role="presentation" aria-selected="false"><a href="#use-data">Use Data</a></li>
+ </ul>
+ <div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
+
+### How it Works
+OpenActive makes it as easy as possible for people to discover and participate in your activities. It does this by making your activities available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people. This is achieved using the concept of "open data".
+
+ [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
+
+ </div>
+ <div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true" aria-labelledby="booking-systems">
 
 
-<!-- + OpenActive makes it as easy as possible for people to discover and participate in your activities. It does this by making your activities available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people. This is achieved using the concept of "open data". -->
-<!-- + "SVG Animation of how it works" -->
+### Booking Systems
+ 1. You add a tick-box to your system to allow your customers turn on open data publishing
+ 2. You build a simple open API to allow customers to publish thier activity listings information using the OpenActive data standards as a “ *dataset* “
+ 3. Your customers’ dataset is listed in our directory, for anyone to access, use or share.
+ 4. Your customers’ activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
 
-<!-- [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}   -->
+ [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
 
-<!-- </div> -->
-<!-- <div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true" aria-labelledby="booking-systems"> -->
-
-<!-- This tab should give advice for booking systems to get involved in the initiative   -->
-<!-- 1. You add a tick-box to your system to allow your customers turn on open data publishing -->
-<!-- 2. You build a simple open API to allow customers to publish thier activity listings information using the OpenActive data standards as a “ *dataset* “ -->
-<!-- 3. Your customers’ dataset is listed in our directory, for anyone to access, use or share. -->
-<!-- 4. Your customers’ activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people. -->
-
-<!-- [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta} -->
-
-<!-- </div>  -->
-<!-- <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true" aria-labelledby="activity-provider"> -->
-
-<!-- This Tab should give advice for activity providers to get involved in the initiative by opening their data  -->
-<!-- 1. You list details of activities in your existing website or booking system -->
-<!-- 2. You use your website or booking system to publish your activity listings information using the OpenActive data standards as a “ *dataset* “ -->
-<!-- 3. Your dataset is listed in our directory, for anyone to access, use or share. -->
-<!-- 4. Your activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people. -->
-
-<!-- [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta} -->
-
-<!-- </div> -->
-<!-- <div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data"> -->
-
-<!-- This Tab should give advice for individuals or organisations to get involved in the initiative using data  -->
-<!-- 1. Pick a data source from the list available on OpenActive. -->
-<!-- 2. Join their mailing list and review the documentation. -->
-<!-- 3. Pull in the data to your website or app. If you need help reach out to the OpenActive Community. -->
-
-<!-- [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta} -->
-
-<!-- </div> -->
-<!-- </article> -->
+ </div>
+ <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true" aria-labelledby="activity-provider">
 
 
-***
+### Activity Providers
+ 1. You list details of activities in your existing website or booking system
+ 2. You use your website or booking system to publish your activity listings information using the OpenActive data standards as a “ *dataset* “
+ 3. Your dataset is listed in our directory, for anyone to access, use or share.
+ 4. Your activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.
+
+ [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
+
+ </div>
+ <div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
+
+
+### Use Data
+ 1. Pick a data source from the list available on OpenActive.
+ 2. Join their mailing list and review the documentation.
+ 3. Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
+
+ [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
+
+ </div>
+ </article>
+
 
 
 <article class="notes">
@@ -208,7 +229,7 @@ What's happening in the community, and how you can get involved!
 
 
 ***
-### What is Opportunity Data
+<h3 class="left-col-title"> What is Opportunity Data</h3>
 
 <article class="notes">
 
@@ -256,7 +277,7 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 
 
 ***
-### Latest News
+<h3 class="left-col-title">  Latest News</h3>
 
 <article class="notes">
 
