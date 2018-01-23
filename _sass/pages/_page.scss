@@ -1,10 +1,7 @@
-#page{
-  header{
-    grid-column: col / span 12;
-
+.page{
+  hr,article,h3, ul, p{
+    grid-column-start: 2;
+    grid-column-end: 14;
   }
-  #content{
-    grid-column: col / span 12;
 
-  }
 }

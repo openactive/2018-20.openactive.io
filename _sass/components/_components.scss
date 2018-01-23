@@ -14,32 +14,50 @@
   border: 1px solid #DADADA;
   padding: 20px;
 }
-.post_list{
-  .block.one{
+
+.call_to_action--block_level {
+  @extend .call_to_action;
+  align-items: end;
+
+  .block {
+    &:nth-child(1) {
+      text-align: left;
+    }
+    &:nth-child(2) {
+      text-align: right;
+    }
+  }
+}
+
+.call_to_action--steps {
+  @extend .call_to_action;
+  text-align: left;
+  background-color: $brand-blue;
+  * {
+    color: $white;
+  }
+  .primary_cta {
+    float: right;
+  }
+}
+
+.post_list {
+  .block.one {
     margin-bottom: 1em;
     padding-bottom: 1em;
     border-bottom: 1px solid #DADADA;
-    &:nth-last-child(1){
+    &:nth-last-child(1) {
       border: none;
       margin-bottom: 0;
       padding-bottom: 0;
     }
-    .two{
-      h3{
+    .two {
+      h3 {
         text-transform: capitalize;
       }
-      &:nth-child(2){
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-        justify-items: stretch;
-        align-items: stretch;
-      }
     }
-    p{
-      .primary_cta{
+    p {
+      .primary_cta {
         float: right;
       }
     }
@@ -47,9 +65,9 @@
 }
 
 #tabs {
-  .tabsList{
-    li{
-      a{
+  .tabsList {
+    li {
+      a {
         font-weight: bold;
       }
     }
@@ -64,18 +82,56 @@
     }
   }
 }
-.case-studies{
-  .case-tab{
+#case-studies{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  text-align: right;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $gray;
+  color: $brand-blue;
+}
+.case-studies {
+  align-items: start;
+  .case-tab {
     margin-bottom: 1em;
     border: 2px solid transparent;
-    &.current{
+    border-radius: 50%;
+    img {
+      border-radius: 50%;
+    }
+    &.current {
       border: 2px solid $brand-one;
     }
   }
-  .case-content{
+  .case-content {
     display: none;
-    &.current{
+    &.current {
       display: block;
     }
+  }
+}
+
+.hero {
+  .block {
+    h2 {
+      font-size: 3em;
+      line-height: 0.85;
+      color: $brand-blue;
+    }
+  }
+  .block.two {
+    &:nth-child(2) {
+      .primary_cta {
+        float: right;
+      }
+    }
+  }
+}
+
+.hero--media-right {
+  align-items: center;
+
+  .block {
+
   }
 }

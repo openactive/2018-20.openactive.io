@@ -150,7 +150,7 @@ a {
 
 // Lists
 ul, ol {
-  margin: $paragraph-margin 0 0 20px;
+  margin: $paragraph-margin 0 10px 20px;
 
   li {
     margin-top: 10px;
@@ -316,6 +316,8 @@ img {
   border: 1px solid #DADADA;
   border-radius: 3px;
   margin: 0 0 20px 0;
+  grid-column-start: 2;
+  grid-column-end: 12;
 
   p {
     margin-bottom: 0em;

@@ -6,4 +6,4 @@ thumbnail_image: "/uploads/placeholder.png"
 layout: case-study
 ---
 
-Facilis animi deleniti adipisci saepe expedita. Eveniet impedit facere laudantium numquam earum blanditiis. Voluptatem ut dolorem eaque ut.
+Facilis animi deleniti adipisci saepe expedita.

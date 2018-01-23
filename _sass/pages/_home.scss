@@ -7,13 +7,3 @@
   }
 
 }
-.hero{
-  .block{}
-  .block.two{
-    &:nth-child(2){
-      .primary_cta{
-        float: right;
-      }
-    }
-  }
-}

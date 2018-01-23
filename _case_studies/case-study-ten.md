@@ -24,4 +24,4 @@ layout: case-study
 
 
 
-**Consequuntur aspernatur** error nisi officia et neque. Sit rem tempora quia doloribus odit porro. Quaerat odio vel qui voluptatibus esse. Autem quo aperiam qui.
+**Consequuntur aspernatur** error nisi officia et neque.

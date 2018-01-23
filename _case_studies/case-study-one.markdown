@@ -11,4 +11,4 @@ lessons_learned: What lessons were learned?
 layout: case-study
 ---
 
-Excepturi repellat omnis nulla explicabo maxime est. Asperiores eos alias sit omnis recusandae. Quia quasi illum officia unde ipsa tempore eius. Voluptatum aliquam consequuntur similique velit quo officia dicta.
+Excepturi repellat omnis nulla explicabo maxime est.

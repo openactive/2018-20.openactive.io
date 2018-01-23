@@ -5,4 +5,4 @@ thumbnail_image: "/uploads/placeholder.png"
 is_featured: true
 ---
 
-Est pariatur atque a rerum. Numquam iure veniam et. Cupiditate asperiores architecto laboriosam mollitia quasi. Rerum dolore aliquam ullam impedit voluptas et et. Doloremque impedit fugit officiis numquam. Sit asperiores architecto est corporis aut. Vitae est dolor quisquam aliquid nihil voluptatem.
+Est pariatur atque a rerum. Numquam iure veniam et.

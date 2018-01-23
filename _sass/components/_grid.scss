@@ -9,37 +9,24 @@
 //}
 
 @supports (display: grid) {
-  #home-page > section,
-  #content > section,
-  .grid_layouts,
-  body > header,
+  .page,
   .collection
   {
     display: grid;
-
-    //grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
-    //grid-row-gap: 1em;
-    //grid-column-gap: 1em;
-    //grid-template-rows: minmax(50px, 1fr);
-    //position: relative;
-    //
-    //&.full_width {
-    grid-template-columns: repeat(12, unquote("[col]") 1fr);
-    grid-column-gap: 1em;
-    grid-template-rows: auto [last-line];
+    grid-gap: 2em;
+    grid-template-columns:
+            [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr)
+            [main-start] repeat(12, [col-start] 1fr)
+            [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr)
+            [full-end];
     align-items: start;
-    //}
+
     .block {
+      margin-bottom: 1em;
       *:not(hr) {
         &:nth-child(1) {
           margin-top: 0;
         }
-      }
-      &.subgrid{
-        display: grid;
-        grid-template-columns: repeat(12, unquote("[col]") 1fr);
-        grid-column-gap: 1em;
-        grid-template-rows: auto [last-line];
       }
     }
     .block.one {
@@ -372,7 +359,15 @@
       }
     }
   }
-
+  .subgrid{
+    display: grid;
+    grid-template-columns: repeat(12, unquote("[col]") 1fr);
+    grid-column-gap: 1em;
+    grid-template-rows: auto [last-line];
+  }
+  section{
+    align-items: stretch;
+  }
 }
 
 html.no-cssgrid {

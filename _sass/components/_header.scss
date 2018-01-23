@@ -1,49 +1,106 @@
-body > header{
-  //grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
-  //grid-row-gap: 1em;
-  //grid-column-gap: 1em;
-  //grid-template-rows: minmax(50px, 1fr);
-  //position: relative;
-  align-items: end;
-  #logo {
-    position: relative;
-    height: 150px;
-    margin: 1em 0 0 0;
-  }
-  div, aside, nav{
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align: top;
-    &:nth-child(1){
-      grid-column: col / span 3;
+body > header {
+  display: grid;
+  margin-bottom: 2em;
+  grid-gap: 2em;
+  grid-template-columns:
+          [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr)
+          [main-start] repeat(12, [col-start] 1fr)
+          [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr)
+          [full-end];
+  align-items: stretch;
+
+  .g-item {
+    &.logo {
+      grid-column-start: 1;
+      grid-column-end: 1;
       grid-row: 1/ span 2;
+      padding-bottom: 2em;
+      border-bottom: 1px solid $gray;
     }
-    &:nth-child(2){
-      grid-column: col 4 / span 9;
-      grid-row: 1/2;
+    &.navigation {
+      grid-column-start: 12;
+      grid-column-end: 14;
+      grid-row: 1/ span 2;
+      display: grid;
+      align-self: stretch;
+      padding-bottom: 2em;
+      border-bottom: 1px solid $gray;
     }
-    &:nth-child(3){
-      grid-column: col 4/ span 9;
-      grid-row: 2/2;
-    }
-  }
-  nav{
-    ul{
-      margin: 0;
+    &.button {
+      grid-column-start: 14;
+      grid-column-end: 14;
+      grid-row: 1/ span 2;
       display: inline-flex;
       justify-content: space-between;
-      flex-direction: row;
+      flex-direction: column;
+      margin-top: 1em;
+      align-items: flex-start;
+      padding-bottom: 2em;
+      border-bottom: 1px solid $gray;
+    }
+    &.headline{
+      grid-column-start: 2;
+      grid-column-end: 12;
+      grid-row: 2/ 2;
+      display: grid;
+      align-self: stretch;
+      font-size: 1.8em;
+      margin: 0;
+      font-family: $font-family;
+      font-weight: 200;
+      padding-bottom: 1em;
+      border-bottom: 1px solid $gray;
+      color: $brand-blue;
+    }
+  }
+
+  #logo {
+    position: relative;
+    min-height: 150px;
+    margin: 1em 0 0 1em;
+    text-align: right;
+    a svg {
       width: 100%;
-      li{
-        display: inline-block;
-        list-style: none;
-        margin:0 10px;
+      max-width: 200px;
+    }
+  }
+  div, aside, nav {
+    box-sizing: border-box;
+    vertical-align: top;
+  }
+
+  nav {
+
+    ul {
+      margin: 1em 0 0 0;
+      display: inline-flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 100%;
+      color: $brand-blue;
+      li {
+        list-style: decimal;
+        margin: 0 10px;
         font-size: 0.9em;
-        a,a:link, a:visited{
+        a, a:link, a:visited {
           color: $nav-color;
           font-weight: 600;
         }
       }
     }
   }
+  .button{
+    .primary_cta{
+      display: block;
+      text-align: center;
+      &:nth-of-type(1){
+        background-color: $brand-one;
+      }
+      &:nth-of-type(2){
+        margin-top: 1em;
+        background-color: $brand-ten;
+      }
+    }
+  }
 }
+

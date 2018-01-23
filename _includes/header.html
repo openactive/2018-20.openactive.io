@@ -1,6 +1,6 @@
 <header role="banner">
 
-    <div id="logo" role="logo">
+    <div id="logo" class="g-item logo" role="logo">
         {% assign default_paths = site.pages | map: "path" %}
         {% assign page_paths = site.header_pages | default: default_paths %}
         <a class="abs" href="{{ "/" | relative_url }}">
@@ -9,18 +9,19 @@
     </div>
     {% if page_paths %}
 
-    {% include social.html %}
+    <h1 class="g-item headline">Using data to help people get active</h1>
 
     {% endif %}
 
-    <nav tabindex="-1" role="navigation">
+    <nav tabindex="-1" role="navigation" class="g-item navigation">
         <ul>
             {% assign navigation_pages = site.html_pages | sort: 'position' %}
             {% for p in navigation_pages %}
             {% if p.is_main_navigation %}
             {% if p.position %}
             <li>
-                <a role="menuitem" class="{% if p.url== page.url %}active {% endif %}" href="{{ p.url | relative_url }}">{{ p.title
+                <a role="menuitem" class="{% if p.url== page.url %}active {% endif %}"
+                   href="{{ p.url | relative_url }}">{{ p.title
                     }}</a>
             </li>
             {% endif %}
@@ -28,8 +29,18 @@
             {% endfor %}
         </ul>
     </nav>
+    <aside class="g-item button">
+        {% include social.html %}
+        <div>
+            <a class="primary_cta" href="#">Start Up</a>
+            <a class="primary_cta" href="#">Join</a>
+        </div>
+    </aside>
 
 </header>
-<hr>
+
+
+
+
 
 

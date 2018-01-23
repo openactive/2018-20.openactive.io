@@ -5,4 +5,4 @@ thumbnail_image: "/uploads/placeholder.png"
 is_featured: true
 ---
 
-Et illo dolore rem facilis quia nostrum nisi. Dignissimos quidem porro iste. Et ut voluptatum possimus deserunt ipsam. Dolorem inventore assumenda doloremque et neque nulla ducimus. Itaque et doloremque magnam veniam.
+Et illo dolore rem facilis quia nostrum nisi.
