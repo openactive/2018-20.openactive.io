@@ -4,6 +4,7 @@ date: 2017-12-14 13:24:00 Z
 is_featured: true
 thumbnail_image: "/uploads/placeholder.png"
 layout: post
+inblog: true
 ---
 
 Quae quis harum voluptatum assumenda temporibus dicta ipsum. Quia fugit excepturi tempore. Unde enim ea accusantium rerum ipsum in.
