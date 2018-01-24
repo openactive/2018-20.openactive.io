@@ -31,14 +31,14 @@ $(document).ready(function () {
         var tabs = $('.case-tab');
         $('.case-tab:first').addClass('current');
         $('.case-content:first').addClass('current');
-        $('.aside.case-content:first').addClass('current');
+        $('aside .case-content:first').addClass('current');
 
         //on click to tab, turn it on, and turn previously-on tab off
         tabs.click(function () {
             var tab_id = $(this).attr('data-tab');
             $('.case-tab').removeClass('current');
             $('.case-content').removeClass('current');
-            $('.aside.case-content').removeClass('current');
+            $('aside .case-content').removeClass('current');
             $(this).addClass('current');
             $("#" + tab_id).addClass('current');
             $("[data-id=" + tab_id + "]").addClass('current');
@@ -97,7 +97,7 @@ $(document).ready(function () {
 
 
         $('.notes-toggle').on("click", function () {
-            $('.notes').slideToggle();
+            $('.note-wrap').slideToggle();
         });
 
         //looks for iframes wraps and adapts the height and width

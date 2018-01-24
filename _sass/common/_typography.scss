@@ -58,9 +58,6 @@ h1 {
   color: $brand-blue;
 }
 
-
-
-
 // Heading Two Styles
 //
 // Hero Text
@@ -95,17 +92,17 @@ h2 {
   margin: 0;
   font-family: $font-family;
   line-height: 1;
-  font-size:1.5rem;
-  font-weight:700;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
-.full-width{
-  .sub-heading-two{
+
+.full-width {
+  .sub-heading-two {
     padding: 2rem 0 0.5rem 0;
     border-bottom: 1px solid $white;
     align-self: flex-start;
   }
 }
-
 
 // Heading Three Styles
 //
@@ -349,25 +346,28 @@ img {
   margin: 0;
 }
 
-.notes {
-  display: none;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #DADADA;
-  border-radius: 3px;
-  margin: 0 0 20px 0;
-  grid-column-start: 2;
-  grid-column-end: 12;
+.note-wrap {
+  display: block;
+  .notes {
 
-  p {
-    margin-bottom: 0em;
-    color: #747474;
-    font-size:80%;
-    font-family: Courier New, Courier, monospace;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    margin: 0 0 20px 0;
+    grid-column-start: 2;
+    grid-column-end: 14;
 
-  }
-  h5{
-    margin-top: 0;
-    color: #747474;
+    p {
+      margin-bottom: 0em;
+      color: #747474;
+      font-size: 80%;
+      font-family: Courier New, Courier, monospace;
+
+    }
+    h5 {
+      margin-top: 0;
+      color: #747474;
+    }
   }
 }

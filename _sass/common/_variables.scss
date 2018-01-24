@@ -58,7 +58,7 @@ $gray: #ccc;
 $darkgray: #777f88;
 $black: #2b2b2b;
 
-// Sharing Colors
+// Getting Started Colors
 //
 // Weight: 3
 //
@@ -68,14 +68,14 @@ $black: #2b2b2b;
 //
 // Styleguide colours.sharing
 
-$share: $brand-ten;
-.share-path{
-  background-color: $share;
+$getting-started: $brand-four;
+.getting-started{
+  background-color: $getting-started;
   *,h1,h2,h3,h4,h5,p{
     color: $white;
   }
 }
-// Using Colors
+// Community Colors
 //
 // Weight: 4
 //
@@ -85,12 +85,12 @@ $share: $brand-ten;
 //
 // Styleguide colours.use
 
-$use: $brand-six;
-.use-path{
-  background-color: $use;
+$community: $brand-ten;
+.community{
+  background-color: $community;
 }
 
-// General Colors
+// Developer Colors
 //
 // Weight: 5
 //
@@ -100,9 +100,9 @@ $use: $brand-six;
 //
 // Styleguide colours.general
 
-$general: $brand-one;
-.general-path{
-  background-color: $general;
+$developer: $brand-six;
+.developer{
+  background-color: $developer;
 }
 
 /*------------------------------------*\
