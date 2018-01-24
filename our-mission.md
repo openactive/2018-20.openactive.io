@@ -8,15 +8,18 @@ layout: page
 
 {::options parse_block_html="true" /}
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Page Notes ~ {{ page.title | escape }}
 Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1cOIWKH_yIbYhG7pzKTe31shjfqSgBU5JlKRZrqUazug){:target="_blank"}
 
+</div>
 </article>
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes ~ Hero Block
 **Purpose**:  
@@ -27,13 +30,15 @@ Content for this page is detailed in the
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
-<article class="hero subgrid">
-<div class="block two">
+
+<article class="hero">
+<div class="">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-<div class="block two">
+<div class="">
 <h3>{{ page.title | escape }}</h3>
 <p>OpenActive is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active. It is being coordinated by the Open Data Institute (ODI), an independent, non-profit, non-partisan organisation. Our goal is to make data on what, where and when physical activity sessions happen, openly available. This “opportunity data” includes details of a yoga class (“how much will it cost?”) through to badminton court availability (“where and when is a court available?”).</p> 
 [Read More]( {{ site.baseurl }}{% link our-mission-full.md %}){: .primary_cta} 

@@ -46,10 +46,18 @@ a:active {
 // .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
 //
 // Markup:
-// <a class="primary_cta {{modifier_class}}">Button</a>
+// <a class="button-primary {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.primary
-a.primary_cta, span.primary_cta > a, input[type=submit], button[type=submit], button.primary_cta {
+
+a.primary_cta,
+span.primary_cta > a,
+input[type=submit],
+button[type=submit],
+button.primary_cta,
+
+
+a.button-primary{
   display: inline-block;
   vertical-align: top;
   padding: 10px 30px;
@@ -58,7 +66,7 @@ a.primary_cta, span.primary_cta > a, input[type=submit], button[type=submit], bu
   color: $white;
   font-weight: 600;
   font-family: $font-family;
-  font-size: 0.8em;
+  font-size: $base-font-size / 1.8;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
@@ -84,6 +92,28 @@ a.primary_cta, span.primary_cta > a, input[type=submit], button[type=submit], bu
     padding: 15px 25px;
   }
 }
+
+
+
+// Primary Alt Styles
+//
+// Primary Alternative call to action
+//
+// Weight: 1
+//
+// :hover       - Hover state.
+// :active      - Active state.
+// .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
+//
+// Markup:
+// <a class="button-primary--alt {{modifier_class}}">Button</a>
+//
+// Styleguide buttons.primary-alt
+a.button-primary--alt{
+  @extend .button-primary;
+  background-color: $brand-ten;
+}
+
 
 // Secondary Styles
 //

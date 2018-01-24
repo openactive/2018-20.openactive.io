@@ -94,6 +94,15 @@ h2 {
   line-height: 1;
   font-size: 1.5rem;
   font-weight: 700;
+  @media only screen and (max-width: 1200px) {
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row: 1/ 2;
+    text-align: left;
+    br{
+      display: none;
+    }
+  }
 }
 
 .full-width {
@@ -345,11 +354,8 @@ img {
   max-width: 100%;
   margin: 0;
 }
-
-.note-wrap {
-  display: block;
+article.note-wrap {
   .notes {
-
     padding: 20px;
     background-color: #f9f9f9;
     border: 1px solid #DADADA;

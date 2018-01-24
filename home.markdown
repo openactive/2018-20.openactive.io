@@ -47,7 +47,7 @@ Content for this page is detailed in the
 <li class="hero-content" id="h3"><p>Innovate with open data to make discovering ways to get active
     easier</p></li>
 </ul>
-[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
+[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
 </div>
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0"
@@ -77,7 +77,7 @@ Content for this page is detailed in the
 {% if post.is_featured %}
 <div class="case-tab" data-tab="{{ forloop.index }}">
 
-<img src="{{post.thumbnail_image | relative_url}}">
+<!-- <img src="{{post.thumbnail_image | relative_url}}"> -->
 
 </div>
 {% endif %}
@@ -90,7 +90,7 @@ Content for this page is detailed in the
 <div class="case-content" id="{{ forloop.index }}">
 <h3>{{ post.title | escape }}</h3>
 {{post.content}}
-<a class="primary_cta" href="{{ post.url | relative_url }}">Read More</a>
+<a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
 
 </div>
 {% endif %}
@@ -153,7 +153,7 @@ OpenActive makes it easier for people to discover and take part in sport and phy
 open data your activities can become available, everywhere. From websites and apps that attract millions
 of users, to communities and services that engage local people.
 
-[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
+[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
 
 </div>
 <div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
@@ -171,7 +171,7 @@ millions of users, through to communities and services that engage local people.
 </li>
 </ol>
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
 <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true"
@@ -191,7 +191,7 @@ through to communities and services that engage local people.
 </li>
 </ol>
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
 <div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
@@ -203,9 +203,11 @@ Pick a data source from the list available on OpenActive.
 Join their mailing list and review the documentation.
 Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
+
+
 </div>
 
 
@@ -227,12 +229,13 @@ Pull in the data to your website or app. If you need help reach out to the OpenA
 
 
 <article class="call_to_action">
+<div class="inner_wrapper subgrid">
 <div class="getting-started">
 
 #### Getting Started
 Take the first step enabling open data in your system.
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 
 </div>
@@ -242,7 +245,7 @@ Take the first step enabling open data in your system.
 #### Developer
 Get stuck into the docs and start using or publishing data today!
 
-[Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
+[Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
 
 
 </div>
@@ -251,9 +254,10 @@ Get stuck into the docs and start using or publishing data today!
 #### Community
 What's happening in the community, and how you can get involved!
 
-[Community]( {{ site.baseurl }}{% link community.md %}){: .primary_cta}
+[Community]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
 
 
+</div>
 </div>
 </article>
 
@@ -304,13 +308,13 @@ What's happening in the community, and how you can get involved!
 ## The Accelerator Program
 Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem omnis in rem. Qui perspiciatis ut nobis maxime eligendi similique. Non culpa voluptatem enim nostrum et et.
 
-[Start Ups]( {{ site.baseurl }}{% link start-ups.md %}){: .primary_cta}
+[Start Ups]( {{ site.baseurl }}{% link start-ups.md %}){: .button-primary}
 
 
 </div>
 
 <figure>
-<img src="{{ site.url }}/openactive/assets/images/placeholder.png">
+<img src="{{ site.url }}/openactive/assets/images/sideplank.jpg">
 </figure>
 
 </article>
@@ -343,7 +347,7 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 <h3>{{ post.title | escape }}</h3>
 {{ post.content | strip_html | truncatewords:75 }}
 
-<a class="primary_cta" href="{{ post.url | relative_url }}">Read More</a>
+<a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
 </div>
 </div>
 {% endif %}
