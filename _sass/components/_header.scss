@@ -1,7 +1,7 @@
 body > header {
   display: grid;
-  margin-bottom: 4rem;
-  grid-gap: 4rem;
+  margin-bottom: 3rem;
+  grid-gap: 3rem;
   grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
   align-items: stretch;
   @media only screen and (max-width: 1400px) {
