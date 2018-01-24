@@ -332,11 +332,17 @@
     }
     .sub-heading-two {
       padding-top: 4rem;
+      @media only screen and (max-width: 1200px) {
+        grid-column-end: 12;
+      }
     }
     .call_to_action {
       padding: 4rem 0 2rem 0;
       grid-column-start: 2;
       grid-column-end: 12;
+      @media only screen and (max-width: 1200px) {
+        padding: 0 0 2rem 0;
+      }
       h2 {
         margin-top: 0;
       }
@@ -347,11 +353,22 @@
       grid-column-start: 12;
       grid-column-end: 18;
       align-self: stretch;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       background-color: $brand-red;
-      img {
-        clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
+      position: relative;
+      @media only screen and (max-width: 1200px) {
+        grid-row: 1/ 3;
+      }
 
+      div {
+        -webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
+        clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
       }
     }
   }

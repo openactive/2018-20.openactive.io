@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e575d07-4ee5-41e8-9825-c3bf2854e692" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/pages/_home.scss" afterPath="$PROJECT_DIR$/_sass/pages/_home.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.markdown" afterPath="$PROJECT_DIR$/home.markdown" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +17,37 @@
     <splitter split-orientation="horizontal" split-proportion="0.45362136">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/_sass/pages/_home.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="443">
+                  <caret line="351" column="16" lean-forward="false" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#525#1716#0" expanded="false" />
+                    <element signature="e#536#1052#0" expanded="false" />
+                    <element signature="e#1061#1520#0" expanded="false" />
+                    <element signature="e#1532#1711#0" expanded="false" />
+                    <element signature="e#1858#3330#0" expanded="false" />
+                    <element signature="e#2490#2538#0" expanded="false" />
+                    <element signature="e#2565#2615#0" expanded="false" />
+                    <element signature="e#2642#2692#0" expanded="false" />
+                    <element signature="e#2719#2768#0" expanded="false" />
+                    <element signature="e#2795#2844#0" expanded="false" />
+                    <element signature="e#2871#2922#0" expanded="false" />
+                    <element signature="e#2974#3316#0" expanded="false" />
+                    <element signature="e#3342#3883#0" expanded="false" />
+                    <element signature="e#3561#3877#0" expanded="false" />
+                    <element signature="e#4546#6325#0" expanded="false" />
+                    <element signature="e#6348#7369#0" expanded="false" />
+                    <element signature="e#6389#6622#0" expanded="false" />
+                    <element signature="e#7390#7469#0" expanded="false" />
+                    <element signature="e#8635#8942#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_layouts/default.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
@@ -31,8 +60,18 @@
           <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_includes/header.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -74,40 +113,11 @@
         <splitter split-orientation="vertical" split-proportion="0.5382685">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/_sass/pages/_home.scss">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="269">
-                      <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-                      <folding>
-                        <element signature="e#525#1716#0" expanded="false" />
-                        <element signature="e#536#1052#0" expanded="false" />
-                        <element signature="e#1061#1520#0" expanded="false" />
-                        <element signature="e#1532#1711#0" expanded="false" />
-                        <element signature="e#2490#2538#0" expanded="false" />
-                        <element signature="e#2565#2615#0" expanded="false" />
-                        <element signature="e#2642#2692#0" expanded="false" />
-                        <element signature="e#2719#2768#0" expanded="false" />
-                        <element signature="e#2795#2844#0" expanded="false" />
-                        <element signature="e#2871#2922#0" expanded="false" />
-                        <element signature="e#2974#3316#0" expanded="false" />
-                        <element signature="e#3561#3877#0" expanded="false" />
-                        <element signature="e#4546#6325#0" expanded="false" />
-                        <element signature="e#6348#7369#0" expanded="false" />
-                        <element signature="e#6389#6622#0" expanded="false" />
-                        <element signature="e#7390#7469#0" expanded="false" />
-                        <element signature="e#7485#8093#0" expanded="false" />
-                        <element signature="e#8107#8414#0" expanded="false" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="_grid.scss" pinned="false" current-in-tab="false">
+              <file leaf-file-name="_grid.scss" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/_sass/components/_grid.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="45">
-                      <caret line="264" column="6" lean-forward="false" selection-start-line="264" selection-start-column="6" selection-end-line="276" selection-end-column="7" />
+                    <state relative-caret-position="135">
+                      <caret line="270" column="25" lean-forward="false" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
                       <folding>
                         <element signature="e#700#1867#0" expanded="false" />
                         <element signature="e#1885#6332#0" expanded="false" />
@@ -189,7 +199,7 @@
                   <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                     <state split_layout="FIRST">
                       <first_editor relative-caret-position="189">
-                        <caret line="316" column="5" lean-forward="false" selection-start-line="316" selection-start-column="5" selection-end-line="316" selection-end-column="5" />
+                        <caret line="316" column="42" lean-forward="false" selection-start-line="316" selection-start-column="42" selection-end-line="316" selection-end-column="42" />
                         <folding />
                       </first_editor>
                       <second_editor>
@@ -325,7 +335,6 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_sass/pages/_page.scss" />
         <option value="$PROJECT_DIR$/start-ups.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_sass/components/_components.scss" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_layouts/custom.html" />
@@ -344,10 +353,11 @@
         <option value="$PROJECT_DIR$/assets/main.js" />
         <option value="$PROJECT_DIR$/our-mission.md" />
         <option value="$PROJECT_DIR$/_sass/common/_variables.scss" />
-        <option value="$PROJECT_DIR$/home.markdown" />
         <option value="$PROJECT_DIR$/_sass/common/_typography.scss" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_sass/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/home.markdown" />
       </list>
     </option>
   </component>
@@ -568,7 +578,7 @@
       <workItem from="1516720455274" duration="6478000" />
       <workItem from="1516727534731" duration="3053000" />
       <workItem from="1516743635070" duration="9102000" />
-      <workItem from="1516756086362" duration="22032000" />
+      <workItem from="1516756086362" duration="23735000" />
     </task>
     <task id="LOCAL-00001" summary="reworked the homepage">
       <created>1516699293034</created>
@@ -609,12 +619,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83483000" />
+    <option name="totallyTimeSpent" value="85186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3841" y="23" width="1920" height="1177" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16506922" sideWeight="0.64696735" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16506922" sideWeight="0.64696735" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -950,13 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/case-study.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -1132,31 +1136,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="189">
-            <caret line="316" column="5" lean-forward="false" selection-start-line="316" selection-start-column="5" selection-end-line="316" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1190,10 +1173,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/components/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="264" column="6" lean-forward="false" selection-start-line="264" selection-start-column="6" selection-end-line="276" selection-end-column="7" />
+        <state relative-caret-position="135">
+          <caret line="270" column="25" lean-forward="false" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
           <folding>
             <element signature="e#700#1867#0" expanded="false" />
             <element signature="e#1885#6332#0" expanded="false" />
@@ -1210,13 +1217,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="443">
+          <caret line="351" column="16" lean-forward="false" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
           <folding>
             <element signature="e#525#1716#0" expanded="false" />
             <element signature="e#536#1052#0" expanded="false" />
             <element signature="e#1061#1520#0" expanded="false" />
             <element signature="e#1532#1711#0" expanded="false" />
+            <element signature="e#1858#3330#0" expanded="false" />
             <element signature="e#2490#2538#0" expanded="false" />
             <element signature="e#2565#2615#0" expanded="false" />
             <element signature="e#2642#2692#0" expanded="false" />
@@ -1224,22 +1232,27 @@
             <element signature="e#2795#2844#0" expanded="false" />
             <element signature="e#2871#2922#0" expanded="false" />
             <element signature="e#2974#3316#0" expanded="false" />
+            <element signature="e#3342#3883#0" expanded="false" />
             <element signature="e#3561#3877#0" expanded="false" />
             <element signature="e#4546#6325#0" expanded="false" />
             <element signature="e#6348#7369#0" expanded="false" />
             <element signature="e#6389#6622#0" expanded="false" />
             <element signature="e#7390#7469#0" expanded="false" />
-            <element signature="e#7485#8093#0" expanded="false" />
-            <element signature="e#8107#8414#0" expanded="false" />
+            <element signature="e#8635#8942#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/home.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="189">
+            <caret line="316" column="42" lean-forward="false" selection-start-line="316" selection-start-column="42" selection-end-line="316" selection-end-column="42" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
