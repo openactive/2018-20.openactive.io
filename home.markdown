@@ -77,7 +77,7 @@ Content for this page is detailed in the
 {% if post.is_featured %}
 <div class="case-tab" data-tab="{{ forloop.index }}">
 
-<img src="{{post.thumbnail_image | relative_url}}">
+<!-- <img src="{{post.thumbnail_image | relative_url}}"> -->
 
 </div>
 {% endif %}

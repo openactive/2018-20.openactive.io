@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e575d07-4ee5-41e8-9825-c3bf2854e692" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.md" afterPath="$PROJECT_DIR$/!index.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/custom.html" afterPath="$PROJECT_DIR$/_layouts/custom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/common/_global.scss" afterPath="$PROJECT_DIR$/_sass/common/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/common/_typography.scss" afterPath="$PROJECT_DIR$/_sass/common/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/common/_variables.scss" afterPath="$PROJECT_DIR$/_sass/common/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/main.scss" afterPath="$PROJECT_DIR$/_sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/pages/_home.scss" afterPath="$PROJECT_DIR$/_sass/pages/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/main.js" afterPath="$PROJECT_DIR$/assets/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.markdown" afterPath="$PROJECT_DIR$/home.markdown" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -208,8 +199,8 @@
                 <entry file="file://$PROJECT_DIR$/home.markdown">
                   <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                     <state split_layout="FIRST">
-                      <first_editor relative-caret-position="15">
-                        <caret line="228" column="32" lean-forward="true" selection-start-line="228" selection-start-column="32" selection-end-line="228" selection-end-column="32" />
+                      <first_editor relative-caret-position="111">
+                        <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
                         <folding />
                       </first_editor>
                       <second_editor>
@@ -388,8 +379,8 @@
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_sass/main.scss" />
         <option value="$PROJECT_DIR$/!index.md" />
-        <option value="$PROJECT_DIR$/home.markdown" />
         <option value="$PROJECT_DIR$/_sass/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/home.markdown" />
       </list>
     </option>
   </component>
@@ -668,7 +659,7 @@
       <workItem from="1516638931966" duration="23665000" />
       <workItem from="1516720455274" duration="6478000" />
       <workItem from="1516727534731" duration="3053000" />
-      <workItem from="1516743635070" duration="8768000" />
+      <workItem from="1516743635070" duration="8916000" />
     </task>
     <task id="LOCAL-00001" summary="reworked the homepage">
       <created>1516699293034</created>
@@ -709,7 +700,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61117000" />
+    <option name="totallyTimeSpent" value="61265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -1289,19 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="228" column="32" lean-forward="true" selection-start-line="228" selection-start-column="32" selection-end-line="228" selection-end-column="32" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1321,6 +1299,19 @@
             <element signature="e#6251#6634#0" expanded="false" />
             <element signature="e#6648#6955#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="111">
+            <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
