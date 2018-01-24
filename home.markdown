@@ -314,7 +314,7 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 </div>
 
 <figure>
-<img src="{{ site.url }}/openactive/assets/images/sideplank.jpg">
+<img src="{{ site.url }}/assets/images/sideplank.jpg">
 </figure>
 
 </article>
