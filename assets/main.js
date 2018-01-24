@@ -65,15 +65,22 @@ $(document).ready(function () {
 
         })(window, document);
 
-        $(document).on("scroll", function() {
+        $(document).on("scroll", function () {
 
-            if($(document).scrollTop()>100) {
+            if ($(document).scrollTop() > 80) {
                 $("header").removeClass("maximum").addClass("minimal");
             } else {
                 $("header").removeClass("minimal").addClass("maximum");
             }
 
         });
+        if ($(window).width() < 1200) {
+
+            $("header").removeClass("maximum").addClass("minimal");
+
+        } else {
+            $("header").removeClass("minimal").addClass("maximum");
+        }
 
 
         //HERO BLOCK
@@ -160,17 +167,17 @@ $(document).ready(function () {
                 .attr("aria-hidden", "false");
         });
 
-        if($(".tabsList").length > 0){
+        if ($(".tabsList").length > 0) {
 
 
-        $(".tabsList a").click(function () {
-            var position = $(this).parent().position();
-            var width = $(this).parent().width();
-            $(".slider").css({"left": +position.left, "width": width});
-        });
-        var actWidth = $(".tabsList .current").width();
-        var actPosition = $(".tabsList .current").position();
-        $(".slider").css({"left": +actPosition.left, "width": actWidth});
+            $(".tabsList a").click(function () {
+                var position = $(this).parent().position();
+                var width = $(this).parent().width();
+                $(".slider").css({"left": +position.left, "width": width});
+            });
+            var actWidth = $(".tabsList .current").width();
+            var actPosition = $(".tabsList .current").position();
+            $(".slider").css({"left": +actPosition.left, "width": actWidth});
         }
 
         $('.notes-toggle').on("click", function () {
@@ -190,13 +197,10 @@ $(document).ready(function () {
         });
 
 
-            var phantomHeight = $('header').outerHeight();
-            // Set the height of $sticky-phantom
-            $('#sticky-phantom').height(phantomHeight).show();
-            $(phantomHeight).css('height', '-10px');
-
-
-
+        var phantomHeight = $('header').outerHeight();
+        // Set the height of $sticky-phantom
+        $('#sticky-phantom').height(phantomHeight).show();
+        $(phantomHeight).css('height', '-10px');
 
 
     })(jQuery); // Fully reference jQuery after this point.
