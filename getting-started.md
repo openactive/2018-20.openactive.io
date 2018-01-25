@@ -88,6 +88,7 @@ Content for this page is detailed in the
 </article>
 
 <article class="call_to_action">
+<div class="subgrid">
 <div class="two brand-two-bc">
 
 ### Publish Data 
@@ -110,6 +111,7 @@ A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas conse
 [Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .primary_cta}
 
 </div>
+</div>
 </article>
 
 
@@ -128,24 +130,26 @@ A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas conse
 </div>
 </article>
 
-<article class="call_to_action--block_level subgrid">
-<div class="two twoleft">
+<article class="call_to_action--block_level ">
+<div class="subgrid">
+<div class="two ">
 
 ### Developer Section
 Move over to the develop section and fire up your code editor.
 
-
 </div>
-<div class="two twoleft">
+<div class="two ">
 
 [Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
 
+</div>
 </div>
 </article>
 
 ***
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes ~ Help Options
 **Purpose**: This section will provide support for those who don't know what to do at this stage but want to get involved
@@ -155,11 +159,12 @@ Move over to the develop section and fire up your code editor.
 **Design**:
 
 **Copy-writing Notes**:
-
+</div>
 </article>
 
-<article class="subgrid">
-<div class="block three call_to_action">
+<article class="call_to_action">
+<div class="subgrid">
+<div class="three brand-one-bc">
 
 #### Convince your Team
 Itaque deleniti possimus nihil accusamus rerum.
@@ -167,7 +172,7 @@ Itaque deleniti possimus nihil accusamus rerum.
 [Convince Company]( {{ site.baseurl }}{% link convince-company.md %}){: .primary_cta}
 
 </div>
-<div class="block three call_to_action">
+<div class="three brand-one-bc">
 
 #### Tell Your Team
 Commodi consequatur vero eum quia eos alias.
@@ -175,13 +180,14 @@ Commodi consequatur vero eum quia eos alias.
 [Tell Team]( {{ site.baseurl }}{% link tell-team.md %}){: .primary_cta}
 
 </div>
-<div class="block three call_to_action">
+<div class="three brand-one-bc">
 
 #### Contact us
 Ullam voluptatum expedita enim cum mollitia.
 
 [Contact]( {{ site.baseurl }}{% link contact.md %}){: .primary_cta}
 
+</div>
 </div>
 </article>
 

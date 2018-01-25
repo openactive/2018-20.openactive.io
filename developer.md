@@ -9,14 +9,18 @@ layout: page
 {::options parse_block_html="true" /}
 
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Page Notes ~ {{ page.title | escape }}
 Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1KBxXl0nLu_Q2Go9j11PikbF28XxpkaKqfeaWAIWcgxs){:target="_blank"}
 
+</div>
 </article>
-<article class="notes">
+
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes ~ Hero Block
 **Purpose**:
@@ -27,13 +31,14 @@ Content for this page is detailed in the
 
 **Copy-writing Notes**:
 
+</div>
 </article>
-<article class="hero subgrid">
-<div class="block two">
+<article class="herosubgrid">
+<div class="two">
 ![placeholder]({{ site.url }}/openactive/assets/images/placeholder.png)
 
 </div>
-<div class="block two">
+<div class=" two">
 
 #### Developer
 + Text Content
@@ -43,9 +48,9 @@ Content for this page is detailed in the
 </div>
 </article>
 
-***
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes ~ API
 **Purpose**:
@@ -56,10 +61,11 @@ Content for this page is detailed in the
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
-<article class="subgrid">
-<div class="block two twoleft">
+<article >
+<div class="two">
 
 ### API
 Our first output is a new API dashboard that could be useful to developers. Here’s a quick tour. In order to use data to get people active, we need to find ways to connect developers with a comprehensive set of open opportunity data. Because no single platform or application holds all data available under OpenActive, we’ve designed the first set of OpenActive standards to support developers in harvesting and collecting data from multiple sources.
@@ -67,16 +73,16 @@ Our first output is a new API dashboard that could be useful to developers. Here
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .primary_cta}
 
 </div>
-<div class="block two twoleft">
+<div class="two">
 
 ![placeholder]({{ site.url }}/openactive/assets/images/placeholder.png)
 
 </div>
 </article>
 
-***
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes ~ Use / Publish
 **Purpose**: This section is to allow developers to jump into the respective categories of use / publish
@@ -87,10 +93,12 @@ Our first output is a new API dashboard that could be useful to developers. Here
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
-<article class="subgrid">
-<div class="block two call_to_action">
+<article class="call_to_action">
+<div class="subgrid">
+<div class=" two brand-two-bc">
 
 ### Publish Data
 A comprehensive explanation of how to **publish** data
@@ -98,7 +106,7 @@ A comprehensive explanation of how to **publish** data
 [Heavy Publish Data]( {{ site.baseurl }}{% link publish-data.md %}){: .primary_cta}
 
 </div>
-<div class="block two call_to_action">
+<div class=" two brand-one-bc">
 
 ### Use Data
 A comprehensive explanation of how to **use** data
@@ -106,11 +114,12 @@ A comprehensive explanation of how to **use** data
 [Heavy Use Data]( {{ site.baseurl }}{% link use-data.md %}){: .primary_cta}
 
 </div>
+</div>
 </article>
 
-***
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes ~ OpenActive Standards
 **Purpose**:
@@ -121,11 +130,13 @@ A comprehensive explanation of how to **use** data
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
 
-<article class="call_to_action--block_level subgrid">
-<div class="block two twoleft">
+<article>
+
+<div class="two ">
 
 ### Publishing to OpenActive Standards 
 Steps to publishing data
@@ -134,16 +145,16 @@ Steps to publishing data
 3. Qui dolorum quod mollitia sed consectetur fugit.
 
 </div>
-<div class="block two twoleft">
+<div class=" two">
 
 [E-Learning](https://www.openactive.io/learn/){:target="_blank"}{: .primary_cta}
 
 </div>
 </article>
 
-***
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes ~ Resources
 **Purpose**:
@@ -154,21 +165,27 @@ Steps to publishing data
 
 **Copy-writing Notes**:
 
+</div>
 </article>
+
 <article>
 
-### Resources
+<h2 class="sub-heading-two">Resources</h2>
+<div class="one">
+
 + Text to introduce the range of resources there are to support developers
     + [How to's]( {{ site.baseurl }}{% link how-to.md %})  
     + [Discussions]( {{ site.baseurl }}{% link discussions.md %})  
     + [References]( {{ site.baseurl }}{% link references.md %})  
     + [Tutorials]( {{ site.baseurl }}{% link tutorials.md %})  
 
-***
+
+</div>
 </article>
 
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes ~ Contact
 **Purpose**:
@@ -179,13 +196,13 @@ Steps to publishing data
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
-<article class="subgrid">
-<div class="block one call_to_action">
+<article >
+<h2 class="sub-heading-two">Contact</h2>
+<div class="one">
 
-
-### Contact
 Nam autem non et velit. Sunt quidem sequi quis iure voluptatem aut.
 
 [Contact]( {{ site.baseurl }}{% link contact.md %}){: .primary_cta}
