@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="collection" id="booking-engines-page">
+    <article class="page-content">
+        <header class="page-header">
+            <h1 class="page-title">{{ page.title | escape }}</h1>
+        </header>
+        {{ content }}
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    </article>
+
+    {% if site.booking_engines %}
+    {% for post in site.members %}
+    {% assign num = forloop.length %}
+    {% endfor %}
+    <aside>
+        <h3>All Booking Engines ({{num}})</h3>
+        <ul class="post-list">
+
+            {% for post in site.booking_engines %}
+            <li>
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+                <a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </aside>
+    {% endif %}
+
+
+</div>
+
+
