@@ -8,11 +8,11 @@
     @media only screen and (max-width: 900px) {
       grid-row-gap: 1rem;
     }
-    div.one {
+    .one {
       grid-column-start: 2;
       grid-column-end: 14;
     }
-    div.two {
+    .two {
       grid-row: auto;
       &:nth-child(2n+1) {
         grid-column-start: 2;
@@ -97,7 +97,7 @@
       }
     }
 
-    div.three {
+    .three {
       grid-row: auto;
       &:nth-child(3n+1) {
         grid-column-start: 2;
@@ -159,9 +159,10 @@
           grid-column-end: 14;
         }
       }
+
     }
 
-    div.four {
+    .four {
       &:nth-child(4n+1) {
         grid-column-start: 2;
         grid-column-end: 5;
@@ -179,9 +180,9 @@
         grid-column-end: 14;
       }
     }
-    div.five {
+    .five {
     }
-    div.six {
+    .six {
     }
 
     &.case-studies {
@@ -378,7 +379,7 @@
     grid-gap: 1rem;
     grid-column-start: 2;
     grid-column-end: 14;
-    .two {
+    div.two {
       &:nth-child(2n+1) {
         grid-column: col / span 6;
       }
@@ -427,7 +428,7 @@
       }
 
     }
-    .three {
+    div.three {
       &:nth-child(3n+1) {
         grid-column: col / span 4;
       }
@@ -605,7 +606,7 @@
         }
       }
     }
-    .four {
+    div.four {
       &:nth-child(4n+1) {
         grid-column: col / span 3;
       }
@@ -635,7 +636,7 @@
         }
       }
     }
-    .six {
+    div.six {
       &:nth-child(6n+1) {
         grid-column: col / span 2;
       }

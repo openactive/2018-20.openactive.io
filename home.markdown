@@ -230,7 +230,7 @@ Pull in the data to your website or app. If you need help reach out to the OpenA
 
 <article class="call_to_action title-row">
 <h2 class="sub-heading-two">Is this the right fit for me?</h2>
-
+<div class="subgrid">
 <div class="three getting-started">
 
 #### Getting Started
@@ -258,6 +258,7 @@ What's happening in the community, and how you can get involved!
 [Community]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
 
 
+</div>
 </div>
 
 </article>
