@@ -2,7 +2,7 @@
 title: Home
 permalink: "/"
 position: 0
-is_main_navigation: true
+is_main_navigation: false
 layout: home
 ---
 
@@ -314,7 +314,7 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 </div>
 
 <figure>
-<div style="background: url({{ site.url }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 
 </article>
