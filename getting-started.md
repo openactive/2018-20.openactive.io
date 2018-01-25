@@ -9,16 +9,18 @@ layout: page
 {::options parse_block_html="true" /}
 
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Page Notes ~ {{ page.title | escape }}
 
 Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1LJxp7jbt6r5jTTZqoSJ5WK6yjZDpqhaXNVi-Rx_cSjA){:target="_blank"}
 
+</div>
 </article>
-
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes
 **Purpose**:
@@ -29,19 +31,21 @@ Content for this page is detailed in the
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
 <article>
+<h2 class="sub-heading-two">Hero</h2>
+<div class="one">
 
-### Hero 
 + Text Content 
     + Find out how to get unlimited reach for your activities
 
-***
-
+</div>
 </article>
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes
 **Purpose**:
@@ -52,20 +56,24 @@ Content for this page is detailed in the
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
 <article>
+<h2 class="sub-heading-two">Booking Engine List</h2>
 
-### Booking Engine List
+<div class="one">
+
 + A selection of members who run booking engines that already use the data model will be displayed for user to see and search through
     + Booking Engine Members list 
     + [Booking Engines]( {{ site.baseurl }}{% link booking-engine.md %})  
 
-***
 
+</div>
 </article>
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes
 **Purpose**: A simple explanation of how to **publish / use** data Possibly a list of simple steps to reach the goal
@@ -76,10 +84,11 @@ Content for this page is detailed in the
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
-<article class="subgrid">
-<div class="block two call_to_action--steps">
+<article class="call_to_action">
+<div class="two brand-two-bc">
 
 ### Publish Data 
 A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas consectetur architecto cupiditate inventore.
@@ -90,7 +99,7 @@ A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas conse
 [Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .primary_cta}
 
 </div>
-<div class="block two call_to_action--steps">
+<div class="two brand-one-bc">
 
 ### Use Data
 A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas consectetur architecto cupiditate inventore.
@@ -103,9 +112,9 @@ A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas conse
 </div>
 </article>
 
-***
 
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes ~ CTA Block
 **Purpose**: A section aimed at developers who want to engage with the documentation and specifications
@@ -116,17 +125,18 @@ A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas conse
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
 <article class="call_to_action--block_level subgrid">
-<div class="block two twoleft">
+<div class="two twoleft">
 
 ### Developer Section
 Move over to the develop section and fire up your code editor.
 
 
 </div>
-<div class="block two twoleft">
+<div class="two twoleft">
 
 [Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
 

@@ -35,10 +35,10 @@ Content for this page is detailed in the
 
 
 <article class="hero">
-<div class="">
+<div class="two">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-<div class="">
+<div class="two">
 <h3>{{ page.title | escape }}</h3>
 <p>OpenActive is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active. It is being coordinated by the Open Data Institute (ODI), an independent, non-profit, non-partisan organisation. Our goal is to make data on what, where and when physical activity sessions happen, openly available. This “opportunity data” includes details of a yoga class (“how much will it cost?”) through to badminton court availability (“where and when is a court available?”).</p> 
 [Read More]( {{ site.baseurl }}{% link our-mission-full.md %}){: .primary_cta} 
@@ -47,7 +47,9 @@ Content for this page is detailed in the
 
 
 ***
-<article class="notes">
+
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes
 **Purpose**:  
@@ -58,18 +60,16 @@ Content for this page is detailed in the
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
-<article class="subgrid">
+<article>
 <div class="block two tworight">
-
 
 ### What Is Open Active?
 We are bringing together sports and physical activity organisations from across the sector to open up their opportunity data, from leisure operators to National Governing Bodies, local sports clubs to event providers, walking groups to fitness instructors. We are also helping other organisations to use this opportunity data to build interesting tools and experiences for consumers.
 
 </div>
-
-
 <div class="block two tworight">
 
 ### We support organisations to:
@@ -84,8 +84,8 @@ We are bringing together sports and physical activity organisations from across 
 </div>
 </article>
 
-***
-<article class="notes">
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes
 **Purpose**:  
@@ -96,12 +96,14 @@ We are bringing together sports and physical activity organisations from across 
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
 
-### Benefits
-<article class="subgrid">
-<div class="block three">
+
+<article class="title-row">
+<h2 class="three sub-heading-two">Benefits</h2>
+<div class="three">
 
 **SPORTS & PHYSICAL ACTIVITY PROVIDERS**
 + Make physical activity sessions and facilities easier to find: get more people through the door!
@@ -110,7 +112,7 @@ We are bringing together sports and physical activity organisations from across 
 + Collaborate on the future of OpenActive, and the data standards
 
 </div>
-<div class="block three">
+<div class="three">
     
 **DATA USERS AND DEVELOPERS**
 + Access open and usable data from across the sector
@@ -118,7 +120,7 @@ We are bringing together sports and physical activity organisations from across 
 + Shape the development of the standards and engage with data publishers
     
 </div>
-<div class="block three">
+<div class=" three">
 
 **INFLUENTIAL ORGANISATIONS**
 + Build participation in sport by improving the reach and visibility of opportunities
@@ -129,9 +131,10 @@ We are bringing together sports and physical activity organisations from across 
 </div>
 </article>
 
-***
 
-<article class="notes">
+
+<article class="note-wrap">
+<div class="notes">
 
 ##### Section Notes
 **Purpose**:  
@@ -142,6 +145,7 @@ We are bringing together sports and physical activity organisations from across 
 
 **Copy-writing Notes**:
 
+</div>
 </article>
 
 <article>
@@ -155,17 +159,15 @@ How it works call to action section
 </div>
 </article>
 
-***
 
 <article>
+<h2 class="sub-heading-two">Meet The Community</h2>
+<div class="one">
 
-***
-### Meet The Community
 + Community Section
     + Snippet
     + Thumbnail
     + [Community]( {{ site.baseurl }}{% link community.md %})
 
+</div>
 </article>
-
-***
