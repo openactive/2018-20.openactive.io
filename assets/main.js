@@ -65,22 +65,29 @@ $(document).ready(function () {
 
         })(window, document);
 
-        $(document).on("scroll", function () {
+        if ($(window).width() > 1200) {
+            $(document).on("scroll", function () {
 
-            if ($(document).scrollTop() > 80) {
-                $("header").removeClass("maximum").addClass("minimal");
-            } else {
-                $("header").removeClass("minimal").addClass("maximum");
-            }
+                if ($(document).scrollTop() > 80) {
+                    $("header").removeClass("maximum").addClass("minimal");
+                } else {
+                    $("header").removeClass("minimal").addClass("maximum");
+                }
 
-        });
-        if ($(window).width() < 1200) {
+            });
+        }
+        else if ($(window).width() < 1200) {
 
             $("header").removeClass("maximum").addClass("minimal");
 
         } else {
             $("header").removeClass("minimal").addClass("maximum");
         }
+        
+        var phantomHeight = $('header').outerHeight();
+        // Set the height of $sticky-phantom
+        $('#sticky-phantom').height(phantomHeight).show();
+        $(phantomHeight).css('height', '-10px');
 
 
         //HERO BLOCK
@@ -197,11 +204,7 @@ $(document).ready(function () {
         });
 
 
-        var phantomHeight = $('header').outerHeight();
-        // Set the height of $sticky-phantom
-        $('#sticky-phantom').height(phantomHeight).show();
-        $(phantomHeight).css('height', '-10px');
-
+        
 
     })(jQuery); // Fully reference jQuery after this point.
 });

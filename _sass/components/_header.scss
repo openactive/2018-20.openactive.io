@@ -8,7 +8,8 @@ header.maximum {
   align-items: stretch;
 
   @media only screen and (max-width: 1400px) {
-
+    grid-gap: 1rem;
+    grid-column-gap: 3rem;
   }
   .g-item {
     &.logo {
@@ -23,7 +24,6 @@ header.maximum {
       grid-row: 1/ span 2;
       display: grid;
       align-self: stretch;
-      padding-bottom: 2em;
       border-bottom: 1px solid $gray;
     }
     &.button {
@@ -33,9 +33,7 @@ header.maximum {
       display: inline-flex;
       justify-content: flex-end;
       flex-direction: column;
-      margin-top: 1em;
       align-items: flex-start;
-      padding-bottom: 2em;
       border-bottom: 1px solid $gray;
     }
     &.headline {
@@ -44,13 +42,6 @@ header.maximum {
       grid-row: 2/ 2;
       display: grid;
       align-self: stretch;
-      font-size: 1.8em;
-      margin: 0;
-      font-family: $font-family;
-      font-weight: 200;
-      padding-bottom: 1em;
-      border-bottom: 1px solid $gray;
-      color: $brand-blue;
     }
     @media only screen and (max-width: 1400px) {
       &.logo {
@@ -58,7 +49,9 @@ header.maximum {
         grid-column-end: 5;
         grid-row: 1/ span 1;
       }
-      .headline {
+      &.headline {
+        grid-column-start: 2;
+        grid-column-end: 12;
       }
       &.navigation {
         grid-column-start: 9;
@@ -71,14 +64,16 @@ header.maximum {
       }
     }
   }
-
+  div, aside, nav {
+    box-sizing: border-box;
+    vertical-align: top;
+  }
   #logo {
     position: relative;
     min-height: 150px;
-    margin: 1rem 0 0 0;
     text-align: right;
     border-bottom: 1px solid $gray;
-
+    margin: 1rem 0 0 0;
     a {
       display: inline-flex;
       align-items: flex-end;
@@ -91,18 +86,27 @@ header.maximum {
       width: 100%;
       max-width: 200px;
       min-width: 200px;
-      @media only screen and (max-width: 1400px) {
+    }
+    @media only screen and (max-width: 1400px) {
+      a {
+        padding-bottom: 1rem;
+      }
+      a svg {
         max-width: 250px;
+        min-width: 100px;
       }
     }
   }
-  div, aside, nav {
-    box-sizing: border-box;
-    vertical-align: top;
-  }
-  nav {
+  .navigation {
+    padding-bottom: 2rem;
+    .mobile_button {
+      display: none;
+      @media only screen and (max-width: 1400px) {
+        display: block!important;
+      }
+    }
     ul {
-      margin: 1em 0 0 0;
+      margin: 1rem 0 0 0;
       display: inline-flex;
       list-style: none;
       justify-content: space-between;
@@ -112,7 +116,6 @@ header.maximum {
       li {
         margin: 0 10px;
         list-style: none;
-
         font-size: 0.9em;
         color: $brand-blue;
         a, a:link, a:visited {
@@ -141,6 +144,8 @@ header.maximum {
     }
   }
   .button {
+    margin-top: 1rem;
+    padding-bottom: 2rem;
     #social {
       align-items: start;
       margin-bottom: 1rem;
@@ -167,7 +172,19 @@ header.maximum {
     .button--primary, .button-primary--alt {
       text-align: center;
       display: block;
-      margin-top: 1em;
+      margin-top: 1rem;
+    }
+  }
+  .headline{
+    padding-bottom: 2rem;
+    font-size: 1.8em;
+    margin: 0;
+    font-family: $font-family;
+    font-weight: 200;
+    border-bottom: 1px solid $gray;
+    color: $brand-blue;
+    @media only screen and (max-width: 1400px) {
+      padding-bottom: 1rem;
     }
   }
 }
@@ -222,11 +239,25 @@ header.minimal {
     align-self: auto;
     text-align: right;
     margin: 0 10px;
-    .mobile-nav {
+    .mobile_button {
       display: none;
+      @media only screen and (max-width: 1400px) {
+        display: block!important;
+      }
+    }
+    .mobile-nav {
       position: absolute;
       right: 1rem;
+      top: 7rem;
       background-color: white;
+      @media only screen and (max-width: 1400px) {
+        display: none;
+      }
+      @media only screen and (min-width: 1400px) {
+        display: block!important;
+        width: auto;
+        text-align: left;
+      }
       li {
         list-style: none;
       }
@@ -303,6 +334,44 @@ header.minimal {
         top: 18px;
         width: 0;
         left: 50%;
+      }
+    }
+    ul {
+
+      margin: 1rem 0 0 0;
+      display: inline-flex;
+      list-style: none;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 100%;
+      color: $brand-blue;
+      li {
+        margin: 0 10px;
+        list-style: none;
+        font-size: 0.9em;
+        color: $brand-blue;
+        a, a:link, a:visited {
+          color: $nav-color;
+          font-weight: 600;
+        }
+      }
+      li {
+        counter-increment: custom;
+      }
+
+      li:before {
+        content: counter(custom) " - ";
+      }
+
+      li:first-child {
+        counter-reset: custom;
+      }
+      li.active {
+        text-decoration: underline;
+        color: $brand-ten;
+        a {
+          color: $brand-ten;
+        }
       }
     }
   }

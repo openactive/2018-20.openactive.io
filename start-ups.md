@@ -177,8 +177,10 @@ Profile image + name + title + org
 </div>
 </article>
 
+
 <article>
 <h2 class="sub-heading-two">CTA: Apply for the OpenActive Accelerator</h2>
+
 
 <div class="one">
 
