@@ -139,30 +139,30 @@ Content for this page is detailed in the
 <div id="tabs">
 
 <ul class="tabsList" role="tablist">
-<li role="presentation" aria-selected="true"><a href="#how-it-works">How it Works</a></li>
-<li role="presentation" aria-selected="false"><a href="#booking-systems">Booking Systems</a></li>
-<li role="presentation" aria-selected="false"><a href="#activity-provider">Activity Providers</a></li>
-<li role="presentation" aria-selected="false"><a href="#use-data">Use Data</a></li>
-<div class="slider"></div>
-
-</ul>
-<div class="tabs-wrap">
+<li role="presentation" aria-selected="true">
+<span>
+<a href="#how-it-works">How it Works</a>
+</span>
 <div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
 
-### How it Works
-OpenActive makes it easier for people to discover and take part in sport and physical activities. Using
+<h3> How it Works</h3>
+<p>OpenActive makes it easier for people to discover and take part in sport and physical activities. Using
 open data your activities can become available, everywhere. From websites and apps that attract millions
-of users, to communities and services that engage local people.
-
-[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
+of users, to communities and services that engage local people.</p>
+<p><a href="How it Works">How it Works</a>( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}</p>
 
 </div>
+
+</li>
+
+<li role="presentation" aria-selected="false">
+<span>
+<a href="#booking-systems">Booking Systems</a>
+</span>
 <div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
 aria-labelledby="booking-systems">
 
-
-### Booking Systems
-
+<h3>Booking Systems</h3>
 <ol>
 <li>Add an open data tick-box to your system so your customers can publish activities openly</li>
 <li>Let customers publish activity listings by building a simple and standardised API</li>
@@ -171,16 +171,18 @@ aria-labelledby="booking-systems">
 millions of users, through to communities and services that engage local people.
 </li>
 </ol>
-
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
+<p><a href="Getting Started">Getting Started</a>( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}</p>
 
 </div>
+</li>
+<li role="presentation" aria-selected="false">
+<span>
+<a href="#activity-provider">Activity Providers</a>
+</span>
 <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true"
 aria-labelledby="activity-provider">
 
-
-### Activity Providers
-
+<h3>Activity Providers</h3>
 <ol>
 <li>You list activities in your existing website or booking system</li>
 <li>You use your website or booking system to publish your activity listings information using the
@@ -191,22 +193,31 @@ OpenActive data standards as a &ldquo; dataset &ldquo;
 through to communities and services that engage local people.
 </li>
 </ol>
-
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
+<p><a href="Getting Started">Getting Started</a>( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}</p>
 
 </div>
+
+</li>
+<li role="presentation" aria-selected="false">
+<span>
+<a href="#use-data">Use Data</a>
+</span>
 <div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
 
-
-### Use Data
-
-Pick a data source from the list available on OpenActive.
+<h3>Use Data</h3>
+<p>Pick a data source from the list available on OpenActive.
 Join their mailing list and review the documentation.
-Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
-
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
+Pull in the data to your website or app. If you need help reach out to the OpenActive Community.</p>
 
 </div>
+</li>
+
+</ul>
+<div class="tabs-wrap">
+
+
+
+
 </div>
 
 

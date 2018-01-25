@@ -271,7 +271,7 @@
         grid-column-start: 9;
         grid-column-end: 14;
         align-self: center;
-        margin:0;
+        margin: 0;
         @media only screen and (max-width: 1200px) {
           align-self: start;
           grid-column-start: 8;
@@ -773,14 +773,15 @@
     }
 
   }
-  .case-studies {  }
+  .case-studies {
+  }
   .tabs {
     #tabs {
       grid-column-start: 2;
       grid-column-end: 14;
       text-align: center;
+      margin-bottom: 12rem;
       .tabsList {
-        transform: skew(-30deg);
         display: inline-flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -790,7 +791,6 @@
         margin: 0;
         position: relative;
         width: 96%;
-        background-color: $brand-one;
         .slider {
           display: inline-block;
           width: 30px;
@@ -803,17 +803,29 @@
         }
 
         li {
-          flex: 1 1 auto;
-          align-self: auto;
           display: inline-block;
-          text-align: center;
-          margin: 0;
-          cursor: pointer;
+          list-style: none;
+          margin:0;
+          //flex: 1 1 auto;
+
+          span{
+
+            display: inline-block;
+            text-align: center;
+            margin: 0;
+            cursor: pointer;
+            transform: skew(-30deg);
+            background-color: $brand-one;
+            padding: 1rem 2rem;
+            &:hover {
+              background-color: $brand-two;
+            }
+          }
           a {
             font-weight: bold;
             color: $white;
             transform: skew(30deg);
-            padding: 1rem 2rem;
+
             display: inline-block;
             z-index: 17;
             position: relative;
@@ -822,34 +834,36 @@
               font-size: $base-font-size / 1.2
             }
           }
-          &:hover {
-            background-color: $brand-two;
-          }
-        }
 
-      }
-      .tabPanel {
-        text-align: left;
-        h3 {
-          font-size: 2.7rem;
-          font-family: $font-family;
-          font-weight: 600;
-          color: $brand-blue;
         }
-        p {
+        .tabPanel {
           text-align: left;
-          margin-top: 20px;
-          .primary_cta {
+          position: absolute;
+          width: 100%;
+          left: 0;
 
+          h3 {
+            font-size: 2.7rem;
+            font-family: $font-family;
+            font-weight: 600;
+            color: $brand-blue;
+          }
+          p {
+            text-align: left;
+            margin-top: 20px;
+            .primary_cta {
+
+            }
+          }
+        }
+        .tabPanel {
+          display: none;
+          &.current {
+            display: block;
           }
         }
       }
-      .tabPanel {
-        display: none;
-        &.current {
-          display: block;
-        }
-      }
+
       //@media only screen and (max-width: 700px) {
       //  .tabsList{
       //    width: 100%;
@@ -864,14 +878,16 @@
     }
 
   }
-  .call_to_action {  }
+  .call_to_action {
+  }
   .opportunity-data {
     figure {
       grid-column-start: 2;
       grid-column-end: 14;
     }
   }
-  .accelerator {  }
+  .accelerator {
+  }
   .post-list {
     .posts {
       grid-column-start: 2;
@@ -883,7 +899,7 @@
         }
         figure {
           grid-column: col  / span 3;
-          margin:0;
+          margin: 0;
         }
         div {
           grid-column: col 4 / span 9;
