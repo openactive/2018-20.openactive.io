@@ -8,11 +8,11 @@ collections:
   booking_engines:
     title: Booking Engines
     output: true
-    members: ''
+
   case_studies:
     title: Case Studies
     output: true
-     members: ''
+
   events:
     title: Events
     output: true
