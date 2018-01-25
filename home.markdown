@@ -50,7 +50,8 @@ Content for this page is detailed in the
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
 </div>
 <figure>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0"
+    allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </figure>
 </article>
 
