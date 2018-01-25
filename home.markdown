@@ -228,9 +228,10 @@ Pull in the data to your website or app. If you need help reach out to the OpenA
 </article>
 
 
-<article class="call_to_action">
-<div class="inner_wrapper subgrid">
-<div class="getting-started">
+<article class="call_to_action title-row">
+<h2 class="sub-heading-two">Is this the right fit for me?</h2>
+
+<div class="three getting-started">
 
 #### Getting Started
 Take the first step enabling open data in your system.
@@ -239,7 +240,7 @@ Take the first step enabling open data in your system.
 
 
 </div>
-<div class="developer">
+<div class="three developer">
 
 
 #### Developer
@@ -249,7 +250,7 @@ Get stuck into the docs and start using or publishing data today!
 
 
 </div>
-<div class="community">
+<div class="three community">
 
 #### Community
 What's happening in the community, and how you can get involved!
@@ -258,7 +259,7 @@ What's happening in the community, and how you can get involved!
 
 
 </div>
-</div>
+
 </article>
 
 <article class="note-wrap">
@@ -299,11 +300,9 @@ What's happening in the community, and how you can get involved!
 </div>
 </article>
 
-<article class="accelerator">
-
+<article class="call_to_action--full-width">
 <h2 class="sub-heading-two">Join</h2>
-
-<div class="call_to_action">
+<div class="one">
 
 ## The Accelerator Program
 Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem omnis in rem. Qui perspiciatis ut nobis maxime eligendi similique. Non culpa voluptatem enim nostrum et et.
