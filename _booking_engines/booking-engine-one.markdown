@@ -1,8 +1,6 @@
 ---
 title: Booking Engine One
-date: 2017-12-14 16:18:00 
-is_featured: true
-thumbnail_image: "/uploads/placeholder.png"
+date: 2017-12-14 16:18:00 Z
 layout: booking-engine
 ---
 

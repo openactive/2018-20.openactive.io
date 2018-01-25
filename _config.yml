@@ -2,22 +2,21 @@
 title: OpenActive
 timezone: UTC
 collections:
-  members:
-    title: Members
-    output: true
   booking_engines:
     title: Booking Engines
     output: true
-    members: ''
+    member: ''
   case_studies:
     title: Case Studies
     output: true
-     members: ''
   events:
     title: Events
     output: true
   faqs:
     title: FAQs
+    output: true
+  members:
+    title: Members
     output: true
   posts:
     title: Posts
