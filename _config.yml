@@ -5,6 +5,7 @@ collections:
   booking_engines:
     title: Booking Engines
     output: true
+    member: ''
   case_studies:
     title: Case Studies
     output: true
