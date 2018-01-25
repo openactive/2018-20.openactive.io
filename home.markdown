@@ -75,9 +75,9 @@ Content for this page is detailed in the
 <nav class="subgrid">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
-<div class="case-tab" data-tab="{{ forloop.index }}">
+<div class="case-tab" data-tab="{{ forloop.index }}" style="background:url('{{ post.thumbnail_image | relative_url }}')center center / cover no-repeat;">
 
-<!-- <img src="{{post.thumbnail_image | relative_url}}"> -->
+
 
 </div>
 {% endif %}
@@ -146,6 +146,7 @@ Content for this page is detailed in the
 <div class="slider"></div>
 
 </ul>
+<div class="tabs-wrap">
 <div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
 
 ### How it Works
@@ -205,6 +206,7 @@ Pull in the data to your website or app. If you need help reach out to the OpenA
 
 [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
+</div>
 </div>
 
 
