@@ -1,12 +1,15 @@
 .home, .page {
   article {
     display: grid;
-    grid-gap: 3em;
+    grid-gap: 3rem;
     grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
     align-items: start;
     margin-bottom: 3rem;
     @media only screen and (max-width: 900px) {
       grid-row-gap: 1rem;
+    }
+    @media only screen and (max-width: 700px) {
+      grid-gap: 1rem;
     }
     .one {
       grid-column-start: 2;
