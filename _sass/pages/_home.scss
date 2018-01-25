@@ -537,7 +537,7 @@
     figure {
       margin: 0;
       grid-column-start: 12;
-      grid-column-end: 18;
+      grid-column-end: -1;
       align-self: stretch;
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);

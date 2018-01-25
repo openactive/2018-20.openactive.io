@@ -218,7 +218,7 @@ The accelerator provides **training**, **mentorship**, access to **funding** and
 </div>
 </article>
 
-<article>
+<article >
 <h2 class="sub-heading-two">Is this the right fit for me?</h2>
 <div class="one">
 

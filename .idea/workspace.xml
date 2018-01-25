@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e575d07-4ee5-41e8-9825-c3bf2854e692" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/common/_variables.scss" afterPath="$PROJECT_DIR$/_sass/common/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/components/_grid.scss" afterPath="$PROJECT_DIR$/_sass/components/_grid.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/pages/_home.scss" afterPath="$PROJECT_DIR$/_sass/pages/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getting-started.md" afterPath="$PROJECT_DIR$/getting-started.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/how-it-works.md" afterPath="$PROJECT_DIR$/how-it-works.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/our-mission.md" afterPath="$PROJECT_DIR$/our-mission.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/start-ups.md" afterPath="$PROJECT_DIR$/start-ups.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,8 +86,8 @@
             <entry file="file://$PROJECT_DIR$/start-ups.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="625">
-                    <caret line="232" column="0" lean-forward="true" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+                  <first_editor relative-caret-position="256">
+                    <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
                     <folding />
                   </first_editor>
                   <second_editor>
@@ -152,8 +146,8 @@
               <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/_sass/pages/_home.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-30">
-                      <caret line="270" column="12" lean-forward="false" selection-start-line="270" selection-start-column="12" selection-end-line="270" selection-end-column="12" />
+                    <state relative-caret-position="207">
+                      <caret line="537" column="16" lean-forward="true" selection-start-line="537" selection-start-column="16" selection-end-line="537" selection-end-column="16" />
                       <folding>
                         <element signature="e#471#1402#0" expanded="false" />
                         <element signature="e#519#586#0" expanded="false" />
@@ -179,7 +173,6 @@
                         <element signature="e#9121#10900#0" expanded="false" />
                         <element signature="e#10923#11943#0" expanded="false" />
                         <element signature="e#11964#12043#0" expanded="false" />
-                        <element signature="e#12059#13195#0" expanded="false" />
                         <element signature="e#13209#13516#0" expanded="false" />
                       </folding>
                     </state>
@@ -436,8 +429,8 @@
         <option value="$PROJECT_DIR$/getting-started.md" />
         <option value="$PROJECT_DIR$/_sass/common/_variables.scss" />
         <option value="$PROJECT_DIR$/our-mission.md" />
-        <option value="$PROJECT_DIR$/_sass/pages/_home.scss" />
         <option value="$PROJECT_DIR$/start-ups.md" />
+        <option value="$PROJECT_DIR$/_sass/pages/_home.scss" />
       </list>
     </option>
   </component>
@@ -676,7 +669,7 @@
       <workItem from="1516720455274" duration="6478000" />
       <workItem from="1516727534731" duration="3053000" />
       <workItem from="1516743635070" duration="9102000" />
-      <workItem from="1516756086362" duration="31928000" />
+      <workItem from="1516756086362" duration="33275000" />
     </task>
     <task id="LOCAL-00001" summary="reworked the homepage">
       <created>1516699293034</created>
@@ -717,7 +710,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93379000" />
+    <option name="totallyTimeSpent" value="94726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3840" y="23" width="1920" height="1177" extended-state="6" />
@@ -1311,10 +1304,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/start-ups.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="256">
+            <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="270" column="12" lean-forward="false" selection-start-line="270" selection-start-column="12" selection-end-line="270" selection-end-column="12" />
+        <state relative-caret-position="207">
+          <caret line="537" column="16" lean-forward="true" selection-start-line="537" selection-start-column="16" selection-end-line="537" selection-end-column="16" />
           <folding>
             <element signature="e#471#1402#0" expanded="false" />
             <element signature="e#519#586#0" expanded="false" />
@@ -1340,22 +1346,8 @@
             <element signature="e#9121#10900#0" expanded="false" />
             <element signature="e#10923#11943#0" expanded="false" />
             <element signature="e#11964#12043#0" expanded="false" />
-            <element signature="e#12059#13195#0" expanded="false" />
             <element signature="e#13209#13516#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start-ups.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="625">
-            <caret line="232" column="0" lean-forward="true" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
