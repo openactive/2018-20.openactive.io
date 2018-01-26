@@ -6,5 +6,8 @@ is_secondary_navigation: true
 layout: members
 ---
 
-corrupti cumque dolorum illo. Tenetur mollitia beatae dolorem saepe dignissimos et sit.
+### A community innovating through collaboration
+
+This is an open-invitation community of pioneering organisations.
+If you are interested in getting involved please join us to find out more.
 

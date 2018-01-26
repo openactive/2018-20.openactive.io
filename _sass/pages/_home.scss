@@ -872,26 +872,11 @@
     }
   }
   .accelerator {  }
-  .post-list {
-    .posts {
-      grid-column-start: 2;
-      grid-column-end: 14;
-      .post {
-        margin-bottom: 2rem;
-        h3 {
-          margin-top: 0;
-        }
-        figure {
-          grid-column: col  / span 3;
-        }
-        div {
-          grid-column: col 4 / span 9;
 
-        }
-      }
-    }
-  }
 }
+
+// Sush getting jiggy in George's code.. lets discuss a plan! post-list being moved into compontents.. this might be the wrong approach! 
+
 
 .page {
 

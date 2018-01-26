@@ -69,22 +69,22 @@ $(document).ready(function () {
             $(document).on("scroll", function () {
 
                 if ($(document).scrollTop() > 80) {
-                    $("header").removeClass("maximum").addClass("minimal");
+                    $("#mainHeader").removeClass("maximum").addClass("minimal");
                 } else {
-                    $("header").removeClass("minimal").addClass("maximum");
+                    $("#mainHeader").removeClass("minimal").addClass("maximum");
                 }
 
             });
         }
         else if ($(window).width() < 1200) {
 
-            $("header").removeClass("maximum").addClass("minimal");
+            $("#mainHeader").removeClass("maximum").addClass("minimal");
 
         } else {
-            $("header").removeClass("minimal").addClass("maximum");
+            $("#mainHeader").removeClass("minimal").addClass("maximum");
         }
         
-        var phantomHeight = $('header').outerHeight();
+        var phantomHeight = $('#mainHeader').outerHeight();
         // Set the height of $sticky-phantom
         $('#sticky-phantom').height(phantomHeight).show();
         $(phantomHeight).css('height', '-10px');
