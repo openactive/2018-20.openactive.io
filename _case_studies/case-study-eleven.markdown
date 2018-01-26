@@ -1,7 +1,6 @@
 ---
 title: Case Study Eleven
-date: 2018-01-18 17:57:00 Z
-is_featured: true
+date: 2018-01-18 falsetrue
 thumbnail_image: "/uploads/placeholder.png"
 ---
 
