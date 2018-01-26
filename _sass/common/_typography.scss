@@ -56,6 +56,10 @@ h1 {
   font-size: $header-size;
   line-height: 0.85;
   color: $brand-blue;
+  & + p{
+    font-size: $header-size/  2;
+    font-family: $font-family;
+  }
 }
 
 // Heading Two Styles
@@ -70,6 +74,7 @@ h1 {
 // Styleguide typography.heading-two
 h2 {
   font-size: $header-size / 1.5;
+
 }
 
 // Sub Heading Two Styles
@@ -128,6 +133,10 @@ h2 {
 // Styleguide typography.heading-three
 h3 {
   font-size: $header-size / 1.5;
+    & + p{
+      font-size: $header-size/  2;
+      font-family: $font-family;
+    }
 }
 
 // Heading Four Styles
