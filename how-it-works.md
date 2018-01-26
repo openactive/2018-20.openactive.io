@@ -67,7 +67,9 @@ Content for this page is detailed in the
 </div>
 </article>
 
-<article>
+<article class="title-row">
+<h2 class="sub-heading-two">Why It Matters</h2>
+
 <div class="two">
 
 ![placeholder]({{ site.url }}/openactive/assets/images/placeholder.png)
@@ -75,7 +77,6 @@ Content for this page is detailed in the
 </div>
 <div class="two">
 
-### Why It Matters
 Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur consequatur cum eos. Adipisci eum magnam ut. Molestiae qui voluptas consequuntur maiores nemo quam. Unde autem enim fugiat est beatae ex. Provident deleniti ea qui.
    + Magni error voluptatem ut quo natus.
    + Et rerum illum quidem perspiciatis molestiae.
@@ -99,17 +100,26 @@ Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur co
 </div>
 </article>
 
-<article>
-<h2 class="sub-heading-two">Opportunity Data Explained</h2>
-<div class="one">
 
-+ A explanation of what Opportunity data **is** and what is **isn't**
-    + Graphics
-    + Text Content
-    + FAQ's
+<article markdown="0" class="opportunity-data title-row">
+<h2 class="sub-heading-two">Opportunity Data Explained</h2>
+<div class="two subgrid title-row">
+<i class="two">{% include time.svg %}</i>
+<i class="two">{% include cost.svg %}</i>
+<i class="two">{% include website.svg %}</i>
+<i class="two">{% include location.svg %}</i>
+</div>
+<div class="two">
+
+<h4>What it is:</h4>
+<p>Doloribus quaerat et quaerat qui molestias provident itaque. Aut repudiandae quam tenetur eius. Laudantium repellat unde et pariatur.</p>
+
+<h4>What it isn't:</h4>
+<p>Doloribus quaerat et quaerat qui molestias provident itaque. Aut repudiandae quam tenetur eius. Laudantium repellat unde et pariatur.</p>
 
 </div>
 </article>
+
 
 
 <article class="note-wrap">

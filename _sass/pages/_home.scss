@@ -463,16 +463,20 @@
       h1 {
         margin-top: 0;
       }
+      .one{}
+      .two{
+        align-self: center;
+      }
     }
 
   }
-  .subgrid {
+  div.subgrid {
     display: grid;
     grid-template-columns: repeat(12, unquote("[col]") 1fr);
     grid-gap: 1rem;
     grid-column-start: 2;
     grid-column-end: 14;
-    div.two {
+    .two {
       &:nth-child(2n+1) {
         grid-column: col / span 6;
       }
@@ -521,7 +525,7 @@
       }
 
     }
-    div.three {
+    .three {
       &:nth-child(3n+1) {
         grid-column: col / span 4;
       }
@@ -699,7 +703,7 @@
         }
       }
     }
-    div.four {
+    .four {
       &:nth-child(4n+1) {
         grid-column: col / span 3;
       }
@@ -729,7 +733,7 @@
         }
       }
     }
-    div.six {
+    .six {
       &:nth-child(6n+1) {
         grid-column: col / span 2;
       }

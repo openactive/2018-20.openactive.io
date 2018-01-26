@@ -304,7 +304,7 @@ What's happening in the community, and how you can get involved!
 </article>
 
 <article markdown="0" class="opportunity-data title-row">
-<h2 class="sub-heading-two"> What is <br>Opportunity Data</h2>
+<h2 class="sub-heading-two"> What is <br>Open Data</h2>
 <i class="four">{% include time.svg %}</i>
 <i class="four">{% include cost.svg %}</i>
 <i class="four">{% include website.svg %}</i>
