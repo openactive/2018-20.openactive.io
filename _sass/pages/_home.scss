@@ -780,17 +780,11 @@
       grid-column-start: 2;
       grid-column-end: 14;
       text-align: center;
-      margin-bottom: 12rem;
       .tabsList {
-        display: inline-flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-content: stretch;
-        align-items: stretch;
-        margin: 0;
+        margin: 0 auto;
         position: relative;
         width: 96%;
+
         .slider {
           display: inline-block;
           width: 30px;
@@ -800,32 +794,71 @@
           bottom: 0;
           transition: all .4s linear;
           background-color: $brand-five;
+          grid-row: 1 / span 1;
         }
-
-        li {
+        .tablink {
           display: inline-block;
           list-style: none;
-          margin:0;
-          //flex: 1 1 auto;
+          margin: 0;
+          grid-row: 1;
+          text-align: center;
+          cursor: pointer;
+          transform: skew(-30deg);
+          background-color: $brand-one;
+          padding: 1rem 2rem;
 
-          span{
-
-            display: inline-block;
-            text-align: center;
-            margin: 0;
-            cursor: pointer;
-            transform: skew(-30deg);
-            background-color: $brand-one;
-            padding: 1rem 2rem;
-            &:hover {
-              background-color: $brand-two;
+          .icon_wrap_accordian {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 5%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 10px;
+            .icon {
+              color: $brand-one;
+              right: 20px;
+              width: 10px;
+              height: 10px;
+              background-image: url("../assets/images/right_arrow_white.svg");
+              background-size: cover;
+              background-position: center;
+              transition: transform 0.5s;
+              cursor: pointer;
+              align-self: center;
+            }
+            @media only screen and (min-width: 1000px) {
+              display: none;
+            }
+          }
+          &:nth-child(1) {
+            grid-column: col / span 3;
+          }
+          &:nth-child(3) {
+            grid-column: col 4 / span 3;
+          }
+          &:nth-child(5) {
+            grid-column: col 7 / span 3;
+          }
+          &:nth-child(7) {
+            grid-column: col 10/ span 3;
+          }
+          &:hover {
+            background-color: $brand-two;
+          }
+          &.current {
+            background: $brand-three;
+            .icon {
+              transform: rotate(90deg);
+              transition: transform 0.5s;
             }
           }
           a {
             font-weight: bold;
             color: $white;
             transform: skew(30deg);
-
             display: inline-block;
             z-index: 17;
             position: relative;
@@ -833,14 +866,16 @@
               padding: 1rem 0.5rem;
               font-size: $base-font-size / 1.2
             }
+            @media only screen and (max-width: 1000px) {
+              padding: 0;
+            }
           }
-
         }
         .tabPanel {
+          grid-column: col / span 12;
+          grid-row: 2;
           text-align: left;
-          position: absolute;
-          width: 100%;
-          left: 0;
+          margin-bottom: 1rem;
 
           h3 {
             font-size: 2.7rem;
@@ -860,6 +895,24 @@
           display: none;
           &.current {
             display: block;
+          }
+        }
+        @media only screen and (min-width: 1000px) {
+          display: grid;
+          grid-template-columns: repeat(12, unquote("[col]") 1fr);
+          grid-gap: 0;
+
+        }
+        @media only screen and (max-width: 1000px) {
+          width:100%;
+          .tablink {
+            transform: skew(0deg);
+            width: 100%;
+            text-align: left;
+            box-sizing: border-box;
+            a {
+              transform: skew(0deg);
+            }
           }
         }
       }
