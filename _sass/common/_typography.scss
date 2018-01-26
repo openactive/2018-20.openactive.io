@@ -99,6 +99,7 @@ h2 {
   line-height: 1;
   font-size: $header-size / 2;
   font-weight: 700;
+  align-self: start;
   @media only screen and (max-width: 1200px) {
     grid-column-start: 2;
     grid-column-end: 14;
