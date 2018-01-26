@@ -74,19 +74,16 @@ Content for this page is detailed in the
 <h2 class="sub-heading-two">Case<br> Studies</h2>
 <nav class="subgrid">
 {% for post in site.case_studies %}
-
+{% assign theImage = post.thumbnail_image %}
 {% if post.is_featured %}
+{% if post.member %}
+{% assign theMember = site.members | where:"title", post.member  | first %}
+{% assign theImage = theMember.thumbnail_image %}
+{% endif %}
 
-{% for inner_post in site.members %}
-
-{% if inner_post.title ==  post.member %}
 <div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
-<img src="{{inner_post.thumbnail_image | relative_url}}"/>
+<img src="{{ theImage  | relative_url}}"/>
 </div>
-
-{% endif %} 
-
-{% endfor %}
 
 {% endif %}
 
