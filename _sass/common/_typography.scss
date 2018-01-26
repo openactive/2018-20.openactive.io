@@ -56,7 +56,7 @@ h1 {
   font-size: $header-size;
   line-height: 0.85;
   color: $brand-blue;
-  & + p{
+  & + p, ul li p{
     font-size: $header-size/  2;
     font-family: $font-family;
   }

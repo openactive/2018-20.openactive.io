@@ -40,11 +40,11 @@ Content for this page is detailed in the
 <div>
 <h1>Welcome to OpenActive</h1>
 <ul class="hero_tab_content">
-<li class="hero-content" id="h1"><h2>Increase our nation’s physical health and transform a sector with
+<li class="hero-content" id="h1"><p>Increase our nation’s physical health and transform a sector with
     open data</p></li>
-<li class="hero-content" id="h2"><h2>Boost visibility of your activities and reach everyone,
+<li class="hero-content" id="h2"><p>Boost visibility of your activities and reach everyone,
     everywhere</p></li>
-<li class="hero-content" id="h3"><h2>Innovate with open data to make discovering ways to get active
+<li class="hero-content" id="h3"><p>Innovate with open data to make discovering ways to get active
     easier</p></li>
 </ul>
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
