@@ -136,17 +136,17 @@ Content for this page is detailed in the
 
 <h2 class="sub-heading-two">What do you<br> want to do?</h2>
 
-<div id="tabs" >
+<div id="tabs">
 
-<ul class="tabsList " role="tablist" >
+<div class="tabsList " role="tablist" >
 
 
-<li class="tablink" role="presentation" aria-selected="true">
+<h4 class="tablink" role="presentation" aria-selected="true">
 <a href="#how-it-works">How it Works</a>
-<div class="icon_wrap_accordian">
-<div class="icon"></div>
-</div>
-</li>
+<i class="icon_wrap_accordian">
+<i class="icon"></i>
+</i>
+</h4>
 
 <div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
 <h3> How it Works</h3>
@@ -157,12 +157,12 @@ of users, to communities and services that engage local people.</p>
 </div>
 
 
-<li class="tablink" role="presentation" aria-selected="false">
+<h4 class="tablink" role="presentation" aria-selected="false">
 <a href="#booking-systems">Booking Systems</a>
-<div class="icon_wrap_accordian">
-<div class="icon"></div>
-</div>
-</li>
+<i class="icon_wrap_accordian">
+<i class="icon"></i>
+</i>
+</h4>
 
 <div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
 aria-labelledby="booking-systems">
@@ -182,12 +182,12 @@ millions of users, through to communities and services that engage local people.
 
 
 
-<li class="tablink" role="presentation" aria-selected="false">
+<h4 class="tablink" role="presentation" aria-selected="false">
 <a href="#activity-provider">Activity Providers</a>
-<div class="icon_wrap_accordian">
-<div class="icon"></div>
-</div>
-</li>
+<i class="icon_wrap_accordian">
+<i class="icon"></i>
+</i>
+</h4>
 
 <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true"
 aria-labelledby="activity-provider">
@@ -204,16 +204,15 @@ through to communities and services that engage local people.
 </li>
 </ol>
 <a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Getting Started</a>
-
 </div>
 
 
-<li class="tablink" role="presentation" aria-selected="false">
+<h4 class="tablink" role="presentation" aria-selected="false">
 <a href="#use-data">Use Data</a>
-<div class="icon_wrap_accordian">
-<div class="icon"></div>
-</div>
-</li>
+<i class="icon_wrap_accordian">
+<i class="icon"></i>
+</i>
+</h4>
 
 <div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
 
@@ -227,14 +226,7 @@ Pull in the data to your website or app. If you need help reach out to the OpenA
 
 <!-- <div class="slider"></div> -->
 
-</ul>
-<div class="tabs-wrap">
-
-
-
-
 </div>
-
 
 </div>
 

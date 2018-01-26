@@ -144,8 +144,8 @@ $(document).ready(function () {
 
         //TABS
         //cache a reference to the tabs
-        var tabsTab = $('.tabsList li');
-        $('.tabsList li:first')
+        var tabsTab = $('.tabsList .tablink');
+        $('.tabsList .tablink:first')
             .addClass('current')
             .attr("aria-selected", "true");
 
@@ -158,7 +158,7 @@ $(document).ready(function () {
         tabsTab.click(function ($e) {
             $e.preventDefault();
             var tab_idTab = $(this).find('a').attr('href');
-            $('.tabsList li')
+            $('.tabsList .tablink')
                 .removeClass('current')
                 .attr("aria-selected", "false");
 
