@@ -167,21 +167,8 @@ Sapiente vitae soluta eius aspernatur. Qui impedit qui et facere autem. Quidem r
 </article>
 
 
-<article>
-<h2 class="sub-heading-two">Meet The Community</h2>
-<div class="one">
-
-+ Community Section
-    + Snippet
-    + Thumbnail
-    + [Community]( {{ site.baseurl }}{% link community.md %})
-
-</div>
-</article>
-
-
 <article class="post-list">
-<h2 class="sub-heading-two"> Latest News</h2>
+<h2 class="sub-heading-two">Meet The Community</h2>
 <div class="posts">
 <div class="post subgrid">
 <figure>
