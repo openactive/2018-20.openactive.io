@@ -229,37 +229,37 @@
         }
         .case-tab {
           margin-bottom: 0;
-          border: 2px solid $gray;
-          border-radius: 50%;
+          //border: 2px solid $gray;
+          //border-radius: 50%;
           position: relative;
           cursor: pointer;
-          @include aspect-ratio(1, 1);
+          //@include aspect-ratio(1, 1);
           //min-height: 60px;
           img {
             //border-radius: 50%;
-            position: absolute;
-            height: 100%;
+            //position: absolute;
+            //height: 100%;
           }
-          &:nth-child(6n+1) {
-            grid-column: col / span 2;
-          }
-          &:nth-child(6n+2) {
-            grid-column: col 3 / span 2;
-          }
-          &:nth-child(6n+3) {
-            grid-column: col 5 / span 2;
-          }
-          &:nth-child(6n+4) {
-            grid-column: col 7/ span 2;
-          }
-          &:nth-child(6n+5) {
-            grid-column: col 9/ span 2;
-          }
-          &:nth-child(6n+6) {
-            grid-column: col 11/ span 2;
+          // &:nth-child(6n+1) {
+          //   grid-column: col / span 2;
+          // }
+          // &:nth-child(6n+2) {
+          //   grid-column: col 3 / span 2;
+          // }
+          // &:nth-child(6n+3) {
+          //   grid-column: col 5 / span 2;
+          // }
+          // &:nth-child(6n+4) {
+          //   grid-column: col 7/ span 2;
+          // }
+          // &:nth-child(6n+5) {
+          //   grid-column: col 9/ span 2;
+          // }
+          // &:nth-child(6n+6) {
+          //   grid-column: col 11/ span 2;
 
-          }
-          @media only screen and (max-width: 1200px) {
+          // }
+     //     @media only screen and (max-width: 1200px) {
             &:nth-child(4n+1) {
               grid-column: col / span 3;
             }
@@ -273,7 +273,7 @@
               grid-column: col 10/ span 3;
 
             }
-          }
+        //  }
           @media only screen and (max-width: 900px) {
             &:nth-child(3n+1) {
               grid-column: col / span 4;

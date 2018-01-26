@@ -74,13 +74,22 @@ Content for this page is detailed in the
 <h2 class="sub-heading-two">Case<br> Studies</h2>
 <nav class="subgrid">
 {% for post in site.case_studies %}
+
 {% if post.is_featured %}
-<div class="case-tab" data-tab="{{ forloop.index }}" style="background:url('{{ post.thumbnail_image | relative_url }}')center center / cover no-repeat;">
 
+{% for inner_post in site.members %}
 
-
+{% if inner_post.title ==  post.member %}
+<div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
+<img src="{{inner_post.thumbnail_image | relative_url}}"/>
 </div>
+
+{% endif %} 
+
+{% endfor %}
+
 {% endif %}
+
 {% endfor %}
 </nav>
 
@@ -88,6 +97,8 @@ Content for this page is detailed in the
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="case-content" id="{{ forloop.index }}">
+
+
 <h3>{{ post.title | escape }}</h3>
 {{post.content}}
 <a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>

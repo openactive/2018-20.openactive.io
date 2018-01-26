@@ -9,6 +9,7 @@ solving_the_problem: How did you solve the problem
 the_impact: What was the impact?
 lessons_learned: What lessons were learned?
 layout: case-study
+member: Active Essex
 ---
 
 Excepturi repellat omnis nulla explicabo maxime est.
