@@ -54,13 +54,14 @@ Content for this page is detailed in the
 </article>
 
 <article>
-<div class="two">
+<div class="one">
 
 OpenActive is a community-led initiative using open data to help people get active.
 Our goal is to collect and share opportunity data on what, where, and when physical activity sessions happen, and to make this information openly available to everyone, transforming the way people discover, access, and take part in new activities. 
 
 We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together. 
-
+</div>
+</article>
 
 <article class="hero--simple">
 <div class="two">
