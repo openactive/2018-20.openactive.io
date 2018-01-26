@@ -1,6 +1,6 @@
 ---
 title: Case Study Three
-date: 2018-01-18 15:38:00
+date: 2018-01-18 15:38:00 Z
 is_featured: true
 thumbnail_image: "/uploads/placeholder.png"
 facts_figures: 3 -5 facts and figures

@@ -1,6 +1,6 @@
 ---
 title: Active Sussex
-date: 2018-01-26 01:18:00
+date: 2018-01-26 01:18:00 Z
 is_featured: true
 thumbnail_image: "/uploads/active_sussex.png"
 layout: member
