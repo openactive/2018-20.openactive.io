@@ -127,19 +127,19 @@ $base-font-size: 16px;
 // Paragraph Styles
 $paragraph-color: #5A5A5A;
 $paragraph-size: rem(17px);
-$paragraph-line-height: 1.5em;
-$paragraph-margin: 10px;
+$paragraph-line-height: 1.5;
+$paragraph-margin: 1.3rem;
 
 // Header Styles
 $header-color: #5A5A5A;
 $header-size: rem(45px);
-$header-line-height: 1.25em;
+$header-line-height: 1.25rem;
 $header-margin: $paragraph-margin * 1.2;
 
 // Blockquote Styles
-$blockquote-color: #505050;
-$blockquote-size: rem(25px);
-$blockquote-line-height: 1.5em;
+$blockquote-color: #5A5A5A;
+$blockquote-size: rem(18px);
+$blockquote-line-height: 1.6;
 $blockquote-margin: $paragraph-margin * 1.5;
 
 // Links
