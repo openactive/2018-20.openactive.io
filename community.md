@@ -19,11 +19,23 @@ Content for this page is detailed in the
 </article>
 
 
-### Hero Block
-+ Text Content that introduces the community
+<article markdown="0" class="hero--sub">
 
-***
-***
+<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+
+<div>
+
+<h1>The Community</h1>
+<p>Introduction to the community goes here.</p>
+
+
+</div>
+<figure>
+<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+</figure>
+
+</article>
+
 ### Statistics 
 + Graphics and icons to represent the number of
     + Community Members
