@@ -33,20 +33,23 @@ Content for this page is detailed in the
 </div>
 </article>
 
-<article class="hero">
-<div class="two">
-![placeholder]({{ site.url }}/openactive/assets/images/placeholder.png)
+<article markdown="0" class="hero--sub">
+
+<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+
+<div>
+
+<h1>The Accelerator Programme</h1>
+<p>OpenActive makes it as easy as possible for people to discover and particpate in your activities. It does this by making your activities.</p>
+
 
 </div>
-<div class="two">
+<figure>
+<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+</figure>
 
-#### The OpenActive Accelerator
-The OpenActive Accelerator is part of groundbreaking open data initiative set to disrupt digital innovation in the sport and physical activity sector.
-
-
-[Apply Now]( {{ site.baseurl }}){: .primary_cta}
-</div>
 </article>
+
 
 
 <article class="note-wrap">
