@@ -34,11 +34,12 @@ Content for this page is detailed in the
 </div>
 </article>
 
-<article class='hero--sub'>
+<article markdown="0" class="hero--sub">
+<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
 <div>
 
-# The Accelerator Programme
-OpenActive makes it as easy as possible for people to discover and particpate in your activities. It does this by making your activities.
+<h1>The Accelerator Programme</h1>
+<p>OpenActive makes it as easy as possible for people to discover and particpate in your activities. It does this by making your activities.</p>
 
 
 </div>
