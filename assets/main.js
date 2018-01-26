@@ -65,30 +65,6 @@ $(document).ready(function () {
 
         })(window, document);
 
-        if ($(window).width() > 1200) {
-            $(document).on("scroll", function () {
-
-                if ($(document).scrollTop() > 80) {
-                    $("#mainHeader").removeClass("maximum").addClass("minimal");
-                } else {
-                    $("#mainHeader").removeClass("minimal").addClass("maximum");
-                }
-
-            });
-        }
-        else if ($(window).width() < 1200) {
-
-            $("#mainHeader").removeClass("maximum").addClass("minimal");
-
-        } else {
-            $("#mainHeader").removeClass("minimal").addClass("maximum");
-        }
-        
-        var phantomHeight = $('#mainHeader').outerHeight();
-        // Set the height of $sticky-phantom
-        $('#sticky-phantom').height(phantomHeight).show();
-        $(phantomHeight).css('height', '-10px');
-
 
         //HERO BLOCK
         //cache a reference to the tabs
@@ -203,8 +179,6 @@ $(document).ready(function () {
 
         });
 
-
-        
 
     })(jQuery); // Fully reference jQuery after this point.
 });

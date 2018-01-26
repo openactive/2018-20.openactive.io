@@ -34,15 +34,26 @@ Content for this page is detailed in the
 </div>
 </article>
 
-<article>
-<h2 class="sub-heading-two">Hero</h2>
-<div class="one">
 
-+ Text Content
-    + Find out how to get unlimited reach for your activities
+<article markdown="0" class="hero--sub">
+
+<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+
+<div>
+
+<h1>Getting Started</h1>
+<p>Find out how to get unlimited reach for your activities</p>
+
 
 </div>
+<figure>
+<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+</figure>
+
 </article>
+
+
+
 
 <article class="note-wrap">
 <div class="notes">
