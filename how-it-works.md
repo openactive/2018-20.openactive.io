@@ -35,6 +35,7 @@ Content for this page is detailed in the
 </article>
 
 
+
 <article markdown="0" class="hero--sub">
 
 <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
@@ -61,13 +62,21 @@ Our goal is to collect and share opportunity data on what, where, and when physi
 We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together. 
 
 
+<article class="hero--simple">
+<div class="two">
+<h1>{{ page.title | escape }}</h1>
+<p>OpenActive is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active.</p>
+<p> It is being coordinated by the Open Data Institute (ODI), an independent, non-profit, non-partisan organisation. Our goal is to make data on what, where and when physical activity sessions happen, openly available. This “opportunity data” includes details of a yoga class (“how much will it cost?”) through to badminton court availability (“where and when is a court available?”).</p>
+[Read More]( {{ site.baseurl }}{% link our-mission-full.md %}){: .primary_cta}
 </div>
 <div class="two">
+
 ![Hero]({{ site.url }}/openactive/assets/images/icons-animation.gif)
 
 </div>
-<h2 class="sub-heading-two">How It Works</h2>
+
 </article>
+
 
 <article class="note-wrap">
 <div class="notes">

@@ -17,6 +17,11 @@
     }
     .two {
       grid-row: auto;
+      * {
+        &:nth-child(1) {
+          margin-top: 0;
+        }
+      }
       &:nth-child(2n+1) {
         grid-column-start: 2;
         grid-column-end: 8;
@@ -371,14 +376,17 @@
         }
       }
       .one {
-        padding: 4rem 0 2rem 0;
+        padding: 4rem 0 4rem 0;
         grid-column-start: 2;
         grid-column-end: 12;
         @media only screen and (max-width: 1200px) {
           padding: 0 0 2rem 0;
         }
-        h2 {
+        h3 {
           margin-top: 0;
+          &+p{
+            font-size: $base-font-size;
+          }
         }
       }
 
@@ -412,7 +420,7 @@
         grid-column-start: 2;
         grid-column-end: 8;
         grid-row: 1;
-        h1{
+        h1 {
           margin-top: 0;
         }
       }
@@ -426,7 +434,7 @@
         clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
         background-color: $brand-six;
         position: relative;
-        border-right:3rem solid $white;
+        border-right: 3rem solid $white;
 
         & > div {
           -webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 35% 100%);
@@ -439,8 +447,8 @@
         }
       }
       @media only screen and (max-width: 1400px) {
-        figure{
-          border-right:0 solid $white;
+        figure {
+          border-right: 0 solid $white;
           grid-column-start: 7;
           grid-column-end: 14;
           & > div {
@@ -450,6 +458,11 @@
         }
       }
 
+    }
+    &.hero--simple {
+      h1 {
+        margin-top: 0;
+      }
     }
 
   }
@@ -787,7 +800,7 @@
 }
 
 .home {
-  .hero {
+  .hero--home {
 
     nav {
       grid-column-start: 1;

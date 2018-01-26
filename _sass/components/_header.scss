@@ -1,5 +1,5 @@
-@media only screen and (min-width: 1400px) {
-  header {
+@media only screen and (min-width: 1200px) {
+  body > header {
     position: fixed;
     z-index: 20;
     background-color: white;
@@ -11,6 +11,7 @@
     @media only screen and (max-width: 1400px) {
       grid-gap: 1rem;
       grid-column-gap: 3rem;
+
     }
     .g-item {
       &.logo {
@@ -191,13 +192,20 @@
       }
     }
   }
-  #sticky-phantom{
-    height:200px;
+
+  #sticky-phantom {
+    height: 200px;
+  }
+  @media only screen and (max-width: 1400px) {
+    #sticky-phantom {
+      height: 240px;
+    }
   }
 }
+
 //small styles
-@media only screen and (max-width: 1400px) {
-  header {
+@media only screen and (max-width: 1200px) {
+  body > header {
     position: fixed;
     border-bottom: 1px solid $gray;
     display: flex;
@@ -430,9 +438,9 @@
       @media only screen and (max-width: 600px) {
         display: none;
       }
-      }
+    }
   }
-  #sticky-phantom{
-    height:100px;
+  #sticky-phantom {
+    height: 100px;
   }
 }
