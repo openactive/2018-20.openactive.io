@@ -183,6 +183,26 @@
         grid-column-end: 14;
       }
     }
+    &.title-row{
+      .four {
+        &:nth-child(4n+2) {
+          grid-column-start: 2;
+          grid-column-end: 5;
+        }
+        &:nth-child(4n+3) {
+          grid-column-start: 5;
+          grid-column-end: 8;
+        }
+        &:nth-child(4n+4) {
+          grid-column-start: 8;
+          grid-column-end: 11;
+        }
+        &:nth-child(4n+5) {
+          grid-column-start: 11;
+          grid-column-end: 14;
+        }
+      }
+    }
     .five {
     }
     .six {
@@ -935,10 +955,7 @@
   .call_to_action {
   }
   .opportunity-data {
-    figure {
-      grid-column-start: 2;
-      grid-column-end: 14;
-    }
+    align-items: center;
   }
   .accelerator {  }
 

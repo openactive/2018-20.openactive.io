@@ -295,16 +295,12 @@ What's happening in the community, and how you can get involved!
 </div>
 </article>
 
-<article class="opportunity-data">
+<article markdown="0" class="opportunity-data title-row">
 <h2 class="sub-heading-two"> What is <br>Opportunity Data</h2>
-
-<figure>
-
-+ An explanation to what and what does not constitute Opportunity Data.
-+ Graphics
-+ Text Content
-</figure>
-
+<i class="four">{% include time.svg %}</i>
+<i class="four">{% include cost.svg %}</i>
+<i class="four">{% include website.svg %}</i>
+<i class="four">{% include location.svg %}</i>
 </article>
 
 <article class="note-wrap">
