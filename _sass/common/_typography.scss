@@ -132,9 +132,11 @@ h2 {
 //
 // Styleguide typography.heading-three
 h3 {
+  color: $brand-blue;
   font-size: $header-size / 1.5;
+  line-height: 1.9rem;
     & + p{
-      font-size: $header-size/  2;
+      font-size: $header-size/  2.16346;
       font-family: $font-family;
     }
 }
@@ -150,6 +152,7 @@ h3 {
 //
 // Styleguide typography.heading-four
 h4 {
+  color: $brand-blue;
   font-size: $header-size / 1.7;
 }
 
@@ -163,7 +166,8 @@ h4 {
 //
 // Styleguide typography.heading-five
 h5 {
-  font-size: $header-size / 1.8;
+  color: $brand-blue;
+  font-size: $header-size / 2.16346;
 }
 
 // Heading Six Styles
@@ -177,7 +181,15 @@ h5 {
 //
 // Styleguide typography.heading-six
 h6 {
-  font-size: $header-size / 2;
+
+  font-size: $header-size / 3.75;
+  text-transform: uppercase;
+  margin-bottom:.5rem;
+  letter-spacing: 0;
+  & + p{
+    margin-top:0;
+    font-size:$header-size /3.75;
+  }
 }
 
 // Paragraphs
@@ -273,13 +285,17 @@ hr {
 }
 
 // Blockquote
-blockquote {
+blockquote > p {
   margin: $blockquote-margin 0;
   font-size: $blockquote-size;
   line-height: $blockquote-line-height;
   color: $blockquote-color;
-  text-align: center;
+  padding-left: 2rem;
   font-style: italic;
+  border-left: 1px solid;
+
+
+
 }
 
 // Tables
