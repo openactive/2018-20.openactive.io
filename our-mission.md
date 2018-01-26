@@ -34,19 +34,17 @@ Content for this page is detailed in the
 </article>
 
 
-<article class="hero">
-<div class="two">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<article class="hero--simple">
+<div class="one">
+<h1>{{ page.title | escape }}</h1>
+<p>OpenActive is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active.</p>
+<p> It is being coordinated by the Open Data Institute (ODI), an independent, non-profit, non-partisan organisation. Our goal is to make data on what, where and when physical activity sessions happen, openly available. This “opportunity data” includes details of a yoga class (“how much will it cost?”) through to badminton court availability (“where and when is a court available?”).</p>
+[Read More]( {{ site.baseurl }}{% link our-mission-full.md %}){: .primary_cta}
 </div>
-<div class="two">
-<h3>{{ page.title | escape }}</h3>
-<p>OpenActive is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active. It is being coordinated by the Open Data Institute (ODI), an independent, non-profit, non-partisan organisation. Our goal is to make data on what, where and when physical activity sessions happen, openly available. This “opportunity data” includes details of a yoga class (“how much will it cost?”) through to badminton court availability (“where and when is a court available?”).</p> 
-[Read More]( {{ site.baseurl }}{% link our-mission-full.md %}){: .primary_cta} 
-</div>
+
 </article>
 
 
-***
 
 <article class="note-wrap">
 <div class="notes">
@@ -63,14 +61,15 @@ Content for this page is detailed in the
 </div>
 </article>
 
-<article>
-<div class="block two tworight">
+<article class="title-row">
+<h2 class="sub-heading-two">What Is Open Active?</h2>
 
-### What Is Open Active?
-We are bringing together sports and physical activity organisations from across the sector to open up their opportunity data, from leisure operators to National Governing Bodies, local sports clubs to event providers, walking groups to fitness instructors. We are also helping other organisations to use this opportunity data to build interesting tools and experiences for consumers.
+<div class="two tworight">
+
+<p class="h3-copy">We are bringing together sports and physical activity organisations from across the sector to open up their opportunity data, from leisure operators to National Governing Bodies, local sports clubs to event providers, walking groups to fitness instructors. We are also helping other organisations to use this opportunity data to build interesting tools and experiences for consumers.</p>
 
 </div>
-<div class="block two tworight">
+<div class="two tworight">
 
 ### We support organisations to:
 
@@ -102,7 +101,7 @@ We are bringing together sports and physical activity organisations from across 
 
 
 <article class="title-row">
-<h2 class="three sub-heading-two">Benefits</h2>
+<h2 class="sub-heading-two">Benefits</h2>
 <div class="three">
 
 **SPORTS & PHYSICAL ACTIVITY PROVIDERS**
@@ -148,15 +147,23 @@ We are bringing together sports and physical activity organisations from across 
 </div>
 </article>
 
-<article>
-<div class="block one call_to_action">
 
-### How It Works
-How it works call to action section
+<article class="call_to_action--full-width">
+<h2 class="sub-heading-two">What's Next?</h2>
+<div class="one">
+
+### How it works
+Sapiente vitae soluta eius aspernatur. Qui impedit qui et facere autem. Quidem reprehenderit sed natus repudiandae.
 
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
 
+
 </div>
+
+<figure>
+<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+</figure>
+
 </article>
 
 
@@ -169,5 +176,25 @@ How it works call to action section
     + Thumbnail
     + [Community]( {{ site.baseurl }}{% link community.md %})
 
+</div>
+</article>
+
+
+<article class="post-list">
+<h2 class="sub-heading-two"> Latest News</h2>
+<div class="posts">
+<div class="post subgrid">
+<figure>
+<img src="{{ site.url }}/openactive/assets/images/sideplank.jpg">
+</figure>
+<div>
+<h3>Meet The Community</h3>
+
+Autem quasi ut fugit perferendis facilis sapiente. Vel reprehenderit nulla deleniti quod qui ratione
+provident facere. Aut incidunt vel ut illo. Omnis provident sapiente placeat quasi voluptas excepturi.
+
+<a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
+</div>
+</div>
 </div>
 </article>

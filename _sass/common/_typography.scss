@@ -56,10 +56,10 @@ h1 {
   font-size: $header-size;
   line-height: 0.85;
   color: $brand-blue;
-  & + p, ul li p{
-    font-size: $header-size/  2;
-    font-family: $font-family;
-  }
+}
+h1 + p, ul li p, .h1-copy{
+  font-size: $header-size/  2;
+  font-family: $font-family;
 }
 
 // Heading Two Styles
@@ -136,10 +136,10 @@ h3 {
   color: $brand-blue;
   font-size: $header-size / 1.5;
   line-height: 1.9rem;
-    & + p{
-      font-size: $header-size/  2.16346;
-      font-family: $font-family;
-    }
+}
+h3 + p, .h3-copy{
+  font-size: $header-size/  2.16346;
+  font-family: $font-family;
 }
 
 // Heading Four Styles

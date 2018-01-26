@@ -293,6 +293,9 @@
       margin-bottom: 2rem;
       h3 {
         margin-top: 0;
+        &+p{
+          font-size: $base-font-size;
+        }
       }
       figure {
         grid-column: col  / span 3;

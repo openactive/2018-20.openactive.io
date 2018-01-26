@@ -31,7 +31,7 @@ Content for this page is detailed in the
 **Copy-writing Notes**:
 </div>
 </article>
-<article class="hero">
+<article class="hero--home">
 <nav class="hero_tab_nav">
 <div class="hero-tab" data-tab="h1"></div>
 <div class="hero-tab" data-tab="h2"></div>
@@ -328,7 +328,7 @@ What's happening in the community, and how you can get involved!
 <h2 class="sub-heading-two">Join</h2>
 <div class="one">
 
-## The Accelerator Program
+### The Accelerator Program
 Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem omnis in rem. Qui perspiciatis ut nobis maxime eligendi similique. Non culpa voluptatem enim nostrum et et.
 
 [Start Ups]( {{ site.baseurl }}{% link start-ups.md %}){: .button-primary}
