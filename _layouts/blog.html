@@ -2,28 +2,28 @@
 layout: default
 ---
 
-<div class="collection"  id="blog-page">
+<div class="collection page"  id="blog-page">
 
+    <article markdown="0" class="hero--sub">
 
-    <article class="page-content">
-        <header class="page-header">
-            <h1 class="page-title">{{ page.title | escape }}</h1>
-        </header>
-        {{ content }}
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    </article>
-    <article class="news-content">
-        <h3>Latest Post</h3>
-        {% for post in site.posts limit:1 %}
-
-        <a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+            
+        <div>
+                {% for post in site.posts limit:1 %}  
+        <h1>{{ post.title | escape }}</h1>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <p class="post-snippet">{{post.content}}</p>
-        <a href="{{ post.url | relative_url }}">Read more</a>
-
-        {% endfor %}
+        <p class="post-snippet">{{post.excerpt}}</p><a href="{{ post.url | relative_url }}" class="button-primary" >Read more</a> 
+            
+            </div>
+        <figure>
+            <div style="background: url({{ site.url }}/{{post.thumbnail_image | relative_url}})center center / cover no-repeat;"></div>
+        </figure>
+         
+        {% endfor %}   
     </article>
+
+            
 
 
     {% if site.posts %}

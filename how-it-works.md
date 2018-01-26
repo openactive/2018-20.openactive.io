@@ -35,13 +35,31 @@ Content for this page is detailed in the
 </article>
 
 
+<article markdown="0" class="hero--sub">
+
+<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+
+<div>
+
+<h1>How it works</h1>
+<p>Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur consequatur cum eos.</p>
+
+
+</div>
+<figure>
+<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+</figure>
+
+</article>
+
 <article>
 <div class="two">
 
-Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur consequatur cum eos. Adipisci eum magnam ut. Molestiae qui voluptas consequuntur maiores nemo quam. Unde autem enim fugiat est beatae ex. Provident deleniti ea qui.
-   + Magni error voluptatem ut quo natus.
-   + Et rerum illum quidem perspiciatis molestiae.
-   + Omnis cupiditate sapiente quis eius animi officiis vel.
+OpenActive is a community-led initiative using open data to help people get active.
+Our goal is to collect and share opportunity data on what, where, and when physical activity sessions happen, and to make this information openly available to everyone, transforming the way people discover, access, and take part in new activities. 
+
+We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together. 
+
 
 </div>
 <div class="two">
@@ -102,10 +120,12 @@ Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur co
 <h2 class="sub-heading-two">Opportunity Data Explained</h2>
 <div class="one">
 
-+ A explanation of what Opportunity data **is** and what is **isn't**
-    + Graphics
-    + Text Content
-    + FAQ's
+Open opportunity data is about where and when sport and physical activities happen. This data can be made available for anyone to access, use, and share, helping consumers to discover and take part in new activities, and providers to more accurately tailor and grow their services.
+
+By encouraging organisations to publish their data openly and to a commonly agreed standard, we are not only facilitating open sharing across individual websites, but building a connected, online community that’s free to grow and innovate in response to its consumers’ needs.
+
+Opening up opportunity data across the sector will better connect providers and consumers, and allow sport and physical activity sessions across the country to be easily shared and accessed everywhere, from websites and apps that attract millions of users, to communities and services that engage local people. 
+
 
 </div>
 </article>
@@ -156,13 +176,19 @@ Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur co
 <h2 class="sub-heading-two">Case<br> Studies</h2>
 <nav class="subgrid">
 {% for post in site.case_studies %}
+{% assign theImage = post.thumbnail_image %}
 {% if post.is_featured %}
-<div class="case-tab" data-tab="{{ forloop.index }}">
-
-<!-- <img src="{{post.thumbnail_image | relative_url}}"> -->
-
-</div>
+{% if post.member %}
+{% assign theMember = site.members | where:"title", post.member  | first %}
+{% assign theImage = theMember.thumbnail_image %}
 {% endif %}
+
+<div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
+<img src="{{ theImage  | relative_url}}"/>
+</div>
+
+{% endif %}
+
 {% endfor %}
 </nav>
 
@@ -170,6 +196,8 @@ Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur co
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="case-content" id="{{ forloop.index }}">
+
+
 <h3>{{ post.title | escape }}</h3>
 {{post.content}}
 <a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
