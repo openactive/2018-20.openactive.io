@@ -63,20 +63,20 @@ We believe that open opportunity data will revolutionise the sport and physical 
 </div>
 </article>
 
-<article class="hero--simple">
-<div class="two">
-<h1>{{ page.title | escape }}</h1>
-<p>OpenActive is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active.</p>
-<p> It is being coordinated by the Open Data Institute (ODI), an independent, non-profit, non-partisan organisation. Our goal is to make data on what, where and when physical activity sessions happen, openly available. This “opportunity data” includes details of a yoga class (“how much will it cost?”) through to badminton court availability (“where and when is a court available?”).</p>
-[Read More]( {{ site.baseurl }}{% link our-mission-full.md %}){: .primary_cta}
-</div>
-<div class="two">
+<!-- <article class="hero--simple"> -->
+<!-- <div class="two"> -->
+<!-- <h1>{{ page.title | escape }}</h1> -->
+<!-- <p>OpenActive is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active.</p> -->
+<!-- <p> It is being coordinated by the Open Data Institute (ODI), an independent, non-profit, non-partisan organisation. Our goal is to make data on what, where and when physical activity sessions happen, openly available. This “opportunity data” includes details of a yoga class (“how much will it cost?”) through to badminton court availability (“where and when is a court available?”).</p> -->
+<!-- [Read More]( {{ site.baseurl }}{% link our-mission-full.md %}){: .primary_cta} -->
+<!-- </div> -->
+<!-- <div class="two"> -->
 
-![Hero]({{ site.url }}/openactive/assets/images/icons-animation.gif)
+<!-- ![Hero]({{ site.url }}/openactive/assets/images/icons-animation.gif) -->
 
-</div>
+<!-- </div> -->
 
-</article>
+<!-- </article> -->
 
 
 <article class="note-wrap">
@@ -94,7 +94,9 @@ We believe that open opportunity data will revolutionise the sport and physical 
 </div>
 </article>
 
-<article>
+<article class="title-row">
+<h2 class="sub-heading-two">Why It Matters</h2>
+
 <div class="two">
 
 ![placeholder]({{ site.url }}/openactive/assets/images/placeholder.png)
@@ -102,7 +104,6 @@ We believe that open opportunity data will revolutionise the sport and physical 
 </div>
 <div class="two">
 
-### Why It Matters
 Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur consequatur cum eos. Adipisci eum magnam ut. Molestiae qui voluptas consequuntur maiores nemo quam. Unde autem enim fugiat est beatae ex. Provident deleniti ea qui.
    + Magni error voluptatem ut quo natus.
    + Et rerum illum quidem perspiciatis molestiae.
@@ -126,9 +127,17 @@ Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur co
 </div>
 </article>
 
-<article>
+
+<article markdown="0" class="opportunity-data title-row">
 <h2 class="sub-heading-two">Opportunity Data Explained</h2>
-<div class="one">
+<div class="two subgrid title-row">
+<i class="two">{% include time.svg %}</i>
+<i class="two">{% include cost.svg %}</i>
+<i class="two">{% include website.svg %}</i>
+<i class="two">{% include location.svg %}</i>
+</div>
+<div markdown="1" class="two">
+
 
 Open opportunity data is about where and when sport and physical activities happen. This data can be made available for anyone to access, use, and share, helping consumers to discover and take part in new activities, and providers to more accurately tailor and grow their services.
 
@@ -137,8 +146,10 @@ By encouraging organisations to publish their data openly and to a commonly agre
 Opening up opportunity data across the sector will better connect providers and consumers, and allow sport and physical activity sessions across the country to be easily shared and accessed everywhere, from websites and apps that attract millions of users, to communities and services that engage local people. 
 
 
+
 </div>
 </article>
+
 
 
 <article class="note-wrap">
