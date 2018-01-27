@@ -34,7 +34,8 @@ Content for this page is detailed in the
 </article>
 
 
-<article class="hero--simple">
+<article markdown="0" class="hero--simple">
+<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
 <div class="one">
 <h1>{{ page.title | escape }}</h1>
 <p>OpenActive is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active.</p>

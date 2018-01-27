@@ -309,13 +309,13 @@
   }
 }
 .line-graphic{
-  grid-column-start: 1;
-  grid-column-end: 1;
+  position: absolute;
+  height: 100%;
   svg{
-    max-width: 50%;
-    min-width: 100px;
+    position: absolute;
+    height: 100%;
   }
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 900px) {
     display: none;
   }
   }

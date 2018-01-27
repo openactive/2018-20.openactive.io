@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   body > header {
     position: fixed;
     z-index: 20;
@@ -191,6 +191,13 @@
         padding-bottom: 1rem;
       }
     }
+    .filler {
+      position: absolute;
+      border-bottom: 1px solid gray;
+      bottom: 0;
+      left: 65%;
+      width: 100px;
+    }
   }
 
   #sticky-phantom {
@@ -203,8 +210,263 @@
   }
 }
 
+.on-scroll {
+  &#mainHeader {
+    position: fixed;
+    border-bottom: 1px solid $gray;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: $white;
+    z-index: 200;
+    height: 100px;
+    transition: height 0.5s ease;
+
+    figure, div, aside, nav, h1 {
+      box-sizing: border-box;
+      vertical-align: top;
+      display: inline-block;
+    }
+    #logo {
+      order: 0;
+      flex: 1 1 0;
+      align-self: auto;
+      position: relative;
+      margin: 1rem;
+      text-align: right;
+      width: 100%;
+      max-width: 100px;
+      min-width: 100px;
+      min-height: 0;
+      border:none;
+      a{
+        margin: 0;
+        padding:0;
+      }
+
+    }
+    .headline {
+      order: 0;
+      flex: 1 1 60%;
+      align-self: auto;
+      font-family: $font-family;
+      font-size: $header-size / 2;
+      font-weight: 200;
+      padding: 0;
+      margin: 0;
+      color: $brand-blue;
+      border: none;
+      @media only screen and (max-width: 900px) {
+        flex: 1 1 30%;
+      }
+
+    }
+    .navigation {
+      order: 1;
+      flex: 0 1 auto;
+      align-self: auto;
+      text-align: right;
+      margin: 0 10px;
+      .mobile_button {
+        display: none;
+        @media only screen and (max-width: 1000px) {
+          display: block !important;
+        }
+      }
+      .mobile-nav {
+        position: absolute;
+        right: 1rem;
+        top: 7rem;
+        background-color: white;
+        //background-image: url("../assets/images/mobile-cover.svg");
+        background-size:cover;
+        background-position: center;
+
+
+        @media only screen and (max-width: 1000px) {
+          display: none;
+        }
+        @media only screen and (min-width: 1000px) {
+          display: block !important;
+          width: auto;
+          text-align: left;
+        }
+        li {
+          list-style: none;
+        }
+      }
+      .mobile_button {
+        text-align: right;
+        /* Icon 1 */
+        #nav-icon3 {
+          width: 43px;
+          height: 37px;
+          position: relative;
+          margin: 0;
+          display: inline-block;
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+          -webkit-transition: .5s ease-in-out;
+          -moz-transition: .5s ease-in-out;
+          -o-transition: .5s ease-in-out;
+          transition: .5s ease-in-out;
+          cursor: pointer;
+        }
+
+        #nav-icon3 span {
+          display: block;
+          position: absolute;
+          height: 6px;
+          width: 100%;
+          background: $brand-one;
+          border-radius: 9px;
+          opacity: 1;
+          left: 0;
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+          -webkit-transition: .25s ease-in-out;
+          -moz-transition: .25s ease-in-out;
+          -o-transition: .25s ease-in-out;
+          transition: .25s ease-in-out;
+        }
+
+        /* Icon 3 */
+
+        #nav-icon3 span:nth-child(1) {
+          top: 3px;
+        }
+        #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+          top: 15px;
+        }
+        #nav-icon3 span:nth-child(4) {
+          top: 27px;
+        }
+        #nav-icon3.open span:nth-child(1) {
+          top: 18px;
+          width: 0;
+          left: 50%;
+        }
+        #nav-icon3.open span:nth-child(2) {
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+        #nav-icon3.open span:nth-child(3) {
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+        }
+        #nav-icon3.open span:nth-child(4) {
+          top: 18px;
+          width: 0;
+          left: 50%;
+        }
+      }
+      ul {
+
+        margin: 1rem 0 0 0;
+        display: inline-flex;
+        list-style: none;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        color: $brand-blue;
+        li {
+          margin: 0 10px;
+          list-style: none;
+          font-size: 0.9em;
+          color: $brand-blue;
+          a, a:link, a:visited {
+            color: $nav-color;
+            font-weight: 600;
+          }
+        }
+        li {
+          counter-increment: custom;
+        }
+
+        li:before {
+          content: counter(custom) " - ";
+        }
+
+        li:first-child {
+          counter-reset: custom;
+        }
+        li.active {
+          text-decoration: underline;
+          color: $brand-ten;
+          a {
+            color: $brand-ten;
+          }
+        }
+      }
+    }
+    .button {
+      order: 0;
+      flex: 0 1 auto;
+      align-self: auto;
+      margin: 0;
+      padding:0;
+      border:0;
+      #social {
+        align-items: start;
+        margin-bottom: 0;
+        ul {
+          display: inline-flex;
+          justify-content: flex-start;
+          flex-direction: row;
+          align-items: center;
+          width: 100%;
+          margin: 0;
+          li {
+            display: inline-block;
+            margin: 0 5px;
+            span {
+              display: block;
+              text-align: center;
+              svg {
+                width: 30px;
+              }
+            }
+          }
+        }
+      }
+      div.social {
+        width: auto;
+      }
+      div {
+        display: inline-block;
+        a.button-primary {
+          margin: 0 5px;
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          padding: 0;
+          span {
+            display: none;
+          }
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        display: none;
+      }
+    }
+  }
+  #sticky-phantom {
+    height: 100px;
+  }
+}
+
 //small styles
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
   body > header {
     position: fixed;
     border-bottom: 1px solid $gray;
@@ -257,7 +519,7 @@
       margin: 0 10px;
       .mobile_button {
         display: none;
-        @media only screen and (max-width: 1400px) {
+        @media only screen and (max-width: 1000px) {
           display: block !important;
         }
       }
@@ -266,10 +528,10 @@
         right: 1rem;
         top: 7rem;
         background-color: white;
-        @media only screen and (max-width: 1400px) {
+        @media only screen and (max-width: 1000px) {
           display: none;
         }
-        @media only screen and (min-width: 1400px) {
+        @media only screen and (min-width: 1000px) {
           display: block !important;
           width: auto;
           text-align: left;
