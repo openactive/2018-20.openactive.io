@@ -11,6 +11,7 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
+
 // Headers
 h1, h2, h3, h4, h5, h6 {
   margin: $header-margin * 1.5 0 $header-margin 0;
@@ -56,7 +57,8 @@ h1 {
   line-height: 0.85;
   color: $brand-blue;
 }
-h1 + p, ul li p, .h1-copy{
+
+h1 + p, ul li p, .h1-copy {
   font-size: $header-size/  2;
   font-family: $font-family;
 }
@@ -86,9 +88,20 @@ h2 {
 // <h2 class="sub-heading-two">Heading Two</h2>
 //
 // Styleguide typography.sub-heading-two
+@supports (display: grid) {
+  .sub-heading-two {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: start;
+    @media only screen and (max-width: 1200px) {
+      grid-column-start: 2;
+      grid-column-end: 14;
+      grid-row: 1/ 2;
+    }
+  }
+}
+
 .sub-heading-two {
-  grid-column-start: 1;
-  grid-column-end: 1;
   text-align: right;
   padding-top: 0.5rem;
   border-top: 1px solid $gray;
@@ -98,17 +111,21 @@ h2 {
   line-height: 1;
   font-size: $header-size / 2;
   font-weight: 700;
-  align-self: start;
   @media only screen and (max-width: 1200px) {
-    grid-column-start: 2;
-    grid-column-end: 14;
-    grid-row: 1/ 2;
     border-bottom: 1px solid $gray;
     border-top: 0 solid $gray;
     padding: 0 0 0.5rem 0;
     text-align: left;
-    br{
+    br {
       display: none;
+    }
+  }
+}
+html.no-cssgrid {
+  .sub-heading-two {
+    width:100%;
+    @media only screen and (max-width: 1200px) {
+
     }
   }
 }
@@ -128,7 +145,8 @@ h3 {
   font-size: $header-size / 1.5;
   line-height: 1.9rem;
 }
-h3 + p, .h3-copy{
+
+h3 + p, .h3-copy {
   font-size: $header-size/  2.16346;
   font-family: $font-family;
 }
@@ -176,11 +194,11 @@ h6 {
 
   font-size: $header-size / 3.75;
   text-transform: uppercase;
-  margin-bottom:.5rem;
+  margin-bottom: .5rem;
   letter-spacing: 0;
-  & + p{
-    margin-top:0;
-    font-size:$header-size /3.75;
+  & + p {
+    margin-top: 0;
+    font-size: $header-size /3.75;
   }
 }
 
@@ -286,8 +304,6 @@ blockquote > p {
   font-style: italic;
   border-left: 1px solid;
 
-
-
 }
 
 // Tables
@@ -374,6 +390,7 @@ img {
   max-width: 100%;
   margin: 0;
 }
+
 div article.note-wrap {
   display: none;
   .notes {
