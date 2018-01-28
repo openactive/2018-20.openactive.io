@@ -6,8 +6,6 @@ is_main_navigation: false
 layout: page
 ---
 
-
-
 <article markdown="0" class="hero--sub">
 
 <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
