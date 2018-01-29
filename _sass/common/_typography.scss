@@ -226,6 +226,11 @@ a {
   &:focus {
     //outline: 3px dotted #811d15!important;
   }
+  &.link{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 600;
+  }
 }
 
 // Lists

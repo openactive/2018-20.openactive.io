@@ -256,7 +256,7 @@ Pull in the data to your website or app. If you need help reach out to the OpenA
 </article>
 
 
-<article class="call_to_action title-row">
+<article class="call_to_action--three title-row">
 <div class="subgrid">
 <div class="three getting-started">
 
