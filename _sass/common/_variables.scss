@@ -87,6 +87,9 @@ $getting-started: $brand-four;
 $community: $brand-ten;
 .community {
   background-color: $community;
+  * {
+    color: $white;
+  }
 }
 
 // Developer Colors
@@ -102,6 +105,9 @@ $community: $brand-ten;
 $developer: $brand-six;
 .developer {
   background-color: $developer;
+  * {
+    color: $white;
+  }
 }
 
 /*------------------------------------*\
