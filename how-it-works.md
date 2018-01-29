@@ -34,39 +34,35 @@ Content for this page is detailed in the
 </div>
 </article>
 
-
-<article markdown="0" class="hero--sub">
-
-<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
-
-<div>
-
-<h1>How it works</h1>
-<p>Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur consequatur cum eos.</p>
-
-
-</div>
-<figure>
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
-</figure>
-
-</article>
-
-<article>
+<article class="hero--simple">
 <div class="two">
 
-OpenActive is a community-led initiative using open data to help people get active.
-Our goal is to collect and share opportunity data on what, where, and when physical activity sessions happen, and to make this information openly available to everyone, transforming the way people discover, access, and take part in new activities. 
 
-We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together. 
-
-
-</div>
-<div class="two">
 ![Hero]({{ site.url }}/openactive/assets/images/icons-animation.gif)
 
 </div>
-<h2 class="sub-heading-two">How It Works</h2>
+
+<div class="two">
+
+
+![Hero]({{ site.url }}/openactive/assets/images/icons-animation.gif)
+
+</div>
+
+</article>
+
+
+<article>
+<div class="one">
+<h1>{{ page.title | escape }}</h1>
+
+OpenActive is a community-led initiative using open data to help people get active.
+
+Our goal is to collect and share opportunity data on what, where, and when physical activity sessions happen, and to make this information openly available to everyone, transforming the way people discover, access, and take part in new activities.
+We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together.
+
+
+</div>
 </article>
 
 <article class="note-wrap">
@@ -84,51 +80,66 @@ We believe that open opportunity data will revolutionise the sport and physical 
 </div>
 </article>
 
-<article>
+<article class="title-row">
+<h2 class="sub-heading-two">Why It Matters</h2>
 <div class="two">
 
-![placeholder]({{ site.url }}/openactive/assets/images/placeholder.png)
+### Rem voluptatem
+Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur consequatur cum eos.
 
-</div>
-<div class="two">
-
-### Why It Matters
-Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur consequatur cum eos. Adipisci eum magnam ut. Molestiae qui voluptas consequuntur maiores nemo quam. Unde autem enim fugiat est beatae ex. Provident deleniti ea qui.
+Adipisci eum magnam ut. Molestiae qui voluptas consequuntur maiores nemo quam. Unde autem enim fugiat est beatae ex. Provident deleniti ea qui.
    + Magni error voluptatem ut quo natus.
    + Et rerum illum quidem perspiciatis molestiae.
    + Omnis cupiditate sapiente quis eius animi officiis vel.
 
 </div>
+<div class="two">
+
+{% include line_graphic.svg %}
+
+</div>
+
 </article>
 
 <article class="note-wrap">
 <div class="notes">
 
 ##### Section Notes
-**Purpose**:
+**Purpose**: The purpose of this section is to graphically clarify for users exactly what is and isn't included in Opportunity Data.
 
-**Functionality**:
+**Functionality**: This section will support text and graphics.
 
-**Design**:
+**Design**: This is a opportunity to animate graphics to create visual intrigue.
 
 **Copy-writing Notes**:
 
 </div>
 </article>
 
-<article>
-<h2 class="sub-heading-two">Opportunity Data Explained</h2>
-<div class="one">
 
-Open opportunity data is about where and when sport and physical activities happen. This data can be made available for anyone to access, use, and share, helping consumers to discover and take part in new activities, and providers to more accurately tailor and grow their services.
+<article markdown="0" class="opportunity-data title-row">
+<h2 class="sub-heading-two">Opportunity Data Explained</h2>
+<div class="two subgrid title-row">
+<i class="two">{% include time.svg %}</i>
+<i class="two">{% include cost.svg %}</i>
+<i class="two">{% include website.svg %}</i>
+<i class="two">{% include location.svg %}</i>
+</div>
+<div markdown="1" class="two">
+
+
+### Open opportunity data is about where and when sport and physical activities happen.
+This data can be made available for anyone to access, use, and share, helping consumers to discover and take part in new activities, and providers to more accurately tailor and grow their services.
 
 By encouraging organisations to publish their data openly and to a commonly agreed standard, we are not only facilitating open sharing across individual websites, but building a connected, online community that’s free to grow and innovate in response to its consumers’ needs.
 
 Opening up opportunity data across the sector will better connect providers and consumers, and allow sport and physical activity sessions across the country to be easily shared and accessed everywhere, from websites and apps that attract millions of users, to communities and services that engage local people. 
 
 
+
 </div>
 </article>
+
 
 
 <article class="note-wrap">
@@ -232,27 +243,49 @@ Opening up opportunity data across the sector will better connect providers and 
 <div class="notes">
 
 ##### Section Notes
-**Purpose**:
+**Purpose**: Text to introduce the ways to learn more about the initiative
 
-**Functionality**:
+**Functionality**: These blocks will contain at minimum title, excerpt & button.
 
-**Design**:
+**Design**: These represent call to action blocks at a lower hierarchy, the design should reflect this. For example these would be a lower level of prominence than a full with call to action.
 
 **Copy-writing Notes**:
 
 </div>
 </article>
 
-<article>
+<article class="call_to_action title-row">
 <h2 class="sub-heading-two">E-Learning</h2>
-<div class="one">
 
-+ Text to introduce the ways to learn more about the initiative
-    + [How to's]( {{ site.baseurl }}{% link how-to.md %})  
-    + [Discussions]( {{ site.baseurl }}{% link discussions.md %})  
-    + [References]( {{ site.baseurl }}{% link references.md %})  
-    + [Tutorials]( {{ site.baseurl }}{% link tutorials.md %})  
+<div class="subgrid">
+<div class="four brand-blue-bc">
 
+### How to's
+Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
+[How to's]( {{ site.baseurl }}{% link how-to.md %}){: .button-primary }
+
+</div>
+<div class="four brand-blue-bc">
+
+### Discussions
+Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusamus in.
+[Discussions]( {{ site.baseurl }}{% link discussions.md %}){: .button-primary }
+
+</div>
+<div class="four brand-blue-bc">
+
+### References
+Facilis assumenda officiis dicta. Rerum dolor ullam reprehenderit molestiae.
+[References]( {{ site.baseurl }}{% link references.md %}){: .button-primary }
+
+</div>
+<div class="four brand-blue-bc">
+
+### Tutorials
+Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas aliquid magnam alias.
+[Tutorials]( {{ site.baseurl }}{% link tutorials.md %}){: .button-primary }
+
+</div>
 </div>
 </article>
 
@@ -273,9 +306,9 @@ Opening up opportunity data across the sector will better connect providers and 
 </div>
 </article>
 
-<article>
+<article class="call_to_action--full-width">
 <h2 class="sub-heading-two">Getting Started</h2>
-<div class="one call_to_action">
+<div class="one">
 
 Text Content
 Now you know how it works, let’s look at how you can make your data available or use a dataset for your own application.
@@ -284,4 +317,7 @@ Now you know how it works, let’s look at how you can make your data available 
 
 
 </div>
+<figure>
+<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+</figure>
 </article>

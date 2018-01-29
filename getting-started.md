@@ -98,9 +98,9 @@ Content for this page is detailed in the
 </div>
 </article>
 
-<article class="call_to_action">
+<article class="call_to_action list">
 <div class="subgrid">
-<div class="two brand-two-bc">
+<div class="two brand-blue-bc">
 
 ### Publish Data 
 A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas consectetur architecto cupiditate inventore.
@@ -111,7 +111,7 @@ A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas conse
 [Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .primary_cta}
 
 </div>
-<div class="two brand-one-bc">
+<div class="two brand-blue-bc">
 
 ### Use Data
 A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas consectetur architecto cupiditate inventore.
@@ -141,23 +141,21 @@ A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas conse
 </div>
 </article>
 
-<article class="call_to_action--block_level ">
-<div class="subgrid">
-<div class="two ">
+<article class="call_to_action--full-width">
+<h2 class="sub-heading-two">Show me the code</h2>
+<div class="one">
 
 ### Developer Section
 Move over to the develop section and fire up your code editor.
 
-</div>
-<div class="two ">
-
 [Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
 
 </div>
-</div>
+<figure>
+<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+</figure>
 </article>
 
-***
 
 <article class="note-wrap">
 <div class="notes">
@@ -175,7 +173,7 @@ Move over to the develop section and fire up your code editor.
 
 <article class="call_to_action">
 <div class="subgrid">
-<div class="three brand-one-bc">
+<div class="three brand-blue-bc">
 
 #### Convince your Team
 Itaque deleniti possimus nihil accusamus rerum.
@@ -183,7 +181,7 @@ Itaque deleniti possimus nihil accusamus rerum.
 [Convince Company]( {{ site.baseurl }}{% link convince-company.md %}){: .primary_cta}
 
 </div>
-<div class="three brand-one-bc">
+<div class="three brand-blue-bc">
 
 #### Tell Your Team
 Commodi consequatur vero eum quia eos alias.
@@ -191,7 +189,7 @@ Commodi consequatur vero eum quia eos alias.
 [Tell Team]( {{ site.baseurl }}{% link tell-team.md %}){: .primary_cta}
 
 </div>
-<div class="three brand-one-bc">
+<div class="three brand-blue-bc">
 
 #### Contact us
 Ullam voluptatum expedita enim cum mollitia.
@@ -200,7 +198,4 @@ Ullam voluptatum expedita enim cum mollitia.
 
 </div>
 </div>
-</article>
-
-***
- 
+</article>v

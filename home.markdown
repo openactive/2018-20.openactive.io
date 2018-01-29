@@ -31,7 +31,7 @@ Content for this page is detailed in the
 **Copy-writing Notes**:
 </div>
 </article>
-<article class="hero">
+<article class="hero--home">
 <nav class="hero_tab_nav">
 <div class="hero-tab" data-tab="h1"></div>
 <div class="hero-tab" data-tab="h2"></div>
@@ -140,9 +140,9 @@ Content for this page is detailed in the
 
 
 
-<article class="tabs">
+<article class="tabs blue">
 
-<h2 class="sub-heading-two">What do you<br> want to do?</h2>
+<h2 class="sub-heading-two">Where to start?</h2>
 
 <div id="tabs">
 
@@ -161,7 +161,7 @@ Content for this page is detailed in the
 <p>OpenActive makes it easier for people to discover and take part in sport and physical activities. Using
 open data your activities can become available, everywhere. From websites and apps that attract millions
 of users, to communities and services that engage local people.</p>
-<a class="button-primary" href="{{ site.baseurl }}{% link how-it-works.md %}){: }">How it Works</a>
+<a class="button-primary" href="{{ site.baseurl }}{% link how-it-works.md %})">How it Works</a>
 </div>
 
 
@@ -293,25 +293,32 @@ What's happening in the community, and how you can get involved!
 <article class="note-wrap">
 <div class="notes">
 ##### Section Notes
-**Purpose**: The purpose of this section is to graphically clarify for users exactly what is and isn't included in Opportunity Data.
+**Purpose**: The purpose of this section is to graphically clarify for users exactly what open data is
 
 **Functionality**: This section will support text and graphics.
 
 **Design**: This is a opportunity to animate graphics to create visual intrigue.
 
-**Copy-writing Notes**:
+**Copy-writing Notes**: Reinforcing link with the ODI and open data as a whole, some users may not be aware of it's pervasiveness and the network behind OA
 </div>
 </article>
 
-<article markdown="0" class="opportunity-data title-row">
-<h2 class="sub-heading-two"> What is <br>Opportunity Data</h2>
+<article class="title-row">
+<h2 class="sub-heading-two"> What is <br>Open Data?</h2>
+<div class="two">
+<h3>Corporis sint</h3>
+<p class="reset-style">Molestiae similique numquam quia dolore quod ut temporibus sit. Maiores vel nostrum ut est. Voluptas assumenda qui veritatis quisquam. Qui adipisci dolores perferendis mollitia eligendi error aut laboriosam. Consequatur sequi sequi facilis reiciendis in rerum enim.</p>
+<p></p>
+</div>
+<div class="two">
 
-Example icon style to be used for diagrams.
+{% include line_graphic.svg %}
 
-<i class="four">{% include time.svg %}</i>
-<i class="four">{% include cost.svg %}</i>
-<i class="four">{% include website.svg %}</i>
-<i class="four">{% include location.svg %}</i>
+
+
+</div>
+
+
 </article>
 
 <article class="note-wrap">
@@ -331,7 +338,7 @@ Example icon style to be used for diagrams.
 <h2 class="sub-heading-two">Join</h2>
 <div class="one">
 
-## The Accelerator Program
+### The Accelerator Program
 Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem omnis in rem. Qui perspiciatis ut nobis maxime eligendi similique. Non culpa voluptatem enim nostrum et et.
 
 [Start Ups]( {{ site.baseurl }}{% link start-ups.md %}){: .button-primary}
