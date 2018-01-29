@@ -1,6 +1,6 @@
 ---
 title: ClarityLive Leisure
-date: 2018-01-26 01:18:00 
+date: 2018-01-26 01:18:00 Z
 is_featured: true
 thumbnail_image: "/uploads/claritylive_leisure.png"
 layout: member

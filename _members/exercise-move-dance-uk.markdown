@@ -1,6 +1,6 @@
 ---
 title: Exercise Move Dance UK
-date: 2018-01-26 01:18:00 
+date: 2018-01-26 01:18:00 Z
 is_featured: true
 thumbnail_image: "/uploads/exercise_move_dance_uk.png"
 layout: member
