@@ -69,7 +69,7 @@ $(document).ready(function () {
         var $onScrollNav = $('.large-screen-side-nav'),
             $header = $('header'),
             scrollClass = 'on-scroll',
-            activateAtY = 100;
+            activateAtY = 360;
 
         function deactivateHeader() {
             if (!$header.hasClass(scrollClass)) {
@@ -92,8 +92,15 @@ $(document).ready(function () {
         $(window).scroll(function () {
             if ($(window).scrollTop() > activateAtY) {
                 deactivateHeader();
+                $('#nav-icon3').removeClass('open');
+                $('.mobile-nav').css('display', 'none');
             } else {
                 activateHeader();
+                $('.mobile-nav').css('display', 'inline-flex');
+                if ($('#nav-icon3').hasClass('open')) {
+                    $('#nav-icon3').removeClass('open');
+                    $('.mobile-nav').slideUp();
+                }
             }
 
         });

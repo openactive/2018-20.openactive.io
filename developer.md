@@ -234,7 +234,7 @@ Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas
 </article>
 
 
-<article class="call_to_action--full-width">
+<article class="call_to_action--full-width brand-ten-bc">
 <h2 class="sub-heading-two">Get in Touch</h2>
 <div class="one">
 
@@ -244,7 +244,7 @@ Namautem non et velit. Sunt quidem sequi quis iure voluptatem aut.
 [Contact]( {{ site.baseurl }}{% link contact.md %}){: .primary_cta}
 
 </div>
-<figure>
+<figure class="brand-nine-bc">
 <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>
