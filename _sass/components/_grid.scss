@@ -770,6 +770,7 @@
             left: 0;
             svg{
               left: 0;
+              max-width: 100px;
             }
           }
         }
@@ -778,7 +779,9 @@
             right: 0;
             bottom:0;
             svg{
-              right: 0;
+              height: 110px;
+              bottom: 0;
+              right:0;
             }
           }
         }
