@@ -18,7 +18,25 @@
       </main>
     <hr>
     {% include footer.html %}
-    <hr>ç
+    <hr>
+      <section class="large-screen-side-nav">
+      <nav>
+        <ul class="nav-style">
+          {% assign navigation_pages = site.html_pages | sort: 'position' %}
+          {% for p in navigation_pages %}
+          {% if p.is_main_navigation %}
+          {% if p.position %}
+          <li class="{% if p.url== page.url %}active {% endif %}">
+            <a role="menuitem"
+               href="{{ p.url | relative_url }}">{{ p.title
+              }}</a>
+          </li>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+      </section>
   </body>
 
 </html>

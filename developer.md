@@ -185,32 +185,32 @@ A comprehensive explanation of how to **use** data
 <h2 class="sub-heading-two">E-Learning</h2>
 
 <div class="subgrid">
-<div class="four brand-blue-bc">
+<div class="four brand-three-b">
 
 ### How to's
 Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
-[How to's]( {{ site.baseurl }}{% link how-to.md %}){: .button-primary }
+[How to's]( {{ site.baseurl }}{% link how-to.md %}){: .link }
 
 </div>
-<div class="four brand-blue-bc">
+<div class="four brand-six-b">
 
 ### Discussions
 Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusamus in.
-[Discussions]( {{ site.baseurl }}{% link discussions.md %}){: .button-primary }
+[Discussions]( {{ site.baseurl }}{% link discussions.md %}){: .link }
 
 </div>
-<div class="four brand-blue-bc">
+<div class="four brand-ten-b">
 
 ### References
 Facilis assumenda officiis dicta. Rerum dolor ullam reprehenderit molestiae.
-[References]( {{ site.baseurl }}{% link references.md %}){: .button-primary }
+[References]( {{ site.baseurl }}{% link references.md %}){: .link }
 
 </div>
-<div class="four brand-blue-bc">
+<div class="four brand-eight-b">
 
 ### Tutorials
 Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas aliquid magnam alias.
-[Tutorials]( {{ site.baseurl }}{% link tutorials.md %}){: .button-primary }
+[Tutorials]( {{ site.baseurl }}{% link tutorials.md %}){: .link }
 
 </div>
 </div>

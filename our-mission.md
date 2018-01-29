@@ -40,7 +40,8 @@ Content for this page is detailed in the
 <h1>{{ page.title | escape }}</h1>
 <p>OpenActive is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active.</p>
 <p> It is being coordinated by the Open Data Institute (ODI), an independent, non-profit, non-partisan organisation. Our goal is to make data on what, where and when physical activity sessions happen, openly available. This “opportunity data” includes details of a yoga class (“how much will it cost?”) through to badminton court availability (“where and when is a court available?”).</p>
-[Read More]( {{ site.baseurl }}{% link our-mission-full.md %}){: .primary_cta}
+
+<a class="button-primary" href="{{ site.baseurl }}{% link our-mission-full.md %}">Read More</a>
 </div>
 
 </article>
@@ -149,7 +150,7 @@ Content for this page is detailed in the
 </article>
 
 
-<article class="call_to_action--full-width">
+<article class="call_to_action--full-width brand-ten-bc">
 <h2 class="sub-heading-two">What's Next?</h2>
 <div class="one">
 
@@ -161,7 +162,7 @@ Sapiente vitae soluta eius aspernatur. Qui impedit qui et facere autem. Quidem r
 
 </div>
 
-<figure>
+<figure class="brand-nine-bc">
 <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 
