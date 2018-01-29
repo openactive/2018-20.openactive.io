@@ -5,10 +5,12 @@ is_secondary_navigation: true
 
 <div class="page" id="members-page">
     <article class="page-content">
+        <div class="one">
         <header class="page-header">
             <h1 class="page-title">{{ page.title | escape }}</h1>
         </header>
         {{ content }}
+        </div>
     </article>
 
     {% if site.members %}
@@ -22,7 +24,8 @@ is_secondary_navigation: true
             <div class="one">
                 <h3>Open Active has {{num}} members.</h3>
                 <div class="posts ">
-                {% for post in site.members %}
+                {% assign sortedPosts = site.members | sort: 'title' %}
+                {% for post in sortedPosts %}
                     <div class="post subgrid" id="member-{{ forloop.index }}">
                     <figure class="">
                         <img src="{{post.thumbnail_image | relative_url}}">
