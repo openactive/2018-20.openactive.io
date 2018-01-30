@@ -25,8 +25,8 @@ Content for this page is detailed in the
 
 <div>
 
-<h1>The Community</h1>
-<p>Introduction to the community goes here.</p>
+<h1>Community</h1>
+<p>Innovation through Collaboration</p>
 
 
 </div>
@@ -39,8 +39,15 @@ Content for this page is detailed in the
 <article>
 <div class="one">
 
+### Who’s involved?
 
-### Statistics 
+OpenActive’s collaborative community includes ambitious start-ups supported through our Accelerator programme, members of the OpenActive Champions programme of masterclasses, who are using peer-to-peer networking to transform the sector using open data, and the skilled technical community of developers working to improve data knowledge and engagement.
+
+Explore the dashboard to learn more about our community and the datasets already published.
+
+[Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .primary_cta}
+
+
 + Graphics and icons to represent the number of
     + Community Members
     + Accelerator Start ups
@@ -54,9 +61,11 @@ Content for this page is detailed in the
 
 <article>
 <div class="one">
+
 ### The Community
-+ Text Content to explain the communities role
-    + Possible quotes and content to communicate a collaborative/self-organising atmosphere
+Our community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide. Building the data revolution in the sport and physical sector is a collaborative effort between consumers, organisations, and innovative start-ups, designed to support and benefit the industry at all levels.
+
+
 + Events Feed
     + Show upcoming events to users
     + [Events]( {{ site.baseurl }}{% link event-page.md %})    
@@ -104,9 +113,15 @@ Content for this page is detailed in the
 <div class="one">
 
 ### Meet the Community
+
+OpenActive’s open-invitation community is continuing to grow. To discover who has joined us so far, visit our directory and meet the organisations shaping the future of the sector.
+
 + A section to showcase community members (5)
     + Title / Snippet / Logo 
-    + Links to a directory of all community members. [All Members]( {{ site.baseurl }}{% link community-members.md %})  
+    + Links to a directory of all community members. 
+    
+    
+[All Members]( {{ site.baseurl }}{% link community-members.md %})  
 
 </div>
 </article>
@@ -115,9 +130,14 @@ Content for this page is detailed in the
 <div class="one">
 
 ### OpenActive Champions
-+ A section to showcase the Champions of OpenActive
-    + 'OpenActive Champions' needed to meet the local ambassadors progressing the initiative
-    + Links to a directory of community members, where Champions are featured. [Featured Members]( {{ site.baseurl }}{% link community-members.md %})  
+
+OpenActive Champions is a programme of masterclasses, designed to encourage peer-to-peer problem solving and networking that supports the work of people already using data to transform the sector. The programme supports individuals and organisations working to innovate within their areas, and use data to help people get more active.
+
+The ODI is connecting Champions to experts, and supporting them to develop new solutions, skills, and approaches to increase the impact of the work they undertake locally.
+
+To discover who’s already joined us as an OpenActive Champion, visit our directory and meet our featured Champions. 
+
+[Discover More]( {{ site.baseurl }}{% link members-page.md %})  
 
 </div>
 </article>
