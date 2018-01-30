@@ -58,8 +58,9 @@ Content for this page is detailed in the
 
 OpenActive is a community-led initiative using open data to help people get active.
 
-Our goal is to collect and share opportunity data on what, where, and when physical activity sessions happen, and to make this information openly available to everyone, transforming the way people discover, access, and take part in new activities.
-We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together.
+Our goal is to collect and share opportunity data on what, where, and when physical activity sessions happen, and to make this information openly available to everyone, transforming the way people discover, access, and take part in new activities. 
+We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together. 
+
 
 
 </div>
@@ -80,26 +81,6 @@ We believe that open opportunity data will revolutionise the sport and physical 
 </div>
 </article>
 
-<article class="title-row">
-<h2 class="sub-heading-two">Why It Matters</h2>
-<div class="two">
-
-### Rem voluptatem
-Velit magni soluta distinctio enim. Eos repellat illum temporibus consequatur consequatur cum eos.
-
-Adipisci eum magnam ut. Molestiae qui voluptas consequuntur maiores nemo quam. Unde autem enim fugiat est beatae ex. Provident deleniti ea qui.
-   + Magni error voluptatem ut quo natus.
-   + Et rerum illum quidem perspiciatis molestiae.
-   + Omnis cupiditate sapiente quis eius animi officiis vel.
-
-</div>
-<div class="two">
-
-{% include line_graphic.svg %}
-
-</div>
-
-</article>
 
 <article class="note-wrap">
 <div class="notes">
@@ -310,7 +291,6 @@ Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas
 <h2 class="sub-heading-two">Getting Started</h2>
 <div class="one">
 
-Text Content
 Now you know how it works, let’s look at how you can make your data available or use a dataset for your own application.
 
 [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
