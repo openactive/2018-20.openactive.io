@@ -42,7 +42,7 @@ Content for this page is detailed in the
 <div>
 
 <h1>Getting Started</h1>
-<p>Find out how to get unlimited reach for your activities</p>
+<p>Discover how to build unlimited reach for your activities</p>
 
 
 </div>
@@ -71,13 +71,31 @@ Content for this page is detailed in the
 </article>
 
 <article>
-<h2 class="sub-heading-two">Booking Engine List</h2>
+<h2 class="sub-heading-two">Who Uses OpenActive?</h2>
 
 <div class="one">
 
-+ A selection of members who run booking engines that already use the data model will be displayed for user to see and search through
-    + Booking Engine Members list 
-    + [Booking Engines]( {{ site.baseurl }}{% link booking-engine.md %})  
+Search our list of OpenActive enabled system, to find the activity providers already benefiting from our initiative.
+
+<nav class="subgrid">
+{% for post in site.booking_engines %}
+{% assign theImage = post.thumbnail_image %}
+
+{% if post.member %}
+{% assign theMember = site.members | where:"title", post.member  | first %}
+{% assign theImage = theMember.thumbnail_image %}
+{% endif %}
+
+<div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
+<a  href="{{ post.url | relative_url }}"><img src="{{ theImage  | relative_url}}"/></a>
+</div>
+
+
+
+{% endfor %}
+</nav>
+
+[Booking Engines]( {{ site.baseurl }}{% link booking-engine.md %})  
 
 
 </div>
@@ -102,22 +120,25 @@ Content for this page is detailed in the
 <div class="subgrid">
 <div class="two brand-blue-bc list">
 
-### Publish Data 
-A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas consectetur architecto cupiditate inventore.
-1. Error dignissimos unde vitae voluptatem.
-2. Corporis voluptatem ratione.
-3. Vero placeat sint qui quos nihil omnis.
+### Publish Your Data 
+
+1. Open your organisation’s data to allow customers to easily access events and services
+2. With open data, your activities can be discovered, shared, and engaged with by people nationwide
+3. By publishing your data, your activities will be shared across websites and apps that attract millions of users, to communities and services that engage local people
+
 
 [Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .primary_cta}
 
 </div>
 <div class="two brand-blue-bc list">
 
-### Use Data
-A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas consectetur architecto cupiditate inventore.
-1. Error dignissimos unde vitae voluptatem.
-2. Corporis voluptatem ratione.
-3. Vero placeat sint qui quos nihil omnis.
+### Using Data
+
+1. Developers and innovators can use data to create new products and services to benefit the sports and physical sector
+2. By harnessing open data, we can build growth and reach across the sector
+3. Easy access to opportunity data can help people to get active, and boost participation in activities nationwide
+4. We encourage you to explore the data published so far, and discover what’s useful for you
+
 
 [Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .primary_cta}
 
@@ -145,8 +166,8 @@ A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas conse
 <h2 class="sub-heading-two">Show me the code</h2>
 <div class="one">
 
-### Developer Section
-Move over to the develop section and fire up your code editor.
+### For Developers
+Join the open data revolution with OpenActive and help the nation get active. 
 
 [Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
 
@@ -156,18 +177,12 @@ Move over to the develop section and fire up your code editor.
 </figure>
 </article>
 
+<article>
+<div class="one">
 
-<article class="note-wrap">
-<div class="notes">
+### I’m interested, but how can I help?
 
-##### Section Notes ~ Help Options
-**Purpose**: This section will provide support for those who don't know what to do at this stage but want to get involved
-
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
+If you think your organisation would benefit from open data sharing, but the decision isn’t in your hands, explore the links below for accessible documents to share with your team or employer. 
 </div>
 </article>
 
@@ -175,8 +190,8 @@ Move over to the develop section and fire up your code editor.
 <div class="subgrid">
 <div class="three brand-blue-bc">
 
-#### Convince your Team
-Itaque deleniti possimus nihil accusamus rerum.
+#### Convince Your Company
+Discover downloadable documents to give to your company. 
 
 [Convince Company]( {{ site.baseurl }}{% link convince-company.md %}){: .primary_cta}
 
@@ -184,7 +199,7 @@ Itaque deleniti possimus nihil accusamus rerum.
 <div class="three brand-blue-bc">
 
 #### Tell Your Team
-Commodi consequatur vero eum quia eos alias.
+Find resources designed to explain open data to your colleagues.
 
 [Tell Team]( {{ site.baseurl }}{% link tell-team.md %}){: .primary_cta}
 
@@ -192,7 +207,7 @@ Commodi consequatur vero eum quia eos alias.
 <div class="three brand-blue-bc">
 
 #### Contact us
-Ullam voluptatum expedita enim cum mollitia.
+Have a question? Get in touch.
 
 [Contact]( {{ site.baseurl }}{% link contact.md %}){: .primary_cta}
 

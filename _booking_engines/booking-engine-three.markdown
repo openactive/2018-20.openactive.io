@@ -1,8 +1,9 @@
 ---
-title: Booking Engine One
+title: Booking Engine Three
 date: 2017-12-14 16:18:00 Z
+thumbnail_image: "/uploads/placeholder.png"
 layout: booking-engine
-member: Active Essex
+member: Active Humber
 ---
 
 Excepturi repellat omnis nulla explicabo maxime est.
