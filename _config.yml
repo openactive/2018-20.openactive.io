@@ -59,6 +59,14 @@ defaults:
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
     website: Web address
+- scope:
+    path: ''
+    type: booking_engines
+  values:
+    layout: booking-engine
+    is_featured: false
+    thumbnail_image: "/uploads/placeholder.png"
+    website: Web address
 compress_html:
   clippings: []
   comments: []
