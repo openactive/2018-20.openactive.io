@@ -256,7 +256,7 @@ Pull in the data to your website or app. If you need help reach out to the OpenA
 </article>
 
 
-<article class="call_to_action title-row">
+<article class="call_to_action itle-row">
 <div class="subgrid">
 <div class="three getting-started">
 
@@ -334,7 +334,7 @@ What's happening in the community, and how you can get involved!
 </div>
 </article>
 
-<article class="call_to_action--full-width">
+<article class="call_to_action--full-width brand-ten-bc">
 <h2 class="sub-heading-two">Join</h2>
 <div class="one">
 
@@ -346,8 +346,8 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 
 </div>
 
-<figure>
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+<figure class="brand-nine-bc">
+<div style="background: url({{ site.url }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 
 </article>

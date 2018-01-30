@@ -98,9 +98,9 @@ Content for this page is detailed in the
 </div>
 </article>
 
-<article class="call_to_action list">
+<article class="call_to_action">
 <div class="subgrid">
-<div class="two brand-blue-bc">
+<div class="two brand-blue-bc list">
 
 ### Publish Data 
 A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas consectetur architecto cupiditate inventore.
@@ -111,7 +111,7 @@ A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas conse
 [Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .primary_cta}
 
 </div>
-<div class="two brand-blue-bc">
+<div class="two brand-blue-bc list">
 
 ### Use Data
 A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas consectetur architecto cupiditate inventore.
@@ -141,7 +141,7 @@ A culpa in nihil reprehenderit ipsam enim dolor. Voluptas et mollitia quas conse
 </div>
 </article>
 
-<article class="call_to_action--full-width">
+<article class="call_to_action--full-width brand-ten-bc">
 <h2 class="sub-heading-two">Show me the code</h2>
 <div class="one">
 
@@ -151,7 +151,7 @@ Move over to the develop section and fire up your code editor.
 [Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
 
 </div>
-<figure>
+<figure class="brand-nine-bc">
 <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>

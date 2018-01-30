@@ -40,3 +40,32 @@ main {
     margin-top: 1rem;
   }
 }
+
+.large-screen-side-nav {
+  display: none;
+  grid-gap: 3rem;
+  grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
+  align-items: start;
+  position: fixed;
+  top: 100px;
+  &.on-scroll {
+    display: grid;
+  }
+  nav {
+    grid-column-start: 14;
+    grid-column-end: -1;
+    background-color: white;
+    padding: 1rem;
+    ul {
+      margin: 0;
+      padding: 0;
+      li{
+        list-style: none;
+
+      }
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    display: none!important;
+  }
+}

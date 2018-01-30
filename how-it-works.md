@@ -254,36 +254,36 @@ Opening up opportunity data across the sector will better connect providers and 
 </div>
 </article>
 
-<article class="call_to_action title-row">
+<article class="call_to_action title-row ">
 <h2 class="sub-heading-two">E-Learning</h2>
 
 <div class="subgrid">
-<div class="four brand-blue-bc">
+<div class="four brand-three-b">
 
 ### How to's
 Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
-[How to's]( {{ site.baseurl }}{% link how-to.md %}){: .button-primary }
+[How to's]( {{ site.baseurl }}{% link how-to.md %}){:class="link" }
 
 </div>
-<div class="four brand-blue-bc">
+<div class="four brand-six-b">
 
 ### Discussions
 Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusamus in.
-[Discussions]( {{ site.baseurl }}{% link discussions.md %}){: .button-primary }
+[Discussions]( {{ site.baseurl }}{% link discussions.md %}){:class="link" }
 
 </div>
-<div class="four brand-blue-bc">
+<div class="four brand-ten-b">
 
 ### References
 Facilis assumenda officiis dicta. Rerum dolor ullam reprehenderit molestiae.
-[References]( {{ site.baseurl }}{% link references.md %}){: .button-primary }
+[References]( {{ site.baseurl }}{% link references.md %}){:class="link" }
 
 </div>
-<div class="four brand-blue-bc">
+<div class="four brand-eight-b">
 
 ### Tutorials
 Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas aliquid magnam alias.
-[Tutorials]( {{ site.baseurl }}{% link tutorials.md %}){: .button-primary }
+[Tutorials]( {{ site.baseurl }}{% link tutorials.md %}){:class="link" }
 
 </div>
 </div>
@@ -306,7 +306,7 @@ Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas
 </div>
 </article>
 
-<article class="call_to_action--full-width">
+<article class="call_to_action--full-width brand-ten-bc">
 <h2 class="sub-heading-two">Getting Started</h2>
 <div class="one">
 
@@ -317,7 +317,7 @@ Now you know how it works, let’s look at how you can make your data available 
 
 
 </div>
-<figure>
+<figure class="brand-nine-bc">
 <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>
