@@ -353,9 +353,8 @@ figcaption {
 pre {
   display: block;
   margin: 0 0 40px 0;
-  padding: 20px;
+
   background-color: lighten($border-color, 12%);
-  border: 1px solid $border-color;
   overflow: auto;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -383,6 +382,8 @@ code {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+
+
 
 // Misc Styles
 em, i, .italic {

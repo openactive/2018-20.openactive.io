@@ -1,5 +1,8 @@
 $(document).ready(function () {
     (function ($) {
+
+        hljs.initHighlightingOnLoad();
+
         //looks for iframes wraps and adapts the height and width
         (function (window, document, undefined) {
 

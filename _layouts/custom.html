@@ -9,7 +9,9 @@ layout: default
         <div class="one">
 
             <h3> The Accelerator Program</h3>
-            <p>OpenActive makes it as easy as possible for people to discover and participate in your activities. It does this by making your activities available everywhere. From websites and apps that attract millions of users, through chieved using the concept of "open data". </p>
+            <p>OpenActive makes it as easy as possible for people to discover and participate in your activities. It
+                does this by making your activities available everywhere. From websites and apps that attract millions
+                of users, through chieved using the concept of "open data". </p>
             <br/>
             <a class="button-primary" href="{{ site.baseurl }}{% link start-ups.md %}">Start Ups</a>
 
@@ -107,11 +109,49 @@ layout: default
             <div class="four brand-eight-b">
 
                 <h3>Tutorials</h3>
-                <p>Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas aliquid magnam alias.</p>
+                <p>Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas aliquid magnam
+                    alias.</p>
                 <a class="link" href="{{ site.baseurl }}{% link community.md %}">Tutorials</a>
 
             </div>
         </div>
     </article>
 
+    <pre>
+        <code class="css">
+            .line-graphic{
+                right: 0;
+                position: absolute;
+                height: 100%;
+                width: 130px;
+                display: inline-flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                padding-top: 8rem;
+            }
+        </code>
+    </pre>
+    <pre>
+        <code class="HTML">
+            <i class="line-graphic"></i>
+        </code>
+    </pre>
+    <pre>
+        <code class="javascript">
+         $(window).scroll(function () {
+            if ($(window).scrollTop() > activateAtY) {
+                deactivateHeader();
+                $('#nav-icon3').removeClass('open');
+                $('.mobile-nav').css('display', 'none');
+            } else {
+                activateHeader();
+                $('.mobile-nav').css('display', 'inline-flex');
+                if ($('#nav-icon3').hasClass('open')) {
+                    $('#nav-icon3').removeClass('open');
+                    $('.mobile-nav').slideUp();
+                }
+            }
+        });
+        </code>
+    </pre>
 </div>
