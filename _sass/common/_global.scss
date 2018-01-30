@@ -48,6 +48,7 @@ main {
   align-items: start;
   position: fixed;
   top: 100px;
+  pointer-events: none;
   &.on-scroll {
     display: grid;
   }
@@ -56,6 +57,7 @@ main {
     grid-column-end: -1;
     background-color: white;
     padding: 1rem;
+    pointer-events: inherit;
     ul {
       margin: 0;
       padding: 0;

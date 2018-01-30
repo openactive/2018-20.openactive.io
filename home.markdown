@@ -110,7 +110,7 @@ Content for this page is detailed in the
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="case-content" data-id="{{ forloop.index }}">
-<h5>DATA EXPOSED</h5>
+<h6>DATA EXPOSED</h6>
 <p>Date</p>
 <p>Location</p>
 <p>Disabled Access</p>
