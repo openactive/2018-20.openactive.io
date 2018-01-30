@@ -188,15 +188,14 @@ If you think your organisation would benefit from open data sharing, but the dec
 
 <article class="call_to_action">
 <div class="subgrid">
-<div class="three brand-blue-bc">
-
+<div class="three purple-gradient-bc"> 
 #### Convince Your Company
 Discover downloadable documents to give to your company. 
 
 [Convince Company]( {{ site.baseurl }}{% link convince-company.md %}){: .primary_cta}
 
 </div>
-<div class="three brand-blue-bc">
+<div class="three red-gradient-bc"> 
 
 #### Tell Your Team
 Find resources designed to explain open data to your colleagues.
@@ -204,7 +203,7 @@ Find resources designed to explain open data to your colleagues.
 [Tell Team]( {{ site.baseurl }}{% link tell-team.md %}){: .primary_cta}
 
 </div>
-<div class="three brand-blue-bc">
+<div class="three blue-gradient-bc"> 
 
 #### Contact us
 Have a question? Get in touch.
