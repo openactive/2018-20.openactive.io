@@ -52,9 +52,6 @@ Content for this page is detailed in the
 </article>
 
 
-{{ site.url }}
-
-
 <article>
 <div class="one">
 <h1>{{ page.title | escape }}</h1>
