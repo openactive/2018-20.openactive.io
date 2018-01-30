@@ -146,7 +146,7 @@ h3 {
   line-height: 1.9rem;
 }
 
-h3 + p, .h3-copy {
+h3 + p, h3 + ol li, .h3-copy {
   font-size: $header-size/  2.16346;
   font-family: $font-family;
 }
