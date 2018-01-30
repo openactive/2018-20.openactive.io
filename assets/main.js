@@ -91,23 +91,23 @@ $(document).ready(function () {
                 $onScrollNav.removeClass(scrollClass);
             }
         }
-
-        $(window).scroll(function () {
-            if ($(window).scrollTop() > activateAtY) {
-                deactivateHeader();
-                $('#nav-icon3').removeClass('open');
-                $('.mobile-nav').css('display', 'none');
-            } else {
-                activateHeader();
-                $('.mobile-nav').css('display', 'inline-flex');
-                if ($('#nav-icon3').hasClass('open')) {
+        if ($(window).width() < 1500) {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > activateAtY) {
+                    deactivateHeader();
                     $('#nav-icon3').removeClass('open');
-                    $('.mobile-nav').slideUp();
+                    $('.mobile-nav').css('display', 'none');
+                } else {
+                    activateHeader();
+                    $('.mobile-nav').css('display', 'inline-flex');
+                    if ($('#nav-icon3').hasClass('open')) {
+                        $('#nav-icon3').removeClass('open');
+                        $('.mobile-nav').slideUp();
+                    }
                 }
-            }
 
-        });
-
+            });
+        }
         //HERO BLOCK
         //cache a reference to the tabs
         var tabsHero = $('.hero-tab');

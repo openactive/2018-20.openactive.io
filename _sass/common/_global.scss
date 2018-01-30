@@ -35,10 +35,8 @@ body {
 //  margin: 0!important;
 //}
 main {
-  margin-top: 2rem;
-  @media only screen and (max-width: 1400px) {
-    margin-top: 1rem;
-  }
+  margin-top: 1rem;
+
 }
 
 .large-screen-side-nav {
@@ -55,19 +53,19 @@ main {
   nav {
     grid-column-start: 14;
     grid-column-end: -1;
-    background-color: white;
-    padding: 1rem;
     pointer-events: initial;
-    ul {
+    ul.nav-style {
       margin: 0;
-      padding: 0;
-      li{
+      background-color: white;
+      width: auto;
+      padding: 0.5rem 0;
+      li {
         list-style: none;
 
       }
     }
   }
   @media only screen and (max-width: 1400px) {
-    display: none!important;
+    display: none !important;
   }
 }

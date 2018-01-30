@@ -72,7 +72,7 @@ nav {
         display: grid;
         align-self: stretch;
         border-bottom: 1px solid $gray;
-        ul{
+        ul {
           display: inline-flex;
         }
       }
@@ -92,7 +92,6 @@ nav {
         justify-content: flex-end;
         flex-direction: column;
         align-items: flex-start;
-        border-bottom: 1px solid $gray;
       }
       @media only screen and (max-width: 1400px) {
         &.logo {
@@ -121,36 +120,40 @@ nav {
     }
     #logo {
       position: relative;
-      min-height: 150px;
       text-align: right;
-      border-bottom: 1px solid $gray;
-      margin: 2rem 0 0 2rem;
+      margin: 0;
+
       a {
         display: inline-flex;
         align-items: flex-end;
         flex-direction: column;
         justify-content: flex-end;
-        padding-bottom: 2rem;
         box-sizing: border-box;
       }
       a svg {
-        width: 100%;
-        max-width: 200px;
-        min-width: 100px;
+        top: 0;
+        width: 150px;
+        left: 0;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid lightgrey;
       }
       @media only screen and (max-width: 1400px) {
         margin: 1rem 0 0 0;
+        display: flex;
+        align-content: flex-start;
         a {
-          padding-bottom: 1rem;
+          padding-bottom: 0;
         }
         a svg {
-          max-width: 250px;
-          min-width: 100px;
+          padding-bottom: 1rem;
         }
       }
     }
     .navigation {
       padding-bottom: 2rem;
+      @media only screen and (max-width: 1400px) {
+        padding-bottom: 1rem;
+      }
       .mobile_button {
         display: none;
         @media only screen and (max-width: 1000px) {
@@ -161,34 +164,41 @@ nav {
     }
     .button {
       margin-top: 1rem;
-      padding-bottom: 2rem;
-      #social {
-        align-items: start;
-        margin-bottom: 1rem;
-        ul {
-          display: inline-flex;
-          justify-content: flex-start;
-          flex-direction: row;
-          align-items: center;
-          width: 100%;
-          margin: 0;
-          li {
-            display: inline-block;
-            margin: 0 5px;
-            span {
-              display: block;
-              text-align: center;
-              svg {
-                width: 30px;
+      @media only screen and (max-width: 1400px) {
+        padding-bottom: 0;
+      }
+      .social-button {
+        padding-bottom: 2rem;
+        border-bottom: 1px solid $gray;
+        width: 150px;
+        #social {
+          align-items: start;
+          margin-bottom: 1rem;
+          ul {
+            display: inline-flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            li {
+              display: inline-block;
+              margin: 0 5px;
+              span {
+                display: block;
+                text-align: center;
+                svg {
+                  width: 30px;
+                }
               }
             }
           }
         }
-      }
-      .button--primary, .button-primary--alt {
-        text-align: center;
-        display: block;
-        margin-top: 1rem;
+        .button--primary, .button-primary--alt {
+          text-align: center;
+          width: auto;
+          margin-top: 1rem;
+        }
       }
     }
     .headline {
@@ -201,6 +211,7 @@ nav {
       color: $brand-blue;
       @media only screen and (max-width: 1400px) {
         padding-bottom: 1rem;
+        font-size: 1.5em;
       }
     }
   }
@@ -309,24 +320,29 @@ nav {
       order: 0;
       flex: 0 1 auto;
       align-self: auto;
-      #social {
-        align-items: start;
-        margin-bottom: 0;
-        ul {
-          display: inline-flex;
-          justify-content: flex-start;
-          flex-direction: row;
-          align-items: center;
-          width: 100%;
-          margin: 0;
-          li {
-            display: inline-block;
-            margin: 0 5px;
-            span {
-              display: block;
-              text-align: center;
-              svg {
-                width: 30px;
+      .social-button {
+        border: none;
+        width: auto;
+        padding: 0;
+        #social {
+          align-items: start;
+          margin-bottom: 0;
+          ul {
+            display: inline-flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            li {
+              display: inline-block;
+              margin: 0 5px;
+              span {
+                display: block;
+                text-align: center;
+                svg {
+                  width: 30px;
+                }
               }
             }
           }
@@ -388,11 +404,15 @@ nav {
       width: 100%;
       max-width: 100px;
       min-width: 100px;
-      min-height: 0;
-      border: none;
+
       a {
         margin: 0;
         padding: 0;
+        svg {
+          padding: 0;
+          width: 100%;
+          border: none;
+        }
       }
 
     }
@@ -451,6 +471,11 @@ nav {
       margin: 0;
       padding: 0;
       border: 0;
+      .social-button {
+        border: none;
+        padding: 0;
+        width: 180px;
+      }
       #social {
         align-items: start;
         margin-bottom: 0;

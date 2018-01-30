@@ -173,9 +173,12 @@
           p {
             text-align: left;
             margin-top: 20px;
-            .primary_cta {
-
-            }
+          }
+          .button-primary {
+            margin-top: 1rem;
+          }
+          ol{
+            margin-bottom:0;
           }
         }
         .tabPanel {

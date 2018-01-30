@@ -111,11 +111,14 @@ h2 {
   line-height: 1;
   font-size: $header-size / 2;
   font-weight: 700;
+  width: 150px;
+  justify-self: end;
   @media only screen and (max-width: 1200px) {
     border-bottom: 1px solid $gray;
     border-top: 0 solid $gray;
     padding: 0 0 0.5rem 0;
     text-align: left;
+    width:100%;
     br {
       display: none;
     }
