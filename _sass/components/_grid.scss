@@ -617,10 +617,8 @@
           display: none;
           h3 {
             margin-top: 0;
-            font-family: $font-family;
             font-size: $header-size / 2;
             border-bottom: 1px solid $gray;
-
           }
           p {
             font-size: $base-font-size;
@@ -642,6 +640,10 @@
         justify-self: flex-start;
         align-self: start;
         flex-direction: column;
+        margin-top: 2rem;
+        h6{
+          margin-top: 1.5rem;
+        }
 
         @media only screen and (max-width: 1200px) {
           grid-column-start: 8;

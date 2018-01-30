@@ -284,29 +284,8 @@
 
 // Post lists, news, members, case studies
 
-.post-list {
-  .posts {
-    grid-column-start: 2;
-    grid-column-end: 14;
-    .post {
-      margin-bottom: 2rem;
-      h3 {
-        margin-top: 0;
-        & + p {
-          font-size: $base-font-size;
-        }
-      }
-      figure {
-        grid-column: col  / span 3;
-        margin: 0;
-      }
-      div {
-        grid-column: col 4 / span 9;
 
-      }
-    }
-  }
-}
+
 //STYLES FOR LEFT HAND COLUMN GRAPHIC
 .line-graphic {
   position: absolute;
@@ -461,4 +440,40 @@
   top: 18px;
   width: 0;
   left: 50%;
+}
+
+
+.post-list {
+  .two{
+    figure{
+      margin: 0 0 1rem 0;
+    }
+    h3{
+      padding-top:1rem;
+      border-top-style: solid;
+      border-top-width: 5px;
+    }
+    div{
+
+
+    }
+  }
+}
+
+.share-page{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid $gray;
+  padding-bottom: 0.5rem;
+  width:100%;
+  a{
+    order: 0;
+    align-self: auto;
+    height: 30px;
+    width: 30px;
+    .svg.twitter, .svg.facebook, .svg.instagram{
+      fill:$brand-one;
+    }
+  }
 }

@@ -73,9 +73,8 @@ a.button-primary{
   border-radius: 5px;
   border: none;
   transition-property: background-color;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
-  transition-delay: 0.2s;
   &:hover {
     background-color: rgba($brand-three, 0.5);
     color: $white;
@@ -110,7 +109,28 @@ a.button-primary{
 // Styleguide buttons.primary-alt
 a.button-primary--alt{
   @extend .button-primary;
-  background-color: $brand-ten;
+  background-color: $brand-six;
+}
+
+// Primary Ghost Styles
+//
+// Primary Ghost call to action
+//
+// Weight: 1
+//
+// :hover       - Hover state.
+// :active      - Active state.
+// .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
+//
+// Markup:
+// <a class="button-primary--ghost {{modifier_class}}">Button</a>
+//
+// Styleguide buttons.primary-ghost
+a.button-primary--ghost{
+  @extend .button-primary;
+  background-color: transparent;
+  border:1px solid $brand-one;
+  color: $brand-one;
 }
 
 
