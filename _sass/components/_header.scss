@@ -1,93 +1,309 @@
-nav {
-  outline: none;
-  &:focus {
-    outline: none;
-  }
+/*********************************/
+/*********************************/
+//GRID LAYOUT STYLES FOR SCREENS OVER 1000px
 
-  ul.nav-style {
-    margin: 1rem 0 0 0;
-    display: inline-flex;
-    list-style: none;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 100%;
-    color: $brand-blue;
-    li {
-      margin: 0 10px;
-      list-style: none;
-      font-size: 0.9em;
-      color: $brand-blue;
-      a, a:link, a:visited {
-        color: $nav-color;
-        font-weight: 600;
+@supports (display: grid) {
+  html.cssgrid {
+    @media only screen and (min-width: 1000px) {
+      body > header {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
+        align-items: stretch;
+
+        @media only screen and (max-width: 1400px) {
+          grid-gap: 1rem;
+          grid-column-gap: 3rem;
+
+        }
+        .g-item {
+          &.logo {
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row: 1/ span 2;
+            align-self: end;
+          }
+          &.navigation {
+            grid-column-start: 11;
+            grid-column-end: 14;
+            grid-row: 1/ span 2;
+            display: grid;
+            align-self: stretch;
+          }
+          &.headline {
+            grid-column-start: 2;
+            grid-column-end: 11;
+            grid-row: 2/ 2;
+            display: grid;
+            align-self: stretch;
+          }
+
+          &.button {
+            grid-column-start: 14;
+            grid-column-end: 14;
+            grid-row: 1/ span 2;
+          }
+          @media only screen and (max-width: 1400px) {
+            &.logo {
+              grid-column-start: 2;
+              grid-column-end: 5;
+              grid-row: 1/ span 1;
+            }
+            &.headline {
+              grid-column-start: 2;
+              grid-column-end: 12;
+            }
+            &.navigation {
+              grid-column-start: 9;
+              grid-row: 1/ span 2;
+              grid-column-end: 12;
+
+            }
+            &.button {
+              grid-column-start: 12;
+            }
+          }
+        }
+        div, aside, nav {
+
+        }
+        #logo {
+
+          a {
+
+          }
+          a svg {
+
+          }
+          @media only screen and (max-width: 1400px) {
+
+            a {
+
+            }
+            a svg {
+
+            }
+          }
+        }
+        .navigation {
+
+          @media only screen and (max-width: 1400px) {
+
+          }
+          .mobile_button {
+
+            @media only screen and (max-width: 1000px) {
+
+            }
+
+          }
+        }
+        .button {
+
+          @media only screen and (max-width: 1400px) {
+
+          }
+          .social-button {
+
+            #social {
+              align-items: start;
+
+              ul {
+
+                li {
+
+                  span {
+
+                    svg {
+                    }
+                  }
+                }
+              }
+            }
+            .button--primary, .button-primary--alt {
+
+            }
+          }
+        }
+        .headline {
+          @media only screen and (max-width: 1400px) {
+          }
+        }
       }
-    }
-    li {
-      counter-increment: custom;
-    }
 
-    li:before {
-      content: counter(custom) " - ";
-    }
+      #sticky-phantom {
 
-    li:first-child {
-      counter-reset: custom;
-    }
-    li.active {
-      text-decoration: underline;
-      color: $brand-ten;
-      a {
-        color: $brand-ten;
+      }
+      @media only screen and (max-width: 1400px) {
+        #sticky-phantom {
+
+        }
       }
     }
   }
 }
+
+//END OF GLOBAL NO GRID STYLES
+/*********************************/
+/*********************************/
+
+
+
+/*********************************/
+/*********************************/
+//LEGACY LAYOUT STYLES FOR SCREENS OVER 1000px
+
+html.no-cssgrid {
+  @media only screen and (min-width: 1000px) {
+    body > header {
+      @media only screen and (max-width: 1400px) {
+
+      }
+      .g-item {
+        display: inline-block;
+        vertical-align: bottom;
+        box-sizing: border-box;
+        &.logo {
+          width: 15%;
+
+        }
+        &.navigation {
+          margin-left: 2.5%;
+        }
+        &.headline {
+          width: 52%;
+          margin-left: 2.5%;
+
+        }
+
+        &.button {
+          margin-left: 2.5%;
+
+        }
+        @media only screen and (max-width: 1400px) {
+          &.logo {
+
+          }
+          &.headline {
+
+          }
+          &.navigation {
+
+          }
+          &.button {
+          }
+        }
+      }
+      div, aside, nav {
+
+      }
+      #logo {
+
+        a {
+
+        }
+        a svg {
+
+        }
+        @media only screen and (max-width: 1400px) {
+          display: inline-flex;
+          align-content: flex-start;
+          a {
+
+          }
+          a svg {
+
+          }
+        }
+      }
+      .navigation {
+
+        @media only screen and (max-width: 1400px) {
+
+        }
+        .mobile_button {
+
+          @media only screen and (max-width: 1000px) {
+
+          }
+
+        }
+      }
+      .button {
+
+        @media only screen and (max-width: 1400px) {
+
+        }
+        .social-button {
+
+          #social {
+
+            ul {
+
+              li {
+
+                span {
+
+                  svg {
+                  }
+                }
+              }
+            }
+          }
+          .button--primary, .button-primary--alt {
+
+          }
+        }
+      }
+      .headline {
+        @media only screen and (max-width: 1400px) {
+        }
+      }
+    }
+
+    #sticky-phantom {
+
+    }
+    @media only screen and (max-width: 1400px) {
+      #sticky-phantom {
+
+      }
+    }
+  }
+}
+
+//END LEGACY LAYOUT STYLES FOR SCREENS OVER 1000px
+/*********************************/
+/*********************************/
+
+
+/*********************************/
+/*********************************/
+//DECORATIVE OR COMPATABLE LAYOUT STYLES FOR SCREENS OVER 1000px
 
 @media only screen and (min-width: 1000px) {
   body > header {
     position: fixed;
     z-index: 20;
     background-color: white;
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
-    align-items: stretch;
 
     @media only screen and (max-width: 1400px) {
-      grid-gap: 1rem;
-      grid-column-gap: 3rem;
 
     }
     .g-item {
       &.logo {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row: 1/ span 2;
-        align-self: end;
+
       }
       &.navigation {
-        grid-column-start: 11;
-        grid-column-end: 14;
-        grid-row: 1/ span 2;
-        display: grid;
-        align-self: stretch;
         border-bottom: 1px solid $gray;
         ul {
           display: inline-flex;
         }
       }
       &.headline {
-        grid-column-start: 2;
-        grid-column-end: 11;
-        grid-row: 2/ 2;
-        display: grid;
-        align-self: stretch;
       }
 
       &.button {
-        grid-column-start: 14;
-        grid-column-end: 14;
-        grid-row: 1/ span 2;
         display: inline-flex;
         justify-content: flex-end;
         flex-direction: column;
@@ -95,22 +311,16 @@ nav {
       }
       @media only screen and (max-width: 1400px) {
         &.logo {
-          grid-column-start: 2;
-          grid-column-end: 5;
-          grid-row: 1/ span 1;
+
         }
         &.headline {
-          grid-column-start: 2;
-          grid-column-end: 12;
+
         }
         &.navigation {
-          grid-column-start: 9;
-          grid-row: 1/ span 2;
-          grid-column-end: 12;
           border-bottom: none;
         }
         &.button {
-          grid-column-start: 12;
+
         }
       }
     }
@@ -138,9 +348,9 @@ nav {
         border-bottom: 1px solid lightgrey;
       }
       @media only screen and (max-width: 1400px) {
+        justify-content: flex-start;
+        display: inline-flex;
         margin: 1rem 0 0 0;
-        display: flex;
-        align-content: flex-start;
         a {
           padding-bottom: 0;
         }
@@ -172,7 +382,6 @@ nav {
         border-bottom: 1px solid $gray;
         width: 150px;
         #social {
-          align-items: start;
           margin-bottom: 1rem;
           ul {
             display: inline-flex;
@@ -232,7 +441,15 @@ nav {
   }
 }
 
-//small styles
+// END OF DECORATIVE STYLES FOR SCREENS OVER 1000PX
+/*********************************/
+/*********************************/
+
+
+/*********************************/
+/*********************************/
+//LAYOUTS FOR SCREENS UNDER 1000PX
+
 @media only screen and (max-width: 1000px) {
   body > header {
     position: fixed;
@@ -374,6 +591,10 @@ nav {
     height: 100px;
   }
 }
+
+//LAYOUTS FOR SCREENS UNDER 1000PX
+/*********************************/
+/*********************************/
 
 //ON-SCROLL STYLES
 .on-scroll {

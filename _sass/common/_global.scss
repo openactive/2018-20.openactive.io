@@ -12,14 +12,27 @@
 .block--modifier {
 }
 
-//SECTION WRAPPING, EACH NEW ROW SHOULD HAVE A NEW SECTION, OR IF RELATED OR SHARING A BACKGROUND REPLACE THE INNER WRAPPER
+/*********************************/
+/*********************************/
+//GLOBAL NO GRID STYLES
 
-//.constrain, footer {
-//  max-width: calc(100% - calc(100% - 1008px));
-//  margin: auto;
-//  padding: 0 1em;
-//  box-sizing: border-box;
-//}
+html.no-cssgrid {
+  body {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  header, .constrain {
+    max-width: calc(100% - calc(100% - 1400px));
+    width: 100%;
+  }
+}
+//END GLOBAL NO GRID STYLES
+/*********************************/
+/*********************************/
+
+
 section {
   align-items: start;
 
