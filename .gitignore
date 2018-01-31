@@ -9,3 +9,4 @@ _site
 .idea/modules.xml
 .idea/openactive.iml
 .idea/workspace.xml
+node_modules/
