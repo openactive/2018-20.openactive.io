@@ -52,7 +52,7 @@ member: Enable Leisure & Culture
 layout: case-study
 ---
 
-### Patrice John-Baptiste, Communications Associate at ODI, speaks with Jamie Gordon, Communications Officer at Table Tennis England, about early impact witnessed in the first month of publishing open data.
+**Patrice John-Baptiste, Communications Associate at ODI, speaks with Jamie Gordon, Communications Officer at Table Tennis England, about early impact witnessed in the first month of publishing open data.**
 
 ![spotlight_tabletennis.jpeg](/uploads/spotlight_tabletennis.jpeg)
 
