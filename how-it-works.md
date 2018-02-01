@@ -38,14 +38,14 @@ Content for this page is detailed in the
 <div class="two">
 
 
-![Hero]({{ site.url }}/assets/images/icons-animation.gif)
+![Hero]({{ site.baseurl }}/assets/images/icons-animation.gif)
 
 </div>
 
 <div class="two">
 
 
-![Hero]({{ site.url }}/assets/images/icons-animation.gif)
+![Hero]({{ site.baseurl }}/assets/images/icons-animation.gif)
 
 </div>
 
