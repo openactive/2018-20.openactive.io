@@ -138,7 +138,92 @@ alert(s);
 s = "Python syntax highlighting"
 print s
 ```
- 
+
+```javascript
+$(window).scroll(function () {
+    if ($(window).scrollTop() > activateAtY) {
+        deactivateHeader();
+        $('#nav-icon3').removeClass('open');
+        $('.mobile-nav').css('display', 'none');
+    } else {
+        activateHeader();
+        $('.mobile-nav').css('display', 'inline-flex');
+        if ($('#nav-icon3').hasClass('open')) {
+            $('#nav-icon3').removeClass('open');
+            $('.mobile-nav').slideUp();
+        }
+    }
+});
+```
+```json
+{
+  "squadName": "Super hero squad",
+  "homeTown": "Metro City",
+  "formed": 2016,
+  "secretBase": "Super tower",
+  "active": true,
+  "members": [
+    {
+      "name": "Molecule Man",
+      "age": 29,
+      "secretIdentity": "Dan Jukes",
+      "powers": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },
+    {
+      "name": "Madame Uppercut",
+      "age": 39,
+      "secretIdentity": "Jane Wilson",
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "Eternal Flame",
+      "age": 1000000,
+      "secretIdentity": "Unknown",
+      "powers": [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ]
+    }
+  ]
+}
+```
+``` css
+.line-graphic{
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 130px;
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 8rem;
+}
+```
+```HTML
+<article class="call_to_action">
+    <div class="one blue-gradient-bc">
+        <h3> The Accelerator Program</h3>
+        <p>Take the first step enabling open data publishing in your system</p>
+        <br/>
+        <a class="button-primary" href="{{ site.baseurl }}{% link start-ups.md %}">Start Ups</a>
+    </div>
+    <figure class="brand-three-bc">
+        <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+    </figure>
+</article>
+```
+
 ```
 No language indicated, so no syntax highlighting. 
 But let's throw in a <b>tag</b>.

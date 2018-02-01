@@ -45,11 +45,12 @@ Content for this page is detailed in the
 <li class="hero-content" id="h3"><p>Innovate with open data and make finding new ways to get active even easier
 </p></li>
 </ul>
-[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
+[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary--alt}
 </div>
-<figure>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0"
+<figure role="group" aria-labelledby="open-active-video">
+<iframe src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0"
     allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
 </article>
 
@@ -80,7 +81,14 @@ Content for this page is detailed in the
 {% endif %}
 
 <div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
-<img src="{{ theImage  | relative_url}}"/>
+
+<figure role="group" aria-labelledby="fig-{{ forloop.index }}">
+
+<img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+
+<figcaption aria-hidden="true" id="fig-{{ forloop.index }}" class="hidden" >{{ post.title | escape }}</figcaption>
+</figure>
+
 </div>
 
 {% endif %}
@@ -88,7 +96,7 @@ Content for this page is detailed in the
 {% endfor %}
 </nav>
 
-<figure class="case-wrap">
+<figure role="group" class="case-wrap">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="case-content" id="{{ forloop.index }}">
@@ -96,7 +104,7 @@ Content for this page is detailed in the
 
 <h3>{{ post.title | escape }}</h3>
 {{post.content}}
-<a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
+<a class="button-primary--ghost" href="{{ post.url | relative_url }}">Read More</a>
 
 </div>
 {% endif %}
@@ -108,7 +116,7 @@ Content for this page is detailed in the
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="case-content" data-id="{{ forloop.index }}">
-<h5>DATA EXPOSED</h5>
+<h6>DATA EXPOSED</h6>
 <p>Date</p>
 <p>Location</p>
 <p>Disabled Access</p>
@@ -138,13 +146,13 @@ Content for this page is detailed in the
 
 
 
-<article class="tabs blue">
+<article markdown="0" class="tabs blue">
 
 <h2 class="sub-heading-two">Where to start?</h2>
 
-<div id="tabs">
+<div  id="tabs">
 
-<div class="tabsList " role="tablist" >
+<div  class="tabsList " role="tablist" >
 
 
 <h4 class="tablink" role="presentation" aria-selected="true">
@@ -235,6 +243,8 @@ aria-labelledby="activity-provider">
 
 </div>
 
+<i class="line-graphic">{% include line-graphic-side.svg %}</i>
+
 
 </article>
 
@@ -255,7 +265,7 @@ aria-labelledby="activity-provider">
 
 <article class="call_to_action itle-row">
 <div class="subgrid">
-<div class="three getting-started">
+<div class="three blue-gradient-bc">
 
 #### Getting Started
 Take the first step enabling open data in your system.
@@ -264,7 +274,7 @@ Take the first step enabling open data in your system.
 
 
 </div>
-<div class="three developer">
+<div class="three purple-gradient-bc">
 
 
 #### Developer
@@ -274,7 +284,7 @@ Get stuck into the docs and start using or publishing data today!
 
 
 </div>
-<div class="three community">
+<div class="three red-gradient-bc ">
 
 #### Community
 What's happening in the community, and how you can get involved!
@@ -302,14 +312,14 @@ What's happening in the community, and how you can get involved!
 
 <article class="title-row">
 <h2 class="sub-heading-two"> What is <br>Open Data?</h2>
-<div class="two">
+<div class="one">
 <h3>Corporis sint</h3>
 <p class="reset-style">Molestiae similique numquam quia dolore quod ut temporibus sit. Maiores vel nostrum ut est. Voluptas assumenda qui veritatis quisquam. Qui adipisci dolores perferendis mollitia eligendi error aut laboriosam. Consequatur sequi sequi facilis reiciendis in rerum enim.</p>
 <p></p>
 </div>
-<div class="two">
+<div class="one">
 
-{% include line_graphic.svg %}
+{% include blank.svg %}
 
 
 
@@ -364,25 +374,30 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 </article>
 
 
-<article class="post-list">
-<h3 class="sub-heading-two"> Latest News</h3>
-<div class="posts ">
+<article class="post-list title-row">
+<h2 class="sub-heading-two"> Latest News</h2>
 {% for post in site.posts %}
 {% if post.is_featured %}
-<div class="post subgrid" id="post-{{ forloop.index }}">
-<figure class="">
+<div class="two" id="post-{{ forloop.index }}">
+<figure>
 <img src="{{post.thumbnail_image | relative_url}}">
 </figure>
-<div class="">
 <h3>{{ post.title | escape }}</h3>
+<div class="subgrid brand-one-b">
+<div class="two twoleft">
 {{ post.content | strip_html | truncatewords:75 }}
 
 <a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
 </div>
+
+<div class="two twoleft">
+{% include share-page.html %}
+{{post.date}}
+</div>
+</div>
 </div>
 {% endif %}
 {% endfor %}
-</div>
 </article>
 
 

@@ -1,5 +1,8 @@
 $(document).ready(function () {
     (function ($) {
+
+        hljs.initHighlightingOnLoad();
+
         //looks for iframes wraps and adapts the height and width
         (function (window, document, undefined) {
 
@@ -89,21 +92,24 @@ $(document).ready(function () {
             }
         }
 
-        $(window).scroll(function () {
-            if ($(window).scrollTop() > activateAtY) {
-                deactivateHeader();
-                $('#nav-icon3').removeClass('open');
-                $('.mobile-nav').css('display', 'none');
-            } else {
-                activateHeader();
-                $('.mobile-nav').css('display', 'inline-flex');
-                if ($('#nav-icon3').hasClass('open')) {
+        if ($(window).width() < 1500) {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > activateAtY) {
+                    deactivateHeader();
                     $('#nav-icon3').removeClass('open');
-                    $('.mobile-nav').slideUp();
+                    $('.mobile-nav').css('display', 'none');
+                } else {
+                    activateHeader();
+                    $('.mobile-nav').css('display', 'inline-flex');
+                    if ($('#nav-icon3').hasClass('open')) {
+                        $('#nav-icon3').removeClass('open');
+                        $('.mobile-nav').slideUp();
+                    }
                 }
-            }
 
-        });
+            });
+        }
+
 
         //HERO BLOCK
         //cache a reference to the tabs
@@ -132,19 +138,43 @@ $(document).ready(function () {
         //CASE STUDIES
         //cache a reference to the tabs
         var tabs = $('.case-tab');
-        $('.case-tab:first').addClass('current');
-        $('.case-content:first').addClass('current');
-        $('aside .case-content:first').addClass('current');
+        $('.case-tab:first')
+            .addClass('current')
+            .attr("aria-selected", "true");
+
+        $('.case-content:first')
+            .addClass('current')
+            .attr("aria-hidden", "false");
+
+        $('aside .case-content:first')
+            .addClass('current')
+            .attr("aria-hidden", "false");
+
 
         //on click to tab, turn it on, and turn previously-on tab off
         tabs.click(function () {
             var tab_id = $(this).attr('data-tab');
-            $('.case-tab').removeClass('current');
-            $('.case-content').removeClass('current');
-            $('aside .case-content').removeClass('current');
-            $(this).addClass('current');
-            $("#" + tab_id).addClass('current');
-            $("[data-id=" + tab_id + "]").addClass('current');
+            $('.case-tab')
+                .removeClass('current')
+                .attr("aria-selected", "false");
+            $('.case-content')
+                .removeClass('current')
+                .attr("aria-hidden", "true");
+
+            $('aside .case-content')
+                .removeClass('current')
+                .attr("aria-hidden", "true");
+
+            $(this)
+                .addClass('current')
+                .attr("aria-hidden", "false");
+            $("#" + tab_id)
+                .addClass('current')
+                .attr("aria-hidden", "false");
+
+            $("[data-id=" + tab_id + "]")
+                .addClass('current')
+                .attr("aria-hidden", "false");
         });
         //auto-rotate every 5 seconds
         setInterval(function () {
@@ -166,7 +196,7 @@ $(document).ready(function () {
 
         $('.tabPanel:first')
             .addClass('current')
-            .attr("aria-hidden", "true");
+            .attr("aria-hidden", "false");
 
         //on click to tab, turn it on, and turn previously-on tab off
         tabsTab.click(function ($e) {

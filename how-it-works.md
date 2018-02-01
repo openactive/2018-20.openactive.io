@@ -288,9 +288,10 @@ Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas
 </article>
 
 <article class="call_to_action--full-width brand-ten-bc">
-<h2 class="sub-heading-two">Getting Started</h2>
+<h2 class="sub-heading-two">Where now?</h2>
 <div class="one">
 
+### Getting Started
 Now you know how it works, let’s look at how you can make your data available or use a dataset for your own application.
 
 [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}

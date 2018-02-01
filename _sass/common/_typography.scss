@@ -111,11 +111,14 @@ h2 {
   line-height: 1;
   font-size: $header-size / 2;
   font-weight: 700;
+  width: 150px;
+  justify-self: end;
   @media only screen and (max-width: 1200px) {
     border-bottom: 1px solid $gray;
     border-top: 0 solid $gray;
     padding: 0 0 0.5rem 0;
     text-align: left;
+    width:100%;
     br {
       display: none;
     }
@@ -146,7 +149,10 @@ h3 {
   line-height: 1.9rem;
 }
 
-h3 + p, .h3-copy {
+h3 + p,
+h3 + ol li,
+h3 + ol + p,
+.h3-copy {
   font-size: $header-size/  2.16346;
   font-family: $font-family;
 }
@@ -350,9 +356,8 @@ figcaption {
 pre {
   display: block;
   margin: 0 0 40px 0;
-  padding: 20px;
+
   background-color: lighten($border-color, 12%);
-  border: 1px solid $border-color;
   overflow: auto;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -380,6 +385,8 @@ code {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+
+
 
 // Misc Styles
 em, i, .italic {
