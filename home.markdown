@@ -47,9 +47,10 @@ Content for this page is detailed in the
 </ul>
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary--alt}
 </div>
-<figure>
+<figure aria-labelledby="open-active-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0"
     allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
 </article>
 
@@ -81,11 +82,11 @@ Content for this page is detailed in the
 
 <div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
 
-<figure role="group"  aria-labelledby="fig-{{ forloop.index }}">
+<figure role="group" aria-labelledby="fig-{{ forloop.index }}">
 
 <img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
 
-<figcaption id="fig-{{ forloop.index }}" class="hidden" >{{ post.title | escape }}</figcaption>
+<figcaption aria-hidden="true" id="fig-{{ forloop.index }}" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
 
 </div>
