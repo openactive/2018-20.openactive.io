@@ -48,7 +48,7 @@ the_challenge: Explain the challenge you faced
 solving_the_problem: How did you solve the problem
 the_impact: What was the impact?
 lessons_learned: What lessons were learned?
-member: Enable Leisure & Culture
+member: Table Tennis England
 layout: case-study
 ---
 
