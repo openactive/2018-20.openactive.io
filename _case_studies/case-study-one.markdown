@@ -54,6 +54,8 @@ layout: case-study
 
 ### Patrice John-Baptiste, Communications Associate at ODI, speaks with Jamie Gordon, Communications Officer at Table Tennis England, about early impact witnessed in the first month of publishing open data.
 
+![spotlight_tabletennis.jpeg](/uploads/spotlight_tabletennis.jpeg)
+
 **What has the response been like since launching Table Tennis England open data?**
 
 It has been just over one month since Table Tennis England launched the first of our open datasets and the feedback received has been overwhelmingly positive. Members, developers, and other sporting organisations have all been in contact to congratulate us for being one of the pioneering organisations working with the OpenActive initiative.
