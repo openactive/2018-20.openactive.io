@@ -8,7 +8,7 @@ layout: home
 
 {::options parse_block_html="true" /}
 
-<article class="note-wrap">
+<article class="note-wrap" aria-hidden="true">
 <div class="notes">
 
 ##### Page Notes ~ {{ page.title | escape }}
@@ -19,7 +19,7 @@ Content for this page is detailed in the
 </article>
 
 
-<article class="note-wrap">
+<article class="note-wrap" aria-hidden="true">
 <div class="notes">
 ##### Section Notes ~ Hero Block
 **Purpose**: This section is the first thing all users will see, we are showcasing the video along with key benefits. The benefits should appeal to all levels of users
@@ -31,6 +31,8 @@ Content for this page is detailed in the
 **Copy-writing Notes**:
 </div>
 </article>
+
+
 <article class="hero--home">
 <nav class="hero_tab_nav">
 <div class="hero-tab" data-tab="h1"></div>
@@ -55,7 +57,7 @@ Content for this page is detailed in the
 </article>
 
 
-<article class="note-wrap">
+<article class="note-wrap" aria-hidden="true">
 <div class="notes">
 ##### Section Notes ~ Case Studies Block
 **Purpose**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.
@@ -96,7 +98,7 @@ Content for this page is detailed in the
 {% endfor %}
 </nav>
 
-<figure role="group" class="case-wrap">
+<figure role="group" class="case-wrap" >
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="case-content" id="{{ forloop.index }}">
@@ -104,7 +106,7 @@ Content for this page is detailed in the
 
 <h3>{{ post.title | escape }}</h3>
 {{post.content}}
-<a class="button-primary--ghost" href="{{ post.url | relative_url }}">Read More</a>
+<a class="button-primary--ghost" href="{{ post.url | relative_url }}">Read Case Study</a>
 
 </div>
 {% endif %}
@@ -116,7 +118,7 @@ Content for this page is detailed in the
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="case-content" data-id="{{ forloop.index }}">
-<h6>DATA EXPOSED</h6>
+<h4>DATA EXPOSED</h4>
 <p>Date</p>
 <p>Location</p>
 <p>Disabled Access</p>
@@ -131,7 +133,7 @@ Content for this page is detailed in the
 
 
 
-<article class="note-wrap">
+<article class="note-wrap" aria-hidden="true">
 <div class="notes">
 ##### Section Notes ~ Tabbed Content
 **Purpose**: These tabs are used to help guide users based on their orientation toward initiative, The first tab would be geared toward a general explanation, whereas the other tabs would be aimed at providing a insight into other specific use cases, such as using or sharing data. Each item will provide a call action to encourage users further along the path.
@@ -155,31 +157,31 @@ Content for this page is detailed in the
 <div  class="tabsList " role="tablist" >
 
 
-<h4 class="tablink" role="presentation" aria-selected="true">
+<h3 class="tablink" role="presentation" aria-selected="true">
 <a href="#how-it-works">How it Works</a>
 <i class="icon_wrap_accordian">
 <i class="icon"></i>
 </i>
-</h4>
+</h3>
 
 <div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
-<h3> How it Works</h3>
+<h4> How it Works</h4>
 <p>OpenActive makes discovering and taking part in  sport and fitness activities easier than ever before. With open data, your activities can be available to people across the country,  on websites and apps that attract millions of users, to communities and services that engage local people.</p>
 <a class="button-primary" href="{{ site.baseurl }}{% link how-it-works.md %})">Discover More</a>
 </div>
 
 
-<h4 class="tablink" role="presentation" aria-selected="false">
+<h3 class="tablink" role="presentation" aria-selected="false">
 <a href="#booking-systems">Booking Systems</a>
 <i class="icon_wrap_accordian">
 <i class="icon"></i>
 </i>
-</h4>
+</h3>
 
 <div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
 aria-labelledby="booking-systems">
 
-<h3>Booking Systems</h3>
+<h4>Booking Systems</h4>
 <ol>
 <li>To get started, add an open data tick-box to your system so your customers can begin publishing open data.</li>
 <li>Build in simple data tools to allow your customers to publish activity listings, and use OpenActive data standards to improve existing datasets.
@@ -194,17 +196,17 @@ aria-labelledby="booking-systems">
 
 
 
-<h4 class="tablink" role="presentation" aria-selected="false">
+<h3 class="tablink" role="presentation" aria-selected="false">
 <a href="#activity-provider">Activity Providers</a>
 <i class="icon_wrap_accordian">
 <i class="icon"></i>
 </i>
-</h4>
+</h3>
 
 <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true"
 aria-labelledby="activity-provider">
 
-<h3>Activity Providers</h3>
+<h4>Activity Providers</h4>
 <ol>
 <li>List your activity details on your existing website or booking system.</li>
 <li>Publish your activity information using our OpenActive data standards. 
@@ -218,16 +220,16 @@ aria-labelledby="activity-provider">
 </div>
 
 
-<h4 class="tablink" role="presentation" aria-selected="false">
+<h3 class="tablink" role="presentation" aria-selected="false">
 <a href="#use-data">Use Data</a>
 <i class="icon_wrap_accordian">
 <i class="icon"></i>
 </i>
-</h4>
+</h3>
 
 <div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
 
-<h3>Use Data</h3>
+<h4>Use Data</h4>
 <ol>
 <li>Pick a data source from the list available on OpenActive.</li>
 <li>Join their mailing list and review the documentation.</li>
@@ -249,7 +251,7 @@ aria-labelledby="activity-provider">
 </article>
 
 
-<article class="note-wrap">
+<article class="note-wrap" aria-hidden="true">
 <div class="notes">
 ##### Section Notes ~ CTA Blocks Small
 **Purpose**: This section is used to direct users around the site
@@ -297,7 +299,7 @@ What's happening in the community, and how you can get involved!
 
 </article>
 
-<article class="note-wrap">
+<article class="note-wrap" aria-hidden="true">
 <div class="notes">
 ##### Section Notes
 **Purpose**: The purpose of this section is to graphically clarify for users exactly what open data is
@@ -328,7 +330,7 @@ What's happening in the community, and how you can get involved!
 
 </article>
 
-<article class="note-wrap">
+<article class="note-wrap" aria-hidden="true">
 <div class="notes">
 ##### Section Notes ~ CTA Block Large
 **Purpose**: This section is used to direct users to specific pages. In this case to promote the accelerator program
@@ -360,7 +362,7 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 </article>
 
 
-<article class="note-wrap">
+<article class="note-wrap" aria-hidden="true">
 <div class="notes">
 ##### Section Notes
 **Purpose**: This section will expose some latest blog posts for users to quickly gain a insight into recent activity.
@@ -379,15 +381,15 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 {% for post in site.posts %}
 {% if post.is_featured %}
 <div class="two" id="post-{{ forloop.index }}">
-<figure>
-<img src="{{post.thumbnail_image | relative_url}}">
+<figure role="group">
+<img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}-post-thumbnail">
 </figure>
 <h3>{{ post.title | escape }}</h3>
 <div class="subgrid brand-one-b">
 <div class="two twoleft">
 {{ post.content | strip_html | truncatewords:75 }}
 
-<a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
+<a class="button-primary" href="{{ post.url | relative_url }}">Read Post</a>
 </div>
 
 <div class="two twoleft">
