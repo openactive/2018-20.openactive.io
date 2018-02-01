@@ -323,6 +323,32 @@ article {
   }
   &.call_to_action {
     position: relative;
+    .two, .three, .four {
+      align-self: stretch;
+      padding: 3rem 2rem;
+      text-align: center;
+      align-content: center;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      h3, h4 {
+        margin-top: 0;
+      }
+      p {
+        font-size: $base-font-size;
+      }
+      a {
+        margin-top: 1rem;
+      }
+      ol {
+        margin-left: 0;
+      }
+      &.list {
+        text-align: left;
+        align-items: flex-start;
+      }
+    }
     .one {
       grid-row: 1;
       padding: 4rem 10rem 4rem 2rem;
@@ -358,31 +384,31 @@ article {
           height: 100%;
         }
       }
-    }
-    .two, .three, .four {
-      align-self: stretch;
-      padding: 3rem 2rem;
-      text-align: center;
-      align-content: center;
-      display: inline-flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      h3, h4 {
-        margin-top: 0;
+      @media only screen and (max-width: 750px) {
+        padding: 4rem;
+        grid-column-end:14;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        &~figure{
+          grid-column-start:2;
+          grid-row-start: 2;
+          grid-row-end: 2;
+          min-height: 100px;
+          margin-top: -1rem;
+        }
       }
-      p {
-        font-size: $base-font-size;
-      }
-      a {
-        margin-top: 1rem;
-      }
-      ol {
-        margin-left: 0;
-      }
-      &.list {
-        text-align: left;
-        align-items: flex-start;
+      @media only screen and (max-width: 750px) {
+        padding: 4rem;
+        grid-column-end:14;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        &~figure{
+          grid-column-start:2;
+          grid-row-start: 2;
+          grid-row-end: 2;
+          min-height: 100px;
+          margin-top: -1rem;
+        }
       }
     }
     .two {
@@ -450,6 +476,9 @@ article {
       @media only screen and (max-width: 1200px) {
         padding: 0 0 2rem 0;
       }
+      @media only screen and (max-width: 900px) {
+        grid-column-end: 14;
+      }
       h3 {
         margin-top: 0;
         font-size: $header-size;
@@ -465,11 +494,15 @@ article {
       grid-column-start: 12;
       grid-column-end: -1;
       align-self: stretch;
+      grid-row: 1/ 3;
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       position: relative;
-      @media only screen and (max-width: 1200px) {
-        grid-row: 1/ 3;
+
+      @media only screen and (max-width: 900px) {
+        grid-column-start: 2;
+        grid-row: 1/ 2;
+
       }
 
       div {
@@ -573,7 +606,7 @@ nav {
             align-items: center;
           }
           &:nth-child(2) {
-            a.link{
+            a.link {
               float: right;
             }
           }

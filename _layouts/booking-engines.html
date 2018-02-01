@@ -2,36 +2,54 @@
 layout: default
 ---
 
-<div class="collection" id="booking-engines-page">
+<div class="page" id="booking-engines-page">
     <article class="page-content">
-        <header class="page-header">
-            <h1 class="page-title">{{ page.title | escape }}</h1>
-        </header>
-        {{ content }}
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+        <div class="one">
+            <header class="page-header">
+                <h1 class="page-title">{{ page.title | escape }}</h1>
+            </header>
+            {{ content }}
+        </div>
     </article>
 
     {% if site.booking_engines %}
-    {% for post in site.members %}
+    {% for post in site.booking_engines %}
     {% assign num = forloop.length %}
     {% endfor %}
-    <aside>
-        <h3>All Booking Engines ({{num}})</h3>
-        <ul class="post-list">
 
-            {% for post in site.booking_engines %}
-            <li>
-                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
-                <a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </li>
+
+    <article class="member-list">
+        <div class="one">
+            <h3>Open Active has {{num}} booking engines</h3>
+        </div>
+        <div class="one">
+
+            {% assign sortedPosts = site.booking_engines | sort: 'title' %}
+            {% for post in sortedPosts %}
+            <div class="subgrid" id="member-{{ forloop.index }}">
+                <figure role="group" class="two tworight">
+                    <img role="logo" src="{{post.thumbnail_image | relative_url}}">
+                </figure>
+                <div class="two tworight">
+                    <div class="wrap">
+                        <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{
+                            post.title |
+                            escape
+                            }}</a></h3>
+                        {{ post.excerpt }}
+                    </div>
+                    <a class="link" href="{{ post.url | relative_url }}">Read Booking Engine</a>
+                </div>
+            </div>
+            <hr>
             {% endfor %}
-        </ul>
+
+        </div>
+    </article>
+
 
     </aside>
     {% endif %}
 
 
 </div>
-
-

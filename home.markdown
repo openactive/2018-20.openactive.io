@@ -50,8 +50,7 @@ Content for this page is detailed in the
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary--alt}
 </div>
 <figure role="group" aria-labelledby="open-active-video">
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0"
-    allow="encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" allowfullscreen></iframe>
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
 </article>
@@ -379,7 +378,7 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Latest News</h2>
-{% for post in site.posts %}
+{% for post in site.posts limit:2 %}
 {% if post.is_featured %}
 <div class="two" id="post-{{ forloop.index }}">
 <figure role="group">
@@ -388,7 +387,8 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 <h3>{{ post.title | escape }}</h3>
 <div class="subgrid brand-one-b">
 <div class="two twoleft">
-{{ post.content | strip_html | truncatewords:75 }}
+
+{{ post.excerpt }}
 
 <a class="button-primary" href="{{ post.url | relative_url }}">Read Post</a>
 </div>
@@ -396,6 +396,7 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 <div class="two twoleft">
 {% include share-page.html %}
 {{post.date}}
+{{post.author}}
 </div>
 </div>
 </div>

@@ -14,7 +14,7 @@
     --><h1 class="g-item headline">Using data to help people get active</h1><!--
 
     -->
-    <nav tabindex="-1" role="navigation" class="g-item navigation">
+    <nav tabindex="-1" class="g-item navigation">
         <div class="mobile_button">
             <div id="nav-icon3">
                 <span></span>
@@ -24,15 +24,14 @@
             </div>
         </div>
 
-        <ul class="mobile-nav nav-style">
+        <ul class="mobile-nav nav-style" role="menubar">
             {% assign navigation_pages = site.html_pages | sort: 'position' %}
             {% for p in navigation_pages %}
             {% if p.is_main_navigation %}
             {% if p.position %}
             <li {% if p.url== page.url %}class="active" {% endif %}>
                 <a role="menuitem"
-                   href="{{ p.url | relative_url }}">{{ p.title
-                    }}</a>
+                   href="{{ p.url | relative_url }}" aria-label="Go to Page {{ p.title }}">{{ p.title }}</a>
             </li>
             {% endif %}
             {% endif %}

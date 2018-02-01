@@ -32,10 +32,13 @@ is_secondary_navigation: true
                     <img role="logo" src="{{post.thumbnail_image | relative_url}}">
                 </figure>
                 <div class="two tworight">
-                    <h3><a class="post-title post-link" href="{{ post.website }}" rel="noopener" target="_blank">{{ post.title |
-                        escape
-                        }}</a></h3>
-                    {{ post.content }}
+                    <div class="wrap">
+                        <h3><a class="post-title post-link" href="{{ post.website }}" rel="noopener" target="_blank">{{
+                            post.title |
+                            escape
+                            }}</a></h3>
+                        {{ post.content }}
+                    </div>
                     <a class="link" href="{{ post.website }}" rel="noopener" target="_blank">Visit Website</a>
                 </div>
             </div>

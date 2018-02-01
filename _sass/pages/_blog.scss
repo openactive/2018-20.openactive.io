@@ -13,29 +13,15 @@
 // Styleguide components.news-entry
 
 #blog-page {
-  .page-content {
-    .page-header {
-      .page-title {
+  article{
+    &.post-list{
+      &:nth-child(1){}
+      &:nth-child(2){
+        margin-top:2rem;
+      }
+      &:nth-child(3){
+        margin-top:2rem;
       }
     }
-  }
-  .news-content {
-    .post-title{  }
-    .post-meta{}
-    .post-snippet{}
-  }
-  aside {
-    .post-list {
-    }
-  }
-}
-
-// POST DETAIL
-#post {
-  header {
-    grid-column: col / span 12;
-  }
-  div {
-    grid-column: col / span 12;
   }
 }
