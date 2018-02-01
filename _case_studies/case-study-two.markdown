@@ -27,4 +27,3 @@ Research by MyLocalPitch, an online service which allows venues to promote their
 MyLocalPitch began with a problem faced by countless sports players in cities across the world. Founders Jamie Foale and Sandford London were trying to book a football pitch in London for their Sunday league team, but couldn’t get past the answer machines and unanswered emails. When the company launched in 2014, the core challenge for MyLocalPitch was to help people to find an available slot at a convenient location, and to book it.
 
 Jamie Foale, Cofounder MyLocalPitch explains: “Over-complicated and inaccessible booking process experiences can put people off from playing. We wanted to get people to participate, to fill spare capacity, drive engagement for different audiences, and to make venues more accessible. If people have a better experience, it keeps them coming back. By using data we knew we could make these journeys easier.”
-
