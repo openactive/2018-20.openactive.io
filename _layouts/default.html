@@ -19,13 +19,13 @@
     {% include footer.html %}
     <hr>
     <section class="large-screen-side-nav">
-        <nav>
+        <nav aria-hidden="true">
             <ul class="nav-style">
                 {% assign navigation_pages = site.html_pages | sort: 'position' %}
                 {% for p in navigation_pages %}
                 {% if p.is_main_navigation %}
                 {% if p.position %}
-                <li class="{% if p.url== page.url %}active {% endif %}">
+                <li {% if p.url== page.url %}class="active" {% endif %}>
                     <a role="menuitem"
                        href="{{ p.url | relative_url }}">{{ p.title
                         }}</a>

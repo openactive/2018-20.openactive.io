@@ -165,8 +165,15 @@ article {
       flex-direction: column;
       margin-top: 2rem;
       width: 150px;
-      h6 {
+      h4 {
         margin-top: 1.5rem;
+      }
+      h4 {
+        color: $header-color;
+        font-size: $header-size / 3.75;
+        text-transform: uppercase;
+        margin-bottom: .5rem;
+        letter-spacing: 0;
       }
 
       @media only screen and (max-width: 1200px) {
@@ -189,6 +196,7 @@ article {
       }
     }
   }
+
 }
 
 // END OF CALL TO ACTION STYLES
@@ -546,6 +554,31 @@ nav {
     }
     div {
 
+    }
+  }
+}
+
+// MEMBERS PAGE STYLES
+.member-list {
+
+  .one {
+    &:nth-child(1) {
+    }
+    &:nth-child(2) {
+      .subgrid {
+        .two {
+          &:nth-child(1) {
+            justify-content: center;
+            display: inline-flex;
+            align-items: center;
+          }
+          &:nth-child(2) {
+            a.link{
+              float: right;
+            }
+          }
+        }
+      }
     }
   }
 }
