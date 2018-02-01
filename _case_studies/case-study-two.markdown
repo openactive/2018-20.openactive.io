@@ -18,7 +18,7 @@ layout: case-study
 
 According to research conducted by Sport England and the Football Association, ‘small-sided football’ (including 4/5/6/7/ a side football, walking football and playing football with friends and family)’ is currently played at least once a month by around 14% of the English population. 10% play less regularly (or used to play), 6% don’t play at present but would consider it, with the remaining 70% not considering it at all.
 
-![my_local_pitch.jpeg](/uploads/my_local_pitch.jpeg)
+![my_local_pitch.jpeg](/openactive/my_local_pitch.jpeg)
 
 The research found that a common theme is that people want it to be easier to find a venue to play at — almost 1 in 5 people would play more if it was easier to find a venue. On the opposite side of the fence venue providers are also keen to improve utilisation of their facilities, and to increase revenue.
 
