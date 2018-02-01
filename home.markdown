@@ -80,7 +80,14 @@ Content for this page is detailed in the
 {% endif %}
 
 <div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
-<img src="{{ theImage  | relative_url}}"/>
+
+<figure role="group"  aria-labelledby="fig-{{ forloop.index }}">
+
+<img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+
+<figcaption id="fig-{{ forloop.index }}" class="hidden" >{{ post.title | escape }}</figcaption>
+</figure>
+
 </div>
 
 {% endif %}
