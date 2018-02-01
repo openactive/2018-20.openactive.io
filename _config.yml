@@ -24,7 +24,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-    permalink: "/openactive/:path/"
+    permalink: "/uploads/:path/"
 defaults:
 - scope:
     path: ''
