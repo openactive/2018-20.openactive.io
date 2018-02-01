@@ -47,8 +47,8 @@ Content for this page is detailed in the
 </ul>
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary--alt}
 </div>
-<figure aria-labelledby="open-active-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0"
+<figure role="group" aria-labelledby="open-active-video">
+<iframe src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0"
     allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
@@ -96,7 +96,7 @@ Content for this page is detailed in the
 {% endfor %}
 </nav>
 
-<figure class="case-wrap">
+<figure role="group" class="case-wrap">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="case-content" id="{{ forloop.index }}">

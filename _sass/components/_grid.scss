@@ -549,6 +549,22 @@
   }
 }
 
+article {
+  .one {
+    * {
+      &:nth-child(1) {
+        margin-top: 0;
+      }
+    }
+  }
+  .two {
+  }
+  .three {
+  }
+  .four {
+  }
+}
+
 html.no-cssgrid {
 
   article {

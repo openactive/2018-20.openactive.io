@@ -51,6 +51,10 @@
       grid-column-start: 7;
       grid-column-end: 14;
       margin: 0;
+      iframe{
+        width: 560px;
+        height: 315px;
+      }
       @media only screen and (max-width: 900px) {
         grid-column-start: 2;
         grid-column-end: 14;

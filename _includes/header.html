@@ -1,6 +1,6 @@
 <header id="mainHeader">
 
-    <figure id="logo" class="g-item logo" role="logo">
+    <figure id="logo" class="g-item logo" role="group">
         {% assign default_paths = site.pages | map: "path" %}
         {% assign page_paths = site.header_pages | default: default_paths %}
         <a href="{{ "/" | relative_url }}">
