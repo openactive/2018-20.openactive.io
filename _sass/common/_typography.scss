@@ -93,7 +93,7 @@ h2 {
     grid-column-start: 1;
     grid-column-end: 1;
     align-self: start;
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: 1400px) {
       grid-column-start: 2;
       grid-column-end: 14;
       grid-row: 1/ 2;
@@ -113,7 +113,7 @@ h2 {
   font-weight: 700;
   width: 150px;
   justify-self: end;
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1400px) {
     border-bottom: 1px solid $gray;
     border-top: 0 solid $gray;
     padding: 0 0 0.5rem 0;

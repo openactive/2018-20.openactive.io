@@ -38,7 +38,7 @@ Content for this page is detailed in the
 <div class="two">
 
 
-![Hero]({{ site.url }}/openactive/assets/images/icons-animation.gif)
+![Hero]({{ site.baseurl }}/assets/images/icons-animation.gif)
 
 </div>
 

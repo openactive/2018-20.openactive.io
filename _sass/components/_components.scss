@@ -558,6 +558,31 @@ nav {
   }
 }
 
+// MEMBERS PAGE STYLES
+.member-list {
+
+  .one {
+    &:nth-child(1) {
+    }
+    &:nth-child(2) {
+      .subgrid {
+        .two {
+          &:nth-child(1) {
+            justify-content: center;
+            display: inline-flex;
+            align-items: center;
+          }
+          &:nth-child(2) {
+            a.link{
+              float: right;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 //STYLE FOR SHARING PAGES
 .share-page {
   display: inline-flex;

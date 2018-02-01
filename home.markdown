@@ -50,8 +50,8 @@ Content for this page is detailed in the
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary--alt}
 </div>
 <figure role="group" aria-labelledby="open-active-video">
-<iframe src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0"
-    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" frameborder="0"
+    allow="encrypted-media" allowfullscreen></iframe>
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
 </article>
@@ -82,7 +82,7 @@ Content for this page is detailed in the
 {% assign theImage = theMember.thumbnail_image %}
 {% endif %}
 
-<div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
+<div class="case-tab" data-tab="case-{{ forloop.index }}" markdown="0" >
 
 <figure role="group" aria-labelledby="fig-{{ forloop.index }}">
 
@@ -101,7 +101,7 @@ Content for this page is detailed in the
 <figure role="group" class="case-wrap" >
 {% for post in site.case_studies %}
 {% if post.is_featured %}
-<div class="case-content" id="{{ forloop.index }}">
+<div class="case-content" id="case-{{ forloop.index }}">
 
 
 <h3>{{ post.title | escape }}</h3>
@@ -117,7 +117,7 @@ Content for this page is detailed in the
 <aside class="case-study-info">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
-<div class="case-content" data-id="{{ forloop.index }}">
+<div class="case-content" data-id="case-{{ forloop.index }}">
 <h4>DATA EXPOSED</h4>
 <p>Date</p>
 <p>Location</p>
@@ -157,7 +157,7 @@ Content for this page is detailed in the
 <div  class="tabsList " role="tablist" >
 
 
-<h3 class="tablink" role="presentation" aria-selected="true">
+<h3 class="tablink" role="tab presentation" aria-selected="true">
 <a href="#how-it-works">How it Works</a>
 <i class="icon_wrap_accordian">
 <i class="icon"></i>
@@ -171,7 +171,7 @@ Content for this page is detailed in the
 </div>
 
 
-<h3 class="tablink" role="presentation" aria-selected="false">
+<h3 class="tablink" role="tab presentation" aria-selected="false">
 <a href="#booking-systems">Booking Systems</a>
 <i class="icon_wrap_accordian">
 <i class="icon"></i>
@@ -196,7 +196,7 @@ aria-labelledby="booking-systems">
 
 
 
-<h3 class="tablink" role="presentation" aria-selected="false">
+<h3 class="tablink" role="tab presentation" aria-selected="false">
 <a href="#activity-provider">Activity Providers</a>
 <i class="icon_wrap_accordian">
 <i class="icon"></i>
@@ -220,7 +220,7 @@ aria-labelledby="activity-provider">
 </div>
 
 
-<h3 class="tablink" role="presentation" aria-selected="false">
+<h3 class="tablink" role="tab presentation" aria-selected="false">
 <a href="#use-data">Use Data</a>
 <i class="icon_wrap_accordian">
 <i class="icon"></i>

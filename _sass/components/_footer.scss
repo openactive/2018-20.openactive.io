@@ -5,8 +5,11 @@ footer {
   }
   .intro {
     grid-column-start: 2;
-    grid-column-end: 14;
+    grid-column-end: 11;
     grid-row: 1/ 2;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
     h4 {
       margin: 0;
     }
@@ -27,7 +30,7 @@ footer {
     grid-column-end: 14;
     grid-row: 1/ span 2;
     ul.nav-style {
-      margin: 0 0 0 0;
+      margin: 0 0 1rem 0;
     }
   }
 }

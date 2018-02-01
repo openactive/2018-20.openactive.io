@@ -1,16 +1,19 @@
 <footer>
     <article>
         <div class="intro">
-            <h4>Some of our members</h4>&nbsp;<a class="link" href="{{ site.baseurl }}{% link members-page.md %}">All Members</a>
+            <h4>Some of our members</h4>&nbsp;<a class="link" href="{{ site.baseurl }}{% link members-page.md %}">All
+            Members</a>
         </div>
         <div class="members">
             <div class="subgrid">
                 {% for post in site.case_studies %}
                 {% if post.is_featured %}
                 <div class="six " id="member-{{ forloop.index }}">
-                    <figure class="">
-                        <img src="{{post.thumbnail_image | relative_url}}">
-                        <a class="post-title post-link" href="{{ post.website }}" target="_blank"><span class="hidden" aria-hidden="true">{{ post.title | escape }}</span></a>
+                    <figure role="group">
+                        <a href="{{ post.url | relative_url }}">
+                            <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}">
+                            <span class="hidden" aria-hidden="true">{{ post.title | escape }}</span>
+                        </a>
                     </figure>
                 </div>
                 {% endif %}
