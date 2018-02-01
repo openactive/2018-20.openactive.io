@@ -1,6 +1,8 @@
 ---
 title: Table Tennis England reaps early open data benefits
 date: 2017-12-14 16:18:00 Z
+categories:
+- Spotlight
 is_featured: true
 thumbnail_image: "/uploads/placeholder.png"
 facts_figures: 3 -5 facts and figures
