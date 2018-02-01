@@ -68,20 +68,14 @@ defaults:
     thumbnail_image: "/uploads/placeholder.png"
     website: Web address
 compress_html:
-  clippings: []
-  comments: []
-  endings: []
-  ignore:
-    envs: []
   blanklines: false
   profile: false
-  startings: []
 locale: en-US
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
 baseurl: "/openactive"
-url: https://imaginatecreative.github.io
+url: https://imaginatecreative.github.io/openactive
 repository: imaginatecreative/openactive
 email: your-email@example.com
 github_username: imaginatecreative
