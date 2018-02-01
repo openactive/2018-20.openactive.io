@@ -80,7 +80,7 @@ Content for this page is detailed in the
 {% endif %}
 
 <div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
-<img src="{{ theImage  | relative_url}}"/>
+<img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
 </div>
 
 {% endif %}
