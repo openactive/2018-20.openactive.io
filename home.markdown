@@ -103,7 +103,7 @@ Content for this page is detailed in the
 
 
 <h3>{{ post.title | escape }}</h3>
-{{post.content}}
+{{ post.excerpt }}
 <a class="button-primary--ghost" href="{{ post.url | relative_url }}">Read More</a>
 
 </div>
