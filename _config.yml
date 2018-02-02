@@ -8,7 +8,6 @@ collections:
     member: ''
   case_studies:
     title: Case Studies
-
     output: true
   events:
     title: Events

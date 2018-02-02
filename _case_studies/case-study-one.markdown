@@ -1,6 +1,5 @@
 ---
 title: Table Tennis England reaps early open data benefits
-strapline: Patrice John-Baptiste, Communications Associate at ODI, speaks with Jamie Gordon, Communications Officer at Table Tennis England, about early impact witnessed in the first month of publishing open data.
 date: 2017-12-14 16:18:00 Z
 categories:
 - Spotlight
@@ -10,14 +9,14 @@ tags:
 - Ping Pong
 - Table Tennis England
 - Interview
+strapline: Patrice John-Baptiste, Communications Associate at ODI, speaks with Jamie
+  Gordon, Communications Officer at Table Tennis England, about early impact witnessed
+  in the first month of publishing open data.
 is_featured: true
 thumbnail_image: "/uploads/spotlight_tabletennis.jpeg"
 member: Table Tennis England
 layout: case-study
 ---
-
-
-
 
 #### What has the response been like since launching Table Tennis England open data?
 

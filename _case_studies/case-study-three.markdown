@@ -1,7 +1,6 @@
 ---
 title: Get Active London
-strapline: Using open data to create a people and publisher-centred activity finder.
-date: 2017-05-26
+date: 2017-05-26 00:00:00 Z
 categories:
 - Spotlight
 tags:
@@ -10,9 +9,10 @@ tags:
 - Data Provider
 - London
 - User Experience
+strapline: Using open data to create a people and publisher-centred activity finder.
 is_featured: true
 thumbnail_image: "/uploads/london_casestudy1.jpeg"
-member:  Get Active London
+member: Get Active London
 layout: case-study
 ---
 
