@@ -282,7 +282,7 @@ article {
         &.current {
           flex-direction: column;
           display: flex;
-          justify-content: space-around;
+          justify-content: flex-start;
         }
       }
     }
@@ -466,7 +466,8 @@ article {
     .sub-heading-two {
       margin-top: 4rem;
       @media only screen and (max-width: 1200px) {
-        grid-column-end: 12;
+        grid-column-end: -1;
+        margin-bottom: -1px;
       }
     }
     .one {

@@ -97,10 +97,10 @@ Content for this page is detailed in the
 {% endfor %}
 </nav>
 
-<figure role="group" class="case-wrap" >
+<figure role="group" class="case-wrap match_this">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
-<div class="case-content" id="case-{{ forloop.index }}">
+<div class="case-content matchHeight" id="case-{{ forloop.index }}">
 
 
 <h3>{{ post.title | escape }}</h3>
@@ -265,7 +265,7 @@ aria-labelledby="activity-provider">
 </article>
 
 
-<article class="call_to_action itle-row">
+<article class="call_to_action title-row">
 <div class="subgrid">
 <div class="three blue-gradient-bc">
 

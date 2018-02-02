@@ -3,7 +3,7 @@ title: References
 permalink: "/references/"
 position: 1
 is_main_navigation: false
-layout: page
+layout: page-headless
 ---
 
 ***

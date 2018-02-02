@@ -92,7 +92,7 @@ $(document).ready(function () {
             }
         }
 
-        if ($(window).width() < 1500) {
+        if ($(window).width() < 1500 && $(window).width() > 1000) {
             $(window).scroll(function () {
                 if ($(window).scrollTop() > activateAtY) {
                     deactivateHeader();
@@ -109,7 +109,6 @@ $(document).ready(function () {
 
             });
         }
-
 
         //HERO BLOCK
         //cache a reference to the tabs
@@ -247,6 +246,11 @@ $(document).ready(function () {
 
         });
 
+        //MATCH HEIGHT OF CASE STUDY CONTENT
+        $('.matchHeight').matchHeight({
+            target: $('.match_this'),
+            property: 'height'
+        });
 
     })(jQuery); // Fully reference jQuery after this point.
 

@@ -3,54 +3,16 @@ title: Getting Started
 permalink: "/getting-started/"
 position: 3
 is_main_navigation: true
-layout: page
+layout: page-hero
+thumbnail_image: "/uploads/sideplank.jpg"
+strapline: "Discover how to build unlimited reach for your activities"
+
 ---
 
 {::options parse_block_html="true" /}
 
 
-<article class="note-wrap">
-<div class="notes">
 
-##### Page Notes ~ {{ page.title | escape }}
-
-Content for this page is detailed in the
-[Google Doc](https://drive.google.com/open?id=1LJxp7jbt6r5jTTZqoSJ5WK6yjZDpqhaXNVi-Rx_cSjA){:target="_blank"}
-
-</div>
-</article>
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes
-**Purpose**:
-
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
-
-</div>
-</article>
-
-
-<article markdown="0" class="hero--sub">
-
-<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
-
-<div>
-
-<h1>Getting Started</h1>
-<p>Discover how to build unlimited reach for your activities</p>
-
-
-</div>
-<figure>
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
-</figure>
-
-</article>
 
 
 
