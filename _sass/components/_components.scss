@@ -48,6 +48,29 @@ article {
         }
       }
     }
+    @media only screen and (max-width: 750px) {
+      div {
+        grid-column-start: 2;
+        grid-column-end: 14;
+        padding-bottom: 4rem;
+        
+      }
+      figure{
+        grid-column-start:2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        min-height: 200px;
+        margin-top: -4rem;
+        -webkit-clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
+
+        div {
+          
+          -webkit-clip-path: polygon(0 12%, 100% 5%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 12%, 100% 5%, 100% 100%, 0% 100%);
+        }
+      }
+    }
 
   }
   //SMALL HERO
@@ -370,11 +393,13 @@ article {
         grid-column-start: 7;
         grid-column-end: 14;
         align-self: stretch;
+      
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
         position: relative;
 
         div {
+     
           -webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
           clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
           position: absolute;
@@ -393,23 +418,30 @@ article {
           grid-column-start:2;
           grid-row-start: 2;
           grid-row-end: 2;
-          min-height: 100px;
-          margin-top: -1rem;
+          min-height: 200px;
+          margin-top: -4rem;
+          -webkit-clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
+
+          div {
+            -webkit-clip-path: polygon(0 19%, 100% 8%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 19%, 100% 8%, 100% 100%, 0% 100%);
+          }
         }
       }
-      @media only screen and (max-width: 750px) {
-        padding: 4rem;
-        grid-column-end:14;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        &~figure{
-          grid-column-start:2;
-          grid-row-start: 2;
-          grid-row-end: 2;
-          min-height: 100px;
-          margin-top: -1rem;
-        }
-      }
+      // @media only screen and (max-width: 750px) {
+      //   padding: 4rem;
+      //   grid-column-end:14;
+      //   grid-row-start: 1;
+      //   grid-row-end: 1;
+      //   &~figure{
+      //     grid-column-start:2;
+      //     grid-row-start: 2;
+      //     grid-row-end: 2;
+      //     min-height: 100px;
+      //     margin-top: -1rem;
+      //   }
+      // }
     }
     .two {
       position: relative;
