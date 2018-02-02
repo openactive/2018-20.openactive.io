@@ -5,8 +5,10 @@ position: 0
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
-strapline: "The Open Data Institute are providing a free, online open data e-learning course, including a set of practical modules covering what open data is, its business benefits, how it can be published and prioritised to gain real value from it. Give it a try and send us your feedback!"
-
+strapline: The Open Data Institute are providing a free, online open data e-learning
+  course, including a set of practical modules covering what open data is, its business
+  benefits, how it can be published and prioritised to gain real value from it. Give
+  it a try and send us your feedback!
 ---
 
 {::options parse_block_html="true" /}
