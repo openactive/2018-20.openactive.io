@@ -347,6 +347,7 @@ article {
       &.list {
         text-align: left;
         align-items: flex-start;
+        justify-content: flex-start;
       }
     }
     .one {
@@ -420,9 +421,13 @@ article {
       @media only screen and (max-width: 750px) {
         padding: 3rem 3rem;
       }
+      h3,p{
+        z-index: 2;
+      }
       &:nth-child(1) {
         .line-graphic {
           left: 0;
+          z-index: 1;
           svg {
             left: 0;
             max-width: 100px;
@@ -433,6 +438,7 @@ article {
         .line-graphic {
           right: 0;
           bottom: 0;
+          z-index: 1;
           svg {
             height: 110px;
             bottom: 0;
