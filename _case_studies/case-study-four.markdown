@@ -1,7 +1,6 @@
 ---
 title: Active Newham
-strapline: The pivotal role of cross-sector collaboration in publishing activeNewham open data.
-date: 2017-03-31
+date: 2017-03-31 00:00:00 Z
 categories:
 - Spotlight
 tags:
@@ -10,12 +9,13 @@ tags:
 - Newham
 - Data Publishing
 - Openactive
+strapline: The pivotal role of cross-sector collaboration in publishing activeNewham
+  open data.
 is_featured: true
 thumbnail_image: "/uploads/case_study4_1.png"
-member:  Active Newham
+member: Active Newham
 layout: case-study
 ---
-
 
 activeNewham is the first leisure trust to publish open data as part of the OpenActive initiative. Aiming to increase participation in a borough facing traditionally lower physical activity levels, activeNewham, together with imin, London Sport and London Legacy Development Corporation explain how drawing on expertise and leadership between them made publishing physical activity opportunity data possible.
 

@@ -1,6 +1,6 @@
 ---
 title: Our Parks
-date: 2018-01-26 
+date: 2018-01-26 00:00:00 Z
 is_featured: true
 thumbnail_image: "/uploads/our_parks.png"
 layout: member
