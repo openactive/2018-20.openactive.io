@@ -3,7 +3,7 @@ title: Our Mission
 permalink: "/our-misson/"
 position: 1
 is_main_navigation: true
-layout: page
+layout: page-headless
 ---
 
 {::options parse_block_html="true" /}

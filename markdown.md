@@ -2,7 +2,7 @@
 title: Markdown
 position: 5
 is_secondary_navigation: true
-layout: page
+layout: page-headless
 ---
 
 {::options parse_block_html="true" /}

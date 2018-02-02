@@ -1,26 +1,30 @@
 ---
-title: How To
+title: How ToGuides
 permalink: "/how-to/"
 position: 1
 is_main_navigation: false
-layout: page
+layout: page-hero
+thumbnail_image: "/uploads/sideplank.jpg"
+strapline: Repellendus veritatis culpa autem voluptatem neque rerum. Odit eaque voluptatem
+  culpa vel omnis saepe. Minus sed iusto reiciendis voluptatem. Aspernatur quia sequi
+  quos cumque quam ut.
 ---
 
-<article markdown="0" class="hero--sub">
+<!-- <article markdown="0" class="hero--sub"> -->
 
-<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+<!-- <i class="line-graphic">{% include slim-line-graphic.svg %}</i> -->
 
-<div>
+<!-- <div> -->
 
-<h1>How to Guides</h1>
-<p>Omnis omnis voluptate voluptas sunt atque. Et sed minima omnis repellendus distinctio aut quia. Qui quod iste distinctio est aut voluptas. Nobis atque suscipit eos nostrum. Harum non quisquam qui voluptatem.</p>
+<!-- <h1>How to Guides</h1> -->
+<!-- <p>Omnis omnis voluptate voluptas sunt atque. Et sed minima omnis repellendus distinctio aut quia. Qui quod iste distinctio est aut voluptas. Nobis atque suscipit eos nostrum. Harum non quisquam qui voluptatem.</p> -->
 
-</div>
-<figure>
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
-</figure>
+<!-- </div> -->
+<!-- <figure> -->
+<!-- <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div> -->
+<!-- </figure> -->
 
-</article>
+<!-- </article> -->
 
 <article class="note-wrap">
 <div class="notes">
