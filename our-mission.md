@@ -38,49 +38,42 @@ Content for this page is detailed in the
 <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
 <div class="one">
 <h1>{{ page.title | escape }}</h1>
+<p>OpenActive is community-led initiative with an ambition to help people in England get active using open data. </p>
+<p>The initiative is stewarded by the Open Data Institute (ODI), supported by Sport England, and formed of organisations and engaged individuals working within the sport and physical activity sector.</p>
+</div>
 
->A lack of adequate physical activity is one of Britain’s biggest public health challenges, causing 37,000 deaths annually and costing £20BN a year.
-
->OpenActive is a transformative community-led sector initiative using open data to help people get active.
-
->This year we developed our stewardship of OpenActive, with organisations and individuals within the sport and physical activity sector, using open data to make it easier for people to discover and take part in suitable activities.
-
->Since the launch of OpenActive, which is supported by Sport England, over 80 organisations have joined, such as Greenwich Leisure Limited and England Athletics. 
-
-** OpenActive is community-led initiative with an ambition to help people in England get active using open data.
-The initiative is stewarded by the Open Data Institute (ODI), supported by Sport England, and formed of organisations and engaged individuals working within the sport and physical activity sector.**
+</article>
+<article>
+<div class="one">
 
 ### Our Mission
 From leisure operators and local sports clubs, to National Governing Bodies and event providers, we work with organisations to open up data about physical activity opportunities for anyone to access, use and share.
 Our aim is to use data to help people get active and stimulate sector growth.
 By harnessing open data – that anyone can access, use and share – we are helping people around the country to discover and take part in new activities more easily than ever before and enhancing the sector’s engagement and reach.
-
-
-
-
 </div>
-
 </article>
-
 
 
 <article class="title-row">
 <h2 class="sub-heading-two">What Is Open Active?</h2>
 
-<div class="two tworight">
+<div class="two ">
 
 ### What’s the problem?
 A lack of physical activity is one of Britain’s biggest public health challenges, causing 37,000 deaths annually and costing £20BN a year. 
 Our daily lives are immersed in data-enabled services that allow seamless experiences with planning travels, managing finances, and booking leisure activities. We want to achieve the same with physical activity.
+
 Making physical activity opportunities easier to discover and take part in requires improving access to information online and offline. Although information about physical activities is public, a gym might publish sessions on its website, a yoga studio might prefer flyers and a bootcamp could share its timetable on social media. For someone looking for local activities it quickly becomes a minefield, not to mention how hard it can be to maintain and share this information.
+
 As a result, people find it hard to browse local opportunities and services wanting to promote activities struggle to keep up.
 
 
 </div>
-<div class="two tworight">
+<div class="two ">
 
 ### How do you fit in?
 The OpenActive community was created by a group of engaged sport and physical activity organisations, with the aim of reaching new audiences with better opportunities to get active, by harnessing data and capitalising on innovative solutions. 
+
 By joining the open data revolution, you and your organisation can benefit from OpenActive’s current aims:
 * **To publish open data** - we are supporting organisations in publishing opportunity data with an open license.
 * **To innovate with data** - we continue to facilitate the use of opportunity data to engage and grow the sector’s audience.
@@ -114,7 +107,7 @@ Sapiente vitae soluta eius aspernatur. Qui impedit qui et facere autem. Quidem r
 
 <article class="post-list">
 <h2 class="sub-heading-two">Meet The Community</h2>
-<div class="posts">
+<div class="one">
 <div class="post subgrid">
 <figure>
 <img src="{{ site.url }}/openactive/assets/images/sideplank.jpg">
