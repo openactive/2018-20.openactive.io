@@ -38,117 +38,53 @@ Content for this page is detailed in the
 <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
 <div class="one">
 <h1>{{ page.title | escape }}</h1>
-<p>OpenActive is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active.</p>
-<p> It is being coordinated by the Open Data Institute (ODI), an independent, non-profit, non-partisan organisation. Our goal is to make data on what, where and when physical activity sessions happen, openly available. This “opportunity data” includes details of a yoga class (“how much will it cost?”) through to badminton court availability (“where and when is a court available?”).</p>
-
-<a class="button-primary" href="{{ site.baseurl }}{% link our-mission-full.md %}">Read More</a>
+<p>OpenActive is community-led initiative with an ambition to help people in England get active using open data. </p>
+<p>The initiative is stewarded by the Open Data Institute (ODI), supported by Sport England, and formed of organisations and engaged individuals working within the sport and physical activity sector.</p>
 </div>
 
 </article>
+<article>
+<div class="one">
 
-
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes
-**Purpose**:  
-
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
-
+### Our Mission
+From leisure operators and local sports clubs, to National Governing Bodies and event providers, we work with organisations to open up data about physical activity opportunities for anyone to access, use and share.
+Our aim is to use data to help people get active and stimulate sector growth.
+By harnessing open data – that anyone can access, use and share – we are helping people around the country to discover and take part in new activities more easily than ever before and enhancing the sector’s engagement and reach.
 </div>
 </article>
+
 
 <article class="title-row">
 <h2 class="sub-heading-two">What Is Open Active?</h2>
 
-<div class="two tworight">
+<div class="two ">
 
-<p class="h3-copy">We are bringing together sports and physical activity organisations from across the sector to open up their opportunity data, from leisure operators to National Governing Bodies, local sports clubs to event providers, walking groups to fitness instructors. We are also helping other organisations to use this opportunity data to build interesting tools and experiences for consumers.</p>
+### What’s the problem?
+A lack of physical activity is one of Britain’s biggest public health challenges, causing 37,000 deaths annually and costing £20BN a year. 
+Our daily lives are immersed in data-enabled services that allow seamless experiences with planning travels, managing finances, and booking leisure activities. We want to achieve the same with physical activity.
 
-</div>
-<div class="two tworight">
+Making physical activity opportunities easier to discover and take part in requires improving access to information online and offline. Although information about physical activities is public, a gym might publish sessions on its website, a yoga studio might prefer flyers and a bootcamp could share its timetable on social media. For someone looking for local activities it quickly becomes a minefield, not to mention how hard it can be to maintain and share this information.
 
-### We support organisations to:
+As a result, people find it hard to browse local opportunities and services wanting to promote activities struggle to keep up.
 
-+ **Open up data** – helping them to share and publish data with an open licence.
-+ **Innovate with data** – helping them to use opportunity data to engage their audience.
-+ **Learn about data** – providing ODI-certified training to ensure organisations understand what open data is and how publishing data can benefit them.
-+ **Create data standards** – collaborating to create common standards for consistent, reliable data, which fuels innovation.
-+ **Build momentum – spreading** the message within the sector, and contributing to supporting materials that anyone can use.
-+ The OpenActive community was started by a group of enthusiastic sports and physical activity organisations who wanted to reach new audiences with better opportunities to get active, using data and smart technology. The ODI is calling on all organisations interested in using opportunity data to get more people active, to join the community.
 
 </div>
-</article>
+<div class="two ">
 
-<article class="note-wrap">
-<div class="notes">
+### How do you fit in?
+The OpenActive community was created by a group of engaged sport and physical activity organisations, with the aim of reaching new audiences with better opportunities to get active, by harnessing data and capitalising on innovative solutions. 
 
-##### Section Notes
-**Purpose**:  
+By joining the open data revolution, you and your organisation can benefit from OpenActive’s current aims:
+* **To publish open data** - we are supporting organisations in publishing opportunity data with an open license.
+* **To innovate with data** - we continue to facilitate the use of opportunity data to engage and grow the sector’s audience.
+* **To learn about data** - we are providing ODI-certified training to help organisations understand and benefit from open data publishing.
+* **To create data standards** - we are driving collaboration across the sector, creating consistent standards for data sharing and fuelling innovation and growth.
+* **To build momentum** - we are sharing the benefits of open data publishing within the sector, and creating accessible materials for anyone to use.
 
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
+<a class="button-primary" href="{{ site.baseurl }}{% link join.md %}">I think we need a join us CTA</a>
 
 </div>
 </article>
-
-
-
-<article class="title-row">
-<h2 class="sub-heading-two">Benefits</h2>
-<div class="three">
-
-**SPORTS & PHYSICAL ACTIVITY PROVIDERS**
-+ Make physical activity sessions and facilities easier to find: get more people through the door!
-+ Promote quiet sessions to new audiences
-+ Improve data skills and understanding by attending training sessions
-+ Collaborate on the future of OpenActive, and the data standards
-
-</div>
-<div class="three">
-    
-**DATA USERS AND DEVELOPERS**
-+ Access open and usable data from across the sector
-+ Develop new products to get people more active, and enhance existing ones
-+ Shape the development of the standards and engage with data publishers
-    
-</div>
-<div class=" three">
-
-**INFLUENTIAL ORGANISATIONS**
-+ Build participation in sport by improving the reach and visibility of opportunities
-+ Provide additional support to members by showing how publishing their data can help them improve efficiency
-+ Improve data skills and understanding by attending training sessions
-+ Give members the opportunity to join the OpenActive community and shape the initiative
-
-</div>
-</article>
-
-
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes
-**Purpose**:  
-
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
-
-</div>
-</article>
-
 
 <article class="call_to_action--full-width brand-ten-bc">
 <h2 class="sub-heading-two">What's Next?</h2>
@@ -171,7 +107,7 @@ Sapiente vitae soluta eius aspernatur. Qui impedit qui et facere autem. Quidem r
 
 <article class="post-list">
 <h2 class="sub-heading-two">Meet The Community</h2>
-<div class="posts">
+<div class="one">
 <div class="post subgrid">
 <figure>
 <img src="{{ site.url }}/openactive/assets/images/sideplank.jpg">

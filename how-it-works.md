@@ -45,7 +45,7 @@ Content for this page is detailed in the
 <div class="two">
 
 
-![Hero]({{ site.url }}/openactive/assets/images/icons-animation.gif)
+![Hero]({{ site.baseurl }}/assets/images/icons-animation.gif)
 
 </div>
 
@@ -191,7 +191,7 @@ Opening up opportunity data across the sector will better connect providers and 
 
 
 <h3>{{ post.title | escape }}</h3>
-{{post.content}}
+{{post.excerpt}}
 <a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
 
 </div>

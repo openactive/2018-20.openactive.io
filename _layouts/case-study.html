@@ -18,7 +18,7 @@ layout: default
 
   <div itemprop="articleBody">
     
-    {{ content }}
+    {{ content | replace: '/uploads/', '/openactive/uploads/' }}
     <hr>
     <h4>Facts and Figures</h4>
     <div class="notes">

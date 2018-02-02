@@ -281,10 +281,6 @@ ___
 
 Underscores
 
-
-
-
-
 </div>
 </article>
 
