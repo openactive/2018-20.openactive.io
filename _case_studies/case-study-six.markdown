@@ -1,8 +1,8 @@
 ---
-title: Case Study Six
-date: 2018-01-18 15:39:00 Z
+title: Case Study Eight
+date: 2018-01-18 17:55:00 Z
+is_featured: false
 thumbnail_image: "/uploads/placeholder.png"
-is_featured: true
 ---
 
-Est pariatur atque a rerum. Numquam iure veniam et.
+Ullam cum voluptate veritatis enim et nihil corporis.

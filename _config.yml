@@ -8,6 +8,7 @@ collections:
     member: ''
   case_studies:
     title: Case Studies
+
     output: true
   events:
     title: Events
@@ -47,11 +48,7 @@ defaults:
     layout: case-study
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
-    facts_figures: 3 -5 facts and figures
-    the_challenge_text: Explain the challenge you faced
-    solving_the_problem_text: How did you solve the problem
-    the_impact_text: What was the impact?
-    lessons_learned_text: What lessons were learned?
+    strapline: 
 - scope:
     path: ''
     type: members
