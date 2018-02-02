@@ -5,8 +5,9 @@ position: 5
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
-strapline: "Repellendus veritatis culpa autem voluptatem neque rerum. Odit eaque voluptatem culpa vel omnis saepe. Minus sed iusto reiciendis voluptatem. Aspernatur quia sequi quos cumque quam ut."
-
+strapline: Repellendus veritatis culpa autem voluptatem neque rerum. Odit eaque voluptatem
+  culpa vel omnis saepe. Minus sed iusto reiciendis voluptatem. Aspernatur quia sequi
+  quos cumque quam ut.
 ---
 
 ***

@@ -5,8 +5,7 @@ position: 5
 is_main_navigation: true
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
-strapline: "Innovation through Collaboration"
-
+strapline: Innovation through Collaboration
 ---
 
 {::options parse_block_html="true" /}

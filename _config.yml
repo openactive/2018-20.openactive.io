@@ -29,8 +29,6 @@ defaults:
 - scope:
     path: ''
     type: pages
-    thumbnail_image: '/uploads/placeholder.png'
-    strapline: ''
   values:
     layout: default
     is_main_navigation: false

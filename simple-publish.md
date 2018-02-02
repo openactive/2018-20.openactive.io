@@ -5,8 +5,7 @@ position: 2
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
-strapline: "Explanation of how to begin publishing data."
-
+strapline: Explanation of how to begin publishing data.
 ---
 
 <!-- <article markdown="0" class="hero--sub"> -->

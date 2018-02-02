@@ -5,8 +5,7 @@ position: 4
 is_main_navigation: true
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
-strapline: "Know what your here for? "
-
+strapline: 'Know what your here for? '
 ---
 
 {::options parse_block_html="true" /}
