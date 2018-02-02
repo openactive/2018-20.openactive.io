@@ -5,8 +5,7 @@ position: 3
 is_main_navigation: true
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
-strapline: "Discover how to build unlimited reach for your activities"
-
+strapline: Discover how to build unlimited reach for your activities
 ---
 
 {::options parse_block_html="true" /}

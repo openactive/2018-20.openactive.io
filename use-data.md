@@ -5,7 +5,7 @@ position: 2
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
-strapline: "In depth Explanation of how to use data"
+strapline: In depth Explanation of how to use data
 ---
 
 <!-- <article markdown="0" class="hero--sub"> -->

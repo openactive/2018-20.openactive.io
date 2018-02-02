@@ -5,8 +5,9 @@ position: 6
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
-strapline: "The OpenActive Accelerator is part of a groundbreaking open data initiative created to encourage digital innovation in the sport and physical activity sector. Join us and help revolutionise the industry."
-
+strapline: The OpenActive Accelerator is part of a groundbreaking open data initiative
+  created to encourage digital innovation in the sport and physical activity sector.
+  Join us and help revolutionise the industry.
 ---
 
 {::options parse_block_html="true" /}
