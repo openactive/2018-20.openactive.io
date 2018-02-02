@@ -1,6 +1,47 @@
 $(document).ready(function () {
     (function ($) {
 
+
+        var $onScrollNav = $('.large-screen-side-nav'),
+            $header = $('header#mainHeader'),
+            scrollClass = 'on-scroll',
+            activateAtY = 360;
+
+        function deactivateHeader() {
+            if (!$header.hasClass(scrollClass)) {
+                $header.addClass(scrollClass);
+            }
+            if (!$onScrollNav.hasClass(scrollClass)) {
+                $onScrollNav.addClass(scrollClass);
+            }
+        }
+
+        function activateHeader() {
+            if ($header.hasClass(scrollClass)) {
+                $header.removeClass(scrollClass);
+            }
+            if ($onScrollNav.hasClass(scrollClass)) {
+                $onScrollNav.removeClass(scrollClass);
+            }
+        }
+
+        if ($(window).width() < 1500 ) {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > activateAtY) {
+                    deactivateHeader();
+                    $('#nav-icon3').removeClass('open');
+                    $('.mobile-nav').css('display', 'none');
+                } else {
+                    activateHeader();
+                    $('.mobile-nav').css('display', 'inline-flex');
+                    if ($('#nav-icon3').hasClass('open')) {
+                        $('#nav-icon3').removeClass('open');
+                        $('.mobile-nav').slideUp();
+                    }
+                }
+
+            });
+        }
         hljs.initHighlightingOnLoad();
 
         //looks for iframes wraps and adapts the height and width
@@ -68,47 +109,6 @@ $(document).ready(function () {
 
         })(window, document);
 
-
-        var $onScrollNav = $('.large-screen-side-nav'),
-            $header = $('header'),
-            scrollClass = 'on-scroll',
-            activateAtY = 360;
-
-        function deactivateHeader() {
-            if (!$header.hasClass(scrollClass)) {
-                $header.addClass(scrollClass);
-            }
-            if (!$onScrollNav.hasClass(scrollClass)) {
-                $onScrollNav.addClass(scrollClass);
-            }
-        }
-
-        function activateHeader() {
-            if ($header.hasClass(scrollClass)) {
-                $header.removeClass(scrollClass);
-            }
-            if ($onScrollNav.hasClass(scrollClass)) {
-                $onScrollNav.removeClass(scrollClass);
-            }
-        }
-
-        if ($(window).width() < 1500 && $(window).width() > 1000) {
-            $(window).scroll(function () {
-                if ($(window).scrollTop() > activateAtY) {
-                    deactivateHeader();
-                    $('#nav-icon3').removeClass('open');
-                    $('.mobile-nav').css('display', 'none');
-                } else {
-                    activateHeader();
-                    $('.mobile-nav').css('display', 'inline-flex');
-                    if ($('#nav-icon3').hasClass('open')) {
-                        $('#nav-icon3').removeClass('open');
-                        $('.mobile-nav').slideUp();
-                    }
-                }
-
-            });
-        }
 
         //HERO BLOCK
         //cache a reference to the tabs

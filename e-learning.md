@@ -46,6 +46,26 @@ strapline: The Open Data Institute are providing a free, online open data e-lear
 </div>
 
 </div>
+<aside class="lesson-overview">
+<div>
+<h4>Suitable for:</h4>
+<ul>
+<li>Everyone</li>
+<li>Beginners</li>
+<li>Business Owners</li>
+</ul>
+</div>
+<div>
+<h4>Questions:</h4>
+<ul>
+<li>What is open data?</li>
+<li>What makes data open?</li>
+<li>Why it matters</li>
+</ul>
+</div>
+</aside>
+
+
 </article>
 
 <article class="call_to_action title-row">
@@ -80,6 +100,24 @@ strapline: The Open Data Institute are providing a free, online open data e-lear
 </div>
 
 </div>
+<aside class="lesson-overview">
+<div>
+<h4>Suitable for:</h4>
+<ul>
+<li>Beginners</li>
+<li>Business Owners</li>
+</ul>
+</div>
+<div>
+<h4>Questions:</h4>
+<ul>
+<li>Where do I start?</li>
+<li>Why is 'opportunity data' a good place to start?</li>
+<li>Where can I get help to make sure my data is good quality?</li>
+</ul>
+</div>
+</aside>
+
 </article>
 
 
@@ -118,6 +156,25 @@ strapline: The Open Data Institute are providing a free, online open data e-lear
 
 </div>
 </div>
+<aside class="lesson-overview">
+<div>
+<h4>Suitable for:</h4>
+<ul>
+<li>Developers</li>
+<li>Business Owners</li>
+</ul>
+</div>
+<div>
+<h4>Questions:</h4>
+<ul>
+<li>Where do I start?</li>
+<li>Why is 'opportunity data' a good place to start?</li>
+<li>Where can I get help to make sure my data is good quality?</li>
+</ul>
+</div>
+</aside>
+
+
 </article>
 
 <article class="call_to_action--full-width brand-ten-bc">

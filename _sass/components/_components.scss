@@ -323,6 +323,9 @@ article {
   }
   &.call_to_action {
     position: relative;
+    @media only screen and (max-width: 1200px) {
+      grid-row-gap:1rem;
+    }
     .two, .three, .four {
       align-self: stretch;
       padding: 3rem 2rem;
@@ -461,6 +464,54 @@ article {
     @media only screen and (max-width: 1200px) {
       .line-graphic {
         display: none;
+      }
+    }
+    .lesson-overview{
+      max-width: 150px;
+      grid-column-start: 14;
+      grid-column-end: 14;
+      border-top: 1px solid $gray;
+      margin-top: 0;
+      div{
+        h4 {
+          color: $header-color;
+          font-size: $header-size / 3.75;
+          text-transform: uppercase;
+          margin-bottom: 0;
+          margin-top:0;
+          letter-spacing: 0;
+        }
+        ul{
+          margin-top: 0;
+          margin-bottom: 2rem;
+        }
+        &:nth-child(1){}
+        &:nth-child(2){}
+      }
+      @media only screen and (max-width: 1200px) {
+        max-width: unset;
+        grid-column-start: 2;
+        grid-column-end: 14;
+        grid-row: 2;
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
+        align-items: start;
+        border-top: none;
+
+        div{
+          ul{
+            margin-bottom: 0;
+          }
+          &:nth-child(1){
+            grid-column-start: 1;
+            grid-column-end: 8;
+          }
+          &:nth-child(2){
+            grid-column-start: 8;
+            grid-column-end: 15;
+          }
+        }
       }
     }
   }
