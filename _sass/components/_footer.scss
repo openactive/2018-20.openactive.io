@@ -24,6 +24,37 @@ footer {
     figure {
       margin: 0;
     }
+    .subgrid{
+      .six-members{
+        &:nth-child(6n+1) {
+          grid-column: col / span 2;
+        }
+        &:nth-child(6n+2) {
+          grid-column: col 3 / span 2;
+        }
+        &:nth-child(6n+3) {
+          grid-column: col 5 / span 2;
+        }
+        &:nth-child(6n+4) {
+          grid-column: col 7/ span 2;
+        }
+        &:nth-child(6n+5) {
+          grid-column: col 9/ span 2;
+        }
+        &:nth-child(6n+6) {
+          grid-column: col 11/ span 2;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .intro,.members{
+      display: none;
+    }
+    nav{
+      grid-column-start: 2;
+      grid-column-end: 14;
+    }
   }
   nav {
     grid-column-start: 11;

@@ -8,7 +8,7 @@
             <div class="subgrid">
                 {% for post in site.members %}
                 {% if post.is_featured %}
-                <div class="six " id="member-{{ forloop.index }}">
+                <div class="six-members" id="member-{{ forloop.index }}">
                     <figure role="group">
                         <a href="{{ post.url | relative_url }}">
                             <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}">

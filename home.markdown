@@ -343,7 +343,7 @@ What's happening in the community, and how you can get involved!
 </div>
 </article>
 
-<article class="call_to_action--full-width brand-ten-bc">
+<article class="call_to_action--full-width startup">
 <h2 class="sub-heading-two">Join</h2>
 <div class="one">
 

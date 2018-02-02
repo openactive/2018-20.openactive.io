@@ -56,57 +56,101 @@ $gray: #ccc;
 $darkgray: #777f88;
 $black: #2b2b2b;
 
-// Getting Started Colors
+// Global Colors
 //
 // Weight: 3
 //
-// Colours for Sharing User Routes
+// Colours for general Routes
 //
 // $share - #ec9e52;
 //
 // Styleguide colours.sharing
 
-$getting-started: $brand-four;
-.getting-started {
-  background-color: $getting-started;
-  *, h1, h2, h3, h4, h5, p {
-    color: $white;
+$global: $brand-one;
+$globalTwo: $brand-three;
+$globalThree: $brand-five;
+$globalFour: $brand-seven;
+$globalFive: $brand-nine;
+.global {
+  background-color: $global;
+  .button-primary{
+    background-color: $globalTwo;
+  }
+  figure{
+    background-color: $globalThree;
   }
 }
 
-// Community Colors
+// Use Colors
 //
 // Weight: 4
 //
-// Colours for sharing user routes
+// Colours for Using user routes
 //
 // $use - #7f307a;
 //
 // Styleguide colours.use
 
-$community: $brand-ten;
-.community {
-  background-color: $community;
-  * {
-    color: $white;
+$using: #054b78;
+$usingTwo: #40489e;
+$usingThree: #922a8f;
+$usingFour: #9f509f;
+$usingFive: #e61990;
+.use {
+  background-color: $using;
+  .button-primary{
+    background-color: $usingTwo;
+  }
+  figure{
+    background-color: $usingThree;
   }
 }
 
-// Developer Colors
+// Sharing Colors
 //
 // Weight: 5
 //
-// Colours for general user routes
+// Colours for sharing user routes
 //
-// $general - #69c5e3;
 //
 // Styleguide colours.general
 
-$developer: $brand-six;
-.developer {
-  background-color: $developer;
-  * {
-    color: $white;
+$sharing: #5bccf5;
+$sharingTwo: #00abcb;
+$sharingThree: #006fb9;
+$sharingFour: #054b78;
+$sharingFive: #40489e;
+.sharing {
+  background-color: $sharing;
+  .button-primary{
+    background-color: $sharingTwo;
+  }
+  figure{
+    background-color: $sharingThree;
+  }
+}
+
+// Start Up Colors
+//
+// Weight: 5
+//
+// Colours for start up routes
+//
+//
+// Styleguide colours.general
+
+$startUp: #9f509f;
+$startUpTwo: #e61990;
+$startUpThree: #bf1e2e;
+$startUpFour: #ef4939;
+$startUpFive: #faa742;
+.startup {
+  background-color: $startUpFour;
+  .button-primary{
+    background-color:$startUpFive;
+  }
+  figure{
+    background-color:$startUpThree;
   }
 }
 

@@ -105,21 +105,19 @@ Sapiente vitae soluta eius aspernatur. Qui impedit qui et facere autem. Quidem r
 </article>
 
 
-<article class="post-list">
+
+<article class="call_to_action--wide">
 <h2 class="sub-heading-two">Meet The Community</h2>
-<div class="one">
-<div class="post subgrid">
-<figure>
-<img src="{{ site.url }}/openactive/assets/images/sideplank.jpg">
-</figure>
-<div>
+
+<div class="one blue-gradient-bc">
+
 <h3>Meet The Community</h3>
+<p>This is an open-invitation community of pioneering organisations. If you are interested in getting involved please join us to find out more.</p>
+<p>Find out all about the open active community and how you can support it.</p>
 
-Autem quasi ut fugit perferendis facilis sapiente. Vel reprehenderit nulla deleniti quod qui ratione
-provident facere. Aut incidunt vel ut illo. Omnis provident sapiente placeat quasi voluptas excepturi.
+<a class="button-primary" href="{% link community.md %}">Meet the Members</a>
 
-<a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
-</div>
-</div>
+<i class="line-graphic">{% include line-graphic-corner.svg %}</i>
+
 </div>
 </article>
