@@ -1,9 +1,9 @@
 /*********************************/
 /*********************************/
 //GRID LAYOUT STYLES FOR SCREENS OVER 1000px
+html.cssgrid {
+  @supports (display: grid) {
 
-@supports (display: grid) {
-  html.cssgrid {
     @media only screen and (min-width: 1000px) {
       body > header {
         display: grid;
@@ -147,8 +147,6 @@
 /*********************************/
 /*********************************/
 
-
-
 /*********************************/
 /*********************************/
 //LEGACY LAYOUT STYLES FOR SCREENS OVER 1000px
@@ -156,6 +154,7 @@
 html.no-cssgrid {
   @media only screen and (min-width: 1000px) {
     body > header {
+      position: relative;
       @media only screen and (max-width: 1400px) {
 
       }
@@ -203,7 +202,7 @@ html.no-cssgrid {
 
         }
         a svg {
-
+          height:100px;
         }
         @media only screen and (max-width: 1400px) {
           display: inline-flex;
@@ -245,6 +244,8 @@ html.no-cssgrid {
                 span {
 
                   svg {
+                    width:30px;
+                    height:30px;
                   }
                 }
               }
@@ -275,7 +276,6 @@ html.no-cssgrid {
 //END LEGACY LAYOUT STYLES FOR SCREENS OVER 1000px
 /*********************************/
 /*********************************/
-
 
 /*********************************/
 /*********************************/
@@ -445,7 +445,6 @@ html.no-cssgrid {
 /*********************************/
 /*********************************/
 
-
 /*********************************/
 /*********************************/
 //LAYOUTS FOR SCREENS UNDER 1000PX
@@ -588,14 +587,13 @@ html.no-cssgrid {
     }
   }
   #sticky-phantom {
-    height: 90px;
+    height: 100px;
   }
 }
 
 //LAYOUTS FOR SCREENS UNDER 1000PX
 /*********************************/
 /*********************************/
-
 
 /*********************************/
 /*********************************/
@@ -747,7 +745,7 @@ html.no-cssgrid {
     }
   }
   #sticky-phantom {
-    height: 90px;
+    height: 100px;
   }
 }
 

@@ -134,42 +134,4 @@ layout: default
             </div>
         </div>
     </article>
-
-    <pre>
-        <code class="css">
-            .line-graphic{
-                right: 0;
-                position: absolute;
-                height: 100%;
-                width: 130px;
-                display: inline-flex;
-                justify-content: flex-start;
-                flex-direction: column;
-                padding-top: 8rem;
-            }
-        </code>
-    </pre>
-    <pre>
-        <code class="HTML">
-            <i class="line-graphic"></i>
-        </code>
-    </pre>
-    <pre>
-        <code class="javascript">
-         $(window).scroll(function () {
-            if ($(window).scrollTop() > activateAtY) {
-                deactivateHeader();
-                $('#nav-icon3').removeClass('open');
-                $('.mobile-nav').css('display', 'none');
-            } else {
-                activateHeader();
-                $('.mobile-nav').css('display', 'inline-flex');
-                if ($('#nav-icon3').hasClass('open')) {
-                    $('#nav-icon3').removeClass('open');
-                    $('.mobile-nav').slideUp();
-                }
-            }
-        });
-        </code>
-    </pre>
 </div>
