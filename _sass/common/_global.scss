@@ -24,8 +24,10 @@ html.no-cssgrid {
 
   }
   header, .constrain {
-    max-width: calc(100% - calc(100% - 1400px));
-    width: 100%;
+    max-width: 1400px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: auto;
   }
 }
 //END GLOBAL NO GRID STYLES
