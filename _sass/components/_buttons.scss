@@ -148,7 +148,11 @@ a.button-primary--ghost{
 // <a class="secondary_cta {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.secondary
-a.secondary_cta, span.secondary_cta > a {
+a.secondary_cta,
+span.secondary_cta > a,
+
+a.button-secondary
+{
   display: inline-block;
   vertical-align: top;
   padding: 10px 15px;
