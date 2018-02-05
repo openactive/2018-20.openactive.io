@@ -65,7 +65,7 @@ a.button-primary{
   color: $white;
   font-weight: 600;
   font-family: $font-family;
-  font-size: $base-font-size / 1.8;
+  font-size: $base-font-size / 1.5;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
@@ -148,7 +148,11 @@ a.button-primary--ghost{
 // <a class="secondary_cta {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.secondary
-a.secondary_cta, span.secondary_cta > a {
+a.secondary_cta,
+span.secondary_cta > a,
+
+a.button-secondary
+{
   display: inline-block;
   vertical-align: top;
   padding: 10px 15px;

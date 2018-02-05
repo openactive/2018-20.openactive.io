@@ -6,10 +6,10 @@ is_secondary_navigation: true
 <div class="page" id="members-page">
     <article class="page-content">
         <div class="one">
-        <header class="page-header">
-            <h1 class="page-title">{{ page.title | escape }}</h1>
-        </header>
-        {{ content }}
+            <header class="page-header">
+                <h1 class="page-title">{{ page.title | escape }}</h1>
+            </header>
+            {{ content }}
         </div>
     </article>
 
@@ -18,33 +18,35 @@ is_secondary_navigation: true
     {% assign num = forloop.length %}
     {% endfor %}
 
-       
- 
-        <article class="post-list">
-            <div class="one">
-                <h3>Open Active has {{num}} members.</h3>
-                <div class="posts ">
-                {% assign sortedPosts = site.members | sort: 'title' %}
-                {% for post in sortedPosts %}
-                    <div class="post subgrid" id="member-{{ forloop.index }}">
-                    <figure class="">
-                        <img src="{{post.thumbnail_image | relative_url}}">
-                    </figure>
-                    <div class="">
-                        <h3><a class="post-title post-link" href="{{ post.website }}" target="_blank">{{ post.title | escape }}</a></h3>
+
+    <article class="member-list">
+        <div class="one">
+            <h3>Open Active has {{num}} members.</h3>
+        </div>
+        <div class="one">
+
+            {% assign sortedPosts = site.members | sort: 'title' %}
+            {% for post in sortedPosts %}
+            <div class="subgrid" id="member-{{ forloop.index }}">
+                <figure role="group" class="two tworight">
+                    <img role="logo" src="{{post.thumbnail_image | relative_url}}">
+                </figure>
+                <div class="two tworight">
+                    <div class="wrap">
+                        <h3><a class="post-title post-link" href="{{ post.website }}" rel="noopener" target="_blank">{{
+                            post.title |
+                            escape
+                            }}</a></h3>
                         {{ post.content }}
                     </div>
-                </div>
-                {% endfor %}
+                    <a class="link" href="{{ post.website }}" rel="noopener" target="_blank">Visit Website</a>
                 </div>
             </div>
-        </article>
- 
+            <hr>
+            {% endfor %}
 
-
-
-
-
+        </div>
+    </article>
 
 
     </aside>

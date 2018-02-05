@@ -154,6 +154,7 @@ html.cssgrid {
 html.no-cssgrid {
   @media only screen and (min-width: 1000px) {
     body > header {
+      position: relative;
       @media only screen and (max-width: 1400px) {
 
       }
@@ -201,7 +202,7 @@ html.no-cssgrid {
 
         }
         a svg {
-
+          height:100px;
         }
         @media only screen and (max-width: 1400px) {
           display: inline-flex;
@@ -243,6 +244,8 @@ html.no-cssgrid {
                 span {
 
                   svg {
+                    width:30px;
+                    height:30px;
                   }
                 }
               }
@@ -427,7 +430,7 @@ html.no-cssgrid {
   }
   @media only screen and (max-width: 1400px) {
     #sticky-phantom {
-      height: 240px;
+      height: 210px;
     }
   }
 }

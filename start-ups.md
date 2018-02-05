@@ -3,7 +3,11 @@ title: Start Ups
 permalink: "/start-ups/"
 position: 6
 is_main_navigation: false
-layout: page
+layout: page-hero
+thumbnail_image: "/uploads/sideplank.jpg"
+strapline: The OpenActive Accelerator is part of a groundbreaking open data initiative
+  created to encourage digital innovation in the sport and physical activity sector.
+  Join us and help revolutionise the industry.
 ---
 
 {::options parse_block_html="true" /}
@@ -33,22 +37,25 @@ Content for this page is detailed in the
 </div>
 </article>
 
-<article markdown="0" class="hero--sub">
+<!-- <article markdown="0" class="hero--sub"> -->
 
-<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+<!-- <i class="line-graphic">{% include slim-line-graphic.svg %}</i> -->
 
-<div>
+<!-- <div> -->
 
-# The Accelerator Programme
+<!-- # The Accelerator Programme -->
 
-The OpenActive Accelerator is part of a groundbreaking open data initiative created to encourage digital innovation in the sport and physical activity sector. Join us and help revolutionise the industry.
+<!-- The OpenActive Accelerator is part of a groundbreaking open data initiative created to encourage digital innovation in the sport and physical activity sector. Join us and help revolutionise the industry. -->
 
-</div>
-<figure>
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
-</figure>
+<!-- </div> -->
+<!-- <figure> -->
 
-</article>
+<!-- <!--<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>--> -->
+
+<!-- <div style="background: url({{ page.thumbnail }})></div> -->
+<!-- </figure> -->
+
+<!-- </article> -->
 
 <article>
 <div class="one">

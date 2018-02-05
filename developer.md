@@ -3,7 +3,9 @@ title: Developer
 permalink: "/developer/"
 position: 4
 is_main_navigation: true
-layout: page
+layout: page-hero
+thumbnail_image: "/uploads/sideplank.jpg"
+strapline: 'Know what your here for? '
 ---
 
 {::options parse_block_html="true" /}
@@ -20,22 +22,23 @@ Content for this page is detailed in the
 </article>
 
 
-<article markdown="0" class="hero--sub">
+<!-- <article markdown="0" class="hero--sub"> -->
 
-<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+<!-- <i class="line-graphic">{% include slim-line-graphic.svg %}</i> -->
 
-<div>
-<h1>Developer</h1>
-<p>Discover how to use data with OpenActive</p>
-<p>Know what your here for? <a href="#resources">Jump to Resources</a></p>
-<p>Not a developer? Learn how to <a href="( {{ site.baseurl }}{% link getting-started.md %})">Get Started</a> </p>
+<!-- <div> -->
+<!-- <h1>Developer</h1> -->
+<!-- <p>Discover how to use data with OpenActive</p> -->
+<!-- <p>Know what your here for? <a href="#resources">Jump to Resources</a></p> -->
+<!-- <p>Not a developer? Learn how to <a href="( {{ site.baseurl }}{% link getting-started.md %})">Get Started</a> </p> -->
 
-</div>
-<figure>
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
-</figure>
+<!-- </div> -->
+<!-- <figure> -->
+<!-- <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div> -->
+<!-- </figure> -->
 
-</article>
+<!-- </article> -->
+
 <article>
 <div class="one">
 
@@ -81,31 +84,35 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 
 
 
-<article>
+<article class="call_to_action">
+<div class="subgrid">
+<div class="two brand-blue-bc list">
 
-<div class="two">
+### Publish Your Data
 
-### Using OpenActive Data
+1. Open your organisation’s data to allow customers to easily access events and services
+2. With open data, your activities can be discovered, shared, and engaged with by people nationwide
+3. By publishing your data, your activities will be shared across websites and apps that attract millions of users, to communities and services that engage local people
 
-1. Pick a data source from the list available on OpenActive
-2. Join our mailing list and review the documentation
-3. Pull in the data to your website or app. If you need help, reach out to the supportive OpenActive community.
 
-[Discover More](#){:target="_self"}{: .primary_cta}
+[Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .primary_cta}
 
 </div>
-<div class="two">
+<div class="two brand-blue-bc list">
 
-### How to Use Data
-Open data includes a range of datasets that offer the potential for growth and innovation across the sector. The opportunity data OpenActive focuses on includes details on activity services, locations, and times, combining geographical and statistical datasets to simplify access to physical activities across the country.
+### Using Data
 
-[Available Data](#){:target="_self"}{: .primary_cta}
+1. Developers and innovators can use data to create new products and services to benefit the sports and physical sector
+2. By harnessing open data, we can build growth and reach across the sector
+3. Easy access to opportunity data can help people to get active, and boost participation in activities nationwide
+4. We encourage you to explore the data published so far, and discover what’s useful for you
 
-[Discover More](#){:target="_self"}{: .primary_cta}
 
+[Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .primary_cta}
+
+</div>
 </div>
 </article>
-
 
 
 <article class="note-wrap">
@@ -124,7 +131,7 @@ Open data includes a range of datasets that offer the potential for growth and i
 </article>
 
 <article class="call_to_action title-row">
-<h2 class="sub-heading-two">E-Learning</h2>
+<h2 class="sub-heading-two">Resources</h2>
 
 <div class="subgrid">
 <div class="four brand-three-b">

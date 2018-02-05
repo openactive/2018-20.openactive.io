@@ -3,7 +3,9 @@ title: Getting Started
 permalink: "/getting-started/"
 position: 3
 is_main_navigation: true
-layout: page
+layout: page-hero
+thumbnail_image: "/uploads/sideplank.jpg"
+strapline: Discover how to build unlimited reach for your activities
 ---
 
 {::options parse_block_html="true" /}
@@ -12,16 +14,6 @@ layout: page
 <article class="note-wrap">
 <div class="notes">
 
-##### Page Notes ~ {{ page.title | escape }}
-
-Content for this page is detailed in the
-[Google Doc](https://drive.google.com/open?id=1LJxp7jbt6r5jTTZqoSJ5WK6yjZDpqhaXNVi-Rx_cSjA){:target="_blank"}
-
-</div>
-</article>
-<article class="note-wrap">
-<div class="notes">
-
 ##### Section Notes
 **Purpose**:
 
@@ -34,49 +26,19 @@ Content for this page is detailed in the
 </div>
 </article>
 
-
-<article markdown="0" class="hero--sub">
-
-<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
-
-<div>
-
-<h1>Getting Started</h1>
-<p>Discover how to build unlimited reach for your activities</p>
-
-
-</div>
-<figure>
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
-</figure>
-
-</article>
-
-
-
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes
-**Purpose**:
-
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
-
-</div>
-</article>
-
-<article>
+<article class="booking-engines-section title-row">
 <h2 class="sub-heading-two">Who Uses OpenActive?</h2>
 
-<div class="one">
+<div class="two">
 
+#### Booking Engines
 Search our list of OpenActive enabled system, to find the activity providers already benefiting from our initiative.
 
+[Booking Engines]( {{ site.baseurl }}{% link booking-engines.md %}){:class="button-primary" }
+
+
+</div>
+<div class="two">
 <nav class="subgrid">
 {% for post in site.booking_engines %}
 {% assign theImage = post.thumbnail_image %}
@@ -86,16 +48,13 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 {% assign theImage = theMember.thumbnail_image %}
 {% endif %}
 
-<div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
+<div class="four case-tab" data-tab="{{ forloop.index }}" markdown="0" >
 <a  href="{{ post.url | relative_url }}"><img src="{{ theImage  | relative_url}}"/></a>
 </div>
 
 
-
 {% endfor %}
 </nav>
-
-[Booking Engines]( {{ site.baseurl }}{% link booking-engine.md %})  
 
 
 </div>
@@ -212,4 +171,4 @@ Have a question? Get in touch.
 
 </div>
 </div>
-</article>v
+</article>

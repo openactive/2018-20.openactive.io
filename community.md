@@ -3,7 +3,9 @@ title: Community
 permalink: "/community/"
 position: 5
 is_main_navigation: true
-layout: page
+layout: page-hero
+thumbnail_image: "/uploads/sideplank.jpg"
+strapline: Innovation through Collaboration
 ---
 
 {::options parse_block_html="true" /}
@@ -19,22 +21,22 @@ Content for this page is detailed in the
 </article>
 
 
-<article markdown="0" class="hero--sub">
+<!-- <article markdown="0" class="hero--sub"> -->
 
-<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+<!-- <i class="line-graphic">{% include slim-line-graphic.svg %}</i> -->
 
-<div>
+<!-- <div> -->
 
-<h1>Community</h1>
-<p>Innovation through Collaboration</p>
+<!-- <h1>Community</h1> -->
+<!-- <p>Innovation through Collaboration</p> -->
 
 
-</div>
-<figure>
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
-</figure>
+<!-- </div> -->
+<!-- <figure> -->
+<!-- <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div> -->
+<!-- </figure> -->
 
-</article>
+<!-- </article> -->
 
 <article>
 <div class="one">

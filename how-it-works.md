@@ -3,7 +3,7 @@ title: How It Works
 permalink: "/how-it-works/"
 position: 2
 is_main_navigation: true
-layout: page
+layout: page-headless
 ---
 
 {::options parse_block_html="true" /}
@@ -38,14 +38,14 @@ Content for this page is detailed in the
 <div class="two">
 
 
-![Hero]({{ site.url }}/openactive/assets/images/icons-animation.gif)
+![Hero]({{ site.baseurl }}/assets/images/icons-animation.gif)
 
 </div>
 
 <div class="two">
 
 
-![Hero]({{ site.url }}/openactive/assets/images/icons-animation.gif)
+![Hero]({{ site.baseurl }}/assets/images/icons-animation.gif)
 
 </div>
 
@@ -191,7 +191,7 @@ Opening up opportunity data across the sector will better connect providers and 
 
 
 <h3>{{ post.title | escape }}</h3>
-{{post.content}}
+{{post.excerpt}}
 <a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
 
 </div>
@@ -236,37 +236,28 @@ Opening up opportunity data across the sector will better connect providers and 
 </article>
 
 <article class="call_to_action title-row ">
-<h2 class="sub-heading-two">E-Learning</h2>
+<h2 class="sub-heading-two">Jump In</h2>
 
 <div class="subgrid">
-<div class="four brand-three-b">
 
-### How to's
+<div class="two blue-gradient-bc">
+
+### E-Learning
 Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
-[How to's]( {{ site.baseurl }}{% link how-to.md %}){:class="link" }
+
+[Learn the Basics]( {{ site.baseurl }}{% link e-learning.md %}){:class="button-primary" }
 
 </div>
-<div class="four brand-six-b">
 
-### Discussions
+<div class="two purple-gradient-bc">
+
+### Developer
 Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusamus in.
-[Discussions]( {{ site.baseurl }}{% link discussions.md %}){:class="link" }
+
+[Dive Deep]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
 
 </div>
-<div class="four brand-ten-b">
 
-### References
-Facilis assumenda officiis dicta. Rerum dolor ullam reprehenderit molestiae.
-[References]( {{ site.baseurl }}{% link references.md %}){:class="link" }
-
-</div>
-<div class="four brand-eight-b">
-
-### Tutorials
-Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas aliquid magnam alias.
-[Tutorials]( {{ site.baseurl }}{% link tutorials.md %}){:class="link" }
-
-</div>
 </div>
 </article>
 
