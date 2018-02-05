@@ -11,11 +11,6 @@ strapline: Discover how to build unlimited reach for your activities
 {::options parse_block_html="true" /}
 
 
-
-
-
-
-
 <article class="note-wrap">
 <div class="notes">
 
@@ -31,13 +26,19 @@ strapline: Discover how to build unlimited reach for your activities
 </div>
 </article>
 
-<article>
+<article class="booking-engines-section title-row">
 <h2 class="sub-heading-two">Who Uses OpenActive?</h2>
 
-<div class="one">
+<div class="two">
 
+#### Booking Engines
 Search our list of OpenActive enabled system, to find the activity providers already benefiting from our initiative.
 
+[Booking Engines]( {{ site.baseurl }}{% link booking-engines.md %}){:class="button-primary" }
+
+
+</div>
+<div class="two">
 <nav class="subgrid">
 {% for post in site.booking_engines %}
 {% assign theImage = post.thumbnail_image %}
@@ -47,16 +48,13 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 {% assign theImage = theMember.thumbnail_image %}
 {% endif %}
 
-<div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
+<div class="four case-tab" data-tab="{{ forloop.index }}" markdown="0" >
 <a  href="{{ post.url | relative_url }}"><img src="{{ theImage  | relative_url}}"/></a>
 </div>
 
 
-
 {% endfor %}
 </nav>
-
-[Booking Engines]( {{ site.baseurl }}{% link booking-engines.md %})
 
 
 </div>
@@ -173,4 +171,4 @@ Have a question? Get in touch.
 
 </div>
 </div>
-</article>v
+</article>

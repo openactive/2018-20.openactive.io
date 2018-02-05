@@ -97,7 +97,7 @@ Content for this page is detailed in the
 {% endfor %}
 </nav>
 
-<figure role="group" class="case-wrap match_this">
+<figure role="group" class="case-wrap ">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="case-content matchHeight" id="case-{{ forloop.index }}">
@@ -105,6 +105,7 @@ Content for this page is detailed in the
 
 <h3>{{ post.title | escape }}</h3>
 {{ post.strapline }}
+
 <a class="button-primary--ghost" href="{{ post.url | relative_url }}">Read Case Study</a>
 
 

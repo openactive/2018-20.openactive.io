@@ -247,10 +247,10 @@ $(document).ready(function () {
         });
 
         //MATCH HEIGHT OF CASE STUDY CONTENT
-        $('.matchHeight').matchHeight({
-            target: $('.match_this'),
-            property: 'height'
-        });
+        // $('.matchHeight').matchHeight({
+        //     target: $('.match_this'),
+        //     property: 'height'
+        // });
 
     })(jQuery); // Fully reference jQuery after this point.
 

@@ -13,7 +13,7 @@ footer {
     h4 {
       margin: 0;
     }
-    a, h4{
+    a, h4 {
       display: inline-block;
     }
   }
@@ -24,8 +24,8 @@ footer {
     figure {
       margin: 0;
     }
-    .subgrid{
-      .six-members{
+    .subgrid {
+      .six-members {
         &:nth-child(6n+1) {
           grid-column: col / span 2;
         }
@@ -48,10 +48,10 @@ footer {
     }
   }
   @media only screen and (max-width: 800px) {
-    .intro,.members{
+    .intro, .members {
       display: none;
     }
-    nav{
+    nav {
       grid-column-start: 2;
       grid-column-end: 14;
     }
@@ -62,6 +62,53 @@ footer {
     grid-row: 1/ span 2;
     ul.nav-style {
       margin: 0 0 1rem 0;
+    }
+    @media only screen and (max-width: 800px) {
+      grid-column-start: 2;
+      grid-column-end: 14;
+      ul.nav-style {
+        display: grid;
+        li {
+          border-left:1px solid $gray;
+          padding-left: 1rem;
+          margin-left: 0;
+          &:nth-child(4n+1) {
+            grid-column-start: 2;
+            grid-column-end: 5;
+          }
+          &:nth-child(4n+2) {
+            grid-column-start: 5;
+            grid-column-end: 8;
+          }
+          &:nth-child(4n+3) {
+            grid-column-start: 8;
+            grid-column-end: 11;
+          }
+          &:nth-child(4n+4) {
+            grid-column-start: 11;
+            grid-column-end: 14;
+          }
+        }
+        li:before {
+          content: ''
+        }
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      ul.nav-style {
+        display: grid;
+        li {
+          border-left:1px solid $gray;
+          padding-left: 1rem;
+          margin-left: 0;
+          &:nth-child(2n+1) {
+            grid-column: col / span 6;
+          }
+          &:nth-child(2n+2) {
+            grid-column: col 7 / span 6;
+          }
+        }
+      }
     }
   }
 }
