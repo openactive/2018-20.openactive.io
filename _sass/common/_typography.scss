@@ -127,6 +127,10 @@ h2 {
 html.no-cssgrid {
   .sub-heading-two {
     width:100%;
+    text-align: left;
+    border-top:0;
+    border-bottom: 1px solid $gray;
+    margin-bottom: 1rem;
     @media only screen and (max-width: 1200px) {
 
     }
