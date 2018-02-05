@@ -104,7 +104,9 @@ html.cssgrid {
 
           }
           .social-button {
-
+            @media only screen and (max-width: 1400px) {
+              width: 150px;
+            }
             #social {
               align-items: start;
 
@@ -202,7 +204,7 @@ html.no-cssgrid {
 
         }
         a svg {
-          height:100px;
+          height: 100px;
         }
         @media only screen and (max-width: 1400px) {
           display: inline-flex;
@@ -244,8 +246,8 @@ html.no-cssgrid {
                 span {
 
                   svg {
-                    width:30px;
-                    height:30px;
+                    width: 30px;
+                    height: 30px;
                   }
                 }
               }
@@ -270,6 +272,12 @@ html.no-cssgrid {
 
       }
     }
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  .social-button {
+    width: unset !important;
   }
 }
 
