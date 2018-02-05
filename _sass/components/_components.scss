@@ -316,6 +316,9 @@ article {
         text-align: left;
         align-items: flex-start;
         justify-content: flex-start;
+        li{
+          font-size: $base-font-size;
+        }
         @media only screen and (max-width: 900px) {
           &:nth-child(2n+1) {
             grid-column: col / span 12;

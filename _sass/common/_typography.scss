@@ -354,36 +354,25 @@ figcaption {
 // Code
 pre {
   display: block;
-  margin: 0 0 40px 0;
-
-  background-color: lighten($border-color, 12%);
-  overflow: auto;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  padding: 0;
+  margin:0;
 
   code {
-    position: static;
-    padding: 0;
-    border: none;
+    position: relative;
+    padding: 3px;
+    font-family: Courier New, Courier, monospace;
+    font-size: $paragraph-size / 1.3;
+    color: darken($border-color, 40%);
     line-height: 1.5em;
+    pointer-events: none;
+    border: 1px solid $border-color;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
   }
 }
 
-code {
-  position: relative;
-  top: -0.2em;
-  padding: 3px;
-  font-family: Courier New, Courier, monospace;
-  font-size: $paragraph-size / 1.4;
-  color: darken($border-color, 40%);
-  line-height: 1em;
-  pointer-events: none;
-  border: 1px solid $border-color;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
+
 
 
 

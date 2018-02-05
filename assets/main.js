@@ -217,18 +217,17 @@ $(document).ready(function () {
                 .attr("aria-hidden", "false");
         });
 
-        if ($(".tabsList").length > 0) {
-
-
-            $(".tabsList a").click(function () {
-                var position = $(this).parent().position();
-                var width = $(this).parent().width();
-                $(".slider").css({"left": +position.left, "width": width});
-            });
-            var actWidth = $(".tabsList .current").width();
-            var actPosition = $(".tabsList .current").position();
-            $(".slider").css({"left": +actPosition.left, "width": actWidth});
-        }
+        // if ($(".tabsList").length > 0) {
+        //
+        //     $(".tabsList a").click(function () {
+        //         var position = $(this).parent().position();
+        //         var width = $(this).parent().width();
+        //         $(".slider").css({"left": +position.left, "width": width});
+        //     });
+        //     var actWidth = $(".tabsList .current").width();
+        //     var actPosition = $(".tabsList .current").position();
+        //     $(".slider").css({"left": +actPosition.left, "width": actWidth});
+        // }
 
         $('.notes-toggle').on("click", function () {
             $('.note-wrap').slideToggle();
