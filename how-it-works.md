@@ -37,34 +37,28 @@ Content for this page is detailed in the
 <article class="hero--simple">
 <div class="two">
 
+<h1>{{ page.title | escape }}</h1>
 
-![Hero]({{ site.baseurl }}/assets/images/icons-animation.gif)
+OpenActive is a community-led initiative using open data to help people get active.
+
+Our goal is to collect and share opportunity data on what, where, and when physical activity sessions happen, and to make this information openly available to everyone, transforming the way people discover, access, and take part in new activities.
+We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together.
+
+
+
+
 
 </div>
 
 <div class="two">
 
 
-![Hero]({{ site.baseurl }}/assets/images/icons-animation.gif)
+![Hero]({{ site.baseurl }}/assets/images/how-it-works.svg)
 
 </div>
 
 </article>
 
-
-<article>
-<div class="one">
-<h1>{{ page.title | escape }}</h1>
-
-OpenActive is a community-led initiative using open data to help people get active.
-
-Our goal is to collect and share opportunity data on what, where, and when physical activity sessions happen, and to make this information openly available to everyone, transforming the way people discover, access, and take part in new activities. 
-We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together. 
-
-
-
-</div>
-</article>
 
 <article class="note-wrap">
 <div class="notes">
@@ -149,74 +143,7 @@ Opening up opportunity data across the sector will better connect providers and 
 
 
 
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes ~ Case Studies Block
-**Purpose**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.
-
-**Functionality**: The logos will act as a tabbing system to reveal content from the case study, this would consist of some fast facts about each case.
-
-**Design**: The design of this section should be balanced and clearly represent to a user the functionality of the tabs, this would include clearly  active state on tabs to the open content area.
-
-**Copy-writing Notes**:
-</div>
-</article>
-
-
-<article class="case-studies">
-<h2 class="sub-heading-two">Case<br> Studies</h2>
-<nav class="subgrid">
-{% for post in site.case_studies %}
-{% assign theImage = post.thumbnail_image %}
-{% if post.is_featured %}
-{% if post.member %}
-{% assign theMember = site.members | where:"title", post.member  | first %}
-{% assign theImage = theMember.thumbnail_image %}
-{% endif %}
-
-<div class="case-tab" data-tab="{{ forloop.index }}" markdown="0" >
-<img src="{{ theImage  | relative_url}}"/>
-</div>
-
-{% endif %}
-
-{% endfor %}
-</nav>
-
-<figure class="case-wrap">
-{% for post in site.case_studies %}
-{% if post.is_featured %}
-<div class="case-content" id="{{ forloop.index }}">
-
-
-<h3>{{ post.title | escape }}</h3>
-{{post.excerpt}}
-<a class="button-primary" href="{{ post.url | relative_url }}">Read More</a>
-
-</div>
-{% endif %}
-{% endfor %}
-</figure>
-
-
-<aside class="case-study-info">
-{% for post in site.case_studies %}
-{% if post.is_featured %}
-<div class="case-content" data-id="{{ forloop.index }}">
-<h5>DATA EXPOSED</h5>
-<p>Date</p>
-<p>Location</p>
-<p>Disabled Access</p>
-<p>{{ post.title | escape }}</p>
-
-</div>
-{% endif %}
-{% endfor %}
-</aside>
-
-</article>
-
+{% include case-study.html %}
 
 
 

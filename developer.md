@@ -77,7 +77,7 @@ The Opportunity Data Dashboard lists all of the opportunity data feeds we have c
 Explore the dashboard to find the data you need, identify which feeds conform to our standards, and provide feedback to publishers. 
 
 
-[Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .primary_cta}
+[Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .button-primary}
 
 </div>
 </article>
@@ -86,7 +86,7 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 
 <article class="call_to_action">
 <div class="subgrid">
-<div class="two brand-blue-bc list">
+<div class="two publish gradient list">
 
 ### Publish Your Data
 
@@ -95,10 +95,10 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 3. By publishing your data, your activities will be shared across websites and apps that attract millions of users, to communities and services that engage local people
 
 
-[Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .primary_cta}
+[Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .button-primary}
 
 </div>
-<div class="two brand-blue-bc list">
+<div class="two use gradient list">
 
 ### Using Data
 
@@ -108,7 +108,7 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 4. We encourage you to explore the data published so far, and discover what’s useful for you
 
 
-[Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .primary_cta}
+[Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .button-primary}
 
 </div>
 </div>
@@ -184,17 +184,17 @@ Guidance for developers on getting started, to help you learn how to publish and
 </article>
 
 
-<article class="call_to_action--full-width brand-ten-bc">
+<article class="call_to_action--full-width global">
 <h2 class="sub-heading-two">Get in Touch</h2>
 <div class="one">
 
 ### Contact
 This should move you to the community section. Namautem non et velit. Sunt quidem sequi quis iure voluptatem aut.
 
-[Contact]( {{ site.baseurl }}{% link contact.md %}){: .primary_cta}
+[Contact]( {{ site.baseurl }}{% link contact.md %}){: .button-primary}
 
 </div>
-<figure class="brand-nine-bc">
+<figure>
 <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>
