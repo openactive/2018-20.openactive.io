@@ -119,23 +119,23 @@ article {
         clip-path: none;
         &:nth-child(1) {
           grid-column: col / span 6;
-          grid-column-start: 1;
-          grid-column-end: 1;
+          grid-row-start: 1;
+          grid-row-end: 1;
         }
         &:nth-child(2) {
           grid-column: col 7 / span 6;
-          grid-column-start: 1;
-          grid-column-end: 1;
+          grid-row-start: 1;
+          grid-row-end: 1;
         }
         &:nth-child(3) {
           grid-column: col / span 6;
-          grid-column-start: 2;
-          grid-column-end: 2;
+          grid-row-start: 2;
+          grid-row-end: 2;
         }
         &:nth-child(4) {
           grid-column: col 7 / span 6;
-          grid-column-start: 2;
-          grid-column-end: 2;
+          grid-row-start: 2;
+          grid-row-end: 2;
         }
       }
     }
