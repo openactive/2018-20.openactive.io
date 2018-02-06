@@ -58,8 +58,8 @@ defaults:
     layout: mentor
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
-    twitter:
-    linkedin:
+    twitter: 
+    linkedin: 
 - scope:
     path: ''
     type: members
