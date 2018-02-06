@@ -1,6 +1,6 @@
 ---
 title: Sport:80
-date: 2018-01-26 00:00:00
+date: 2018-01-26 00:00:00 Z
 is_featured: false
 thumbnail_image: "/uploads/sport_80.png"
 layout: member
