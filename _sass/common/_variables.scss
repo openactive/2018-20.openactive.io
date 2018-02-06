@@ -104,6 +104,16 @@ $usingFive: #e61990;
   figure{
     background-color: $usingThree;
   }
+  .gradient {
+    background: $using; /* Old browsers */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $usingTwo 16%, $using 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $usingTwo 16%, $using 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $usingTwo 16%, $using 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#054b78', endColorstr='#40489e', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    * {
+      color: $white;
+    }
+  }
 }
 
 // Sharing Colors
