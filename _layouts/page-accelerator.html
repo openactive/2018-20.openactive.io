@@ -180,7 +180,29 @@ layout: default
 
     <article class="title-row">
         <h2 class="sub-heading-two">Mentors</h2>
+
+        {% for post in site.mentors %}
+        {% assign theImage = post.thumbnail_image %}
+        
+        {% if post.mentor %}
+       
         <div class="four">
+
+                <figure>
+                        <img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+                    <figcaption>{{ post.title | escape }}</figcaption>
+                </figure>
+                <p>{{ post.twitter }}</p>
+                <p>{{ post.linkedin }}</p>
+            </div>
+        
+        {% endif %}
+        
+        {% endfor %}
+
+
+        <div class="four">
+
             <figure>
                 <img src="{{ site.url }}/openactive/assets/images/mentor.png">
                 <figcaption>MENTOR NAME</figcaption>
