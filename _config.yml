@@ -18,6 +18,9 @@ collections:
   members:
     title: Members
     output: true
+  mentors:
+    title: Mentors
+    output: true
   posts:
     title: Posts
     output: true
@@ -48,6 +51,15 @@ defaults:
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
     strapline: 
+- scope:
+    path: ''
+    type: mentors
+  values:
+    layout: mentor
+    is_featured: false
+    thumbnail_image: "/uploads/placeholder.png"
+    twitter:
+    linkedin:
 - scope:
     path: ''
     type: members
