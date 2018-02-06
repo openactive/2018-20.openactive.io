@@ -45,6 +45,7 @@
       }
     }
     .two {
+      align-self: stretch;
       grid-row: auto;
       * {
         &:nth-child(1) {

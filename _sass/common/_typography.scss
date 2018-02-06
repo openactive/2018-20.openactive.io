@@ -56,6 +56,7 @@ h1 {
   font-size: $header-size;
   line-height: 0.85;
   color: $brand-blue;
+  font-weight: 800;
 }
 
 h1 + p, ul li p, .h1-copy {
@@ -75,7 +76,7 @@ h1 + p, ul li p, .h1-copy {
 // Styleguide typography.heading-two
 h2 {
   font-size: $header-size / 1.5;
-
+  font-weight: 800;
 }
 
 // Sub Heading Two Styles
@@ -152,6 +153,7 @@ h3 {
   color: $brand-blue;
   font-size: $header-size / 1.5;
   line-height: 2.3rem;
+  font-weight: 800;
 }
 
 h3 + p,
@@ -206,6 +208,8 @@ h6 {
   text-transform: uppercase;
   margin-bottom: .5rem;
   letter-spacing: 0;
+  font-weight: 800;
+  line-height: $header-line-height / 1.2;
   & + p {
     margin-top: 0;
     font-size: $header-size /3.75;
@@ -325,6 +329,39 @@ blockquote {
     font-style: normal;
     border-left: 1px solid;
   }
+  &.featured{
+    padding:2rem;
+    .quote{
+      width: 100px;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 1rem;
+    }
+    p{
+      padding: 0;
+      margin: 0;
+      grid-column-start: 2;
+      grid-column-end: 14;
+      border-left: none;
+      font-size: $header-size/  2.16346;
+      font-family: $font-family;
+    }
+    h6 {
+      margin: 0;
+      &:nth-of-type(1){
+        margin: 1rem 0 0 0;
+      }
+      &:nth-of-type(2){
+        font-weight: 100;
+      }
+    }
+  }
 }
 
 article.featured {
@@ -356,13 +393,32 @@ article.featured {
       font-family: $font-family;
     }
     h6 {
-      margin: 0;
+      margin:  0;
+      &:nth-of-type(1){
+        margin: 1rem 0 0 0;
+      }
+      &:nth-of-type(2){
+        font-weight: 100;
+      }
     }
+
   }
-  blockquote + h2 {
+  div {
     margin-top: 0;
     grid-row: 2;
     border-color: $brand-ten;
+    border-top-style: solid;
+    border-top-width: 1px;
+    text-align: right;
+    padding-top: 0.5rem;
+    color: #253882;
+    font-family: "Source+Sans+Pro", sans-serif;
+    line-height: 1;
+    font-size: 1.40625rem;
+    font-weight: 700;
+    width: 150px;
+    justify-self: end;
+
   }
 }
 
