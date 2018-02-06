@@ -180,8 +180,8 @@ layout: default
 
     <article class="title-row">
         <h2 class="sub-heading-two">Mentors</h2>
-
-        {% for post in site.mentors %}
+        {% assign sortedPosts = site.mentors | sort: 'title' %}
+        {% for post in sortedPosts %}
         {% assign theImage = post.thumbnail_image %}
 
         <div class="four">
