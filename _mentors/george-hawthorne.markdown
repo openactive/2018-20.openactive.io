@@ -1,6 +1,6 @@
 ---
 title: George Hawthorne
-date: 2018-02-06 17:20:00 
+date: 2018-02-06 17:20:00 Z
 layout: mentor
 twitter: "@george"
 linkedin: linkedinloink
