@@ -190,8 +190,10 @@ layout: default
                         <img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
                     <figcaption>{{ post.title | escape }}</figcaption>
                 </figure>
-                <p>{{ post.twitter }}</p>
-                <p>{{ post.linkedin }}</p>
+                <a target="_blank" rel="noopener" href="{{ post.twitter }}"><span
+                    class="icon icon--twitter">{% include twitter.svg %}</span><span class="hidden" aria-hidden="true">Open Active Twitter</span></a>
+            
+                <p><a href="{{ post.linkedin }}" target="_blank">LinkedIn</a></p>
             </div>
         
   
