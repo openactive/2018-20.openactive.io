@@ -66,18 +66,58 @@ $black: #2b2b2b;
 //
 // Styleguide colours.sharing
 
-$global: $brand-one;
-$globalTwo: $brand-three;
-$globalThree: $brand-five;
-$globalFour: $brand-seven;
-$globalFive: $brand-nine;
+$global: $brand-blue;
+$globalTwo: $brand-six;
+$globalThree: $brand-three;
+$globalFour: $brand-one;
+$globalFive: $brand-five;
 .global {
   background-color: $global;
-  .button-primary{
-    background-color: $globalTwo;
+  &.call_to_action--full-width {
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $globalThree;
+    }
+    figure {
+      background-color: $globalThree;
+    }
   }
-  figure{
-    background-color: $globalThree;
+  &.gradient {
+    background: $globalFour; /* Old browsers */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $globalFour 16%, $globalFive 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $globalFour 16%, $globalFive 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $globalFour 16%, $globalFive 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#69c5e3', endColorstr='#33377c', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    * {
+      color: $white;
+    }
+  }
+}
+.global-template {
+  .hero--sub {
+    h1 {
+      color: $global;
+    }
+    figure {
+      background-color: $globalTwo;
+    }
+  }
+  .sub-heading-two {
+    color: $global;
+  }
+  .call_to_action--full-width {
+    background-color: $global;
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $globalThree;
+    }
+    figure {
+      background-color: $globalThree;
+    }
   }
 }
 
@@ -98,25 +138,47 @@ $usingFour: #9f509f;
 $usingFive: #e61990;
 .use {
   background-color: $using;
-  .button-primary{
-    background-color: $usingTwo;
+  &.call_to_action--full-width {
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $usingFive;
+    }
+    figure {
+      background-color: $usingThree;
+    }
   }
-  figure{
-    background-color: $usingThree;
-  }
-  .gradient {
+  &.gradient {
     background: $using; /* Old browsers */
-    background: -moz-radial-gradient(ellipse at 50% 20%, $usingTwo 16%, $using 65%); /* FF3.6-15 */
-    background: -webkit-radial-gradient(ellipse at 50% 20%, $usingTwo 16%, $using 65%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at 50% 20%, $usingTwo 16%, $using 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#054b78', endColorstr='#40489e', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $usingFive 16%, $usingThree 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $usingFive 16%, $usingThree 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $usingFive 16%, $usingThree 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e61990', endColorstr='#922a8f', GradientType=1); /* IE6-9 fallback on horizontal gradient */
     * {
       color: $white;
     }
   }
+  .button-primary {
+    background-color: $usingFive;
+  }
 }
 
-// Sharing Colors
+.use-template {
+  .hero--sub {
+    h1 {
+      color: $usingFive;
+    }
+    figure {
+      background-color: $usingThree;
+    }
+  }
+  .sub-heading-two {
+    color: $usingThree;
+  }
+}
+
+// Publish Colors
 //
 // Weight: 5
 //
@@ -125,18 +187,50 @@ $usingFive: #e61990;
 //
 // Styleguide colours.general
 
-$sharing: #5bccf5;
-$sharingTwo: #00abcb;
-$sharingThree: #006fb9;
-$sharingFour: #054b78;
-$sharingFive: #40489e;
-.sharing {
-  background-color: $sharing;
-  .button-primary{
-    background-color: $sharingTwo;
+$publish: #5bccf5;
+$publishTwo: #00abcb;
+$publishThree: #006fb9;
+$publishFour: #054b78;
+$publishFive: #40489e;
+.publish {
+  background-color: $publish;
+  &.call_to_action--full-width {
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $publishTwo;
+    }
+    figure {
+      background-color: $publishThree;
+    }
   }
-  figure{
-    background-color: $sharingThree;
+  &.gradient {
+    background: $using; /* Old browsers */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $publishTwo 16%, $publishThree 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $publishTwo 16%, $publishThree 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $publishTwo 16%, $publishThree 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bccf5', endColorstr='#006fb9', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    * {
+      color: $white;
+    }
+  }
+  .button-primary {
+    background-color: $publishTwo;
+  }
+}
+
+.publish-template {
+  .hero--sub {
+    h1 {
+      color: $publish;
+    }
+    figure {
+      background-color: $publishThree;
+    }
+  }
+  .sub-heading-two {
+    color: $publishThree;
   }
 }
 
@@ -156,11 +250,40 @@ $startUpFour: #ef4939;
 $startUpFive: #faa742;
 .startup {
   background-color: $startUpFour;
-  .button-primary{
-    background-color:$startUpFive;
+  &.call_to_action--full-width {
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $startUpFive;
+    }
+    figure {
+      background-color: $startUpThree;
+    }
   }
-  figure{
-    background-color:$startUpThree;
+  &.gradient {
+    background: $startUpFour; /* Old browsers */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $startUpFour 16%, $startUpFive 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $startUpFour 16%, $startUpFive 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $startUpFour 16%, $startUpFive 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef4939', endColorstr='#faa742', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    * {
+      color: $white;
+    }
+  }
+}
+
+.startup-template {
+  .hero--sub {
+    h1 {
+      color: $startUpFour;
+    }
+    figure {
+      background-color: $startUpThree;
+    }
+  }
+  .sub-heading-two {
+    color: $startUpFour;
   }
 }
 
@@ -227,7 +350,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-eleven;
     }
   }
@@ -239,7 +362,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-ten;
     }
   }
@@ -251,7 +374,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-nine;
     }
   }
@@ -263,7 +386,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-eight;
     }
   }
@@ -275,7 +398,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-ten;
     }
   }
@@ -287,7 +410,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-six;
     }
   }
@@ -299,7 +422,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-five;
     }
   }
@@ -311,7 +434,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-four;
     }
   }
@@ -323,7 +446,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-three;
     }
   }
@@ -335,7 +458,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-two;
     }
   }
@@ -347,7 +470,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-one;
     }
   }
@@ -356,7 +479,7 @@ $border-color: #DADADA;
 .brand-red-bc {
   background-color: $brand-red;
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-one;
     }
   }
@@ -371,7 +494,7 @@ $border-color: #DADADA;
     color: $white;
   }
   &.call_to_action--full-width {
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-two;
     }
   }
