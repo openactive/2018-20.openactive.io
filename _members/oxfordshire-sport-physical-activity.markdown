@@ -1,6 +1,6 @@
 ---
 title: Oxfordshire Sport & Physical Activity
-date: 2018-01-26 01:18:00 
+date: 2018-01-26 01:18:00 Z
 is_featured: false
 thumbnail_image: "/uploads/oxfordshire_sport_physical_activity.png"
 layout: member

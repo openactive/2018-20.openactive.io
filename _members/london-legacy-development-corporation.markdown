@@ -1,6 +1,6 @@
 ---
 title: London Legacy Development Corporation
-date: 2018-01-26 01:18:00 
+date: 2018-01-26 01:18:00 Z
 is_featured: false
 thumbnail_image: "/uploads/london_legacy_development_corporation.png"
 layout: member
