@@ -23,7 +23,6 @@ article {
       min-height: 20vh;
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
-      background-color: $brand-six;
       position: relative;
 
       & > div {
@@ -93,7 +92,7 @@ article {
         margin-top: 0;
       }
     }
-    figure {
+    figure.hero {
       grid-column-start: 7;
       grid-column-end: 14;
       align-self: stretch;
@@ -113,8 +112,10 @@ article {
       grid-column-start: 14;
       grid-column-end: -1;
       display: grid;
+      align-self: stretch;
       grid-template-columns: repeat(12, unquote("[col]") 1fr);
       grid-gap: 1rem;
+      margin-left: -2rem;
       div{
         clip-path: none;
         &:nth-child(1) {
