@@ -1,7 +1,6 @@
 ---
 title: Markdown
 position: 5
-is_secondary_navigation: true
 layout: page-headless
 ---
 

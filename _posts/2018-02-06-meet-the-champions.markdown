@@ -1,6 +1,6 @@
 ---
 title: OpenActive Champions assemble
-date: 2018-02-06 12:17:00 
+date: 2018-02-06 12:17:00 Z
 categories:
 - jekyll
 - update

@@ -75,9 +75,9 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 </div>
 </article>
 
-<article class="call_to_action">
+<article class="call_to_action ">
 <div class="subgrid">
-<div class="two brand-blue-bc list">
+<div class="two use gradient list">
 
 ### Publish Your Data 
 
@@ -89,7 +89,7 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 [Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .primary_cta}
 
 </div>
-<div class="two brand-blue-bc list">
+<div class="two publish gradient list">
 
 ### Using Data
 

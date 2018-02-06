@@ -1,6 +1,6 @@
 ---
 title: Pitchwise
-date: 2018-01-26 00:00:00
+date: 2018-01-26 00:00:00 Z
 is_featured: true
 thumbnail_image: "/uploads/pitchwise.png"
 layout: member

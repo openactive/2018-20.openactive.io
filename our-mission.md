@@ -86,7 +86,7 @@ By joining the open data revolution, you and your organisation can benefit from 
 </div>
 </article>
 
-<article class="call_to_action--full-width brand-ten-bc">
+<article class="call_to_action--full-width">
 <h2 class="sub-heading-two">What's Next?</h2>
 <div class="one">
 
