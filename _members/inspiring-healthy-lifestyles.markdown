@@ -1,6 +1,6 @@
 ---
 title: Inspiring Healthy Lifestyles
-date: 2018-01-26 01:18:00 
+date: 2018-01-26 01:18:00 Z
 is_featured: false
 thumbnail_image: "/uploads/inspiring_healthy_lifestyles.png"
 layout: member

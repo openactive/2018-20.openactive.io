@@ -1,6 +1,6 @@
 ---
 title: Isle of Wight Council (1Leisure)
-date: 2018-01-26 01:18:00 
+date: 2018-01-26 01:18:00 Z
 is_featured: false
 thumbnail_image: "/uploads/isle_of_wight_council.png"
 layout: member

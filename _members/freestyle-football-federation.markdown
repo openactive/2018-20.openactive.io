@@ -1,6 +1,6 @@
 ---
 title: Freestyle Football Federation
-date: 2018-01-26 01:18:00 
+date: 2018-01-26 01:18:00 Z
 is_featured: false
 thumbnail_image: "/uploads/freestyle_football_federation.png"
 layout: member
