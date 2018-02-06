@@ -118,17 +118,18 @@ h2 {
     border-top: 0 solid $gray;
     padding: 0 0 0.5rem 0;
     text-align: left;
-    width:100%;
+    width: 100%;
     br {
       display: none;
     }
   }
 }
+
 html.no-cssgrid {
   .sub-heading-two {
-    width:100%;
+    width: 100%;
     text-align: left;
-    border-top:0;
+    border-top: 0;
     border-bottom: 1px solid $gray;
     margin-bottom: 1rem;
     @media only screen and (max-width: 1200px) {
@@ -235,7 +236,7 @@ a {
   &:focus {
     //outline: 3px dotted #811d15!important;
   }
-  &.link{
+  &.link {
     text-transform: uppercase;
     text-decoration: underline;
     font-weight: 600;
@@ -249,6 +250,9 @@ ul, ol {
     margin-top: 10px;
     line-height: $paragraph-line-height;
     color: $paragraph-color;
+    ol, ul {
+
+    }
   }
 
   ul, ol {
@@ -309,15 +313,57 @@ hr {
 }
 
 // Blockquote
-blockquote > p {
-  margin: $blockquote-margin 0;
-  font-size: $blockquote-size;
-  line-height: $blockquote-line-height;
-  color: $blockquote-color;
-  padding-left: 2rem;
-  font-style: italic;
-  border-left: 1px solid;
+blockquote {
+  grid-column-start: 2;
+  grid-column-end: 14;
+  p {
+    margin: $blockquote-margin 0;
+    font-size: $blockquote-size;
+    line-height: $blockquote-line-height;
+    color: $blockquote-color;
+    padding-left: 2rem;
+    font-style: normal;
+    border-left: 1px solid;
+  }
+}
 
+article.featured {
+  grid-row-gap: 0;
+  .quote {
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 14;
+    margin-top:2rem;
+    svg {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 1rem;
+    }
+  }
+  blockquote {
+    grid-row: 2;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    grid-column-start: 2;
+    grid-column-end: 14;
+    p {
+      padding: 0;
+      margin: 0;
+      grid-column-start: 2;
+      grid-column-end: 14;
+      border-left: none;
+      font-size: $header-size/  2.16346;
+      font-family: $font-family;
+    }
+    h6 {
+      margin: 0;
+    }
+  }
+  blockquote + h2 {
+    margin-top: 0;
+    grid-row: 2;
+    border-color: $brand-ten;
+  }
 }
 
 // Tables
@@ -359,7 +405,7 @@ figcaption {
 pre {
   display: block;
   padding: 0;
-  margin:0;
+  margin: 0;
 
   code {
     position: relative;
@@ -375,10 +421,6 @@ pre {
     border-radius: 3px;
   }
 }
-
-
-
-
 
 // Misc Styles
 em, i, .italic {
@@ -419,3 +461,4 @@ div article.note-wrap {
     }
   }
 }
+

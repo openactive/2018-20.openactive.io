@@ -25,7 +25,6 @@ article {
       clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       background-color: $brand-six;
       position: relative;
-      border-right: 3rem solid $white;
 
       & > div {
         -webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 35% 100%);
@@ -53,10 +52,10 @@ article {
         grid-column-start: 2;
         grid-column-end: 14;
         padding-bottom: 4rem;
-        
+
       }
-      figure{
-        grid-column-start:2;
+      figure {
+        grid-column-start: 2;
         grid-row-start: 2;
         grid-row-end: 2;
         min-height: 200px;
@@ -65,7 +64,7 @@ article {
         clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
 
         div {
-          
+
           -webkit-clip-path: polygon(0 12%, 100% 5%, 100% 100%, 0% 100%);
           clip-path: polygon(0 12%, 100% 5%, 100% 100%, 0% 100%);
         }
@@ -83,6 +82,62 @@ article {
     }
     .two {
       align-self: center;
+    }
+  }
+  &.hero--accelerator {
+    & > div {
+      grid-column-start: 2;
+      grid-column-end: 8;
+      grid-row: 1;
+      h1 {
+        margin-top: 0;
+      }
+    }
+    figure {
+      grid-column-start: 7;
+      grid-column-end: 14;
+      align-self: stretch;
+      grid-row: 1;
+      position: relative;
+      & > div {
+        -webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 35% 100%);
+        clip-path: polygon(4% 0, 100% 0, 100% 100%, 35% 100%);
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    figure.sub-menu{
+      grid-column-start: 14;
+      grid-column-end: -1;
+      display: grid;
+      grid-template-columns: repeat(12, unquote("[col]") 1fr);
+      grid-gap: 1rem;
+      div{
+        clip-path: none;
+        &:nth-child(1) {
+          grid-column: col / span 6;
+          grid-column-start: 1;
+          grid-column-end: 1;
+        }
+        &:nth-child(2) {
+          grid-column: col 7 / span 6;
+          grid-column-start: 1;
+          grid-column-end: 1;
+        }
+        &:nth-child(3) {
+          grid-column: col / span 6;
+          grid-column-start: 2;
+          grid-column-end: 2;
+        }
+        &:nth-child(4) {
+          grid-column: col 7 / span 6;
+          grid-column-start: 2;
+          grid-column-end: 2;
+        }
+      }
     }
   }
 }
@@ -278,6 +333,7 @@ article {
   }
 
 }
+
 // END OF CALL TO ACTION STYLES
 /*********************************/
 /*********************************/
@@ -289,7 +345,7 @@ article {
   &.call_to_action {
     position: relative;
     @media only screen and (max-width: 1200px) {
-      grid-row-gap:1rem;
+      grid-row-gap: 1rem;
     }
     .two, .three, .four {
       align-self: stretch;
@@ -316,7 +372,7 @@ article {
         text-align: left;
         align-items: flex-start;
         justify-content: flex-start;
-        li{
+        li {
           font-size: $base-font-size;
         }
         @media only screen and (max-width: 900px) {
@@ -350,13 +406,13 @@ article {
         grid-column-start: 7;
         grid-column-end: 14;
         align-self: stretch;
-      
+
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
         position: relative;
 
         div {
-     
+
           -webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
           clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
           position: absolute;
@@ -368,11 +424,11 @@ article {
       }
       @media only screen and (max-width: 750px) {
         padding: 4rem;
-        grid-column-end:14;
+        grid-column-end: 14;
         grid-row-start: 1;
         grid-row-end: 1;
-        &~figure{
-          grid-column-start:2;
+        & ~ figure {
+          grid-column-start: 2;
           grid-row-start: 2;
           grid-row-end: 2;
           min-height: 200px;
@@ -396,7 +452,7 @@ article {
       @media only screen and (max-width: 750px) {
         padding: 3rem 3rem;
       }
-      h3,p{
+      h3, p {
         z-index: 2;
       }
       &:nth-child(1) {
@@ -438,27 +494,29 @@ article {
         display: none;
       }
     }
-    .lesson-overview{
+    .lesson-overview {
       max-width: 150px;
       grid-column-start: 14;
       grid-column-end: 14;
       border-top: 1px solid $gray;
       margin-top: 0;
-      div{
+      div {
         h4 {
           color: $header-color;
           font-size: $header-size / 3.75;
           text-transform: uppercase;
           margin-bottom: 0;
-          margin-top:0;
+          margin-top: 0;
           letter-spacing: 0;
         }
-        ul{
+        ul {
           margin-top: 0;
           margin-bottom: 2rem;
         }
-        &:nth-child(1){}
-        &:nth-child(2){}
+        &:nth-child(1) {
+        }
+        &:nth-child(2) {
+        }
       }
       @media only screen and (max-width: 1200px) {
         max-width: unset;
@@ -471,15 +529,15 @@ article {
         align-items: start;
         border-top: none;
 
-        div{
-          ul{
+        div {
+          ul {
             margin-bottom: 0;
           }
-          &:nth-child(1){
+          &:nth-child(1) {
             grid-column-start: 1;
             grid-column-end: 8;
           }
-          &:nth-child(2){
+          &:nth-child(2) {
             grid-column-start: 8;
             grid-column-end: 15;
           }
@@ -487,9 +545,9 @@ article {
       }
     }
   }
-  &.call_to_action--wide{
+  &.call_to_action--wide {
     @extend .call_to_action;
-    .one{
+    .one {
       grid-column-start: 2;
       grid-column-end: 14;
       padding: 4rem;
@@ -567,15 +625,15 @@ article {
         grid-column-start: 1;
         grid-column-end: -1;
         grid-row: 3;
-        height:150px;
-          -webkit-clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
+        height: 150px;
+        -webkit-clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
 
-          div {
+        div {
 
-            -webkit-clip-path: polygon(0 12%, 100% 5%, 100% 100%, 0% 100%);
-            clip-path: polygon(0 12%, 100% 5%, 100% 100%, 0% 100%);
-          }
+          -webkit-clip-path: polygon(0 12%, 100% 5%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 12%, 100% 5%, 100% 100%, 0% 100%);
+        }
       }
       //figure{
       //  grid-column-start:2;
@@ -599,6 +657,53 @@ article {
 // END OF CALL TO ACTION STYLES
 /*********************************/
 /*********************************/
+
+article {
+  &.image-break {
+    grid-gap: 1rem;
+    .one, .two, .three, .four {
+      min-height: 200px;
+    }
+    .two {
+      @media only screen and (max-width: 750px) {
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+    .three {
+      @media only screen and (max-width: 900px) {
+        &:nth-child(2) {
+          display: none;
+        }
+        &:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+    .four {
+      @media only screen and (max-width: 750px) {
+        &:nth-child(2) {
+          display: none;
+        }
+        &:nth-child(3) {
+          display: none;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        &:nth-child(2) {
+          display: none;
+        }
+        &:nth-child(3) {
+          display: none;
+        }
+        &:nth-child(4) {
+          display: none;
+        }
+      }
+    }
+  }
+}
 
 //NAVIGATION LIST STYLES
 /*********************************/
@@ -728,10 +833,12 @@ nav {
 }
 
 //BOOKING ENGINE SECTION
-.booking-engines-section{
-  .two{
-    &:nth-child(1){}
-    &:nth-child(2){}
+.booking-engines-section {
+  .two {
+    &:nth-child(1) {
+    }
+    &:nth-child(2) {
+    }
   }
 }
 
