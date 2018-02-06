@@ -2,7 +2,7 @@
 title: Fettle
 date: 2018-01-26 01:18:00 Z
 is_featured: true
-thumbnail_image: "/uploads/csp_network.png"
+thumbnail_image: "/uploads/fettle.png"
 layout: member
 website: http://www.teamfettle.com/
 ---

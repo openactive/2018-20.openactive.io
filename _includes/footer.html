@@ -6,7 +6,8 @@
         </div>
         <div class="members">
             <div class="subgrid">
-                {% for post in site.members %}
+                    {% assign posts = site.members | sample:10 %}
+                {% for post in posts %}
                 {% if post.is_featured %}
                 <div class="six " id="member-{{ forloop.index }}">
                     <figure role="group">
