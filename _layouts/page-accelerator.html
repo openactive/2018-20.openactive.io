@@ -180,54 +180,26 @@ layout: default
 
     <article class="title-row">
         <h2 class="sub-heading-two">Mentors</h2>
+        {% assign sortedPosts = site.mentors | sort: 'title' %}
+        {% for post in sortedPosts %}
+        {% assign theImage = post.thumbnail_image %}
+
         <div class="four">
-            <figure>
-                <img src="{{ site.url }}/openactive/assets/images/mentor.png">
-                <figcaption>MENTOR NAME</figcaption>
-            </figure>
-        </div>
-        <div class="four">
-            <figure>
-                <img src="{{ site.url }}/openactive/assets/images/mentor.png">
-                <figcaption>MENTOR NAME</figcaption>
-            </figure>
-        </div>
-        <div class="four">
-            <figure>
-                <img src="{{ site.url }}/openactive/assets/images/mentor.png">
-                <figcaption>MENTOR NAME</figcaption>
-            </figure>
-        </div>
-        <div class="four">
-            <figure>
-                <img src="{{ site.url }}/openactive/assets/images/mentor.png">
-                <figcaption>MENTOR NAME</figcaption>
-            </figure>
-        </div>
-        <div class="four">
-            <figure>
-                <img src="{{ site.url }}/openactive/assets/images/mentor.png">
-                <figcaption>MENTOR NAME</figcaption>
-            </figure>
-        </div>
-        <div class="four">
-            <figure>
-                <img src="{{ site.url }}/openactive/assets/images/mentor.png">
-                <figcaption>MENTOR NAME</figcaption>
-            </figure>
-        </div>
-        <div class="four">
-            <figure>
-                <img src="{{ site.url }}/openactive/assets/images/mentor.png">
-                <figcaption>MENTOR NAME</figcaption>
-            </figure>
-        </div>
-        <div class="four">
-            <figure>
-                <img src="{{ site.url }}/openactive/assets/images/mentor.png">
-                <figcaption>MENTOR NAME</figcaption>
-            </figure>
-        </div>
+
+                <figure>
+                        <img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+                    <figcaption>{{ post.title | escape }}</figcaption>
+                </figure>
+               {% if post.twitter %} <a target="_blank" rel="noopener" href="{{ post.twitter }}"><span
+                    class="icon icon--twitter">{% include twitter.svg %}</span><span class="hidden" aria-hidden="true">Open Active Twitter</span></a>
+                {% endif %}
+                {% if post.linkedin %}<p><a href="{{ post.linkedin }}" target="_blank">LinkedIn</a></p>{% endif %}
+            </div>
+        
+  
+        
+        {% endfor %}
+ 
     </article>
     <hr/>
 
