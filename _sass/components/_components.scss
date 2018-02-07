@@ -179,8 +179,6 @@ article {
 /*********************************/
 /*********************************/
 
-
-
 /*********************************/
 /*********************************/
 // CASE STUDIES STYLES
@@ -372,8 +370,6 @@ article {
 // END OF CALL TO ACTION STYLES
 /*********************************/
 /*********************************/
-
-
 
 /*********************************/
 /*********************************/
@@ -643,18 +639,41 @@ article {
       grid-column-end: -1;
       align-self: stretch;
       grid-row: 1/ 3;
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
+      //-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
+      //clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       position: relative;
 
       div {
-        -webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
-        clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
+        &:nth-child(1) {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 22;
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192.39 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23c01e2f;}%3C/style%3E%3C/defs%3E%3Ctitle%3Estripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='192.39 165.78 164.93 138.12 164.89 138.12 27.92 0.11 0 0 164.53 165.78 192.39 165.78'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+
+        }
+        &:nth-child(2) {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 20;
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%2323397f;}%3C/style%3E%3C/defs%3E%3Ctitle%3Ebig-triangle%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+        }
+        &:nth-child(3) {
+          //-webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
+          //clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+        }
       }
     }
     @media only screen and (max-width: 900px) {
@@ -694,8 +713,6 @@ article {
 // END OF CALL TO ACTION STYLES
 /*********************************/
 /*********************************/
-
-
 
 /*********************************/
 /*********************************/
@@ -745,10 +762,9 @@ article {
     }
   }
 }
+
 /*********************************/
 /*********************************/
-
-
 
 //NAVIGATION LIST STYLES
 /*********************************/

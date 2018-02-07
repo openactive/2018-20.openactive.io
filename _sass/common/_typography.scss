@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: $header-margin * 1.5 0 $header-margin 0;
   color: $header-color;
   line-height: $header-line-height;
-  font-weight: 400;
+  font-weight: 800;
   font-family: $heading-font-family;
   letter-spacing: -1px;
 }
@@ -153,7 +153,6 @@ h3 {
   color: $brand-blue;
   font-size: $header-size / 1.5;
   line-height: 2.3rem;
-  font-weight: 800;
 }
 
 h3 + p,
@@ -177,6 +176,7 @@ h3 + ol + p,
 h4 {
   color: $brand-blue;
   font-size: $header-size / 1.7;
+
 }
 
 //
