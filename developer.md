@@ -22,22 +22,7 @@ Content for this page is detailed in the
 </article>
 
 
-<!-- <article markdown="0" class="hero--sub"> -->
 
-<!-- <i class="line-graphic">{% include slim-line-graphic.svg %}</i> -->
-
-<!-- <div> -->
-<!-- <h1>Developer</h1> -->
-<!-- <p>Discover how to use data with OpenActive</p> -->
-<!-- <p>Know what your here for? <a href="#resources">Jump to Resources</a></p> -->
-<!-- <p>Not a developer? Learn how to <a href="( {{ site.baseurl }}{% link getting-started.md %})">Get Started</a> </p> -->
-
-<!-- </div> -->
-<!-- <figure> -->
-<!-- <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div> -->
-<!-- </figure> -->
-
-<!-- </article> -->
 
 <article>
 <div class="one">
@@ -66,7 +51,7 @@ The open data being gathered by OpenActive and associated partners will transfor
 <article >
 <div class="two">
 
-{% include line_graphic.svg %}
+![Hero]({{ site.baseurl }}/assets/images/dash.png)
 
 </div>
 <div class="two">

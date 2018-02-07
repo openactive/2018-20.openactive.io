@@ -2,9 +2,58 @@
 layout: default
 ---
 
-<div class="page">
+<div class="page global-template">
 
-    <article class="call_to_action--full-width brand-five-bc">
+    <article markdown="0" class="hero--montage">
+        <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+        <div>
+            <h1>Developer</h1>
+            <p>Discover how to use data with OpenActive</p>
+            <p>Know what your here for? <a href="#resources">Jump to Resources</a></p>
+            <p>Not a developer? Learn how to <a href="( {{ site.baseurl }}{% link getting-started.md %})">Get
+                Started</a></p>
+        </div>
+        <figure class="hero">
+            <div></div>
+            <div></div>
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+        </figure>
+        <figure class="sub-menu">
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+        </figure>
+    </article>
+
+    <article markdown="0" class="hero--sub">
+        <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+        <div>
+            <h1>Developer</h1>
+            <p>Discover how to use data with OpenActive</p>
+            <p>Know what your here for? <a href="#resources">Jump to Resources</a></p>
+            <p>Not a developer? Learn how to <a href="( {{ site.baseurl }}{% link getting-started.md %})">Get
+                Started</a></p>
+        </div>
+        <figure>
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+        </figure>
+    </article>
+
+
+    <article markdown="0" class="hero--simple">
+        <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+        <div class="one">
+            <h1>{{ page.title | escape }}</h1>
+            <p>OpenActive is community-led initiative with an ambition to help people in England get active using open
+                data. </p>
+            <p>The initiative is stewarded by the Open Data Institute (ODI), supported by Sport England, and formed of
+                organisations and engaged individuals working within the sport and physical activity sector.</p>
+        </div>
+
+    </article>
+
+    <article class="call_to_action--full-width">
         <h2 class="sub-heading-two">Join</h2>
         <div class="one">
 
@@ -18,7 +67,9 @@ layout: default
 
         </div>
 
-        <figure class="brand-ten-bc">
+        <figure>
+            <div></div>
+            <div></div>
             <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
         </figure>
 
@@ -134,4 +185,100 @@ layout: default
             </div>
         </div>
     </article>
+
+    <article class="title-row">
+        <h2 class="sub-heading-two">Block Quote</h2>
+        <blockquote>
+            <p>Dolore nulla voluptas natus et sapiente. Deserunt sequi eius culpa labore. Totam quam nihil alias
+                delectus natus voluptas. Qui omnis vitae atque sequi.</p>
+        </blockquote>
+
+    </article>
+
+    <article class="title-row featured brand-blue-bc">
+        <i class="quote">
+            {% include quote.svg %}
+        </i>
+        <blockquote>
+            <p>Dolore nulla voluptas natus et sapiente. Deserunt sequi eius culpa labore. Totam quam nihil alias
+                delectus natus voluptas. Qui omnis vitae atque sequi.</p>
+            <h6>Bob Smith</h6>
+            <h6>Health Center</h6>
+        </blockquote>
+        <div></div>
+    </article>
+
+    <article>
+        <div class="two brand-blue-bc">
+            <blockquote class="featured ">
+                <i class="quote brand-ten-b">
+                    {% include quote.svg %}
+                </i>
+                <p>Dolore nulla voluptas natus et sapiente. Deserunt sequi eius culpa labore. Totam quam nihil alias
+                    delectus natus voluptas. Qui omnis vitae atque sequi.</p>
+                <h6>Bob Smith</h6>
+                <h6>Health Center</h6>
+            </blockquote>
+        </div>
+        <div class="two">
+            <h3>Nam itaque aperiam fugit. </h3>
+            <p>In et doloribus et in. Maiores aut commodi quae sit veniam tempora et. Enim dolorem et cumque id vel.</p>
+            <p>In et doloribus et in. Maiores aut commodi quae sit veniam tempora et. Enim dolorem et cumque id vel.</p>
+        </div>
+    </article>
+
+    <article class="image-break">
+        <div class="one"
+             style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+
+        </div>
+    </article>
+    <article class="image-break">
+        <div class="subgrid">
+            <div class="two"
+                 style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+            </div>
+            <div class="two"
+                 style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+
+            </div>
+        </div>
+    </article>
+
+    <article class="image-break">
+        <div class="subgrid">
+            <div class="three"
+                 style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+
+            </div>
+            <div class="three"
+                 style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+
+            </div>
+            <div class="three"
+                 style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+            </div>
+        </div>
+    </article>
+    <article class="image-break">
+        <div class="subgrid">
+            <div class="four"
+                 style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+
+            </div>
+            <div class="four"
+                 style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+
+            </div>
+            <div class="four"
+                 style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+
+            </div>
+            <div class="four"
+                 style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+
+            </div>
+        </div>
+    </article>
+
 </div>

@@ -136,9 +136,10 @@ $usingTwo: #40489e;
 $usingThree: #922a8f;
 $usingFour: #9f509f;
 $usingFive: #e61990;
-.use {
+article.use, div.use {
   background-color: $using;
   &.call_to_action--full-width {
+    background-color: $using;
     .sub-heading-two {
       color: $white;
     }
@@ -192,9 +193,10 @@ $publishTwo: #00abcb;
 $publishThree: #006fb9;
 $publishFour: #054b78;
 $publishFive: #40489e;
-.publish {
+article.publish, div.publish {
   background-color: $publish;
   &.call_to_action--full-width {
+    background-color: $publish;
     .sub-heading-two {
       color: $white;
     }
@@ -248,9 +250,10 @@ $startUpTwo: #e61990;
 $startUpThree: #bf1e2e;
 $startUpFour: #ef4939;
 $startUpFive: #faa742;
-.startup {
+article.startup, div.startup {
   background-color: $startUpFour;
   &.call_to_action--full-width {
+    background-color: $startUpFour;
     .sub-heading-two {
       color: $white;
     }
@@ -282,8 +285,28 @@ $startUpFive: #faa742;
       background-color: $startUpThree;
     }
   }
+  .hero--montage{
+    h1 {
+      color: $startUpFour;
+    }
+    figure:not(.sub-menu) {
+      background-color: $startUpThree;
+    }
+  }
   .sub-heading-two {
     color: $startUpFour;
+  }
+  .call_to_action--full-width {
+    background-color: $startUpFour;
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $startUpFive;
+    }
+    figure {
+      background-color: $startUpThree;
+    }
   }
 }
 
@@ -291,7 +314,7 @@ $startUpFive: #faa742;
     # Simple Typography Settings
 \*------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:800|Source+Sans+Pro:300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800,400|Source+Sans+Pro:300,400,700&subset=latin-ext');
 
 // Font Family
 $font-family: 'Source+Sans+Pro', sans-serif;

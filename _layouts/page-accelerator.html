@@ -3,40 +3,52 @@ layout: default
 ---
 
 <div class="page startup-template">
-    <article markdown="0" class="hero--sub">
 
+    <article markdown="0" class="hero--montage">
         <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
         <div>
             <h1>{{page.title}}</h1>
             <p>{{page.strapline}}</p>
         </div>
-        <figure>
-            <div style="background: url({{site.baseurl}}{{page.thumbnail_image}})center center / cover no-repeat;"></div>
+        <figure class="hero">
+            <div></div>
+            <div></div>
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+        </figure>
+        <figure class="sub-menu">
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
         </figure>
     </article>
 
-    <article class="title-row">
-        <h2 class="sub-heading-two">Quote</h2>
-        <div class="one">
-            <blockquote>
+
+
+    <article>
+        <div class="two brand-blue-bc">
+            <blockquote class="featured ">
+                <i class="quote brand-ten-b">
+                    {% include quote.svg %}
+                </i>
                 <p>6.2 million adults don’t exercise regularly enough to improve health and wellbeing</p>
+                <h6>Bob Smith</h6>
+                <h6>Health Center</h6>
             </blockquote>
         </div>
-    </article>
-
-    <article class="title-row">
-        <h2 class="sub-heading-two">Intro Copy</h2>
-        <div class="one">
-            <p>Developments in <strong>data</strong>, social media, VR and AI are having a huge impact on lots of aspects of people’s
+        <div class="two">
+            <p class="h3-copy">Developments in <strong>data</strong>, social media, VR and AI are having a huge impact on lots of aspects of people’s
                 lives, removing pain points and creating <strong>better experiences for customers.</strong></p>
             <p>In the sport and physical activity sector, services designed to get people <strong>more active</strong> often don’t offer
                 the seamless experiences we are used to in other industries such as travel or entertainment. <strong>Information</strong>
                 about what’s available is mostly contained in silos and little <strong>collaboration</strong> happens between the
-                different stakeholders in the ecosystem, such as gyms and sport clubs.</p>
-        </div>
+                different stakeholders in the ecosystem, such as gyms and sport clubs.</p>        </div>
     </article>
 
-    <article class="call_to_action--full-width startup">
+
+
+
+    <article class="call_to_action--full-width">
         <h2 class="sub-heading-two">Use Cases</h2>
         <div class="one">
 
@@ -55,76 +67,86 @@ layout: default
 
     </article>
 
-    <article class="title-row">
+    <article id="hover-blocks" class="title-row">
         <h2 class="sub-heading-two">What startups get</h2>
         <div class="one non-grid">
             <div class="five">
                 <figure>
                     <img src="{{ site.url }}/openactive/assets/images/features.png">
-                    <figcaption><strong>Open data</strong><span class="hidden">unique access from key physical activity providers.</span></figcaption>
+                    <strong><p>Open data</p></strong>
+                    <figcaption>Unique access from key physical activity providers.</figcaption>
                 </figure>
             </div>
             <div class="five">
                 <figure>
                     <img src="{{ site.url }}/openactive/assets/images/features.png">
-                    <figcaption><strong>Office space</strong><span class="hidden">including day-to-day business support.</span></figcaption>
+                    <strong>Office space</strong>
+                    <figcaption>Including day-to-day business support.</figcaption>
                 </figure>
             </div>
             <div class="five">
                 <figure>
                     <img src="{{ site.url }}/openactive/assets/images/features.png">
-                    <figcaption><strong>Mentorship</strong><span class="hidden">matched with industry leaders that are the best fit for your startup.</span></figcaption>
+                    <strong>Mentorship</strong>
+                    <figcaption>Matched with industry leaders that are the best fit for your startup.</figcaption>
                 </figure>
             </div>
             <div class="five">
                 <figure>
                     <img src="{{ site.url }}/openactive/assets/images/features.png">
-                    <figcaption><strong>Workshops</strong><span class="hidden">from business modelling to marketing, you’ll hone skills to succeed.</span></figcaption>
+                    <strong>Workshops</strong>
+                    <figcaption>From business modelling to marketing, you’ll hone skills to succeed.</figcaption>
                 </figure>
             </div>
             <div class="five">
                 <figure>
                     <img src="{{ site.url }}/openactive/assets/images/features.png">
-                    <figcaption><strong>1:1s</strong><span class="hidden">weekly sessions with the OpenActive Accelerator team.</span></figcaption>
+                    <strong>1:1s</strong>
+                    <figcaption>Weekly sessions with the OpenActive Accelerator team.</figcaption>
                 </figure>
             </div>
             <div class="five">
                 <figure>
                     <img src="{{ site.url }}/openactive/assets/images/features.png">
-                    <figcaption><strong>Perks</strong><span class="hidden">access to professional services inc. data hosting.</span></figcaption>
+                    <strong>Perks</strong>
+                    <figcaption>Access to professional services inc. data hosting.</figcaption>
                 </figure>
             </div>
             <div class="five">
                 <figure>
                     <img src="{{ site.url }}/openactive/assets/images/features.png">
-                    <figcaption><strong>Networking</strong><span class="hidden"> weekly opportunities to grow your network</span></figcaption>
+                    <strong>Networking</strong>
+                    <figcaption>Weekly opportunities to grow your network</figcaption>
                 </figure>
             </div>
             <div class="five">
                 <figure>
                     <img src="{{ site.url }}/openactive/assets/images/features.png">
-                    <figcaption><strong>Partners</strong><span class="hidden">supporters and business leads.</span></figcaption>
+                    <strong>Partners</strong>
+                    <figcaption>Supporters and business leads.</figcaption>
                 </figure>
             </div>
             <div class="five">
                 <figure>
                     <img src="{{ site.url }}/openactive/assets/images/features.png">
-                    <figcaption><strong>Investors</strong><span class="hidden">we’ll connect you with the right people and advice at the right time.</span></figcaption>
+                    <strong>Investors</strong>
+                    <figcaption>We’ll connect you with the right people and advice at the right time.</figcaption>
                 </figure>
             </div>
             <div class="five">
                 <figure>
                     <img src="{{ site.url }}/openactive/assets/images/features.png">
-                    <figcaption><strong>Demo Day</strong><span class="hidden">demonstrate your products and services at an invite-only pitch to investors.</span></figcaption>
+                    <strong>Demo Day</strong>
+                    <figcaption>Demonstrate your products and services at an invite-only pitch to investors.</figcaption>
                 </figure>
             </div>
         </div>
     </article>
 
-    <article class="title-row">
-        <h2 class="sub-heading-two">Full Width Image</h2>
-        <div class="one">
-            {% include blank.svg %}
+    <article class="image-break">
+        <div class="one"
+             style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;">
+
         </div>
     </article>
 
