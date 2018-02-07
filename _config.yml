@@ -85,7 +85,7 @@ description: Write an awesome description for your new site here. You can edit t
   results) and in your feed.xml site description.
 baseurl: "/openactive-staging"
 url: https://imaginatecreative.github.io
-repository: imaginatecreative/openactive
+repository: imaginatecreative/openactive-staging
 email: your-email@example.com
 github_username: imaginatecreative
 twitter_username: twitter
