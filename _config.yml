@@ -1,111 +1,23 @@
 ---
-title: OpenActive
+title: Open Active Staging
 timezone: UTC
 collections:
-  booking_engines:
-    title: Booking Engines
-    output: true
-    member: ''
-  case_studies:
-    title: Case Studies
-    output: true
-  events:
-    title: Events
-    output: true
-  faqs:
-    title: FAQs
-    output: true
-  members:
-    title: Members
-    output: true
-  mentors:
-    title: Mentors
-    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-    permalink: "/uploads/:path/"
 defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: default
-    is_main_navigation: false
-    is_secondary_navigation: false
 - scope:
     path: ''
     type: posts
   values:
     layout: post
-    is_featured: false
-    thumbnail_image: ''
+    permalink: "/posts/:title/"
 - scope:
     path: ''
-    type: case_studies
+    type: pages
   values:
-    layout: case-study
-    is_featured: false
-    thumbnail_image: "/uploads/placeholder.png"
-    strapline: 
-- scope:
-    path: ''
-    type: mentors
-  values:
-    layout: mentor
-    is_featured: false
-    thumbnail_image: "/uploads/placeholder.png"
-    twitter: 
-    linkedin: 
-- scope:
-    path: ''
-    type: members
-  values:
-    layout: member
-    is_featured: false
-    thumbnail_image: "/uploads/placeholder.png"
-    website: Web address
-- scope:
-    path: ''
-    type: booking_engines
-  values:
-    layout: booking-engine
-    is_featured: false
-    thumbnail_image: "/uploads/placeholder.png"
-    website: Web address
-compress_html:
-  blanklines: false
-  profile: false
-locale: en-US
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-baseurl: "/openactive"
-url: https://imaginatecreative.github.io
-repository: imaginatecreative/openactive
-email: your-email@example.com
-github_username: imaginatecreative
-twitter_username: twitter
-youtube_username: 
-facebook_username: 
-instagram_username: 
-pinterest_username: 
-medium_username: medium
-markdown: kramdown
-plugins:
-- jekyll-feed
-staticman:
-  branch: master
-reCaptcha:
-  siteKey: sitekey
-  secret: 
-atom_feed:
-  path: 
-search: 
-search_full_content: 
-tipue_search:
-  include:
-    pages: true
+    layout: page
+permalink: pretty
