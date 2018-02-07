@@ -1,0 +1,523 @@
+/*------------------------------------*\
+    # Type
+\*------------------------------------*/
+
+// Make type normal across browsers
+*, html, body {
+  font-size: $base-font-size;
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+// Headers
+h1, h2, h3, h4, h5, h6 {
+  margin: $header-margin * 1.5 0 $header-margin 0;
+  color: $header-color;
+  line-height: $header-line-height;
+  font-weight: 800;
+  font-family: $heading-font-family;
+  letter-spacing: -1px;
+}
+
+// Headers
+#page-header {
+  border-bottom: 1px solid $black;
+  padding-bottom: 5px;
+  display: inline-block;
+  grid-column: col / span 12;
+
+}
+
+#alt-h1 {
+  border-bottom: 1px solid $black;
+  padding-bottom: 5px;
+}
+
+// Headers
+#alt-h2 {
+  text-decoration: underline;
+
+}
+
+// Heading One Styles
+//
+// Hero Text
+//
+// Weight: 1
+//
+// Markup:
+// <h1>Heading One</h1>
+//
+// Styleguide typography.heading-one
+h1 {
+  font-size: $header-size;
+  line-height: 0.85;
+  color: $brand-blue;
+  font-weight: 800;
+}
+
+h1 + p, h1 + ul li p, .h1-copy {
+  font-size: $header-size/  2;
+  font-family: $font-family;
+}
+
+// Heading Two Styles
+//
+// Hero Text
+//
+// Weight: 2
+//
+// Markup:
+// <h2>Heading Two</h2>
+//
+// Styleguide typography.heading-two
+h2 {
+  font-size: $header-size / 1.5;
+  font-weight: 800;
+}
+
+// Sub Heading Two Styles
+//
+// Heading text for sections, appears in left columns at larger screens
+//
+// Weight: 3
+//
+// Markup:
+// <h2 class="sub-heading-two">Heading Two</h2>
+//
+// Styleguide typography.sub-heading-two
+@supports (display: grid) {
+  .sub-heading-two {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: start;
+    @media only screen and (max-width: 1400px) {
+      grid-column-start: 2;
+      grid-column-end: 14;
+      grid-row: 1/ 2;
+    }
+  }
+}
+
+.sub-heading-two {
+  text-align: right;
+  padding-top: 0.5rem;
+  border-top: 1px solid $gray;
+  color: $brand-blue;
+  margin: 0;
+  font-family: $font-family;
+  line-height: 1;
+  font-size: $header-size / 2;
+  font-weight: 700;
+  width: 150px;
+  justify-self: end;
+  @media only screen and (max-width: 1400px) {
+    border-bottom: 1px solid $gray;
+    border-top: 0 solid $gray;
+    padding: 0 0 0.5rem 0;
+    text-align: left;
+    width: 100%;
+    br {
+      display: none;
+    }
+  }
+}
+
+html.no-cssgrid {
+  .sub-heading-two {
+    width: 100%;
+    text-align: left;
+    border-top: 0;
+    border-bottom: 1px solid $gray;
+    margin-bottom: 1rem;
+    @media only screen and (max-width: 1200px) {
+
+    }
+  }
+}
+
+// Heading Three Styles
+//
+// Smaller Sub Heading Text
+//
+// Weight: 4
+//
+// Markup:
+// <h3>Heading Three</h3>
+//
+// Styleguide typography.heading-three
+h3 {
+  color: $brand-blue;
+  font-size: $header-size / 1.5;
+  line-height: 2.3rem;
+  a{
+    font-weight: 800;
+  }
+}
+
+h3 + p,
+h3 + ol li,
+h3 + ol + p,
+.h3-copy {
+  font-size: $header-size/  2.16346;
+  font-family: $font-family;
+}
+
+// Heading Four Styles
+//
+// Heading Text
+//
+// Weight: 5
+//
+// Markup:
+// <h4>Heading Four</h4>
+//
+// Styleguide typography.heading-four
+h4 {
+  color: $brand-blue;
+  font-size: $header-size / 1.7;
+
+}
+
+//
+// Heading Text
+//
+// Weight: 6
+//
+// Markup:
+// <h5>Heading Five</h5>
+//
+// Styleguide typography.heading-five
+h5 {
+  color: $brand-blue;
+  font-size: $header-size / 2.16346;
+}
+
+// Heading Six Styles
+//
+// Smallest Heading Text
+//
+// Weight: 7
+//
+// Markup:
+// <h6>Heading Six</h6>
+//
+// Styleguide typography.heading-six
+h6 {
+  font-size: $header-size / 3.75;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+  letter-spacing: 0;
+  font-weight: 800;
+  line-height: $header-line-height / 1.2;
+  & + p {
+    margin-top: 0;
+    font-size: $header-size /3.75;
+  }
+}
+
+// Paragraphs
+p, li {
+  margin-top: $paragraph-margin;
+  font-size: $paragraph-size;
+  line-height: $paragraph-line-height;
+  color: $paragraph-color;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: none;
+  @include transition(all .2s ease);
+
+  &:hover {
+    color: darken($link-color, 10%);
+  }
+  &:focus {
+    //outline: 3px dotted #811d15!important;
+  }
+  &.link {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
+
+// Lists
+ul, ol {
+  margin: $paragraph-margin 0 10px 20px;
+  li {
+    margin-top: 10px;
+    line-height: $paragraph-line-height;
+    color: $paragraph-color;
+    ol, ul {
+
+    }
+  }
+
+  ul, ol {
+    margin-top: 0;
+  }
+}
+
+// Unordered List Styles
+//
+// list of item, perhaps steps or components
+//
+// Weight: 7
+//
+// Markup:
+// <ul>
+//    <li>Item</li>
+//    <li>Item</li>
+//    <li>Item</li>
+//    <li>Item</li>
+// </ul>
+//
+// Styleguide typography.unordered-list
+ul {
+
+  li {
+    list-style: disc;
+  }
+
+  ul {
+
+    li {
+      list-style: circle;
+    }
+  }
+}
+
+ol {
+
+  li {
+    list-style: decimal;
+  }
+}
+
+legend {
+  margin-top: $paragraph-margin;
+  font-size: $paragraph-size * 1.5;
+  line-height: $paragraph-line-height;
+  color: $white;
+
+}
+
+// hr
+hr {
+  height: 1px;
+  margin: $hr-margin 0;
+  border: none;
+  background-color: $border-color;
+}
+
+// Blockquote
+blockquote {
+  grid-column-start: 2;
+  grid-column-end: 14;
+  p {
+    margin: $blockquote-margin 0;
+    font-size: $blockquote-size;
+    line-height: $blockquote-line-height;
+    color: $blockquote-color;
+    padding-left: 2rem;
+    font-style: normal;
+    border-left: 1px solid;
+  }
+  &.featured{
+    padding:2rem;
+    .quote{
+      width: 100px;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 1rem;
+    }
+    p{
+      padding: 0;
+      margin: 0;
+      grid-column-start: 2;
+      grid-column-end: 14;
+      border-left: none;
+      font-size: $header-size/  2.16346;
+      font-family: $font-family;
+    }
+    h6 {
+      margin: 0;
+      &:nth-of-type(1){
+        margin: 1rem 0 0 0;
+      }
+      &:nth-of-type(2){
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+article.featured {
+  grid-row-gap: 0;
+  .quote {
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 14;
+    margin-top:2rem;
+    svg {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 1rem;
+    }
+  }
+  blockquote {
+    grid-row: 2;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    grid-column-start: 2;
+    grid-column-end: 14;
+    p {
+      padding: 0;
+      margin: 0;
+      grid-column-start: 2;
+      grid-column-end: 14;
+      border-left: none;
+      font-size: $header-size/  2.16346;
+      font-family: $font-family;
+    }
+    h6 {
+      margin:  0;
+      &:nth-of-type(1){
+        margin: 1rem 0 0 0;
+      }
+      &:nth-of-type(2){
+        font-weight: 100;
+      }
+    }
+
+  }
+  div {
+    margin-top: 0;
+    grid-row: 2;
+    border-color: $brand-ten;
+    border-top-style: solid;
+    border-top-width: 1px;
+    text-align: right;
+    padding-top: 0.5rem;
+    color: #253882;
+    font-family: "Source+Sans+Pro", sans-serif;
+    line-height: 1;
+    font-size: 1.40625rem;
+    font-weight: 700;
+    width: 150px;
+    justify-self: end;
+
+  }
+}
+
+// Tables
+table {
+  width: 100%;
+  margin: $blockquote-margin 0;
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid $border-color;
+  text-align: left;
+}
+
+th {
+  font-weight: $font-weight-bold;
+}
+
+th, td {
+  padding: 15px;
+}
+
+// Figure
+figure {
+  margin: $blockquote-margin 0;
+
+  img {
+    margin: 0;
+  }
+}
+
+figcaption {
+  margin-top: 10px;
+  color: lighten($paragraph-color, 10%);
+  font-size: $paragraph-margin * 0.8;
+}
+
+// Code
+pre {
+  display: block;
+  padding: 0;
+  margin: 0;
+
+  code {
+    position: relative;
+    padding: 3px;
+    font-family: Courier New, Courier, monospace;
+    font-size: $paragraph-size / 1.3;
+    color: darken($border-color, 40%);
+    line-height: 1.5em;
+    pointer-events: none;
+    border: 1px solid $border-color;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+}
+
+// Misc Styles
+em, i, .italic {
+  font-style: italic;
+}
+
+strong, b, .bold {
+  font-weight: $font-weight-bold;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+}
+
+div article.note-wrap {
+  display: none;
+  .notes {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    margin: 0 0 20px 0;
+    grid-column-start: 2;
+    grid-column-end: 14;
+
+    p {
+      margin-bottom: 0em;
+      color: #747474;
+      font-size: 80%;
+      font-family: Courier New, Courier, monospace;
+
+    }
+    h5 {
+      margin-top: 0;
+      color: #747474;
+    }
+  }
+}
+

@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="page" id="booking-engines-page">
+    <article class="page-content">
+        <div class="one">
+            <header class="page-header">
+                <h1 class="page-title">{{ page.title | escape }}</h1>
+            </header>
+            {{ content }}
+        </div>
+    </article>
+
+    {% if site.booking_engines %}
+    {% for post in site.booking_engines %}
+    {% assign num = forloop.length %}
+    {% endfor %}
+
+
+    <article class="member-list">
+        <div class="one">
+            <h4>Open Active has {{num}} booking engines which have already adopted the standards</h4>
+        </div>
+        <div class="one">
+
+            {% assign sortedPosts = site.booking_engines | sort: 'title' %}
+            {% for post in sortedPosts %}
+            <div class="subgrid" id="member-{{ forloop.index }}">
+                <figure role="group" class="two tworight">
+                    <img role="logo" src="{{post.thumbnail_image | relative_url}}">
+                </figure>
+                <div class="two tworight">
+                    <div class="wrap">
+                        <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{
+                            post.title |
+                            escape
+                            }}</a></h3>
+                        {{ post.excerpt }}
+                    </div>
+                    <a class="button-secondary" href="{{ post.url | relative_url }}">Read Booking Engine</a>
+                </div>
+            </div>
+            <hr>
+            {% endfor %}
+
+        </div>
+    </article>
+
+
+    </aside>
+    {% endif %}
+
+
+</div>

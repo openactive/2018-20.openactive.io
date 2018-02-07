@@ -1,0 +1,29 @@
+#events {
+  .page-content {
+    .page-header {
+      .page-title {
+      }
+    }
+  }
+  .news-content {
+    .post-title{  }
+    .post-meta{}
+    .post-snippet{}
+  }
+  aside {
+    .post-list {
+    }
+  }
+}
+
+
+
+// EVENT DETAIL
+#event {
+  header {
+    grid-column: col / span 12;
+  }
+  div {
+    grid-column: col / span 12;
+  }
+}
