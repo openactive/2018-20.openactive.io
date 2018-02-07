@@ -1,7 +1,7 @@
 ---
 title: Who runs the OpenActive initiative?
 date: 2017-07-06 06:18:00 Z
-permalink: blog/faq-one.html
+permalink: blog/who-runs-the-openactive-initiative.html
 categories:
 - About OpenActive
 author: George
