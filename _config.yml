@@ -43,10 +43,7 @@ defaults:
     layout: post
     is_featured: false
     thumbnail_image: ''
-<<<<<<< HEAD
-=======
     categories: About OpenActive
->>>>>>> 6ff8d289c49174caffa80c3f2c7048c1b6897fd9
 - scope:
     path: ''
     type: case_studies
