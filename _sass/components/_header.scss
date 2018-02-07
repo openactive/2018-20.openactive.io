@@ -1,0 +1,761 @@
+/*********************************/
+/*********************************/
+//GRID LAYOUT STYLES FOR SCREENS OVER 1000px
+html.cssgrid {
+  @supports (display: grid) {
+
+    @media only screen and (min-width: 1000px) {
+      body > header {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
+        align-items: stretch;
+
+        @media only screen and (max-width: 1400px) {
+          grid-gap: 1rem;
+          grid-column-gap: 3rem;
+
+        }
+        .g-item {
+          &.logo {
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row: 1/ span 2;
+            align-self: end;
+          }
+          &.navigation {
+            grid-column-start: 11;
+            grid-column-end: 14;
+            grid-row: 1/ span 2;
+            display: grid;
+            align-self: stretch;
+          }
+          &.headline {
+            grid-column-start: 2;
+            grid-column-end: 11;
+            grid-row: 2/ 2;
+            display: grid;
+            align-self: stretch;
+          }
+
+          &.button {
+            grid-column-start: 14;
+            grid-column-end: 14;
+            grid-row: 1/ span 2;
+          }
+          @media only screen and (max-width: 1400px) {
+            &.logo {
+              grid-column-start: 2;
+              grid-column-end: 5;
+              grid-row: 1/ span 1;
+            }
+            &.headline {
+              grid-column-start: 2;
+              grid-column-end: 12;
+            }
+            &.navigation {
+              grid-column-start: 9;
+              grid-row: 1/ span 2;
+              grid-column-end: 12;
+
+            }
+            &.button {
+              grid-column-start: 12;
+            }
+          }
+        }
+        div, aside, nav { }
+        #logo {
+
+          a {
+
+          }
+          a svg {
+
+          }
+          @media only screen and (max-width: 1400px) {
+
+            a {
+
+            }
+            a svg {
+
+            }
+          }
+        }
+        .navigation {
+
+          @media only screen and (max-width: 1400px) {
+
+          }
+          .mobile_button {
+
+            @media only screen and (max-width: 1000px) {
+
+            }
+
+          }
+        }
+        .button {
+
+          @media only screen and (max-width: 1400px) {
+
+          }
+          .social-button {
+            @media only screen and (max-width: 1400px) {
+              width: 150px;
+            }
+            #social {
+              align-items: start;
+
+              ul {
+
+                li {
+
+                  span {
+
+                    svg {
+                    }
+                  }
+                }
+              }
+            }
+            .button--primary, .button-primary--alt {
+
+            }
+          }
+        }
+        .headline {
+          @media only screen and (max-width: 1400px) {
+          }
+        }
+      }
+
+      #sticky-phantom {
+
+      }
+      @media only screen and (max-width: 1400px) {
+        #sticky-phantom {
+
+        }
+      }
+    }
+  }
+}
+
+//END OF GLOBAL NO GRID STYLES
+/*********************************/
+/*********************************/
+
+/*********************************/
+/*********************************/
+//LEGACY LAYOUT STYLES FOR SCREENS OVER 1000px
+
+html.no-cssgrid {
+  @media only screen and (min-width: 1000px) {
+    body > header {
+      position: relative;
+      @media only screen and (max-width: 1400px) {
+
+      }
+      .g-item {
+        display: inline-block;
+        vertical-align: bottom;
+        box-sizing: border-box;
+        &.logo {
+          width: 15%;
+
+        }
+        &.navigation {
+          width: 10%;
+          margin-left: 2.5%;
+        }
+        &.headline {
+          width: 52%;
+          margin-left: 2.5%;
+
+        }
+        &.button {
+          width: 10%;
+          margin-left: 2.5%;
+
+        }
+        @media only screen and (max-width: 1400px) {
+          &.logo {
+
+          }
+          &.headline {
+
+          }
+          &.navigation {
+
+          }
+          &.button {
+          }
+        }
+      }
+      div, aside, nav {
+
+      }
+      #logo {
+        text-align: left;
+        a {
+
+        }
+        a svg {
+          height: 100px;
+        }
+        @media only screen and (max-width: 1400px) {
+          display: inline-flex;
+          align-content: flex-start;
+          a {
+
+          }
+          a svg {
+
+          }
+        }
+      }
+      .navigation {
+
+        @media only screen and (max-width: 1400px) {
+
+        }
+        .mobile_button {
+
+          @media only screen and (max-width: 1000px) {
+
+          }
+
+        }
+      }
+      .button {
+
+        @media only screen and (max-width: 1400px) {
+
+        }
+        .social-button {
+
+          #social {
+
+            ul {
+
+              li {
+
+                span {
+
+                  svg {
+                    width: 30px;
+                    height: 30px;
+                  }
+                }
+              }
+            }
+          }
+          .button--primary, .button-primary--alt {
+
+          }
+        }
+      }
+      .headline {
+        @media only screen and (max-width: 1400px) {
+        }
+      }
+    }
+
+    #sticky-phantom {
+      display: none;
+    }
+    @media only screen and (max-width: 1400px) {
+      #sticky-phantom {
+
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  .social-button {
+    width: unset !important;
+  }
+}
+
+//END LEGACY LAYOUT STYLES FOR SCREENS OVER 1000px
+/*********************************/
+/*********************************/
+
+/*********************************/
+/*********************************/
+//DECORATIVE OR COMPATABLE LAYOUT STYLES FOR SCREENS OVER 1000px
+
+@media only screen and (min-width: 1000px) {
+  body > header {
+    position: fixed;
+    z-index: 30;
+    background-color: white;
+
+    @media only screen and (max-width: 1400px) {
+
+    }
+    .g-item {
+      &.logo {
+
+      }
+      &.navigation {
+        border-bottom: 1px solid $gray;
+        ul {
+          display: inline-flex;
+        }
+      }
+      &.headline {
+      }
+
+      &.button {
+        display: inline-flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      @media only screen and (max-width: 1400px) {
+        &.logo {
+
+        }
+        &.headline {
+
+        }
+        &.navigation {
+          border-bottom: none;
+        }
+        &.button {
+
+        }
+      }
+    }
+    div, aside, nav {
+      box-sizing: border-box;
+      vertical-align: top;
+    }
+    #logo {
+      position: relative;
+      text-align: right;
+      margin: 0;
+
+      a {
+        display: inline-flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        box-sizing: border-box;
+      }
+      a svg {
+        top: 0;
+        width: 150px;
+        left: 0;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid lightgrey;
+      }
+      @media only screen and (max-width: 1400px) {
+        justify-content: flex-start;
+        display: inline-flex;
+        margin: 1rem 0 0 0;
+        a {
+          padding-bottom: 0;
+        }
+        a svg {
+          padding-bottom: 1rem;
+        }
+      }
+    }
+    .navigation {
+      padding-bottom: 2rem;
+      @media only screen and (max-width: 1400px) {
+        padding-bottom: 1rem;
+      }
+      .mobile_button {
+        display: none;
+        @media only screen and (max-width: 1000px) {
+          display: block !important;
+        }
+
+      }
+    }
+    .button {
+      margin-top: 1rem;
+      @media only screen and (max-width: 1400px) {
+        padding-bottom: 0;
+      }
+      .social-button {
+        padding-bottom: 2rem;
+        border-bottom: 1px solid $gray;
+        width: 150px;
+        #social {
+          margin-bottom: 1rem;
+          ul {
+            display: inline-flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            li {
+              display: inline-block;
+              margin: 0 5px;
+              span {
+                display: block;
+                text-align: center;
+                svg {
+                  width: 30px;
+                }
+              }
+            }
+          }
+        }
+        .button--primary, .button-primary--alt {
+          text-align: center;
+          width: auto;
+          margin-top: 1rem;
+        }
+      }
+    }
+    .headline {
+      padding-bottom: 2rem;
+      font-size: 1.8em;
+      margin: 0;
+      font-family: $font-family;
+      font-weight: 200;
+      border-bottom: 1px solid $gray;
+      color: $brand-blue;
+      @media only screen and (max-width: 1400px) {
+        padding-bottom: 1rem;
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  #sticky-phantom {
+    height: 200px;
+  }
+  @media only screen and (max-width: 1400px) {
+    #sticky-phantom {
+      height: 210px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  body > header {
+
+  }
+}
+
+// END OF DECORATIVE STYLES FOR SCREENS OVER 1000PX
+/*********************************/
+/*********************************/
+
+/*********************************/
+/*********************************/
+//LAYOUTS FOR SCREENS UNDER 1000PX
+
+@media only screen and (max-width: 1000px) {
+  body > header {
+    position: fixed;
+    border-bottom: 1px solid $gray;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: $white;
+    z-index: 200;
+    height: 100px;
+    transition: height 0.5s ease;
+
+    figure, div, aside, nav, h1 {
+      box-sizing: border-box;
+      vertical-align: top;
+      display: inline-block;
+    }
+    #logo {
+      order: 0;
+      flex: 1 1 0;
+      align-self: auto;
+      position: relative;
+      margin: 1rem;
+      text-align: right;
+      width: 100%;
+      max-width: 100px;
+      min-width: 100px;
+
+    }
+    .headline {
+      order: 0;
+      flex: 1 1 60%;
+      align-self: auto;
+      font-family: $font-family;
+      font-size: $header-size / 2;
+      font-weight: 200;
+      padding: 0;
+      margin: 0;
+      color: $brand-blue;
+      @media only screen and (max-width: 900px) {
+        flex: 1 1 30%;
+      }
+
+    }
+    .navigation {
+      order: 1;
+      flex: 0 1 auto;
+      align-self: auto;
+      text-align: right;
+      margin: 0 10px;
+      .mobile_button {
+        display: none;
+        @media only screen and (max-width: 1000px) {
+          display: block !important;
+        }
+      }
+      .mobile-nav {
+        position: absolute;
+        right: 0;
+        top: 84px;
+        background-color: $white;
+        width: auto;
+        padding: 0 1rem 1rem 1rem;
+
+        @media only screen and (max-width: 1000px) {
+          display: none;
+        }
+        @media only screen and (min-width: 1000px) {
+          display: block !important;
+          width: auto;
+          text-align: left;
+        }
+        li {
+          list-style: none;
+        }
+      }
+      .mobile_button {
+        text-align: right;
+
+      }
+
+    }
+    .button {
+      order: 0;
+      flex: 0 1 auto;
+      align-self: auto;
+      .social-button {
+        border: none;
+        width: auto;
+        padding: 0;
+        #social {
+          align-items: start;
+          margin-bottom: 0;
+          ul {
+            display: inline-flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            li {
+              display: inline-block;
+              margin: 0 5px;
+              span {
+                display: block;
+                text-align: center;
+                svg {
+                  width: 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+      div.social {
+        width: auto;
+      }
+      div {
+        display: inline-block;
+        a.button-primary {
+          margin: 0 5px;
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          padding: 0;
+          span {
+            display: none;
+          }
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        display: none;
+      }
+    }
+  }
+  #sticky-phantom {
+    height: 100px;
+  }
+}
+
+//LAYOUTS FOR SCREENS UNDER 1000PX
+/*********************************/
+/*********************************/
+
+/*********************************/
+/*********************************/
+//ON-SCROLL STYLES
+
+.on-scroll {
+  &#mainHeader {
+    position: fixed;
+    border-bottom: 1px solid $gray;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: $white;
+    z-index: 200;
+    height: 100px;
+    transition: height 0.5s ease;
+
+    figure, div, aside, nav, h1 {
+      box-sizing: border-box;
+      vertical-align: top;
+      display: inline-block;
+    }
+    #logo {
+      order: 0;
+      flex: 1 1 0;
+      align-self: auto;
+      position: relative;
+      margin: 1rem;
+      text-align: right;
+      width: 100%;
+      max-width: 100px;
+      min-width: 100px;
+
+      a {
+        margin: 0;
+        padding: 0;
+        svg {
+          padding: 0;
+          width: 100%;
+          border: none;
+        }
+      }
+
+    }
+    .headline {
+      order: 0;
+      flex: 1 1 60%;
+      align-self: auto;
+      font-family: $font-family;
+      font-size: $header-size / 2;
+      font-weight: 200;
+      padding: 0;
+      margin: 0;
+      color: $brand-blue;
+      border: none;
+      @media only screen and (max-width: 900px) {
+        flex: 1 1 30%;
+      }
+
+    }
+    .navigation {
+      order: 1;
+      flex: 0 1 auto;
+      align-self: auto;
+      text-align: right;
+      margin: 0 10px;
+      padding-bottom: 0;
+      .mobile_button {
+        display: none;
+        @media only screen and (max-width: 1400px) {
+          display: block !important;
+
+        }
+      }
+      .mobile-nav {
+        display: none;
+      }
+      .mobile_button {
+        text-align: right;
+      }
+      @media only screen and (max-width: 1400px) {
+        .mobile-nav {
+          position: absolute;
+          right: 0;
+          top: 84px;
+          background-color: $white;
+          width: auto;
+          padding: 0 1rem 1rem 1rem;
+        }
+      }
+
+    }
+    .button {
+      order: 0;
+      flex: 0 1 auto;
+      align-self: auto;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      .social-button {
+        border: none;
+        padding: 0;
+        width: 180px;
+      }
+      #social {
+        align-items: start;
+        margin-bottom: 0;
+        ul {
+          display: inline-flex;
+          justify-content: flex-start;
+          flex-direction: row;
+          align-items: center;
+          width: 100%;
+          margin: 0;
+          li {
+            display: inline-block;
+            margin: 0 5px;
+            span {
+              display: block;
+              text-align: center;
+              svg {
+                width: 30px;
+              }
+            }
+          }
+        }
+      }
+      div.social {
+        width: auto;
+      }
+      div {
+        display: inline-block;
+        a.button-primary {
+          margin: 0 5px;
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          padding: 0;
+          span {
+            display: none;
+          }
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        display: none;
+      }
+    }
+  }
+  #sticky-phantom {
+    height: 100px;
+  }
+}
+
+//END ON-SCROLL STYLES
+/*********************************/
+/*********************************/

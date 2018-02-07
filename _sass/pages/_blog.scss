@@ -1,0 +1,27 @@
+// News Entry
+//
+// A single news entry, displayed as a list
+//
+// Weight: 1
+//
+// Markup:
+// <article class="news-article">
+//    <span class="post-meta">Post Date</span>
+//    <a class="post-link" href="">Post Title</a>
+// </article>
+//
+// Styleguide components.news-entry
+
+#blog-page {
+  article{
+    &.post-list{
+      &:nth-child(1){}
+      &:nth-child(2){
+        margin-top:2rem;
+      }
+      &:nth-child(3){
+        margin-top:2rem;
+      }
+    }
+  }
+}

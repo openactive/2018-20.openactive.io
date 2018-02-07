@@ -1,0 +1,195 @@
+footer {
+  article {
+    grid-row-gap: 0;
+    &:nth-child(1){
+      .left-border{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        div{
+          border-top: 1px solid $gray;
+        }
+      }
+      .wrapper{
+        grid-column-start: 2;
+        grid-column-end: 11;
+        .intro {
+          width:100%;
+          padding-top: 2rem;
+          margin-bottom: 1rem;
+          border-top: 1px solid $gray;
+          display: inline-flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          h4 {
+            margin: 0;
+          }
+          a, h4 {
+            display: inline-block;
+          }
+        }
+        .members {
+          width:100%;
+          figure {
+            margin: 0;
+          }
+          .subgrid {
+            .six-members {
+              &:nth-child(6n+1) {
+                grid-column: col / span 2;
+              }
+              &:nth-child(6n+2) {
+                grid-column: col 3 / span 2;
+              }
+              &:nth-child(6n+3) {
+                grid-column: col 5 / span 2;
+              }
+              &:nth-child(6n+4) {
+                grid-column: col 7/ span 2;
+              }
+              &:nth-child(6n+5) {
+                grid-column: col 9/ span 2;
+              }
+              &:nth-child(6n+6) {
+                grid-column: col 11/ span 2;
+              }
+            }
+          }
+        }
+      }
+
+      .right-border{
+        padding-top: 2rem;
+        grid-column-start: 14;
+        grid-column-end: 14;
+        border-top: 1px solid $gray;
+        .supporters{
+          &:nth-child(1){
+            margin-bottom: 1rem;
+            img{
+              max-width: 90px;
+              margin-bottom: 1rem;
+              display: inline-block;
+            }
+          }
+          &:nth-child(2){
+            img{
+              max-width: 150px;
+              margin-bottom: 1rem;
+              display: inline-block;
+            }
+          }
+        }
+      }
+
+      @media only screen and (max-width: 1200px) {
+        .left-border{
+          display: none;
+        }
+        .right-border{
+          margin-top: 2rem;
+          grid-column-start: 2;
+          grid-column-end: 14;
+          display: inline-flex;
+          align-items: center;
+          justify-content: space-between;
+          .supporters{
+            display: inline-flex;
+            &:nth-child(1){
+              margin-right: 2rem;
+              img{
+                max-width: 150px;
+              }
+            }
+            &:nth-child(2){
+              img{
+                max-width: 150px;
+              }
+            }
+          }
+        }
+      }
+      @media only screen and (max-width: 800px) {
+        .wrapper {
+          display: none;
+        }
+        nav {
+          grid-column-start: 2;
+          grid-column-end: 14;
+        }
+        .right-border{
+          .supporters{
+            &:nth-child(1){
+              img{
+                max-width: 100px;
+              }
+            }
+            &:nth-child(2){
+              img{
+                max-width: 100px;
+              }
+            }
+          }
+        }
+      }
+      nav {
+        padding-top: 2rem;
+        border-top: 1px solid $gray;
+        grid-column-start: 11;
+        grid-column-end: 14;
+        grid-row: 1 /span 2;
+
+        ul.nav-style {
+          margin: 0 0 1rem 0;
+        }
+        @media only screen and (max-width: 800px) {
+          grid-column-start: 2;
+          grid-column-end: 14;
+          ul.nav-style {
+            display: grid;
+            padding-left: 0;
+            margin-left: 0;
+            li {
+              padding-left: 0;
+              margin-left: 0;
+              &:nth-child(4n+1) {
+                grid-column-start: 1;
+                grid-column-end: 4;
+              }
+              &:nth-child(4n+2) {
+                grid-column-start: 4;
+                grid-column-end: 7;
+              }
+              &:nth-child(4n+3) {
+                grid-column-start: 7;
+                grid-column-end: 10;
+              }
+              &:nth-child(4n+4) {
+                grid-column-start: 10;
+                grid-column-end: 14;
+              }
+            }
+            li:before {
+              content: ''
+            }
+          }
+        }
+        @media only screen and (max-width: 600px) {
+          ul.nav-style {
+            display: grid;
+            li {
+              border-left:1px solid $gray;
+              padding-left: 1rem;
+              margin-left: 0;
+              &:nth-child(2n+1) {
+                grid-column: col / span 6;
+              }
+              &:nth-child(2n+2) {
+                grid-column: col 7 / span 6;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

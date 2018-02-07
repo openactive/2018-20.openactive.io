@@ -1,0 +1,60 @@
+<footer>
+    <article>
+        <div class="left-border">
+            <div></div>
+        </div>
+
+        <div class="wrapper">
+            <div class="intro">
+                <h4>Some of our members</h4>&nbsp;<a class="link" href="{{ site.baseurl }}{% link members-page.md %}">All
+                Members</a>
+            </div>
+            <div class="members">
+                <div class="subgrid">
+                    {% assign posts = site.members | sample:10 %}
+                    {% for post in posts %}
+                    {% if post.is_featured %}
+                    <div class="six-members" id="member-{{ forloop.index }}">
+                        <figure role="group">
+                            <a href="{{ post.url | relative_url }}">
+                                <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}">
+                                <span class="hidden" aria-hidden="true">{{ post.title | escape }}</span>
+                            </a>
+                        </figure>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="nav-style" role="menubar">
+                {% assign navigation_pages = site.html_pages | sort: 'position' %}
+                {% for p in navigation_pages %}
+                {% if p.is_secondary_navigation %}
+                {% if p.position %}
+                <li>
+                    <a role="menuitem" {% if p.url== page.url %}class="active" {% endif %}
+                       href="{{ p.url | relative_url }}" aria-label="Go to Page {{ p.title }}">{{ p.title }}</a>
+                </li>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+                <li><a href="{{" styleguide/index.html" |relative_url}}">StyleGuide</a></li>
+            </ul>
+            {% include social.html %}
+        </nav>
+        <div class="right-border">
+            <div class="supporters">
+                <a href="https://www.sportengland.org/" target="_blank" rel="noopener"><img src="{{ site.baseurl }}/assets/images/basic-72-K-80px.svg"/></a>
+            </div>
+            <div class="supporters">
+                <a href="https://theodi.org/" target="_blank" rel="noopener" ><img src="{{ site.baseurl }}/assets/images/sport_england.svg"/></a>
+            </div>
+        </div>
+        </div>
+    </article>
+</footer>
+
+

@@ -21,9 +21,6 @@ collections:
   mentors:
     title: Mentors
     output: true
-  partners:
-    title: Partners
-    output: true
   posts:
     title: Posts
     output: true
@@ -46,7 +43,6 @@ defaults:
     layout: post
     is_featured: false
     thumbnail_image: ''
-    categories: About OpenActive
 - scope:
     path: ''
     type: case_studies

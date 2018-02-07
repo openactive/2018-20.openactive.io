@@ -1,0 +1,12 @@
+- name: Our Mission
+  url: "/our-mission/"
+- name: How it Works
+  url: "/how-it-works/"
+- name: Getting Started
+  url: "/getting-started/"
+- name: Developer
+  url: "/developer/"
+- name: Community
+  url: "/community/"
+- name: Blog
+  url: "/blog/"

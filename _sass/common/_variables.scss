@@ -1,0 +1,705 @@
+//@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700');
+
+// Primary Colors
+//
+// Weight: 1
+//
+// The primary colors used in the logo.
+//
+//$brand-one  -  #69c5e3;
+//$brand-two  -  #1ba5d8;
+//$brand-three -  #0d65a0;
+//$brand-four  -  #263d75;
+//$brand-five  -  #33377c;
+//$brand-six -     #7f307a;
+//$brand-seven -   #904d8c;
+//$brand-eight -   #d12d81;
+//$brand-nine -    #a92633;
+//$brand-ten -     #db4640;
+//$brand-eleven - #ec9e52;
+//
+// Styleguide colours.brand
+
+// Colors
+$brand-one: #69c5e3;
+$brand-two: #1ba5d8;
+$brand-three: #0d65a0;
+$brand-four: #263d75;
+$brand-five: #33377c;
+$brand-six: #7f307a;
+$brand-seven: #904d8c;
+$brand-eight: #d12d81;
+$brand-nine: #a92633;
+$brand-ten: #db4640;
+$brand-eleven: #ec9e52;
+
+// Logo Colors
+//
+// Weight: 2
+//
+// The primary colors used in the logo.
+//
+//$logo-one - #74cbf3;
+//$logo-two - #009ee3;
+//$logo-three - #0067b1;
+//$logo-four - #433d90;
+//$logo-five - #931e80;
+//$logo-six - #e11482;
+//$logo-seven - #e63b2e;
+//$logo-eight - #f6a635;
+//
+// Styleguide colours.logo
+
+$logo-one: #74cbf3;
+$logo-two: #009ee3;
+$logo-three: #0067b1;
+$logo-four: #433d90;
+$logo-five: #931e80;
+$logo-six: #e11482;
+$logo-seven: #e63b2e;
+$logo-eight: #f6a635;
+
+
+$brand-red: #B20037;
+$brand-blue: #253882;
+
+// Base Colors
+//
+// Weight: 2
+//
+// Base primary colors for branding.
+//
+// $paragraph-color - #505050;
+// $heading-color - #000000;
+// $white -  #ffffff;
+// $black - #2b2b2b;
+// $blockquote-color - #505050;
+// $link-color - #4eaff6;
+//
+// Styleguide colours.base
+
+$white: #ffffff;
+$gray: #ccc;
+$darkgray: #777f88;
+$black: #2b2b2b;
+
+// Global Colors
+//
+// Weight: 3
+//
+// Colours for general Routes
+//
+// $share - #ec9e52;
+//
+// Styleguide colours.sharing
+
+$global: $brand-blue;
+$globalTwo: $brand-six;
+$globalThree: $brand-three;
+$globalFour: $brand-one;
+$globalFive: $brand-five;
+.global {
+  background-color: $global;
+  &.call_to_action--full-width {
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $globalThree;
+    }
+    figure {
+      background-color: $globalThree;
+    }
+  }
+  &.gradient {
+    background: $globalFour; /* Old browsers */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $globalFour 16%, $globalFive 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $globalFour 16%, $globalFive 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $globalFour 16%, $globalFive 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#69c5e3', endColorstr='#33377c', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    * {
+      color: $white;
+    }
+  }
+}
+.global-template {
+  .hero--sub {
+    h1 {
+      color: $global;
+    }
+    figure {
+      background-color: $globalTwo;
+    }
+  }
+  .sub-heading-two {
+    color: $global;
+  }
+  .call_to_action--full-width {
+    background-color: $global;
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $globalThree;
+    }
+    figure {
+      background-color: $globalThree;
+    }
+  }
+}
+
+// Use Colors
+//
+// Weight: 4
+//
+// Colours for Using user routes
+//
+// $use - #7f307a;
+//
+// Styleguide colours.use
+
+$using: #054b78;
+$usingTwo: #40489e;
+$usingThree: #922a8f;
+$usingFour: #9f509f;
+$usingFive: #e61990;
+article.use, div.use {
+  background-color: $using;
+  &.call_to_action--full-width {
+    background-color: $using;
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $usingFive;
+    }
+    figure {
+      background-color: $usingThree;
+    }
+  }
+  &.gradient {
+    background: $using; /* Old browsers */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $usingFive 16%, $usingThree 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $usingFive 16%, $usingThree 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $usingFive 16%, $usingThree 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e61990', endColorstr='#922a8f', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    * {
+      color: $white;
+    }
+  }
+  .button-primary {
+    background-color: $usingFive;
+  }
+}
+
+.use-template {
+  .hero--sub {
+    h1 {
+      color: $usingFive;
+    }
+    figure {
+      background-color: $usingThree;
+    }
+  }
+  .sub-heading-two {
+    color: $usingThree;
+  }
+}
+
+// Publish Colors
+//
+// Weight: 5
+//
+// Colours for sharing user routes
+//
+//
+// Styleguide colours.general
+
+$publish: #5bccf5;
+$publishTwo: #00abcb;
+$publishThree: #006fb9;
+$publishFour: #054b78;
+$publishFive: #40489e;
+article.publish, div.publish {
+  background-color: $publish;
+  &.call_to_action--full-width {
+    background-color: $publish;
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $publishTwo;
+    }
+    figure {
+      background-color: $publishThree;
+    }
+  }
+  &.gradient {
+    background: $using; /* Old browsers */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $publishTwo 16%, $publishThree 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $publishTwo 16%, $publishThree 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $publishTwo 16%, $publishThree 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bccf5', endColorstr='#006fb9', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    * {
+      color: $white;
+    }
+  }
+  .button-primary {
+    background-color: $publishTwo;
+  }
+}
+
+.publish-template {
+  .hero--sub {
+    h1 {
+      color: $publish;
+    }
+    figure {
+      background-color: $publishThree;
+    }
+  }
+  .sub-heading-two {
+    color: $publishThree;
+  }
+}
+
+// Start Up Colors
+//
+// Weight: 5
+//
+// Colours for start up routes
+//
+//
+// Styleguide colours.general
+
+$startUp: #9f509f;
+$startUpTwo: #e61990;
+$startUpThree: #bf1e2e;
+$startUpFour: #ef4939;
+$startUpFive: #faa742;
+article.startup, div.startup {
+  background-color: $startUpFour;
+  &.call_to_action--full-width {
+    background-color: $startUpFour;
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $startUpFive;
+    }
+    figure {
+      background-color: $startUpThree;
+    }
+  }
+  &.gradient {
+    background: $startUpFour; /* Old browsers */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $startUpFour 16%, $startUpFive 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $startUpFour 16%, $startUpFive 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $startUpFour 16%, $startUpFive 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef4939', endColorstr='#faa742', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    * {
+      color: $white;
+    }
+  }
+}
+
+.startup-template {
+  .hero--sub {
+    h1 {
+      color: $startUpFour;
+    }
+    figure {
+      background-color: $startUpThree;
+    }
+  }
+  .hero--montage{
+    h1 {
+      color: $startUpFour;
+    }
+    figure:not(.sub-menu) {
+      background-color: $startUpThree;
+    }
+  }
+  .sub-heading-two {
+    color: $startUpFour;
+  }
+  .call_to_action--full-width {
+    background-color: $startUpFour;
+    .sub-heading-two {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $startUpFive;
+    }
+    figure {
+      background-color: $startUpThree;
+    }
+  }
+}
+
+/*------------------------------------*\
+    # Simple Typography Settings
+\*------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800,400|Source+Sans+Pro:300,400,700&subset=latin-ext');
+
+// Font Family
+$font-family: 'Source+Sans+Pro', sans-serif;
+$heading-font-family: 'Montserrat', sans-serif;
+
+// Base Font for HTML
+$base-font-size: 16px;
+
+// Paragraph Styles
+$paragraph-color: #5A5A5A;
+$paragraph-size: rem(17px);
+$paragraph-line-height: 1.5;
+$paragraph-margin: 1.3rem;
+
+// Header Styles
+$header-color: #5A5A5A;
+$header-size: rem(45px);
+$header-line-height: 1.8rem;
+$header-margin: $paragraph-margin * 1.2;
+
+// Blockquote Styles
+$blockquote-color: #5A5A5A;
+$blockquote-size: rem(18px);
+$blockquote-line-height: 1.6;
+$blockquote-margin: $paragraph-margin * 1.5;
+
+// Links
+$link-color: #4eaff6;
+//Nav Links
+$nav-color: $brand-blue;
+
+// hr
+$hr-margin: 30px;
+
+// Type Misc
+$font-weight-bold: 800;
+$border-color: #DADADA;
+
+.svg {
+  &.twitter {
+    fill: $brand-blue;
+  }
+  &.youtube {
+    fill: $brand-blue;
+  }
+  &.medium {
+    fill: $brand-blue;
+  }
+}
+
+//UTILITY CLASSES
+//BRAND BACKGROUND COLOUR
+.brand-one-bc {
+  background-color: $brand-one;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-eleven;
+    }
+  }
+}
+
+.brand-two-bc {
+  background-color: $brand-two;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-ten;
+    }
+  }
+}
+
+.brand-three-bc {
+  background-color: $brand-three;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-nine;
+    }
+  }
+}
+
+.brand-four-bc {
+  background-color: $brand-four;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-eight;
+    }
+  }
+}
+
+.brand-five-bc {
+  background-color: $brand-five;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-ten;
+    }
+  }
+}
+
+.brand-six-bc {
+  background-color: $brand-six;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-six;
+    }
+  }
+}
+
+.brand-seven-bc {
+  background-color: $brand-seven;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-five;
+    }
+  }
+}
+
+.brand-eight-bc {
+  background-color: $brand-eight;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-four;
+    }
+  }
+}
+
+.brand-nine-bc {
+  background-color: $brand-nine;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-three;
+    }
+  }
+}
+
+.brand-ten-bc {
+  background-color: $brand-ten;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-two;
+    }
+  }
+}
+
+.brand-eleven-bc {
+  background-color: $brand-eleven;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-one;
+    }
+  }
+}
+
+.brand-red-bc {
+  background-color: $brand-red;
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-one;
+    }
+  }
+  * {
+    color: $white;
+  }
+}
+
+.brand-blue-bc {
+  background-color: $brand-blue;
+  * {
+    color: $white;
+  }
+  &.call_to_action--full-width {
+    a.button-primary {
+      background-color: $brand-two;
+    }
+  }
+}
+
+//BRAND BORDER COLOUR
+.brand-one-b {
+  border-color: $brand-one;
+  &.four {
+    a:link, a:visited {
+      color: $brand-one;
+    }
+  }
+}
+
+.brand-two-b {
+  border-color: $brand-two;
+  &.four {
+    a:link, a:visited {
+      color: $brand-two;
+    }
+  }
+}
+
+.brand-three-b {
+  border-color: $brand-three;
+  &.four {
+    a:link, a:visited {
+      color: $brand-three;
+    }
+  }
+}
+
+.brand-four-b {
+  border-color: $brand-four;
+  &.four {
+    a:link, a:visited {
+      color: $brand-four;
+    }
+  }
+}
+
+.brand-five-b {
+  border-color: $brand-five;
+  &.four {
+    a:link, a:visited {
+      color: $brand-five;
+    }
+  }
+}
+
+.brand-six-b {
+  border-color: $brand-six;
+  &.four {
+    a:link, a:visited {
+      color: $brand-six;
+    }
+  }
+}
+
+.brand-seven-b {
+  border-color: $brand-seven;
+  &.four {
+    a:link, a:visited {
+      color: $brand-seven;
+    }
+  }
+}
+
+.brand-eight-b {
+  border-color: $brand-eight;
+  &.four {
+    a:link, a:visited {
+      color: $brand-eight;
+    }
+  }
+}
+
+.brand-nine-b {
+  border-color: $brand-nine;
+  &.four {
+    a:link, a:visited {
+      color: $brand-nine;
+    }
+  }
+}
+
+.brand-ten-b {
+  border-color: $brand-ten;
+  &.four {
+    a:link, a:visited {
+      color: $brand-ten;
+    }
+  }
+}
+
+.brand-eleven-b {
+  border-color: $brand-eleven;
+  &.four {
+    a:link, a:visited {
+      color: $brand-eleven;
+    }
+  }
+}
+
+.brand-red-b {
+  border-color: $brand-red;
+  &.four {
+    a:link, a:visited {
+      color: $brand-red;
+    }
+  }
+}
+
+.brand-blue-b {
+  border-color: $brand-blue;
+  &.four {
+    a:link, a:visited {
+      color: $brand-blue;
+    }
+  }
+}
+
+//GRADIENTS
+.blue-gradient-bc {
+  background: #00c0f8; /* Old browsers */
+  background: -moz-radial-gradient(ellipse at 50% 20%, #00c0f8 16%, #1e5799 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(ellipse at 50% 20%, #00c0f8 16%, #1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at 50% 20%, #00c0f8 16%, #1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c0f8', endColorstr='#1e5799', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+  * {
+    color: $white;
+  }
+}
+
+.purple-gradient-bc {
+  background: #d243b4; /* Old browsers */
+  background: -moz-radial-gradient(ellipse at 50% 20%, #d243b4 16%, #331681 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(ellipse at 50% 20%, #d243b4 16%, #331681 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at 50% 20%, #d243b4 16%, #331681 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d243b4', endColorstr='#331681', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+  * {
+    color: $white;
+  }
+}
+
+.red-gradient-bc {
+  background: #db4640; /* Old browsers */
+  background: -moz-radial-gradient(ellipse at 50% 20%, #db4640 16%, #a92633 65%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(ellipse at 50% 20%, #db4640 16%, #a92633 65%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at 50% 20%, #db4640 16%, #a92633 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#db4640', endColorstr='#a92633', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+  * {
+    color: $white;
+  }
+}
+
+

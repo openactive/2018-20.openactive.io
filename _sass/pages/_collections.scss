@@ -1,0 +1,49 @@
+//.collection {
+//  .page-content {
+//    grid-column-start: 2;
+//    grid-column-end: 10;
+//    grid-row: 1/2;
+//    .page-header {
+//      .page-title {
+//      }
+//    }
+//  }
+//  .news-content {
+//    grid-column-start: 2;
+//    grid-column-end: 10;
+//    margin-bottom: 10px;
+//    grid-row: 2/2;
+//    .post-title{
+//      text-transform: capitalize;
+//    }
+//    .post-meta{}
+//    .post-snippet{}
+//  }
+//  aside {
+//    border-left:1px solid #DADADA;
+//    padding-left:2em;
+//    grid-column-start: 10;
+//    grid-column-end: 14;
+//    grid-row: 1/ span 2;
+//    //grid-row: 1 / last-line;
+//    //grid-row-start: span 9000;
+//
+//    .post-list {
+//    }
+//  }
+//}
+//
+//// POST DETAIL
+//#post {
+//  header {
+//    grid-column: col / span 12;
+//  }
+//  div {
+//    grid-column: col / span 12;
+//  }
+//}
+#faqs.collection{
+  .news-content{
+    margin-bottom: 4rem;
+  }
+}

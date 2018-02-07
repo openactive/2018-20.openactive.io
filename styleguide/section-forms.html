@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Open Active Pattern Library</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="generator" content="kss-node">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,300">
+    <link rel="stylesheet" href="kss-assets/vendor/prism.css">
+    <link rel="stylesheet" href="kss-assets/css/kss.css">
+    <link rel="stylesheet" href="../assets/main.css">
+
+  </head>
+
+  <body class="kss-body">
+
+    <!-- header. -->
+    <header class="kss-header">
+      <section class="kss-header__inner">
+        <a class="kss-header__hamburger-trigger">
+          <div class="kss-header__hamburger"></div>
+        </a>
+        <h1 class="kss-header__title kss-title">Open Active Pattern Library</h1>
+      </section>
+    </header>
+    <!-- /header. -->
+
+
+    <!-- navigation. -->
+    <section class="kss-navigation">
+      <h1 class="kss-navigation__title kss-title">Open Active Pattern Library</h1>
+      <ul class="kss-nav">
+        <li class="kss-nav__item">
+          <a href="index.html">
+            <span class="kss-nav__ref">0</span>
+            <span class="kss-nav__name">Introduction</span>
+          </a>
+        </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-typography.html">
+              <span class="kss-nav__ref">1</span>
+              <span class="kss-nav__name">Typography</span>
+            </a>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-colours.html">
+              <span class="kss-nav__ref">2</span>
+              <span class="kss-nav__name">Colours</span>
+            </a>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-buttons.html">
+              <span class="kss-nav__ref">3</span>
+              <span class="kss-nav__name">Buttons</span>
+            </a>
+          </li>
+          <li class="kss-nav__item">
+            <a class="kss-state-active" href="section-forms.html">
+              <span class="kss-nav__ref">4</span>
+              <span class="kss-nav__name">Forms</span>
+            </a>
+                <ul class="kss-nav__subnav">
+                    <li class="kss-nav__item ">
+                      <a href="section-forms.html#kssref-forms-input">
+                        <span class="kss-nav__ref">4.1</span>
+                        <span class="kss-nav__name">Form Example</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-forms.html#kssref-forms-input-text">
+                        <span class="kss-nav__ref">4.1.1</span>
+                        <span class="kss-nav__name">Text Input</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-forms.html#kssref-forms-input-password">
+                        <span class="kss-nav__ref">4.1.2</span>
+                        <span class="kss-nav__name">Password Input</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-forms.html#kssref-forms-input-text-area">
+                        <span class="kss-nav__ref">4.1.3</span>
+                        <span class="kss-nav__name">Text Area</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-forms.html#kssref-forms-input-radio-button">
+                        <span class="kss-nav__ref">4.1.4</span>
+                        <span class="kss-nav__name">Radio Button</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-forms.html#kssref-forms-input-checkbox">
+                        <span class="kss-nav__ref">4.1.5</span>
+                        <span class="kss-nav__name">Checkbox</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-forms.html#kssref-forms-input-select">
+                        <span class="kss-nav__ref">4.1.6</span>
+                        <span class="kss-nav__name">Select</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-forms.html#kssref-forms-input-data-input">
+                        <span class="kss-nav__ref">4.1.7</span>
+                        <span class="kss-nav__name">Data List</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-forms.html#kssref-forms-input-group-select">
+                        <span class="kss-nav__ref">4.1.8</span>
+                        <span class="kss-nav__name">Group Select</span>
+                      </a>
+                    </li>
+                    <li class="kss-nav__item kss-nav__item--grandchild">
+                      <a href="section-forms.html#kssref-forms-input-slider">
+                        <span class="kss-nav__ref">4.1.9</span>
+                        <span class="kss-nav__name">Slider</span>
+                      </a>
+                    </li>
+                </ul>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-components.html">
+              <span class="kss-nav__ref">5</span>
+              <span class="kss-nav__name">Components</span>
+            </a>
+          </li>
+      </ul>
+    </section>
+    <!-- /navigation. -->
+
+
+    <!-- documentation. -->
+    <section class="kss-documentation">
+
+        <!--
+          display each section, in order.
+          the "root" element comes first in this loop, and can be detected using
+          the "#if @first" block as seen below.
+        -->
+            <header class="kss-section kss-section--depth-1" id="kssref-forms">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>main.scss</span>, line <span>25</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms">
+                <h1 class="kss-section__item kss-section__item--depth-1">
+                  <span class="kss-section__ref">4</span>
+                  <span class="kss-section__name">Forms</span>
+                </h1>
+              </a>
+
+
+            </article>
+
+
+            </header>
+            <section class="kss-section kss-section--depth-2" id="kssref-forms-input">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>1</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms-input">
+                <h2 class="kss-section__item kss-section__item--depth-2">
+                  <span class="kss-section__ref">4.1</span>
+                  <span class="kss-section__name">Form Example</span>
+                </h2>
+              </a>
+
+                <div class="kss-section__description"><p>The <code>&lt;form&gt;</code>  tag is used to create an HTML form for user input.</p>
+<p>The <code>&lt;form&gt;</code>  element can contain one or more of the following form elements:</p>
+<p><code>&lt;input&gt;</code> , <code>&lt;textarea&gt;</code> , <code>&lt;button&gt;</code> , <code>&lt;select&gt;</code> , <code>&lt;option&gt;</code> , <code>&lt;optgroup&gt;</code> , <code>&lt;fieldset&gt;</code> , <code>&lt;label&gt;</code></p>
+</div>
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><ul id="errors" class="">
+   <li id="info">There were some problems with your form submission:</li>
+</ul>
+<p id="success">Thanks for your message! We will get back to you ASAP!</p>
+<form method="post" action="process.php">
+ <fieldset>
+   <legend>Example Form</legend>
+   <label for="name">Name: <span class="required">*</span></label>
+   <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" autofocus="autofocus"/>
+   <label for="email">Email Address: <span class="required">*</span></label>
+   <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required"/>
+   <label for="telephone">Telephone: </label>
+   <input type="tel" id="telephone" name="telephone" value=""/>
+   <label for="enquiry">Enquiry: </label>
+   <select id="enquiry" name="enquiry">
+     <option value="general">General</option>
+     <option value="sales">Sales</option>
+     <option value="support">Support</option>
+   </select>
+   <label for="message">Message: <span class="required">*</span></label>
+   <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
+   <span id="loading"></span>
+   <input type="submit" value="Holla!" class="primary_cta"/>
+   <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+ </fieldset>
+</form></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;ul id&#x3D;&quot;errors&quot; class&#x3D;&quot;&quot;&gt;
+   &lt;li id&#x3D;&quot;info&quot;&gt;There were some problems with your form submission:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p id&#x3D;&quot;success&quot;&gt;Thanks for your message! We will get back to you ASAP!&lt;/p&gt;
+&lt;form method&#x3D;&quot;post&quot; action&#x3D;&quot;process.php&quot;&gt;
+ &lt;fieldset&gt;
+   &lt;legend&gt;Example Form&lt;/legend&gt;
+   &lt;label for&#x3D;&quot;name&quot;&gt;Name: &lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+   &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name&quot; name&#x3D;&quot;name&quot; value&#x3D;&quot;&quot; placeholder&#x3D;&quot;John Doe&quot; required&#x3D;&quot;required&quot; autofocus&#x3D;&quot;autofocus&quot;/&gt;
+   &lt;label for&#x3D;&quot;email&quot;&gt;Email Address: &lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+   &lt;input type&#x3D;&quot;email&quot; id&#x3D;&quot;email&quot; name&#x3D;&quot;email&quot; value&#x3D;&quot;&quot; placeholder&#x3D;&quot;johndoe@example.com&quot; required&#x3D;&quot;required&quot;/&gt;
+   &lt;label for&#x3D;&quot;telephone&quot;&gt;Telephone: &lt;/label&gt;
+   &lt;input type&#x3D;&quot;tel&quot; id&#x3D;&quot;telephone&quot; name&#x3D;&quot;telephone&quot; value&#x3D;&quot;&quot;/&gt;
+   &lt;label for&#x3D;&quot;enquiry&quot;&gt;Enquiry: &lt;/label&gt;
+   &lt;select id&#x3D;&quot;enquiry&quot; name&#x3D;&quot;enquiry&quot;&gt;
+     &lt;option value&#x3D;&quot;general&quot;&gt;General&lt;/option&gt;
+     &lt;option value&#x3D;&quot;sales&quot;&gt;Sales&lt;/option&gt;
+     &lt;option value&#x3D;&quot;support&quot;&gt;Support&lt;/option&gt;
+   &lt;/select&gt;
+   &lt;label for&#x3D;&quot;message&quot;&gt;Message: &lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+   &lt;textarea id&#x3D;&quot;message&quot; name&#x3D;&quot;message&quot; placeholder&#x3D;&quot;Your message must be greater than 20 charcters&quot; required&#x3D;&quot;required&quot; data-minlength&#x3D;&quot;20&quot;&gt;&lt;/textarea&gt;
+   &lt;span id&#x3D;&quot;loading&quot;&gt;&lt;/span&gt;
+   &lt;input type&#x3D;&quot;submit&quot; value&#x3D;&quot;Holla!&quot; class&#x3D;&quot;primary_cta&quot;/&gt;
+   &lt;p id&#x3D;&quot;req-field-desc&quot;&gt;&lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt; indicates a required field&lt;/p&gt;
+ &lt;/fieldset&gt;
+&lt;/form&gt;</code></pre>
+                </article>
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-forms-input-text">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>42</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms-input-text">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.1</span>
+                  <span class="kss-section__name">Text Input</span>
+                </h3>
+              </a>
+
+                <div class="kss-section__description"><p>The Input Text object represents an HTML <code>&lt;input&gt;</code>  element with type=&quot;text&quot;.</p>
+</div>
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><label for="text">Text: </label>
+<input type="text" id="text" name="text" value=""/></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;label for&#x3D;&quot;text&quot;&gt;Text: &lt;/label&gt;
+&lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; value&#x3D;&quot;&quot;/&gt;</code></pre>
+                </article>
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-forms-input-password">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>55</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms-input-password">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.2</span>
+                  <span class="kss-section__name">Password Input</span>
+                </h3>
+              </a>
+
+                <div class="kss-section__description"><p>The Password object represents an HTML <code>&lt;input&gt;</code>  element with type=&quot;password&quot;.</p>
+</div>
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example">   <label for="password">Password</label>
+   <input type="password" placeholder="Password"></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">   &lt;label for&#x3D;&quot;password&quot;&gt;Password&lt;/label&gt;
+   &lt;input type&#x3D;&quot;password&quot; placeholder&#x3D;&quot;Password&quot;&gt;</code></pre>
+                </article>
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-forms-input-text-area">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>67</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms-input-text-area">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.3</span>
+                  <span class="kss-section__name">Text Area</span>
+                </h3>
+              </a>
+
+                <div class="kss-section__description"><p>The <code>&lt;textarea&gt;</code>  tag defines a multi-line text input control.</p>
+<p>A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).</p>
+</div>
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><label for="message">Message: <span class="required">*</span></label>
+<textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters"required="required" data-minlength="20"></textarea></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;label for&#x3D;&quot;message&quot;&gt;Message: &lt;span class&#x3D;&quot;required&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+&lt;textarea id&#x3D;&quot;message&quot; name&#x3D;&quot;message&quot; placeholder&#x3D;&quot;Your message must be greater than 20 charcters&quot;required&#x3D;&quot;required&quot; data-minlength&#x3D;&quot;20&quot;&gt;&lt;/textarea&gt;</code></pre>
+                </article>
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-forms-input-radio-button">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>81</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms-input-radio-button">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.4</span>
+                  <span class="kss-section__name">Radio Button</span>
+                </h3>
+              </a>
+
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"> <input type="radio" name="animal" value="Cat" />Cats<br />
+ <input type="radio" name="animal" value="Dog" />Dogs<br />
+ <input type="radio" name="animal" value="Bird" />Birds<br /></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup"> &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;animal&quot; value&#x3D;&quot;Cat&quot; /&gt;Cats&lt;br /&gt;
+ &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;animal&quot; value&#x3D;&quot;Dog&quot; /&gt;Dogs&lt;br /&gt;
+ &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;animal&quot; value&#x3D;&quot;Bird&quot; /&gt;Birds&lt;br /&gt;</code></pre>
+                </article>
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-forms-input-checkbox">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>92</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms-input-checkbox">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.5</span>
+                  <span class="kss-section__name">Checkbox</span>
+                </h3>
+              </a>
+
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><input type="checkbox" name="animal" value="Cat" />Cats <br />
+<input type="checkbox" name="animal" value="Dog" />Dogs<br />
+<input type="checkbox" name="animal" value="Bird" />Birds<br /></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;input type&#x3D;&quot;checkbox&quot; name&#x3D;&quot;animal&quot; value&#x3D;&quot;Cat&quot; /&gt;Cats &lt;br /&gt;
+&lt;input type&#x3D;&quot;checkbox&quot; name&#x3D;&quot;animal&quot; value&#x3D;&quot;Dog&quot; /&gt;Dogs&lt;br /&gt;
+&lt;input type&#x3D;&quot;checkbox&quot; name&#x3D;&quot;animal&quot; value&#x3D;&quot;Bird&quot; /&gt;Birds&lt;br /&gt;</code></pre>
+                </article>
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-forms-input-select">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>103</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms-input-select">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.6</span>
+                  <span class="kss-section__name">Select</span>
+                </h3>
+              </a>
+
+                <div class="kss-section__description"><p>The <code>&lt;select&gt;</code>  element is used to create a drop-down list.</p>
+<p>The <code>&lt;option&gt;</code>  tags inside the <code>&lt;select&gt;</code>  element define the available options in the list.</p>
+</div>
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><label for="enquiry">Enquiry: </label>
+   <select id="enquiry" name="enquiry">
+     <option value="general">General</option>
+     <option value="sales">Sales</option>
+     <option value="support">Support</option>
+   </select></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;label for&#x3D;&quot;enquiry&quot;&gt;Enquiry: &lt;/label&gt;
+   &lt;select id&#x3D;&quot;enquiry&quot; name&#x3D;&quot;enquiry&quot;&gt;
+     &lt;option value&#x3D;&quot;general&quot;&gt;General&lt;/option&gt;
+     &lt;option value&#x3D;&quot;sales&quot;&gt;Sales&lt;/option&gt;
+     &lt;option value&#x3D;&quot;support&quot;&gt;Support&lt;/option&gt;
+   &lt;/select&gt;</code></pre>
+                </article>
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-forms-input-data-input">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>121</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms-input-data-input">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.7</span>
+                  <span class="kss-section__name">Data List</span>
+                </h3>
+              </a>
+
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><input list="browsers">
+<datalist id="browsers">
+   <option value="Internet Explorer">
+   <option value="Firefox">
+   <option value="Chrome">
+   <option value="Opera">
+   <option value="Safari">
+</datalist></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;input list&#x3D;&quot;browsers&quot;&gt;
+&lt;datalist id&#x3D;&quot;browsers&quot;&gt;
+   &lt;option value&#x3D;&quot;Internet Explorer&quot;&gt;
+   &lt;option value&#x3D;&quot;Firefox&quot;&gt;
+   &lt;option value&#x3D;&quot;Chrome&quot;&gt;
+   &lt;option value&#x3D;&quot;Opera&quot;&gt;
+   &lt;option value&#x3D;&quot;Safari&quot;&gt;
+&lt;/datalist&gt;</code></pre>
+                </article>
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-forms-input-group-select">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>137</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms-input-group-select">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.8</span>
+                  <span class="kss-section__name">Group Select</span>
+                </h3>
+              </a>
+
+                <div class="kss-section__description"><p>The optgroup is used to group related options in a drop-down list.</p>
+</div>
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><select>
+ <optgroup label="Swedish Cars">
+   <option value="volvo">Volvo</option>
+   <option value="saab">Saab</option>
+ </optgroup>
+ <optgroup label="German Cars">
+   <option value="mercedes">Mercedes</option>
+   <option value="audi">Audi</option>
+ </optgroup>
+</select></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;select&gt;
+ &lt;optgroup label&#x3D;&quot;Swedish Cars&quot;&gt;
+   &lt;option value&#x3D;&quot;volvo&quot;&gt;Volvo&lt;/option&gt;
+   &lt;option value&#x3D;&quot;saab&quot;&gt;Saab&lt;/option&gt;
+ &lt;/optgroup&gt;
+ &lt;optgroup label&#x3D;&quot;German Cars&quot;&gt;
+   &lt;option value&#x3D;&quot;mercedes&quot;&gt;Mercedes&lt;/option&gt;
+   &lt;option value&#x3D;&quot;audi&quot;&gt;Audi&lt;/option&gt;
+ &lt;/optgroup&gt;
+&lt;/select&gt;</code></pre>
+                </article>
+
+            </section>
+            <section class="kss-section kss-section--depth-3" id="kssref-forms-input-slider">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>common/_form.scss</span>, line <span>157</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-forms-input-slider">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">4.1.9</span>
+                  <span class="kss-section__name">Slider</span>
+                </h3>
+              </a>
+
+
+            </article>
+
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Example</h1>
+
+
+                <div class="kss-modifiers__example"><form oninput="x.value=parseInt(a.value)">
+  <label for="fader">Volume</label>
+  <input type="range"
+    name="a"
+    id="fader"
+    min="1"
+    max="100"
+    value="50"
+    step="1"
+    aria-valuemin="1"
+    aria-valuemax="100"
+    aria-valuenow="50"
+    oninput="outputUpdate(value)">
+  <output name="x" for="fader" id="volume">50</output>
+</form></div>
+
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;form oninput&#x3D;&quot;x.value&#x3D;parseInt(a.value)&quot;&gt;
+  &lt;label for&#x3D;&quot;fader&quot;&gt;Volume&lt;/label&gt;
+  &lt;input type&#x3D;&quot;range&quot;
+    name&#x3D;&quot;a&quot;
+    id&#x3D;&quot;fader&quot;
+    min&#x3D;&quot;1&quot;
+    max&#x3D;&quot;100&quot;
+    value&#x3D;&quot;50&quot;
+    step&#x3D;&quot;1&quot;
+    aria-valuemin&#x3D;&quot;1&quot;
+    aria-valuemax&#x3D;&quot;100&quot;
+    aria-valuenow&#x3D;&quot;50&quot;
+    oninput&#x3D;&quot;outputUpdate(value)&quot;&gt;
+  &lt;output name&#x3D;&quot;x&quot; for&#x3D;&quot;fader&quot; id&#x3D;&quot;volume&quot;&gt;50&lt;/output&gt;
+&lt;/form&gt;</code></pre>
+                </article>
+
+            </section>
+    </section>
+    <!-- /documentation. -->
+
+
+
+  <!-- scripts. -->
+  <script src="kss-assets/vendor/jquery.js"></script>
+  <script src="kss-assets/vendor/prism.js"></script>
+  <script src="kss-assets/js/kss.js"></script>
+  
+  <!-- /scripts. -->
+
+  </body>
+</html>

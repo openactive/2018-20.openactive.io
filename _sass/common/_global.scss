@@ -1,0 +1,93 @@
+//BEM
+//.block            represents the higher level of an abstraction or component.
+//.block__element   represents a descendent of .block that helps form .block as a whole.
+//.block--modifier  represents a different state or version of .block.
+
+.block {
+}
+
+.block__element {
+}
+
+.block--modifier {
+}
+
+/*********************************/
+/*********************************/
+//GLOBAL NO GRID STYLES
+
+html.no-cssgrid {
+  body {
+    //display: inline-flex;
+    //flex-direction: column;
+    //align-items: center;
+
+  }
+  header, .constrain, .page {
+    max-width: 1400px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: auto;
+  }
+}
+//END GLOBAL NO GRID STYLES
+/*********************************/
+/*********************************/
+
+
+section {
+  align-items: start;
+
+}
+
+body {
+  img {
+    margin: 0 auto;
+  }
+}
+
+//figure{
+//  margin: 0!important;
+//}
+main {
+  margin-top: 1rem;
+
+}
+
+.large-screen-side-nav {
+  display: none;
+  grid-gap: 3rem;
+  grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
+  align-items: start;
+  position: fixed;
+  top: 100px;
+  pointer-events: none;
+  &.on-scroll {
+    display: grid;
+  }
+  nav {
+    grid-column-start: 14;
+    grid-column-end: -1;
+    pointer-events: initial;
+    background-color: white;
+    ul.nav-style {
+      margin: 0;
+      width: auto;
+      text-align: left;
+      align-items: flex-start;
+      padding: 1rem;
+      z-index: 999;
+      position: relative;
+      li {
+        list-style: none;
+
+      }
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    display: none !important;
+  }
+}
+.hidden{
+  display: none;
+}

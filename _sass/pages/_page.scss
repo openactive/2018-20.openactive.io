@@ -1,0 +1,10 @@
+@supports (display: grid) {
+
+  .page {
+    hr, article, p {
+      grid-column-start: 2;
+      grid-column-end: 14;
+    }
+
+  }
+}
