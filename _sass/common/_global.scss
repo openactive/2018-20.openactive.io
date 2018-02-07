@@ -73,7 +73,11 @@ main {
     ul.nav-style {
       margin: 0;
       width: auto;
-      padding: 0.5rem 0;
+      text-align: left;
+      align-items: flex-start;
+      padding: 1rem;
+      z-index: 999;
+      position: relative;
       li {
         list-style: none;
 
