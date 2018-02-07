@@ -10,3 +10,4 @@ _site
 .idea/openactive.iml
 .idea/workspace.xml
 node_modules/
+.DS_Store
