@@ -768,7 +768,8 @@ nav {
     width: 100%;
     color: $brand-blue;
     li {
-      margin: 0 10px;
+      margin: 0;
+      text-align:right;
       list-style: none;
       font-size: 0.9em;
       color: $brand-blue;
@@ -781,13 +782,13 @@ nav {
       counter-increment: custom;
     }
 
-    li:before {
-      content: counter(custom) " - ";
-    }
+    // li:before {
+    //   content: counter(custom) " - ";
+    // }
 
-    li:first-child {
-      counter-reset: custom;
-    }
+    // li:first-child {
+    //   counter-reset: custom;
+    // }
     li.active {
       text-decoration: underline;
       color: $brand-ten;
