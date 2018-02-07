@@ -86,7 +86,7 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 3. By publishing your data, your activities will be shared across websites and apps that attract millions of users, to communities and services that engage local people
 
 
-[Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .primary_cta}
+[Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .button-primary}
 
 </div>
 <div class="two publish gradient list">
@@ -99,7 +99,7 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 4. We encourage you to explore the data published so far, and discover what’s useful for you
 
 
-[Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .primary_cta}
+[Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .button-primary}
 
 </div>
 </div>
@@ -128,7 +128,7 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 ### For Developers
 Join the open data revolution with OpenActive and help the nation get active. 
 
-[Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
+[Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
 
 </div>
 <figure class="brand-nine-bc">
@@ -151,7 +151,7 @@ If you think your organisation would benefit from open data sharing, but the dec
 #### Convince Your Company
 Discover downloadable documents to give to your company. 
 
-[Convince Company]( {{ site.baseurl }}{% link convince-company.md %}){: .primary_cta}
+[Convince Company]( {{ site.baseurl }}{% link convince-company.md %}){: .button-primary}
 
 </div>
 <div class="three red-gradient-bc"> 
@@ -159,7 +159,7 @@ Discover downloadable documents to give to your company.
 #### Tell Your Team
 Find resources designed to explain open data to your colleagues.
 
-[Tell Team]( {{ site.baseurl }}{% link tell-team.md %}){: .primary_cta}
+[Tell Team]( {{ site.baseurl }}{% link tell-team.md %}){: .button-primary}
 
 </div>
 <div class="three blue-gradient-bc"> 
@@ -167,7 +167,7 @@ Find resources designed to explain open data to your colleagues.
 #### Contact us
 Have a question? Get in touch.
 
-[Contact]( {{ site.baseurl }}{% link contact.md %}){: .primary_cta}
+[Contact]( {{ site.baseurl }}{% link contact.md %}){: .button-primary}
 
 </div>
 </div>
