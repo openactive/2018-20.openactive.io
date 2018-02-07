@@ -1,7 +1,7 @@
 ---
 title: How does OpenActive work?
 date: 2017-07-06 06:18:00 Z
-permalink: blog/faq-two.html
+permalink: blog/how-does-openactive-work.html
 categories:
 - About OpenActive
 author: George

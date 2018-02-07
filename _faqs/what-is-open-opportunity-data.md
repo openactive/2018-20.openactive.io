@@ -1,7 +1,9 @@
 ---
 title: What is open opportunity data?
 date: 2017-07-06 06:18:00 Z
-permalink: blog/faq-six.html
+permalink: blog/what-is-open-opportunity-data.html
+categories:
+- About OpenActive Data
 author: George
 layout: faq
 ---

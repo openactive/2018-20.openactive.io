@@ -1,7 +1,7 @@
 ---
 title: Will the ODI steward OpenActive forever?
 date: 2017-07-06 06:18:00 Z
-permalink: blog/faq-four.html
+permalink: blog/will-the-ODI-steward-openactive-forever.html
 categories:
 - About OpenActive
 author: George
