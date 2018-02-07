@@ -153,6 +153,9 @@ h3 {
   color: $brand-blue;
   font-size: $header-size / 1.5;
   line-height: 2.3rem;
+  a{
+    font-weight: 800;
+  }
 }
 
 h3 + p,
