@@ -21,6 +21,9 @@ collections:
   mentors:
     title: Mentors
     output: true
+  partners:
+    title: Partners
+    output: true
   posts:
     title: Posts
     output: true
