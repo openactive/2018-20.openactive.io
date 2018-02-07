@@ -284,7 +284,7 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 </div>
 
 <figure>
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+<div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 
 </article>
