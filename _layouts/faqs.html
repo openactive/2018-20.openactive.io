@@ -7,14 +7,12 @@ layout: default
 
     <article class="news-content">
         {% assign aboutOpen = site.faqs | where: "categories", "About OpenActive" %}
-        {% for post in aboutOpen %}
         <h2 class="sub-heading-two">About OpenActive</h2>
+        {% for post in aboutOpen %}
         <div class="one">
             <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <span class="post-meta">{{post.category}}</span>
             <p class="post-snippet">{{post.content}}</p>
-            <a class="button-secondary" href="{{ post.url | relative_url }}">Read more</a>
         </div>
         {% endfor %}
     </article>
@@ -25,11 +23,8 @@ layout: default
         {% for post in aboutOpenData %}
         <div class="one">
             <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <span class="post-meta">{{post.category}}</span>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
             <p class="post-snippet">{{post.content}}</p>
-            <a class="button-secondary" href="{{ post.url | relative_url }}">Read more</a>
         </div>
         {% endfor %}
     </article>
@@ -40,11 +35,8 @@ layout: default
         {% for post in aboutAccelerator %}
         <div class="one">
             <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <span class="post-meta">{{post.category}}</span>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
             <p class="post-snippet">{{post.content}}</p>
-            <a class="button-secondary" href="{{ post.url | relative_url }}">Read more</a>
         </div>
         {% endfor %}
     </article>
@@ -55,11 +47,8 @@ layout: default
         {% for post in openActiveCommunity %}
         <div class="one">
             <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <span class="post-meta">{{post.category}}</span>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
             <p class="post-snippet">{{post.content}}</p>
-            <a class="button-secondary" href="{{ post.url | relative_url }}">Read more</a>
         </div>
         {% endfor %}
     </article>
@@ -70,11 +59,8 @@ layout: default
         {% for post in usingOpportunityData %}
         <div class="one">
             <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <span class="post-meta">{{post.category}}</span>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
             <p class="post-snippet">{{post.content}}</p>
-            <a class="button-secondary" href="{{ post.url | relative_url }}">Read more</a>
         </div>
         {% endfor %}
     </article>
@@ -85,11 +71,8 @@ layout: default
         {% for post in publishOpportunityData %}
         <div class="one">
             <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             <span class="post-meta">{{post.category}}</span>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
             <p class="post-snippet">{{post.content}}</p>
-            <a class="button-secondary" href="{{ post.url | relative_url }}">Read more</a>
         </div>
         {% endfor %}
     </article>
