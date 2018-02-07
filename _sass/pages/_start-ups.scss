@@ -58,8 +58,18 @@
   #mentors {
 
     .four {
-      .svg.twitter , .svg.linkedin {
-        width:30px;
+      .svg.twitter  {
+        width: 30px;
+        fill: $brand-one;
+      }
+
+      .svg.linkedin {
+        width: 25px;
+        fill: $brand-one;
+      }
+
+      figcaption {
+        font-size: 1rem;
       }
     }
 
