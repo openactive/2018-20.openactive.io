@@ -3,7 +3,7 @@ title: What is OpenActive?
 date: 2017-07-06 06:18:00 Z
 permalink: blog/faq-three.html
 categories:
-- About OpenActive Data
+- About OpenActive
 author: George
 layout: faq
 ---
