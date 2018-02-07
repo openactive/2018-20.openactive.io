@@ -2,45 +2,51 @@
 layout: default
 ---
 
-<div class="collection" id="faqs">
-    <article class="page-content">
-        <header class="page-header">
-            <h1 class="page-title">{{ page.title | escape }}</h1>
-        </header>
-        {{ content }}
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    </article>
+<div class="collection page" id="faqs">
+
+
     <article class="news-content">
-        <h3>Latest FAQ</h3>
-        {% for post in site.faqs limit:1 %}
-
-        <a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <p class="post-snippet">{{post.content}}</p>
-        <a href="{{ post.url | relative_url }}">Read more</a>
-
+        {% assign aboutOpen = site.faqs | where: "category", "About OpenActive" %}
+        {% for post in aboutOpen %}
+        <h2 class="sub-heading-two">{{post.category}}</h2>
+        <div class="one">
+            <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <p class="post-snippet">{{post.content}}</p>
+            <a class="button-secondary" href="{{ post.url | relative_url }}">Read more</a>
+        </div>
         {% endfor %}
     </article>
 
+    <article class="news-content">
+        <h2 class="sub-heading-two">About OpenActive Data</h2>
+        {% assign aboutOpenData = site.faqs | where: "category", "About OpenActive Data" %}
+        {% for post in aboutOpenData %}
+        <div class="one">
+            <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{post.category}}</span>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <p class="post-snippet">{{post.content}}</p>
+            <a class="button-secondary" href="{{ post.url | relative_url }}">Read more</a>
+        </div>
+        {% endfor %}
+    </article>
 
-    {% if site.posts %}
-    {% for post in site.faqs %}
-    {% assign num = forloop.length %}
-    {% endfor %}
-    <aside>
-        <h3>All FAQ's({{num}})</h3>
-        <ul class="post-list">
+    <article class="news-content">
+        <h2 class="sub-heading-two">OpenActive Accelerator</h2>
+        {% assign aboutAccelerator = site.faqs | where: "category", "OpenActive Accelerator" %}
+        {% for post in aboutAccelerator %}
+        <div class="one">
+            <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{post.category}}</span>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <p class="post-snippet">{{post.content}}</p>
+            <a class="button-secondary" href="{{ post.url | relative_url }}">Read more</a>
+        </div>
+        {% endfor %}
+    </article>
 
-            {% for post in site.faqs %}
-            <li>
-                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
-                <a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-
-    </aside>
-    {% endif %}
 </div>
