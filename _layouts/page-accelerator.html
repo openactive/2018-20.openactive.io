@@ -213,9 +213,10 @@ layout: default
                     <figcaption>{{ post.title | escape }}</figcaption>
                 </figure>
                {% if post.twitter %} <a target="_blank" rel="noopener" href="{{ post.twitter }}"><span
-                    class="icon icon--twitter">{% include twitter.svg %}</span><span class="hidden" aria-hidden="true">Open Active Twitter</span></a>
+                    class="icon icon--twitter">{% include twitter.svg %}</span><span class="hidden" aria-hidden="true">Twitter</span></a>
                 {% endif %}
-                {% if post.linkedin %}<p><a href="{{ post.linkedin }}" target="_blank">LinkedIn</a></p>{% endif %}
+                {% if post.linkedin %}<p><a href="{{ post.linkedin }}" target="_blank"><span
+                    class="icon icon--twitter">{% include linkedin.svg %}</span><span class="hidden" aria-hidden="true">LinkedIn</span></a></p>{% endif %}
             </div>
         
   
