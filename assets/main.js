@@ -1,6 +1,14 @@
 $(document).ready(function () {
     (function ($) {
 
+        // var mentors = $('.post');
+        // mess_content.each(function(){
+        //     if ($(this).text().length > 120) {
+        //         var obrtext = $(this).text().substr(0,120) ;
+        //         $(this).html(obrtext+"<a href='#'>read more</a>") ;
+        //     }
+        // });
+
 
         if ($(".accelerator-template").length > 0) {
 
@@ -12,7 +20,6 @@ $(document).ready(function () {
                 return elementBottom > viewportTop && elementTop < viewportBottom;
             };
             $(window).on('resize scroll', function () {
-                console.log('in view');
                 if ($('.stats').isInViewport()) {
                     var el = document.querySelector('.years');
                     od = new Odometer({

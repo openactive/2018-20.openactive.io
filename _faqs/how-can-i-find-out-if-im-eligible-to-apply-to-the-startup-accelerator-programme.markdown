@@ -6,4 +6,4 @@ categories:
 is_featured: true
 ---
 
-Take a read of what we look for [what we're looking for](https://docs.google.com/document/d/1o06BCIxYRc1-7vQy4z6N7RL7ebw5kj8QaAkLb4v-8og/edit).
+Take a read of [what we're looking for](https://docs.google.com/forms/d/1rv50zCN17njsYrAG2YBlHqqSpVeHCJmp0NpN87AGBiQ/edit).

@@ -242,7 +242,8 @@ p, li {
 // Links
 a {
   color: $link-color;
-  text-decoration: none;
+ // text-decoration: none;
+  text-decoration: underline;
   @include transition(all .2s ease);
 
   &:hover {
@@ -265,6 +266,10 @@ ul, ol {
     margin-top: 10px;
     line-height: $paragraph-line-height;
     color: $paragraph-color;
+
+    a {
+      text-decoration:none;
+    }
     ol, ul {
 
     }

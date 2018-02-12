@@ -8,7 +8,6 @@ layout: home
 
 {::options parse_block_html="true" /}
 
-
 <article class="hero--home">
 <nav class="hero_tab_nav">
 <div class="hero-tab" data-tab="h1"></div>
@@ -16,28 +15,42 @@ layout: home
 <div class="hero-tab" data-tab="h3"></div>
 </nav>
 <div class="content">
+
+<!-- THIS IS THE TITLE BLOCK -->
 <h1>Helping physical activity reach everyone</h1>
+
+<!-- THIS IS THE TABBED STRAPLINES -->
 <ul class="hero_tab_content">
 <li class="hero-content" id="h1"><p>Improve our nation’s physical health</p></li>
 <li class="hero-content" id="h2"><p>Attract people to join activities</p></li>
 <li class="hero-content" id="h3"><p>Innovate to help people get active</p></li>
 </ul>
+
+<!-- THIS IS THE FIRST CALL TO ACTION -->
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
+
 </div>
 <figure role="group" aria-labelledby="open-active-video">
+
+<!-- THIS IS THE YOUTUBE EMEBED -->
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" allowfullscreen></iframe>
+
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
 </article>
 
+
+<!-- THIS IS THE CASE STUDY BLOCK -->
 {% include case-study.html %}
 
 
+<!-- THIS IS TABBED BLOCK -->
 <article markdown="0" class="tabs blue">
+
+<!-- THIS IS THE TITLE ROW -->
 <h2 class="sub-heading-two">Where to start?</h2>
 <div  id="tabs">
 <div  class="tabsList " role="tablist" >
-
 
 <h3 class="tablink" role="tab presentation" aria-selected="true">
 <a href="#how-it-works">How it Works</a>
@@ -51,7 +64,6 @@ layout: home
 <p>OpenActive makes discovering and taking part in  sport and fitness activities easier than ever before. With open data, your activities can be available to people across the country,  on websites and apps that attract millions of users, to communities and services that engage local people.</p>
 <a class="button-primary" href="{{ site.baseurl }}{% link how-it-works.md %})">Discover More</a>
 </div>
-
 
 <h3 class="tablink" role="tab presentation" aria-selected="false">
 <a href="#booking-systems">Booking Systems</a>
@@ -76,8 +88,6 @@ aria-labelledby="booking-systems">
 
 </div>
 
-
-
 <h3 class="tablink" role="tab presentation" aria-selected="false">
 <a href="#activity-provider">Activity Providers</a>
 <i class="icon_wrap_accordian">
@@ -91,7 +101,7 @@ aria-labelledby="activity-provider">
 <h4>Activity Providers</h4>
 <ol>
 <li>List your activity details on your existing website or booking system.</li>
-<li>Publish your activity information using our OpenActive data standards. 
+<li>Publish your activity information using our OpenActive data standards.
 </li>
 <li>Your dataset will be listed in our directory for anyone to access, use, and share.</li>
 <li>Now, your activities will be available everywhere, from high-traffic online platforms, to local community services.
@@ -100,7 +110,6 @@ aria-labelledby="activity-provider">
 <p>Publish your activity listing and join the open data revolution</p>
 <a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Get Started</a>
 </div>
-
 
 <h3 class="tablink" role="tab presentation" aria-selected="false">
 <a href="#use-data">Use Data</a>
@@ -129,44 +138,39 @@ aria-labelledby="activity-provider">
 
 <i class="line-graphic">{% include line-graphic-side.svg %}</i>
 
-
 </article>
-
-
-
 
 <article class="call_to_action title-row">
 <div class="subgrid">
 <div class="three blue-gradient-bc">
 
 #### Getting Started
+
 Take the first step enabling open data in your system.
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
-
+\[Getting Started\]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
 <div class="three purple-gradient-bc">
 
-
 #### Developer
+
 Get stuck into the docs and start using or publishing data today!
 
-[Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
-
+\[Developer\]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
 
 </div>
 <div class="three red-gradient-bc ">
 
 #### Community
+
 What's happening in the community, and how you can get involved!
 
-[Community]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
+\[Community\]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
 
 </div>
 </div>
 </article>
-
 
 <article class="title-row">
 <h2 class="sub-heading-two"> What is <br>Open Data?</h2>
@@ -178,26 +182,21 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 </div>
 <div class="one">
 
-![what_open_data.png]({{ site.baseurl }}/uploads/what_open_data.png)
-
-
+!\[what_open_data.png\]({{ site.baseurl }}/uploads/what_open_data.png)
 
 </div>
 
-
 </article>
-
-
 
 <article class="call_to_action--full-width global">
 <h2 class="sub-heading-two">Start Ups</h2>
 <div class="one">
 
 ### The Accelerator Programme
+
 Millions find it hard to stay active. OpenActive Accelerator calls for startups to make it easier with digital innovation using open data.
 
-[Find out more]( {{ site.baseurl }}{% link accelerator.md %}){: .button-primary}
-
+\[Find out more\]( {{ site.baseurl }}{% link accelerator.md %}){: .button-primary}
 
 </div>
 
@@ -208,8 +207,6 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 </figure>
 
 </article>
-
-
 
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Latest News</h2>
@@ -240,10 +237,3 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 
 {% endfor %}
 </article>
-
-
-
-
-
-
-

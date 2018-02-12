@@ -232,7 +232,7 @@
         display: inline-block;
         .five-steps {
           width: 100%;
-          margin-bottom: 2rem;
+          margin: 2rem 0;
           text-align:center;
           &:nth-child(1) {
           }
@@ -333,9 +333,7 @@
             min-height: 30px;
           }
           @media only screen and (max-width: 900px) {
-
             font-size: $header-size / 3 !important;
-
           }
         }
       }
@@ -348,6 +346,17 @@
           grid-column-start: 8;
           grid-column-end: 14;
         }
+      }
+      @media only screen and (max-width: 550px) {
+        &:nth-child(2n+2) {
+          grid-column-start: 2;
+          grid-column-end: 14;
+        }
+        &:nth-child(2n+3) {
+          grid-column-start: 2;
+          grid-column-end: 14;
+        }
+
       }
     }
   }

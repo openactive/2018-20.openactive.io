@@ -817,12 +817,12 @@ html.no-cssgrid {
 
   .g-item {
     &.logo-accelerator {
-      grid-column-start: 1;
-      grid-column-end: 1;
+      grid-column-start: 2;
+      grid-column-end: 11;
       grid-row: 1;
       align-self: center;
-      justify-content: end;
-      padding: 0 0 0 1rem;
+      justify-content: start;
+      padding: 0;
       align-items: start;
       //display: flex;
       display: inherit;
@@ -845,7 +845,7 @@ html.no-cssgrid {
       grid-column-start: 14;
       grid-column-end: 14;
       grid-row: 1;
-      align-self: end;
+      align-self: center;
     }
     @media only screen and (max-width: 1400px) {
       &.logo-accelerator {

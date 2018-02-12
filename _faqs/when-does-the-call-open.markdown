@@ -6,4 +6,4 @@ categories:
 is_featured: true
 ---
 
-On February 9th, 2018 at 5pm GMT.
+On Monday 12 February 2018.

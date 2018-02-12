@@ -5,6 +5,7 @@
 //
 // Markup:
 // <a class="{{modifier_class}}">Link</a>
+// [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
 //
 // :hover             - Subtle hover highlight.
 //
