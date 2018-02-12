@@ -9,11 +9,11 @@ tags:
 - Newham
 - Data Publishing
 - Openactive
-strapline: Using open data to mobilise outdoor activities, recruit new customers and
-  improve competition across the sector
 is_featured: true
 thumbnail_image: "/uploads/case_study5_1.jpeg"
 member: Our Parks
+strapline: Using open data to mobilise outdoor activities, recruit new customers and
+  improve competition across the sector.
 layout: case-study
 ---
 
