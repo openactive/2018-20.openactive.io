@@ -5,7 +5,4 @@ categories:
 - About OpenActive Data
 ---
 
-OpenActive metrics dashboard\
-Subscribe to our OpenActive Monthly updates\
-Follow us on Twitter\
-Join the community Slack channel
+Start by following us on [Twitter](https://twitter.com/openactiveio). We’ll be sharing details about our OpenActive Accelerator at every stage, from the calls for applications to the programme itself. And we promise you’ll hear all about our mentors and open opportunity data too.

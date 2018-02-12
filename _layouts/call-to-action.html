@@ -4,6 +4,26 @@ layout: default
 
 <div class="page global-template">
 
+    <article class="hero--large" style="background: linear-gradient(to right, #2b2b2b 0%, transparent 70%),  url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;">
+        <div class="two">
+            <h1>Accelerator</h1>
+            <p>Eligendi aspernatur saepe non tempore voluptate. Amet voluptas aut officiis autem dignissimos.</p>
+            <p><a class="button-primary" href="mailto:Lisa.ellwood@theodi.org?subject=OpenActive application query">get
+                in touch.</a>&nbsp;<a class="button-primary--ghost" href="{{ site.baseurl }}{% link faqs.md %}">Visit
+                our FAQs</a></p>
+        </div>
+    </article>
+
+    <article class="hero--thin">
+        <div class="one" style="background:linear-gradient(to right, #2b2b2b 0%, transparent 70%),  url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;">
+            <h1>Accelerator</h1>
+            <p>Eligendi aspernatur saepe non tempore voluptate. Amet voluptas aut officiis autem dignissimos.</p>
+            <p><a class="button-primary" href="mailto:Lisa.ellwood@theodi.org?subject=OpenActive application query">get
+                in touch.</a>&nbsp;<a class="button-primary--ghost" href="{{ site.baseurl }}{% link faqs.md %}">Visit
+                our FAQs</a></p>
+        </div>
+    </article>
+
     <article markdown="0" class="hero--montage">
         <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
         <div>
@@ -14,8 +34,9 @@ layout: default
                 Started</a></p>
         </div>
         <figure class="hero">
-            <div></div>
-            <div></div>
+            <div class="triangle"></div>
+            <div class="stripe thick"></div>
+
             <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
         </figure>
         <figure class="sub-menu">
@@ -36,6 +57,8 @@ layout: default
                 Started</a></p>
         </div>
         <figure>
+            <div class="triangle"></div>
+            <div class="stripe thick"></div>
             <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
         </figure>
     </article>
@@ -68,8 +91,8 @@ layout: default
         </div>
 
         <figure>
-            <div></div>
-            <div></div>
+            <div class="triangle"></div>
+            <div class="stripe"></div>
             <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
         </figure>
 
@@ -154,28 +177,28 @@ layout: default
         <h2 class="sub-heading-two">Title</h2>
 
         <div class="subgrid">
-            <div class="four brand-three-b">
+            <div class="four">
 
                 <h3>How to's</h3>
                 <p>Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.</p>
                 <a class="link" href="{{ site.baseurl }}{% link community.md %}">How to's</a>
 
             </div>
-            <div class="four brand-six-b">
+            <div class="four">
 
                 <h3>Discussions</h3>
                 <p>Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusamus in.</p>
                 <a class="link" href="{{ site.baseurl }}{% link community.md %}">Discussions</a>
 
             </div>
-            <div class="four brand-ten-b">
+            <div class="four">
 
                 <h3>References</h3>
                 <p>Facilis assumenda officiis dicta. Rerum dolor ullam reprehenderit molestiae.</p>
                 <a class="link" href="{{ site.baseurl }}{% link community.md %}">References</a>
 
             </div>
-            <div class="four brand-eight-b">
+            <div class="four">
 
                 <h3>Tutorials</h3>
                 <p>Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas aliquid magnam
@@ -209,9 +232,9 @@ layout: default
     </article>
 
     <article>
-        <div class="two brand-blue-bc">
+        <div class="two">
             <blockquote class="featured ">
-                <i class="quote brand-ten-b">
+                <i class="quote">
                     {% include quote.svg %}
                 </i>
                 <p>Dolore nulla voluptas natus et sapiente. Deserunt sequi eius culpa labore. Totam quam nihil alias
@@ -281,25 +304,56 @@ layout: default
         </div>
     </article>
 
-    <article>
-        <div class="two">
-            <p><a class="button-primary">Button Primary</a></p>
+    <article class="title-row">
+        <h2 class="sub-heading-two">Buttons</h2>
 
-            <p><a class="button-primary--alt">Button Primary Alt</a></p>
+        <div class="one">
+            <p><a class="button-primary">Button Primary</a>&nbsp;<a class="button-primary--ghost">Button Primary Ghost</a>&nbsp;<a class="button-primary--alt">Button Primary Alt</a></p>
 
-            <p><a class="button-primary--ghost">Button Primary Ghost</a></p>
+            <p><a class="button-secondary">Button Secondary</a>&nbsp;<a class="button-secondary--ghost">Button Secondary Ghost</a></p>
 
-            <p><a class="button-secondary">Button Secondary</a></p>
+            <p><a class="link">Link</a>&nbsp;<a>Plain Link</a></p>
 
-            <p><a class="button-secondary--ghost">Button Secondary Ghost</a></p>
-
-            <p><a class="link">Link</a></p>
-
-            <p><a>Plain Link</a></p>
+            <p></p>
         </div>
-        <div class="two">
+    </article>
 
-        </div>
+
+    <article class="global-colours title-row">
+        <h2 class="sub-heading-two">Global Palette</h2>
+        <div class="eight"></div>
+        <div class="eight"></div>
+        <div class="eight"></div>
+        <div class="eight"></div>
+        <div class="eight"></div>
+        <div class="eight"></div>
+        <div class="eight"></div>
+        <div class="eight"></div>
+    </article>
+
+    <article class="publish-colours title-row">
+        <h2 class="sub-heading-two">Publish Palette</h2>
+        <div class="six"></div>
+        <div class="six"></div>
+        <div class="six"></div>
+        <div class="six"></div>
+        <div class="six"></div>
+    </article>
+    <article class="use-colours title-row">
+        <h2 class="sub-heading-two">Use Palette</h2>
+        <div class="six"></div>
+        <div class="six"></div>
+        <div class="six"></div>
+        <div class="six"></div>
+        <div class="six"></div>
+    </article>
+    <article class="startup-colours title-row">
+        <h2 class="sub-heading-two">Use Palette</h2>
+        <div class="six"></div>
+        <div class="six"></div>
+        <div class="six"></div>
+        <div class="six"></div>
+        <div class="six"></div>
     </article>
 
 </div>

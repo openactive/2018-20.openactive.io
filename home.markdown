@@ -8,30 +8,6 @@ layout: home
 
 {::options parse_block_html="true" /}
 
-<article class="note-wrap" aria-hidden="true">
-<div class="notes">
-
-##### Page Notes ~ {{ page.title | escape }}
-Content for this page is detailed in the
-[Google Doc](https://drive.google.com/open?id=1pSzce8tiNHg8eMKUop4FozaJkhGAXNXYpLSANFf-0Z0){:target="_blank"}
-
-</div>
-</article>
-
-
-<article class="note-wrap" aria-hidden="true">
-<div class="notes">
-##### Section Notes ~ Hero Block
-**Purpose**: This section is the first thing all users will see, we are showcasing the video along with key benefits. The benefits should appeal to all levels of users
-
-**Functionality**: A video is embedded from youtube
-
-**Design**:
-
-**Copy-writing Notes**:
-</div>
-</article>
-
 
 <article class="hero--home">
 <nav class="hero_tab_nav">
@@ -39,15 +15,14 @@ Content for this page is detailed in the
 <div class="hero-tab" data-tab="h2"></div>
 <div class="hero-tab" data-tab="h3"></div>
 </nav>
-<div>
-<h1>Welcome to OpenActive</h1>
+<div class="content">
+<h1>Helping physical activity reach everyone</h1>
 <ul class="hero_tab_content">
-<li class="hero-content" id="h1"><p>Improve our nation’s physical health, and harness open data to enhance the  sport and physical  sector’s performance.</p></li>
-<li class="hero-content" id="h2"><p>Reach out to people across the country and help your activities gain visibility.</p></li>
-<li class="hero-content" id="h3"><p>Innovate with open data and make finding new ways to get active even easier
-</p></li>
+<li class="hero-content" id="h1"><p>Improve our nation’s physical health</p></li>
+<li class="hero-content" id="h2"><p>Attract people to join activities</p></li>
+<li class="hero-content" id="h3"><p>Innovate to help people get active</p></li>
 </ul>
-[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary--alt}
+[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
 </div>
 <figure role="group" aria-labelledby="open-active-video">
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" allowfullscreen></iframe>
@@ -55,33 +30,12 @@ Content for this page is detailed in the
 </figure>
 </article>
 
-
 {% include case-study.html %}
 
 
-
-
-<article class="note-wrap" aria-hidden="true">
-<div class="notes">
-##### Section Notes ~ Tabbed Content
-**Purpose**: These tabs are used to help guide users based on their orientation toward initiative, The first tab would be geared toward a general explanation, whereas the other tabs would be aimed at providing a insight into other specific use cases, such as using or sharing data. Each item will provide a call action to encourage users further along the path.
-
-**Functionality**: The the content will be housed in a tabbing system, and the active tab could be changed to suite phases of the initiative.
-
-**Design**: The design should be lead by established web conventions, this will aid users when interpreting the content.
-
-**Copy-writing Notes**:
-</div>
-</article>
-
-
-
 <article markdown="0" class="tabs blue">
-
 <h2 class="sub-heading-two">Where to start?</h2>
-
 <div  id="tabs">
-
 <div  class="tabsList " role="tablist" >
 
 
@@ -118,7 +72,7 @@ aria-labelledby="booking-systems">
 <li>Now, your customers’ activities will be available everywhere, from high-traffic online platforms,, to local community services. </li>
 </ol>
 <p>Publish your activity listing and join the open data revolution.</p>
-<a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Start Now</a>
+<a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Get Started</a>
 
 </div>
 
@@ -144,7 +98,7 @@ aria-labelledby="activity-provider">
 </li>
 </ol>
 <p>Publish your activity listing and join the open data revolution</p>
-<a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Start Now</a>
+<a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Get Started</a>
 </div>
 
 
@@ -163,7 +117,7 @@ aria-labelledby="activity-provider">
 <li>Join their mailing list and review the documentation.</li>
 <li>Pull in the data to your website or app. If you need help reach out to the OpenActive Community.</li>
 </ol>
-<a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Getting Started</a>
+<a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Get Started</a>
 
 </div>
 
@@ -179,18 +133,6 @@ aria-labelledby="activity-provider">
 </article>
 
 
-<article class="note-wrap" aria-hidden="true">
-<div class="notes">
-##### Section Notes ~ CTA Blocks Small
-**Purpose**: This section is used to direct users around the site
-
-**Functionality**: These blocks will contain at minimum title, excerpt & button.
-
-**Design**: These represent call to action blocks at a lower hierarchy, the design should reflect this. For example these would be a lower level of prominence than a full with call to action.
-
-**Copy-writing Notes**:
-</div>
-</article>
 
 
 <article class="call_to_action title-row">
@@ -221,35 +163,22 @@ What's happening in the community, and how you can get involved!
 
 [Community]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
 
-
 </div>
 </div>
-
 </article>
 
-<article class="note-wrap" aria-hidden="true">
-<div class="notes">
-##### Section Notes
-**Purpose**: The purpose of this section is to graphically clarify for users exactly what open data is
-
-**Functionality**: This section will support text and graphics.
-
-**Design**: This is a opportunity to animate graphics to create visual intrigue.
-
-**Copy-writing Notes**: Reinforcing link with the ODI and open data as a whole, some users may not be aware of it's pervasiveness and the network behind OA
-</div>
-</article>
 
 <article class="title-row">
 <h2 class="sub-heading-two"> What is <br>Open Data?</h2>
 <div class="one">
-<h3>Corporis sint</h3>
-<p class="reset-style">Molestiae similique numquam quia dolore quod ut temporibus sit. Maiores vel nostrum ut est. Voluptas assumenda qui veritatis quisquam. Qui adipisci dolores perferendis mollitia eligendi error aut laboriosam. Consequatur sequi sequi facilis reiciendis in rerum enim.</p>
+<h3>What is the definition?</h3>
+<p class="reset-style">
+Open data is data that anyone can access, use or share. Simple as that. When big companies or governments release non-personal data, it enables small businesses, citizens and medical researchers to develop resources which make crucial improvements to their communities.</p>
 <p></p>
 </div>
 <div class="one">
 
-{% include blank.svg %}
+![what_open_data.png]({{ site.baseurl }}/uploads/what_open_data.png)
 
 
 
@@ -258,56 +187,34 @@ What's happening in the community, and how you can get involved!
 
 </article>
 
-<article class="note-wrap" aria-hidden="true">
-<div class="notes">
-##### Section Notes ~ CTA Block Large
-**Purpose**: This section is used to direct users to specific pages. In this case to promote the accelerator program
 
-**Functionality**: This full width call to action section will provide a title, excerpt and button.
 
-**Design**: This represents a call to action blocks at a higher hierarchy, the design should reflect this. For example these full width call to action's would have a higher prominence than smaller ones, but take design cues.
-
-**Copy-writing Notes**:
-</div>
-</article>
-
-<article class="call_to_action--full-width startup">
-<h2 class="sub-heading-two">Join</h2>
+<article class="call_to_action--full-width global">
+<h2 class="sub-heading-two">Start Ups</h2>
 <div class="one">
 
-### The Accelerator Program
-Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem omnis in rem. Qui perspiciatis ut nobis maxime eligendi similique. Non culpa voluptatem enim nostrum et et.
+### The Accelerator Programme
+Millions find it hard to stay active. OpenActive Accelerator calls for startups to make it easier with digital innovation using open data.
 
-[Start Ups]( {{ site.baseurl }}{% link accelerator.md %}){: .button-primary}
+[Find out more]( {{ site.baseurl }}{% link accelerator.md %}){: .button-primary}
 
 
 </div>
 
 <figure>
-<div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+<div class="triangle"></div>
+<div class="stripe"></div>
+<div style="background: url({{ site.baseurl }}/uploads/accel_cta.png)center center / cover no-repeat;"></div>
 </figure>
 
 </article>
 
 
-<article class="note-wrap" aria-hidden="true">
-<div class="notes">
-##### Section Notes
-**Purpose**: This section will expose some latest blog posts for users to quickly gain a insight into recent activity.
-
-**Functionality**: Each contain article block will support a title, excerpt, author, post date and thumbnail.
-
-**Design**: The design should be lead by established web conventions with regards to article lists so users are able to easily interpret content they are seeing.
-
-**Copy-writing Notes**:
-</div>
-</article>
-
 
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Latest News</h2>
 {% for post in site.posts limit:2 %}
-{% if post.is_featured %}
+
 <div class="two" id="post-{{ forloop.index }}">
 <figure role="group">
 <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}-post-thumbnail">
@@ -323,12 +230,14 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 
 <div class="two twoleft">
 {% include share-page.html %}
-{{post.date}}
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+{{post.date | date: date_format}}
 {{post.author}}
 </div>
 </div>
 </div>
-{% endif %}
+
 {% endfor %}
 </article>
 

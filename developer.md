@@ -3,25 +3,12 @@ title: Developer
 permalink: "/developer/"
 position: 4
 is_main_navigation: true
-layout: page-hero
-thumbnail_image: "/uploads/sideplank.jpg"
+thumbnail_image: "/uploads/dancin.png"
 strapline: 'Know what your here for? '
+layout: page-hero
 ---
 
 {::options parse_block_html="true" /}
-
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Page Notes ~ {{ page.title | escape }}
-Content for this page is detailed in the
-[Google Doc](https://drive.google.com/open?id=1KBxXl0nLu_Q2Go9j11PikbF28XxpkaKqfeaWAIWcgxs){:target="_blank"}
-
-</div>
-</article>
-
-
 
 
 <article>
@@ -32,21 +19,6 @@ The open data being gathered by OpenActive and associated partners will transfor
 </div>
 </article>
 
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes ~ API
-**Purpose**:
-
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
-
-</div>
-</article>
 
 <article >
 <div class="two">
@@ -80,7 +52,6 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 3. By publishing your data, your activities will be shared across websites and apps that attract millions of users, to communities and services that engage local people
 
 
-[Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .button-primary}
 
 </div>
 <div class="two use gradient list">
@@ -93,59 +64,41 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 4. We encourage you to explore the data published so far, and discover what’s useful for you
 
 
-[Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .button-primary}
-
 </div>
-</div>
-</article>
-
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes
-**Purpose**: Text to introduce the ways to learn more about the initiative
-
-**Functionality**: These blocks will contain at minimum title, excerpt & button.
-
-**Design**: These represent call to action blocks at a lower hierarchy, the design should reflect this. For example these would be a lower level of prominence than a full with call to action.
-
-**Copy-writing Notes**:
-
 </div>
 </article>
 
 <article class="call_to_action title-row">
-<h2 class="sub-heading-two">Resources</h2>
+<h2 class="sub-heading-two">Resource</h2>
 
 <div class="subgrid">
-<div class="four brand-three-b">
+<div class="four">
 
-### How to Guides
-Detailed Step-by-step guidance to help you quickly make the most of the OpenAactive’s data.
+### How-to Guides
+Detailed step-by-step guidance to help you quickly make the most of OpenActive’s data.
 
 [Discover More]( {{ site.baseurl }}{% link how-to.md %}){: .link }
 
 </div>
-<div class="four brand-six-b">
+<div class="four">
 
 ### Discussions
 Learn more about how we’re making opportunity data easier to access, use, and share nationwide.
-[Discover More]( {{ site.baseurl }}{% link discussions.md %}){: .link }
+[Discover More](https://www.openactive.io/public-openactive-w3c/){: .link }
 
 </div>
-<div class="four brand-ten-b">
+<div class="four">
 
 ### References
 Dive into the detail by looking through our standards documentation and best practice guidance.
-[Discover More]( {{ site.baseurl }}{% link references.md %}){: .link }
+[Discover More](https://www.w3.org/2017/08/realtime-paged-data-exchange/){: .link }
 
 </div>
-<div class="four brand-eight-b">
+<div class="four">
 
 ### Tutorials
-Guidance for developers on getting started, to help you learn how to publish and use your data to benefit your organisation.
-[Discover More]( {{ site.baseurl }}{% link tutorials.md %}){: .link }
+Guidance for developers on getting started, to help you learn how to publish and use your data to benefit your organisation. 
+[Discover More]( {{ site.baseurl }}{% link e-learning.md %}){: .link }
 
 </div>
 </div>
@@ -153,25 +106,11 @@ Guidance for developers on getting started, to help you learn how to publish and
 
 
 
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes ~ Contact
-**Purpose**:
-
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
-
-</div>
-</article>
-
-
-<article class="call_to_action--full-width global">
+<article markdown="0" class="call_to_action--full-width">
 <h2 class="sub-heading-two">Get in Touch</h2>
-<div class="one">
+<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+
+<div markdown="1" class="one">
 
 ### Contact
 This should move you to the community section. Namautem non et velit. Sunt quidem sequi quis iure voluptatem aut.
@@ -180,6 +119,8 @@ This should move you to the community section. Namautem non et velit. Sunt quide
 
 </div>
 <figure>
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+<div class="triangle"></div>
+<div class="stripe"></div>
+<div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>

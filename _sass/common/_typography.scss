@@ -63,7 +63,12 @@ h1 + p, h1 + ul li p, .h1-copy {
   font-size: $header-size/  2;
   font-family: $font-family;
 }
-
+.hero-sub{
+  font-size: $header-size/  1.7;
+}
+h1 + h2{
+  margin-bottom: 1rem;
+}
 // Heading Two Styles
 //
 // Hero Text
@@ -75,10 +80,13 @@ h1 + p, h1 + ul li p, .h1-copy {
 //
 // Styleguide typography.heading-two
 h2 {
-  font-size: $header-size / 1.5;
+  font-size: $header-size / 1.4;
   font-weight: 800;
 }
-
+h2 + p, h2 + ul li p, .h2-copy {
+  font-size: $header-size/  2.1;
+  font-family: $font-family;
+}
 // Sub Heading Two Styles
 //
 // Heading text for sections, appears in left columns at larger screens
@@ -325,19 +333,21 @@ blockquote {
   grid-column-end: 14;
   p {
     margin: $blockquote-margin 0;
-    font-size: $blockquote-size;
-    line-height: $blockquote-line-height;
     color: $blockquote-color;
     padding-left: 2rem;
     font-style: normal;
     border-left: 1px solid;
+    font-size: $header-size/  2.16346;
+    font-family: $font-family;
   }
   &.featured{
     padding:2rem;
+    background-color: $brand-blue;
     .quote{
       width: 100px;
       border-bottom-width: 1px;
       border-bottom-style: solid;
+      border-color: $brand-seven;
       display: inline-block;
       margin-bottom: 1rem;
     }
@@ -346,17 +356,20 @@ blockquote {
       height: 30px;
       margin-bottom: 1rem;
     }
+    .quote-svg{
+      fill:$white;
+    }
     p{
       padding: 0;
       margin: 0;
       grid-column-start: 2;
       grid-column-end: 14;
       border-left: none;
-      font-size: $header-size/  2.16346;
-      font-family: $font-family;
+      color: $white;
     }
     h6 {
       margin: 0;
+      color: $white;
       &:nth-of-type(1){
         margin: 1rem 0 0 0;
       }
@@ -364,11 +377,15 @@ blockquote {
         font-weight: 100;
       }
     }
+    a{
+      color: $white;
+    }
   }
 }
 
 article.featured {
   grid-row-gap: 0;
+  background-color: $brand-blue;
   .quote {
     grid-row: 1;
     grid-column-start: 2;
@@ -378,6 +395,9 @@ article.featured {
       width: 30px;
       height: 30px;
       margin-bottom: 1rem;
+    }
+    .quote-svg{
+      fill:$white;
     }
   }
   blockquote {
@@ -392,10 +412,12 @@ article.featured {
       grid-column-start: 2;
       grid-column-end: 14;
       border-left: none;
+      color: $white;
       font-size: $header-size/  2.16346;
       font-family: $font-family;
     }
     h6 {
+      color: $white;
       margin:  0;
       &:nth-of-type(1){
         margin: 1rem 0 0 0;
@@ -409,7 +431,7 @@ article.featured {
   div {
     margin-top: 0;
     grid-row: 2;
-    border-color: $brand-ten;
+    border-color: $brand-seven;
     border-top-style: solid;
     border-top-width: 1px;
     text-align: right;

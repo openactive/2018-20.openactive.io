@@ -4,21 +4,13 @@ permalink: "/community/"
 position: 5
 is_main_navigation: true
 layout: page-hero
-thumbnail_image: "/uploads/sideplank.jpg"
+thumbnail_image: "/uploads/iStock-501777666_optimised.png"
 strapline: Innovation through Collaboration
 ---
 
 {::options parse_block_html="true" /}
 
-<article class="note-wrap">
-<div class="notes">
 
-##### Page Notes ~ {{ page.title | escape }}
-Content for this page is detailed in the
-[Google Doc](https://drive.google.com/open?id=170_Ao9Y5WspjoVC_n6OfPLC55QQ8JbYzt_JxK888OvM){:target="_blank"}
-
-</div>
-</article>
 
 
 <!-- <article markdown="0" class="hero--sub"> -->
@@ -67,39 +59,37 @@ Explore the dashboard to learn more about our community and the datasets already
 ### The Community
 Our community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide. Building the data revolution in the sport and physical sector is a collaborative effort between consumers, organisations, and innovative start-ups, designed to support and benefit the industry at all levels.
 
-
-+ Events Feed
-    + Show upcoming events to users
-    + [Events]( {{ site.baseurl }}{% link event-page.md %})    
-    + [Event Detail]( {{ site.baseurl }}{% link _events/event-one.markdown  %})   
-
 </div>
 </article>
 
-<article>
-<div class="one">
+<article class="post-list title-row">
+<h2 class="sub-heading-two"> Community News</h2>
+{% for post in site.posts limit:2 %}
+{% if post.categories contains "Community" %}
+<div class="two" id="post-{{ forloop.index }}">
+<figure role="group">
+<img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}-post-thumbnail">
+</figure>
+<h3>{{ post.title | escape }}</h3>
+<div class="subgrid brand-one-b">
+<div class="two twoleft">
 
-### Featured News 
-+ A Featured Article
-    + A recent interesting article that a user would find engaging 
-        + Links to [News Detail]( {{ site.baseurl }}{% link _posts/2017-07-06-build-a-website.md  %})  
-    + Links to [All News]( {{ site.baseurl }}{% link blog.md %})  
-  
+{{ post.excerpt }}
+
+<a class="button-primary" href="{{ post.url | relative_url }}">Read Post</a>
 </div>
+
+<div class="two twoleft">
+{% include share-page.html %}
+{{post.date}}
+{{post.author}}
+</div>
+</div>
+</div>
+{% endif %}
+{% endfor %}
 </article>
 
-
-<article>
-<div class="one">
-
-### Featured Videos 
-+ A Featured Video from the community
-    + Meetings
-    + Publicity
-    + Explanation 
-
-</div>
-</article>
 
 <article>
 <div class="one">
@@ -108,22 +98,40 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 + Links to resources on the developer page
     + [Developer]( {{ site.baseurl }}{% link developer.md %})  
 
+### Meet the Community
+
+OpenActive’s open-invitation community is continuing to grow. Discover who has joined us so far.
+
 </div>
+</article>
+
+<article >
+{% assign posts = site.members | sample:18 %}
+{% for post in posts %}
+{% assign theImage = post.thumbnail_image %}
+
+<div class="six" data-tab="{{ forloop.index }}" markdown="0" >
+<a  href="{{ post.url | relative_url }}"><img src="{{ theImage  | relative_url}}"/></a>
+</div>
+
+
+{% endfor %}
+
 </article>
 
 <article>
 <div class="one">
-
-### Meet the Community
-
-OpenActive’s open-invitation community is continuing to grow. To discover who has joined us so far, visit our directory and meet the organisations shaping the future of the sector.
-
-+ A section to showcase community members (5)
-    + Title / Snippet / Logo 
-    + Links to a directory of all community members. 
+<p><a class="button-primary" href="{{ site.baseurl }}{% link members-page.md %}">View all the members</a></p>
     
-    
-[All Members]( {{ site.baseurl }}{% link community-members.md %})  
+
+### OpenActive standards group
+
+Our goal is to develop technical specifications and best practices that support the use of open and shared data about sports and physical activities.
+
+While our work is technical, you don’t have to be a developer to contribute. Our primary focus is standardising how to publish data about physical activity opportunities, defining best practices and APIs to enable booking events and facilities, and improving interoperability of data across the sector.
+
+
+<p><a class="button-primary" href="https://www.w3.org/community/openactive/">Join the standards group</a></p>
 
 </div>
 </article>
@@ -133,13 +141,10 @@ OpenActive’s open-invitation community is continuing to grow. To discover who 
 
 ### OpenActive Champions
 
-OpenActive Champions is a programme of masterclasses, designed to encourage peer-to-peer problem solving and networking that supports the work of people already using data to transform the sector. The programme supports individuals and organisations working to innovate within their areas, and use data to help people get more active.
+The OpenActive Champions are ten advocates embracing and influencing local transformation with open opportunity data. As a peer-network, they’re committed to develop local knowledge, share good practice and drive innovation to get people active.
 
-The ODI is connecting Champions to experts, and supporting them to develop new solutions, skills, and approaches to increase the impact of the work they undertake locally.
+<p><a class="button-primary" href="https://blog.openactive.io/openactive-champions-assemble-10-advocates-embrace-local-transformation-with-open-data-to-get-fe71c953fd31">Read More</a></p>
 
-To discover who’s already joined us as an OpenActive Champion, visit our directory and meet our featured Champions. 
-
-[Discover More]( {{ site.baseurl }}{% link members-page.md %})  
 
 </div>
 </article>

@@ -189,9 +189,11 @@ strapline: The Open Data Institute are providing a free, online open data e-lear
 
 </article>
 
-<article class="call_to_action--full-width brand-ten-bc">
+<article markdown="0" class="call_to_action--full-width">
 <h2 class="sub-heading-two">Show me the code</h2>
-<div class="one">
+<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+
+<div markdown="1" class="one">
 
 ###  Developers
 Join the open data revolution with OpenActive and help the nation get active.
@@ -199,7 +201,9 @@ Join the open data revolution with OpenActive and help the nation get active.
 [Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
 
 </div>
-<figure class="brand-nine-bc">
-<div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+<figure>
+<div class="triangle"></div>
+<div class="stripe thick"></div>
+<div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>

@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="page" id="dataproviders-page">
+    <article class="page-content">
+        <div class="one">
+            <header class="page-header">
+                <h1 class="page-title">{{ page.title | escape }}</h1>
+            </header>
+            {{ content }}
+        </div>
+    </article>
+    {% assign posts = site.dataproviders | where:"is_enabled", true %}}
+    {% for post in posts %}
+    {% assign num = forloop.length %}
+    {% endfor %}
+
+
+    <article class="member-list">
+        <div class="one">
+            <h4>Open Active has {{num}} Data Providers  which have already adopted the standards</h4>
+        </div>
+        <div class="one">
+
+            {% assign sortedPosts = site.dataproviders | sort: 'title' %}
+            {% for post in sortedPosts %}
+            {% if post.is_enabled %}
+            {% assign theImage = post.thumbnail_image %}
+            {% if post.member %}
+            {% assign theMember = site.members | where:"title", post.member  | first %}
+            {% assign theImage = theMember.thumbnail_image %} 
+            {% endif %}
+            <div class="subgrid" id="member-{{ forloop.index }}">
+                <figure role="group" class="two tworight">
+                    <img role="logo" src="{{theImage | relative_url}}">
+                </figure>
+                <div class="two tworight">
+                    <div class="wrap">
+                        <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{
+                            post.title |
+                            escape
+                            }}</a></h3>
+                        {{ post.excerpt }}
+                    </div>
+                    <!-- <a class="button-secondary" href="{{ post.url | relative_url }}">Read Booking Engine</a> -->
+                </div>
+            </div>
+            <hr>
+            {% endif %}
+            {% endfor %}
+
+        </div>
+    </article>
+
+
+    </aside>
+   
+
+
+</div>

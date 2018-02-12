@@ -133,10 +133,30 @@ Opening up opportunity data across the sector will better connect providers and 
 </article>
 
 <article>
-<h2 class="sub-heading-two">What data is available</h2>
+<h2 class="sub-heading-two">What are the benefits?</h2>
 <div class="one">
 
-+ A explanation of what Opportunity data is **already** available
+
+
+### Sport and Physical Activity Providers
+
+* With open data publishing, your services and events can be shared everywhere, from high-traffic apps to community-driven pages.
+* Improve data skills and understanding within your organisation and harness technology to benefit your business.
+* Drive innovation, and collaborate with OpenActive to revolutionise the sector.
+
+### Data Users and Developers
+
+* Harness open and accessible data from across the sport and physical sector.
+* Use data to help develop new products and enhance existing services to get people more active.
+* Be at the cutting edge of shaping consistent data standards and growing engagement with data publishers.
+
+### Influential Organisations
+
+* Build engagement in sport and physical activities by improving the reach and visibility of services nationwide.
+* Support new members of OpenActive by showing them how publishing open data can help them improve and grow their activities.
+* Improve data skills and understanding within your organisation and harness technology to benefit your business.
+* Provide members with the opportunity to join our community and shape the initiative.
+
 
 </div>
 </article>
@@ -205,9 +225,11 @@ Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusa
 </div>
 </article>
 
-<article class="call_to_action--full-width brand-ten-bc">
+<article markdown="0" class="call_to_action--full-width">
 <h2 class="sub-heading-two">Where now?</h2>
-<div class="one">
+<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+
+<div markdown="1" class="one">
 
 ### Getting Started
 Now you know how it works, let’s look at how you can make your data available or use a dataset for your own application.
@@ -216,7 +238,9 @@ Now you know how it works, let’s look at how you can make your data available 
 
 
 </div>
-<figure class="brand-nine-bc">
+<figure>
+<div class="triangle"></div>
+<div class="stripe"></div>
 <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>

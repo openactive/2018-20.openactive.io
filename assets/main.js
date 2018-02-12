@@ -2,6 +2,89 @@ $(document).ready(function () {
     (function ($) {
 
 
+        if ($(".accelerator-template").length > 0) {
+
+            $.fn.isInViewport = function () {
+                var elementTop = $(this).offset().top;
+                var elementBottom = elementTop + $(this).outerHeight();
+                var viewportTop = $(window).scrollTop();
+                var viewportBottom = viewportTop + $(window).height();
+                return elementBottom > viewportTop && elementTop < viewportBottom;
+            };
+            $(window).on('resize scroll', function () {
+                console.log('in view');
+                if ($('.stats').isInViewport()) {
+                    var el = document.querySelector('.years');
+                    od = new Odometer({
+                        el: el,
+                        value: 333555,
+                        // Any option (other than auto and selector) can be passed in here
+                        format: '',
+                        theme: 'default'
+                    });
+                    od.update(5);
+
+                    var el = document.querySelector('.startups');
+                    startupsod = new Odometer({
+                        el: el,
+                        value: 333555,
+                        // Any option (other than auto and selector) can be passed in here
+                        format: '',
+                        theme: 'default'
+                    });
+                    startupsod.update(124);
+
+                    var el = document.querySelector('.world');
+                    worldod = new Odometer({
+                        el: el,
+                        value: 333555,
+                        // Any option (other than auto and selector) can be passed in here
+                        format: '',
+                        theme: 'default'
+                    });
+                    worldod.update(24);
+
+                    var el = document.querySelector('.cohorts');
+                    cohortsod = new Odometer({
+                        el: el,
+                        value: 333555,
+                        // Any option (other than auto and selector) can be passed in here
+                        format: '',
+                        theme: 'default'
+                    });
+                    cohortsod.update(23);
+
+                    var el = document.querySelector('.investment');
+                    investmentod = new Odometer({
+                        el: el,
+                        value: 333555,
+                        // Any option (other than auto and selector) can be passed in here
+                        format: '',
+                        theme: 'default'
+                    });
+                    investmentod.update(30);
+
+                    var el = document.querySelector('.jobs');
+                    jobsod = new Odometer({
+                        el: el,
+                        value: 333555,
+                        // Any option (other than auto and selector) can be passed in here
+                        format: '',
+                        theme: 'default'
+                    });
+                    jobsod.update(400);
+                }
+            });
+
+        }
+
+
+        $(".slidingDiv").hide();
+        $('.show_hide').on("click", function () {
+            $(this).children('.slidingDiv').slideToggle();
+        });
+
+
         var $onScrollNav = $('.large-screen-side-nav'),
             $header = $('header#mainHeader'),
             scrollClass = 'on-scroll',
@@ -25,7 +108,8 @@ $(document).ready(function () {
             }
         }
 
-        if ($(window).width() < 1500 ) {
+
+        if ($(window).width() < 1500) {
             $(window).scroll(function () {
                 if ($(window).scrollTop() > activateAtY) {
                     deactivateHeader();
@@ -124,14 +208,14 @@ $(document).ready(function () {
             $(this).addClass('current');
             $("#" + tab_id).addClass('current');
         });
-        //auto-rotate every 5 seconds
-        setInterval(function () {
-            //get currently-on tab
-            var onTab = tabsHero.filter('.current');
-            //click either next tab, if exists, else first one
-            var nextTab = onTab.index() < tabsHero.length - 1 ? onTab.next() : tabsHero.first();
-            nextTab.click();
-        }, 5000);
+        // //auto-rotate every 5 seconds
+        // setInterval(function () {
+        //     //get currently-on tab
+        //     var onTab = tabsHero.filter('.current');
+        //     //click either next tab, if exists, else first one
+        //     var nextTab = onTab.index() < tabsHero.length - 1 ? onTab.next() : tabsHero.first();
+        //     nextTab.click();
+        // }, 5000);
 
 
         //CASE STUDIES
@@ -182,7 +266,7 @@ $(document).ready(function () {
             //click either next tab, if exists, else first one
             var nextTab = onTab.index() < tabs.length - 1 ? onTab.next() : tabs.first();
             nextTab.click();
-        }, 5000);
+        }, 8000);
 
 
         //TABS

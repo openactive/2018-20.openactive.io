@@ -1,7 +1,7 @@
 /*********************************/
 /*********************************/
 //GRID LAYOUT STYLES FOR SCREENS OVER 1000px
-html.cssgrid {
+html.cssgrid, html {
   @supports (display: grid) {
 
     @media only screen and (min-width: 1000px) {
@@ -64,7 +64,8 @@ html.cssgrid {
             }
           }
         }
-        div, aside, nav { }
+        div, aside, nav {
+        }
         #logo {
 
           a {
@@ -291,7 +292,7 @@ html.no-cssgrid {
 @media only screen and (min-width: 1000px) {
   body > header {
     position: fixed;
-    z-index: 30;
+    z-index: 50;
     background-color: white;
 
     @media only screen and (max-width: 1400px) {
@@ -410,10 +411,27 @@ html.no-cssgrid {
             }
           }
         }
-        .button--primary, .button-primary--alt {
+        .button-primary {
           text-align: center;
           width: auto;
-          margin-top: 1rem;
+          padding: 7.5px 15px;
+          &:nth-child(1) {
+            margin: 0 0 1rem 0;
+            .icon {
+              display: inline-block;
+              width: 25px;
+              height: 25px;
+              padding-left: 5px;
+            }
+          }
+          &:nth-child(2) {
+            .icon {
+              display: inline-block;
+              width: 25px;
+              height: 25px;
+              padding-left: 5px;
+            }
+          }
         }
       }
     }
@@ -457,7 +475,7 @@ html.no-cssgrid {
 //LAYOUTS FOR SCREENS UNDER 1000PX
 
 @media only screen and (max-width: 1000px) {
-  body > header {
+  body > header:not(.accelerator-header) {
     position: fixed;
     border-bottom: 1px solid $gray;
     display: flex;
@@ -583,8 +601,12 @@ html.no-cssgrid {
           height: 30px;
           text-align: center;
           padding: 0;
-          span {
+          span.label {
             display: none;
+          }
+          span.icon {
+            width: 20px;
+            height: 20px;
           }
         }
       }
@@ -741,8 +763,13 @@ html.no-cssgrid {
           height: 30px;
           text-align: center;
           padding: 0;
-          span {
+          span.label {
             display: none;
+          }
+          span.icon {
+            width: 30px;
+            height: 30px;
+            padding: 0;
           }
         }
       }
@@ -759,3 +786,196 @@ html.no-cssgrid {
 //END ON-SCROLL STYLES
 /*********************************/
 /*********************************/
+
+/*********************************/
+/*********************************/
+//accelerator-header STYLES
+
+.accelerator-header#sticky-phantom {
+  height: 80px;
+  figure {
+  }
+}
+
+.accelerator-header {
+  border-bottom: 1rem solid $brand-one;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
+  align-items: center;
+  min-height: 70px;
+  padding: 2rem 2rem 0.5rem 0;
+  position: fixed;
+  margin-bottom: 1rem;
+  width: 100%;
+  background-color: $white;
+  z-index: 200;
+  transition: height 0.5s ease;
+  @media only screen and (max-width: 1400px) {
+    padding-top: 0.5rem;
+  }
+
+  .g-item {
+    &.logo-accelerator {
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row: 1;
+      align-self: center;
+      justify-content: end;
+      padding: 0 0 0 1rem;
+      align-items: start;
+      //display: flex;
+      display: inherit;
+
+    }
+    &.headline-accelerator {
+      grid-column-start: 2;
+      grid-column-end: 11;
+      grid-row: 1;
+      display: grid;
+      align-self: end;
+    }
+    &.social-button-accelerator {
+      grid-column-start: 13;
+      grid-column-end: 14;
+      grid-row: 1;
+      align-self: center;
+    }
+    &.button-accelerator {
+      grid-column-start: 14;
+      grid-column-end: 14;
+      grid-row: 1;
+      align-self: end;
+    }
+    @media only screen and (max-width: 1400px) {
+      &.logo-accelerator {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row: 1/ span 1;
+        padding: 0;
+      }
+      &.headline-accelerator {
+        //grid-column-start: 2;
+        //grid-column-end: 12;
+        ////grid-row: 2/ 2;
+        //margin: 0 0 1rem 0;
+        display: none;
+
+      }
+      &.social-button-accelerator {
+        grid-column-start: 11;
+        grid-column-end: 13;
+      }
+      &.button-accelerator {
+        grid-column-start: 12;
+        grid-column-end: 15;
+        //grid-row: 2/ 2;
+        margin: 0;
+        padding-right: 0;
+        justify-content: center;
+        align-self: center;
+        display: inherit;
+
+      }
+    }
+    @media only screen and (max-width: 900px) {
+      padding: 0.5rem 0 0 0;
+      &.logo-accelerator {
+        grid-column-start: 2;
+        grid-column-end: 6;
+      }
+      &.social-button-accelerator {
+        grid-column-start: 9;
+        grid-column-end: 12;
+        justify-content: end;
+        display: inherit;
+      }
+      &.button-accelerator {
+        grid-column-start: 11;
+        grid-column-end: 15;
+
+      }
+    }
+    @media only screen and (max-width: 750px) {
+      &.logo-accelerator {
+        grid-column-start: 2;
+        grid-column-end: 6;
+      }
+      &.social-button-accelerator {
+        grid-column-start: 9;
+        grid-column-end: 12;
+        justify-content: end;
+        display: inherit;
+      }
+      &.button-accelerator {
+        grid-column-start: 10;
+        grid-column-end: 14;
+
+      }
+    }
+    @media only screen and (max-width: 750px) {
+      &.logo-accelerator {
+ 
+      }
+      &.social-button-accelerator {
+        display: none;
+      }
+      &.button-accelerator {
+      }
+    }
+  }
+
+  #logo-accelerator {
+    margin: 0;
+    a {
+      svg {
+        width: 100%;
+        min-width: 200px;
+        max-width: 250px;
+        box-sizing: border-box;
+        @media only screen and (max-width: 1400px) {
+          padding: 1rem 0 0 0;
+        }
+      }
+    }
+  }
+  .headline-accelerator {
+    font-family: $font-family;
+    font-size: $header-size / 2;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+    color: $brand-blue;
+    border: none;
+  }
+  .button-accelerator {
+    padding-right: 1rem;
+    div.social-button {
+      display: inline-flex;
+      align-items: center;
+    }
+    #social {
+      margin-right: 1rem;
+    }
+    .button-primary {
+      text-align: center;
+      width: auto;
+      padding: 7.5px 15px;
+    }
+    span.icon {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      padding-left: 5px;
+    }
+  }
+}
+
+#sticky-phantom-accelerator {
+  height: 110px;
+  @media only screen and (max-width: 1400px) {
+    height: 86px;
+  }
+}
+
+

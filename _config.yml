@@ -1,13 +1,15 @@
 ---
-title: Open Active Staging
+title: OpenActive
 timezone: UTC
 collections:
   booking_engines:
-    title: Booking Engines
+    title: Booking Systems
     output: true
-    member: ''
   case_studies:
     title: Case Studies
+    output: true
+  dataproviders:
+    title: Data Providers
     output: true
   events:
     title: Events
@@ -20,6 +22,9 @@ collections:
     output: true
   mentors:
     title: Mentors
+    output: true
+  partners:
+    title: Partners
     output: true
   posts:
     title: Posts
@@ -43,6 +48,7 @@ defaults:
     layout: post
     is_featured: false
     thumbnail_image: ''
+    categories: About OpenActive
 - scope:
     path: ''
     type: case_studies
@@ -50,6 +56,7 @@ defaults:
     layout: case-study
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
+    member: 
     strapline: 
 - scope:
     path: ''
@@ -60,6 +67,21 @@ defaults:
     thumbnail_image: "/uploads/placeholder.png"
     twitter: 
     linkedin: 
+    role: 
+- scope:
+    path: ''
+    type: partners
+  values:
+    layout: partner
+    is_featured: false
+    thumbnail_image: "/uploads/placeholder.png"
+- scope:
+    path: ''
+    type: dataproviders
+  values:
+    layout: dataprovider
+    is_featured: false
+    thumbnail_image: "/uploads/placeholder.png"
 - scope:
     path: ''
     type: members
@@ -74,6 +96,39 @@ defaults:
   values:
     layout: booking-engine
     is_featured: false
+    is_enabled: false
     thumbnail_image: "/uploads/placeholder.png"
+    member: 
     website: Web address
-permalink: pretty
+compress_html:
+  blanklines: false
+  profile: false
+locale: en-US
+description: Helping physical activity reach everyone. OpenActive is community-led
+  initiative with an ambition to help people in England get active using open data.
+baseurl: 
+url: https://staging.openactive.io
+repository: openactive/openactive-staging
+email: your-email@example.com
+github_username: imaginatecreative
+twitter_username: twitter
+youtube_username: 
+facebook_username: 
+instagram_username: 
+pinterest_username: 
+medium_username: medium
+markdown: kramdown
+plugins:
+- jekyll-feed
+staticman:
+  branch: master
+reCaptcha:
+  siteKey: sitekey
+  secret: 
+atom_feed:
+  path: 
+search: 
+search_full_content: 
+tipue_search:
+  include:
+    pages: true

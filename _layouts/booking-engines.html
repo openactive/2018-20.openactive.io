@@ -11,24 +11,29 @@ layout: default
             {{ content }}
         </div>
     </article>
-
-    {% if site.booking_engines %}
-    {% for post in site.booking_engines %}
+    {% assign posts = site.booking_engines | where:"is_enabled", true %}}
+    {% for post in posts %}
     {% assign num = forloop.length %}
     {% endfor %}
 
 
     <article class="member-list">
         <div class="one">
-            <h4>Open Active has {{num}} booking engines which have already adopted the standards</h4>
+            <h4>Open Active has {{num}} Booking Systems which have already adopted the standards</h4>
         </div>
         <div class="one">
 
             {% assign sortedPosts = site.booking_engines | sort: 'title' %}
             {% for post in sortedPosts %}
+            {% if post.is_enabled %}
+            {% assign theImage = post.thumbnail_image %}
+            {% if post.member %}
+            {% assign theMember = site.members | where:"title", post.member  | first %}
+            {% assign theImage = theMember.thumbnail_image %} 
+            {% endif %}
             <div class="subgrid" id="member-{{ forloop.index }}">
                 <figure role="group" class="two tworight">
-                    <img role="logo" src="{{post.thumbnail_image | relative_url}}">
+                    <img role="logo" src="{{theImage | relative_url}}">
                 </figure>
                 <div class="two tworight">
                     <div class="wrap">
@@ -38,10 +43,11 @@ layout: default
                             }}</a></h3>
                         {{ post.excerpt }}
                     </div>
-                    <a class="button-secondary" href="{{ post.url | relative_url }}">Read Booking Engine</a>
+                    <!-- <a class="button-secondary" href="{{ post.url | relative_url }}">Read Booking Engine</a> -->
                 </div>
             </div>
             <hr>
+            {% endif %}
             {% endfor %}
 
         </div>
@@ -49,7 +55,7 @@ layout: default
 
 
     </aside>
-    {% endif %}
+   
 
 
 </div>

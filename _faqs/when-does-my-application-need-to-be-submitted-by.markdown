@@ -1,8 +1,9 @@
 ---
-title: When does my application need to be submitted by?
+title: When does the call close?
 date: 2018-02-07 12:03:00 Z
 categories:
 - OpenActive Accelerator
+is_featured: true
 ---
 
-Deadline for applications close on \[Date\] Link to the timeline/ how to apply.
+On March 11th, 2018 at 11pm GMT. This is a strict deadline so please try to apply well in advance.

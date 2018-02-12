@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-3251.654 -4307 156.113 1245.227">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-2, .cls-3, .cls-5, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #8a4a97;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+        stroke-width: 7.041px;
+      }
+
+      .cls-2 {
+        stroke: #7fc4fd;
+      }
+
+      .cls-3 {
+        stroke: #ea5153;
+      }
+
+      .cls-4 {
+        fill: rgba(0,0,0,0);
+        stroke: #b20037;
+      }
+
+      .cls-6 {
+        fill: #29235c;
+      }
+
+      .cls-7 {
+        fill: #7fc4fd;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+
+      .cls-9 {
+        font-size: 19px;
+      }
+
+      .cls-10, .cls-9 {
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-weight: 600;
+      }
+
+      .cls-10 {
+        font-size: 20px;
+      }
+    </style>
+  </defs>
+  <g id="Group_691" data-name="Group 691" transform="translate(-4194 -6961)">
+    <path id="Subtraction_11" data-name="Subtraction 11" class="cls-1" d="M4690.777,7963.666h0l-37.777-21.8v-79.975l37.777-21.92,53.507,31.049v61.767l-53.507,30.882Z" transform="translate(-3704 -4083)"/>
+    <path id="Subtraction_9" data-name="Subtraction 9" class="cls-2" d="M4688.775,7186.666h0L4653,7166.018v-82.291l35.775-20.759,53.509,31.049v61.767l-53.509,30.882Z" transform="translate(-3704 -4078)"/>
+    <path id="Subtraction_10" data-name="Subtraction 10" class="cls-1" d="M4690.777,7649.665h0l-37.777-21.8v-79.975l37.777-21.918,53.507,31.046v61.767l-53.507,30.882Z" transform="translate(-3704 -3864)"/>
+    <path id="Subtraction_5" data-name="Subtraction 5" class="cls-3" d="M4653,7872.282V7200.114l145.938,123.4v425.364L4653,7872.282Z" transform="translate(-3704 -4151)"/>
+    <path id="Subtraction_8" data-name="Subtraction 8" class="cls-2" d="M4684.251,7163.017h0L4653,7144.98v-97.2l31.251-18.037,57.636,33.361v66.555l-57.636,33.361Z" transform="translate(-3704 -4145)"/>
+    <path id="Subtraction_4" data-name="Subtraction 4" class="cls-4" d="M4653,7676.381V7297.954l100.23,86.321v205.784L4653,7676.381Z" transform="translate(-3704 -3954)"/>
+    <path id="Subtraction_7" data-name="Subtraction 7" class="cls-2" d="M4690.767,7175.944h0l-37.767-21.8v-80.1l37.767-21.8,53.509,30.884v61.931l-53.509,30.882Z" transform="translate(-3704 -4259)"/>
+    <path id="Subtraction_6" data-name="Subtraction 6" class="cls-2" d="M4685.573,7143.442h0L4653,7124.684v-95.664l32.572-18.853,57.8,33.361v66.719l-57.8,33.194Z" transform="translate(-3704 -4320)"/>
+    <rect id="Rectangle_1228" data-name="Rectangle 1228" class="cls-5" width="1245.227" height="69.363" transform="translate(1011.709 2654) rotate(90)"/>
+    <path id="Path_372" data-name="Path 372" class="cls-6" d="M104.888,197.039H12.9L41.471,143.2h91.988Z" transform="translate(1146.486 2662.404) rotate(90)"/>
+    <path id="Path_373" data-name="Path 373" class="cls-6" d="M164.788,197.039H72.8L101.371,143.2h91.988Z" transform="translate(1146.486 2701.429) rotate(90)"/>
+    <path id="Path_370" data-name="Path 370" class="cls-7" d="M222.837,197.039H132.5L161.071,143.2h90.337Z" transform="translate(1146.486 2740.323) rotate(90)"/>
+    <path id="Path_359" data-name="Path 359" class="cls-7" d="M281.737,197.039H191.4L219.971,143.2h90.337Z" transform="translate(1146.486 2778.696) rotate(90)"/>
+    <path id="Path_360" data-name="Path 360" class="cls-7" d="M342.388,197.039H250.4L278.806,143.2h91.988Z" transform="translate(1146.486 2817.134) rotate(90)"/>
+    <path id="Path_361" data-name="Path 361" class="cls-7" d="M402.288,197.039H310.3L338.706,143.2h91.988Z" transform="translate(1146.486 2856.159) rotate(90)"/>
+    <path id="Path_362" data-name="Path 362" class="cls-7" d="M460.337,197.039H370L398.406,143.2h90.337Z" transform="translate(1146.486 2895.053) rotate(90)"/>
+    <path id="Path_363" data-name="Path 363" class="cls-7" d="M519.137,196.739H428.8L457.371,142.9h90.337Z" transform="translate(1146.682 2933.361) rotate(90)"/>
+    <path id="Path_364" data-name="Path 364" class="cls-7" d="M695.937,197.039H605.6L634.171,143.2h90.337Z" transform="translate(1146.486 3048.545) rotate(90)"/>
+    <path id="Path_365" data-name="Path 365" class="cls-7" d="M754.637,197.039H664.3L692.871,143.2h90.337Z" transform="translate(1146.486 3086.788) rotate(90)"/>
+    <path id="Path_366" data-name="Path 366" class="cls-7" d="M578.037,197.039H487.7L516.271,143.2h90.337Z" transform="translate(1146.486 2971.734) rotate(90)"/>
+    <path id="Path_367" data-name="Path 367" class="cls-7" d="M636.737,197.039H546.4L574.971,143.2h90.337Z" transform="translate(1146.486 3009.977) rotate(90)"/>
+    <rect id="Rectangle_1245" data-name="Rectangle 1245" class="cls-8" width="41.287" height="16.515" transform="translate(984.625 2713.289) rotate(90)"/>
+    <text id="JAN" class="cls-9" transform="translate(956 2743.308)"><tspan x="0" y="0">JAN</tspan></text>
+    <rect id="Rectangle_1243" data-name="Rectangle 1243" class="cls-8" width="41.287" height="16.515" transform="translate(984.625 2813.699) rotate(90)"/>
+    <text id="FEB" class="cls-10" transform="translate(954.5 2845.222)"><tspan x="0" y="0">FEB</tspan></text>
+    <rect id="Rectangle_1240" data-name="Rectangle 1240" class="cls-8" width="50.205" height="17.341" transform="translate(983.799 2906.679) rotate(90)"/>
+    <text id="MAR" class="cls-9" transform="translate(952.5 2940.203)"><tspan x="0" y="0">MAR</tspan></text>
+    <rect id="Rectangle_1241" data-name="Rectangle 1241" class="cls-8" width="49.38" height="25.598" transform="translate(984.294 3004.942) rotate(90)"/>
+    <text id="APR" class="cls-9" transform="translate(954.5 3036.467)"><tspan x="0" y="0">APR</tspan></text>
+    <rect id="Rectangle_1229" data-name="Rectangle 1229" class="cls-8" width="50.04" height="24.938" transform="translate(987 3106.215) rotate(90)"/>
+    <text id="MAY" class="cls-9" transform="translate(953.5 3134.689)"><tspan x="0" y="0">MAY</tspan></text>
+    <rect id="Rectangle_1230" data-name="Rectangle 1230" class="cls-8" width="55.325" height="16.515" transform="translate(984.625 3202.626) rotate(90)"/>
+    <text id="JUN" class="cls-9" transform="translate(957.5 3233.103)"><tspan x="0" y="0">JUN</tspan></text>
+    <rect id="Rectangle_1231" data-name="Rectangle 1231" class="cls-8" width="54.334" height="17.836" transform="translate(984.625 3300.725) rotate(90)"/>
+    <text id="JUL" class="cls-9" transform="translate(959.5 3329.202)"><tspan x="0" y="0">JUL</tspan></text>
+    <rect id="Rectangle_1232" data-name="Rectangle 1232" class="cls-8" width="53.508" height="16.515" transform="translate(984.625 3393.869) rotate(90)"/>
+    <text id="AUG" class="cls-10" transform="translate(954 3427.848)"><tspan x="0" y="0">AUG</tspan></text>
+    <rect id="Rectangle_1233" data-name="Rectangle 1233" class="cls-8" width="41.287" height="16.515" transform="translate(983.964 3498.244) rotate(90)"/>
+    <text id="SEP" class="cls-9" transform="translate(957.5 3527.694)"><tspan x="0" y="0">SEP</tspan></text>
+    <rect id="Rectangle_1234" data-name="Rectangle 1234" class="cls-8" width="56.316" height="16.515" transform="translate(983.964 3593.205) rotate(90)"/>
+    <text id="OCT" class="cls-9" transform="translate(955 3624.135)"><tspan x="0" y="0">OCT</tspan></text>
+    <rect id="Rectangle_1235" data-name="Rectangle 1235" class="cls-8" width="54.004" height="16.515" transform="translate(984.625 3690.643) rotate(90)"/>
+    <text id="NOV" class="cls-9" transform="translate(954 3723.573)"><tspan x="0" y="0">NOV</tspan></text>
+    <rect id="Rectangle_1236" data-name="Rectangle 1236" class="cls-8" width="45.912" height="16.515" transform="translate(984.625 3790.063) rotate(90)"/>
+    <text id="DEC" class="cls-10" transform="translate(954 3823.123)"><tspan x="0" y="0">DEC</tspan></text>
+  </g>
+</svg>

@@ -5,4 +5,4 @@ categories:
 - About OpenActive Data
 ---
 
-Explore the API dashboard.
+Explore the [API status dashboard](http://status.openactive.io/) regularly. Our team is talking to activity providers on a daily basis so expect to see the list of open opportunity data growing all the time. 

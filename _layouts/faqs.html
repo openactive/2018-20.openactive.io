@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="collection page" id="faqs">
+<div class="collection page global-template" id="faqs">
 
 
     <article class="news-content">
@@ -10,7 +10,7 @@ layout: default
         <h2 class="sub-heading-two">About OpenActive</h2>
         {% for post in aboutOpen %}
         <div class="one">
-            <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            <h3>{{ post.title | escape }}</h3>
             <span class="post-meta">{{post.category}}</span>
             <p class="post-snippet">{{post.content}}</p>
         </div>
@@ -22,7 +22,7 @@ layout: default
         {% assign aboutOpenData = site.faqs | where: "categories", "About OpenActive Data" %}
         {% for post in aboutOpenData %}
         <div class="one">
-            <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            <h3>{{ post.title | escape }}</h3>
             <span class="post-meta">{{post.category}}</span>
             <p class="post-snippet">{{post.content}}</p>
         </div>
@@ -34,7 +34,7 @@ layout: default
         {% assign aboutAccelerator = site.faqs | where: "categories", "OpenActive Accelerator" %}
         {% for post in aboutAccelerator %}
         <div class="one">
-            <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            <h3>{{ post.title | escape }}</h3>
             <span class="post-meta">{{post.category}}</span>
             <p class="post-snippet">{{post.content}}</p>
         </div>
@@ -46,7 +46,7 @@ layout: default
         {% assign openActiveCommunity = site.faqs | where: "categories", "OpenActive Community" %}
         {% for post in openActiveCommunity %}
         <div class="one">
-            <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            <h3>{{ post.title | escape }}</h3>
             <span class="post-meta">{{post.category}}</span>
             <p class="post-snippet">{{post.content}}</p>
         </div>
@@ -58,7 +58,7 @@ layout: default
         {% assign usingOpportunityData = site.faqs | where: "categories", "Using Open Opportunity Data" %}
         {% for post in usingOpportunityData %}
         <div class="one">
-            <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            <h3>{{ post.title | escape }}</h3>
             <span class="post-meta">{{post.category}}</span>
             <p class="post-snippet">{{post.content}}</p>
         </div>
@@ -70,7 +70,7 @@ layout: default
         {% assign publishOpportunityData = site.faqs | where: "categories", "Publishing Open Opportunity Data" %}
         {% for post in publishOpportunityData %}
         <div class="one">
-            <h3><a class="post-title post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            <h3>{{ post.title | escape }}</h3>
             <span class="post-meta">{{post.category}}</span>
             <p class="post-snippet">{{post.content}}</p>
         </div>

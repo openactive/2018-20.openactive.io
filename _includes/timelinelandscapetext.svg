@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-3857 -5275 1354 692">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-10, .cls-2, .cls-3, .cls-4, .cls-6, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #8a4a97;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+        stroke-width: 7.041px;
+      }
+
+      .cls-3 {
+        stroke: #7fc4fd;
+      }
+
+      .cls-4 {
+        stroke: #ea5153;
+      }
+
+      .cls-5 {
+        fill: rgba(0,0,0,0);
+        stroke: #b20037;
+      }
+
+      .cls-7 {
+        fill: #29235c;
+      }
+
+      .cls-8 {
+        fill: #7fc4fd;
+      }
+
+      .cls-9 {
+        font-size: 19px;
+      }
+
+      .cls-10, .cls-9 {
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-weight: 600;
+      }
+
+      .cls-10 {
+        font-size: 20px;
+      }
+
+      .cls-11 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-12 {
+        fill: #0067b2;
+      }
+
+      .cls-13 {
+        fill: #3b3089;
+      }
+
+      .cls-13, .cls-17, .cls-18, .cls-22 {
+        font-size: 30px;
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+      }
+
+      .cls-14 {
+        fill: #5a5a5a;
+      }
+
+      .cls-14, .cls-19, .cls-20, .cls-21 {
+        font-size: 25px;
+        font-family: SourceSansPro-Regular, Source Sans Pro;
+        letter-spacing: -0.01em;
+      }
+
+      .cls-15, .cls-17 {
+        fill: #ea5153;
+      }
+
+      .cls-16, .cls-18, .cls-20 {
+        fill: #bc3fa8;
+      }
+
+      .cls-19 {
+        fill: #2699fb;
+      }
+
+      .cls-21 {
+        fill: #b20037;
+      }
+
+      .cls-22 {
+        fill: #1a1c50;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="36" height="23"/>
+    </clipPath>
+  </defs>
+  <g id="Group_705" data-name="Group 705" transform="translate(-4194 -6961)">
+    <g id="Group_690" data-name="Group 690">
+      <path id="Path_353" data-name="Path 353" class="cls-2" d="M292.614,154.1H230.848L199.8,207.608l31.048,53.508h61.766L323.5,207.608Z" transform="translate(1239.168 1787.615)"/>
+      <path id="Path_335" data-name="Path 335" class="cls-3" d="M292.614,154.1H230.848L199.8,207.608l31.048,53.508h61.766L323.5,207.608Z" transform="translate(468.168 1787.615)"/>
+      <path id="Path_352" data-name="Path 352" class="cls-2" d="M292.614,154.1H230.848L199.8,207.608l31.048,53.508h61.766L323.5,207.608Z" transform="translate(1145.168 1787.615)"/>
+      <path id="Subtraction_1" data-name="Subtraction 1" class="cls-4" d="M4790.678,7261.937H4253.044l-29.491-49.7L4372.622,6961H4671.1l149.068,251.234-29.491,49.7Z" transform="translate(-3457 -5185.938)"/>
+      <path id="Path_339" data-name="Path 339" class="cls-3" d="M237.815,95H171.26L137.9,152.637l33.36,57.8h66.555l33.36-57.8Z" transform="translate(426.841 1847.112)"/>
+      <path id="Subtraction_2" data-name="Subtraction 2" class="cls-5" d="M4851.666,7150.23h-271.2l-28.863-49.2L4633.747,6961h164.636l82.145,140.029-28.862,49.2Z" transform="translate(-3517.359 -5074.23)"/>
+      <path id="Path_334" data-name="Path 334" class="cls-3" d="M164.414,153.5H102.483L71.6,207.008l30.883,53.508h61.931L195.3,207.008Z" transform="translate(404.647 1786.224)"/>
+      <path id="Path_337" data-name="Path 337" class="cls-3" d="M121.981,94.1H55.26L21.9,151.9l33.36,57.637h66.72l33.2-57.637Z" transform="translate(351.268 1846.525)"/>
+      <rect id="Rectangle_1206" data-name="Rectangle 1206" class="cls-6" width="1245.227" height="69.363" transform="translate(337 2013.291)"/>
+      <path id="Path_340" data-name="Path 340" class="cls-7" d="M104.888,197.039H12.9L41.471,143.2h91.988Z" transform="translate(345.404 1878.514)"/>
+      <path id="Path_341" data-name="Path 341" class="cls-7" d="M164.788,197.039H72.8L101.371,143.2h91.988Z" transform="translate(384.429 1878.514)"/>
+      <path id="Path_342" data-name="Path 342" class="cls-8" d="M222.837,197.039H132.5L161.071,143.2h90.337Z" transform="translate(423.323 1878.514)"/>
+      <path id="Path_343" data-name="Path 343" class="cls-8" d="M281.737,197.039H191.4L219.971,143.2h90.337Z" transform="translate(461.696 1878.514)"/>
+      <path id="Path_344" data-name="Path 344" class="cls-8" d="M342.388,197.039H250.4L278.806,143.2h91.988Z" transform="translate(500.134 1878.514)"/>
+      <path id="Path_345" data-name="Path 345" class="cls-8" d="M402.288,197.039H310.3L338.706,143.2h91.988Z" transform="translate(539.159 1878.514)"/>
+      <path id="Path_346" data-name="Path 346" class="cls-8" d="M460.337,197.039H370L398.406,143.2h90.337Z" transform="translate(578.053 1878.514)"/>
+      <path id="Path_347" data-name="Path 347" class="cls-8" d="M519.137,196.739H428.8L457.371,142.9h90.337Z" transform="translate(616.361 1878.318)"/>
+      <path id="Path_348" data-name="Path 348" class="cls-8" d="M695.937,197.039H605.6L634.171,143.2h90.337Z" transform="translate(731.545 1878.514)"/>
+      <path id="Path_349" data-name="Path 349" class="cls-8" d="M754.637,197.039H664.3L692.871,143.2h90.337Z" transform="translate(769.788 1878.514)"/>
+      <path id="Path_350" data-name="Path 350" class="cls-8" d="M578.037,197.039H487.7L516.271,143.2h90.337Z" transform="translate(654.734 1878.514)"/>
+      <path id="Path_351" data-name="Path 351" class="cls-8" d="M636.737,197.039H546.4L574.971,143.2h90.337Z" transform="translate(692.977 1878.514)"/>
+      <rect id="Rectangle_1207" data-name="Rectangle 1207" class="cls-1" width="41.287" height="16.515" transform="translate(396.289 2040.375)"/>
+      <text id="JAN" class="cls-9" transform="translate(398.308 2057)"><tspan x="0" y="0">JAN</tspan></text>
+      <rect id="Rectangle_1208" data-name="Rectangle 1208" class="cls-1" width="41.287" height="16.515" transform="translate(496.699 2040.375)"/>
+      <text id="FEB" class="cls-10" transform="translate(497.722 2057)"><tspan x="0" y="0">FEB</tspan></text>
+      <rect id="Rectangle_1209" data-name="Rectangle 1209" class="cls-1" width="50.205" height="17.341" transform="translate(589.679 2041.201)"/>
+      <text id="MAR" class="cls-9" transform="translate(593.703 2057)"><tspan x="0" y="0">MAR</tspan></text>
+      <rect id="Rectangle_1210" data-name="Rectangle 1210" class="cls-1" width="49.38" height="25.598" transform="translate(687.942 2040.706)"/>
+      <text id="APR" class="cls-9" transform="translate(689.967 2057)"><tspan x="0" y="0">APR</tspan></text>
+      <rect id="Rectangle_1211" data-name="Rectangle 1211" class="cls-1" width="50.04" height="24.938" transform="translate(789.215 2038)"/>
+      <text id="MAY" class="cls-9" transform="translate(789.189 2057)"><tspan x="0" y="0">MAY</tspan></text>
+      <rect id="Rectangle_1212" data-name="Rectangle 1212" class="cls-1" width="55.325" height="16.515" transform="translate(885.626 2040.375)"/>
+      <text id="JUN" class="cls-9" transform="translate(889.603 2057)"><tspan x="0" y="0">JUN</tspan></text>
+      <rect id="Rectangle_1213" data-name="Rectangle 1213" class="cls-1" width="54.334" height="17.836" transform="translate(983.725 2040.375)"/>
+      <g id="Repeat_Grid_1" data-name="Repeat Grid 1" class="cls-11" transform="translate(987.702 2039)">
+        <g transform="translate(-987.702 -2038)">
+          <text id="JUL" class="cls-9" transform="translate(987.702 2056)"><tspan x="0" y="0">JUL</tspan></text>
+        </g>
+      </g>
+      <rect id="Rectangle_1214" data-name="Rectangle 1214" class="cls-1" width="53.508" height="16.515" transform="translate(1076.869 2040.375)"/>
+      <text id="AUG" class="cls-10" transform="translate(1080.848 2057)"><tspan x="0" y="0">AUG</tspan></text>
+      <rect id="Rectangle_1215" data-name="Rectangle 1215" class="cls-1" width="41.287" height="16.515" transform="translate(1181.244 2041.036)"/>
+      <text id="SEP" class="cls-9" transform="translate(1184.194 2057)"><tspan x="0" y="0">SEP</tspan></text>
+      <rect id="Rectangle_1216" data-name="Rectangle 1216" class="cls-1" width="56.316" height="16.515" transform="translate(1276.205 2041.036)"/>
+      <text id="OCT" class="cls-9" transform="translate(1278.135 2057)"><tspan x="0" y="0">OCT</tspan></text>
+      <rect id="Rectangle_1217" data-name="Rectangle 1217" class="cls-1" width="54.004" height="16.515" transform="translate(1373.643 2040.375)"/>
+      <text id="NOV" class="cls-9" transform="translate(1375.573 2057)"><tspan x="0" y="0">NOV</tspan></text>
+      <rect id="Rectangle_1218" data-name="Rectangle 1218" class="cls-1" width="45.912" height="16.515" transform="translate(1473.063 2040.375)"/>
+      <text id="DEC" class="cls-10" transform="translate(1471.123 2057)"><tspan x="0" y="0">DEC</tspan></text>
+    </g>
+    <rect id="Rectangle_1292" data-name="Rectangle 1292" class="cls-12" width="44" height="4.641" transform="translate(496.68 2124.32) rotate(-90)"/>
+    <text id="Open_call" data-name="Open call" class="cls-13" transform="translate(442 2124)"><tspan x="0" y="29">Open call</tspan></text>
+    <text id="to_startups" data-name="to startups" class="cls-14" transform="translate(442 2158)"><tspan x="0" y="25">to startups</tspan></text>
+    <rect id="Rectangle_1293" data-name="Rectangle 1293" class="cls-15" width="44" height="4.641" transform="translate(795.68 2124.32) rotate(-90)"/>
+    <rect id="Rectangle_1294" data-name="Rectangle 1294" class="cls-15" width="44" height="4.641" transform="translate(1276.68 2124.32) rotate(-90)"/>
+    <rect id="Rectangle_1295" data-name="Rectangle 1295" class="cls-16" width="44" height="4.641" transform="translate(1483.68 2124.32) rotate(-90)"/>
+    <text id="Accelerator_launches" data-name="Accelerator launches" class="cls-17" transform="translate(669 2124)"><tspan x="0" y="29">Accelerator launches</tspan></text>
+    <text id="Accelerator_ends" data-name="Accelerator ends" class="cls-17" transform="translate(1115 2124)"><tspan x="0" y="29">Accelerator ends</tspan></text>
+    <text id="Accelerator_Report" data-name="Accelerator
+Report" class="cls-18" transform="translate(1419 2124)"><tspan x="0" y="29">Accelerator</tspan><tspan x="0" y="61">Report</tspan></text>
+    <rect id="Rectangle_1296" data-name="Rectangle 1296" class="cls-12" width="185" height="4.641" transform="translate(606.68 2265.32) rotate(-90)"/>
+    <rect id="Rectangle_1297" data-name="Rectangle 1297" class="cls-16" width="185" height="4.641" transform="translate(1380.68 2265.32) rotate(-90)"/>
+    <text id="Bootcamp_selection" data-name="Bootcamp &amp; selection" class="cls-13" transform="translate(536 2265)"><tspan x="0" y="29">Bootcamp &amp; selection</tspan></text>
+    <text id="Investor_pitches" data-name="Investor pitches" class="cls-18" transform="translate(1310 2265)"><tspan x="0" y="29">Investor pitches</tspan></text>
+    <text id="_3_day_bootcamp_followed_by_1_day_of_pitching_judging" data-name="3 day bootcamp followed by
+1 day of pitching &amp; judging" class="cls-14" transform="translate(536 2299)"><tspan x="0" y="25">3 day bootcamp followed by</tspan><tspan x="0" y="55">1 day of pitching &amp; judging</tspan></text>
+    <text id="Part_of_the_ODI_Summit_for_media_sector_players_investors" data-name="Part of the ODI Summit for 
+media, sector players &amp; investors" class="cls-14" transform="translate(1309 2299)"><tspan x="0" y="25">Part of the ODI Summit for </tspan><tspan x="0" y="55">media, sector players &amp; investors</tspan></text>
+    <text id="_6_months_of_mentorship_workshops_support" data-name="6 months of mentorship,
+workshops &amp; support" class="cls-14" transform="translate(667 2157)"><tspan x="0" y="25">6 months of mentorship,</tspan><tspan x="0" y="55">workshops &amp; support</tspan></text>
+    <text id="Startups_prepare_final_pitches" data-name="Startups prepare 
+final pitches" class="cls-14" transform="translate(1113 2157)"><tspan x="0" y="25">Startups prepare </tspan><tspan x="0" y="55">final pitches</tspan></text>
+    <text id="Open_call-2" data-name="Open
+call" class="cls-19" transform="translate(483 1865)"><tspan x="22.6" y="25">Open</tspan><tspan x="32.625" y="50">call</tspan></text>
+    <text id="Boot_camp" data-name="Boot
+camp" class="cls-19" transform="translate(578 1865)"><tspan x="25.962" y="25">Boot</tspan><tspan x="21.7" y="50">camp</tspan></text>
+    <text id="ODI_Summit_publicity" data-name="ODI Summit publicity" class="cls-20" transform="translate(1346 1839)"><tspan x="38.475" y="25">ODI </tspan><tspan x="16.625" y="50">Summit </tspan><tspan x="12.75" y="75">publicity</tspan></text>
+    <text id="Results" class="cls-20" transform="translate(1446 1890)"><tspan x="20.5" y="25">Results</tspan></text>
+    <text id="Investor_engagement" data-name="Investor
+engagement" class="cls-21" transform="translate(1130 1918)"><tspan x="29.112" y="25">Investor</tspan><tspan x="6.238" y="50">engagement</tspan></text>
+    <text id="Selection_announcment" data-name="Selection
+announcment" class="cls-19" transform="translate(653 1803)"><tspan x="30.75" y="25">Selection</tspan><tspan x="6.037" y="50">announcment</tspan></text>
+    <text id="Accelerator_programme" data-name="Accelerator
+programme" class="cls-21" transform="translate(968 1803)"><tspan x="21.162" y="25">Accelerator</tspan><tspan x="18.013" y="50">programme</tspan></text>
+    <text id="COMMUNICATIONS" class="cls-22" transform="translate(808 1686)"><tspan x="18.57" y="29">COMMUNICATIONS</tspan></text>
+  </g>
+</svg>

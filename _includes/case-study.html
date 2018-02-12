@@ -1,28 +1,11 @@
-<article class="note-wrap" aria-hidden="true">
-<div class="notes">
-##### Section Notes ~ Case Studies Block
-**Purpose**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.
-
-**Functionality**: The logos will act as a tabbing system to reveal content from the case study, this would consist of some fast facts about each case.
-
-**Design**: The design of this section should be balanced and clearly represent to a user the functionality of the tabs, this would include clearly  active state on tabs to the open content area.
-
-**Copy-writing Notes**:
-</div>
-</article>
-
-
+<div class="page global-template">
 <article class="case-studies">
 <h2 class="sub-heading-two">Case<br> Studies</h2>
 <nav class="subgrid">
 {% for post in site.case_studies %}
 {% assign theImage = post.thumbnail_image %}
-{% if post.is_featured %}
-{% if post.member %}
-{% assign theMember = site.members | where:"title", post.member  | first %}
-{% assign theImage = theMember.thumbnail_image %}
-{% endif %}
 
+{% if post.is_featured %}
 <div class="case-tab" data-tab="case-{{ forloop.index }}" markdown="0" >
 
 <figure role="group" aria-labelledby="fig-{{ forloop.index }}">
@@ -73,3 +56,4 @@
 </aside>
 
 </article>
+</div>

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="collection page" id="blog-page">
+<div class="collection page global-template" id="blog-page">
 
     <article markdown="0" class="hero--sub">
 
@@ -17,7 +17,9 @@ layout: default
             <p class="post-snippet">{{post.excerpt}}</p><a href="{{ post.url | relative_url }}" class="button-primary">Read more</a>
         </div>
         <figure>
-            <div style="background: url({{post.thumbnail_image | relative_url}})center center / cover no-repeat;"></div>
+            <div class="triangle"></div>
+            <div class="stripe thick"></div>
+            <div style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
         </figure>
 
         {% endif %}
@@ -44,9 +46,9 @@ layout: default
 
                 <div class="two twoleft">
                     {% include share-page.html %}
-                    {{post.author}}
-                    <br/>
-                    {{post.date}}
+                    <p>{{post.author}}</p>
+                    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                    <p class="date">{{post.date | date: date_format}}</p>
 
                 </div>
             </div>
@@ -69,9 +71,9 @@ layout: default
 
                 <div class="two twoleft">
                     {% include share-page.html %}
-                    {{post.author}}
-                    <br/>
-                    {{post.date}}
+                    <p>{{post.author}}</p>
+                    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                    <p class="date">{{post.date | date: date_format}}</p>
 
                 </div>
             </div>
