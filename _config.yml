@@ -116,7 +116,7 @@ youtube_username:
 facebook_username: 
 instagram_username: 
 pinterest_username: 
-medium_username: '@openactiveio'
+medium_username: "@openactiveio"
 markdown: kramdown
 plugins:
 - jekyll-feed
