@@ -7,4 +7,3 @@ categories:
 
 * Initial application via [F6S](https://www.f6s.com/openactiveaccelerator/apply)
 * Shortlisted startups will then take part in a 4-day bootcamp 19-22 March 2018
-* test
