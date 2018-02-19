@@ -56,10 +56,9 @@ Opening up opportunity data across the sector will better connect providers and 
 </article>
 
 
-<article>
+<article class="call_to_action title-row">
 <h2 class="sub-heading-two">What are the benefits?</h2>
-<div class="one">
-
+<div class="two list blue-gradient-bc">
 
 
 ### Sport and Physical Activity Providers
@@ -68,11 +67,21 @@ Opening up opportunity data across the sector will better connect providers and 
 * Improve data skills and understanding within your organisation and harness technology to benefit your business.
 * Drive innovation, and collaborate with OpenActive to revolutionise the sector.
 
+</div>
+
+<div class="two list red-gradient-bc">
+
 ### Data Users and Developers
 
 * Harness open and accessible data from across the sport and physical sector.
 * Use data to help develop new products and enhance existing services to get people more active.
 * Be at the cutting edge of shaping consistent data standards and growing engagement with data publishers.
+
+</div>
+</article>
+
+<article class="call_to_action">
+<div class="one list purple-gradient-bc">
 
 ### Influential Organisations
 

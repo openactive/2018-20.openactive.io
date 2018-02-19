@@ -70,7 +70,7 @@ OpenActive makes discovering and taking part in  sport and fitness activities ea
 <div markdown="1" role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
 aria-labelledby="booking-systems">
 
-#### Booking Systems>
+#### Booking Systems
 
 1. To get started, add an open data tick-box to your system so your customers can begin publishing open data.
 2. Build in simple data tools to allow your customers to publish activity listings, and use OpenActive data standards to improve existing datasets.
@@ -79,6 +79,7 @@ aria-labelledby="booking-systems">
 
 
 Publish your activity listing and join the open data revolution.
+
 [Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
@@ -204,7 +205,12 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Latest News</h2>
-{% for post in site.posts limit:2 %}
+
+
+{% assign thePosts = site.posts | where: "is_featured", "true" %}
+
+
+{% for post in thePosts limit:2 %}
 
 <div class="two" id="post-{{ forloop.index }}">
 <figure role="group">

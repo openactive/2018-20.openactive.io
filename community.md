@@ -90,6 +90,7 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 <h2 class="sub-heading-two"> Community News</h2>
 {% for post in site.posts limit:2 %}
 {% if post.categories contains "Community" %}
+
 <div class="two" id="post-{{ forloop.index }}">
 <figure role="group">
 <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}-post-thumbnail">
@@ -110,17 +111,37 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 </div>
 </div>
 </div>
+
 {% endif %}
 {% endfor %}
 </article>
 
 
-<article>
+
+<article class="call_to_action--full-width">
+<h2 class="sub-heading-two">Developers</h2>
+
 <div class="one">
 
 ### Resources
-+ Links to resources on the developer page
-    + [Developer]( {{ site.baseurl }}{% link developer.md %})  
+Molestiae perspiciatis consequatur non est. Esse repudiandae magni voluptatem voluptate maiores id molestias quis. Nihil sit et cupiditate. Et ea quaerat alias sint deserunt.
+
+[Developer]( {{ site.baseurl }}{% link developer.md %}){:.button-primary}
+
+
+</div>
+<figure>
+<div class="triangle"></div>
+<div class="stripe"></div>
+<div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+</figure>
+</article>
+
+
+<article class="title-row">
+<h2 class="sub-heading-two">Members</h2>
+
+<div class="one">
 
 ### Meet the Community
 
@@ -129,7 +150,12 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 </div>
 </article>
 
-<article >
+
+
+
+
+
+<article>
 {% assign posts = site.members | sample:18 %}
 {% for post in posts %}
 {% assign theImage = post.thumbnail_image %}

@@ -1419,3 +1419,29 @@ $border-color: #DADADA;
 }
 
 
+.call_to_action{
+  .three{
+    &:nth-child(1){
+      @extend .blue-gradient-bc!optional;
+    }
+    &:nth-child(2){
+      @extend .purple-gradient-bc!optional;
+    }
+    &:nth-child(3){
+      @extend .red-gradient-bc!optional;
+    }
+  }
+  &.title-row{
+    .three{
+      &:nth-child(2){
+        @extend .blue-gradient-bc!optional;
+      }
+      &:nth-child(3){
+        @extend .purple-gradient-bc!optional;
+      }
+      &:nth-child(4){
+        @extend .red-gradient-bc!optional;
+      }
+    }
+  }
+}

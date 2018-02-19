@@ -41,7 +41,8 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 
 
 
-<article class="call_to_action">
+<article class="call_to_action title-row">
+<h2 class="sub-heading-two">Quick Start</h2>
 <div class="subgrid">
 <div class="two publish gradient list">
 
