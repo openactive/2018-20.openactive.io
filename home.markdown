@@ -70,16 +70,16 @@ OpenActive makes discovering and taking part in  sport and fitness activities ea
 <div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
 aria-labelledby="booking-systems">
 
-<h4>Booking Systems</h4>
-<ol>
-<li>To get started, add an open data tick-box to your system so your customers can begin publishing open data.</li>
-<li>Build in simple data tools to allow your customers to publish activity listings, and use OpenActive data standards to improve existing datasets.
-</li>
-<li>Datasets will be listed in our directory for anyone to access, use, and share.</li>
-<li>Now, your customers’ activities will be available everywhere, from high-traffic online platforms,, to local community services. </li>
-</ol>
-<p>Publish your activity listing and join the open data revolution.</p>
-<a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Get Started</a>
+#### Booking Systems>
+
+1. To get started, add an open data tick-box to your system so your customers can begin publishing open data.
+2. Build in simple data tools to allow your customers to publish activity listings, and use OpenActive data standards to improve existing datasets.
+3. Datasets will be listed in our directory for anyone to access, use, and share.
+4. Now, your customers’ activities will be available everywhere, from high-traffic online platforms,, to local community services.
+
+
+Publish your activity listing and join the open data revolution.
+[Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
 
@@ -93,17 +93,16 @@ aria-labelledby="booking-systems">
 <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true"
 aria-labelledby="activity-provider">
 
-<h4>Activity Providers</h4>
-<ol>
-<li>List your activity details on your existing website or booking system.</li>
-<li>Publish your activity information using our OpenActive data standards.
-</li>
-<li>Your dataset will be listed in our directory for anyone to access, use, and share.</li>
-<li>Now, your activities will be available everywhere, from high-traffic online platforms, to local community services.
-</li>
-</ol>
-<p>Publish your activity listing and join the open data revolution</p>
-<a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Get Started</a>
+#### Activity Providers
+
+1. List your activity details on your existing website or booking system.
+2. Publish your activity information using our OpenActive data standards.
+3. Your dataset will be listed in our directory for anyone to access, use, and share.
+4. Now, your activities will be available everywhere, from high-traffic online platforms, to local community services.
+
+Publish your activity listing and join the open data revolution
+[Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
+
 </div>
 
 <h3 class="tablink" role="tab presentation" aria-selected="false">
@@ -115,17 +114,17 @@ aria-labelledby="activity-provider">
 
 <div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
 
-<h4>Use Data</h4>
-<ol>
-<li>Pick a data source from the list available on OpenActive.</li>
-<li>Join their mailing list and review the documentation.</li>
-<li>Pull in the data to your website or app. If you need help reach out to the OpenActive Community.</li>
-</ol>
-<a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Get Started</a>
+#### Use Data
+
+1. Pick a data source from the list available on OpenActive.
+2. Join their mailing list and review the documentation.
+3. Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
+
+[Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
+
 
 </div>
 
-<!-- <div class="slider"></div> -->
 
 </div>
 
@@ -143,7 +142,7 @@ aria-labelledby="activity-provider">
 
 Take the first step enabling open data in your system.
 
-\[Getting Started\]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
 <div class="three purple-gradient-bc">
@@ -152,7 +151,7 @@ Take the first step enabling open data in your system.
 
 Get stuck into the docs and start using or publishing data today!
 
-\[Developer\]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
+[Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
 
 </div>
 <div class="three red-gradient-bc ">
@@ -161,7 +160,7 @@ Get stuck into the docs and start using or publishing data today!
 
 What's happening in the community, and how you can get involved!
 
-\[Community\]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
+[Community]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
 
 </div>
 </div>
@@ -170,14 +169,14 @@ What's happening in the community, and how you can get involved!
 <article class="title-row">
 <h2 class="sub-heading-two"> What is <br>Open Data?</h2>
 <div class="one">
+
 <h3>What is the definition?</h3>
 <p class="reset-style">
 Open data is data that anyone can access, use or share. Simple as that. When big companies or governments release non-personal data, it enables small businesses, citizens and medical researchers to develop resources which make crucial improvements to their communities.</p>
-<p></p>
 </div>
 <div class="one">
 
-!\[what_open_data.png\]({{ site.baseurl }}/uploads/what_open_data.png)
+![what_open_data.png]({{ site.baseurl }}/uploads/what_open_data.png)
 
 </div>
 
@@ -191,7 +190,7 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 
 Millions find it hard to stay active. OpenActive Accelerator calls for startups to make it easier with digital innovation using open data.
 
-\[Find out more\]( {{ site.baseurl }}{% link accelerator.md %}){: .button-primary}
+[Find out more]( {{ site.baseurl }}{% link accelerator.md %}){: .button-primary}
 
 </div>
 
