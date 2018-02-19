@@ -1,7 +1,7 @@
 ---
 title: Accelerator
 permalink: "/accelerator/"
-position: 29
+position: 30
 is_main_navigation: false
 is_secondary_navigation: true
 thumbnail_image: "/uploads/cover12_2.png"

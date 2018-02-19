@@ -1,7 +1,7 @@
 ---
 title: How To Guides
 permalink: "/how-to/"
-position: 11
+position: 12
 is_main_navigation: false
 thumbnail_image: "/uploads/sideplank.jpg"
 strapline: Repellendus veritatis culpa autem voluptatem neque rerum. Odit eaque voluptatem

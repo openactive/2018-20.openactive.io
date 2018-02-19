@@ -1,7 +1,7 @@
 ---
 title: Community Members
 permalink: "/community-members/"
-position: 25
+position: 26
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
