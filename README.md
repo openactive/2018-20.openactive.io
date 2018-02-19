@@ -1,7 +1,7 @@
 ---
 title: Read Me
 permalink: "/readme/"
-position: 8
+position: 10
 is_main_navigation: false
 layout: page-headless
 ---

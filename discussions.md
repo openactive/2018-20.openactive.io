@@ -1,7 +1,7 @@
 ---
 title: Discussions
 permalink: "/discussions/"
-position: 7
+position: 3
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"

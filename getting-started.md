@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 permalink: "/getting-started/"
-position: 3
+position: 20
 is_main_navigation: true
 layout: page-hero
 thumbnail_image: "/uploads/iStock-803099000optimised.png"

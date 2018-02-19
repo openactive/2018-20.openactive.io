@@ -1,7 +1,7 @@
 ---
 title: Community
 permalink: "/community/"
-position: 5
+position: 25
 is_main_navigation: true
 layout: page-hero
 thumbnail_image: "/uploads/iStock-501777666_optimised.png"

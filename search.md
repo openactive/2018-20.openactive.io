@@ -1,7 +1,7 @@
 ---
 title: Search
 permalink: "/search/"
-position: 15
+position: 8
 is_main_navigation: false
 layout: page-headless
 ---

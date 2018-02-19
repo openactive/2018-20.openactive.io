@@ -1,7 +1,7 @@
 ---
 title: Our Mission
 permalink: "/our-misson/"
-position: 1
+position: 6
 is_main_navigation: true
 layout: page-headless
 ---

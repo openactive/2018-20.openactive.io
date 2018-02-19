@@ -1,7 +1,7 @@
 ---
 title: References
 permalink: "/references/"
-position: 14
+position: 7
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
