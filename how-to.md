@@ -10,8 +10,6 @@ strapline: Repellendus veritatis culpa autem voluptatem neque rerum. Odit eaque 
   quos cumque quam ut.
 ---
 
-
-
 <article class="call_to_action title-row">
 <h2 class="sub-heading-two">Other Resources</h2>
 <div class="subgrid">

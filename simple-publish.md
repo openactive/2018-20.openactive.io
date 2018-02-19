@@ -8,7 +8,6 @@ thumbnail_image: "/uploads/sideplank.jpg"
 strapline: Explanation of how to begin publishing data.
 ---
 
-
 <article>
 <div class="one" markdown="1">
 

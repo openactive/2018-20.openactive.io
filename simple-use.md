@@ -8,7 +8,6 @@ thumbnail_image: "/uploads/sideplank.jpg"
 strapline: Explanation of how to begin using data.
 ---
 
-
 <article>
 <div class="one" markdown="1">
 

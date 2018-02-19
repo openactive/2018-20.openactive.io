@@ -7,6 +7,7 @@ layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
 strapline: In depth Explanation of how to use data
 ---
+
 <article>
 <div class="one" markdown="1">
 
