@@ -10,7 +10,9 @@ strapline: Innovation through Collaboration
 
 {::options parse_block_html="true" /}
 
-
+<!--  ---------------->
+<!-- HERO -->
+<!--  ---------------->
 <article>
 <div class="one">
 
@@ -26,6 +28,9 @@ Explore the dashboard to learn more about our community and the datasets already
 </article>
 
 
+<!--  ---------------->
+<!-- STATS ROW -->
+<!--  ---------------->
 <article class="invert stats-row title-row" markdown="0">
 <h2 class="sub-heading-two"></h2>
 
@@ -76,7 +81,9 @@ Explore the dashboard to learn more about our community and the datasets already
 
 
 
-
+<!--  ---------------->
+<!-- TEXT BLOCK -->
+<!--  ---------------->
 <article>
 <div class="one">
 
@@ -86,11 +93,17 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 </div>
 </article>
 
+
+<!--  ---------------->
+<!-- NEWS -->
+<!--  ---------------->
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Community News</h2>
 
-{% for post in site.posts limit:2 %}
-{% if post.categories contains "Community" %}
+
+
+{% assign postList = site.posts | where: "categories", "Community" %}
+{% for post in postList limit:2 %}
 
 <div class="two" id="post-{{ forloop.index }}">
 <figure role="group">
@@ -99,31 +112,26 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 <h3>{{ post.title | escape }}</h3>
 <div class="subgrid brand-one-b">
 <div class="two twoleft">
-
 {{ post.excerpt }}
-
 <a class="button-primary" href="{{ post.url | relative_url }}">Read Post</a>
 </div>
-
 <div class="two twoleft">
 {% include share-page.html %}
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-
 {{post.date | date: date_format}}
 {{post.author}}
 </div>
 </div>
 </div>
-
-{% endif %}
 {% endfor %}
 </article>
 
 
-
+<!--  ---------------->
+<!-- CALL TO ACTION -->
+<!--  ---------------->
 <article class="call_to_action--full-width">
 <h2 class="sub-heading-two">Developers</h2>
-
 <div class="one">
 
 ### Resources
@@ -140,10 +148,11 @@ Molestiae perspiciatis consequatur non est. Esse repudiandae magni voluptatem vo
 </figure>
 </article>
 
-
+<!--  ---------------->
+<!-- MEMBERS -->
+<!--  ---------------->
 <article class="title-row">
 <h2 class="sub-heading-two">Members</h2>
-
 <div class="one">
 
 ### Meet the Community
@@ -152,9 +161,6 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 
 </div>
 </article>
-
-
-
 <article>
 {% assign posts = site.members | sample:18 %}
 {% for post in posts %}
@@ -174,7 +180,7 @@ OpenActive’s active data providers supply all the content
 </div>
 </article>
 <article>
-{% assign posts = site.dataproviders | sample:9 %}
+{% assign posts = site.dataproviders | sample:18 %}
 {% for post in posts %}
 {% assign theImage = post.thumbnail_image %}
 <div class="six" data-tab="{{ forloop.index }}" markdown="0" >
@@ -192,7 +198,7 @@ OpenActive’s active data providers supply all the content
 </div>
 </article>
 <article>
-{% assign posts = site.booking_engines | sample:9 %}
+{% assign posts = site.booking_engines | sample:18 %}
 {% for post in posts %}
 {% assign theImage = post.thumbnail_image %}
 <div class="six" data-tab="{{ forloop.index }}" markdown="0" >
@@ -200,10 +206,6 @@ OpenActive’s active data providers supply all the content
 </div>
 {% endfor %}
 </article>
-
-
-
-
 <article>
 <div class="one">
 <p><a class="button-primary" href="{{ site.baseurl }}{% link members-page.md %}">View all the members</a></p>
@@ -220,7 +222,6 @@ While our work is technical, you don’t have to be a developer to contribute. O
 
 </div>
 </article>
-
 <article>
 <div class="one">
 
@@ -234,9 +235,11 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 </div>
 </article>
 
+<!--  ---------------->
+<!-- FAQS -->
+<!--  ---------------->
 <article class="faq-snippet title-row invert-2">
 <h2 class="sub-heading-two">FAQ's</h2>
-
 <div class="one">
 {% assign aboutAccelerator = site.faqs | where: "categories", "About OpenActive" %}
 {% for post in aboutAccelerator limit:8 %}

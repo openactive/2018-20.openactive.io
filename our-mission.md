@@ -8,6 +8,10 @@ layout: page-headless
 
 {::options parse_block_html="true" /}
 
+
+<!--  ---------------->
+<!-- HERO BLOCK -->
+<!--  ---------------->
 <article markdown="0" class="hero--simple">
 <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
 <div class="one">
@@ -15,8 +19,11 @@ layout: page-headless
 <p>OpenActive is community-led initiative with an ambition to help people in England get active using open data. </p>
 <p>The initiative is stewarded by the Open Data Institute (ODI), supported by Sport England, and formed of organisations and engaged individuals working within the sport and physical activity sector.</p>
 </div>
-
 </article>
+
+<!--  ---------------->
+<!-- TEXT BLOCK -->
+<!--  ---------------->
 <article>
 <div class="one">
 
@@ -29,10 +36,14 @@ By harnessing open data – that anyone can access, use and share – we are hel
 </article>
 
 
+
+
+<!--  ---------------->
+<!-- FIFTY-TEXT BLOCK -->
+<!--  ---------------->
 <article class="title-row">
 <h2 class="sub-heading-two">What Is OpenActive?</h2>
-
-<div class="two ">
+<div class="two">
 
 ### What’s the problem?
 A lack of physical activity is one of Britain’s biggest public health challenges, [causing 37,000 deaths](http://www. apho.org.uk/resource/view.aspx?RID=123459) annually and costing [£20BN](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/279657/moving_living_more_inspired_2012.pdf) a year. 
@@ -44,7 +55,7 @@ As a result, people find it hard to browse local opportunities and services want
 
 
 </div>
-<div class="two ">
+<div class="two">
 
 ### How do you fit in?
 The OpenActive community was created by a group of engaged sport and physical activity organisations, with the aim of reaching new audiences with better opportunities to get active, by harnessing data and capitalising on innovative solutions. 
@@ -60,10 +71,13 @@ By joining the open data revolution, you and your organisation can benefit from 
 </div>
 </article>
 
+
+<!--  ---------------->
+<!-- HOW IT WORKS CALL TO ACTION -->
+<!--  ---------------->
 <article markdown="0" class="call_to_action--full-width">
 <h2 class="sub-heading-two">What's Next?</h2>
 <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
-
 <div markdown="1" class="one">
 
 ### How it works
@@ -71,29 +85,28 @@ Let’s look at how we achieve our vision in practice and the progress we’ve m
 
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
 
-
 </div>
-
 <figure>
 <div class="triangle"></div>
 <div class="stripe"></div>
 <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
-
 </article>
 
 
-
+<!--  ---------------->
+<!-- COMMUNITY CALL TO ACTION -->
+<!--  ---------------->
 <article class="call_to_action--wide">
 <h2 class="sub-heading-two">Meet The Community</h2>
 
 <div class="one">
 
-<h3>Meet The Community</h3>
-<p>This is an open-invitation community of pioneering organisations. If you are interested in getting involved please join us to find out more.</p>
-<p>Find out all about the open active community and how you can support it.</p>
+### Meet The Community
+This is an open-invitation community of pioneering organisations. If you are interested in getting involved please join us to find out more.
+Find out all about the open active community and how you can support it.
 
-<a class="button-primary" href="{{ site.baseurl }}{% link community.md %}">Get Involved</a>
+[Get Involved]( {{ site.baseurl }}{% link community.md %}){: .primary_cta}
 
 <i class="line-graphic">{% include line-graphic-corner.svg %}</i>
 

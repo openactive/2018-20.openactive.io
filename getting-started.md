@@ -10,10 +10,11 @@ strapline: Discover how to build unlimited reach for your activities
 
 {::options parse_block_html="true" /}
 
-
+<!--  ---------------->
+<!-- HERO BLOCK -->
+<!--  ---------------->
 <article class="booking-engines-section title-row">
 <h2 class="sub-heading-two">Who Uses OpenActive?</h2>
-
 <div class="two">
 
 #### Booking Systems
@@ -35,15 +36,15 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 <div class="four case-tab" data-tab="{{ forloop.index }}" markdown="0" >
 <a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
 </div>
-
 {% endif %}
 {% endfor %}
 </nav>
-
-
 </div>
 </article>
 
+<!--  ---------------->
+<!-- CALL TO ACTION -->
+<!--  ---------------->
 <article class="call_to_action ">
 <div class="subgrid">
 <div class="two list">
@@ -73,7 +74,9 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 </div>
 </article>
 
-
+<!--  ---------------->
+<!-- DEVELOPERS CALL TO ACTION -->
+<!--  ---------------->
 <article class="call_to_action--full-width">
 <h2 class="sub-heading-two">Show me the code</h2>
 <div class="one">
@@ -93,7 +96,9 @@ Join the open data revolution with OpenActive and help the nation get active.
 
 
 
-
+<!--  ---------------->
+<!-- CALL TO ACTION -->
+<!--  ---------------->
 <article>
 <div class="one">
 
@@ -103,6 +108,10 @@ If you think your organisation would benefit from open data, but the decision is
 </div>
 </article>
 
+
+<!--  ---------------->
+<!-- CALL TO ACTION -->
+<!--  ---------------->
 <article class="call_to_action">
 <div class="subgrid">
 <div class="three">

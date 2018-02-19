@@ -8,7 +8,9 @@ layout: page-headless
 
 {::options parse_block_html="true" /}
 
-
+<!--  ---------------->
+<!-- HERO BLOCK -->
+<!--  ---------------->
 <article class="hero--simple">
 <div class="two">
 
@@ -21,17 +23,18 @@ We believe that open opportunity data will revolutionise the sport and physical 
 
 
 </div>
-
 <div class="two">
 
 
 ![Hero]({{ site.baseurl }}/assets/images/how-it-works.svg)
 
 </div>
-
 </article>
 
 
+<!--  ---------------->
+<!-- WHAT IS OPPORTUNITY DATA -->
+<!--  ---------------->
 <article markdown="0" class="opportunity-data title-row">
 <h2 class="sub-heading-two">Opportunity Data Explained</h2>
 <div class="two subgrid title-row">
@@ -56,6 +59,9 @@ Opening up opportunity data across the sector will better connect providers and 
 </article>
 
 
+<!--  ---------------->
+<!-- WHAT ARE THE BENEFITS -->
+<!--  ---------------->
 <article class="call_to_action title-row">
 <h2 class="sub-heading-two">What are the benefits?</h2>
 <div class="two list">
@@ -68,7 +74,6 @@ Opening up opportunity data across the sector will better connect providers and 
 * Drive innovation, and collaborate with OpenActive to revolutionise the sector.
 
 </div>
-
 <div class="two list">
 
 ### Data Users and Developers
@@ -79,7 +84,6 @@ Opening up opportunity data across the sector will better connect providers and 
 
 </div>
 </article>
-
 <article class="call_to_action">
 <div class="one list">
 
@@ -94,15 +98,18 @@ Opening up opportunity data across the sector will better connect providers and 
 </div>
 </article>
 
-
+<!--  ---------------->
+<!-- CASE STUDIES BLOCK -->
+<!--  ---------------->
 {% include case-study.html %}
 
 
+<!--  ---------------->
+<!-- LEARN/DEVELOP CALL TO ACTION -->
+<!--  ---------------->
 <article class="call_to_action title-row ">
 <h2 class="sub-heading-two">Jump In</h2>
-
 <div class="subgrid">
-
 <div class="two">
 
 ### E-Learning
@@ -111,7 +118,6 @@ Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
 [Learn the Basics]( {{ site.baseurl }}{% link e-learning.md %}){:class="button-primary" }
 
 </div>
-
 <div class="two">
 
 ### Developer
@@ -120,11 +126,13 @@ Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusa
 [Dive Deep]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
 
 </div>
-
 </div>
 </article>
 
 
+<!--  ---------------->
+<!-- GETTING STARTED TO ACTION -->
+<!--  ---------------->
 <article markdown="0" class="call_to_action--full-width">
 <h2 class="sub-heading-two">Where now?</h2>
 <i class="line-graphic">{% include slim-line-graphic.svg %}</i>

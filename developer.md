@@ -10,7 +10,9 @@ layout: page-hero
 
 {::options parse_block_html="true" /}
 
-
+<!--  ---------------->
+<!-- HERO -->
+<!--  ---------------->
 <article>
 <div class="one">
 
@@ -18,8 +20,6 @@ The open data being gathered by OpenActive and associated partners will transfor
 
 </div>
 </article>
-
-
 <article>
 <div class="two">
 
@@ -31,8 +31,7 @@ The open data being gathered by OpenActive and associated partners will transfor
 ### Opportunity Data Dashboard
 The Opportunity Data Dashboard lists all of the opportunity data feeds we have currently available. Because no single platform or app holds all the data available under OpenActive, we’ve designed the first set of OpenActive standards to support developers in harvesting and collecting data from multiple sources.
 
-Explore the dashboard to find the data you need, identify which feeds conform to our standards, and provide feedback to publishers. 
-
+Explore the dashboard to find the data you need, identify which feeds conform to our standards, and provide feedback to publishers.
 
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .button-primary}
 
@@ -40,7 +39,9 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 </article>
 
 
-
+<!--  ---------------->
+<!-- CALL TO ACTION -->
+<!--  ---------------->
 <article class="call_to_action title-row">
 <h2 class="sub-heading-two">Quick Start</h2>
 <div class="subgrid">
@@ -71,6 +72,9 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 </div>
 </article>
 
+<!--  ---------------->
+<!-- CALL TO ACTION -->
+<!--  ---------------->
 <article class="call_to_action title-row">
 <h2 class="sub-heading-two">Resource</h2>
 
@@ -108,7 +112,9 @@ Guidance for developers on getting started, to help you learn how to publish and
 </article>
 
 
-
+<!--  ---------------->
+<!-- CALL TO ACTION -->
+<!--  ---------------->
 <article markdown="0" class="call_to_action--full-width">
 <h2 class="sub-heading-two">Get in Touch</h2>
 <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
