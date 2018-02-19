@@ -10,17 +10,18 @@ layout: home
 
 <article class="notes">
 
-##### Page Notes ~ {{ page.title | escape }}
+##### Page Notes \~ {{ page.title | escape }}
+
 Content for this page is detailed in the
 [Google Doc](https://drive.google.com/open?id=1pSzce8tiNHg8eMKUop4FozaJkhGAXNXYpLSANFf-0Z0){:target="_blank"}
 
 </article>
 
-
 <article class="notes">
 
-##### Section Notes ~ Hero Block
-**Purpose**: This section is the first thing all users will see, we are showcasing the video along with key benefits. The benefits should appeal to all levels of users  
+##### Section Notes \~ Hero Block
+
+**Purpose**: This section is the first thing all users will see, we are showcasing the video along with key benefits. The benefits should appeal to all levels of users
 
 **Functionality**: A video is embedded from youtube
 
@@ -37,7 +38,7 @@ Content for this page is detailed in the
 <article class="hero subgrid">
 <div class="block two">
 
-<h1>Welcome to OpenActive</h1>
+<h1>Welcome to OpenActive G</h1>
 
 <ul class="hero_tab_content">
 <li class="hero-content" id="h1"><p>Increase our nation’s physical health and transform a sector with open data</p></li>
@@ -45,7 +46,7 @@ Content for this page is detailed in the
 <li class="hero-content" id="h3"><p>Innovate with open data to make discovering ways to get active easier</p></li>
 </ul>
 
-[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
+\[How it Works\]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
 
 </div>
 <div class="block two">
@@ -55,13 +56,13 @@ Content for this page is detailed in the
 </div>
 </article>
 
-
 <h2 class="sub-heading-two">Case<br> Studies</h2>
 
 <article class="notes">
 
-##### Section Notes ~ Case Studies Block
-**Purpose**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.  
+##### Section Notes \~ Case Studies Block
+
+**Purpose**: This section is used to showcase organisations that are already involved in the initiative. A selection of featured case studies will be represented by their logo in a grid.
 
 **Functionality**: The logos will act as a tabbing system to reveal content from the case study, this would consist of some fast facts about each case.
 
@@ -69,7 +70,6 @@ Content for this page is detailed in the
 
 **Copy-writing Notes**:
 </article>
-
 
 <article class="case-studies subgrid">
 <div class="block two twoleft subgrid">
@@ -98,7 +98,6 @@ Content for this page is detailed in the
 </div>
 </article>
 
-
 <aside class="case-study-info">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
@@ -114,14 +113,13 @@ Content for this page is detailed in the
 {% endfor %}
 </aside>
 
-
 <h2 class="sub-heading-two">What do you<br> want to do?</h2>
-
 
 <article class="notes">
 
-##### Section Notes ~ Tabbed Content
-**Purpose**: These tabs are used to help guide users based on their orientation toward initiative, The first tab would be geared toward a general explanation, whereas the other tabs would be aimed at providing a insight into other specific use cases, such as using or sharing data. Each item will provide a call action to encourage users further along the path.     
+##### Section Notes \~ Tabbed Content
+
+**Purpose**: These tabs are used to help guide users based on their orientation toward initiative, The first tab would be geared toward a general explanation, whereas the other tabs would be aimed at providing a insight into other specific use cases, such as using or sharing data. Each item will provide a call action to encourage users further along the path.
 
 **Functionality**: The the content will be housed in a tabbing system, and the active tab could be changed to suite phases of the initiative.
 
@@ -129,8 +127,6 @@ Content for this page is detailed in the
 
 **Copy-writing Notes**:
 </article>
-
-
 
 <article id="tabs">
 
@@ -145,13 +141,13 @@ Content for this page is detailed in the
 <div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
 
 ### How it Works
+
 OpenActive makes it easier for people to discover and take part in sport and physical activities. Using open data your activities can become available, everywhere. From websites and apps that attract millions of users, to communities and services that engage local people.
 
-[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
+\[How it Works\]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
 
 </div>
 <div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true" aria-labelledby="booking-systems">
-
 
 ### Booking Systems
 
@@ -159,29 +155,27 @@ OpenActive makes it easier for people to discover and take part in sport and phy
 <li>Add an open data tick-box to your system so your customers can publish activities openly</li>
 <li>Let customers publish activity listings by building a simple and standardised API</li>
 <li>Find your customer listings in the OpenActive directory for anyone to access, use or share</li>
-<li>Your customers&rsquo; activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.</li>
+<li>Your customers’ activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.</li>
 </ol>
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
+\[Getting Started\]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
 
 </div>
 <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true" aria-labelledby="activity-provider">
-
 
 ### Activity Providers
 
 <ol>
 <li>You list activities in your existing website or booking system</li>
-<li>You use your website or booking system to publish your activity listings information using the OpenActive data standards as a &ldquo; dataset &ldquo;</li>
+<li>You use your website or booking system to publish your activity listings information using the OpenActive data standards as a “ dataset “</li>
 <li>Your dataset is listed in our directory, for anyone to access, use or share.</li>
 <li>Your activities are available everywhere. From websites and apps that attract millions of users, through to communities and services that engage local people.</li>
 </ol>
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
+\[Getting Started\]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
 
 </div>
 <div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
-
 
 ### Use Data
 
@@ -189,17 +183,16 @@ Pick a data source from the list available on OpenActive.
 Join their mailing list and review the documentation.
 Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
+\[Getting Started\]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
 
 </div>
 </article>
 
-
-
 <article class="notes">
 
-##### Section Notes ~ CTA Blocks Small
-**Purpose**: This section is used to direct users around the site  
+##### Section Notes \~ CTA Blocks Small
+
+**Purpose**: This section is used to direct users around the site
 
 **Functionality**: These blocks will contain at minimum title, excerpt & button.
 
@@ -208,46 +201,43 @@ Pull in the data to your website or app. If you need help reach out to the OpenA
 **Copy-writing Notes**:
 </article>
 
-
 <article class="subgrid">
 <div class="block three call_to_action">
 
-
 #### Getting Started
-Take the first step enabling open data in your system.  
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}  
+Take the first step enabling open data in your system.
 
+\[Getting Started\]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
 
 </div>
 <div class="block three call_to_action">
 
-
 #### Developer
-Get stuck into the docs and start using or publishing data today!  
 
-[Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}  
+Get stuck into the docs and start using or publishing data today!
 
+\[Developer\]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
 
 </div>
 <div class="block three call_to_action">
 
 #### Community
+
 What's happening in the community, and how you can get involved!
 
-[Community]( {{ site.baseurl }}{% link community.md %}){: .primary_cta}  
-
+\[Community\]( {{ site.baseurl }}{% link community.md %}){: .primary_cta}
 
 </div>
 </article>
-
 
 <h2 class="sub-heading-two"> What is <br>Opportunity Data</h2>
 
 <article class="notes ">
 
 ##### Section Notes
-**Purpose**: The purpose of this section is to graphically clarify for users exactly what is and isn't included in Opportunity Data.      
+
+**Purpose**: The purpose of this section is to graphically clarify for users exactly what is and isn't included in Opportunity Data.
 
 **Functionality**: This section will support text and graphics.
 
@@ -257,19 +247,19 @@ What's happening in the community, and how you can get involved!
 </article>
 
 <article>
-+ An explanation to what and what does not constitute Opportunity Data.
-+ Graphics
-+ Text Content
-</article>
 
+* An explanation to what and what does not constitute Opportunity Data.
 
+* Graphics
 
-
+* Text Content
+  </article>
 
 <article class="notes">
 
-##### Section Notes ~ CTA Block Large
-**Purpose**: This section is used to direct users to specific pages. In this case to promote the accelerator program    
+##### Section Notes \~ CTA Block Large
+
+**Purpose**: This section is used to direct users to specific pages. In this case to promote the accelerator program
 
 **Functionality**: This full width call to action section will provide a title, excerpt and button.
 
@@ -285,10 +275,10 @@ What's happening in the community, and how you can get involved!
 <div class="block one call_to_action">
 
 ## The Accelerator Program
+
 Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem omnis in rem. Qui perspiciatis ut nobis maxime eligendi similique. Non culpa voluptatem enim nostrum et et.
 
-[Start Ups]( {{ site.baseurl }}{% link start-ups.md %}){: .primary_cta} 
-
+\[Start Ups\]( {{ site.baseurl }}{% link start-ups.md %}){: .primary_cta}
 
 </div>
 
@@ -298,13 +288,13 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 
 </article>
 
-
 <h3 class="sub-heading-two">  Latest News</h3>
 
 <article class="notes">
 
 ##### Section Notes
-**Purpose**: This section will expose some latest blog posts for users to quickly gain a insight into recent activity.    
+
+**Purpose**: This section will expose some latest blog posts for users to quickly gain a insight into recent activity.
 
 **Functionality**: Each contain article block will support a title, excerpt, author, post date and thumbnail.
 
@@ -313,9 +303,8 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 **Copy-writing Notes**:
 </article>
 
-
 <article class="post_list">
-{% for post in site.posts %}    
+{% for post in site.posts %}\
 {% if post.is_featured %}
 <div class="block one subgrid" id="post-{{ forloop.index }}">
 <div class="block two tworight">
@@ -334,10 +323,3 @@ Autem quidem repellendus explicabo itaque accusantium. Est aut ullam voluptatem 
 <a class="primary_cta" href="{{ site.baseurl }}{% link blog.md %}">All News</a>
 </div>
 </article>
-
-
-
-
-
-
-
