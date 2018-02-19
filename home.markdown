@@ -48,7 +48,7 @@ layout: home
 <!-- THIS IS TABBED BLOCK -->
 <article markdown="0" class="tabs blue">
 
-<!-- THIS IS THE TITLE ROW -->
+<!-- THIS IS THE TAB ITEM -->
 <h2 class="sub-heading-two">Where to start?</h2>
 <div  id="tabs">
 <div  class="tabsList " role="tablist" >
@@ -60,12 +60,15 @@ layout: home
 </i>
 </h3>
 
+<!-- THIS IS THE TAB PANEL-->
 <div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
 <h4> How it Works</h4>
 <p>OpenActive makes discovering and taking part in  sport and fitness activities easier than ever before. With open data, your activities can be available to people across the country,  on websites and apps that attract millions of users, to communities and services that engage local people.</p>
 <a class="button-primary" href="{{ site.baseurl }}{% link how-it-works.md %})">Discover More</a>
 </div>
 
+
+<!-- THIS IS THE TAB ITEM -->
 <h3 class="tablink" role="tab presentation" aria-selected="false">
 <a href="#booking-systems">Booking Systems</a>
 <i class="icon_wrap_accordian">
@@ -73,6 +76,7 @@ layout: home
 </i>
 </h3>
 
+<!-- THIS IS THE TAB PANEL-->
 <div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
 aria-labelledby="booking-systems">
 
@@ -89,6 +93,7 @@ aria-labelledby="booking-systems">
 
 </div>
 
+<!-- THIS IS THE TAB ITEM -->
 <h3 class="tablink" role="tab presentation" aria-selected="false">
 <a href="#activity-provider">Activity Providers</a>
 <i class="icon_wrap_accordian">
@@ -96,6 +101,7 @@ aria-labelledby="booking-systems">
 </i>
 </h3>
 
+<!-- THIS IS THE TAB PANEL-->
 <div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true"
 aria-labelledby="activity-provider">
 
@@ -112,6 +118,8 @@ aria-labelledby="activity-provider">
 <a class="button-primary" href="{{ site.baseurl }}{% link getting-started.md %}">Get Started</a>
 </div>
 
+
+<!-- THIS IS THE TITLE ROW -->
 <h3 class="tablink" role="tab presentation" aria-selected="false">
 <a href="#use-data">Use Data</a>
 <i class="icon_wrap_accordian">
@@ -119,6 +127,7 @@ aria-labelledby="activity-provider">
 </i>
 </h3>
 
+<!-- THIS IS THE TAB PANEL-->
 <div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
 
 <h4>Use Data</h4>
