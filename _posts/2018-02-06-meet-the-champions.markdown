@@ -4,8 +4,8 @@ date: 2018-02-06 12:17:00 Z
 categories:
 - Community
 - update
-thumbnail_image: "/uploads/champions.png"
 is_featured: true
+thumbnail_image: "/uploads/champions-576cd8.png"
 layout: post
 ---
 
