@@ -1,7 +1,7 @@
 ---
 title: Use Data
 permalink: "/use-data/"
-position: 20
+position: 22
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
