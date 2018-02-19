@@ -16,34 +16,18 @@ layout: home
 </nav>
 <div class="content">
 
-<!-- <!--THIS IS THE TITLE BLOCK--> -->
-<!-- <h1>Helping physical activity reach everyone</h1> -->
-
-<!-- <!--THIS IS THE TABBED STRAPLINES--> -->
-<!-- <ul class="hero_tab_content"> -->
-<!-- <li class="hero-content" id="h1"><p>Improve our nation’s physical health</p></li> -->
-<!-- <li class="hero-content" id="h2"><p>Attract people to join activities</p></li> -->
-<!-- <li class="hero-content" id="h3"><p>Innovate to help people get active</p></li> -->
-<!-- </ul> -->
-
-
-<!-- <!--THIS IS THE TITLE BLOCK--> -->
 # Helping physical activity reach everyone
-
-<!-- <!--THIS IS THE TABBED STRAPLINES--> -->
 
  - Improve our nation’s physical health
  - Attract people to join activities
  - Innovate to help people get active
 
 
-<!-- THIS IS THE FIRST CALL TO ACTION -->
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
 
 </div>
 <figure role="group" aria-labelledby="open-active-video">
 
-<!-- THIS IS THE YOUTUBE EMEBED -->
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" allowfullscreen></iframe>
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
@@ -51,14 +35,11 @@ layout: home
 </article>
 
 
-<!-- THIS IS THE CASE STUDY BLOCK -->
 {% include case-study.html %}
 
 
-<!-- THIS IS TABBED BLOCK -->
 <article markdown="0" class="tabs blue">
 
-<!-- THIS IS THE TITLE ROW -->
 <h2 class="sub-heading-two">Where to start?</h2>
 <div  id="tabs">
 <div  class="tabsList " role="tablist" >
@@ -71,9 +52,12 @@ layout: home
 </h3>
 
 <div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
-<h4> How it Works</h4>
-<p>OpenActive makes discovering and taking part in  sport and fitness activities easier than ever before. With open data, your activities can be available to people across the country,  on websites and apps that attract millions of users, to communities and services that engage local people.</p>
-<a class="button-primary" href="{{ site.baseurl }}{% link how-it-works.md %})">Discover More</a>
+
+#### How it Works
+OpenActive makes discovering and taking part in  sport and fitness activities easier than ever before. With open data, your activities can be available to people across the country,  on websites and apps that attract millions of users, to communities and services that engage local people.
+
+[Discover More]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
+
 </div>
 
 <h3 class="tablink" role="tab presentation" aria-selected="false">
