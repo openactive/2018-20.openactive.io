@@ -27,7 +27,7 @@ Explore the dashboard to learn more about our community and the datasets already
 
 
 <article class="invert stats-row title-row" markdown="0">
-<h2 class="sub-heading-two">Our experience supporting startups</h2>
+<h2 class="sub-heading-two"></h2>
 
 <div class="four">
 <figure>
@@ -106,7 +106,9 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 
 <div class="two twoleft">
 {% include share-page.html %}
-{{post.date}}
+{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+
+{{post.date | date: date_format}}
 {{post.author}}
 </div>
 </div>
@@ -152,22 +154,54 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 
 
 
-
-
-
 <article>
 {% assign posts = site.members | sample:18 %}
 {% for post in posts %}
 {% assign theImage = post.thumbnail_image %}
-
 <div class="six" data-tab="{{ forloop.index }}" markdown="0" >
 <a  href="{{ post.url | relative_url }}"><img src="{{ theImage  | relative_url}}"/></a>
 </div>
-
-
 {% endfor %}
-
 </article>
+<article class="title-row">
+<div class="one">
+
+### Meet the Data Providers
+
+OpenActive’s active data providers supply all the content
+
+</div>
+</article>
+<article>
+{% assign posts = site.dataproviders | sample:9 %}
+{% for post in posts %}
+{% assign theImage = post.thumbnail_image %}
+<div class="six" data-tab="{{ forloop.index }}" markdown="0" >
+<a  href="{{ post.url | relative_url }}"><img src="{{ theImage  | relative_url}}"/></a>
+</div>
+{% endfor %}
+</article>
+<article class="title-row">
+<div class="one">
+
+### Booking Engines
+
+OpenActive’s active data providers supply all the content
+
+</div>
+</article>
+<article>
+{% assign posts = site.booking_engines | sample:9 %}
+{% for post in posts %}
+{% assign theImage = post.thumbnail_image %}
+<div class="six" data-tab="{{ forloop.index }}" markdown="0" >
+<a  href="{{ post.url | relative_url }}"><img src="{{ theImage  | relative_url}}"/></a>
+</div>
+{% endfor %}
+</article>
+
+
+
 
 <article>
 <div class="one">

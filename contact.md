@@ -9,4 +9,10 @@ strapline: Repellendus veritatis culpa autem voluptatem neque rerum. Odit eaque 
   quos cumque quam ut.
 ---
 
-Contact page
+<article>
+<div class="one">
+
+Quod qui corporis quasi qui. Et aut sint quibusdam perferendis. Eaque in ipsum est non.
+
+</div>
+</article>
