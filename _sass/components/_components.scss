@@ -857,12 +857,14 @@ article {
     }
   }
   &.call_to_action--wide {
-    @extend .call_to_action;
     .one {
       grid-column-start: 2;
       grid-column-end: 14;
       padding: 4rem;
       position: relative;
+      *{
+        color: $white;
+      }
       .line-graphic {
         right: 0;
         bottom: 0;
@@ -937,7 +939,7 @@ article {
       div {
         &.triangle {
           position: absolute;
-          left: 0;
+          left: -1px;
           bottom: 0;
           width: 100%;
           height: 100%;
@@ -949,7 +951,7 @@ article {
         }
         &.stripe {
           position: absolute;
-          left: 0;
+          left: -2px;
           bottom: 0;
           width: 100%;
           height: 100%;
@@ -1035,36 +1037,90 @@ article {
   .three, .two, .one {
     &:nth-child(1) {
       @extend .blue-gradient-bc !optional;
+      .button-primary {
+        background-color: $publishFour;
+        &:hover {
+          background-color: $publishThree;
+        }
+      }
     }
     &:nth-child(2) {
       @extend .purple-gradient-bc !optional;
+      .button-primary {
+        background-color: $usingFive;
+        &:hover {
+          background-color: $usingFour;
+        }
+      }
     }
     &:nth-child(3) {
       @extend .red-gradient-bc !optional;
+      .button-primary {
+        background-color: $startUpFive;
+        &:hover {
+          background-color: $startUpThree;
+        }
+      }
     }
   }
   &.title-row {
     .three, .two, .one {
       &:nth-child(2) {
         @extend .blue-gradient-bc !optional;
+        .button-primary {
+          background-color: $publishFour;
+          &:hover {
+            background-color: $publishThree;
+          }
+        }
       }
       &:nth-child(3) {
         @extend .purple-gradient-bc !optional;
+        .button-primary {
+          background-color: $usingFive;
+          &:hover {
+            background-color: $usingFour;
+          }
+        }
       }
       &:nth-child(4) {
         @extend .red-gradient-bc !optional;
+        .button-primary {
+          background-color: $startUpFive;
+          &:hover {
+            background-color: $startUpThree;
+          }
+        }
       }
     }
     .subgrid {
       .three,.two,.one {
         &:nth-child(1) {
           @extend .blue-gradient-bc !optional;
+          .button-primary {
+            background-color: $publishFour;
+            &:hover {
+              background-color: $publishThree;
+            }
+          }
         }
         &:nth-child(2) {
           @extend .purple-gradient-bc !optional;
+          .button-primary {
+            background-color: $usingFive;
+            &:hover {
+              background-color: $usingFour;
+            }
+          }
         }
         &:nth-child(3) {
           @extend .red-gradient-bc !optional;
+          .button-primary {
+            background-color: $startUpFive;
+            &:hover {
+              background-color: $startUpThree;
+            }
+          }
         }
       }
     }

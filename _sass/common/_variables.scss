@@ -127,6 +127,9 @@ $globalEight: $brand-eight;
       background-color: $globalThree;
     }
   }
+  .three{
+
+  }
   &.gradient {
     background: $globalFour; /* Old browsers */
     background: -moz-radial-gradient(ellipse at 50% 20%, $globalTwo 16%, $globalFive 65%); /* FF3.6-15 */
@@ -205,24 +208,42 @@ $globalEight: $brand-eight;
     }
     .button-primary {
       background-color: $globalFive;
+      &:hover{
+        background-color: $globalSix;
+      }
     }
     figure {
       background-color: $globalThree;
     }
   }
   .call_to_action {
-    .one{
-      background-color: $global!important;
+    .one,.one.stripe{
+      background: none $global!important;
+      .button-primary {
+        background-color: $globalFive;
+        &:hover{
+          background-color: $globalSix;
+        }
+      }
     }
     .two, .three {
       * {
         color: $white;
       }
     }
+    .button-primary {
+      background-color: $globalFive;
+    }
   }
   .call_to_action--wide {
     .one{
-      background-color: $globalTwo;
+      background: none $global!important;
+      .button-primary {
+        background-color: $globalFive;
+        &:hover{
+          background-color: $globalSix;
+        }
+      }
     }
   }
   .inset-call-to-action {
@@ -478,14 +499,23 @@ article.use, div.use {
     }
     .button-primary {
       background-color: $usingFive;
+      &:hover {
+        background-color: $usingFour;
+      }
     }
     figure {
       background-color: $usingFive;
     }
   }
   .call_to_action {
-    .one{
-      background-color: $usingThree;
+    .one,.one.stripe{
+      background: none $usingThree;
+      .button-primary {
+        background-color: $usingFive;
+        &:hover {
+          background-color: $usingFour;
+        }
+      }
     }
     .two, .three {
       * {
@@ -495,7 +525,13 @@ article.use, div.use {
   }
   .call_to_action--wide {
     .one {
-      background-color: $usingThree;
+      background: none $usingThree!important;
+    }
+    .button-primary {
+      background-color: $usingFive;
+      &:hover {
+        background-color: $usingFour;
+      }
     }
   }
 
@@ -509,10 +545,9 @@ article.use, div.use {
       color: $white;
     }
     .button-primary {
-      background-color: $usingFour;
+      background-color: $usingFive;
       &:hover {
-        background-color: $usingThree;
-
+        background-color: $usingFour;
       }
     }
   }
@@ -728,15 +763,23 @@ article.publish, div.publish {
     }
     .button-primary {
       background-color: $publishFour;
-
+      &:hover {
+        background-color: $publishThree;
+      }
     }
     figure {
       background-color: $publishFour;
     }
   }
   .call_to_action {
-    .one{
-      background-color: $publishTwo;
+    .one,.one.stripe{
+      background: none $publishTwo;
+      .button-primary {
+        background-color: $publishFour;
+        &:hover {
+          background-color: $publishThree;
+        }
+      }
     }
     .two, .three {
       * {
@@ -746,7 +789,13 @@ article.publish, div.publish {
   }
   .call_to_action--wide {
     .one{
-      background-color: $publishTwo;
+      background: none $publishTwo!important;
+      .button-primary {
+        background-color: $publishFour;
+        &:hover {
+          background-color: $publishThree;
+        }
+      }
     }
   }
   .inset-call-to-action {
@@ -936,14 +985,18 @@ article.startup, div.startup, a.button-primary.startup {
     background-color: transparent;
     border-color: $startUpFive;
     color: $startUpFive;
-    &:hover {
-      background-color: $startUpFive;
-    }
+
   }
 
   .call_to_action {
-    .one{
-      background-color: #e9493b;
+    .one,.one.stripe{
+      background: none #e9493b!important;
+      .button-primary {
+        background-color: $startUpFive;
+        &:hover {
+          background-color: $startUpThree;
+        }
+      }
     }
     .two, .three {
       * {
@@ -953,7 +1006,13 @@ article.startup, div.startup, a.button-primary.startup {
   }
   .call_to_action--wide {
     .one{
-      background-color: $startUpThree;
+      background: none $startUpThree;
+      .button-primary {
+        background-color: $startUpFive;
+        &:hover {
+          background-color: $startUpFour;
+        }
+      }
     }
   }
   .call_to_action--full-width {
@@ -963,7 +1022,9 @@ article.startup, div.startup, a.button-primary.startup {
     }
     .button-primary {
       background-color: $startUpFive;
-
+      &:hover {
+        background-color: $startUpThree;
+      }
     }
     figure {
       background-color: $startUpFive;
@@ -1396,12 +1457,12 @@ $border-color: #DADADA;
   * {
     color: $white;
   }
-  .button-primary {
-    background-color: #00c0f8;
-  }
-  &:hover {
-    background-color: #1e5799;
-  }
+  //.button-primary {
+  //  background-color: #00c0f8;
+  //}
+  //&:hover {
+  //  background-color: #1e5799;
+  //}
 }
 
 .purple-gradient-bc {
@@ -1413,12 +1474,12 @@ $border-color: #DADADA;
   * {
     color: $white;
   }
-  .button-primary {
-    background-color: #d243b4;
-  }
-  &:hover {
-    background-color: #331681;
-  }
+  //.button-primary {
+  //  background-color: #d243b4;
+  //}
+  //&:hover {
+  //  background-color: #331681;
+  //}
 }
 
 .red-gradient-bc {
@@ -1430,12 +1491,12 @@ $border-color: #DADADA;
   * {
     color: $white;
   }
-  .button-primary {
-    background-color: #db4640;
-    &:hover {
-      background-color: #a92633;
-    }
-  }
+  //.button-primary {
+  //  background-color: #db4640;
+  //  &:hover {
+  //    background-color: #a92633;
+  //  }
+  //}
 }
 
 
