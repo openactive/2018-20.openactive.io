@@ -56,7 +56,6 @@ By joining the open data revolution, you and your organisation can benefit from 
 * **To create data standards** - we are driving collaboration across the sector, creating consistent standards for data sharing and fuelling innovation and growth.
 * **To build momentum** - we are sharing the benefits of open data publishing within the sector, and creating accessible materials for anyone to use.
 
-<a class="button-primary" href="{{ site.baseurl }}{% link join.md %}">I think we need a join us CTA</a>
 
 </div>
 </article>

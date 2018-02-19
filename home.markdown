@@ -14,6 +14,13 @@ layout: home
 <div class="hero-tab" data-tab="h2"></div>
 <div class="hero-tab" data-tab="h3"></div>
 </nav>
+<figure role="group" aria-labelledby="open-active-video">
+
+<!-- THIS IS THE YOUTUBE EMEBED -->
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" allowfullscreen></iframe>
+
+<figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
+</figure>
 <div class="content">
 
 <!-- THIS IS THE TITLE BLOCK -->
@@ -30,13 +37,7 @@ layout: home
 [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
 
 </div>
-<figure role="group" aria-labelledby="open-active-video">
 
-<!-- THIS IS THE YOUTUBE EMEBED -->
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" allowfullscreen></iframe>
-
-<figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
-</figure>
 </article>
 
 
@@ -140,7 +141,7 @@ aria-labelledby="activity-provider">
 
 </article>
 
-<article class="call_to_action title-row">
+<article class="call_to_action">
 <div class="subgrid">
 <div class="three blue-gradient-bc">
 
@@ -148,7 +149,7 @@ aria-labelledby="activity-provider">
 
 Take the first step enabling open data in your system.
 
-\[Getting Started\]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
 <div class="three purple-gradient-bc">
@@ -157,7 +158,7 @@ Take the first step enabling open data in your system.
 
 Get stuck into the docs and start using or publishing data today!
 
-\[Developer\]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
+[Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
 
 </div>
 <div class="three red-gradient-bc ">
@@ -166,7 +167,7 @@ Get stuck into the docs and start using or publishing data today!
 
 What's happening in the community, and how you can get involved!
 
-\[Community\]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
+[Community]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
 
 </div>
 </div>
@@ -182,7 +183,7 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 </div>
 <div class="one">
 
-!\[what_open_data.png\]({{ site.baseurl }}/uploads/what_open_data.png)
+![what_open_data.png]({{ site.baseurl }}/uploads/what_open_data.png)
 
 </div>
 
@@ -196,7 +197,7 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 
 Millions find it hard to stay active. OpenActive Accelerator calls for startups to make it easier with digital innovation using open data.
 
-\[Find out more\]( {{ site.baseurl }}{% link accelerator.md %}){: .button-primary}
+[Find out more]( {{ site.baseurl }}{% link accelerator.md %}){: .button-primary}
 
 </div>
 

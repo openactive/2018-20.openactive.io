@@ -4,34 +4,40 @@ layout: default
 
 <div class="page global-template">
 
-    <article class="hero--large" style="background: linear-gradient(to right, #2b2b2b 0%, transparent 70%),  url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;">
-        <div class="two">
-            <h1>Accelerator</h1>
-            <p>Eligendi aspernatur saepe non tempore voluptate. Amet voluptas aut officiis autem dignissimos.</p>
-            <p><a class="button-primary" href="mailto:Lisa.ellwood@theodi.org?subject=OpenActive application query">get
-                in touch.</a>&nbsp;<a class="button-primary--ghost" href="{{ site.baseurl }}{% link faqs.md %}">Visit
-                our FAQs</a></p>
+    <div class="fixed">
+        <a class="global-btn button-primary global-palette">Global Colours</a>
+        <a class="use-btn button-primary use-palette">Use Colours</a>
+        <a class="publish-btn button-primary publish-palette">Publish Colours</a>
+        <a class="start-ups-btn button-primary startups-palette">Start Ups Colours</a>
+    </div>
+
+    <article class="hero--large collapse-bottom"
+             style="background: linear-gradient(to right, #3B3089 0%, transparent 100%),  url({{site.baseurl}}{{page.thumbnail_image}})center 43% / cover no-repeat;">
+        <div class="one">
+            <h3>{{page.title}}</h3>
+            <p>{{page.strapline}}</p>
+            <h6>Sport England</h6>
+            <p><a href="https://www.sportengland.org/media/12458/active-lives-adult-may-16-17-report.pdf"
+                  target="_blank">Active Lives Survey - 16/17</a></p>
         </div>
     </article>
 
+
     <article class="hero--thin">
-        <div class="one" style="background:linear-gradient(to right, #2b2b2b 0%, transparent 70%),  url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;">
-            <h1>Accelerator</h1>
-            <p>Eligendi aspernatur saepe non tempore voluptate. Amet voluptas aut officiis autem dignissimos.</p>
-            <p><a class="button-primary" href="mailto:Lisa.ellwood@theodi.org?subject=OpenActive application query">get
-                in touch.</a>&nbsp;<a class="button-primary--ghost" href="{{ site.baseurl }}{% link faqs.md %}">Visit
-                our FAQs</a></p>
+        <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+
+        <div class="one"
+             style="background:linear-gradient(to right, #2b2b2b 0%, transparent 70%),  url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;">
+            <h1>{{page.title}}</h1>
+            <p>{{page.strapline}}</p>
         </div>
     </article>
 
     <article markdown="0" class="hero--montage">
         <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
         <div>
-            <h1>Developer</h1>
-            <p>Discover how to use data with OpenActive</p>
-            <p>Know what your here for? <a href="#resources">Jump to Resources</a></p>
-            <p>Not a developer? Learn how to <a href="( {{ site.baseurl }}{% link getting-started.md %})">Get
-                Started</a></p>
+            <h1>{{page.title}}</h1>
+            <p>{{page.strapline}}</p>
         </div>
         <figure class="hero">
             <div class="triangle"></div>
@@ -50,11 +56,8 @@ layout: default
     <article markdown="0" class="hero--sub">
         <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
         <div>
-            <h1>Developer</h1>
-            <p>Discover how to use data with OpenActive</p>
-            <p>Know what your here for? <a href="#resources">Jump to Resources</a></p>
-            <p>Not a developer? Learn how to <a href="( {{ site.baseurl }}{% link getting-started.md %})">Get
-                Started</a></p>
+            <h1>{{page.title}}</h1>
+            <p>{{page.strapline}}</p>
         </div>
         <figure>
             <div class="triangle"></div>
@@ -67,11 +70,8 @@ layout: default
     <article markdown="0" class="hero--simple">
         <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
         <div class="one">
-            <h1>{{ page.title | escape }}</h1>
-            <p>OpenActive is community-led initiative with an ambition to help people in England get active using open
-                data. </p>
-            <p>The initiative is stewarded by the Open Data Institute (ODI), supported by Sport England, and formed of
-                organisations and engaged individuals working within the sport and physical activity sector.</p>
+            <h1>{{page.title}}</h1>
+            <p>{{page.strapline}}</p>
         </div>
 
     </article>
@@ -151,7 +151,6 @@ layout: default
             </div>
         </div>
     </article>
-
 
     <article class="call_to_action">
         <div class="subgrid">
@@ -308,9 +307,11 @@ layout: default
         <h2 class="sub-heading-two">Buttons</h2>
 
         <div class="one">
-            <p><a class="button-primary">Button Primary</a>&nbsp;<a class="button-primary--ghost">Button Primary Ghost</a>&nbsp;<a class="button-primary--alt">Button Primary Alt</a></p>
+            <p><a class="button-primary">Button Primary</a>&nbsp;<a class="button-primary--ghost">Button Primary
+                Ghost</a>&nbsp;<a class="button-primary--alt">Button Primary Alt</a></p>
 
-            <p><a class="button-secondary">Button Secondary</a>&nbsp;<a class="button-secondary--ghost">Button Secondary Ghost</a></p>
+            <p><a class="button-secondary">Button Secondary</a>&nbsp;<a class="button-secondary--ghost">Button Secondary
+                Ghost</a></p>
 
             <p><a class="link">Link</a>&nbsp;<a>Plain Link</a></p>
 
@@ -319,41 +320,29 @@ layout: default
     </article>
 
 
-    <article class="global-colours title-row">
-        <h2 class="sub-heading-two">Global Palette</h2>
-        <div class="eight"></div>
-        <div class="eight"></div>
-        <div class="eight"></div>
-        <div class="eight"></div>
-        <div class="eight"></div>
-        <div class="eight"></div>
-        <div class="eight"></div>
-        <div class="eight"></div>
+    <article class="faq-snippet title-row invert-2">
+        <h2 class="sub-heading-two">FAQ's</h2>
+
+        <div class="one">
+            {% assign aboutAccelerator = site.faqs | where: "categories", "OpenActive Accelerator" %}
+            {% for post in aboutAccelerator limit:4 %}
+
+            <div class=" show_hide">
+                <h5>Q: {{ post.title | escape}}</h5>
+                <div class="slidingDiv">
+                    {{post.content}}
+                </div>
+            </div>
+
+            {% endfor %}
+        </div>
+        <div class="one">
+            <p><a class="button-primary" href="{{ site.baseurl }}{% link faqs.md %}">Visit
+                our FAQs</a>&nbsp;<a class="button-primary--ghost"
+                                     href="mailto:Lisa.ellwood@theodi.org?subject=OpenActive application query">get
+                in touch</a></p>
+        </div>
     </article>
 
-    <article class="publish-colours title-row">
-        <h2 class="sub-heading-two">Publish Palette</h2>
-        <div class="six"></div>
-        <div class="six"></div>
-        <div class="six"></div>
-        <div class="six"></div>
-        <div class="six"></div>
-    </article>
-    <article class="use-colours title-row">
-        <h2 class="sub-heading-two">Use Palette</h2>
-        <div class="six"></div>
-        <div class="six"></div>
-        <div class="six"></div>
-        <div class="six"></div>
-        <div class="six"></div>
-    </article>
-    <article class="startup-colours title-row">
-        <h2 class="sub-heading-two">Use Palette</h2>
-        <div class="six"></div>
-        <div class="six"></div>
-        <div class="six"></div>
-        <div class="six"></div>
-        <div class="six"></div>
-    </article>
 
 </div>

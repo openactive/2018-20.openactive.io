@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="page global-template">
+
+
+    <article markdown="0" class="hero--montage">
+        <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+        <div>
+            <h1>{{page.title}}</h1>
+            <p>{{page.strapline}}</p>
+        </div>
+        <figure class="hero">
+            <div class="triangle"></div>
+            <div class="stripe thick"></div>
+
+            <div style="background: url({{site.baseurl}}{{page.thumbnail_image}})center center / cover no-repeat;"></div>
+        </figure>
+        <figure class="sub-menu">
+            <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+        </figure>
+    </article>
+
+
+
+    {{ content }}
+
+</div>

@@ -9,6 +9,38 @@ $(document).ready(function () {
         //     }
         // });
 
+        $('.global-palette').on("click", function () {
+            $('.page')
+                .removeClass('startup-template')
+                .removeClass('publish-template')
+                .removeClass('use-template')
+                .addClass('global-template')
+        });
+
+        $('.use-palette').on("click", function () {
+            $('.page')
+                .removeClass('startup-template')
+                .removeClass('publish-template')
+                .removeClass('global-template')
+                .addClass('use-template')
+        });
+
+        $('.publish-palette').on("click", function () {
+            $('.page')
+                .removeClass('startup-template')
+                .removeClass('use-template')
+                .removeClass('global-template')
+                .addClass('publish-template')
+        });
+
+        $('.startups-palette').on("click", function () {
+            $('.page')
+                .removeClass('publish-template')
+                .removeClass('use-template')
+                .removeClass('global-template')
+                .addClass('startup-template')
+        });
+
 
         if ($(".accelerator-template").length > 0) {
 

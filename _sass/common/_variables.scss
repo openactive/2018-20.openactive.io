@@ -113,7 +113,9 @@ $globalSeven: $brand-seven;
 $globalEight: $brand-eight;
 
 .global {
-  background-color: $global;
+  &.a {
+    background-color: $global;
+  }
   &.call_to_action--full-width {
     .sub-heading-two {
       color: $white;
@@ -127,18 +129,24 @@ $globalEight: $brand-eight;
   }
   &.gradient {
     background: $globalFour; /* Old browsers */
-    background: -moz-radial-gradient(ellipse at 50% 20%, $globalFour 16%, $globalFive 65%); /* FF3.6-15 */
-    background: -webkit-radial-gradient(ellipse at 50% 20%, $globalFour 16%, $globalFive 65%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at 50% 20%, $globalFour 16%, $globalFive 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $globalTwo 16%, $globalFive 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $globalTwo 16%, $globalFive 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $globalTwo 16%, $globalFive 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#69c5e3', endColorstr='#33377c', GradientType=1); /* IE6-9 fallback on horizontal gradient */
     * {
       color: $white;
     }
   }
+
+}
+
+.global-btn {
+  background-color: $global !important;
+  color: $white !important;
 }
 
 .global-template {
-  h1, h2, h3, h4, h5 {
+  h1, h2, h3, h4, h5,h6 {
     color: $global;
   }
   .hero--sub, .hero--montage {
@@ -154,38 +162,42 @@ $globalEight: $brand-eight;
   .sub-heading-two {
     color: $global;
   }
+  .link {
+    color: $global;
+  }
 
   .button-primary {
     background-color: $globalFive;
-    &:hover{
+    &:hover {
       background-color: $globalSix;
     }
   }
-  a.button-primary--ghost{
+  a.button-primary--ghost {
     background-color: transparent;
     border-color: $globalFive;
     color: $globalFive;
   }
-  a.button-primary--ghostlarge{
+  a.button-primary--ghostlarge {
     background-color: transparent;
-    //border-color: $globalFive;
-    color: $white;
+    border-color: $globalFive;
+    color: $globalFive;
   }
 
   .button-secondary {
     background-color: $globalFour;
-    &:hover{
+    &:hover {
       background-color: $globalThree;
     }
   }
-  a.button-secondary--ghost{
+  a.button-secondary--ghost {
     background-color: transparent;
     border-color: $globalFour;
     color: $globalFour;
-    &:hover{
+    &:hover {
       background-color: $globalThree;
     }
   }
+
   .call_to_action--full-width {
     background-color: $global;
     .sub-heading-two {
@@ -199,92 +211,147 @@ $globalEight: $brand-eight;
     }
   }
   .call_to_action {
+    .one{
+      background-color: $global!important;
+    }
     .two, .three {
       * {
         color: $white;
       }
     }
   }
-  blockquote.featured{
-  background-color: $global;
+  .call_to_action--wide {
+    .one{
+      background-color: $globalTwo;
+    }
+  }
+  .inset-call-to-action {
+    background: $globalFour; /* Old browsers */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $globalFour 16%, $global 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $globalFour 16%, $global 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $globalFour 16%, $global 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#69c5e3', endColorstr='#33377c', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    * {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $globalFour;
+      &:hover {
+        background-color: $globalThree;
+
+      }
+    }
+  }
+
+  blockquote.featured {
+    background-color: $global;
 
   }
-  .featured{
+  .featured {
     background-color: $global;
   }
-  .invert{
+
+  .faq-snippet {
+    .show_hide {
+      border-color: $white;
+    }
+  }
+
+  .invert {
     background-color: $global;
     padding: 4rem 0;
 
     .sub-heading-two {
       color: $white;
     }
-    svg{
-      path{
-       // fill:$white;
+    svg {
+      path {
+        // fill:$white;
       }
     }
     * {
       color: $white;
     }
-    a.button-primary{
+    a.button-primary {
       background-color: $brand-two;
-      &:hover{
+      &:hover {
         background-color: transparent;
         border-color: white;
         color: white;
       }
     }
-    a.button-primary--ghost{
+    a.button-primary--ghost {
       background-color: transparent;
       border-color: white;
       color: white;
-      &:hover{
-        border-color:transparent;
+      &:hover {
+        border-color: transparent;
         background-color: $brand-two;
       }
 
     }
-    a.button-primary--ghostlarge{
+    a.button-primary--ghostlarge {
       background-color: transparent;
       border-color: white;
       color: white;
-      &:hover{
-        border-color:transparent;
+      &:hover {
+        border-color: transparent;
         background-color: $brand-two;
       }
 
     }
   }
-  .invert-2{
+  .invert-2 {
     @extend .invert;
     background-color: $global;
   }
-  .invert-3{
+  .invert-3 {
     @extend .invert;
     background-color: $global;
   }
-  .invert-4{
+  .invert-4 {
     @extend .invert;
     background-color: $logo-six;
   }
-  .invert-5{
+  .invert-5 {
     @extend .invert;
     background-color: $logo-six;
   }
-  .invert-5{
-   // @extend .invert;
+  .invert-5 {
+    // @extend .invert;
     background-color: $brand-two;
   }
-  .blend-5{
-    @extend .invert;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#433d90+53,146ebb+100 */
-    background: #433d90; /* Old browsers */
-    background: -moz-linear-gradient(top, #433d90 53%, #146ebb 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #433d90 53%,#146ebb 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #433d90 53%,#146ebb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#433d90', endColorstr='#146ebb',GradientType=0 ); /* IE6-9 */
+
+  .colours {
+    div {
+      height: 100px;
+      &:nth-child(1) {
+        background-color: $global;
+      }
+      &:nth-child(2) {
+        background-color: $globalTwo;
+      }
+      &:nth-child(3) {
+        background-color: $globalThree;
+      }
+      &:nth-child(4) {
+        background-color: $globalFour;
+      }
+      &:nth-child(5) {
+        background-color: $globalFive;
+      }
+      &:nth-child(6) {
+        background-color: $globalSix;
+      }
+      &:nth-child(7) {
+        background-color: $globalSeven;
+      }
+      &:nth-child(8) {
+        background-color: $globalEight;
+      }
+    }
   }
+
 }
 
 .global, .global-template {
@@ -297,36 +364,6 @@ $globalEight: $brand-eight;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 178.86 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%237d338a;}%3C/style%3E%3C/defs%3E%3Ctitle%3Ethin-stripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='14.39 0.05 0 0 164.53 165.78 178.86 165.78 14.39 0.05'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     &.thick {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192.39 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%237d338a;}%3C/style%3E%3C/defs%3E%3Ctitle%3Estripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='192.39 165.78 164.93 138.12 164.89 138.12 27.92 0.11 0 0 164.53 165.78 192.39 165.78'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    }
-  }
-}
-
-.global-colours {
-  div {
-    height: 100px;
-    &:nth-child(2) {
-      background-color: $global;
-    }
-    &:nth-child(3) {
-      background-color: $globalTwo;
-    }
-    &:nth-child(4) {
-      background-color: $globalThree;
-    }
-    &:nth-child(5) {
-      background-color: $globalFour;
-    }
-    &:nth-child(6) {
-      background-color: $globalFive;
-    }
-    &:nth-child(7) {
-      background-color: $globalSix;
-    }
-    &:nth-child(8) {
-      background-color: $globalSeven;
-    }
-    &:nth-child(8) {
-      background-color: $globalEight;
     }
   }
 }
@@ -375,21 +412,13 @@ article.use, div.use {
   }
 }
 
-.use, .use-template {
-  .triangle {
-    //BLUE TRAINGLE
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%237d338a;}%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 7%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  }
-  .stripe {
-    //BLUE STRIPE
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 178.86 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23e11582;}%3C/style%3E%3C/defs%3E%3Ctitle%3Ethin-stripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='14.39 0.05 0 0 164.53 165.78 178.86 165.78 14.39 0.05'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    &.thick {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192.39 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23e11582;}%3C/style%3E%3C/defs%3E%3Ctitle%3Estripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='192.39 165.78 164.93 138.12 164.89 138.12 27.92 0.11 0 0 164.53 165.78 192.39 165.78'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    }
-  }
+.use-btn {
+  background-color: $usingFour !important;
+  color: $white !important;
 }
+
 .use-template {
-  h1, h2, h3, h4, h5 {
+  h1, h2, h3, h4, h5 ,h6{
     color: $usingThree;
   }
   .hero--sub, .hero--montage {
@@ -406,13 +435,17 @@ article.use, div.use {
     color: $usingThree;
   }
 
+  .link {
+    color: $usingFour;
+  }
+
   .button-primary {
     background-color: $usingThree;
-    &:hover{
+    &:hover {
       background-color: $globalSix;
     }
   }
-  a.button-primary--ghost{
+  a.button-primary--ghost, a.button-primary--ghostlarge {
     background-color: transparent;
     border-color: $usingThree;
     color: $usingThree;
@@ -420,18 +453,19 @@ article.use, div.use {
 
   .button-secondary {
     background-color: $usingFive;
-    &:hover{
+    &:hover {
       background-color: $usingFour;
     }
   }
-  a.button-secondary--ghost{
+  a.button-secondary--ghost {
     background-color: transparent;
     border-color: $usingFive;
     color: $usingFive;
-    &:hover{
+    &:hover {
       background-color: $usingFour;
     }
   }
+
   .call_to_action--full-width {
     background-color: $usingThree;
     .sub-heading-two {
@@ -445,53 +479,122 @@ article.use, div.use {
     }
   }
   .call_to_action {
+    .one{
+      background-color: $usingThree;
+    }
     .two, .three {
       * {
         color: $white;
       }
     }
   }
-  blockquote.featured{
+  .call_to_action--wide {
+    .one {
+      background-color: $usingThree;
+    }
+  }
+
+  .inset-call-to-action {
+    background: $using; /* Old browsers */
+    background: -moz-radial-gradient(ellipse at 50% 20%, $usingFive 16%, $usingThree 65%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(ellipse at 50% 20%, $usingFive 16%, $usingThree 65%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at 50% 20%, $usingFive 16%, $usingThree 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e61990', endColorstr='#922a8f', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    * {
+      color: $white;
+    }
+    .button-primary {
+      background-color: $usingFour;
+      &:hover {
+        background-color: $usingThree;
+
+      }
+    }
+  }
+
+  blockquote.featured {
     background-color: $usingFive;
 
   }
-  .featured{
+  .featured {
     background-color: $usingFive;
   }
-  .invert{
+
+  .faq-snippet {
+    .show_hide {
+      border-color: $white;
+    }
+  }
+
+  .invert {
     background-color: $usingFour;
     padding: 3rem 0 2rem 0;
     .sub-heading-two {
       color: $white;
     }
-    svg{
-      path{
-        fill:$white;
+    svg {
+      path {
+        fill: $white;
       }
     }
     * {
       color: $white;
     }
   }
+  .invert-2 {
+    @extend .invert;
+    background-color: $using;
+  }
+  .invert-3 {
+    @extend .invert;
+    background-color: $usingTwo;
+  }
+  .invert-4 {
+    @extend .invert;
+    background-color: $usingThree;
+  }
+  .invert-5 {
+    @extend .invert;
+    background-color: $usingFour;
+  }
+  .invert-5 {
+    // @extend .invert;
+    background-color: $usingFive;
+  }
+
+  .colours {
+    div {
+      height: 100px;
+      &:nth-child(1) {
+        background-color: $using;
+      }
+      &:nth-child(2) {
+        background-color: $usingTwo;
+      }
+      &:nth-child(3) {
+        background-color: $usingThree;
+      }
+      &:nth-child(4) {
+        background-color: $usingFour;
+      }
+      &:nth-child(5) {
+        background-color: $usingFive;
+      }
+    }
+  }
+
 }
 
-.use-colours {
-  div {
-    height: 100px;
-    &:nth-child(2) {
-      background-color: $using;
-    }
-    &:nth-child(3) {
-      background-color: $usingTwo;
-    }
-    &:nth-child(4) {
-      background-color: $usingThree;
-    }
-    &:nth-child(5) {
-      background-color: $usingFour;
-    }
-    &:nth-child(6) {
-      background-color: $usingFive;
+.use, .use-template {
+  .triangle {
+    //BLUE TRAINGLE
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%237d338a;}%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 7%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .stripe {
+    //BLUE STRIPE
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 178.86 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23e11582;}%3C/style%3E%3C/defs%3E%3Ctitle%3Ethin-stripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='14.39 0.05 0 0 164.53 165.78 178.86 165.78 14.39 0.05'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    &.thick {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192.39 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23e11582;}%3C/style%3E%3C/defs%3E%3Ctitle%3Estripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='192.39 165.78 164.93 138.12 164.89 138.12 27.92 0.11 0 0 164.53 165.78 192.39 165.78'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     }
   }
 }
@@ -538,6 +641,12 @@ article.publish, div.publish {
     background-color: $publishTwo;
   }
 }
+
+.publish-btn {
+  background-color: $publishFour !important;
+  color: $white !important;
+}
+
 .publish, .publish-template {
   .triangle {
     //BLUE TRAINGLE
@@ -553,37 +662,44 @@ article.publish, div.publish {
 }
 
 .publish-template {
-  h1, h2, h3, h4, h5 {
+  h1, h2, h3, h4, h5,h6 {
     color: $publishFour;
   }
   .sub-heading-two {
     color: $publishFour;
   }
+
+  .link {
+    color: $publishFour;
+  }
+
   .button-primary {
     background-color: $publish;
-    &:hover{
+    &:hover {
       background-color: $publishThree;
     }
   }
-  a.button-primary--ghost{
+  a.button-primary--ghost, a.button-primary--ghostlarge {
     background-color: transparent;
     border-color: $publish;
     color: $publish;
   }
+
   .button-secondary {
     background-color: $publishFour;
-    &:hover{
+    &:hover {
       background-color: $publishThree;
     }
   }
-  a.button-secondary--ghost{
+  a.button-secondary--ghost {
     background-color: transparent;
     border-color: $publishFour;
     color: $publishFour;
-    &:hover{
+    &:hover {
       background-color: $publishThree;
     }
   }
+
   .hero--sub, .hero--montage {
     h1 {
       color: $publishFour;
@@ -594,6 +710,7 @@ article.publish, div.publish {
       }
     }
   }
+
   .call_to_action--full-width {
     background-color: $publishTwo;
     .sub-heading-two {
@@ -608,13 +725,21 @@ article.publish, div.publish {
     }
   }
   .call_to_action {
+    .one{
+      background-color: $publishTwo;
+    }
     .two, .three {
       * {
         color: $white;
       }
     }
   }
-  .inset-call-to-action{
+  .call_to_action--wide {
+    .one{
+      background-color: $publishTwo;
+    }
+  }
+  .inset-call-to-action {
     background: $publishFive; /* Old browsers */
     background: -moz-radial-gradient(ellipse at 50% 20%, $publishFive 16%, $publishThree 65%); /* FF3.6-15 */
     background: -webkit-radial-gradient(ellipse at 50% 20%, $publishFive 16%, $publishThree 65%); /* Chrome10-25,Safari5.1-6 */
@@ -625,53 +750,81 @@ article.publish, div.publish {
     }
     .button-primary {
       background-color: $publishFour;
-      &:hover{
+      &:hover {
         background-color: $publishThree;
 
       }
     }
   }
-  blockquote.featured{
+
+  blockquote.featured {
     background-color: $publishThree;
 
   }
-  .featured{
+  .featured {
     background-color: $publishThree;
   }
-  .invert{
+
+  .faq-snippet {
+    .show_hide {
+      border-color: $white;
+    }
+  }
+
+  .invert {
     background-color: $publishFour;
     padding: 3rem 0;
     .sub-heading-two {
       color: $white;
     }
-    svg{
-      path{
-        fill:$white;
+    svg {
+      path {
+        fill: $white;
       }
     }
     * {
       color: $white;
     }
   }
-}
+  .invert-2 {
+    @extend .invert;
+    background-color: $publish;
+  }
+  .invert-3 {
+    @extend .invert;
+    background-color: $publishTwo;
+  }
+  .invert-4 {
+    @extend .invert;
+    background-color: $publishThree;
+  }
+  .invert-5 {
+    @extend .invert;
+    background-color: $publishFour;
+  }
+  .invert-5 {
+    // @extend .invert;
+    background-color: $publishFive;
+  }
 
-.publish-colours {
-  div {
-    height: 100px;
-    &:nth-child(2) {
-      background-color: $publish;
-    }
-    &:nth-child(3) {
-      background-color: $publishTwo;
-    }
-    &:nth-child(4) {
-      background-color: $publishThree;
-    }
-    &:nth-child(5) {
-      background-color: $publishFour;
-    }
-    &:nth-child(6) {
-      background-color: $publishFive;
+  .colours {
+    div {
+      height: 100px;
+      &:nth-child(1) {
+        background-color: $publish;
+      }
+      &:nth-child(2) {
+        background-color: $publishTwo;
+      }
+      &:nth-child(3) {
+        background-color: $publishThree;
+      }
+      &:nth-child(4) {
+        background-color: $publishFour;
+      }
+      &:nth-child(5) {
+        background-color: $publishFive;
+      }
     }
   }
 }
@@ -718,9 +871,14 @@ article.startup, div.startup, a.button-primary.startup {
   }
 }
 
+.start-ups-btn {
+  background-color: $startUpFour !important;
+  color: $white !important;
+}
+
 .startup-template {
 
-  h1, h2, h3, h4, h5 {
+  h1, h2, h3, h4, h5,h6 {
     color: $startUpFour;
   }
   .hero--sub, .hero--montage {
@@ -736,36 +894,51 @@ article.startup, div.startup, a.button-primary.startup {
   .sub-heading-two {
     color: $startUpFour;
   }
+
+  .link {
+    color: $startUpFour;
+  }
+
   .button-primary {
     background-color: $startUpFour;
-    &:hover{
+    &:hover {
       background-color: $startUpFive;
     }
   }
-  a.button-primary--ghost{
+  a.button-primary--ghost, a.button-primary--ghostlarge {
     background-color: transparent;
     border-color: $startUpFour;
     color: $startUpFour;
   }
+
   .button-secondary {
     background-color: $startUpFive;
-    &:hover{
+    &:hover {
       background-color: $startUpFour;
     }
   }
-  a.button-secondary--ghost{
+  a.button-secondary--ghost {
     background-color: transparent;
     border-color: $startUpFive;
     color: $startUpFive;
-    &:hover{
+    &:hover {
       background-color: $startUpFive;
     }
   }
+
   .call_to_action {
+    .one{
+      background-color: #e9493b;
+    }
     .two, .three {
       * {
         color: $white;
       }
+    }
+  }
+  .call_to_action--wide {
+    .one{
+      background-color: $startUpThree;
     }
   }
   .call_to_action--full-width {
@@ -781,7 +954,7 @@ article.startup, div.startup, a.button-primary.startup {
       background-color: $startUpFive;
     }
   }
-  .inset-call-to-action{
+  .inset-call-to-action {
     background: $publishFive; /* Old browsers */
     background: -moz-radial-gradient(ellipse at 50% 20%, $startUpFive 16%, $startUpThree 65%); /* FF3.6-15 */
     background: -webkit-radial-gradient(ellipse at 50% 20%, $startUpFive 16%, $startUpThree 65%); /* Chrome10-25,Safari5.1-6 */
@@ -792,33 +965,13 @@ article.startup, div.startup, a.button-primary.startup {
     }
     .button-primary {
       background-color: $startUpFive;
-      &:hover{
+      &:hover {
         background-color: $startUpThree;
 
       }
     }
   }
-  //.hero--sub, .call_to_action--full-width {
-  //  //background-color: #e9493b;
-  //  background-color: $startUpFour;
-  //  .button-primary {
-  //    background-color: $startUpFive;
-  //  }
-  //  figure {
-  //    background-color: $globalThree;
-  //  }
-  //  .sub-heading-two {
-  //    color: $white;
-  //  }
-  //  h1 {
-  //    color: $startUpFour;
-  //  }
-  //  @media only screen and (max-width: 750px) {
-  //    figure {
-  //      background-color: $startUpFive;
-  //    }
-  //  }
-  //}
+
   .hero--montage {
     h1 {
       color: $startUpFour;
@@ -828,29 +981,75 @@ article.startup, div.startup, a.button-primary.startup {
     }
   }
 
-  blockquote.featured{
+  blockquote.featured {
     background-color: $startUpThree;
 
   }
-  .featured{
+  .featured {
     background-color: $startUpThree;
   }
-  .invert{
+
+  .faq-snippet {
+    .show_hide {
+      border-color: $white;
+    }
+  }
+
+  .invert {
     background-color: $startUpThree;
     padding: 2rem 0;
     .sub-heading-two {
       color: $white;
     }
-    svg{
-      path{
-        fill:$white;
+    svg {
+      path {
+        fill: $white;
       }
     }
     * {
       color: $white;
     }
   }
+  .invert-2 {
+    @extend .invert;
+    background-color: $startUp;
+  }
+  .invert-3 {
+    @extend .invert;
+    background-color: $startUpTwo;
+  }
+  .invert-4 {
+    @extend .invert;
+    background-color: $startUpThree;
+  }
+  .invert-5 {
+    @extend .invert;
+    background-color: $startUpFour;
+  }
+  .invert-5 {
+    background-color: $startUpFive;
+  }
 
+  .colours {
+    div {
+      height: 100px;
+      &:nth-child(1) {
+        background-color: $startUp;
+      }
+      &:nth-child(2) {
+        background-color: $startUpTwo;
+      }
+      &:nth-child(3) {
+        background-color: $startUpThree;
+      }
+      &:nth-child(4) {
+        background-color: $startUpFour;
+      }
+      &:nth-child(5) {
+        background-color: $startUpFive;
+      }
+    }
+  }
 }
 
 .startup-template, article.startup, div.startup {
@@ -862,27 +1061,6 @@ article.startup, div.startup, a.button-primary.startup {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 178.86 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23f7a644;}%3C/style%3E%3C/defs%3E%3Ctitle%3Ethin-stripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='14.39 0.05 0 0 164.53 165.78 178.86 165.78 14.39 0.05'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     &.thick {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192.39 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23f7a644;}%3C/style%3E%3C/defs%3E%3Ctitle%3Estripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='192.39 165.78 164.93 138.12 164.89 138.12 27.92 0.11 0 0 164.53 165.78 192.39 165.78'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    }
-  }
-}
-
-.startup-colours {
-  div {
-    height: 100px;
-    &:nth-child(2) {
-      background-color: $startUp;
-    }
-    &:nth-child(3) {
-      background-color: $startUpTwo;
-    }
-    &:nth-child(4) {
-      background-color: $startUpThree;
-    }
-    &:nth-child(5) {
-      background-color: $startUpFour;
-    }
-    &:nth-child(6) {
-      background-color: $startUpFive;
     }
   }
 }
@@ -1063,29 +1241,37 @@ $border-color: #DADADA;
     }
   }
 }
+
 //****************************BRAND COLOUR
-.brand-one-c{
+.brand-one-c {
   color: $brand-one;
 }
-.brand-two-c{
+
+.brand-two-c {
   color: $brand-two;
 }
-.brand-three-c{
+
+.brand-three-c {
   color: $brand-three;
 }
-.brand-four-c{
+
+.brand-four-c {
   color: $brand-four;
 }
-.brand-five-c{
+
+.brand-five-c {
   color: $brand-five;
 }
-.brand-six-c{
+
+.brand-six-c {
   color: $brand-six;
 }
-.brand-seven-c{
+
+.brand-seven-c {
   color: $brand-seven;
 }
-.brand-eight-c{
+
+.brand-eight-c {
   color: $brand-eight;
 }
 
@@ -1190,10 +1376,10 @@ $border-color: #DADADA;
   * {
     color: $white;
   }
-  .button-primary{
+  .button-primary {
     background-color: #00c0f8;
   }
-  &:hover{
+  &:hover {
     background-color: #1e5799;
   }
 }
@@ -1207,10 +1393,10 @@ $border-color: #DADADA;
   * {
     color: $white;
   }
-  .button-primary{
+  .button-primary {
     background-color: #d243b4;
   }
-  &:hover{
+  &:hover {
     background-color: #331681;
   }
 }
@@ -1224,9 +1410,9 @@ $border-color: #DADADA;
   * {
     color: $white;
   }
-  .button-primary{
+  .button-primary {
     background-color: #db4640;
-    &:hover{
+    &:hover {
       background-color: #a92633;
     }
   }

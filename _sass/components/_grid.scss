@@ -73,8 +73,8 @@
 
           }
           @media only screen and (max-width: 750px) {
-            figure{
-              svg{
+            figure {
+              svg {
                 min-width: 90px;
               }
             }
@@ -93,8 +93,8 @@
 
           }
           @media only screen and (max-width: 600px) {
-            figure{
-              svg{
+            figure {
+              svg {
                 min-width: 90px;
               }
             }
@@ -950,7 +950,14 @@ article {
 
 html.no-cssgrid {
 
-  article {
+  .page > article,
+  .home > article:not(.call_to_action--full-width):not(.tabs),
+  footer {
+    max-width: 1400px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: auto;
+    margin-bottom: 2rem;
     @media only screen and (max-width: 900px) {
 
     }
@@ -1123,6 +1130,7 @@ html.no-cssgrid {
       box-sizing: initial;
       vertical-align: top;
       text-align: center;
+      box-sizing: border-box;
       img {
         max-width: 100%;
       }

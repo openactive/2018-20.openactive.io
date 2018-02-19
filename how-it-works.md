@@ -46,8 +46,6 @@ We believe that open opportunity data will revolutionise the sport and physical 
 
 
 
-
-
 </div>
 
 <div class="two">

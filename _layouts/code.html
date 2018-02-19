@@ -2,8 +2,7 @@
 layout: default
 ---
 
-<div class="page constrain">
-
+<div class="page">
 
     <article>
         <div class="one" style="background: red">
@@ -86,100 +85,4 @@ layout: default
         </div>
     </article>
 
-
-    <article>
-        <div class="one">
-            <pre>
-                <code class="css">
-    .line-graphic{
-        right: 0;
-        position: absolute;
-        height: 100%;
-        width: 130px;
-        display: inline-flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        padding-top: 8rem;
-    }
-                </code>
-            </pre>
-            <pre>
-                <code class="javascript">
-     $(window).scroll(function () {
-        if ($(window).scrollTop() > activateAtY) {
-            deactivateHeader();
-            $('#nav-icon3').removeClass('open');
-            $('.mobile-nav').css('display', 'none');
-        } else {
-            activateHeader();
-            $('.mobile-nav').css('display', 'inline-flex');
-            if ($('#nav-icon3').hasClass('open')) {
-                $('#nav-icon3').removeClass('open');
-                $('.mobile-nav').slideUp();
-            }
-        }
-    });
-                </code>
-            </pre>
-            <pre>
-                <code class="javascript">
-    var query;
-    if (queryParams.afterChangeNumber) {
-       query = Session.query().filter(Session.changeNumber > queryParams.afterChangeNumber);
-    } else {
-       query = Session.query()
-    }
-    return query.sort([Session.changeNumber])
-                </code>
-            </pre>
-            <pre>
-                <code class="json">
-    {
-       "next": "http://www.example.com/api/rpde/sessions?afterTimestamp=1453931925&afterId=%7Bd97f73fb-4718-48ee-a6a9-9c7d717ebd85%7D",
-       "items": [
-           {
-               "state": "updated",
-               "kind": "session",
-               "id": "{c15814e5-8931-470c-8a16-ef45afedaece}",
-               "modified": 1453931101,
-               "data": {
-                   "@context": "https://www.openactive.io/ns/oa.jsonld",
-                   "type": "Event",
-                   "identifier": "session-01jz93i3k1p3",
-                   "superEvent": {
-                       "identifier": "eventType-ak6zw8ntsiqq"
-                   },
-                   "startDate": "2016-05-09T18:15:00Z",
-                   "endDate": "2016-05-09T19:15:00Z",
-                   "remainingAttendeeCapacity": 0,
-                   "url": "https://bookingsystem.com/hulahoop/e/ev-ssyp-20160509191500?r=oa",
-                   "attendanceCount": 29,
-                   "location": {
-                       "type": "Place",
-                       "identifier": "location-jbnentuhxsnp",
-                       "url": "https://leisurecentre.org.uk/leisure-centre/camden/kentish-town-sports-centre",
-                       "name": "Kentish Town Sports Centre",
-                       "address": {
-                           "type": "PostalAddress",
-                           "addressLocality": "Camden",
-                           "addressRegion": "London West",
-                           "postalCode": "NW5 3DU",
-                           "streetAddress": "Kentish Town Sports Centre"
-                       }
-                   }
-               }
-           },
-           {
-               "state": "deleted",
-               "kind": "session",
-               "id": "{d97f73fb-4718-48ee-a6a9-9c7d717ebd85}",
-               "modified": 1453931925
-           }
-       ],
-       "license": "https://creativecommons.org/licenses/by/4.0/"
-    }
-                </code>
-            </pre>
-        </div>
-    </article>
 </div>

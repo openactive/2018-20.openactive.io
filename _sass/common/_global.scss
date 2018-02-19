@@ -23,7 +23,7 @@ html.no-cssgrid {
     //align-items: center;
 
   }
-  header, .constrain, .page {
+  header, .constrain {
     max-width: 1400px;
     padding-right: 5%;
     padding-left: 5%;
@@ -96,4 +96,24 @@ main {
 }
 .hidden{
   display: none;
+}
+
+.fixed{
+  position: fixed;
+  bottom: 0;
+  padding: 2rem;
+  background-color: white;
+  border: 1px solid black;
+  z-index: 999;
+  width: 100%;
+  .colours,.buttons{
+    width:49%;
+    display: inline-block;
+    vertical-align: top;
+    div{
+      width:10%;
+      height:30px;
+      display: inline-block;
+    }
+  }
 }

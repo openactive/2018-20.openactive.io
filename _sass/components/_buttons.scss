@@ -15,6 +15,7 @@ a {
   color: $link-color;
   font-weight: 300;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 a:link,
@@ -55,18 +56,16 @@ span.primary_cta > a,
 input[type=submit],
 button[type=submit],
 button.primary_cta,
-
-
-a.button-primary{
+a.button-primary {
   display: inline-block;
   vertical-align: top;
   padding: 10px 30px;
   //margin: 1rem 0 0 0 ;
-  margin: 0 ;
+  margin: 0;
 
   background-color: $brand-five;
   color: $white;
-
+  line-height: 1;
   font-weight: 600;
   font-family: $font-family;
   font-size: $base-font-size / 1.5;
@@ -76,7 +75,7 @@ a.button-primary{
   letter-spacing: 1px;
 
   border-radius: 5px;
-  border:1px solid transparent;
+  border: 1px solid transparent;
 
   transition-property: background-color;
   transition-duration: 0.2s;
@@ -98,8 +97,6 @@ a.button-primary{
   }
 }
 
-
-
 // Primary Alt Styles
 //
 // Primary Alternative call to action
@@ -114,7 +111,7 @@ a.button-primary{
 // <a class="button-primary--alt {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.primary-alt
-a.button-primary--alt{
+a.button-primary--alt {
   @extend .button-primary;
   background-color: $brand-six;
 }
@@ -133,15 +130,17 @@ a.button-primary--alt{
 // <a class="button-primary--ghost {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.primary-ghost
-a.button-primary--ghost{
+a.button-primary--ghost {
   @extend .button-primary;
   background-color: transparent;
-  border:1px solid $brand-five;
-  &:hover{
+  border: 1px solid $brand-five;
+  color: $brand-five;
+  &:hover {
     color: $white;
   }
 
 }
+
 // Primary Large Styles
 //
 // Primary Ghost call to action
@@ -156,18 +155,18 @@ a.button-primary--ghost{
 // <a class="button-primary--ghost {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.primary-ghost
-a.button-primary--ghostlarge{
+a.button-primary--ghostlarge {
   @extend .button-primary;
   background-color: transparent;
-  border:1px solid $brand-five;
+  border: 1px solid $brand-five;
   padding: 20px 40px;
+  color: $brand-five;
   font-size: $base-font-size;
-  &:hover{
+  &:hover {
     color: $white;
   }
 
 }
-
 
 // Secondary Styles
 //
@@ -185,19 +184,15 @@ a.button-primary--ghostlarge{
 // Styleguide buttons.secondary
 a.secondary_cta,
 span.secondary_cta > a,
-
-a.button-secondary
-{
+a.button-secondary {
   display: inline-block;
   vertical-align: top;
   padding: 7px 10px;
-  margin: 1rem 0 0 0 ;
-
 
   background-color: $brand-three;
   color: $white;
 
-
+  line-height: 1;
   font-family: $font-family;
   font-size: $base-font-size / 1.5;
   font-weight: 400;
@@ -207,7 +202,7 @@ a.button-secondary
   letter-spacing: 1px;
 
   border-radius: 5px;
-  border:1px solid transparent;
+  border: 1px solid transparent;
 
   transition-property: background-color;
   transition-duration: 0.2s;
@@ -229,6 +224,7 @@ a.button-secondary
     padding: 10px 20px;
   }
 }
+
 // Secondary Ghost Styles
 //
 // Secondary Ghost call to action
@@ -243,16 +239,15 @@ a.button-secondary
 // <a class="button-primary--ghost {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.secondary-ghost
-a.button-secondary--ghost{
+a.button-secondary--ghost {
   @extend .button-secondary;
   background-color: transparent;
-  border:1px solid $brand-three;
+  border: 1px solid $brand-three;
   color: $brand-three;
   &:hover {
     color: $white;
   }
 }
-
 
 .abs {
   position: absolute;
@@ -261,8 +256,9 @@ a.button-secondary--ghost{
   top: 0;
   left: 0;
 }
-.notes-toggle{
+
+.notes-toggle {
   position: fixed;
   right: 0;
-  bottom:0;
+  bottom: 0;
 }

@@ -54,6 +54,9 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 2. With open data, your activities can be discovered, shared, and engaged with by people nationwide
 3. By publishing your data, your activities will be shared across websites and apps that attract millions of users, to communities and services that engage local people
 
+[Publish Your Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .button-primary}
+
+
 </div>
 <div class="two publish gradient list">
 
@@ -63,6 +66,8 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 2. By harnessing open data, we can build growth and reach across the sector
 3. Easy access to opportunity data can help people to get active, and boost participation in activities nationwide
 4. We encourage you to explore the data published so far, and discover what’s useful for you
+
+[Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .button-primary}
 
 </div>
 </div>
@@ -86,25 +91,28 @@ Join the open data revolution with OpenActive and help the nation get active.
 </figure>
 </article>
 
-<!-- <article>
+
+
+
+<article>
 <div class="one">
 
 ### I’m interested, but how can I help?
 
 If you think your organisation would benefit from open data, but the decision isn’t in your hands, explore the links below for accessible documents to share with your team or employer.
 </div>
-</article> -->
+</article>
 
-<!-- <article class="call_to_action">
+<article class="call_to_action">
 <div class="subgrid">
-<div class="three purple-gradient-bc"> 
+<div class="three purple-gradient-bc">
 #### Convince Your Company
-Discover downloadable documents to give to your company. 
+Discover downloadable documents to give to your company.
 
 [Convince Company]( {{ site.baseurl }}{% link convince-company.md %}){: .button-primary}
 
 </div>
-<div class="three red-gradient-bc"> 
+<div class="three red-gradient-bc">
 
 #### Tell Your Team
 Find resources designed to explain open data to your colleagues.
@@ -112,7 +120,7 @@ Find resources designed to explain open data to your colleagues.
 [Tell Team]( {{ site.baseurl }}{% link tell-team.md %}){: .button-primary}
 
 </div>
-<div class="three blue-gradient-bc"> 
+<div class="three blue-gradient-bc">
 
 #### Contact us
 Have a question? Get in touch.
@@ -121,4 +129,4 @@ Have a question? Get in touch.
 
 </div>
 </div>
-</article> -->
+</article>

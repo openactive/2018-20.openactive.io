@@ -8,21 +8,10 @@ thumbnail_image: "/uploads/sideplank.jpg"
 strapline: In depth Explanation of how to publish data
 ---
 
-<!-- <article markdown="0" class="hero--sub"> -->
+<article>
+<div class="one" markdown="1">
 
-<!-- <i class="line-graphic">{% include slim-line-graphic.svg %}</i> -->
+[Simple Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .button-primary}
 
-<!-- <div> -->
-
-<!-- <h1>{{page.title}}</h1> -->
-<!-- <p>In depth Explanation of how to <b>publish</b> data</p> -->
-
-<!-- <a class="button-primary" href="{{ site.baseurl }}{% link simple-publish.md %}">Simple Publish Data</a> -->
-
-
-<!-- </div> -->
-<!-- <figure> -->
-<!-- <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div> -->
-<!-- </figure> -->
-
-<!-- </article> -->
+</div>
+</article>
