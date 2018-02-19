@@ -220,7 +220,13 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Latest News</h2>
-{% for post in site.posts limit:2 %}
+
+{% assign thePosts = site.posts | where: "is_featured", "true" %}
+
+
+{% for post in thePosts limit:2 %}
+
+
 
 <div class="two" id="post-{{ forloop.index }}">
 <figure role="group">
@@ -246,4 +252,5 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 </div>
 
 {% endfor %}
+
 </article>
