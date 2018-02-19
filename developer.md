@@ -1,7 +1,7 @@
 ---
 title: Developer
 permalink: "/developer/"
-position: 4
+position: 21
 is_main_navigation: true
 thumbnail_image: "/uploads/dancin.png"
 strapline: 'Know what your here for? '

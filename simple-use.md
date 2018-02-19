@@ -1,7 +1,7 @@
 ---
 title: Simple Use
 permalink: "/simple-use/"
-position: 2
+position: 17
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"

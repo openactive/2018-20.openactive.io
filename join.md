@@ -1,7 +1,7 @@
 ---
 title: Join
 permalink: "/join/"
-position: 7
+position: 37
 is_main_navigation: false
 layout: join
 ---

@@ -1,7 +1,7 @@
 ---
 title: Start Ups
 permalink: "/start-ups/"
-position: 6
+position: 34
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
