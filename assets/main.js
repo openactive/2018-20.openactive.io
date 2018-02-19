@@ -42,15 +42,16 @@ $(document).ready(function () {
         });
 
 
+        $.fn.isInViewport = function () {
+            var elementTop = $(this).offset().top;
+            var elementBottom = elementTop + $(this).outerHeight();
+            var viewportTop = $(window).scrollTop();
+            var viewportBottom = viewportTop + $(window).height();
+            return elementBottom > viewportTop && elementTop < viewportBottom;
+        };
         if ($(".accelerator-template").length > 0) {
 
-            $.fn.isInViewport = function () {
-                var elementTop = $(this).offset().top;
-                var elementBottom = elementTop + $(this).outerHeight();
-                var viewportTop = $(window).scrollTop();
-                var viewportBottom = viewportTop + $(window).height();
-                return elementBottom > viewportTop && elementTop < viewportBottom;
-            };
+
             $(window).on('resize scroll', function () {
                 if ($('.stats').isInViewport()) {
                     var el = document.querySelector('.years');
@@ -112,6 +113,57 @@ $(document).ready(function () {
                         theme: 'default'
                     });
                     jobsod.update(400);
+                }
+            });
+
+        }
+
+
+        if ($(".stats-row").length > 0) {
+
+
+            $(window).on('resize scroll', function () {
+                if ($('.stats-row').isInViewport()) {
+                    var el = document.querySelector('.com-members');
+                    members = new Odometer({
+                        el: el,
+                        value: 333555,
+                        // Any option (other than auto and selector) can be passed in here
+                        format: '',
+                        theme: 'default'
+                    });
+                    members.update(5);
+
+                    var el = document.querySelector('.com-startups');
+                    startups = new Odometer({
+                        el: el,
+                        value: 333555,
+                        // Any option (other than auto and selector) can be passed in here
+                        format: '',
+                        theme: 'default'
+                    });
+                    startups.update(124);
+
+                    var el = document.querySelector('.com-published');
+                    published = new Odometer({
+                        el: el,
+                        value: 333555,
+                        // Any option (other than auto and selector) can be passed in here
+                        format: '',
+                        theme: 'default'
+                    });
+                    published.update(24);
+
+                    var el = document.querySelector('.com-champions');
+                    champions = new Odometer({
+                        el: el,
+                        value: 333555,
+                        // Any option (other than auto and selector) can be passed in here
+                        format: '',
+                        theme: 'default'
+                    });
+                    champions.update(23);
+
                 }
             });
 

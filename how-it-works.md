@@ -8,31 +8,6 @@ layout: page-headless
 
 {::options parse_block_html="true" /}
 
-<article class="note-wrap">
-<div class="notes">
-
-##### Page Notes ~ {{ page.title | escape }}
-
-Content for this page is detailed in the
-[Google Doc](https://drive.google.com/open?id=1b_AclHfydCEGU5ZfLu3i7kvUnGpLflFvBTg4oI46FP0){:target="_blank"}
-
-</div>
-</article>
-<article class="note-wrap">
-<div class="notes">
-
-
-##### Section Notes ~ Hero Block
-**Purpose**: This section is the first thing all users will see, we are showcasing a animated SVG Graphic to explain the main principles
-
-**Functionality**: Possible interaction to trigger opening data, aiding developing a understanding of the concept.
-
-**Design**:
-
-**Copy-writing Notes**:
-
-</div>
-</article>
 
 <article class="hero--simple">
 <div class="two">
@@ -45,7 +20,6 @@ Our goal is to collect and share opportunity data on what, where, and when physi
 We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together.
 
 
-
 </div>
 
 <div class="two">
@@ -55,38 +29,6 @@ We believe that open opportunity data will revolutionise the sport and physical 
 
 </div>
 
-</article>
-
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes
-**Purpose**:
-
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
-
-</div>
-</article>
-
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes
-**Purpose**: The purpose of this section is to graphically clarify for users exactly what is and isn't included in Opportunity Data.
-
-**Functionality**: This section will support text and graphics.
-
-**Design**: This is a opportunity to animate graphics to create visual intrigue.
-
-**Copy-writing Notes**:
-
-</div>
 </article>
 
 
@@ -113,22 +55,6 @@ Opening up opportunity data across the sector will better connect providers and 
 </div>
 </article>
 
-
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes
-**Purpose**:
-
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
-
-</div>
-</article>
 
 <article>
 <h2 class="sub-heading-two">What are the benefits?</h2>
@@ -160,25 +86,8 @@ Opening up opportunity data across the sector will better connect providers and 
 </article>
 
 
-
 {% include case-study.html %}
 
-
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes
-**Purpose**: Text to introduce the ways to learn more about the initiative
-
-**Functionality**: These blocks will contain at minimum title, excerpt & button.
-
-**Design**: These represent call to action blocks at a lower hierarchy, the design should reflect this. For example these would be a lower level of prominence than a full with call to action.
-
-**Copy-writing Notes**:
-
-</div>
-</article>
 
 <article class="call_to_action title-row ">
 <h2 class="sub-heading-two">Jump In</h2>
@@ -206,22 +115,6 @@ Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusa
 </div>
 </article>
 
-
-
-<article class="note-wrap">
-<div class="notes">
-
-##### Section Notes
-**Purpose**:
-
-**Functionality**:
-
-**Design**:
-
-**Copy-writing Notes**:
-
-</div>
-</article>
 
 <article markdown="0" class="call_to_action--full-width">
 <h2 class="sub-heading-two">Where now?</h2>

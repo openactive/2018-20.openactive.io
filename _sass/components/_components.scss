@@ -1198,7 +1198,7 @@ nav {
           grid-column: col 1/ 4;
           padding: 2rem;
           grid-row: 1;
-          &.no-post{
+          &.no-post {
             grid-column: col 1/ 11;
           }
         }
@@ -1222,7 +1222,7 @@ nav {
           grid-column: col 10/ -1;
           padding: 2rem;
           grid-row: 1;
-          &.no-post{
+          &.no-post {
             grid-column: col 1/ -1;
           }
         }
@@ -1463,4 +1463,23 @@ nav {
   display: inline-block;
 }
 
-
+.stats-row {
+  .four{
+    text-align: center;
+    .wrap {
+      color: $brand-blue;
+      font-family: $heading-font-family;
+      font-size: $header-size;
+      font-weight: 800;
+      span {
+        font-family: $heading-font-family;
+        font-size: $header-size /1.2;
+      }
+    }
+    figcaption {
+      font-family: $heading-font-family;
+      color: $white;
+      font-size: 1rem;
+    }
+  }
+}

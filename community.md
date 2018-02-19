@@ -11,25 +11,6 @@ strapline: Innovation through Collaboration
 {::options parse_block_html="true" /}
 
 
-
-
-<!-- <article markdown="0" class="hero--sub"> -->
-
-<!-- <i class="line-graphic">{% include slim-line-graphic.svg %}</i> -->
-
-<!-- <div> -->
-
-<!-- <h1>Community</h1> -->
-<!-- <p>Innovation through Collaboration</p> -->
-
-
-<!-- </div> -->
-<!-- <figure> -->
-<!-- <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div> -->
-<!-- </figure> -->
-
-<!-- </article> -->
-
 <article>
 <div class="one">
 
@@ -41,15 +22,58 @@ Explore the dashboard to learn more about our community and the datasets already
 
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .primary_cta}
 
-
-+ Graphics and icons to represent the number of
-    + Community Members
-    + Accelerator Start ups
-    + Data-sets Published
-    + OpenActive Champions
-
 </div>
 </article>
+
+
+<article class="invert stats-row title-row" markdown="0">
+<h2 class="sub-heading-two">Our experience supporting startups</h2>
+
+<div class="four">
+<figure>
+<div class="wrap">
+<div class="odometer com-members">0</div>
+</div>
+<figcaption>Community Members </figcaption>
+</figure>
+</div>
+
+<div class="four">
+<figure>
+<div class="wrap">
+
+<div class="odometer com-startups">0</div>
+</div>
+<figcaption>Accelerator Start ups </figcaption>
+
+</figure>
+</div>
+
+<div class="four">
+<figure>
+<div class="wrap">
+
+<div class="odometer com-published">0</div>
+</div>
+<figcaption>Data-sets Published </figcaption>
+
+</figure>
+</div>
+
+<div class="four">
+<figure>
+<div class="wrap">
+
+<div class="odometer com-champions">0</div>
+</div>
+<figcaption>OpenActive Champions </figcaption>
+
+</figure>
+</div>
+
+</article>
+
+
 
 
 
@@ -149,11 +173,24 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 </div>
 </article>
 
-<article>
-<div class="one">
-### FAQ's 
-+ Showcasing of common FAQ's (10)
-+ Links to full FAQ's [FAQ's]( {{ site.baseurl }}{% link faqs.md %})  
+<article class="faq-snippet title-row invert-2">
+<h2 class="sub-heading-two">FAQ's</h2>
 
+<div class="one">
+{% assign aboutAccelerator = site.faqs | where: "categories", "About OpenActive" %}
+{% for post in aboutAccelerator limit:8 %}
+
+<div class=" show_hide">
+<h5>Q: {{ post.title | escape}}</h5>
+<div class="slidingDiv">
+{{post.content}}
+</div>
+</div>
+
+{% endfor %}
+</div>
+<div class="one">
+<p><a class="button-primary" href="{{ site.baseurl }}{% link faqs.md %}">Visit
+our FAQs</a></p>
 </div>
 </article>

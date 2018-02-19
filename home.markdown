@@ -51,7 +51,7 @@ layout: home
 </i>
 </h3>
 
-<div role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
+<div markdown="1" role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works">
 
 #### How it Works
 OpenActive makes discovering and taking part in  sport and fitness activities easier than ever before. With open data, your activities can be available to people across the country,  on websites and apps that attract millions of users, to communities and services that engage local people.
@@ -67,7 +67,7 @@ OpenActive makes discovering and taking part in  sport and fitness activities ea
 </i>
 </h3>
 
-<div role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
+<div markdown="1" role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
 aria-labelledby="booking-systems">
 
 #### Booking Systems>
@@ -90,7 +90,7 @@ Publish your activity listing and join the open data revolution.
 </i>
 </h3>
 
-<div role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true"
+<div markdown="1" role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true"
 aria-labelledby="activity-provider">
 
 #### Activity Providers
@@ -112,7 +112,7 @@ Publish your activity listing and join the open data revolution
 </i>
 </h3>
 
-<div role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
+<div markdown="1" role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
 
 #### Use Data
 
