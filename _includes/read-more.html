@@ -1,33 +1,37 @@
-<article id="post-nav" class="up_next" itemscope itemtype="http://schema.org/BlogPosting">
+<article id="post-nav" class="up_next title-row" itemscope itemtype="http://schema.org/BlogPosting">
     <h2 class="sub-heading-two">Further Reading</h2>
-  
+
     <div class="two">
-        {% if page.next.url %}
-        <div class="two purple-gradient-bc subgrid">  
-                <div class="left" style="background: url({{ site.baseurl }}{{ page.next.thumbnail_image }})center center / cover no-repeat;">
-                 
-                </div>
-                <div class="right">
-            <h3>Up Next</h3> 
-             <p>{{page.next.title}}</p>
-             <p><a class="button-primary" href="{{ site.baseurl }}{{page.next.url}}">Read</a></p> 
+        {% if page.previous.url %}
+        <div class="blue-gradient-bc subgrid">
+            <div class="left"
+                 style="background: url({{ site.baseurl }}{{ page.previous.thumbnail_image }})center center / cover no-repeat;">
+
+            </div>
+            <div class="right">
+                <h3>Previous</h3>
+                <p>{{page.previous.title}}</p>
+                <p><a class="button-primary" href="{{ site.baseurl }}{{page.previous.url}}">Read</a></p>
+            </div>
         </div>
-    </div>
         {% endif %}
     </div>
 
     <div class="two">
-            {% if page.previous.url %}
-            <div class="two blue-gradient-bc subgrid">
-                <div class="left" style="background: url({{ site.baseurl }}{{ page.previous.thumbnail_image }})center center / cover no-repeat;">
-                    
-                </div>
-                <div class="right">
-                    <h3>Previous</h3>
-                    <p>{{page.previous.title}}</p>
-                    <p><a class="button-primary" href="{{ site.baseurl }}{{page.previous.url}}">Read</a></p>
-                </div>
+        {% if page.next.url %}
+        <div class="purple-gradient-bc subgrid">
+            <div class="left">
+                <h3>Up Next</h3>
+                <p>{{page.next.title}}</p>
+                <p><a class="button-primary" href="{{ site.baseurl }}{{page.next.url}}">Read</a></p>
             </div>
-            {% endif %}
+            <div class="right"
+                 style="background: url({{ site.baseurl }}{{ page.next.thumbnail_image }})center center / cover no-repeat;">
+            </div>
+
         </div>
+        {% endif %}
+    </div>
+
+
 </article>

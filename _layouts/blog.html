@@ -34,7 +34,7 @@ layout: default
         <h2 class="sub-heading-two">Featured Posts</h2>
 
 
-        {% for post in site.posts | limit:4 offset:1 %}
+        {% for post in site.posts limit:4 offset:1 %}
 
         <div class="two" id="featured-post-{{ forloop.index }}">
             <figure role="group">
