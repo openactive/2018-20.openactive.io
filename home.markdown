@@ -8,6 +8,10 @@ layout: home
 
 {::options parse_block_html="true" /}
 
+
+<!--  ---------------->
+<!-- HERO BLOCK -->
+<!--  ---------------->
 <article class="hero--home">
 <nav class="hero_tab_nav">
 <div class="hero-tab" data-tab="h1"></div>
@@ -35,15 +39,18 @@ layout: home
 </article>
 
 
+<!--  ---------------->
+<!-- CASE STUDIES -->
+<!--  ---------------->
 {% include case-study.html %}
 
-
-<article markdown="0" class="tabs blue">
-
+<!--  ---------------->
+<!-- TABS -->
+<!--  ---------------->
+<article markdown="0" class="tabs invert">
 <h2 class="sub-heading-two">Where to start?</h2>
 <div  id="tabs">
-<div  class="tabsList " role="tablist" >
-
+<div  class="tabsList " role="tablist">
 <h3 class="tablink" role="tab presentation" aria-selected="true">
 <a href="#how-it-works">How it Works</a>
 <i class="icon_wrap_accordian">
@@ -102,6 +109,7 @@ aria-labelledby="activity-provider">
 4. Now, your activities will be available everywhere, from high-traffic online platforms, to local community services.
 
 Publish your activity listing and join the open data revolution
+
 [Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
@@ -123,21 +131,19 @@ Publish your activity listing and join the open data revolution
 
 [Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
-
 </div>
-
-
 </div>
-
 </div>
-
 <i class="line-graphic">{% include line-graphic-side.svg %}</i>
-
 </article>
 
-<article class="call_to_action title-row">
+
+<!--  ---------------->
+<!-- CALL TO ACTION BLOCKS -->
+<!--  ---------------->
+<article class="call_to_action">
 <div class="subgrid">
-<div class="three blue-gradient-bc">
+<div class="three">
 
 #### Getting Started
 
@@ -146,7 +152,7 @@ Take the first step enabling open data in your system.
 [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
-<div class="three purple-gradient-bc">
+<div class="three">
 
 #### Developer
 
@@ -155,7 +161,7 @@ Get stuck into the docs and start using or publishing data today!
 [Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
 
 </div>
-<div class="three red-gradient-bc ">
+<div class="three">
 
 #### Community
 
@@ -167,6 +173,11 @@ What's happening in the community, and how you can get involved!
 </div>
 </article>
 
+
+
+<!--  ---------------->
+<!-- OPEN DATA ILLUSTRATION -->
+<!--  ---------------->
 <article class="title-row">
 <h2 class="sub-heading-two"> What is <br>Open Data?</h2>
 <div class="one">
@@ -180,9 +191,7 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 ![what_open_data.png]({{ site.baseurl }}/uploads/what_open_data.png)
 
 </div>
-
 </article>
-
 <article class="call_to_action--full-width global">
 <h2 class="sub-heading-two">Start Ups</h2>
 <div class="one">
@@ -194,24 +203,21 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 [Find out more]( {{ site.baseurl }}{% link accelerator.md %}){: .button-primary}
 
 </div>
-
 <figure>
 <div class="triangle"></div>
 <div class="stripe"></div>
 <div style="background: url({{ site.baseurl }}/uploads/accel_cta.png)center center / cover no-repeat;"></div>
 </figure>
-
 </article>
 
+
+<!--  ---------------->
+<!-- NEWS BLOCK -->
+<!--  ---------------->
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Latest News</h2>
-
-
 {% assign thePosts = site.posts | where: "is_featured", "true" %}
-
-
 {% for post in thePosts limit:2 %}
-
 <div class="two" id="post-{{ forloop.index }}">
 <figure role="group">
 <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}-post-thumbnail">
@@ -219,21 +225,16 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 <h3>{{ post.title | escape }}</h3>
 <div class="subgrid brand-one-b">
 <div class="two twoleft">
-
 {{ post.excerpt }}
-
 <a class="button-primary" href="{{ post.url | relative_url }}">Read Post</a>
 </div>
-
 <div class="two twoleft">
 {% include share-page.html %}
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-
 {{post.date | date: date_format}}
 {{post.author}}
 </div>
 </div>
 </div>
-
 {% endfor %}
 </article>

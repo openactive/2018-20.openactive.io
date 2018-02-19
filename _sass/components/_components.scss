@@ -10,7 +10,7 @@ article {
       grid-column-start: 2;
       grid-column-end: 8;
       grid-row: 1;
-      h1 {
+      h1,h2 {
         margin-top: 0;
       }
     }
@@ -21,6 +21,7 @@ article {
       align-self: stretch;
       margin: 0;
       min-height: 20vh;
+      max-height: 370px;
       //-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       //clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       position: relative;
@@ -1030,6 +1031,46 @@ article {
   }
 }
 
+.call_to_action {
+  .three, .two, .one {
+    &:nth-child(1) {
+      @extend .blue-gradient-bc !optional;
+    }
+    &:nth-child(2) {
+      @extend .purple-gradient-bc !optional;
+    }
+    &:nth-child(3) {
+      @extend .red-gradient-bc !optional;
+    }
+  }
+  &.title-row {
+    .three, .two, .one {
+      &:nth-child(2) {
+        @extend .blue-gradient-bc !optional;
+      }
+      &:nth-child(3) {
+        @extend .purple-gradient-bc !optional;
+      }
+      &:nth-child(4) {
+        @extend .red-gradient-bc !optional;
+      }
+    }
+    .subgrid {
+      .three,.two,.one {
+        &:nth-child(1) {
+          @extend .blue-gradient-bc !optional;
+        }
+        &:nth-child(2) {
+          @extend .purple-gradient-bc !optional;
+        }
+        &:nth-child(3) {
+          @extend .red-gradient-bc !optional;
+        }
+      }
+    }
+  }
+}
+
 html.no-cssgrid {
   article {
     &.call_to_action {
@@ -1467,7 +1508,7 @@ main {
   div.page {
     article.stats-row {
       div.four {
-        .sub-heading-two{
+        .sub-heading-two {
           border: none;
         }
         text-align: center;

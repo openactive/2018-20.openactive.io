@@ -48,7 +48,9 @@ defaults:
     layout: post
     is_featured: false
     thumbnail_image: ''
-    categories: About OpenActive
+    categories:
+        - "About OpenActive"
+        - "Community"
 - scope:
     path: ''
     type: case_studies

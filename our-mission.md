@@ -87,7 +87,7 @@ Let’s look at how we achieve our vision in practice and the progress we’ve m
 <article class="call_to_action--wide">
 <h2 class="sub-heading-two">Meet The Community</h2>
 
-<div class="one blue-gradient-bc">
+<div class="one">
 
 <h3>Meet The Community</h3>
 <p>This is an open-invitation community of pioneering organisations. If you are interested in getting involved please join us to find out more.</p>

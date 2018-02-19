@@ -88,6 +88,7 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Community News</h2>
+
 {% for post in site.posts limit:2 %}
 {% if post.categories contains "Community" %}
 

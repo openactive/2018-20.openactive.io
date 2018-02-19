@@ -58,7 +58,7 @@ Opening up opportunity data across the sector will better connect providers and 
 
 <article class="call_to_action title-row">
 <h2 class="sub-heading-two">What are the benefits?</h2>
-<div class="two list blue-gradient-bc">
+<div class="two list">
 
 
 ### Sport and Physical Activity Providers
@@ -69,7 +69,7 @@ Opening up opportunity data across the sector will better connect providers and 
 
 </div>
 
-<div class="two list red-gradient-bc">
+<div class="two list">
 
 ### Data Users and Developers
 
@@ -81,7 +81,7 @@ Opening up opportunity data across the sector will better connect providers and 
 </article>
 
 <article class="call_to_action">
-<div class="one list purple-gradient-bc">
+<div class="one list">
 
 ### Influential Organisations
 
@@ -103,7 +103,7 @@ Opening up opportunity data across the sector will better connect providers and 
 
 <div class="subgrid">
 
-<div class="two blue-gradient-bc">
+<div class="two">
 
 ### E-Learning
 Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
@@ -112,7 +112,7 @@ Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
 
 </div>
 
-<div class="two purple-gradient-bc">
+<div class="two">
 
 ### Developer
 Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusamus in.

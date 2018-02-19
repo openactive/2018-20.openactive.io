@@ -20,7 +20,7 @@ The open data being gathered by OpenActive and associated partners will transfor
 </article>
 
 
-<article >
+<article>
 <div class="two">
 
 ![Hero]({{ site.baseurl }}/assets/images/dash.png)
@@ -44,7 +44,7 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 <article class="call_to_action title-row">
 <h2 class="sub-heading-two">Quick Start</h2>
 <div class="subgrid">
-<div class="two publish gradient list">
+<div class="two list">
 
 ### Publish Your Data
 
@@ -56,7 +56,7 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 
 
 </div>
-<div class="two use gradient list">
+<div class="two list">
 
 ### Using Data
 

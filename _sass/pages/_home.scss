@@ -301,9 +301,24 @@ html.cssgrid {
         }
       }
     }
-    &.blue {
+    .line-graphic {
+      right: 0;
+      position: absolute;
+      height: 100%;
+      width: 130px;
+      display: inline-flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      padding-top: 8rem;
+      z-index: 0;
+
+      svg {
+        right: 0;
+      }
+    }
+    &.invert {
       padding: 4rem 0;
-      background-color: $brand-blue;
+      //background-color: $brand-blue;
       h2 {
         color: $white;
       }
@@ -327,21 +342,7 @@ html.cssgrid {
           }
         }
       }
-      .line-graphic {
-        right: 0;
-        position: absolute;
-        height: 100%;
-        width: 130px;
-        display: inline-flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        padding-top: 8rem;
-        z-index: 0;
 
-        svg {
-          right: 0;
-        }
-      }
     }
   }
 }

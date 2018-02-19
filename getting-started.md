@@ -46,7 +46,7 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 
 <article class="call_to_action ">
 <div class="subgrid">
-<div class="two use gradient list">
+<div class="two list">
 
 ### Publish Your Data 
 
@@ -58,7 +58,7 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 
 
 </div>
-<div class="two publish gradient list">
+<div class="two  list">
 
 ### Using Data
 
@@ -74,7 +74,7 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 </article>
 
 
-<article class="call_to_action--full-width brand-ten-bc">
+<article class="call_to_action--full-width">
 <h2 class="sub-heading-two">Show me the code</h2>
 <div class="one">
 
@@ -84,7 +84,7 @@ Join the open data revolution with OpenActive and help the nation get active.
 [Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
 
 </div>
-<figure class="brand-nine-bc">
+<figure>
 <div class="triangle"></div>
 <div class="stripe"></div>
 <div style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
@@ -105,14 +105,14 @@ If you think your organisation would benefit from open data, but the decision is
 
 <article class="call_to_action">
 <div class="subgrid">
-<div class="three purple-gradient-bc">
+<div class="three">
 #### Convince Your Company
 Discover downloadable documents to give to your company.
 
 [Convince Company]( {{ site.baseurl }}{% link convince-company.md %}){: .button-primary}
 
 </div>
-<div class="three red-gradient-bc">
+<div class="three">
 
 #### Tell Your Team
 Find resources designed to explain open data to your colleagues.
@@ -120,7 +120,7 @@ Find resources designed to explain open data to your colleagues.
 [Tell Team]( {{ site.baseurl }}{% link tell-team.md %}){: .button-primary}
 
 </div>
-<div class="three blue-gradient-bc">
+<div class="three">
 
 #### Contact us
 Have a question? Get in touch.

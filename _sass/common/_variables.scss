@@ -300,6 +300,11 @@ $globalEight: $brand-eight;
       }
 
     }
+    .tabPanel{
+      h4{
+        color: $white;
+      }
+    }
   }
   .invert-2 {
     @extend .invert;
@@ -539,6 +544,11 @@ article.use, div.use {
     }
     * {
       color: $white;
+    }
+    .tabPanel{
+      h4{
+        color: $white;
+      }
     }
   }
   .invert-2 {
@@ -785,6 +795,11 @@ article.publish, div.publish {
     * {
       color: $white;
     }
+    .tabPanel{
+      h4{
+        color: $white;
+      }
+    }
   }
   .invert-2 {
     @extend .invert;
@@ -1008,6 +1023,11 @@ article.startup, div.startup, a.button-primary.startup {
     }
     * {
       color: $white;
+    }
+    .tabPanel{
+      h4{
+        color: $white;
+      }
     }
   }
   .invert-2 {
@@ -1419,29 +1439,3 @@ $border-color: #DADADA;
 }
 
 
-.call_to_action{
-  .three{
-    &:nth-child(1){
-      @extend .blue-gradient-bc!optional;
-    }
-    &:nth-child(2){
-      @extend .purple-gradient-bc!optional;
-    }
-    &:nth-child(3){
-      @extend .red-gradient-bc!optional;
-    }
-  }
-  &.title-row{
-    .three{
-      &:nth-child(2){
-        @extend .blue-gradient-bc!optional;
-      }
-      &:nth-child(3){
-        @extend .purple-gradient-bc!optional;
-      }
-      &:nth-child(4){
-        @extend .red-gradient-bc!optional;
-      }
-    }
-  }
-}
