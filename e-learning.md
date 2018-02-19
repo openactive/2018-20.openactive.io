@@ -1,7 +1,7 @@
 ---
 title: E-learning
 permalink: "/e-learning"
-position: 4
+position: 5
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"

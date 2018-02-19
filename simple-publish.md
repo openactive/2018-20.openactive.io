@@ -1,7 +1,7 @@
 ---
 title: Simple Publish
 permalink: "/simple-publish/"
-position: 16
+position: 18
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"

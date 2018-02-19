@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 permalink: "/tutorials/"
-position: 13
+position: 15
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
