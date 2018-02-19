@@ -1198,7 +1198,9 @@ nav {
           grid-column: col 1/ 4;
           padding: 2rem;
           grid-row: 1;
-
+          &.no-post{
+            grid-column: col 1/ 11;
+          }
         }
         .right {
           grid-column: col 4/ -1;
@@ -1220,6 +1222,9 @@ nav {
           grid-column: col 10/ -1;
           padding: 2rem;
           grid-row: 1;
+          &.no-post{
+            grid-column: col 1/ -1;
+          }
         }
       }
     }

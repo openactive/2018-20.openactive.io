@@ -14,6 +14,16 @@
                 <p><a class="button-primary" href="{{ site.baseurl }}{{page.previous.url}}">Read</a></p>
             </div>
         </div>
+        {% else %}
+        <div class="blue-gradient-bc subgrid">
+
+            <div class="left no-post">
+                <h3>Return to the blog home</h3>
+                <p>All out of posts, return home to read all about the other things happening at OpenActive</p>
+                <p><a class="button-primary"  href="{{ site.baseurl }}{% link blog.md %}">Blog Home</a></p>
+                <!--<p><a class="button-primary" href="{{ site.baseurl }}{{page.previous.url}}">Read</a></p>-->
+            </div>
+        </div>
         {% endif %}
     </div>
 
@@ -29,6 +39,15 @@
                  style="background: url({{ site.baseurl }}{{ page.next.thumbnail_image }})center center / cover no-repeat;">
             </div>
 
+        </div>
+        {% else %}
+        <div class="purple-gradient-bc subgrid">
+            <div class="right no-post">
+                <h3>Return to the blog home</h3>
+                <p>All out of posts, return home to read all about the other things happening at OpenActive</p>
+                <p><a class="button-primary"  href="{{ site.baseurl }}{% link blog.md %}">Blog Home</a></p>
+                <!--<p><a class="button-primary" href="{{ site.baseurl }}{{page.previous.url}}">Read</a></p>-->
+            </div>
         </div>
         {% endif %}
     </div>
