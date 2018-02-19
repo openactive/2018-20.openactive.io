@@ -48,7 +48,7 @@ layout: home
 <!-- THIS IS TABBED BLOCK -->
 <article markdown="0" class="tabs blue">
 
-<!-- THIS IS THE TAB ITEM -->
+<!-- THIS IS THE TAB TITLE -->
 <h2 class="sub-heading-two">Where to start?</h2>
 <div  id="tabs">
 <div  class="tabsList " role="tablist" >

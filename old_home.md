@@ -1,9 +1,9 @@
 ---
-title: Home
+title: OLD-Home
 permalink: "/"
 position: 0
 is_main_navigation: false
-layout: home
+layout: page
 ---
 
 {::options parse_block_html="true" /}
