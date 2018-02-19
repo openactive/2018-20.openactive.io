@@ -49,8 +49,8 @@ defaults:
     is_featured: false
     thumbnail_image: ''
     categories:
-        - "About OpenActive"
-        - "Community"
+    - About OpenActive
+    - Community
 - scope:
     path: ''
     type: case_studies
