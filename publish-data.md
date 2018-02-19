@@ -1,7 +1,7 @@
 ---
 title: Publish Data
 permalink: "/publish-data/"
-position: 17
+position: 18
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"

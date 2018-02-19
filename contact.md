@@ -1,6 +1,6 @@
 ---
 title: Contact
-position: 6
+position: 8
 is_secondary_navigation: true
 layout: page-headless
 thumbnail_image: "/uploads/sideplank.jpg"
