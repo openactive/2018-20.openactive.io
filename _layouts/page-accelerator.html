@@ -320,41 +320,22 @@ layout: default-accelerator
     </article>
 
 
-    <article class="faq-title title-row collapse-bottom invert-3">
-        <h2 class="sub-heading-two">More questions?</h2>
+
+    <article class="faq-snippet title-row invert-2">
+        <h2 class="sub-heading-two">FAQ's</h2>
+
         <div class="one">
-      </div>
-    </article>
-    <article class="faq-snippet invert-3">
-        <div class="two">
-            <div class="news-content">
-                {% assign aboutAccelerator = site.faqs | where: "categories", "OpenActive Accelerator" %}
-                {% for post in aboutAccelerator limit:4 %}
-             
-                <div class=" show_hide">
-                    <h5><span class="brand-five-c">Q:</span> {{ post.title | escape}}</h5>
-                    <div class="slidingDiv">
-                        {{post.content}}
-                    </div>
+            {% assign aboutAccelerator = site.faqs | where: "categories", "OpenActive Accelerator" %}
+            {% for post in aboutAccelerator limit:4 %}
+
+            <div class=" show_hide">
+                <h5>Q: {{ post.title | escape}}</h5>
+                <div class="slidingDiv">
+                    {{post.content}}
                 </div>
-               
-                {% endfor %}
             </div>
-        </div>
-        <div class="two">
-            <div class="news-content">
-                {% assign aboutAccelerator = site.faqs | where: "categories", "OpenActive Accelerator" %}
-                {% for post in aboutAccelerator limit:4 offset:4 %}
-              
-                <div class="show_hide">
-                    <h5><span class="brand-five-c">Q:</span> {{ post.title | escape}}</h5>
-                    <div class="slidingDiv">
-                        {{post.content}}
-                    </div>
-                </div>
-           
-                {% endfor %}
-            </div>
+
+            {% endfor %}
         </div>
         <div class="one">
             <p><a class="button-primary" href="{{ site.baseurl }}{% link faqs.md %}">Visit
