@@ -10,8 +10,9 @@ strapline: In depth Explanation of how to use data
 
 <article>
 <div class="one" markdown="1">
+What information do we need to show at this point?
 
-[Simple Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .button-primary}
+<!-- [Simple Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .button-primary} -->
 
 </div>
 </article>
