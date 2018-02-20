@@ -24,5 +24,7 @@ You can see an overview of the colour themes on the site at http://staging.opena
 
 A List of the site call to actions is currently available http://staging.openactive.io/call-to-action/ again you can switch between the various site routes to see how the colourways are affected.
 
+Typography and the cascade of styles can bee seen in this markdown example http://staging.openactive.io/markdown
+
 A full pattern library detailing the code required and suggested layout of modules on the site is to be implemented soon. 
 
