@@ -27,8 +27,9 @@ layout: page-headless
 <article>
 <div class="one">
 
-### Our Mission
+<blockquote>
 From leisure operators and local sports clubs, to National Governing Bodies and event providers, we work with organisations to open up data about physical activity opportunities for anyone to access, use and share.
+</blockquote>
 
 Our aim is to use data to help people get active and stimulate sector growth.
 By harnessing open data – that anyone can access, use and share – we are helping people around the country to discover and take part in new activities more easily than ever before and enhancing the sector’s engagement and reach.
