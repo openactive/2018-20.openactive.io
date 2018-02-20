@@ -32,7 +32,7 @@ Explore the dashboard to learn more about our community and the datasets already
 <!-- STATS ROW -->
 <!--  ---------------->
 <article class="invert stats-row title-row" markdown="0">
-<h2 class="sub-heading-two"></h2>
+<h2 class="sub-heading-two">The numbers</h2>
 
 <div class="four">
 <figure>
