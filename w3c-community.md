@@ -5,7 +5,8 @@ position: 5
 is_secondary_navigation: true
 layout: page-hero
 thumbnail_image: "/uploads/iStock-501777666_optimised.png"
-strapline: The Open Data Institute and the OpenActive community are working together to improve how systems in the sport and physical activity ecosystem connect.
+strapline: The Open Data Institute and the OpenActive community are working together
+  to improve how systems in the sport and physical activity ecosystem connect.
 ---
 
 {::options parse_block_html="true" /}
