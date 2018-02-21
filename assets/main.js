@@ -9,6 +9,10 @@ $(document).ready(function () {
         //     }
         // });
 
+
+
+
+
         $('.global-palette').on("click", function () {
             $('.page')
                 .removeClass('startup-template')
@@ -225,7 +229,8 @@ $(document).ready(function () {
             /*
              * Grab all iframes on the page or return
              */
-            var iframes = document.getElementsByTagName('iframe');
+            // var iframes = document.getElementsByTagName('iframe');
+            var iframes = $('iframe');
 
             /*
              * Loop through the iframes array
@@ -391,18 +396,6 @@ $(document).ready(function () {
                 .addClass('current')
                 .attr("aria-hidden", "false");
         });
-
-        // if ($(".tabsList").length > 0) {
-        //
-        //     $(".tabsList a").click(function () {
-        //         var position = $(this).parent().position();
-        //         var width = $(this).parent().width();
-        //         $(".slider").css({"left": +position.left, "width": width});
-        //     });
-        //     var actWidth = $(".tabsList .current").width();
-        //     var actPosition = $(".tabsList .current").position();
-        //     $(".slider").css({"left": +actPosition.left, "width": actWidth});
-        // }
 
         $('.notes-toggle').on("click", function () {
             $('.note-wrap').slideToggle();

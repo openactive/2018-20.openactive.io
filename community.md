@@ -103,7 +103,7 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 
 
 {% assign postList = site.posts | where: "categories", "Community" %}
-{% for post in postList limit:2 %}
+{% for post in postList limit:1 %}
 
 <div class="two" id="post-{{ forloop.index }}">
 <figure role="group">
@@ -124,6 +124,8 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 </div>
 </div>
 {% endfor %}
+<div class="two">
+<iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=user_uploads&list=UCXS84J1nXdAPyK545EI5XDA" frameborder="0" allowfullscreen></iframe></div>
 </article>
 
 
@@ -170,46 +172,10 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 </div>
 {% endfor %}
 </article>
+
 <article class="title-row">
+<h2 class="sub-heading-two">W3C-Community</h2>
 <div class="one">
-
-### Meet the Data Providers
-
-OpenActive’s active data providers supply all the content
-
-</div>
-</article>
-<article>
-{% assign posts = site.dataproviders | sample:18 %}
-{% for post in posts %}
-{% assign theImage = post.thumbnail_image %}
-<div class="six" data-tab="{{ forloop.index }}" markdown="0" >
-<a  href="{{ post.url | relative_url }}"><img src="{{ theImage  | relative_url}}"/></a>
-</div>
-{% endfor %}
-</article>
-<article class="title-row">
-<div class="one">
-
-### Booking Engines
-
-OpenActive’s active data providers supply all the content
-
-</div>
-</article>
-<article>
-{% assign posts = site.booking_engines | sample:18 %}
-{% for post in posts %}
-{% assign theImage = post.thumbnail_image %}
-<div class="six" data-tab="{{ forloop.index }}" markdown="0" >
-<a  href="{{ post.url | relative_url }}"><img src="{{ theImage  | relative_url}}"/></a>
-</div>
-{% endfor %}
-</article>
-<article>
-<div class="one">
-<p><a class="button-primary" href="{{ site.baseurl }}{% link members-page.md %}">View all the members</a></p>
-    
 
 ### OpenActive standards group
 
@@ -218,10 +184,11 @@ Our goal is to develop technical specifications and best practices that support 
 While our work is technical, you don’t have to be a developer to contribute. Our primary focus is standardising how to publish data about physical activity opportunities, defining best practices and APIs to enable booking events and facilities, and improving interoperability of data across the sector.
 
 
-<p><a class="button-primary" href="https://www.w3.org/community/openactive/">Join the standards group</a></p>
+[W3C Community]( {{ site.baseurl }}{% link w3c-community.md %}){:.button-primary}
 
 </div>
 </article>
+
 <article>
 <div class="one">
 

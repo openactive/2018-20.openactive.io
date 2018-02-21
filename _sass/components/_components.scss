@@ -10,7 +10,7 @@ article {
       grid-column-start: 2;
       grid-column-end: 8;
       grid-row: 1;
-      h1,h2 {
+      h1, h2 {
         margin-top: 0;
       }
     }
@@ -272,283 +272,6 @@ article {
 
 /*********************************/
 /*********************************/
-// CASE STUDIES STYLES
-article {
-  &.case-studies {
-    h2.sub-heading-two {
-      @media only screen and (max-width: 1200px) {
-        grid-row: 1 /span 1;
-      }
-
-    }
-
-    nav {
-      grid-column-start: 2;
-      grid-column-end: 9;
-      align-self: center;
-      @media only screen and (max-width: 1200px) {
-        grid-column-start: 2;
-        grid-column-end: 8;
-        grid-row: 2/ span 2;
-        align-self: start;
-
-      }
-      @media only screen and (max-width: 700px) {
-        grid-column-start: 2;
-        grid-column-end: 14;
-        grid-row: 2/ span 1;
-        align-self: start;
-
-      }
-      .case-tab {
-        margin: 0;
-        position: relative;
-        cursor: pointer;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        display: inline-grid;
-        opacity: .5;
-        figure {
-          margin: 0;
-          display: inline-block;
-
-        }
-        &:nth-child(4n+1) {
-          grid-column: col / span 3;
-        }
-        &:nth-child(4n+2) {
-          grid-column: col 4 / span 3;
-        }
-        &:nth-child(4n+3) {
-          grid-column: col 7 / span 3;
-        }
-        &:nth-child(4n+4) {
-          grid-column: col 10/ span 3;
-
-        }
-        @media only screen and (max-width: 1200px) {
-          &:nth-child(3n+1) {
-            grid-column: col / span 4;
-          }
-          &:nth-child(3n+2) {
-            grid-column: col 5 / span 4;
-          }
-          &:nth-child(3n+3) {
-            grid-column: col 9 / span 4;
-          }
-        }
-        @media only screen and (max-width: 900px) {
-          &:nth-child(2n+1) {
-            grid-column: col / span 6;
-          }
-          &:nth-child(2n+2) {
-            grid-column: col 7 / span 6;
-          }
-        }
-        @media only screen and (max-width: 700px) {
-          &:nth-child(4n+1) {
-            grid-column: col / span 6;
-          }
-          &:nth-child(4n+2) {
-            grid-column: col 7 / span 6;
-          }
-          &:nth-child(3) {
-            display: none;
-          }
-          &:nth-child(4) {
-            display: none;
-          }
-          &:nth-child(5) {
-            display: none;
-          }
-          &:nth-child(6) {
-            display: none;
-          }
-          &:nth-child(4n+3) {
-            display: none;
-          }
-          &:nth-child(4n+4) {
-            display: none;
-          }
-        }
-      }
-      .current {
-        opacity: 1;
-      }
-    }
-    .case-wrap {
-      grid-column-start: 9;
-      grid-column-end: 14;
-      align-self: start;
-      margin: 0;
-      @media only screen and (max-width: 1200px) {
-        align-self: start;
-        grid-column-start: 8;
-        grid-column-end: 14;
-        grid-row: 2/ 3;
-      }
-      @media only screen and (max-width: 700px) {
-        grid-column-start: 2;
-        grid-column-end: 14;
-        grid-row: 3/ 3;
-      }
-      .case-content {
-        align-self: stretch;
-        display: none;
-        h3 {
-          margin-top: 0;
-          font-size: $header-size / 2;
-          border-bottom: 1px solid $gray;
-        }
-        p {
-          font-size: $base-font-size;
-          font-family: $font-family;
-        }
-        &.current {
-          flex-direction: column;
-          display: flex;
-          justify-content: space-around;
-        }
-      }
-    }
-    aside {
-      grid-column-start: 14;
-      grid-column-end: 14;
-      z-index: -2;
-      border-top: 1px solid $gray;
-      display: inline-flex;
-      justify-self: flex-start;
-      align-self: start;
-      flex-direction: column;
-      margin-top: 2rem;
-      width: 150px;
-
-      display: none;
-      h4 {
-        margin-top: 1.5rem;
-      }
-      h4 {
-        color: $header-color;
-        font-size: $header-size / 3.75;
-        text-transform: uppercase;
-        margin-bottom: .5rem;
-        letter-spacing: 0;
-      }
-      @media only screen and (max-width: 1200px) {
-        grid-column-start: 8;
-        grid-column-end: 14;
-        grid-row: 3/ 3;
-      }
-      @media only screen and (max-width: 700px) {
-        grid-column-start: 2;
-        grid-column-end: 14;
-        grid-row: 4/ 4;
-        width: 100%;
-      }
-      p {
-        margin-top: 0;
-        font-size: $header-size /3.75;
-      }
-      .case-content {
-        align-self: stretch;
-        display: none;
-        &.current {
-          flex-direction: column;
-          display: flex;
-          justify-content: space-around;
-        }
-      }
-    }
-  }
-
-}
-
-html.no-cssgrid {
-  article {
-    &.case-studies {
-      nav {
-        display: inline-block;
-        vertical-align: top;
-        width: 59.5%;
-        .case-tab {
-          width: 23%;
-          box-sizing: initial;
-          display: inline-block;
-          vertical-align: top;
-          img {
-            width: 100%;
-          }
-          &:nth-child(4n+1) {
-            margin-right: 1%;
-          }
-          &:nth-child(4n+2) {
-            margin-left: 1%;
-            margin-right: 1%;
-          }
-          &:nth-child(4n+3) {
-            margin-left: 1%;
-            margin-right: 1%;
-          }
-          &:nth-child(4n+4) {
-            margin-left: 1%;
-          }
-          @media only screen and (max-width: 664px) {
-            width: 48.8%;
-            margin-bottom: 4%;
-
-            &:nth-child(4n+1) {
-              margin-right: 1%;
-              margin-left: 0%;
-            }
-            &:nth-child(4n+2) {
-              margin-right: 0%;
-              margin-left: 1%;
-            }
-            &:nth-child(4n+3) {
-              margin-right: 1%;
-              margin-left: 0%;
-            }
-            &:nth-child(4n+4) {
-              margin-right: 0%;
-              margin-left: 1%;
-            }
-          }
-          @media only screen and (max-width: 400px) {
-            width: 100%;
-            &:nth-child(4n+1) {
-              margin-right: 0%;
-              margin-left: 0%;
-            }
-            &:nth-child(4n+2) {
-              margin-right: 0%;
-              margin-left: 0%;
-            }
-            &:nth-child(4n+3) {
-              margin-right: 0%;
-              margin-left: 0%;
-            }
-            &:nth-child(4n+4) {
-              margin-right: 0%;
-              margin-left: 0%;
-            }
-          }
-        }
-      }
-      .case-wrap {
-        display: inline-block;
-        vertical-align: top;
-        width: 39.5%;
-      }
-      aside {
-        display: none;
-      }
-    }
-  }
-}
-
-/*********************************/
-/*********************************/
 // FAQ STYLES
 article {
   &.faq-snippet {
@@ -567,6 +290,264 @@ article {
     .slidingDiv > p {
       margin-top: 0;
       margin-bottom: 1rem;
+    }
+  }
+}
+
+// END OF FAQ STYLES
+/*********************************/
+/*********************************/
+
+/*********************************/
+/*********************************/
+// TABS STYLES
+html.cssgrid {
+  article {
+    &.tabs {
+      position: relative;
+      #tabs {
+        grid-column-start: 2;
+        grid-column-end: 14;
+        text-align: center;
+        z-index: 3;
+
+        .tabsList {
+          margin: 0 auto;
+          position: relative;
+          width: 96%;
+
+          .slider {
+            display: inline-block;
+            width: 30px;
+            height: 100%;
+            position: absolute;
+            z-index: 1;
+            bottom: 0;
+            transition: all .4s linear;
+            background-color: $brand-five;
+            grid-row: 1 / span 1;
+          }
+          .tablink {
+            grid-row: 1;
+
+            .icon_wrap_accordian {
+
+            }
+            &:nth-child(1) {
+              grid-column: col / span 4;
+            }
+            &:nth-child(3) {
+              grid-column: col 5 / span 4;
+            }
+            &:nth-child(5) {
+              grid-column: col 9 / span 4;
+            }
+          }
+          .tabPanel {
+            grid-column: col / span 12;
+            grid-row: 2;
+
+          }
+          .tabPanel {
+            @media only screen and (max-width: 1000px) {
+
+            }
+            &.current {
+
+            }
+          }
+
+          @media only screen and (min-width: 1000px) {
+            display: grid;
+            grid-template-columns: repeat(12, unquote("[col]") 1fr);
+            grid-gap: 0;
+
+          }
+          @media only screen and (max-width: 1000px) {
+
+          }
+        }
+
+        //@media only screen and (max-width: 700px) {
+        //  .tabsList{
+        //    width: 100%;
+        //    transform: skew(0deg);
+        //    flex-direction: column;
+        //    li a{
+        //      transform: skew(0deg);
+        //    }
+        //  }
+        //  .tabs-wrap{}
+        //}
+      }
+    }
+  }
+}
+
+article {
+  &.tabs {
+    #tabs {
+      .tabsList {
+        .tablink {
+          display: inline-block;
+          list-style: none;
+          margin: 0;
+          text-align: center;
+          cursor: pointer;
+          transform: skew(-30deg);
+          background-color: $brand-three;
+          padding: 1rem 2rem;
+          font-size: $base-font-size;
+          &:hover {
+            background-color: $brand-two;
+          }
+          &.current {
+            background: $brand-four;
+            .icon {
+              transform: rotate(90deg);
+              transition: transform 0.5s;
+            }
+          }
+          a {
+            font-weight: bold;
+            color: $white;
+            transform: skew(30deg);
+            display: inline-block;
+            z-index: 17;
+            text-decoration: none;
+            position: relative;
+            @media only screen and (max-width: 900px) {
+              padding: 1rem 0.5rem;
+              font-size: $base-font-size / 1.2
+            }
+            @media only screen and (max-width: 1000px) {
+              padding: 0;
+            }
+          }
+          @media only screen and (max-width: 1000px) {
+            display: none;
+          }
+          .icon_wrap_accordian {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 5%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 10px;
+            .icon {
+              color: $brand-one;
+              right: 20px;
+              width: 10px;
+              height: 10px;
+              background-image: url("../assets/images/right_arrow_white.svg");
+              background-size: cover;
+              background-position: center;
+              transition: transform 0.5s;
+              cursor: pointer;
+              align-self: center;
+            }
+            @media only screen and (min-width: 1000px) {
+              display: none;
+            }
+          }
+        }
+        .tabPanel {
+          //display: none;
+          opacity: 0;
+          pointer-events: none;
+          transition-property: opacity;
+          transition-duration: 0.3s;
+          transition-timing-function: ease-in-out;
+          text-align: left;
+          margin-bottom: 1rem;
+          h4 {
+            font-size: 2.7rem;
+            font-weight: 600;
+            color: $brand-four;
+          }
+          p {
+            text-align: left;
+            margin-top: 20px;
+          }
+          .button-primary {
+            margin-top: 1rem;
+          }
+          ol {
+            margin-bottom: 0;
+          }
+
+          @media only screen and (max-width: 1000px) {
+            opacity: 1;
+            pointer-events: initial;
+          }
+          &.current {
+            //display: block;
+            opacity: 1;
+            pointer-events: initial;
+            transition-property: opacity;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-in-out;
+          }
+        }
+        @media only screen and (max-width: 1000px) {
+          width: 100%;
+          .tablink {
+            transform: skew(0deg);
+            width: 100%;
+            text-align: left;
+            box-sizing: border-box;
+            a {
+              transform: skew(0deg);
+            }
+          }
+        }
+      }
+    }
+    .line-graphic {
+      right: 0;
+      position: absolute;
+      height: 100%;
+      width: 130px;
+      display: inline-flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      padding-top: 8rem;
+      z-index: 0;
+
+      svg {
+        right: 0;
+      }
+    }
+    &.invert {
+      padding: 4rem 0;
+      //background-color: $brand-blue;
+      h2 {
+        color: $white;
+      }
+      #tabs {
+        .tabsList {
+          .tablink {
+            &.current {
+              background-color: $white;
+              a {
+                color: $brand-blue;
+              }
+            }
+          }
+          .tabPanel {
+            * {
+              color: $white;
+            }
+            h4 {
+              color: $brand-four;
+            }
+          }
+        }
+      }
+
     }
   }
 }
@@ -644,7 +625,7 @@ article {
     .one {
       grid-row: 1;
       padding: 4rem 10rem 4rem 2rem;
-     
+
       //grid-column-start: 2;
       //grid-column-end: 10;
 
@@ -863,7 +844,7 @@ article {
       grid-column-end: 14;
       padding: 4rem;
       position: relative;
-      *{
+      * {
         color: $white;
       }
       .line-graphic {
@@ -1095,7 +1076,7 @@ article {
       }
     }
     .subgrid {
-      .three,.two,.one {
+      .three, .two, .one {
         &:nth-child(1) {
           @extend .blue-gradient-bc !optional;
           .button-primary {
@@ -1607,6 +1588,324 @@ main {
           font-size: 1rem;
         }
       }
+    }
+  }
+}
+
+/*********************************/
+/*********************************/
+// CASE STUDIES STYLES
+article {
+  &.case-studies {
+    h2.sub-heading-two {
+      @media only screen and (max-width: 1200px) {
+        grid-row: 1 /span 1;
+      }
+
+    }
+
+    nav {
+      grid-column-start: 2;
+      grid-column-end: 9;
+      align-self: center;
+      @media only screen and (max-width: 1200px) {
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row: 2/ span 2;
+        align-self: start;
+
+      }
+      @media only screen and (max-width: 700px) {
+        grid-column-start: 2;
+        grid-column-end: 14;
+        grid-row: 2/ span 1;
+        align-self: start;
+
+      }
+      .case-tab {
+        margin: 0;
+        position: relative;
+        cursor: pointer;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        display: inline-grid;
+        opacity: .5;
+        figure {
+          margin: 0;
+          display: inline-block;
+
+        }
+        &:nth-child(4n+1) {
+          grid-column: col / span 3;
+        }
+        &:nth-child(4n+2) {
+          grid-column: col 4 / span 3;
+        }
+        &:nth-child(4n+3) {
+          grid-column: col 7 / span 3;
+        }
+        &:nth-child(4n+4) {
+          grid-column: col 10/ span 3;
+
+        }
+        @media only screen and (max-width: 1200px) {
+          &:nth-child(3n+1) {
+            grid-column: col / span 4;
+          }
+          &:nth-child(3n+2) {
+            grid-column: col 5 / span 4;
+          }
+          &:nth-child(3n+3) {
+            grid-column: col 9 / span 4;
+          }
+        }
+        @media only screen and (max-width: 900px) {
+          &:nth-child(2n+1) {
+            grid-column: col / span 6;
+          }
+          &:nth-child(2n+2) {
+            grid-column: col 7 / span 6;
+          }
+        }
+        @media only screen and (max-width: 700px) {
+          &:nth-child(4n+1) {
+            grid-column: col / span 6;
+          }
+          &:nth-child(4n+2) {
+            grid-column: col 7 / span 6;
+          }
+          &:nth-child(3) {
+            display: none;
+          }
+          &:nth-child(4) {
+            display: none;
+          }
+          &:nth-child(5) {
+            display: none;
+          }
+          &:nth-child(6) {
+            display: none;
+          }
+          &:nth-child(4n+3) {
+            display: none;
+          }
+          &:nth-child(4n+4) {
+            display: none;
+          }
+        }
+      }
+      .current {
+        opacity: 1;
+      }
+    }
+    .case-wrap {
+      grid-column-start: 9;
+      grid-column-end: 14;
+      align-self: start;
+      margin: 0;
+      @media only screen and (max-width: 1200px) {
+        align-self: start;
+        grid-column-start: 8;
+        grid-column-end: 14;
+        grid-row: 2/ 3;
+      }
+      @media only screen and (max-width: 700px) {
+        grid-column-start: 2;
+        grid-column-end: 14;
+        grid-row: 3/ 3;
+      }
+      .case-content {
+        align-self: stretch;
+        display: none;
+        h3 {
+          margin-top: 0;
+          font-size: $header-size / 2;
+          border-bottom: 1px solid $gray;
+        }
+        p {
+          font-size: $base-font-size;
+          font-family: $font-family;
+        }
+        &.current {
+          flex-direction: column;
+          display: flex;
+          justify-content: space-around;
+        }
+      }
+    }
+    aside {
+      grid-column-start: 14;
+      grid-column-end: 14;
+      z-index: -2;
+      border-top: 1px solid $gray;
+      display: inline-flex;
+      justify-self: flex-start;
+      align-self: start;
+      flex-direction: column;
+      margin-top: 2rem;
+      width: 150px;
+
+      //display: none;
+      h4 {
+        margin-top: 1.5rem;
+      }
+      h4 {
+        color: $header-color;
+        font-size: $header-size / 3.75;
+        text-transform: uppercase;
+        margin-bottom: .5rem;
+        letter-spacing: 0;
+      }
+      @media only screen and (max-width: 1200px) {
+        grid-column-start: 8;
+        grid-column-end: 14;
+        grid-row: 3/ 3;
+      }
+      @media only screen and (max-width: 700px) {
+        grid-column-start: 2;
+        grid-column-end: 14;
+        grid-row: 4/ 4;
+        width: 100%;
+      }
+      p {
+        margin-top: 0;
+        font-size: $header-size /3.75;
+      }
+      .case-content {
+        align-self: stretch;
+        display: none;
+        &.current {
+          flex-direction: column;
+          display: flex;
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+
+}
+
+
+.no-cssgrid {
+  article {
+    &.case-studies {
+      nav {
+        display: inline-block;
+        vertical-align: top;
+        width: 59.5%;
+        .case-tab {
+          width: 23%;
+          box-sizing: initial;
+          display: inline-block;
+          vertical-align: top;
+          img {
+            width: 100%;
+          }
+          &:nth-child(4n+1) {
+            margin-right: 1%;
+          }
+          &:nth-child(4n+2) {
+            margin-left: 1%;
+            margin-right: 1%;
+          }
+          &:nth-child(4n+3) {
+            margin-left: 1%;
+            margin-right: 1%;
+          }
+          &:nth-child(4n+4) {
+            margin-left: 1%;
+          }
+          @media only screen and (max-width: 664px) {
+            width: 48.8%;
+            margin-bottom: 4%;
+
+            &:nth-child(4n+1) {
+              margin-right: 1%;
+              margin-left: 0%;
+            }
+            &:nth-child(4n+2) {
+              margin-right: 0%;
+              margin-left: 1%;
+            }
+            &:nth-child(4n+3) {
+              margin-right: 1%;
+              margin-left: 0%;
+            }
+            &:nth-child(4n+4) {
+              margin-right: 0%;
+              margin-left: 1%;
+            }
+          }
+          @media only screen and (max-width: 400px) {
+            width: 100%;
+            &:nth-child(4n+1) {
+              margin-right: 0%;
+              margin-left: 0%;
+            }
+            &:nth-child(4n+2) {
+              margin-right: 0%;
+              margin-left: 0%;
+            }
+            &:nth-child(4n+3) {
+              margin-right: 0%;
+              margin-left: 0%;
+            }
+            &:nth-child(4n+4) {
+              margin-right: 0%;
+              margin-left: 0%;
+            }
+          }
+        }
+      }
+      .case-wrap {
+        display: inline-block;
+        vertical-align: top;
+        width: 39.5%;
+      }
+      aside {
+        display: none;
+      }
+    }
+  }
+}
+
+blockquote {
+  &.featured--alt {
+    padding: 0 2rem 2rem 2rem;
+    .quote {
+      width: 100px;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 0;
+    }
+    .quote-svg {
+      fill: $white;
+    }
+    p {
+      padding: 0;
+      margin: 0;
+      grid-column-start: 2;
+      grid-column-end: 14;
+      border-left: none;
+      color: $white;
+    }
+    h6 {
+      margin: 0;
+      color: $white;
+      &:nth-of-type(1) {
+        margin: 1rem 0 0 0;
+      }
+      &:nth-of-type(2) {
+        font-weight: 100;
+      }
+    }
+    a {
+      color: $white;
     }
   }
 }

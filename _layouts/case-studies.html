@@ -44,7 +44,19 @@ layout: default
         </div>
     </article>
 
+    <aside class="case-study-info">
+        {% for post in site.case_studies %}
+        {% if post.is_featured %}
+        <div class="case-content" data-id="case-{{ forloop.index }}">
+            <h4>DATA EXPOSED</h4>
+            <p>Date</p>
+            <p>Location</p>
+            <p>Disabled Access</p>
+            <p>{{ post.title | escape }}</p>
 
+        </div>
+        {% endif %}
+        {% endfor %}
     </aside>
     {% endif %}
 

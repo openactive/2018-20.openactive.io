@@ -333,6 +333,7 @@ hr {
 blockquote {
   grid-column-start: 2;
   grid-column-end: 14;
+  margin-top: 1rem;
   p {
     margin: $blockquote-margin 0;
     color: $blockquote-color;
