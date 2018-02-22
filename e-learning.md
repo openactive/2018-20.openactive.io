@@ -13,19 +13,19 @@ strapline: The Open Data Institute are providing a free, online open data e-lear
 
 {::options parse_block_html="true" /}
 
-<article class="call_to_action--wide">
-<div class="one blue-gradient-bc">
+<!-- <article class="call_to_action--wide"> -->
+<!-- <div class="one blue-gradient-bc"> -->
 
-<h3>Open Data Essentials</h3>
-<p>Open Data Institute's e-Learning programme developed for the European Commission. This programme has been designed to enable you to discover what open data is and how it is changing the lives of everyone on our planet.</p>
-<p>There are 13 lessons for you to explore covering the essentials of open data, how to plan and measure success and how to implement an open data programme technically. This programme is free and should take a maximum of 2-3 hours to complete.</p>
-<br/>
-<a class="button-primary" href="http://accelerate.theodi.org/#/" target="_blank" rel="noopener">Learn About Open Data</a>
-<i class="line-graphic">{% include line-graphic-corner.svg %}</i>
+<!-- <h3>Open Data Essentials</h3> -->
+<!-- <p>Open Data Institute's e-Learning programme developed for the European Commission. This programme has been designed to enable you to discover what open data is and how it is changing the lives of everyone on our planet.</p> -->
+<!-- <p>There are 13 lessons for you to explore covering the essentials of open data, how to plan and measure success and how to implement an open data programme technically. This programme is free and should take a maximum of 2-3 hours to complete.</p> -->
+<!-- <br/> -->
+<!-- <a class="button-primary" href="http://accelerate.theodi.org/#/" target="_blank" rel="noopener">Learn About Open Data</a> -->
+<!-- <i class="line-graphic">{% include line-graphic-corner.svg %}</i> -->
 
-</div>
+<!-- </div> -->
 
-</article>
+<!-- </article> -->
 
 <article class="call_to_action">
 <h2 class="sub-heading-two">OpenActive Lessons</h2>

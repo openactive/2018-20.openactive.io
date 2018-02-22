@@ -75,16 +75,16 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 </article>
 
 <!--  ---------------->
-<!-- DEVELOPERS CALL TO ACTION -->
+<!-- E-LEARNING CALL TO ACTION -->
 <!--  ---------------->
 <article class="call_to_action--full-width">
-<h2 class="sub-heading-two">Show me the code</h2>
+<h2 class="sub-heading-two">Let Me Learn</h2>
 <div class="one">
 
-### For Developers
+### E-Learning
 Join the open data revolution with OpenActive and help the nation get active. 
 
-[Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
+[E-Learning]( {{ site.baseurl }}{% link e-learning.md %}){: .button-primary}
 
 </div>
 <figure>

@@ -1,58 +1,93 @@
-<article class="case-studies">
+<!--<article class="case-studies">-->
+<!--<h2 class="sub-heading-two">Case<br> Studies</h2>-->
+<!--<nav class="subgrid">-->
+<!--{% for post in site.case_studies %}-->
+<!--{% assign theImage = post.thumbnail_image %}-->
+
+<!--{% if post.is_featured %}-->
+<!--<div class="case-tab" data-tab="case-{{ forloop.index }}" markdown="0">-->
+
+<!--<figure role="group" aria-labelledby="fig-{{ forloop.index }}">-->
+
+<!--<img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>-->
+
+<!--<figcaption aria-hidden="true" id="fig-{{ forloop.index }}" class="hidden">{{ post.title | escape }}-->
+<!--</figcaption>-->
+<!--</figure>-->
+
+<!--</div>-->
+
+<!--{% endif %}-->
+
+<!--{% endfor %}-->
+<!--</nav>-->
+
+<!--<figure role="group" class="case-wrap ">-->
+<!--{% for post in site.case_studies %}-->
+<!--{% if post.is_featured %}-->
+<!--<div class="case-content matchHeight" id="case-{{ forloop.index }}">-->
+
+
+<!--<h3>{{ post.title | escape }}</h3>-->
+<!--{{ post.strapline }}-->
+
+<!--<a class="button-primary&#45;&#45;ghost" href="{{ post.url | relative_url }}">Read Case Study</a>-->
+
+
+<!--</div>-->
+<!--{% endif %}-->
+<!--{% endfor %}-->
+<!--</figure>-->
+
+
+<!--<aside class="case-study-info">-->
+<!--{% for post in site.case_studies %}-->
+<!--{% if post.is_featured %}-->
+<!--<div class="case-content" data-id="case-{{ forloop.index }}">-->
+<!--<h4>DATA EXPOSED</h4>-->
+<!--<p>Date</p>-->
+<!--<p>Location</p>-->
+<!--<p>Disabled Access</p>-->
+<!--<p>{{ post.title | escape }}</p>-->
+
+<!--</div>-->
+<!--{% endif %}-->
+<!--{% endfor %}-->
+<!--</aside>-->
+
+<!--</article>-->
+
+
 <h2 class="sub-heading-two">Case<br> Studies</h2>
-<nav class="subgrid">
+
+<div class="one siema">
 {% for post in site.case_studies %}
 {% assign theImage = post.thumbnail_image %}
 
 {% if post.is_featured %}
-<div class="case-tab" data-tab="case-{{ forloop.index }}" markdown="0">
-
-<figure role="group" aria-labelledby="fig-{{ forloop.index }}">
-
-<img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
-
-<figcaption aria-hidden="true" id="fig-{{ forloop.index }}" class="hidden">{{ post.title | escape }}
-</figcaption>
-</figure>
-
-</div>
-
-{% endif %}
-
-{% endfor %}
-</nav>
-
-<figure role="group" class="case-wrap ">
-{% for post in site.case_studies %}
-{% if post.is_featured %}
-<div class="case-content matchHeight" id="case-{{ forloop.index }}">
-
+<div class="one subgrid ">
+<div class="two">
 
 <h3>{{ post.title | escape }}</h3>
 {{ post.strapline }}
 
 <a class="button-primary--ghost" href="{{ post.url | relative_url }}">Read Case Study</a>
 
-
 </div>
-{% endif %}
-{% endfor %}
+<div class="two">
+
+<figure>
+<blockquote class="featured--alt">
+<i class="quote">{% include quote.svg %}</i>
+
+Dolorem ut dolor veniam. Quaerat nisi dolor ratione vitae. Ut velit quidem quis non dicta et exercitationem. Atque sint placeat error ipsum non.
+</blockquote>
 </figure>
 
-
-<aside class="case-study-info">
-{% for post in site.case_studies %}
-{% if post.is_featured %}
-<div class="case-content" data-id="case-{{ forloop.index }}">
-<h4>DATA EXPOSED</h4>
-<p>Date</p>
-<p>Location</p>
-<p>Disabled Access</p>
-<p>{{ post.title | escape }}</p>
-
+</div>
 </div>
 {% endif %}
-{% endfor %}
-</aside>
 
-</article>
+
+{% endfor %}
+</div>
