@@ -14,10 +14,24 @@
       .five {
         text-align: center;
         figure {
+          margin: 0;
           position: relative;
-          margin: 20px;
+          &.cs-style-1 figcaption {
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            text-align: center;
+            backface-visibility: hidden;
+            transition: transform 0.3s, opacity 0.3s;
+          }
+          &.cs-style-1 figure:hover figcaption {
+            opacity: 1;
+            transform: translate(15px, 15px);
+          }
           svg {
-            margin-top: 0;
+            max-width: 100%;
+            display: block;
+            position: relative;
             .opendata-1, .officespace-1, .mentorship-1, .mentorship-2, .workshop-1, .oneonone-1, .perks-1, .networking-1, .partners-1, .investors-1, .demo-1 {
               //fill: $brand-five;
               //stroke: $brand-five;
@@ -57,36 +71,42 @@
           figcaption {
             position: absolute;
             top: 0;
-            padding: 1rem;
-            font-size: .9em;
-            bottom: 0;
-            opacity: 0;
             left: 0;
-            width: 100%;
-            height: 100px;
-            background-color: #ffffff;
-
-            transition-property: opacity;
-            transition-duration: 0.2s;
-            transition-timing-function: ease-in-out;
-
-            display: inline-flex;
-            align-items: center;
-            box-sizing: border-box;
-            text-align: center;
-            margin: 0;
-            border-radius: 50%;
-            background-color: rgba($brand-five, 0.8);
-            color: white;
+            padding: 20px;
+            background: #2c3f52;
+            color: #ed4e6e;
+            //position: absolute;
+            //top: 0;
+            //left: 0;
+            //background: #2c3f52;
+            //padding: 1rem;
+            //font-size: .9em;
+            //bottom: 0;
+            //opacity: 0;
+            //left: 0;
+            //width: 100%;
+            //height: 100px;
+            //transition-property: opacity;
+            //transition-duration: 0.2s;
+            //transition-timing-function: ease-in-out;
+            //display: inline-flex;
+            //align-items: center;
+            //box-sizing: border-box;
+            //text-align: center;
+            //margin: 0;
+            //border-radius: 50%;
+            //background-color: rgba($brand-five, 0.8);
+            //color: white;
 
           }
+
         }
         &:hover figure figcaption {
           //opacity: 1;
-
         }
 
       }
+
     }
   }
   .featured {
@@ -393,3 +413,4 @@
     }
   }
 }
+
