@@ -26,9 +26,6 @@ layout: home
  - Attract people to join activities
  - Innovate to help people get active
 
-
-[FIND OUT MORE]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary} [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghost}
-
 </div>
 <figure role="group" aria-labelledby="open-active-video">
 
@@ -36,14 +33,20 @@ layout: home
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
+<div class="one">
+
+[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghostlarge} [FIND OUT MORE]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary--large}
+
+</div>
 </article>
 
 
 <!--  ---------------->
 <!-- CASE STUDIES -->
 <!--  ---------------->
+<article class="invert title-row">
 {% include case-study.html %}
-
+</article>
 
 
 <!--  ---------------->

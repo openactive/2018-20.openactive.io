@@ -97,6 +97,28 @@ a.button-primary {
   }
 }
 
+
+
+// Primary Large Styles
+//
+// Primary Ghost call to action
+//
+// Weight: 1
+//
+// :hover       - Hover state.
+// :active      - Active state.
+// .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
+//
+// Markup:
+// <a class="button-primary--ghostlarge {{modifier_class}}">Button</a>
+//
+// Styleguide buttons.primary-ghost
+a.button-primary--large {
+  @extend .button-primary;
+  padding: 20px 40px;
+  font-size: $base-font-size;
+}
+
 // Primary Alt Styles
 //
 // Primary Alternative call to action

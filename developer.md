@@ -11,7 +11,7 @@ layout: page-hero
 {::options parse_block_html="true" /}
 
 <!--  ---------------->
-<!-- HERO -->
+<!-- HERO TEXT -->
 <!--  ---------------->
 <article>
 <div class="one">
@@ -20,7 +20,40 @@ The open data being gathered by OpenActive and associated partners will transfor
 
 </div>
 </article>
-<article>
+
+<!--  ---------------->
+<!-- CODE -->
+<!--  ---------------->
+
+<article class="title-row">
+<h2 class="sub-heading-two">The Data</h2>
+<div class="two">
+
+#### Opportunity Data
+Delectus eum libero fuga ut asperiores dolor. Ab assumenda quia et qui explicabo.
+
+</div>
+<div class="two">
+
+```json
+  {
+    "title": "Yoga Class",
+    "description": "The Fun Kind",
+    "price": "12.00",
+    "remainingSpaces": 5,
+
+  },
+```
+
+</div>
+</article>
+
+
+<!--  ---------------->
+<!-- DASHBOARD -->
+<!--  ---------------->
+<article class="title-row">
+<h2 class="sub-heading-two">Data Dashboard</h2>
 <div class="two">
 
 ![Hero]({{ site.baseurl }}/assets/images/dash.png)
@@ -28,8 +61,9 @@ The open data being gathered by OpenActive and associated partners will transfor
 </div>
 <div class="two">
 
-### Opportunity Data Dashboard
-The Opportunity Data Dashboard lists all of the opportunity data feeds we have currently available. Because no single platform or app holds all the data available under OpenActive, we’ve designed the first set of OpenActive standards to support developers in harvesting and collecting data from multiple sources.
+The Opportunity Data Dashboard lists all of the opportunity data feeds we have currently available.
+
+Because no single platform or app holds all the data available under OpenActive, we’ve designed the first set of OpenActive standards to support developers in harvesting and collecting data from multiple sources.
 
 Explore the dashboard to find the data you need, identify which feeds conform to our standards, and provide feedback to publishers.
 

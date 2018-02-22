@@ -36,96 +36,8 @@ OpenActive makes discovering and taking part in  sport and fitness activities ea
 <!--  ---------------->
 <!-- TABS -->
 <!--  ---------------->
-<article markdown="0" class="tabs invert">
-<h2 class="sub-heading-two">Where to start?</h2>
-<div  id="tabs">
-<div  class="tabsList " role="tablist">
+{% include tabs.html %}
 
-<!-- <h3 class="tablink" role="tab presentation" aria-selected="true"> -->
-<!-- <a href="#how-it-works">How it Works</a> -->
-<!-- <i class="icon_wrap_accordian"> -->
-<!-- <i class="icon"></i> -->
-<!-- </i> -->
-<!-- </h3> -->
-
-<!-- <div markdown="1" role="tabpanel" id="how-it-works" class="tabPanel" aria-hidden="false" aria-labelledby="how-it-works"> -->
-
-<!-- #### How it Works -->
-<!-- OpenActive makes discovering and taking part in  sport and fitness activities easier than ever before. With open data, your activities can be available to people across the country,  on websites and apps that attract millions of users, to communities and services that engage local people. -->
-
-<!-- [Discover More]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary} -->
-
-<!-- </div> -->
-
-<h3 class="tablink" role="tab presentation" aria-selected="false">
-<a href="#booking-systems">Booking Systems</a>
-<i class="icon_wrap_accordian">
-<i class="icon"></i>
-</i>
-</h3>
-
-<div markdown="1" role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
-aria-labelledby="booking-systems">
-
-#### Booking Systems
-
-1. To get started, add an open data tick-box to your system so your customers can begin publishing open data.
-2. Build in simple data tools to allow your customers to publish activity listings, and use OpenActive data standards to improve existing datasets.
-3. Datasets will be listed in our directory for anyone to access, use, and share.
-4. Now, your customers’ activities will be available everywhere, from high-traffic online platforms,, to local community services.
-
-
-Publish your activity listing and join the open data revolution.
-
-[Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
-
-</div>
-
-<h3 class="tablink" role="tab presentation" aria-selected="false">
-<a href="#activity-provider">Activity Providers</a>
-<i class="icon_wrap_accordian">
-<i class="icon"></i>
-</i>
-</h3>
-
-<div markdown="1" role="tabpanel" id="activity-provider" class="tabPanel" aria-hidden="true"
-aria-labelledby="activity-provider">
-
-#### Activity Providers
-
-1. List your activity details on your existing website or booking system.
-2. Publish your activity information using our OpenActive data standards.
-3. Your dataset will be listed in our directory for anyone to access, use, and share.
-4. Now, your activities will be available everywhere, from high-traffic online platforms, to local community services.
-
-Publish your activity listing and join the open data revolution
-
-[Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
-
-</div>
-
-<h3 class="tablink" role="tab presentation" aria-selected="false">
-<a href="#use-data">Use Data</a>
-<i class="icon_wrap_accordian">
-<i class="icon"></i>
-</i>
-</h3>
-
-<div markdown="1" role="tabpanel" id="use-data" class="tabPanel" aria-hidden="true" aria-labelledby="use-data">
-
-#### Use Data
-
-1. Pick a data source from the list available on OpenActive.
-2. Join their mailing list and review the documentation.
-3. Pull in the data to your website or app. If you need help reach out to the OpenActive Community.
-
-[Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
-
-</div>
-</div>
-</div>
-<i class="line-graphic">{% include line-graphic-side.svg %}</i>
-</article>
 
 
 <!--  ---------------->
@@ -133,34 +45,39 @@ Publish your activity listing and join the open data revolution
 <!--  ---------------->
 <article markdown="0" class="opportunity-data title-row">
 <h2 class="sub-heading-two">Opportunity Data Explained</h2>
-<div class="two subgrid title-row">
-<i class="two">{% include time.svg %}</i>
-<i class="two">{% include cost.svg %}</i>
-<i class="two">{% include website.svg %}</i>
-<i class="two">{% include location.svg %}</i>
-</div>
-<div markdown="1" class="two">
+<i class="four">{% include time.svg %}
+<h5>Time</h5>
+</i>
+<i class="four">{% include cost.svg %}
+<h5>Price</h5>
+</i>
+<i class="four">{% include website.svg %}
+<h5>Description</h5>
+</i>
+<i class="four">{% include location.svg %}
+<h5>Location</h5>
+</i>
+</article>
 
+<article>
+<div class="one">
 
 ### Open opportunity data is about where and when sport and physical activities happen.
 This data can be made available for anyone to access, use, and share, helping consumers to discover and take part in new activities, and providers to more accurately tailor and grow their services.
 
 By encouraging organisations to publish their data openly and to a commonly agreed standard, we are not only facilitating open sharing across individual websites, but building a connected, online community that’s free to grow and innovate in response to its consumers’ needs.
 
-Opening up opportunity data across the sector will better connect providers and consumers, and allow sport and physical activity sessions across the country to be easily shared and accessed everywhere, from websites and apps that attract millions of users, to communities and services that engage local people. 
-
-
+Opening up opportunity data across the sector will better connect providers and consumers, and allow sport and physical activity sessions across the country to be easily shared and accessed everywhere, from websites and apps that attract millions of users, to communities and services that engage local people.
 
 </div>
 </article>
 
-
 <!--  ---------------->
 <!-- WHAT ARE THE BENEFITS -->
 <!--  ---------------->
-<article class="call_to_action title-row">
+<article class="title-row">
 <h2 class="sub-heading-two">What are the benefits?</h2>
-<div class="two list">
+<div class="one ">
 
 
 ### Sport and Physical Activity Providers
@@ -170,7 +87,7 @@ Opening up opportunity data across the sector will better connect providers and 
 * Drive innovation, and collaborate with OpenActive to revolutionise the sector.
 
 </div>
-<div class="two list">
+<div class="one">
 
 ### Data Users and Developers
 
@@ -180,8 +97,8 @@ Opening up opportunity data across the sector will better connect providers and 
 
 </div>
 </article>
-<article class="call_to_action">
-<div class="one list">
+<article>
+<div class="one">
 
 ### Influential Organisations
 
@@ -197,7 +114,9 @@ Opening up opportunity data across the sector will better connect providers and 
 <!--  ---------------->
 <!-- CASE STUDIES BLOCK -->
 <!--  ---------------->
+<article class="title-row">
 {% include case-study.html %}
+</article>
 
 
 

@@ -463,6 +463,22 @@ article {
           transition-timing-function: ease-in-out;
           text-align: left;
           margin-bottom: 1rem;
+          div {
+            display: inline-flex;
+            align-items: center;
+            p {
+              width: 50%;
+              img {
+                max-width: 50%;
+                min-width: 200px;
+                padding: 0 1rem;
+              }
+            }
+            &:nth-last-child(1){
+              width:100%;
+              text-align:center;
+            }
+          }
           h4 {
             font-size: 2.7rem;
             font-weight: 600;
@@ -1786,7 +1802,6 @@ article {
 
 }
 
-
 .no-cssgrid {
   article {
     &.case-studies {
@@ -1870,42 +1885,20 @@ article {
   }
 }
 
-blockquote {
-  &.featured--alt {
-    padding: 0 2rem 2rem 2rem;
-    .quote {
-      width: 100px;
-      display: inline-block;
-      margin-bottom: 0.5rem;
+
+
+.opportunity-data{
+  .four{
+    text-align: center;
+    i{}
+    svg{
+      max-width: 80%;
+      height: 160px;
+      margin: 20px;
     }
-    svg {
-      width: 30px;
-      height: 30px;
-      margin-bottom: 0;
-    }
-    .quote-svg {
-      fill: $white;
-    }
-    p {
-      padding: 0;
-      margin: 0;
-      grid-column-start: 2;
-      grid-column-end: 14;
-      border-left: none;
-      color: $white;
-    }
-    h6 {
-      margin: 0;
-      color: $white;
-      &:nth-of-type(1) {
-        margin: 1rem 0 0 0;
-      }
-      &:nth-of-type(2) {
-        font-weight: 100;
-      }
-    }
-    a {
-      color: $white;
+    h5{
+      margin-top: 0;
+      font-style: normal;
     }
   }
 }

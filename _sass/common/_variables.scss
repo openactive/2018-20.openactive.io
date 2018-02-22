@@ -326,6 +326,18 @@ $globalEight: $brand-eight;
         color: $white;
       }
     }
+    blockquote {
+      .quote-svg {
+        fill: $white;
+      }
+      p {
+        color: $white;
+      }
+      h6 {
+        margin: 0;
+        color: $white;
+      }
+    }
   }
   .invert-2 {
     @extend .invert;
@@ -582,6 +594,18 @@ article.use, div.use {
     }
     .tabPanel{
       h4{
+        color: $white;
+      }
+    }
+    blockquote {
+      .quote-svg {
+        fill: $white;
+      }
+      p {
+        color: $white;
+      }
+      h6 {
+        margin: 0;
         color: $white;
       }
     }
@@ -849,6 +873,18 @@ article.publish, div.publish {
         color: $white;
       }
     }
+    blockquote {
+      .quote-svg {
+        fill: $white;
+      }
+      p {
+        color: $white;
+      }
+      h6 {
+        margin: 0;
+        color: $white;
+      }
+    }
   }
   .invert-2 {
     @extend .invert;
@@ -1087,6 +1123,18 @@ article.startup, div.startup, a.button-primary.startup {
     }
     .tabPanel{
       h4{
+        color: $white;
+      }
+    }
+    blockquote {
+      .quote-svg {
+        fill: $white;
+      }
+      p {
+        color: $white;
+      }
+      h6 {
+        margin: 0;
         color: $white;
       }
     }

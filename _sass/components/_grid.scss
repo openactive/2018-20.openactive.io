@@ -601,6 +601,9 @@
         grid-column-start: 2;
         grid-column-end: 14;
         margin-bottom: 1rem;
+        .one{
+          grid-column: col / span 12;
+        }
         .two {
           &:nth-child(2n+1) {
             grid-column: col / span 6;

@@ -63,12 +63,15 @@ h1 + p, h1 + ul li p, .h1-copy {
   font-size: $header-size/  2;
   font-family: $font-family;
 }
-.hero-sub{
+
+.hero-sub {
   font-size: $header-size/  1.7;
 }
-h1 + h2{
+
+h1 + h2 {
   margin-bottom: 1rem;
 }
+
 // Heading Two Styles
 //
 // Hero Text
@@ -84,10 +87,12 @@ h2 {
   font-weight: 800;
   color: $brand-blue;
 }
+
 h2 + p, h2 + ul li p, .h2-copy {
   font-size: $header-size/  2.1;
   font-family: $font-family;
 }
+
 // Sub Heading Two Styles
 //
 // Heading text for sections, appears in left columns at larger screens
@@ -162,7 +167,7 @@ h3 {
   color: $brand-blue;
   font-size: $header-size / 1.5;
   line-height: 2.3rem;
-  a{
+  a {
     font-weight: 800;
   }
 }
@@ -343,10 +348,10 @@ blockquote {
     font-size: $header-size/  2.16346;
     font-family: $font-family;
   }
-  &.featured{
-    padding:2rem;
+  &.featured {
+    padding: 2rem;
     background-color: $brand-blue;
-    .quote{
+    .quote {
       width: 100px;
       border-bottom-width: 1px;
       border-bottom-style: solid;
@@ -359,10 +364,10 @@ blockquote {
       height: 30px;
       margin-bottom: 1rem;
     }
-    .quote-svg{
-      fill:$white;
+    .quote-svg {
+      fill: $white;
     }
-    p{
+    p {
       padding: 0;
       margin: 0;
       grid-column-start: 2;
@@ -373,14 +378,14 @@ blockquote {
     h6 {
       margin: 0;
       color: $white;
-      &:nth-of-type(1){
+      &:nth-of-type(1) {
         margin: 1rem 0 0 0;
       }
-      &:nth-of-type(2){
+      &:nth-of-type(2) {
         font-weight: 100;
       }
     }
-    a{
+    a {
       color: $white;
     }
   }
@@ -393,14 +398,14 @@ article.featured {
     grid-row: 1;
     grid-column-start: 2;
     grid-column-end: 14;
-    margin-top:2rem;
+    margin-top: 2rem;
     svg {
       width: 30px;
       height: 30px;
       margin-bottom: 1rem;
     }
-    .quote-svg{
-      fill:$white;
+    .quote-svg {
+      fill: $white;
     }
   }
   blockquote {
@@ -421,11 +426,11 @@ article.featured {
     }
     h6 {
       color: $white;
-      margin:  0;
-      &:nth-of-type(1){
+      margin: 0;
+      &:nth-of-type(1) {
         margin: 1rem 0 0 0;
       }
-      &:nth-of-type(2){
+      &:nth-of-type(2) {
         font-weight: 100;
       }
     }
@@ -447,6 +452,46 @@ article.featured {
     width: 150px;
     justify-self: end;
 
+  }
+}
+
+blockquote {
+  &.featured--alt {
+    padding: 0 2rem 2rem 2rem;
+    .quote {
+      width: 100px;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 0;
+    }
+    .quote-svg {
+      fill: $paragraph-color;
+    }
+    p {
+      padding: 0;
+      margin: 0;
+      grid-column-start: 2;
+      grid-column-end: 14;
+      border-left: none;
+      color: $paragraph-color;
+    }
+    h6 {
+      margin: 0;
+      color: $paragraph-color;
+      &:nth-of-type(1) {
+        margin: 1rem 0 0 0;
+      }
+      &:nth-of-type(2) {
+        font-weight: 100;
+      }
+    }
+    a {
+      color: $paragraph-color;
+    }
   }
 }
 

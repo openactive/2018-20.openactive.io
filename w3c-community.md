@@ -80,20 +80,3 @@ This just isn’t possible when opportunity data is described in different ways 
 </div>
 
 </article>
-
-
-<article>
-<div class="one">
-
-```json
-  {
-    "title": "Yoga Class",
-    "description": "The Fun Kind",
-    "price": "12.00",
-    "remainingSpaces": 5,
-
-  },
-```
-
-</div>
-</article>

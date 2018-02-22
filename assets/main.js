@@ -9,9 +9,20 @@ $(document).ready(function () {
         //     }
         // });
 
-
-
-
+        if ($(".siema").length > 0) {
+            const mySiema = new Siema({
+                selector: '.siema',
+                duration: 800,
+                loop: true,
+                easing: 'ease-out',
+                perPage: 1,
+                startIndex: 0,
+                draggable: true,
+                multipleDrag: true,
+            });
+            // listen for keydown event
+            setInterval(() => mySiema.next(), 5000);
+        }
 
         $('.global-palette').on("click", function () {
             $('.page')
