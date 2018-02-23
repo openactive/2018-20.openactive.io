@@ -7,6 +7,7 @@ twitter: https://twitter.com/amitpateluk
 linkedin: 'https://www.linkedin.com/in/amitpateluk/ '
 role: Sport Operations Manager
 company: Active Surrey
+link: http://www.activesurrey.com/about-us/active-surrey-staff
 description: Lawrie supports local partners and stakeholders to work creatively to
   address inactivity in Surrey through development of sustainable projects.
 quote: |-
