@@ -6,9 +6,6 @@ thumbnail_image: "/uploads/vcard.jpg"
 role: Insight and Evaluation Officer
 company: Active Norfolk
 link: https://www.activenorfolk.org/people
-quote: |-
-  My ambition as a champion is to make the most of open data opportunities, remove barriers to physical activity opportunities, and learn more about how to get people moving.
-  I’m excited to improve visibility of opportunities across the UK in both urban and rural areas.
 ---
 
 Rachel conducts qualitative and quantitative research and generates additional insight for the county.
