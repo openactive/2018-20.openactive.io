@@ -5,7 +5,7 @@ position: 5
 is_secondary_navigation: true
 layout: page-hero
 thumbnail_image: "/uploads/iStock-501777666_optimised.png"
-strapline:
+strapline: 
 ---
 
 {::options parse_block_html="true" /}

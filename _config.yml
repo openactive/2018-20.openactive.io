@@ -8,6 +8,9 @@ collections:
   case_studies:
     title: Case Studies
     output: true
+  champions:
+    title: Champions
+    output: true
   dataproviders:
     title: Data Providers
     output: true
@@ -22,9 +25,6 @@ collections:
     output: true
   mentors:
     title: Mentors
-    output: true
-  champions:
-    title: Champions
     output: true
   partners:
     title: Partners
@@ -62,8 +62,8 @@ defaults:
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
     member: 
-    strapline:
-    quote:
+    strapline: 
+    quote: 
 - scope:
     path: ''
     type: mentors
@@ -74,7 +74,7 @@ defaults:
     thumbnail_image: "/uploads/placeholder.png"
     twitter: 
     linkedin: 
-    role:
+    role: 
 - scope:
     path: ''
     type: champions
@@ -83,10 +83,10 @@ defaults:
     second-name: ''
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
-    twitter:
-    linkedin:
-    role:
-    company:
+    twitter: 
+    linkedin: 
+    role: 
+    company: 
 - scope:
     path: ''
     type: partners
