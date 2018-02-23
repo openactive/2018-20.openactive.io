@@ -2,6 +2,8 @@
 title: Jade
 date: 2018-02-23 14:30:00 Z
 second-name: Cation
+thumbnail_image: "/uploads/AAMAAgDGAAwAAQAAAAAAAA51AAAAJDE1MDc3NDI5LWJlNjMtNGZkYy1hNGFjLWFiYjU2MjQ1MjEzYg.jpg"
+linkedin: https://www.linkedin.com/in/jade-cation-aa2bb93a/
 role: Head of Business Development
 company: EMD UK
 description: Within her current role Jade oversees EMD UK’s insight, technology and
