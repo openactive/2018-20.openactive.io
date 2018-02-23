@@ -86,9 +86,9 @@ defaults:
     twitter: 
     linkedin: 
     role: 
-    company:
-    description:
-    quote:
+    company: 
+    description: 
+    quote: 
 - scope:
     path: ''
     type: partners
