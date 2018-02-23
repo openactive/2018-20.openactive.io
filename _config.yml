@@ -85,7 +85,8 @@ defaults:
     twitter: 
     linkedin: 
     role: 
-    company: 
+    company:
+    link:
     description: 
     quote: 
 - scope:
