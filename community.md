@@ -188,7 +188,6 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 The OpenActive Champions are ten advocates embracing and influencing local transformation with open opportunity data. As a peer-network, they’re committed to develop local knowledge, share good practice and drive innovation to get people active.
 
 
-
 </div>
 </article>
 
@@ -197,8 +196,8 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 <article class="title-row" id="mentors">
 <h2 class="sub-heading-two">Mentors</h2>
 <div class="one">
-{% assign sortedPosts = site.champions  %}
-{% for post in sortedPosts %}
+
+{% for post in site.champions %}
 {% assign theImage = post.thumbnail_image %}
 
 <div class="inline-block-six">
