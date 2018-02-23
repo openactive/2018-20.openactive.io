@@ -31,10 +31,16 @@ html.cssgrid {
         grid-column-start: 9;
         grid-column-end: 14;
         grid-row: 1;
+        align-self: stretch;
+        display: inline-flex;
+        flex-direction: column;
         h1 {
           margin: 0;
           font-size: 2rem;
           line-height: 1.2;
+        }
+        p{
+          margin-top: auto;
         }
         @media only screen and (max-width: 900px) {
           grid-column-start: 2;

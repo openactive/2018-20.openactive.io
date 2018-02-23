@@ -160,9 +160,9 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 <!--  ---------------->
 <!-- CHAMPIONS -->
 <!--  ---------------->
-<article>
+
 {% include champions.html %}
-</article>
+
 
 
 <!--  ---------------->

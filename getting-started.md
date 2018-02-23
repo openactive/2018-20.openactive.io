@@ -34,7 +34,15 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 
 </div>
 <div class="two">
-<nav class="subgrid">
+<form id="live-search" action="" class="styled" method="post">
+<fieldset>
+<input type="text" class="text-input noEnterSubmit" id="filter" value="" placeholder="Search Our Booking Systems..." />
+<span id="filter-count"></span>
+</fieldset>
+</form>
+
+
+<nav>
 {% for post in site.booking_engines %}
 {% if post.is_enabled %}
 {% assign theImage = post.thumbnail_image %}
@@ -42,8 +50,9 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 {% assign theMember = site.members | where:"title", post.member  | first %}
 {% assign theImage = theMember.thumbnail_image %} 
 {% endif %}
-<div class="four case-tab" data-tab="{{ forloop.index }}" markdown="0" >
+<div class="inline-four booking-tab" markdown="0" >
 <a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
+<span class="hidden">{{post.title}}</span>
 </div>
 {% endif %}
 {% endfor %}

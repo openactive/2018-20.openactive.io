@@ -13,11 +13,13 @@ layout: home
 <!-- HERO BLOCK -->
 <!--  ---------------->
 <article class="hero--home">
-<nav class="hero_tab_nav">
-<div class="hero-tab" data-tab="h1"></div>
-<div class="hero-tab" data-tab="h2"></div>
-<div class="hero-tab" data-tab="h3"></div>
-</nav>
+
+<!-- <nav class="hero_tab_nav"> -->
+<!-- <div class="hero-tab" data-tab="h1"></div> -->
+<!-- <div class="hero-tab" data-tab="h2"></div> -->
+<!-- <div class="hero-tab" data-tab="h3"></div> -->
+<!-- </nav> -->
+
 <div class="content">
 
 # Helping physical activity reach everyone
@@ -26,7 +28,7 @@ layout: home
  - Attract people to join activities
  - Innovate to help people get active
 
-[Our Mission]( {{ site.baseurl }}{% link our-mission.md %}){: .button-primary}
+[Our Mission]( {{ site.baseurl }}{% link our-mission.md %}){: .button-primary--ghost}
 
 </div>
 <figure role="group" aria-labelledby="open-active-video">
@@ -61,7 +63,9 @@ layout: home
 
 #### Our goal is to make data on what, where and when physical activity sessions happen, openly available.
 
-We are bringing together sports and physical activity organisations from across the sector to open up their opportunity data, from leisure operators to National Governing Bodies, local sports clubs to event providers, walking groups to fitness instructors. We are also helping other organisations to use this opportunity data to build interesting tools and experiences for consumers.
+We are bringing together sports and physical activity organisations from across the sector to open up their opportunity data.
+
+From leisure operators to National Governing Bodies, local sports clubs to event providers, walking groups to fitness instructors. We are also helping other organisations to use this opportunity data to build interesting tools and experiences for consumers.
 
 [FIND OUT MORE]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary} [Get Involved]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghost}
 
