@@ -125,28 +125,31 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 </div>
 {% endfor %}
 <div class="two">
-<iframe width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=user_uploads&list=UCXS84J1nXdAPyK545EI5XDA" frameborder="0" allowfullscreen></iframe></div>
+</div>
 </article>
 
 
 <!--  ---------------->
-<!-- CALL TO ACTION -->
+<!-- DEVELOPER CALL TO ACTION -->
 <!--  ---------------->
 <article class="call_to_action--full-width">
-<h2 class="sub-heading-two">Developers</h2>
+<h2 class="sub-heading-two">Standards group</h2>
 <div class="one">
 
-### Resources
-Molestiae perspiciatis consequatur non est. Esse repudiandae magni voluptatem voluptate maiores id molestias quis. Nihil sit et cupiditate. Et ea quaerat alias sint deserunt.
+### W3C-Community
 
-[Developer]( {{ site.baseurl }}{% link developer.md %}){:.button-primary}
+Our goal is to develop technical specifications and best practices that support the use of open and shared data about sports and physical activities.
 
+While our work is technical, you don’t have to be a developer to contribute. Our primary focus is standardising how to publish data about physical activity opportunities, defining best practices and APIs to enable booking events and facilities, and improving interoperability of data across the sector.
+
+
+[W3C Community]( {{ site.baseurl }}{% link w3c-community.md %}){:.button-primary}
 
 </div>
 <figure>
 <div class="triangle"></div>
 <div class="stripe"></div>
-<div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+<div style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
 </figure>
 </article>
 
@@ -168,27 +171,15 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 {% for post in posts %}
 {% assign theImage = post.thumbnail_image %}
 <div class="six" data-tab="{{ forloop.index }}" markdown="0" >
-<a  href="{{ post.url | relative_url }}"><img src="{{ theImage  | relative_url}}"/></a>
+<a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
 </div>
 {% endfor %}
 </article>
 
-<article class="title-row">
-<h2 class="sub-heading-two">W3C-Community</h2>
-<div class="one">
 
-### OpenActive standards group
-
-Our goal is to develop technical specifications and best practices that support the use of open and shared data about sports and physical activities.
-
-While our work is technical, you don’t have to be a developer to contribute. Our primary focus is standardising how to publish data about physical activity opportunities, defining best practices and APIs to enable booking events and facilities, and improving interoperability of data across the sector.
-
-
-[W3C Community]( {{ site.baseurl }}{% link w3c-community.md %}){:.button-primary}
-
-</div>
-</article>
-
+<!--  ---------------->
+<!-- CHAMPIONS -->
+<!--  ---------------->
 <article>
 <div class="one">
 
@@ -196,11 +187,62 @@ While our work is technical, you don’t have to be a developer to contribute. O
 
 The OpenActive Champions are ten advocates embracing and influencing local transformation with open opportunity data. As a peer-network, they’re committed to develop local knowledge, share good practice and drive innovation to get people active.
 
-<p><a class="button-primary" href="https://blog.openactive.io/openactive-champions-assemble-10-advocates-embrace-local-transformation-with-open-data-to-get-fe71c953fd31">Read More</a></p>
 
 
 </div>
 </article>
+
+
+
+<article class="title-row" id="mentors">
+<h2 class="sub-heading-two">Mentors</h2>
+<div class="one">
+{% assign sortedPosts = site.champions  %}
+{% for post in sortedPosts %}
+{% assign theImage = post.thumbnail_image %}
+
+<div class="inline-block-six">
+
+<figure>
+<img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+<figcaption>
+<p><strong>{{ post.title | escape }}</strong></p>
+<p>{{ post.second-name | escape }} </p>
+<p>{{ post.role | escape }} </p>
+</figcaption>
+<div class="social-links">
+{% if post.twitter %}
+
+<a target="_blank" rel="noopener" href="{{ post.twitter }}">
+<span class="icon icon--twitter">
+{% include twitter.svg %}
+</span>
+<span class="hidden" aria-hidden="true">
+Twitter
+</span>
+</a>
+{% endif %}
+{% if post.linkedin %}
+<a href="{{ post.linkedin }}" target="_blank">
+<span class="icon icon--twitter">
+{% include linkedin.svg %}
+</span>
+<span class="hidden" aria-hidden="true">
+LinkedIn
+</span>
+</a>
+{% endif %}
+</div>
+</figure>
+
+</div>
+
+
+{% endfor %}
+</div>
+</article>
+
+
 
 <!--  ---------------->
 <!-- FAQS -->

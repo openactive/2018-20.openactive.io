@@ -11,6 +11,7 @@ tags:
 - Openactive
 strapline: The pivotal role of cross-sector collaboration in publishing activeNewham
   open data.
+quote: Maxime sed repudiandae impedit ratione error ratione officiis aut.
 is_featured: true
 thumbnail_image: "/uploads/case_study4_1.png"
 member: Active Newham

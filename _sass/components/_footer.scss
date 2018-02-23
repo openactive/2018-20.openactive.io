@@ -1,5 +1,6 @@
-html.cssgrid {
+html.cssgrid,html {
   footer:not(.slim) {
+  //footer {
     article {
       grid-row-gap: 0;
       &:nth-child(1) {

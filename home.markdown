@@ -26,6 +26,8 @@ layout: home
  - Attract people to join activities
  - Innovate to help people get active
 
+[Our Mission]( {{ site.baseurl }}{% link our-mission.md %}){: .button-primary}
+
 </div>
 <figure role="group" aria-labelledby="open-active-video">
 
@@ -33,19 +35,25 @@ layout: home
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
-<div class="one">
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghostlarge} [FIND OUT MORE]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary--large}
-
-</div>
 </article>
 
 
 <!--  ---------------->
-<!-- CASE STUDIES -->
+<!-- HOW IT WORKS -->
 <!--  ---------------->
 <article class="invert title-row">
-{% include case-study.html %}
+<h2 class="sub-heading-two">What we do</h2>
+<div class="one">
+
+#### Our goal is to make data on what, where and when physical activity sessions happen, openly available.
+This “opportunity data” includes details of a yoga class (“how much will it cost?”) through to badminton court availability (“where and when is a court available?”).
+
+We are bringing together sports and physical activity organisations from across the sector to open up their opportunity data, from leisure operators to National Governing Bodies, local sports clubs to event providers, walking groups to fitness instructors. We are also helping other organisations to use this opportunity data to build interesting tools and experiences for consumers.
+
+[FIND OUT MORE]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary} [Get Involved]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghost}
+
+</div>
 </article>
 
 
@@ -66,6 +74,29 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 
 </div>
 </article>
+
+
+
+
+
+<!--  ---------------->
+<!-- CASE STUDIES -->
+<!--  ---------------->
+<article class="invert title-row">
+<h2 class="sub-heading-two">Case<br> Studies</h2>
+
+<div class="one">
+
+#### Success Stories
+Read about some of the many organisations starting to embrace open data.
+
+</div>
+
+
+{% include case-study.html %}
+</article>
+
+
 
 
 

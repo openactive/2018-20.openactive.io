@@ -5,26 +5,65 @@ position: 5
 is_secondary_navigation: true
 layout: page-hero
 thumbnail_image: "/uploads/iStock-501777666_optimised.png"
-strapline: The Open Data Institute and the OpenActive community are working together
-  to improve how systems in the sport and physical activity ecosystem connect.
+strapline:
 ---
 
 {::options parse_block_html="true" /}
 
+
+<!--  ---------------->
+<!-- TEXT AREA -->
+<!--  ---------------->
 <article class="title-row">
 <h2 class="sub-heading-two">About Us</h2>
 <div class="one">
 
-This discussion takes place in our W3C Community Group, where we are developing the standards for opportunity data that will make it easier to publish, find and use. We are at the start of a long term change in the physical activity sector and work in this area is evolving. We welcome you to contribute and join the open conversation by joining our W3C Community Group.
+#### The Open Data Institute and the OpenActive community are working together to improve how systems in the sport and physical activity ecosystem connect.
+
+This discussion takes place in our [W3C Community Group](https://www.w3.org/community/openactive/), where we are developing the standards for opportunity data that will make it easier to publish, find and use. We are at the start of a long term change in the physical activity sector and work in this area is evolving. We welcome you to contribute and join the open conversation by joining our W3C Community Group.
 
 > A W3C Community Group is an open forum, without fees, where Web developers and other stakeholders develop specifications, hold discussions, develop test suites, and connect with W3C’s international community of Web experts.
 
-You can read more about the role of community groups on the [W3C website.] (https://www.w3.org/community/about/faq/#what-is-a-w3c-community-group)
+You can read more about the role of community groups on the [W3C website](https://www.w3.org/community/about/faq/#what-is-a-w3c-community-group)
 
 
 </div>
 </article>
 
+
+<!--  ---------------->
+<!-- COMMUNITY GOALS -->
+<!--  ---------------->
+<article class="title-row invert">
+<h2 class="sub-heading-two">Community Goals</h2>
+<div class="two twoleft">
+
+### Our Focus
+Following conversations with a variety of sport and physical activity organisations, the ODI is currently recommending that the OpenActive W3C Community Group focusses on developing and refining standards for the following three aspects of opportunity data:
+
+**Publishing** — the way that booking systems and websites can allow data about opportunities to be easily found on the internet in a consistent format that computers understand. A specification is currently in development for this area; to become an early adopter please click here.
+
+**Activities** — the language used to label the different types of physical activities that are available with a short description of what they involve.
+
+**Content fields** — specific details about the sessions including location, date and time, difficulty level, age range and cost.
+
+Please join the W3C Community Group to join the discussion.
+
+</div>
+<div class="two twoleft">
+
+### The publishing specification
+Standards evolve from an initial specification, which is considered and agreed amongst a group. There is an initial specification for how to publish opportunity data; for details on how to implement it, visit open your data.
+
+Please note that this specification is in development and will evolve over time. The current draft publishing specification is available on GitHub.
+
+</div>
+</article>
+
+
+<!--  ---------------->
+<!-- COMMUNITY ACTIVITY -->
+<!--  ---------------->
 <article class="title-row">
 <h2 class="sub-heading-two">Community Activity</h2>
 <div class="one subgrid">
@@ -38,28 +77,9 @@ You can read more about the role of community groups on the [W3C website.] (http
 </article>
 
 
-<article class="title-row">
-<h2 class="sub-heading-two">Future of the Community</h2>
-<div class="two">
-
-### The publishing specification
-Standards evolve from an initial specification, which is considered and agreed amongst a group. There is an initial specification for how to publish opportunity data; for details on how to implement it, visit open your data. Please note that this specification is in development and will evolve over time. The current draft publishing specification is available on GitHub.
-
-</div>
-<div class="two">
-
-### Our Focus
-Following conversations with a variety of sport and physical activity organisations, the ODI is currently recommending that the OpenActive W3C Community Group focusses on developing and refining standards for the following three aspects of opportunity data:
-
-Publishing — the way that booking systems and websites can allow data about opportunities to be easily found on the internet in a consistent format that computers understand. A specification is currently in development for this area; to become an early adopter please click here.
-Activities — the language used to label the different types of physical activities that are available with a short description of what they involve.
-Content fields — specific details about the sessions including location, date and time, difficulty level, age range and cost.
-Please join the W3C Community Group to join the discussion.
-
-</div>
-
-</article>
-
+<!--  ---------------->
+<!-- FUTURE OF THE COMmUNITY -->
+<!--  ---------------->
 <article class="title-row">
 <h2 class="sub-heading-two">Future of the Community</h2>
 <div class="two">

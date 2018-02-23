@@ -112,6 +112,7 @@ $globalSix: $brand-six;
 $globalSeven: $brand-seven;
 $globalEight: $brand-eight;
 
+
 .global {
   &.a {
     background-color: $global;
@@ -127,7 +128,7 @@ $globalEight: $brand-eight;
       background-color: $globalThree;
     }
   }
-  .three{
+  .three {
 
   }
   &.gradient {
@@ -149,7 +150,7 @@ $globalEight: $brand-eight;
 }
 
 .global-template {
-  h1, h2, h3, h4, h5,h6 {
+  h1, h2, h3, h4, h5, h6 {
     color: $global;
   }
   .hero--sub, .hero--montage {
@@ -208,7 +209,7 @@ $globalEight: $brand-eight;
     }
     .button-primary {
       background-color: $globalFive;
-      &:hover{
+      &:hover {
         background-color: $globalSix;
       }
     }
@@ -217,11 +218,11 @@ $globalEight: $brand-eight;
     }
   }
   .call_to_action {
-    .one,.one.stripe{
-      background: none $global!important;
+    .one, .one.stripe {
+      background: none $global !important;
       .button-primary {
         background-color: $globalFive;
-        &:hover{
+        &:hover {
           background-color: $globalSix;
         }
       }
@@ -236,11 +237,11 @@ $globalEight: $brand-eight;
     }
   }
   .call_to_action--wide {
-    .one{
-      background: none $global!important;
+    .one {
+      background: none $global !important;
       .button-primary {
         background-color: $globalFive;
-        &:hover{
+        &:hover {
           background-color: $globalSix;
         }
       }
@@ -290,9 +291,6 @@ $globalEight: $brand-eight;
         // fill:$white;
       }
     }
-    * {
-      color: $white;
-    }
     a.button-primary {
       background-color: $brand-two;
       &:hover {
@@ -321,8 +319,8 @@ $globalEight: $brand-eight;
       }
 
     }
-    .tabPanel{
-      h4{
+    .tabPanel {
+      h4 {
         color: $white;
       }
     }
@@ -337,6 +335,22 @@ $globalEight: $brand-eight;
         margin: 0;
         color: $white;
       }
+    }
+    span[class^="odometer-"] {
+      color: $white;
+    }
+    .arrow{
+      svg{
+        path{
+          fill:$white;
+        }
+      }
+    }
+    figcaption {
+      color: $white;
+    }
+    h1,h2,h3,h4,h5,h6,p,li{
+      color: $white;
     }
   }
   .invert-2 {
@@ -456,7 +470,7 @@ article.use, div.use {
 }
 
 .use-template {
-  h1, h2, h3, h4, h5 ,h6{
+  h1, h2, h3, h4, h5, h6 {
     color: $usingThree;
   }
   .hero--sub, .hero--montage {
@@ -520,7 +534,7 @@ article.use, div.use {
     }
   }
   .call_to_action {
-    .one,.one.stripe{
+    .one, .one.stripe {
       background: none $usingThree;
       .button-primary {
         background-color: $usingFive;
@@ -537,7 +551,7 @@ article.use, div.use {
   }
   .call_to_action--wide {
     .one {
-      background: none $usingThree!important;
+      background: none $usingThree !important;
     }
     .button-primary {
       background-color: $usingFive;
@@ -589,11 +603,11 @@ article.use, div.use {
         fill: $white;
       }
     }
-    * {
+    h1, h2, h3, h4, h5, p {
       color: $white;
     }
-    .tabPanel{
-      h4{
+    .tabPanel {
+      h4 {
         color: $white;
       }
     }
@@ -607,6 +621,22 @@ article.use, div.use {
       h6 {
         margin: 0;
         color: $white;
+      }
+    }
+    span[class^="odometer-"] {
+      color: $white;
+    }
+    figcaption {
+      color: $white;
+    }
+    h1,h2,h3,h4,h5,h6,p,li{
+      color: $white;
+    }
+    .arrow{
+      svg{
+        path{
+          fill:$white;
+        }
       }
     }
   }
@@ -731,7 +761,7 @@ article.publish, div.publish {
 }
 
 .publish-template {
-  h1, h2, h3, h4, h5,h6 {
+  h1, h2, h3, h4, h5, h6 {
     color: $publishFour;
   }
   .sub-heading-two {
@@ -796,7 +826,7 @@ article.publish, div.publish {
     }
   }
   .call_to_action {
-    .one,.one.stripe{
+    .one, .one.stripe {
       background: none $publishTwo;
       .button-primary {
         background-color: $publishFour;
@@ -812,8 +842,8 @@ article.publish, div.publish {
     }
   }
   .call_to_action--wide {
-    .one{
-      background: none $publishTwo!important;
+    .one {
+      background: none $publishTwo !important;
       .button-primary {
         background-color: $publishFour;
         &:hover {
@@ -865,11 +895,8 @@ article.publish, div.publish {
         fill: $white;
       }
     }
-    * {
-      color: $white;
-    }
-    .tabPanel{
-      h4{
+    .tabPanel {
+      h4 {
         color: $white;
       }
     }
@@ -883,6 +910,22 @@ article.publish, div.publish {
       h6 {
         margin: 0;
         color: $white;
+      }
+    }
+    span[class^="odometer-"] {
+      color: $white;
+    }
+    figcaption {
+      color: $white;
+    }
+    h1,h2,h3,h4,h5,h6,p,li{
+      color: $white;
+    }
+    .arrow{
+      svg{
+        path{
+          fill:$white;
+        }
       }
     }
   }
@@ -978,7 +1021,7 @@ article.startup, div.startup, a.button-primary.startup {
 
 .startup-template {
 
-  h1, h2, h3, h4, h5,h6 {
+  h1, h2, h3, h4, h5, h6 {
     color: $startUpFour;
   }
   .hero--sub, .hero--montage {
@@ -1025,8 +1068,8 @@ article.startup, div.startup, a.button-primary.startup {
   }
 
   .call_to_action {
-    .one,.one.stripe{
-      background: none #e9493b!important;
+    .one, .one.stripe {
+      background: none #e9493b !important;
       .button-primary {
         background-color: $startUpFive;
         &:hover {
@@ -1041,7 +1084,7 @@ article.startup, div.startup, a.button-primary.startup {
     }
   }
   .call_to_action--wide {
-    .one{
+    .one {
       background: none $startUpThree;
       .button-primary {
         background-color: $startUpFive;
@@ -1118,11 +1161,8 @@ article.startup, div.startup, a.button-primary.startup {
         fill: $white;
       }
     }
-    * {
-      color: $white;
-    }
-    .tabPanel{
-      h4{
+    .tabPanel {
+      h4 {
         color: $white;
       }
     }
@@ -1136,6 +1176,22 @@ article.startup, div.startup, a.button-primary.startup {
       h6 {
         margin: 0;
         color: $white;
+      }
+    }
+    span[class^="odometer-"] {
+      color: $white;
+    }
+    figcaption {
+      color: $white;
+    }
+    h1,h2,h3,h4,h5,h6,p,li{
+      color: $white;
+    }
+    .arrow{
+      svg{
+        path{
+          fill:$white;
+        }
       }
     }
   }

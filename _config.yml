@@ -23,6 +23,9 @@ collections:
   mentors:
     title: Mentors
     output: true
+  champions:
+    title: Champions
+    output: true
   partners:
     title: Partners
     output: true
@@ -59,7 +62,8 @@ defaults:
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
     member: 
-    strapline: 
+    strapline:
+    quote:
 - scope:
     path: ''
     type: mentors
@@ -70,7 +74,19 @@ defaults:
     thumbnail_image: "/uploads/placeholder.png"
     twitter: 
     linkedin: 
-    role: 
+    role:
+- scope:
+    path: ''
+    type: champions
+  values:
+    layout: champion
+    second-name: ''
+    is_featured: false
+    thumbnail_image: "/uploads/placeholder.png"
+    twitter:
+    linkedin:
+    role:
+    company:
 - scope:
     path: ''
     type: partners

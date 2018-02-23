@@ -11,102 +11,104 @@
 
   #hover-blocks {
     .one {
-      .five {
-        text-align: center;
-        figure {
-          margin: 0;
+      text-align: center;
+      figure {
+        margin: 0;
+        position: relative;
+        svg {
+          max-width: 100%;
+          display: block;
           position: relative;
-          &.cs-style-1 figcaption {
-            height: 100%;
-            width: 100%;
-            opacity: 0;
-            text-align: center;
-            backface-visibility: hidden;
-            transition: transform 0.3s, opacity 0.3s;
+          transition: transform 0.4s;
+          .opendata-1, .officespace-1, .mentorship-1, .mentorship-2, .workshop-1, .oneonone-1, .perks-1, .networking-1, .partners-1, .investors-1, .demo-1 {
+            //fill: $brand-five;
+            //stroke: $brand-five;
           }
-          &.cs-style-1 figure:hover figcaption {
-            opacity: 1;
-            transform: translate(15px, 15px);
+          .opendata-3 {
+            fill: $global;
           }
-          svg {
-            max-width: 100%;
-            display: block;
-            position: relative;
-            .opendata-1, .officespace-1, .mentorship-1, .mentorship-2, .workshop-1, .oneonone-1, .perks-1, .networking-1, .partners-1, .investors-1, .demo-1 {
-              //fill: $brand-five;
-              //stroke: $brand-five;
-            }
-            .opendata-3 {
-              fill: $global;
-            }
-            .officespace-3 {
-              fill: $global;
-            }
-            .mentorship-3 {
-              fill: $global;
-
-            }
-            .workshops-3 {
-              fill: $global;
-            }
-            .oneonone-3 {
-              fill: $global;
-            }
-            .perks-3 {
-              fill: $global;
-            }
-            .networking-3 {
-              fill: $global;
-            }
-            .partners-3 {
-              fill: $global;
-            }
-            .investors-3 {
-              fill: $global;
-            }
-            .demo-3 {
-              fill: $global;
-            }
+          .officespace-3 {
+            fill: $global;
           }
-          figcaption {
-            position: absolute;
-            top: 0;
-            left: 0;
-            padding: 20px;
-            background: #2c3f52;
-            color: #ed4e6e;
-            //position: absolute;
-            //top: 0;
-            //left: 0;
-            //background: #2c3f52;
-            //padding: 1rem;
-            //font-size: .9em;
-            //bottom: 0;
-            //opacity: 0;
-            //left: 0;
-            //width: 100%;
-            //height: 100px;
-            //transition-property: opacity;
-            //transition-duration: 0.2s;
-            //transition-timing-function: ease-in-out;
-            //display: inline-flex;
-            //align-items: center;
-            //box-sizing: border-box;
-            //text-align: center;
-            //margin: 0;
-            //border-radius: 50%;
-            //background-color: rgba($brand-five, 0.8);
-            //color: white;
+          .mentorship-3 {
+            fill: $global;
 
           }
-
+          .workshops-3 {
+            fill: $global;
+          }
+          .oneonone-3 {
+            fill: $global;
+          }
+          .perks-3 {
+            fill: $global;
+          }
+          .networking-3 {
+            fill: $global;
+          }
+          .partners-3 {
+            fill: $global;
+          }
+          .investors-3 {
+            fill: $global;
+          }
+          .demo-3 {
+            fill: $global;
+          }
         }
-        &:hover figure figcaption {
-          //opacity: 1;
+        figcaption {
+          position: absolute;
+          top: 0;
+          left: 0;
+          padding: 20px;
+          background: $global;
+          color: $white;
+          display: inline-flex;
+          align-items: center;
+          border-radius: 30px;
+          //position: absolute;
+          //top: 0;
+          //left: 0;
+          //background: #2c3f52;
+          //padding: 1rem;
+          //font-size: .9em;
+          //bottom: 0;
+          //opacity: 0;
+          //left: 0;
+          //width: 100%;
+          //height: 100px;
+          //transition-property: opacity;
+          //transition-duration: 0.2s;
+          //transition-timing-function: ease-in-out;
+          //display: inline-flex;
+          //align-items: center;
+          //box-sizing: border-box;
+          //text-align: center;
+          //margin: 0;
+          //border-radius: 50%;
+          //background-color: rgba($brand-five, 0.8);
+          //color: white;
         }
-
+        figure {
+          overflow: hidden;
+        }
+        figcaption {
+          height: 150px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          width: 100%;
+          top: 0;
+          bottom: 0;
+          opacity: 0;
+        }
+        &:hover figcaption {
+          opacity: 1;
+        }
       }
-
+      &:hover figure figcaption {
+        //opacity: 1;
+      }
     }
   }
   .featured {
@@ -186,11 +188,11 @@
         display: inline-block;
         vertical-align: top;
         width: 30%;
-        figure{
+        figure {
           display: inline-block;
           width: 20%;
         }
-        figcaption{
+        figcaption {
           display: inline-block;
           width: 80%;
         }
@@ -236,11 +238,11 @@
         .five-steps {
           width: 100%;
           margin: 2rem 0;
-          text-align:center;
+          text-align: center;
           &:nth-child(1) {
           }
           &:nth-child(2) {
-            display:none;
+            display: none;
             svg {
               transform: rotate(90deg);
             }
@@ -248,7 +250,7 @@
           &:nth-child(3) {
           }
           &:nth-child(4) {
-            display:none;
+            display: none;
             svg {
               transform: rotate(90deg);
             }
@@ -262,23 +264,25 @@
           max-width: 60px;
           margin: 0 auto;
           display: block;
-          fill:$white;
+          fill: $white;
         }
       }
 
     }
   }
   #mentors {
-    .six {
+    text-align: center;
+    .inline-block-six {
       text-align: center;
       position: relative;
       img {
         border-radius: 50%;
         display: inline-block;
         transition-property: all;
+        width: 100%;
         transition-duration: 0.2s;
         transition-timing-function: ease-in-out;
-        &:hover{
+        &:hover {
           transition-property: all;
           transition-duration: 0.2s;
           transition-timing-function: ease-in-out;
@@ -393,7 +397,7 @@
       @media only screen and (max-width: 1000px) {
         display: none;
       }
-      a{
+      a {
         margin-top: 1rem;
       }
     }

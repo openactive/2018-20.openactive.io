@@ -32,29 +32,21 @@ OpenActive makes discovering and taking part in  sport and fitness activities ea
 </div>
 </article>
 
-
-<!--  ---------------->
-<!-- TABS -->
-<!--  ---------------->
-{% include tabs.html %}
-
-
-
 <!--  ---------------->
 <!-- WHAT IS OPPORTUNITY DATA -->
 <!--  ---------------->
 <article markdown="0" class="opportunity-data title-row">
 <h2 class="sub-heading-two">Opportunity Data Explained</h2>
-<i class="four">{% include time.svg %}
+<i class="four icon">{% include time.svg %}
 <h5>Time</h5>
 </i>
-<i class="four">{% include cost.svg %}
+<i class="four icon">{% include cost.svg %}
 <h5>Price</h5>
 </i>
-<i class="four">{% include website.svg %}
+<i class="four icon">{% include description.svg %}
 <h5>Description</h5>
 </i>
-<i class="four">{% include location.svg %}
+<i class="four icon">{% include location.svg %}
 <h5>Location</h5>
 </i>
 </article>
@@ -72,35 +64,44 @@ Opening up opportunity data across the sector will better connect providers and 
 </div>
 </article>
 
+
+<!--  ---------------->
+<!-- TABS -->
+<!--  ---------------->
+{% include tabs.html %}
+
+
+
+
 <!--  ---------------->
 <!-- WHAT ARE THE BENEFITS -->
 <!--  ---------------->
 <article class="title-row">
 <h2 class="sub-heading-two">What are the benefits?</h2>
-<div class="one ">
+<div class="one subgrid">
+<div class="three ">
 
 
-### Sport and Physical Activity Providers
+#### Sport and Physical Activity Providers
 
 * With open data publishing, your services and events can be shared everywhere, from high-traffic apps to community-driven pages.
 * Improve data skills and understanding within your organisation and harness technology to benefit your business.
 * Drive innovation, and collaborate with OpenActive to revolutionise the sector.
 
 </div>
-<div class="one">
+<div class="three">
 
-### Data Users and Developers
+#### Data Users and Developers
 
 * Harness open and accessible data from across the sport and physical sector.
 * Use data to help develop new products and enhance existing services to get people more active.
 * Be at the cutting edge of shaping consistent data standards and growing engagement with data publishers.
 
 </div>
-</article>
-<article>
-<div class="one">
 
-### Influential Organisations
+<div class="three">
+
+#### Influential Organisations
 
 * Build engagement in sport and physical activities by improving the reach and visibility of services nationwide.
 * Support new members of OpenActive by showing them how publishing open data can help them improve and grow their activities.
@@ -108,6 +109,7 @@ Opening up opportunity data across the sector will better connect providers and 
 * Provide members with the opportunity to join our community and shape the initiative.
 
 
+</div>
 </div>
 </article>
 

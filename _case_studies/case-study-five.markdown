@@ -11,6 +11,7 @@ tags:
 - Openactive
 strapline: Using open data to mobilise outdoor activities, recruit new customers and
   improve competition across the sector
+quote: Aliquid ut ut sit ea debitis cupiditate. Eum sint quasi animi.
 is_featured: true
 thumbnail_image: "/uploads/case_study5_1.jpeg"
 member: Our Parks

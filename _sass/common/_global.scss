@@ -48,6 +48,26 @@ body {
   img[role=logo] {
     border: solid 1px #efefef;
     //max-width: 140px;
+    background-color: $white;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.2);
+      transition: all;
+      transition-duration: 0.2s;
+      transition-timing-function: ease-in-out;
+    }
+  }
+  .icon{
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    &:hover{
+      transform: scale(1.2);
+      transition: all;
+      transition-duration: 0.2s;
+      transition-timing-function: ease-in-out;
+    }
   }
 }
 

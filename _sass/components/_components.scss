@@ -1260,6 +1260,34 @@ nav {
 //END NAVIGATION LIST STYLES
 /*********************************/
 /*********************************/
+//NAVIGATION LIST STYLES
+/*********************************/
+/*********************************/
+
+.arrow{
+  border:none;
+  background-color: transparent;
+  cursor: pointer;
+  svg{
+    width: 20px;
+    padding: 10px 0;
+  }
+  &:focus{
+    outline:none;
+  }
+  &:hover{
+    transform: scale(1.2);
+    transition: all;
+
+  }
+  &.next{}
+  &.prev{}
+}
+
+
+//END NAVIGATION LIST STYLES
+/*********************************/
+/*********************************/
 
 //POST LIST
 .post-list {
@@ -1799,7 +1827,6 @@ article {
       }
     }
   }
-
 }
 
 .no-cssgrid {
@@ -1893,7 +1920,7 @@ article {
     i{}
     svg{
       max-width: 80%;
-      height: 160px;
+      height: 100px;
       margin: 20px;
     }
     h5{

@@ -10,6 +10,7 @@ tags:
 - London
 - User Experience
 strapline: Using open data to create a people and publisher-centred activity finder.
+quote: Unde aliquam qui quos possimus sed consequatur quas.
 is_featured: true
 thumbnail_image: "/uploads/london_casestudy1.jpeg"
 member: Get Active London
