@@ -6,6 +6,7 @@ thumbnail_image: "/uploads/AAMAAgDGAAwAAQAAAAAAAA51AAAAJDE1MDc3NDI5LWJlNjMtNGZkY
 linkedin: https://www.linkedin.com/in/jade-cation-aa2bb93a/
 role: Head of Business Development
 company: EMD UK
+link: https://emduk.org/meet-our-team/
 description: Within her current role Jade oversees EMD UK’s insight, technology and
   data management strategies, as well as leading a team of project managers, who focus
   on piloting new initiatives, and finding new exciting ways to engage and retain
