@@ -26,6 +26,8 @@ layout: home
  - Attract people to join activities
  - Innovate to help people get active
 
+[Our Mission]( {{ site.baseurl }}{% link our-mission.md %}){: .button-primary}
+
 </div>
 <figure role="group" aria-labelledby="open-active-video">
 
@@ -33,19 +35,51 @@ layout: home
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
-<div class="one">
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghostlarge} [FIND OUT MORE]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary--large}
-
-</div>
 </article>
+
 
 
 <!--  ---------------->
 <!-- CASE STUDIES -->
 <!--  ---------------->
-<article class="invert title-row">
+<article class="title-row">
 {% include case-study.html %}
+</article>
+
+
+
+
+
+
+<!--  ---------------->
+<!-- HOW IT WORKS -->
+<!--  ---------------->
+<article class="invert title-row">
+<h2 class="sub-heading-two">What we do</h2>
+<div class="two twoleft">
+
+#### Our goal is to make data on what, where and when physical activity sessions happen, openly available.
+
+We are bringing together sports and physical activity organisations from across the sector to open up their opportunity data, from leisure operators to National Governing Bodies, local sports clubs to event providers, walking groups to fitness instructors. We are also helping other organisations to use this opportunity data to build interesting tools and experiences for consumers.
+
+[FIND OUT MORE]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary} [Get Involved]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghost}
+
+</div>
+<div class="two twoleft">
+
+##### Opportunity data
+**Includes details such as:**
+* How much will it cost?
+* When is a court available?
+* Where is the class?
+
+**But not personal data like:**
+* Name / Address
+* Age / Sex
+* Weight / Height
+
+</div>
 </article>
 
 
@@ -53,10 +87,10 @@ layout: home
 <!-- OPEN DATA ILLUSTRATION -->
 <!--  ---------------->
 <article class="title-row">
-<h2 class="sub-heading-two"> What is <br>Open Data?</h2>
+<h2 class="sub-heading-two">What is the definition?</h2>
 <div class="one">
 
-<h3>What is the definition?</h3>
+<h3>What is Open Data?</h3>
 <p class="reset-style">
 Open data is data that anyone can access, use or share. Simple as that. When big companies or governments release non-personal data, it enables small businesses, citizens and medical researchers to develop resources which make crucial improvements to their communities.</p>
 </div>
@@ -121,7 +155,7 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 <figure>
 <div class="triangle"></div>
 <div class="stripe"></div>
-<div style="background: url({{ site.baseurl }}/uploads/accel_cta.png)center center / cover no-repeat;"></div>
+<div class="image" style="background: url({{ site.baseurl }}/uploads/accel_cta.png)center center / cover no-repeat;"></div>
 </figure>
 </article>
 

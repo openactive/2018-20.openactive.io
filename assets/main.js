@@ -8,21 +8,50 @@ $(document).ready(function () {
         //         $(this).html(obrtext+"<a href='#'>read more</a>") ;
         //     }
         // });
+        hljs.initHighlightingOnLoad();
 
-        if ($(".siema").length > 0) {
+
+        if ($(".slides").length > 0) {
             const mySiema = new Siema({
-                selector: '.siema',
+                selector: '.slides',
                 duration: 800,
                 loop: true,
                 easing: 'ease-out',
-                perPage: 1,
                 startIndex: 0,
                 draggable: true,
+                perPage: 1,
                 multipleDrag: true,
             });
             // listen for keydown event
-            setInterval(() => mySiema.next(), 5000);
+            // setInterval(() => mySiema.next(), 5000);
+
+            const prev = document.querySelector('.prev');
+            const next = document.querySelector('.next');
+            prev.addEventListener('click', () => mySiema.prev());
+            next.addEventListener('click', () => mySiema.next());
+
         }
+        if ($(".slides-2").length > 0) {
+            const mySiema2 = new Siema({
+                selector: '.slides-2',
+                duration: 800,
+                loop: true,
+                easing: 'ease-out',
+                startIndex: 0,
+                draggable: true,
+                perPage: 1,
+                multipleDrag: true,
+            });
+            // listen for keydown event
+            // setInterval(() => mySiema.next(), 5000);
+
+            const prev = document.querySelector('.prev');
+            const next = document.querySelector('.next');
+            prev.addEventListener('click', () => mySiema2.prev());
+            next.addEventListener('click', () => mySiema2.next());
+
+        }
+
 
         $('.global-palette').on("click", function () {
             $('.page')
@@ -147,7 +176,7 @@ $(document).ready(function () {
                         format: '',
                         theme: 'default'
                     });
-                    members.update(5);
+                    members.update(84);
 
                     var el = document.querySelector('.com-startups');
                     startups = new Odometer({
@@ -167,7 +196,7 @@ $(document).ready(function () {
                         format: '',
                         theme: 'default'
                     });
-                    published.update(24);
+                    published.update(20);
 
                     var el = document.querySelector('.com-champions');
                     champions = new Odometer({
@@ -177,7 +206,7 @@ $(document).ready(function () {
                         format: '',
                         theme: 'default'
                     });
-                    champions.update(23);
+                    champions.update(10);
 
                 }
             });
@@ -232,7 +261,6 @@ $(document).ready(function () {
 
             });
         }
-        hljs.initHighlightingOnLoad();
 
         //looks for iframes wraps and adapts the height and width
         (function (window, document, undefined) {

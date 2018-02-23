@@ -70,7 +70,7 @@ html.cssgrid {
           grid-row: 2;
         }
       }
-      .one{
+      .one {
         text-align: center;
       }
 
@@ -89,90 +89,95 @@ html.cssgrid {
 
   }
 }
+
 // END OF GRID LAYOUT
 /*********************************/
 /*********************************/
 
-
-
 /*********************************/
 /*********************************/
 // DECORATIVE STYLES ONLY
-.home{
-  .hero--home{
+.home {
+  .hero--home {
 
   }
-
+  .hero-cta {
+    .two {
+      text-align: center;
+    }
+  }
 }
+
 // END OF DECORATIVE STYLES ONLY
 /*********************************/
 /*********************************/
-
 
 /*********************************/
 /*********************************/
 // NON_GRID STYLES ONLY
 html.no-cssgrid {
-  .home {
-    .hero--home {
-      position: relative;
-      nav {
-        position: absolute;
-        right:0;
-        top:50%;
-      }
-      div.content {
-        width: 49.5%;
-        vertical-align: top;
-        display: inline-block;
 
-      }
-      figure {
-        width: 49.5%;
-        vertical-align: top;
-        display: inline-block;
-
-      }
+  .hero--home {
+    position: relative;
+    nav {
+      position: absolute;
+      right: 0;
+      top: 50%;
     }
-    .tabs{
+    div.content {
+      width: 49.5%;
+      vertical-align: top;
+      display: inline-block;
+
+    }
+    figure {
+      width: 49.5%;
+      vertical-align: top;
+      display: inline-block;
+
+    }
+  }
+  .tabs {
+    margin-bottom: 2rem;
+    .sub-heading-two {
+      max-width: 1400px;
+      padding-right: 5%;
+      padding-left: 5%;
+      margin: auto;
       margin-bottom: 2rem;
-      .sub-heading-two{
-        max-width: 1400px;
-        padding-right: 5%;
-        padding-left: 5%;
-        margin: auto;
-        margin-bottom:2rem;
-      }
-      #tabs{
-        width:100%;
-        max-width: 1400px;
-        padding-right: 5%;
-        padding-left: 5%;
-        margin: auto;
-        margin-bottom:2rem;
-        .tabsList{
-          .tablink{
-            width:24%;
-            vertical-align: top;
-            display: none;
-          }
-          .tabPanel{
-            opacity: 1;
-          }
+    }
+    #tabs {
+      width: 100%;
+      max-width: 1400px;
+      padding-right: 5%;
+      padding-left: 5%;
+      margin: auto;
+      margin-bottom: 2rem;
+      .tabsList {
+        .tablink {
+          width: 24%;
+          vertical-align: top;
+          display: none;
+        }
+        .tabPanel {
+          opacity: 1;
         }
       }
-      &.blue{
-        #tabs{
-          .tabsList{
-            .tablink{}
-            .tabPanel{
-            }
+    }
+    &.blue {
+      #tabs {
+        .tabsList {
+          .tablink {
+          }
+          .tabPanel {
           }
         }
       }
     }
   }
+
 }
+
 // END NON_GRID STYLES ONLY
 /*********************************/
 /*********************************/

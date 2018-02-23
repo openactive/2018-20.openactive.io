@@ -10,6 +10,7 @@ tags:
 - Table Tennis England
 - Interview
 strapline: Positive feedback for a pioneering organisation.
+quote: Quis est libero in error.
 is_featured: true
 thumbnail_image: "/uploads/spotlight_tabletennis.jpeg"
 member: Table Tennis England

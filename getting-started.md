@@ -13,7 +13,16 @@ strapline: Discover how to build unlimited reach for your activities
 <!--  ---------------->
 <!-- HERO BLOCK -->
 <!--  ---------------->
-<article class="booking-engines-section title-row">
+
+
+
+
+
+
+<!--  ---------------->
+<!-- BOOKING SYSTEMS-->
+<!--  ---------------->
+<article class="invert booking-engines-section title-row">
 <h2 class="sub-heading-two">Who Uses OpenActive?</h2>
 <div class="two">
 
@@ -49,7 +58,7 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 <div class="subgrid">
 <div class="two list">
 
-### Publish Your Data 
+### Publish Your Data
 
 1. Open your organisation’s data to allow customers to easily access events and services
 2. With open data, your activities can be discovered, shared, and engaged with by people nationwide
@@ -72,26 +81,6 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 
 </div>
 </div>
-</article>
-
-<!--  ---------------->
-<!-- E-LEARNING CALL TO ACTION -->
-<!--  ---------------->
-<article class="call_to_action--full-width">
-<h2 class="sub-heading-two">Let Me Learn</h2>
-<div class="one">
-
-### E-Learning
-Join the open data revolution with OpenActive and help the nation get active. 
-
-[E-Learning]( {{ site.baseurl }}{% link e-learning.md %}){: .button-primary}
-
-</div>
-<figure>
-<div class="triangle"></div>
-<div class="stripe"></div>
-<div style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
-</figure>
 </article>
 
 
@@ -138,4 +127,25 @@ Have a question? Get in touch.
 
 </div>
 </div>
+</article>
+
+<!--  ---------------->
+<!-- DEVELOPER CALL TO ACTION -->
+<!--  ---------------->
+<article class="call_to_action--full-width">
+<h2 class="sub-heading-two">Show me the code</h2>
+<div class="one">
+
+### Developer
+Consectetur expedita iste est tempore ipsum qui accusantium. Sequi perferendis et quaerat architecto quod.
+
+[Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
+
+</div>
+<figure>
+<div class="mask"></div>
+<div class="triangle"></div>
+<div class="stripe"></div>
+<div class="image" style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
+</figure>
 </article>

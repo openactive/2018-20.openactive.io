@@ -56,31 +56,35 @@
 <!--</aside>-->
 
 <!--</article>-->
-
-
-<h2 class="sub-heading-two">Case<br> Studies</h2>
-
-<div class="one siema">
+<div class="left-col">
+<h2 class="sub-heading-two">Success Stories</h2>
+<button class="arrow prev">{% include left-arrow.svg %}</button>
+<button class="arrow next">{% include right-arrow.svg %}</button>
+</div>
+<div class="one slides-2 case-study-slim" markdown="0">
 {% for post in site.case_studies %}
 {% assign theImage = post.thumbnail_image %}
 
+{% if post.member %}
+{% assign theMember = site.members | where:"title", post.member  | first %}
+{% assign theImage = theMember.thumbnail_image %}
+{% endif %}
+
 {% if post.is_featured %}
-<div class="one subgrid ">
-<div class="two">
-
-<h3>{{ post.title | escape }}</h3>
-{{ post.strapline }}
-
-<a class="button-primary--ghost" href="{{ post.url | relative_url }}">Read Case Study</a>
-
+<div class="one subgrid" style="grid-gap: 2rem;">
+<div class="two tworight">
+<a href="{{ post.url | relative_url }}">
+<img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+</a>
 </div>
-<div class="two">
+<div class="two tworight">
+<h3>{{ post.title | escape }}</h3>
+<!--<p>{{ post.strapline }}</p>-->
 
 <figure>
 <blockquote class="featured--alt">
-<i class="quote">{% include quote.svg %}</i>
-
-Dolorem ut dolor veniam. Quaerat nisi dolor ratione vitae. Ut velit quidem quis non dicta et exercitationem. Atque sint placeat error ipsum non.
+<!--<p>{{ post.quote }}</p>-->
+<i class="quote">{% include quote.svg %}</i><p>{{ post.strapline }}</p>
 </blockquote>
 </figure>
 
@@ -90,4 +94,5 @@ Dolorem ut dolor veniam. Quaerat nisi dolor ratione vitae. Ut velit quidem quis 
 
 
 {% endfor %}
+
 </div>

@@ -193,7 +193,13 @@ h3 + ol + p,
 h4 {
   color: $brand-blue;
   font-size: $header-size / 1.7;
-
+}
+h4 + p,
+h4 + ol li,
+h4 + ol + p,
+.h4-copy {
+  font-size: $header-size/  2.16346;
+  font-family: $font-family;
 }
 
 //
@@ -208,6 +214,13 @@ h4 {
 h5 {
   color: $brand-blue;
   font-size: $header-size / 2.16346;
+  h4 + p,
+  h5 + ol li,
+  h6 + ol + p,
+  .h3-copy {
+    font-size: $header-size/  2.16346;
+    font-family: $font-family;
+  }
 }
 
 // Heading Six Styles
@@ -232,6 +245,7 @@ h6 {
     margin-top: 0;
     font-size: $header-size /3.75;
   }
+
 }
 
 // Paragraphs
@@ -457,11 +471,13 @@ article.featured {
 
 blockquote {
   &.featured--alt {
-    padding: 0 2rem 2rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     .quote {
-      width: 100px;
+      width: 50px;
       display: inline-block;
-      margin-bottom: 0.5rem;
+      margin-bottom: 4rem;
+      float: left;
+      clear: both;
     }
     svg {
       width: 30px;
@@ -528,6 +544,10 @@ figcaption {
   margin-top: 10px;
   color: lighten($paragraph-color, 10%);
   font-size: $paragraph-margin * 0.8;
+}
+.terminal{
+  background-image: url('/assets/images/mac-os-window-frame.png');
+  padding: 2rem 0 0 0;
 }
 
 // Code
