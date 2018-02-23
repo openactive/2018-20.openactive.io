@@ -86,7 +86,7 @@ defaults:
     linkedin: 
     role: 
     company: 
-    link:
+    link: 
 - scope:
     path: ''
     type: partners
