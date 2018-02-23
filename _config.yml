@@ -81,7 +81,6 @@ defaults:
   values:
     layout: champion
     second-name: ''
-    is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
     twitter: 
     linkedin: 
