@@ -8,7 +8,9 @@
 
 <div class="inline-block-five">
 <figure>
+<a href="{{ post.url | relative_url }}">
 <img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+</a>
 <figcaption>
 <p><strong>{{ post.title | escape }}</strong></p>
 <p>{{ post.second-name | escape }} </p>
