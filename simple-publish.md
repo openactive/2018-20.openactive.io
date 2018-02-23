@@ -56,7 +56,13 @@ If you do not own the data (e.g. in the case of a booking system provider), then
 ###### (booking systems only - estimated time to complete: 30 minutes / 1 developer day)
 
 ##### 4) Create a dataset homepage
-To publish open data for anyone to freely access, use and share, you must create a webpage that describes the data you are publishing. See more
+To publish open data for anyone to freely access, use and share, you must create a webpage that describes the data you are publishing.
+You must also include relevant human and machine readable licensing information, documentation, a mailing list, and ideally an issue tracker. You must specify how dataset users (innovators who want to build on top of/use your data) should attribute your data.
+
+The Dataset Site Generator includes a template site, and complete step-by-step guides designed for non-technical users, to quickly and easily create a subsite that contains all of the above. Although it is possible to do this without the generator by following the ODI guides for metadata and rights statements, we recommend using the Dataset Site Generator to save you time and to benefit from additional updates - it's free and open source!
+
+As with all of OpenActive, your feedback would be hugely appreciated. Please create an issue on this issue tracker with any feedback, or comment on the guides directly.
+
 ###### (estimated time to complete: 1.5 hours)
 
 ##### 5) Create an open data certificate

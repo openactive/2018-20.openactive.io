@@ -176,7 +176,7 @@ $(document).ready(function () {
                         format: '',
                         theme: 'default'
                     });
-                    members.update(5);
+                    members.update(84);
 
                     var el = document.querySelector('.com-startups');
                     startups = new Odometer({
@@ -196,7 +196,7 @@ $(document).ready(function () {
                         format: '',
                         theme: 'default'
                     });
-                    published.update(24);
+                    published.update(20);
 
                     var el = document.querySelector('.com-champions');
                     champions = new Odometer({
@@ -206,7 +206,7 @@ $(document).ready(function () {
                         format: '',
                         theme: 'default'
                     });
-                    champions.update(23);
+                    champions.update(10);
 
                 }
             });

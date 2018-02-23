@@ -56,20 +56,26 @@
 <!--</aside>-->
 
 <!--</article>-->
-
 <div class="left-col">
+<h2 class="sub-heading-two">Success Stories</h2>
 <button class="arrow prev">{% include left-arrow.svg %}</button>
 <button class="arrow next">{% include right-arrow.svg %}</button>
-
 </div>
-<div class="one slides-2" markdown="0">
+<div class="one slides-2 case-study-slim" markdown="0">
 {% for post in site.case_studies %}
 {% assign theImage = post.thumbnail_image %}
+
+{% if post.member %}
+{% assign theMember = site.members | where:"title", post.member  | first %}
+{% assign theImage = theMember.thumbnail_image %}
+{% endif %}
 
 {% if post.is_featured %}
 <div class="one subgrid" style="grid-gap: 2rem;">
 <div class="two tworight">
-<img  src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+<a href="{{ post.url | relative_url }}">
+<img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+</a>
 </div>
 <div class="two tworight">
 <h3>{{ post.title | escape }}</h3>
@@ -77,11 +83,11 @@
 
 <figure>
 <blockquote class="featured--alt">
-<i class="quote">{% include quote.svg %}</i>
-<p>{{ post.quote }}</p>
+<!--<p>{{ post.quote }}</p>-->
+<i class="quote">{% include quote.svg %}</i><p>{{ post.strapline }}</p>
 </blockquote>
 </figure>
-<a class="button-primary--ghost" href="{{ post.url | relative_url }}">Read Case Study</a>
+
 </div>
 </div>
 {% endif %}

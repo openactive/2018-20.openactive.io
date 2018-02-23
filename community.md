@@ -84,13 +84,84 @@ Explore the dashboard to learn more about our community and the datasets already
 <!--  ---------------->
 <!-- TEXT BLOCK -->
 <!--  ---------------->
-<article>
+<article class="title-row">
+<h2 class="sub-heading-two">Members</h2>
 <div class="one">
 
 ### The Community
 Our community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide. Building the data revolution in the sport and physical sector is a collaborative effort between consumers, organisations, and innovative start-ups, designed to support and benefit the industry at all levels.
 
 </div>
+</article>
+
+<!--  ---------------->
+<!-- MEMBERS -->
+<!--  ---------------->
+<article>
+<div class="one">
+
+### Meet the Members
+
+OpenActive’s open-invitation community is continuing to grow. Discover who has joined us so far.
+
+</div>
+</article>
+<article>
+{% assign posts = site.members | sample:18 %}
+{% for post in posts %}
+{% assign theImage = post.thumbnail_image %}
+<div class="six" data-tab="{{ forloop.index }}" markdown="0" >
+<a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
+</div>
+{% endfor %}
+</article>
+
+
+
+<!--  ---------------->
+<!-- W3C COMMUNITY CALL TO ACTION -->
+<!--  ---------------->
+<article class="call_to_action--full-width">
+<h2 class="sub-heading-two">Standards group</h2>
+<div class="one">
+
+### W3C-Community
+
+Our goal is to develop technical specifications and best practices that support the use of open and shared data about sports and physical activities.
+
+While our work is technical, you don’t have to be a developer to contribute. Our primary focus is standardising how to publish data about physical activity opportunities, defining best practices and APIs to enable booking events and facilities, and improving interoperability of data across the sector.
+
+
+[W3C Community]( {{ site.baseurl }}{% link w3c-community.md %}){:.button-primary}
+
+</div>
+<figure>
+<div class="mask"></div>
+<div class="triangle"></div>
+<div class="stripe"></div>
+<div class="image" style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
+</figure>
+</article>
+
+
+<!--  ---------------->
+<!-- CHAMPIONS -->
+<!--  ---------------->
+<article>
+<div class="one">
+
+### OpenActive Champions
+
+The OpenActive Champions are ten advocates embracing and influencing local transformation with open opportunity data. As a peer-network, they’re committed to develop local knowledge, share good practice and drive innovation to get people active.
+
+</div>
+</article>
+
+<!--  ---------------->
+<!-- CHAMPIONS -->
+<!--  ---------------->
+<article>
+{% include champions.html %}
 </article>
 
 
@@ -125,119 +196,6 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 </div>
 {% endfor %}
 <div class="two">
-</div>
-</article>
-
-
-<!--  ---------------->
-<!-- DEVELOPER CALL TO ACTION -->
-<!--  ---------------->
-<article class="call_to_action--full-width">
-<h2 class="sub-heading-two">Standards group</h2>
-<div class="one">
-
-### W3C-Community
-
-Our goal is to develop technical specifications and best practices that support the use of open and shared data about sports and physical activities.
-
-While our work is technical, you don’t have to be a developer to contribute. Our primary focus is standardising how to publish data about physical activity opportunities, defining best practices and APIs to enable booking events and facilities, and improving interoperability of data across the sector.
-
-
-[W3C Community]( {{ site.baseurl }}{% link w3c-community.md %}){:.button-primary}
-
-</div>
-<figure>
-<div class="triangle"></div>
-<div class="stripe"></div>
-<div style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
-</figure>
-</article>
-
-<!--  ---------------->
-<!-- MEMBERS -->
-<!--  ---------------->
-<article class="title-row">
-<h2 class="sub-heading-two">Members</h2>
-<div class="one">
-
-### Meet the Community
-
-OpenActive’s open-invitation community is continuing to grow. Discover who has joined us so far.
-
-</div>
-</article>
-<article>
-{% assign posts = site.members | sample:18 %}
-{% for post in posts %}
-{% assign theImage = post.thumbnail_image %}
-<div class="six" data-tab="{{ forloop.index }}" markdown="0" >
-<a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
-</div>
-{% endfor %}
-</article>
-
-
-<!--  ---------------->
-<!-- CHAMPIONS -->
-<!--  ---------------->
-<article>
-<div class="one">
-
-### OpenActive Champions
-
-The OpenActive Champions are ten advocates embracing and influencing local transformation with open opportunity data. As a peer-network, they’re committed to develop local knowledge, share good practice and drive innovation to get people active.
-
-
-</div>
-</article>
-
-
-
-<article class="title-row" id="mentors">
-<h2 class="sub-heading-two">Mentors</h2>
-<div class="one">
-
-{% for post in site.champions %}
-{% assign theImage = post.thumbnail_image %}
-
-<div class="inline-block-six">
-
-<figure>
-<img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
-<figcaption>
-<p><strong>{{ post.title | escape }}</strong></p>
-<p>{{ post.second-name | escape }} </p>
-<p>{{ post.role | escape }} </p>
-</figcaption>
-<div class="social-links">
-{% if post.twitter %}
-
-<a target="_blank" rel="noopener" href="{{ post.twitter }}">
-<span class="icon icon--twitter">
-{% include twitter.svg %}
-</span>
-<span class="hidden" aria-hidden="true">
-Twitter
-</span>
-</a>
-{% endif %}
-{% if post.linkedin %}
-<a href="{{ post.linkedin }}" target="_blank">
-<span class="icon icon--twitter">
-{% include linkedin.svg %}
-</span>
-<span class="hidden" aria-hidden="true">
-LinkedIn
-</span>
-</a>
-{% endif %}
-</div>
-</figure>
-
-</div>
-
-
-{% endfor %}
 </div>
 </article>
 

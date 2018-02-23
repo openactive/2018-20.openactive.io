@@ -39,6 +39,19 @@ layout: home
 </article>
 
 
+
+<!--  ---------------->
+<!-- CASE STUDIES -->
+<!--  ---------------->
+<article class="title-row">
+{% include case-study.html %}
+</article>
+
+
+
+
+
+
 <!--  ---------------->
 <!-- HOW IT WORKS -->
 <!--  ---------------->
@@ -87,29 +100,6 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 
 </div>
 </article>
-
-
-
-
-
-<!--  ---------------->
-<!-- CASE STUDIES -->
-<!--  ---------------->
-<article class="invert title-row">
-<h2 class="sub-heading-two">Case<br> Studies</h2>
-
-<div class="one">
-
-#### Success Stories
-Read about some of the many organisations starting to embrace open data.
-
-</div>
-
-
-{% include case-study.html %}
-</article>
-
-
 
 
 
@@ -165,7 +155,7 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 <figure>
 <div class="triangle"></div>
 <div class="stripe"></div>
-<div style="background: url({{ site.baseurl }}/uploads/accel_cta.png)center center / cover no-repeat;"></div>
+<div class="image" style="background: url({{ site.baseurl }}/uploads/accel_cta.png)center center / cover no-repeat;"></div>
 </figure>
 </article>
 

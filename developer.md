@@ -190,8 +190,9 @@ Join the open data revolution with OpenActive and help the nation get active.
 
 </div>
 <figure>
+<div class="mask"></div>
 <div class="triangle"></div>
 <div class="stripe"></div>
-<div style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
+<div class="image" style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
 </figure>
 </article>

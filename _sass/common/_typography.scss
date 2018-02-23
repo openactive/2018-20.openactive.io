@@ -475,8 +475,9 @@ blockquote {
     .quote {
       width: 50px;
       display: inline-block;
-      margin-bottom: 1rem;
+      margin-bottom: 4rem;
       float: left;
+      clear: both;
     }
     svg {
       width: 30px;
