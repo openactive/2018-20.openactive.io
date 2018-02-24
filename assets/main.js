@@ -25,7 +25,7 @@ $(document).ready(function () {
 
 
         //BOOKING SYSTEM FILTER
-        $("#filter").keyup(function(){
+        $("#booking-filter").keyup(function(){
             // Retrieve the input field text and reset the count to zero
             var filter = $(this).val(), count = 0;
             // Loop through the comment list

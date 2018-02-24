@@ -1553,11 +1553,11 @@ $border-color: #DADADA;
 
 //GRADIENTS
 .blue-gradient-bc {
-  background: #00c0f8; /* Old browsers */
-  background: -moz-radial-gradient(ellipse at 50% 20%, #00c0f8 16%, #1e5799 100%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(ellipse at 50% 20%, #00c0f8 16%, #1e5799 100%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at 50% 20%, #00c0f8 16%, #1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c0f8', endColorstr='#1e5799', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+  background: #30a9cc; /* Old browsers */
+  background: -moz-radial-gradient(ellipse at 50% 20%, #30a9cc 16%, #1e5799 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(ellipse at 50% 20%, #30a9cc 16%, #1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at 50% 20%, #30a9cc 16%, #1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#30a9cc', endColorstr='#1e5799', GradientType=1); /* IE6-9 fallback on horizontal gradient */
   * {
     color: $white;
   }

@@ -7,6 +7,7 @@ article {
     position: relative;
     align-items: stretch;
     margin-bottom: 2rem;
+    padding-top: 2rem;
     & > div {
       grid-column-start: 2;
       grid-column-end: 8;
@@ -81,7 +82,8 @@ article {
       }
     }
     @media only screen and (max-width: 750px) {
-      .stripe, .triangle {
+      padding-top: 0;
+      .stripe, .triangle, .mask {
         display: none;
       }
       div {
@@ -110,6 +112,7 @@ article {
   }
   //SMALL HERO
   &.hero--simple {
+    padding-top: 2rem;
     position: relative;
     h1 {
       margin-top: 0;
@@ -121,6 +124,7 @@ article {
     }
   }
   &.hero--montage {
+    padding-top: 2rem;
     & > div {
       grid-column-start: 2;
       grid-column-end: 8;
@@ -311,7 +315,7 @@ article {
 
 /*********************************/
 /*********************************/
-// IMAGES STYLES
+// PEOPLE STYLES
 .people {
   text-align: center;
   .inline-block-six, .inline-block-five {
@@ -603,17 +607,6 @@ html.cssgrid {
           position: relative;
           width: 96%;
 
-          .slider {
-            display: inline-block;
-            width: 30px;
-            height: 100%;
-            position: absolute;
-            z-index: 1;
-            bottom: 0;
-            transition: all .4s linear;
-            background-color: $brand-five;
-            grid-row: 1 / span 1;
-          }
           .tablink {
             grid-row: 1;
 
@@ -753,7 +746,13 @@ article {
           div {
             display: inline-flex;
             align-items: center;
+            h5{
+              flex: 1 1 70%;
+              align-self: auto;
+            }
             p {
+              flex: 1 1 30%;
+              align-self: auto;
               width: 50%;
               img {
                 max-width: 50%;
@@ -764,6 +763,15 @@ article {
             &:nth-last-child(1) {
               width: 100%;
               text-align: center;
+            }
+            @media only screen and (max-width: 750px) {
+              flex-direction: column;
+              h5{
+                order:0;
+              }
+              p{
+                order:1;
+              }
             }
           }
           h4 {
@@ -897,6 +905,9 @@ article {
       }
       p {
         font-size: $base-font-size;
+      }
+      p:nth-last-of-type(1) {
+        margin-top: auto;
       }
       a {
         margin-top: 1rem;
@@ -1319,27 +1330,30 @@ article {
     &:nth-child(1) {
       @extend .blue-gradient-bc !optional;
       .button-primary {
-        background-color: $publishFour;
+        background-color: $brand-two;
+        border: 1px solid white;
         &:hover {
-          background-color: $publishThree;
+          background-color: $brand-one;
         }
       }
     }
     &:nth-child(2) {
       @extend .purple-gradient-bc !optional;
       .button-primary {
-        background-color: $usingFive;
+        background-color: $brand-five;
+        border: 1px solid white;
         &:hover {
-          background-color: $usingFour;
+          background-color: $brand-six;
         }
       }
     }
     &:nth-child(3) {
       @extend .red-gradient-bc !optional;
       .button-primary {
-        background-color: $startUpFive;
+        background-color: $startUpThree;
+        border: 1px solid white;
         &:hover {
-          background-color: $startUpThree;
+          background-color: $startUpFive;
         }
       }
     }
@@ -1349,27 +1363,30 @@ article {
       &:nth-child(2) {
         @extend .blue-gradient-bc !optional;
         .button-primary {
-          background-color: $publishFour;
+          background-color: $brand-two;
+          border: 1px solid white;
           &:hover {
-            background-color: $publishThree;
+            background-color: $brand-one;
           }
         }
       }
       &:nth-child(3) {
         @extend .purple-gradient-bc !optional;
         .button-primary {
-          background-color: $usingFive;
+          background-color: $brand-five;
+          border: 1px solid white;
           &:hover {
-            background-color: $usingFour;
+            background-color: $brand-six;
           }
         }
       }
       &:nth-child(4) {
         @extend .red-gradient-bc !optional;
         .button-primary {
-          background-color: $startUpFive;
+          background-color: $startUpThree;
+          border: 1px solid white;
           &:hover {
-            background-color: $startUpThree;
+            background-color: $startUpFive;
           }
         }
       }
@@ -1379,27 +1396,30 @@ article {
         &:nth-child(1) {
           @extend .blue-gradient-bc !optional;
           .button-primary {
-            background-color: $publishFour;
+            background-color: $brand-two;
+            border: 1px solid white;
             &:hover {
-              background-color: $publishThree;
+              background-color: $brand-one;
             }
           }
         }
         &:nth-child(2) {
           @extend .purple-gradient-bc !optional;
           .button-primary {
-            background-color: $usingFive;
+            background-color: $brand-five;
+            border: 1px solid white;
             &:hover {
-              background-color: $usingFour;
+              background-color: $brand-six;
             }
           }
         }
         &:nth-child(3) {
           @extend .red-gradient-bc !optional;
           .button-primary {
-            background-color: $startUpFive;
+            background-color: $startUpThree;
+            border: 1px solid white;
             &:hover {
-              background-color: $startUpThree;
+              background-color: $startUpFive;
             }
           }
         }
@@ -1543,7 +1563,7 @@ nav {
 //END NAVIGATION LIST STYLES
 /*********************************/
 /*********************************/
-//NAVIGATION LIST STYLES
+//CASE STUDY LIST STYLES
 /*********************************/
 /*********************************/
 

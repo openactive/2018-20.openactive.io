@@ -181,21 +181,16 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 
 ### How-to Guides
 
-<ul>
-<li><a href="http://theodi.org/guides/what-open-data">What makes data open?</a></li>
-<li><a href="http://theodi.org/guides/how-will-open-data-affect-me">How will open data affect me?</a></li>
-<li><a href="http://theodi.org/guides/publishers-guide-open-data-licensing">Publisher&#x27;s Guide to Open Data Licensing</a></li>
-<li><a href="http://theodi.org/guides/impacts-of-non-open-licenses">What are the impacts of non-open licences?</a></li>
-<li><a href="http://theodi.org/case-studies">Case studies</a></li>
-<li><a href="http://theodi.org/guides/engaging-reusers">Engaging with data reusers</a></li>
-</ul>
+Molestiae corporis rerum blanditiis voluptas vel. Vero dolorum commodi laboriosam quia. Qui hic optio doloremque.
 
+[Discover More]( {{ site.baseurl }}{% link how-to.md %}){:.link}
 
 </div>
 <div class="four">
 
 ### Discussions
 Learn more about how we’re making opportunity data easier to access, use, and share nationwide.
+
 [Discover More]( {{ site.baseurl }}{% link discussions.md %}){:.link}
 
 </div>
@@ -203,6 +198,7 @@ Learn more about how we’re making opportunity data easier to access, use, and 
 
 ### References
 Dive into the detail by looking through our standards documentation and best practice guidance.
+
 [Discover More]( {{ site.baseurl }}/slate/build){:.link target="_blank"}
 
 </div>
@@ -210,6 +206,7 @@ Dive into the detail by looking through our standards documentation and best pra
 
 ### Tutorials
 Guidance for developers on getting started, to help you learn how to publish and use your data to benefit your organisation. 
+
 [Discover More]( {{ site.baseurl }}{% link e-learning.md %}){: .link }
 
 </div>

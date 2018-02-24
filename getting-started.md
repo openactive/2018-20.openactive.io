@@ -37,7 +37,8 @@ Search our list of booking systems to see if they are already benefiting from ou
 <div class="two">
 <form id="live-search" action="" class="styled" method="post">
 <fieldset>
-<input type="text" class="text-input noEnterSubmit" id="filter" value="" placeholder="Search Our Booking Systems..." />
+<label for="booking-filter"></label>
+<input type="text" class="text-input noEnterSubmit" id="booking-filter" value="" placeholder="Search Our Booking Systems..." />
 <span id="filter-count"></span>
 </fieldset>
 </form>
