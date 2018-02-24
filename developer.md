@@ -20,15 +20,18 @@ layout: page-hero
 
 We’ve made it easy for developers to understand and engage with our data standards and the Opportunity Data Dashboard, to ensure relevant organisations nationwide can join us in revolutionising the way people find, access, and participate in new activities.
 
+Because no single platform or app holds all the data available under OpenActive, we’ve designed the first set of OpenActive standards to support developers in harvesting and collecting data from multiple sources.
+
 </div>
 </article>
+
 
 <!--  ---------------->
 <!-- CODE -->
 <!--  ---------------->
-<article class="title-row invert">
+<article class="title-row invert developer-data">
 <h2 class="sub-heading-two">The Data</h2>
-<div class="two">
+<div class="code left">
 
 #### Opportunity Data
 This is data that describes a physical activity including **what** it is, **where** and **when** it's taking place.
@@ -36,7 +39,7 @@ This is data that describes a physical activity including **what** it is, **wher
 Opportunity data includes enough information for a participant to decide whether an activity is right for them.
 
 </div>
-<div class="two">
+<div class="code right">
 <div class="slides terminal">
 
 ```json
@@ -67,8 +70,47 @@ Opportunity data includes enough information for a participant to decide whether
 ```
 
 </div>
+
+<a class="data-show button-primary">Show me more</a>
+
 </div>
 
+<div class="further-code left">
+<div class="terminal">
+
+```json
+{
+  "@context": "https://www.openactive.io/ns/oa.jsonld",
+  "type": "Event",
+  "name": "Tai chi Class",
+  "url": "http://www.example.org/events/1",
+  "startDate": "2017-03-22T20:00:00",
+  "activity": "Tai Chi",
+  "location": {
+    "type": "Place",
+    "name": "ExampleCo Gym",
+    "address": {
+      "type": "PostalAddress",
+      "streetAddress": "1 High Street",
+      "addressLocality": "Bristol",
+      "postalCode": "BS1 4SD"
+    }
+  }
+}
+```
+
+</div>
+</div>
+<div class="further-code right">
+
+#### Publishing Opportunities
+The specification defines a data model to help different platforms and applications to publish data in a consistent way.
+
+[Opportunity Data Primer]( https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
+[Describing Events](https://www.openactive.io/opportunity-data-primer/#describing-events){: .button-primary--ghost target="_blank"}
+
+
+</div>
 </article>
 
 
@@ -87,13 +129,12 @@ Opportunity data includes enough information for a participant to decide whether
 ##### The Opportunity Data Dashboard lists all of the opportunity data feeds we have currently available.
 Explore the dashboard to find the data you need, identify which feeds conform to our standards, and provide feedback to publishers.
 
-Because no single platform or app holds all the data available under OpenActive, we’ve designed the first set of OpenActive standards to support developers in harvesting and collecting data from multiple sources.
-
 
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .button-primary}
 
 </div>
 </article>
+
 
 
 <!--  ---------------->
@@ -162,7 +203,7 @@ Learn more about how we’re making opportunity data easier to access, use, and 
 
 ### References
 Dive into the detail by looking through our standards documentation and best practice guidance.
-[Discover More]( {{ site.baseurl }}/slate/build){:.link}
+[Discover More]( {{ site.baseurl }}/slate/build){:.link target="_blank"}
 
 </div>
 <div class="four">

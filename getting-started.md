@@ -26,8 +26,9 @@ strapline: Discover how to build unlimited reach for your activities
 <h2 class="sub-heading-two">Who Uses OpenActive?</h2>
 <div class="two">
 
+
 #### Booking Systems
-Search our list of OpenActive enabled system, to find the activity providers already benefiting from our initiative.
+Search our list of booking systems to see if they are already benefiting from our initiative.
 
 [Enabled Booking Systems]( {{ site.baseurl }}{% link booking-engines.md %}){:class="button-primary" }
 
@@ -42,7 +43,10 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 </form>
 
 
-<nav>
+
+
+
+<nav class="freegrid-four">
 {% for post in site.booking_engines %}
 {% if post.is_enabled %}
 {% assign theImage = post.thumbnail_image %}
@@ -50,12 +54,23 @@ Search our list of OpenActive enabled system, to find the activity providers alr
 {% assign theMember = site.members | where:"title", post.member  | first %}
 {% assign theImage = theMember.thumbnail_image %} 
 {% endif %}
-<div class="inline-four booking-tab" markdown="0" >
-<a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
+<div class="booking-tab" markdown="0" >
+<a href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
 <span class="hidden">{{post.title}}</span>
 </div>
 {% endif %}
 {% endfor %}
+<div class="booking-tab marker" markdown="0">
+{% if site.booking_engines %}
+{% for post in site.booking_engines %}
+{% assign num = forloop.length %}
+{% endfor %}
+{% endif %}
+
+<img class="logo" src="{{ site.baseurl }}/assets/images/blank.svg"/>
+<a href="{{ site.baseurl }}{% link booking-engines.md %}"></a>
+<h4>+{{ num | minus:7 }}</h4>
+</div>
 </nav>
 </div>
 </article>

@@ -23,7 +23,7 @@ When data is made open using the instructions in Open your data, it will automat
 </div>
 <div class="two twoleft">
 
-#### Data Users and Developers
+#### Benefits
 
 * Harness open and accessible data from across the sport and physical sector.
 * Use data to help develop new products and enhance existing services to get people more active.

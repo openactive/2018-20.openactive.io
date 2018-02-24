@@ -551,9 +551,13 @@ figcaption {
   color: lighten($paragraph-color, 10%);
   font-size: $paragraph-margin * 0.8;
 }
+
 .terminal{
   background-image: url('/assets/images/mac-os-window-frame.png');
   padding: 2rem 0 0 0;
+  a{
+    margin-top: auto;
+  }
 }
 
 // Code

@@ -172,3 +172,31 @@ Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusa
 </article>
 
 
+<!--  ---------------->
+<!-- FAQS -->
+<!--  ---------------->
+<article class="faq-snippet title-row">
+<h2 class="sub-heading-two">FAQ's</h2>
+<div class="one">
+
+<div class="one">
+{% assign sorted-posts = site.faqs | where: "categories", "How It Works" %}
+{% for post in sorted-posts limit:4 %}
+
+<div class=" show_hide">
+<h5>Q: {{ post.title | escape}}</h5>
+<div class="slidingDiv">
+{{post.content}}
+</div>
+</div>
+
+{% endfor %}
+</div>
+<div class="one">
+<p><a class="button-primary" href="{{ site.baseurl }}{% link faqs.md %}">Visit
+our FAQs</a></p>
+</div>
+
+
+</div>
+</article>

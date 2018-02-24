@@ -943,6 +943,11 @@
       align-self: start;
       justify-self: end;
       text-align: right;
+      @media only screen and (max-width: 1400px) {
+        grid-column-start: 2;
+        grid-column-end: 14;
+        grid-row: 1/ 2;
+      }
     }
     .right-col{
       grid-column-start: 14;
@@ -950,8 +955,27 @@
       align-self: start;
       justify-self: start;
       text-align: left;
+      @media only screen and (max-width: 1400px) {
+        grid-column-start: 2;
+        grid-column-end: 14;
+        grid-row: 1/ 2;
+      }
     }
-
+    .freegrid-four{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1rem;
+    }
+    .freegrid-five{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 1rem;
+    }
+    .freegrid-six{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 1rem;
+    }
   }
 }
 
