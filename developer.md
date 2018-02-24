@@ -40,33 +40,16 @@ Opportunity data includes enough information for a participant to decide whether
 
 </div>
 <div class="code right">
-<div class="slides terminal">
+<div class="terminal">
+
 
 ```json
-  {
-    "title": "Yoga Class",
-    "description": "The Fun Kind",
-    "price": "12.00",
-    "remainingSpaces": 5,
-  },
-```
-
-```json
-  {
-    "title": "Park Run",
-    "description": "5km Run",
-    "price": "0.00",
-    "remainingSpaces": 4000,
-  },
-```
-
-```json
-  {
-    "title": "Group Cycling",
-    "description": "30km social ride",
-    "price": "0.00",
-    "remainingSpaces": 20,
-  },
+{
+  "title": "Tai",
+  "description": "Tai chi Class",
+  "remainingSpaces": "12",
+  "time": "2017-03-22T20:00:00",
+}
 ```
 
 </div>
