@@ -1,8 +1,6 @@
 ---
 title: How will open data affect me?
 date: 2018-02-24 11:44:00 Z
-categories:
-- How It Works
 ---
 
 We live in an information society. The Apps and websites that we find most useful depend on being able to get hold of information that other organisations have.
