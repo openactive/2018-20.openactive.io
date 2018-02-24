@@ -59,11 +59,17 @@ h1 {
   font-weight: 800;
 }
 
-h1 + p, h1 + ul li p, .h1-copy {
+h1 + p,
+h1 + ol + p,
+.h1-copy {
   font-size: $header-size/  2;
   font-family: $font-family;
 }
-
+h1 + ul li,
+h1 + ol li{
+  font-size: $header-size/  2.5;
+  font-family: $font-family;
+}
 .hero-sub {
   font-size: $header-size/  1.7;
 }
@@ -545,9 +551,13 @@ figcaption {
   color: lighten($paragraph-color, 10%);
   font-size: $paragraph-margin * 0.8;
 }
+
 .terminal{
   background-image: url('/assets/images/mac-os-window-frame.png');
   padding: 2rem 0 0 0;
+  a{
+    margin-top: auto;
+  }
 }
 
 // Code

@@ -8,6 +8,41 @@ $(document).ready(function () {
         //         $(this).html(obrtext+"<a href='#'>read more</a>") ;
         //     }
         // });
+
+
+        $(".further-code").hide();
+
+        $('.data-show').on("click",function(){
+            if ($(this).html() == 'Show me more') {
+                $(this).html('Show me less');
+            } else {
+                $(this).html('Show me more');
+            }
+            $('.further-code').slideToggle();
+        });
+
+
+
+
+        //BOOKING SYSTEM FILTER
+        $("#booking-filter").keyup(function(){
+            // Retrieve the input field text and reset the count to zero
+            var filter = $(this).val(), count = 0;
+            // Loop through the comment list
+            $("nav > .booking-tab").each(function(){
+                // If the list item does not contain the text phrase fade it out
+                if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+                    $(this).fadeOut();
+                    // Show the list item if the phrase matches and increase the count by 1
+                } else {
+                    $('.booking-tab:lt(8)').show();
+                    count++;
+                }
+            });
+
+        });
+
+
         hljs.initHighlightingOnLoad();
 
 

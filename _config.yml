@@ -54,6 +54,8 @@ defaults:
     categories:
     - About OpenActive
     - Community
+    - How It Works
+    - About OpenActive Data
 - scope:
     path: ''
     type: case_studies
