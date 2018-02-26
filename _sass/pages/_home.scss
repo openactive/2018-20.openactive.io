@@ -112,6 +112,23 @@ html.cssgrid {
       text-align: center;
     }
   }
+  .what-we-do{
+    .two{
+      &:nth-child(2){
+        a{
+          margin-bottom: 1rem;
+        }
+      }
+      &:nth-child(3){
+        @media only screen and (max-width: 1000px) {
+          columns: 2;
+        }
+        @media only screen and (max-width: 750px) {
+          columns: 1;
+        }
+      }
+    }
+  }
 }
 
 // END OF DECORATIVE STYLES ONLY

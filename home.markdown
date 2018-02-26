@@ -33,7 +33,7 @@ layout: home
 </div>
 <figure role="group" aria-labelledby="open-active-video">
 
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" allowfullscreen></iframe>
+<iframe title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" allowfullscreen></iframe>
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
@@ -55,9 +55,9 @@ layout: home
 
 
 <!--  ---------------->
-<!-- HOW IT WORKS -->
+<!-- WHAT WE DO -->
 <!--  ---------------->
-<article class="invert title-row">
+<article class="invert title-row what-we-do">
 <h2 class="sub-heading-two">What we do</h2>
 <div class="two twoleft">
 
@@ -186,7 +186,12 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 <a class="button-primary" href="{{ post.url | relative_url }}">Read Post</a>
 </div>
 <div class="two twoleft">
-{% include share-page.html %}
+<div markdown="0" class="share-page">
+<a role="button" href="https://plus.google.com/share?url={{ site.url }}{{ post.url }}" role="button" standalone="true" rel="nofollow" target="_blank" title="Share on Google+"><span class="hidden" aria-hidden="true">Share to  Google</span>{% include googleplus.svg %}</a>
+<a role="button" href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" role="button" standalone="true" rel="nofollow" target="_blank" title="Share on Twitter"><span class="hidden" aria-hidden="true">Share to Twitter</span>{% include twitter.svg %}</a>
+<a role="button" href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}" role="button" standalone="true" rel="nofollow" target="_blank" title="Share on Facebook"><span class="hidden" aria-hidden="true">Share to  Facebook</span>{% include facebook.svg %}</a>
+
+</div>
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 {{post.date | date: date_format}}
 {{post.author}}

@@ -78,6 +78,7 @@ html.cssgrid,html {
                 max-width: 150px;
                 margin-bottom: 1rem;
                 display: inline-block;
+                width:100%;
               }
             }
           }
@@ -327,6 +328,9 @@ html.no-cssgrid {
           padding-top: 2rem;
           border-top: 1px solid $gray;
           .supporters {
+            img{
+              width:100%;
+            }
             &:nth-child(1) {
               margin-bottom: 1rem;
               img {
@@ -340,6 +344,7 @@ html.no-cssgrid {
                 max-width: 150px;
                 margin-bottom: 1rem;
                 display: inline-block;
+                width:100%;
               }
             }
           }
@@ -360,11 +365,13 @@ html.no-cssgrid {
                 margin-right: 2rem;
                 img {
                   max-width: 150px;
+                  width:100%;
                 }
               }
               &:nth-child(2) {
                 img {
                   max-width: 150px;
+                  width:100%;
                 }
               }
             }

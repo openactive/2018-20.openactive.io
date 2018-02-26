@@ -89,7 +89,7 @@ Search our list of booking systems to see if they are already benefiting from ou
 2. With open data, your activities can be discovered, shared, and engaged with by people nationwide
 3. By publishing your data, your activities will be shared across websites and apps that attract millions of users, to communities and services that engage local people
 
-[Publish Your Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .button-primary}
+[Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .button-primary}
 
 
 </div>
