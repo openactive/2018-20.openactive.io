@@ -4,7 +4,7 @@ permalink: "/developer/"
 position: 4
 is_main_navigation: true
 thumbnail_image: "/uploads/dancin.png"
-strapline: 'Know what your here for? '
+strapline: 'Get into all the details surrounding the technical requirements of our data standards'
 layout: page-hero
 ---
 
