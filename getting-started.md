@@ -38,7 +38,6 @@ Search our list of booking systems to see if they are already benefiting from ou
 </form>
 <nav class="freegrid-four">
 {% for post in site.booking_engines %}
-{% if post.is_enabled %}
 {% assign theImage = post.thumbnail_image %}
 {% if post.member %}
 {% assign theMember = site.members | where:"title", post.member  | first %}
@@ -48,7 +47,6 @@ Search our list of booking systems to see if they are already benefiting from ou
 <a href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
 <span class="hidden">{{post.title}}</span>
 </div>
-{% endif %}
 {% endfor %}
 <div class="booking-tab marker" markdown="0">
 {% if site.booking_engines %}
