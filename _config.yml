@@ -144,10 +144,8 @@ plugins:
 staticman:
   branch: master
 reCaptcha:
-  sitekey: "6Lc3GkkUAAAAAGpkfzgRtDMfEZAJyTLEiXsdJJHi"
-
-  secret: "X9g1hHXTWd5gg1zvqDDOrLUJxoZ68TopxfPfiRbApEAMVu2uXLmHiy3mA71TzXs3Ao21AhPXRypYe7FMvPHFBnyVOTy1EeoByvWoPHiSRXBTCxO8Hp7lU6TeCdjny6PUnDqT9S21zSaCjAIKw8QR7FcsaTIDAGGt0jmHrW4QqL0="
-
+  sitekey: 6Lc3GkkUAAAAAGpkfzgRtDMfEZAJyTLEiXsdJJHi
+  secret: X9g1hHXTWd5gg1zvqDDOrLUJxoZ68TopxfPfiRbApEAMVu2uXLmHiy3mA71TzXs3Ao21AhPXRypYe7FMvPHFBnyVOTy1EeoByvWoPHiSRXBTCxO8Hp7lU6TeCdjny6PUnDqT9S21zSaCjAIKw8QR7FcsaTIDAGGt0jmHrW4QqL0=
 atom_feed:
   path: 
 search: 
