@@ -253,7 +253,7 @@ $(document).ready(function () {
         });
 
 
-        var $onScrollNav = $('.large-screen-side-nav'),
+        var $onScrollNav = $('.mobile_button'),
             $header = $('header#mainHeader'),
             scrollClass = 'on-scroll',
             activateAtY = 360;
@@ -281,19 +281,20 @@ $(document).ready(function () {
             $(window).scroll(function () {
                 if ($(window).scrollTop() > activateAtY) {
                     deactivateHeader();
-                    $('#nav-icon3').removeClass('open');
-                    $('.mobile-nav').css('display', 'none');
+                    // $('#nav-icon3').removeClass('open');
+                    // $('.mobile-nav').css('display', 'none');
                 } else {
                     activateHeader();
-                    $('.mobile-nav').css('display', 'inline-flex');
-                    if ($('#nav-icon3').hasClass('open')) {
-                        $('#nav-icon3').removeClass('open');
-                        $('.mobile-nav').slideUp();
-                    }
+                    // $('.mobile-nav').css('display', 'inline-flex');
+                    // if ($('#nav-icon3').hasClass('open')) {
+                    //     $('#nav-icon3').removeClass('open');
+                    //     $('.mobile-nav').slideUp();
+                    // }
                 }
 
             });
         }
+
 
         //looks for iframes wraps and adapts the height and width
         (function (window, document, undefined) {
@@ -473,17 +474,6 @@ $(document).ready(function () {
             $('.note-wrap').slideToggle();
         });
 
-
-        // START MOBILE NAVIGATION
-        //mobile nav top level burger icon click event show menu
-        $('#nav-icon3').click(function () {
-            $(this).toggleClass('open');
-
-            $('.mobile-nav').slideToggle();
-        });
-        $('.mobile_button').click(function () {
-
-        });
 
         //MATCH HEIGHT OF CASE STUDY CONTENT
         // $('.matchHeight').matchHeight({
