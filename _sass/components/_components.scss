@@ -1018,6 +1018,7 @@ article {
           }
         }
       }
+
     }
     .two {
       position: relative;
@@ -1167,6 +1168,9 @@ article {
           right: 0;
         }
       }
+      .button-primary {
+        border: 1px solid white;
+      }
     }
 
   }
@@ -1174,6 +1178,9 @@ article {
     background-color: $global;
     align-self: stretch;
     position: relative;
+    .button-primary {
+      border: 1px solid white;
+    }
     * {
       color: $white;
     }

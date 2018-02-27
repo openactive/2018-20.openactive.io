@@ -203,7 +203,8 @@ $globalEight: $brand-eight;
   }
 
   .call_to_action--full-width {
-    background-color: $global;
+    //background-color: $global;
+    background-color: $brand-blue;
     .sub-heading-two {
       color: $white;
     }
@@ -280,7 +281,7 @@ $globalEight: $brand-eight;
   }
 
   .invert {
-    background-color: $global;
+    background-color: $brand-blue;
     padding: 4rem 0;
 
     .sub-heading-two {
@@ -438,7 +439,8 @@ $usingFive: $brand-six;
 article.use, div.use {
   background-color: $using;
   &.call_to_action--full-width {
-    background-color: $using;
+    //background-color: $using;
+    background-color: $brand-blue;
     .sub-heading-two {
       color: $white;
     }
@@ -519,7 +521,9 @@ article.use, div.use {
   }
 
   .call_to_action--full-width {
-    background-color: $usingThree;
+    //background-color: $usingThree;
+    background-color: $brand-blue;
+
     .sub-heading-two {
       color: $white;
     }
@@ -687,7 +691,10 @@ article.use, div.use {
 .use, .use-template {
   .triangle {
     //BLUE TRAINGLE
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%237d338a;}%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 7%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    //background-color: $usingThree;
+    //background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%237d338a;}%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 7%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%233a3188;}%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 7%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
   }
   .stripe {
     //BLUE STRIPE
@@ -1095,7 +1102,9 @@ article.startup, div.startup, a.button-primary.startup {
     }
   }
   .call_to_action--full-width {
-    background-color: #e9493b;
+    //background-color: #e9493b;
+    background-color: $brand-blue;
+
     .sub-heading-two {
       color: $white;
     }
@@ -1239,7 +1248,8 @@ article.startup, div.startup, a.button-primary.startup {
 
 .startup-template, article.startup, div.startup {
   .triangle {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23e94a3b;}%3C/style%3E%3C/defs%3E%3Ctitle%3Ebig-triangle%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    //background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23e94a3b;}%3C/style%3E%3C/defs%3E%3Ctitle%3Ebig-triangle%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%233a3188;}%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 7%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
   .stripe {
     //BLUE STRIPE
