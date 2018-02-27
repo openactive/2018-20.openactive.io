@@ -143,9 +143,6 @@ plugins:
 - jekyll-feed
 staticman:
   branch: master
-reCaptcha:
-  sitekey: 6Lc3GkkUAAAAAGpkfzgRtDMfEZAJyTLEiXsdJJHi
-  secret: 6Lc3GkkUAAAAAO2BVkX_w6KrqHfJ68BPUi-GqlHM
 atom_feed:
   path: 
 search: 
