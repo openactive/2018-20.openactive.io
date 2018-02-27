@@ -59,18 +59,18 @@ layout: default
 {% else %}
 <article id="booking-engine" itemscope itemtype="http://schema.org/BlogPosting">
 <div class="one">
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    <h3 itemprop="name headline">{{ page.title | escape }}</h3>
     {{ content }}
-<h3>{{ page.title | escape }} does not yet have OpenActive publishing built-in?</h3>
+<h5>{{ page.title | escape }} does not yet have OpenActive publishing built-in?</h5>
 <p>As with any booking systems, {{ page.title | escape }} depends on customer demand to inform their roadmap. Gladstone is aware of the OpenActive initiative, but they need to see sufficient customer demand for them to prioritise doing the work required.</p>
 
-<h3>Can I vote for {{ page.title | escape }} to implement OpenActive publishing?</h3>
+<h5>Can I vote for {{ page.title | escape }} to implement OpenActive publishing?</h53>
 <p>Yes, simply add your organisation to the list on the right-hand side of this page by clicking the link on the right.</p>
 
-<h3>Can I help spread the word to other {{ page.title | escape }} customers?</h3>
+<h5>Can I help spread the word to other {{ page.title | escape }} customers?</h5>
 <p></p>Absolutely, just send them to this website, and see if they want to add their vote to this page!</p>
 
-<h3>What work does {{ page.title | escape }} need to do to be compatible with OpenActive?</h3>
+<h5>What work does {{ page.title | escape }} need to do to be compatible with OpenActive?</h5>
 <p>They need to have their developers build an API which conforms with the OpenActive standards. Please find more information in the <a href="{{ site.baseurl }}{% link developer.md %}">developers</a> section.</p>
 </div>
 </article>
