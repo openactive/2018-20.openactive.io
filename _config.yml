@@ -144,9 +144,6 @@ plugins:
 - jekyll-feed
 staticman:
   branch: master
-reCaptcha:
-  siteKey: sitekey
-  secret: 
 atom_feed:
   path: 
 search: 
