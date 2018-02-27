@@ -177,7 +177,9 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 {% for post in thePosts limit:2 %}
 <div class="two" id="post-{{ forloop.index }}">
 <figure role="group">
+<a href="{{ post.url | relative_url }}">
 <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}-post-thumbnail">
+</a>
 </figure>
 <h3>{{ post.title | escape }}</h3>
 <div class="subgrid brand-one-b">

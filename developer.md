@@ -104,9 +104,11 @@ The specification defines a data model to help different platforms and applicati
 <article class="title-row">
 <h2 class="sub-heading-two">Data Dashboard</h2>
 <div class="two">
+<a href="http://status.openactive.io/" target="_blank">
 
 ![Hero]({{ site.baseurl }}/assets/images/dash.png)
 
+</a>
 </div>
 <div class="two">
 

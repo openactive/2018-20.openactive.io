@@ -10,12 +10,6 @@ strapline: Discover how to build unlimited reach for your activities
 
 {::options parse_block_html="true" /}
 
-<!--  ---------------->
-<!-- HERO BLOCK -->
-<!--  ---------------->
-
-
-
 
 
 
@@ -42,11 +36,6 @@ Search our list of booking systems to see if they are already benefiting from ou
 <span id="filter-count"></span>
 </fieldset>
 </form>
-
-
-
-
-
 <nav class="freegrid-four">
 {% for post in site.booking_engines %}
 {% if post.is_enabled %}
