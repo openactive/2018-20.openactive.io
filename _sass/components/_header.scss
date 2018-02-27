@@ -1,7 +1,7 @@
 /*********************************/
 /*********************************/
 //GRID LAYOUT STYLES FOR SCREENS OVER 1000px
-html.cssgrid, html {
+html.cssgrid {
   @supports (display: grid) {
 
     @media only screen and (min-width: 1000px) {
@@ -32,7 +32,7 @@ html.cssgrid, html {
           }
           &.headline {
             grid-column-start: 2;
-            grid-column-end: 11;
+            grid-column-end: 12;
             grid-row: 2/ 2;
             display: grid;
             align-self: stretch;
@@ -459,17 +459,17 @@ html.no-cssgrid {
       height: 210px;
     }
   }
-  .on-scroll{
-    .navigation{
-      border: 0 solid transparent!important;
+  .on-scroll {
+    .navigation {
+      border: 0 solid transparent !important;
     }
   }
-  .mobile_button{
-    &.on-scroll{
-      display: block!important;
+  .mobile_button {
+    &.on-scroll {
+      display: block !important;
       border-bottom: none;
     }
-    .mobile-nav{
+    .mobile-nav {
       position: absolute;
     }
   }
@@ -632,10 +632,8 @@ html.no-cssgrid {
       }
     }
     @media only screen and (max-width: 600px) {
-      .headline{
-      *{
-
-        display: none;
+      .headline {
+        opacity: 0;
       }
     }
   }
@@ -939,7 +937,7 @@ html.no-cssgrid {
     }
     @media only screen and (max-width: 750px) {
       &.logo-accelerator {
- 
+
       }
       &.social-button-accelerator {
         display: none;
@@ -1002,7 +1000,6 @@ html.no-cssgrid {
   }
 }
 
-
 //NAVIGATION ON MOBILE
 
 .sidenav {
@@ -1040,7 +1037,11 @@ html.no-cssgrid {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 

@@ -60,8 +60,18 @@ $(document).ready(function () {
 
             const prev = document.querySelector('.prev');
             const next = document.querySelector('.next');
-            prev.addEventListener('click', () => mySiema.prev());
-            next.addEventListener('click', () => mySiema.next());
+            // prev.addEventListener('click', () => mySiema.prev());
+            prev.addEventListener.on("click", function () {
+                mySiema.prev()
+            });
+            next.addEventListener.on("click", function () {
+                mySiema.next()
+            });
+
+
+
+
+            // next.addEventListener('click', () => );
 
         }
         if ($(".slides-2").length > 0) {
@@ -80,8 +90,8 @@ $(document).ready(function () {
 
             const prev = document.querySelector('.prev');
             const next = document.querySelector('.next');
-            prev.addEventListener('click', () => mySiema2.prev());
-            next.addEventListener('click', () => mySiema2.next());
+            // prev.addEventListener('click', () => mySiema2.prev());
+            // next.addEventListener('click', () => mySiema2.next());
 
         }
 
