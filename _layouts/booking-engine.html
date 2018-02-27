@@ -104,9 +104,9 @@ layout: default
 
     <label>Name <input name="fields[name]" type="text"></label>
   <label>E-mail <input name="fields[email]" type="email"></label>
-    <input type="hidden" name="options[reCaptcha][siteKey]" value="{{site.reCaptcha.secret}}">
-    <input type="hidden" name="options[reCaptcha][secret]" value="{{site.reCaptcha.sitekey}}">
-    <div class="g-recaptcha" data-sitekey="{{site.reCaptcha.secret}}"></div>
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="{{site.reCaptcha.sitekey}}">
+    <input type="hidden" name="options[reCaptcha][secret]" value="{{site.reCaptcha.secret}}">
+    <div class="g-recaptcha" data-sitekey="{{site.reCaptcha.sitekey}}"></div>
 
 
     <button type="submit">Go!</button>
