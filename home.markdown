@@ -46,6 +46,7 @@ layout: home
 <!-- CASE STUDIES -->
 <!--  ---------------->
 <article class="title-row">
+<h2 class="sub-heading-two">Success Stories</h2>
 {% include case-study.html %}
 </article>
 

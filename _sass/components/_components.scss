@@ -746,7 +746,7 @@ article {
           div {
             display: inline-flex;
             align-items: center;
-            h5{
+            h5 {
               flex: 1 1 70%;
               align-self: auto;
             }
@@ -766,11 +766,11 @@ article {
             }
             @media only screen and (max-width: 750px) {
               flex-direction: column;
-              h5{
-                order:0;
+              h5 {
+                order: 0;
               }
-              p{
-                order:1;
+              p {
+                order: 1;
               }
             }
           }
@@ -1518,9 +1518,9 @@ article {
 /*********************************/
 // IMAGE BREAKER STYLES
 article {
-  &.blog-detail-header{
-    .one{
-      h3{
+  &.blog-detail-header {
+    .one {
+      h3 {
         max-width: 70%;
       }
     }
@@ -1592,6 +1592,8 @@ nav {
 
 .case-study-slim {
   .one.subgrid {
+    grid-column-start: 2;
+    grid-column-end: -1;
     .two {
       display: inline-flex;
       flex-direction: column;
@@ -1616,6 +1618,41 @@ nav {
         padding-left: 1rem;
       }
     }
+    &.case-tab {
+      display: none;
+      &.current {
+        display: grid;
+      }
+    }
+  }
+}
+
+.case-content {
+  border-top: 1px solid $gray;
+
+  justify-self: flex-start;
+  align-self: start;
+  flex-direction: column;
+  margin-top: 0;
+  width: 150px;
+  h6 {
+    margin-top: .5rem;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    grid-column-start: 8;
+    grid-column-end: 14;
+    grid-row: 3/ 3;
+  }
+  p {
+    margin-top: 0;
+    font-size: $header-size /3.75;
+  }
+  display: none;
+  grid-row: 1;
+  &.current {
+    display: inline-flex;
+
   }
 }
 
@@ -1749,7 +1786,7 @@ nav {
     align-self: auto;
     height: 30px;
     width: 30px;
-    .svg.twitter, .svg.facebook, .svg.instagram , .svg.google {
+    .svg.twitter, .svg.facebook, .svg.instagram, .svg.google {
       fill: $brand-one;
     }
   }
@@ -2284,6 +2321,7 @@ article {
     }
   }
 }
-.thanks{
-  display:none;
+
+.thanks {
+  display: none;
 }

@@ -198,7 +198,7 @@ fieldset legend {
 }
 
 form {
-  grid-column: col / span 12;
+  width:100%;
   input[type=submit]:not.primary_cta {
     display: block;
   }
