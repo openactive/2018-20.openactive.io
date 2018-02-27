@@ -9,6 +9,17 @@ $(document).ready(function () {
         //     }
         // });
 
+        function getQueryStringValue (key) {
+            return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
+        }
+        var outcome = getQueryStringValue("outcome");
+
+        if(outcome == 'success'){
+            $('.vote').hide();
+            $('.thanks').show();
+        }
+
+
 
         $(".further-code").hide();
 

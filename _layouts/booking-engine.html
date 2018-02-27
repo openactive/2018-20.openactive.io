@@ -6,10 +6,10 @@ layout: default
 
 {% assign theImage = page.thumbnail_image %}
 
-        {% if page.member %}
-        {% assign theMember = site.members | where:"title", page.member  | first %}
-        {% assign theImage = theMember.thumbnail_image %} 
-        {% endif %}
+{% if page.member %}
+{% assign theMember = site.members | where:"title", page.member  | first %}
+{% assign theImage = theMember.thumbnail_image %}
+{% endif %}
 
 
 <article>
@@ -25,9 +25,9 @@ layout: default
                         escape
                         }}</a></h3>
                     {{ page.content }}
-                
-                <p><a class="link" href="{{ page.website }}" rel="noopener" target="_blank">Visit Website</a></p>
-            </div>
+
+                    <p><a class="link" href="{{ page.website }}" rel="noopener" target="_blank">Visit Website</a></p>
+                </div>
             </div>
         </div>
         <hr>
@@ -37,87 +37,94 @@ layout: default
 <article>
     <div class='one'>
         <div class="subgrid">
-        {% assign sortedPosts = site.booking_engines | sort: 'title' %}
-        {% for post in sortedPosts %}
-        {% if post.is_enabled %}
-        {% assign theImage = post.thumbnail_image %}
-        {% if post.member %}
-        {% assign theMember = site.members | where:"title", post.member  | first %}
-        {% assign theImage = theMember.thumbnail_image %} 
-        {% endif %}
-        <div class="six" >
-            <figure role="group" >
-                    <a class="post-title post-link" href="{{ post.url | relative_url }}"><img role="logo" src="{{theImage | relative_url}}"></a>
-            </figure>
-        </div>
+            {% assign sortedPosts = site.booking_engines | sort: 'title' %}
+            {% for post in sortedPosts %}
+            {% if post.is_enabled %}
+            {% assign theImage = post.thumbnail_image %}
+            {% if post.member %}
+            {% assign theMember = site.members | where:"title", post.member | first %}
+            {% assign theImage = theMember.thumbnail_image %}
+            {% endif %}
+            <div class="six">
+                <figure role="group">
+                    <a class="post-title post-link" href="{{ post.url | relative_url }}"><img role="logo"
+                                                                                              src="{{theImage | relative_url}}"></a>
+                </figure>
+            </div>
 
-        {% endif %}
-        {% endfor %}
-    </div>
+            {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </article>
 {% else %}
 
 <article id="booking-engine" itemscope itemtype="http://schema.org/BlogPosting">
-            <div class="two twoleft"> 
-                  <h3 itemprop="name headline">{{ page.title | escape }}</h3>
-                    {{ content }}
-                    <h5>{{ page.title | escape }} does not yet have OpenActive publishing built-in?</h5>
-                    <p>As with any booking systems, {{ page.title | escape }} depends on customer demand to inform their roadmap. {{ page.title | escape }} is aware of the OpenActive initiative, but they need to see sufficient customer demand for them to prioritise doing the work required.</p>
-
-                
-
-                    <h5>Can I help spread the word to other {{ page.title | escape }} customers?</h5>
-                    <p></p>Absolutely, just send them to this website, and see if they want to add their vote to this page!</p>
-
-                    <h5>What work does {{ page.title | escape }} need to do to be compatible with OpenActive?</h5>
-                    <p>They need to have their developers build an API which conforms with the OpenActive standards. Please find more information in the <a href="{{ site.baseurl }}{% link developer.md %}">developers</a> section.</p>
-            </div>
-
-                 
-        <div class="two twoleft">
-                    
-            {% assign comments = site.data.comments[page.slug]  %}
-            {% for comment in comments %}
-            {% assign num = forloop.length %}
-            {% endfor %}
-            {% assign thesize = num.size %}
+    <div class="two twoleft">
+        <h3 itemprop="name headline">{{ page.title | escape }}</h3>
+        {{ content }}
+        <h5>{{ page.title | escape }} does not yet have OpenActive publishing built-in?</h5>
+        <p>As with any booking systems, {{ page.title | escape }} depends on customer demand to inform their roadmap. {{
+            page.title | escape }} is aware of the OpenActive initiative, but they need to see sufficient customer
+            demand for them to prioritise doing the work required.</p>
 
 
+        <h5>Can I help spread the word to other {{ page.title | escape }} customers?</h5>
+        <p></p>Absolutely, just send them to this website, and see if they want to add their vote to this page!</p>
+
+        <h5>What work does {{ page.title | escape }} need to do to be compatible with OpenActive?</h5>
+        <p>They need to have their developers build an API which conforms with the OpenActive standards. Please find
+            more information in the <a href="{{ site.baseurl }}{% link developer.md %}">developers</a> section.</p>
+    </div>
 
 
-            {% if thesize > 1   %}
-            <h4>{{ page.title | escape }} has {{thesize}} Votes</h4>
+    <div class="two twoleft ">
 
-            {% else  %}
-
-            <h4>{{ page.title | escape }} has no Votes :( </h4>
-
-            {% endif %}
-            
-            <p>You can vote to add your organisation to the list by voting. Enter your name and email below.</p>
+        {% assign comments = site.data.comments[page.slug] %}
+        {% for comment in comments %}
+        {% assign num = forloop.length %}
+        {% endfor %}
+        {% assign thesize = num.size %}
 
 
+        {% if thesize > 1 %}
+        <h4>{{ page.title | escape }} has {{thesize}} Votes</h4>
 
-            <form method="POST" action="https://api.staticman.net/v2/entry/{{site.repository}}/{{site.staticman.branch}}/comments">
-                <input name="options[redirect]" type="hidden" value="http://staging.openactive.io/thanks">
-                <!-- e.g. "2016-01-02-this-is-a-post" -->
-                <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-                <input name="fields[replying_to]" type="hidden" id="comment-parent"  value="">
+        {% else %}
 
-                <label>Name <input name="fields[name]" type="text"></label>
-                <label>E-mail <input name="fields[email]" type="email"></label>
-                <input type="hidden" name="options[reCaptcha][siteKey]" value="6Lc3GkkUAAAAAGpkfzgRtDMfEZAJyTLEiXsdJJHi">
-                <input type="hidden" name="options[reCaptcha][secret]" value="X9g1hHXTWd5gg1zvqDDOrLUJxoZ68TopxfPfiRbApEAMVu2uXLmHiy3mA71TzXs3Ao21AhPXRypYe7FMvPHFBnyVOTy1EeoByvWoPHiSRXBTCxO8Hp7lU6TeCdjny6PUnDqT9S21zSaCjAIKw8QR7FcsaTIDAGGt0jmHrW4QqL0=">
-                <div class="g-recaptcha" data-sitekey="6Lc3GkkUAAAAAGpkfzgRtDMfEZAJyTLEiXsdJJHi"></div>
+        <h4>{{ page.title | escape }} has no Votes :( </h4>
 
-                <button type="submit">Vote for {{ page.title | escape }}</button>
+        {% endif %}
 
-            </form>
+        <p class="vote">You can vote to add your organisation to the list by voting. Enter your name and email below.</p>
 
-             <h4>Do you work for {{ page.title | escape }} ? </h4>
-             <a href="{{ site.baseurl }}{% link developer.md %}" class="button-primary">Visit the Developer section</a>
-            
+        <form class="vote" method="POST"
+              action="https://api.staticman.net/v2/entry/{{site.repository}}/{{site.staticman.branch}}/comments">
+
+            <input name="options[redirect]" type="hidden" value="{{ page.slug }}/?outcome=success">
+
+            <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+            <input name="fields[replying_to]" type="hidden" id="comment-parent" value="">
+
+            <label>Name <input name="fields[name]" type="text"></label>
+            <label>E-mail <input name="fields[email]" type="email"></label>
+
+            <!--<input type="hidden" name="options[reCaptcha][siteKey]" value="6Lc3GkkUAAAAAGpkfzgRtDMfEZAJyTLEiXsdJJHi">-->
+            <!--<input type="hidden" name="options[reCaptcha][secret]" value="6Lc3GkkUAAAAAO2BVkX_w6KrqHfJ68BPUi-GqlHM">-->
+            <!--<div class="g-recaptcha" data-sitekey="6Lc3GkkUAAAAAGpkfzgRtDMfEZAJyTLEiXsdJJHi"></div>-->
+
+            <button type="submit">Go!</button>
+
+        </form>
+
+
+        <h4 class="vote">Do you work for {{ page.title | escape }} ? </h4>
+        <a class="vote" href="{{ site.baseurl }}{% link developer.md %}" class="button-primary">Visit the Developer section</a>
+
+        <div class="thanks invert">
+            <h3>Thanks for Voting</h3>
+        </div>
+
 
     </div>
 </article>
