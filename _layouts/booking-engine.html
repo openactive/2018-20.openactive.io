@@ -101,7 +101,7 @@ layout: default
         <form class="vote" method="POST"
               action="https://api.staticman.net/v2/entry/{{site.repository}}/{{site.staticman.branch}}/comments">
 
-            <input name="options[redirect]" type="hidden" value="{{ page.slug }}">
+            <input name="options[redirect]" type="hidden" value="http://staging.openactive.io/thanks">
 
             <input name="options[slug]" type="hidden" value="{{ page.slug }}">
             <input name="fields[replying_to]" type="hidden" id="comment-parent" value="">
