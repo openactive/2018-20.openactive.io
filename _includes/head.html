@@ -21,7 +21,12 @@ window['_fs_namespace'] = 'FS';
     
 <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="theme-color" content="#3B3089" />
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#3B3089">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#3B3089">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#3B3089">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
