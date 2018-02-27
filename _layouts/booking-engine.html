@@ -79,7 +79,9 @@ layout: default
   <input name="options[redirect]" type="hidden" value="http://staging.openactive.io/thanks">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><input name="fields[name]" type="text">Name</label>
+    <input name="fields[replying_to]" type="hidden" id="comment-parent"  value="">
+
+    <label><input name="fields[name]" type="text">Name</label>
   <label><input name="fields[email]" type="email">E-mail</label>
   <button type="submit">Go!</button>
 </form>
