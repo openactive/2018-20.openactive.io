@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% if page.is_enabled %}
 
 {% assign theImage = page.thumbnail_image %}
 
@@ -10,6 +9,11 @@ layout: default
         {% assign theMember = site.members | where:"title", page.member  | first %}
         {% assign theImage = theMember.thumbnail_image %} 
         {% endif %}
+
+
+{% if page.is_enabled %}
+
+
 
 
 <article>
@@ -58,25 +62,30 @@ layout: default
 </article>
 {% else %}
 
+
+
 <article id="booking-engine" itemscope itemtype="http://schema.org/BlogPosting">
             <div class="two twoleft"> 
-                  <h3 itemprop="name headline">{{ page.title | escape }}</h3>
-                    {{ content }}
-                    <h5>{{ page.title | escape }} does not yet have OpenActive publishing built-in?</h5>
-                    <p>As with any booking systems, {{ page.title | escape }} depends on customer demand to inform their roadmap. {{ page.title | escape }} is aware of the OpenActive initiative, but they need to see sufficient customer demand for them to prioritise doing the work required.</p>
-
+                    <h3>{{ page.title | escape }} does not yet have OpenActive publishing built-in?</h3>
+                    <p>As with any booking systems, {{ page.title | escape }} depends on customer demand to inform their roadmap.</p>
+                    <p> {{ page.title | escape }} is aware of the OpenActive initiative, but they need to see sufficient customer demand for them to prioritise doing the work required.</p>
                 
-
                     <h5>Can I help spread the word to other {{ page.title | escape }} customers?</h5>
                     <p></p>Absolutely, just send them to this website, and see if they want to add their vote to this page!</p>
 
                     <h5>What work does {{ page.title | escape }} need to do to be compatible with OpenActive?</h5>
-                    <p>They need to have their developers build an API which conforms with the OpenActive standards. Please find more information in the <a href="{{ site.baseurl }}{% link developer.md %}">developers</a> section.</p>
+                    <p>They need to have their developers build an API which conforms with the OpenActive standards.</p>
+
+                    <h5>Do you work for {{ page.title | escape }} ? </h4>
+             <a href="{{ site.baseurl }}{% link developer.md %}" class="button-primary">Visit the Developer section</a>
             </div>
 
                  
         <div class="two twoleft">
-                    
+
+           
+
+
             {% assign comments = site.data.comments[page.slug]  %}
             {% for comment in comments %}
             {% assign num = forloop.length %}
@@ -84,6 +93,11 @@ layout: default
             {% assign thesize = num.size %}
 
 
+            <div class="inset-call-to-action"> 
+            
+            <figure role="group" class="two tworight">
+                <img role="logo" src="{{ theImage | relative_url}}">
+            </figure>   
 
 
             {% if thesize > 1   %}
@@ -96,8 +110,6 @@ layout: default
             {% endif %}
             
             <p>You can vote to add your organisation to the list by voting. Enter your name and email below.</p>
-
-
 
             <form method="POST" action="https://api.staticman.net/v2/entry/{{site.repository}}/{{site.staticman.branch}}/comments">
                 <input name="options[redirect]" type="hidden" value="http://staging.openactive.io/thanks">
@@ -115,8 +127,14 @@ layout: default
 
             </form>
 
-             <h4>Do you work for {{ page.title | escape }} ? </h4>
-             <a href="{{ site.baseurl }}{% link developer.md %}" class="button-primary">Visit the Developer section</a>
+
+           
+        </div> 
+
+
+            
+
+          
             
 
     </div>
