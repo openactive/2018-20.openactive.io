@@ -459,6 +459,20 @@ html.no-cssgrid {
       height: 210px;
     }
   }
+  .on-scroll{
+    .navigation{
+      border: 0 solid transparent!important;
+    }
+  }
+  .mobile_button{
+    &.on-scroll{
+      display: block!important;
+      border-bottom: none;
+    }
+    .mobile-nav{
+      position: absolute;
+    }
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -531,6 +545,7 @@ html.no-cssgrid {
         @media only screen and (max-width: 1000px) {
           display: block !important;
         }
+
       }
       .mobile-nav {
         position: absolute;
@@ -551,6 +566,7 @@ html.no-cssgrid {
         li {
           list-style: none;
         }
+
       }
       .mobile_button {
         text-align: right;
@@ -979,4 +995,45 @@ html.no-cssgrid {
   }
 }
 
+
+//NAVIGATION ON MOBILE
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  right: 0;
+  background-color: $white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: $brand-one;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
