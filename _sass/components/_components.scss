@@ -1507,6 +1507,22 @@ article {
 /*********************************/
 /*********************************/
 
+/*********************************/
+/*********************************/
+// IMAGE BREAKER STYLES
+article {
+  &.blog-detail-header{
+    .one{
+      h3{
+        max-width: 70%;
+      }
+    }
+  }
+}
+
+/*********************************/
+/*********************************/
+
 //NAVIGATION LIST STYLES
 /*********************************/
 /*********************************/
@@ -1726,7 +1742,7 @@ nav {
     align-self: auto;
     height: 30px;
     width: 30px;
-    .svg.twitter, .svg.facebook, .svg.instagram {
+    .svg.twitter, .svg.facebook, .svg.instagram , .svg.google {
       fill: $brand-one;
     }
   }

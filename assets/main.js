@@ -22,8 +22,6 @@ $(document).ready(function () {
         });
 
 
-
-
         //BOOKING SYSTEM FILTER
         $("#booking-filter").keyup(function(){
             // Retrieve the input field text and reset the count to zero

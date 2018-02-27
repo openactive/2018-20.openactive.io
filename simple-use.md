@@ -32,14 +32,31 @@ When data is made open using the instructions in Open your data, it will automat
 </div>
 </article>
 
-<article class="title-row">
+
+
+<article class="title-row invert">
 <h2 class="sub-heading-two">Data Providers</h2>
 <div class="one subgrid">
+<div class="two">
+
+
+#### Data Providers
+Review our list of data providers below to see who's already sharing their data. Then check out the status dashboard for further information.
+
+[Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .button-primary}
+
+</div>
+<div class="two">
+<a href="http://status.openactive.io/" target="_blank"><img src="{{site.baseurl }}/assets/images/dash.png"></a>
+</div>
+</div>
+
+<div class="one freegrid-four">
 {% assign sortedPosts = site.dataproviders | sort: 'title' %}
 {% for post in sortedPosts %}
 {% assign theImage = post.thumbnail_image %}
 
-<div class="four">
+<div>
 <figure>
 <img role="logo" src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
 </figure>

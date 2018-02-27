@@ -4,7 +4,8 @@ permalink: "/developer/"
 position: 4
 is_main_navigation: true
 thumbnail_image: "/uploads/dancin.png"
-strapline: 'Know what your here for? '
+strapline: Get into all the details surrounding the technical requirements of our
+  data standards
 layout: page-hero
 ---
 
@@ -103,9 +104,11 @@ The specification defines a data model to help different platforms and applicati
 <article class="title-row">
 <h2 class="sub-heading-two">Data Dashboard</h2>
 <div class="two">
+<a href="http://status.openactive.io/" target="_blank">
 
 ![Hero]({{ site.baseurl }}/assets/images/dash.png)
 
+</a>
 </div>
 <div class="two">
 
@@ -134,7 +137,7 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 2. With open data, your activities can be discovered, shared, and engaged with by people nationwide
 3. By publishing your data, your activities will be shared across websites and apps that attract millions of users, to communities and services that engage local people
 
-[Publish Your Data]( {{ site.baseurl }}{% link publish-data.md %}){: .button-primary}
+[Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .button-primary}
 
 
 </div>
@@ -147,7 +150,7 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 3. Easy access to opportunity data can help people to get active, and boost participation in activities nationwide
 4. We encourage you to explore the data published so far, and discover what’s useful for you
 
-[Use Data]( {{ site.baseurl }}{% link use-data.md %}){: .button-primary}
+[Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .button-primary}
 
 </div>
 </div>
