@@ -62,6 +62,15 @@ defaults:
     - Interview 
     - Case study
     - Community update
+    tags:
+    - Using data
+    - Publishing data
+    - Accelerator
+    - Collaboration
+    - Leadership
+    - Champions
+    - Standards
+    - Literacy and tools
 - scope:
     path: ''
     type: case_studies
