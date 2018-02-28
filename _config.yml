@@ -20,6 +20,11 @@ collections:
   faqs:
     title: FAQs
     output: true
+    categories:
+    - About OpenActive
+    - Community
+    - How It Works
+    - About OpenActive Data
   members:
     title: Members
     output: true
@@ -52,10 +57,11 @@ defaults:
     is_featured: false
     thumbnail_image: ''
     categories:
-    - About OpenActive
-    - Community
-    - How It Works
-    - About OpenActive Data
+    - News
+    - Opinion
+    - Interview 
+    - Case study
+    - Community update
 - scope:
     path: ''
     type: case_studies
