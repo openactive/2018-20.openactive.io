@@ -1,8 +1,12 @@
 ---
 title: TEST POST
 date: 2018-02-19 10:39:00 Z
-thumbnail_image: "/uploads/placeholder.png"
+categories:
+- News
+tags:
+- Using data
 is_featured: false
+thumbnail_image: "/uploads/placeholder.png"
 ---
 
 Enim aut laudantium repellat saepe minus possimus aut.
