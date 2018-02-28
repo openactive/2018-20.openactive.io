@@ -1,10 +1,9 @@
 ---
 title: Evolving the OpenActive brand and website
 date: 2017-12-14 13:24:00 Z
-is_featured: false
 categories:
 - News
-
+is_featured: false
 thumbnail_image: "/uploads/imag.jpeg"
 layout: post
 ---
