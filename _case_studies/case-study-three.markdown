@@ -1,8 +1,7 @@
 ---
 title: Get Active London
 date: 2017-05-26 00:00:00 Z
-categories:
-- Spotlight
+
 tags:
 - Open Data
 - Fitness

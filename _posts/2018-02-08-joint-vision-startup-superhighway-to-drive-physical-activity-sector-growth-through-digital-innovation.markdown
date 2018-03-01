@@ -3,6 +3,8 @@ title: 'Joint vision: Startup superhighway to drive physical activity sector gro
   through digital innovation'
 date: 2018-02-08 07:16:00 Z
 is_featured: true
+categories:
+- news
 thumbnail_image: "/uploads/blog_vision-79bb7f.jpeg"
 ---
 

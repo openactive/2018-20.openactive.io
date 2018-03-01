@@ -2,6 +2,8 @@
 title: OpenActive Champions assemble
 date: 2018-02-06 12:17:00 Z
 is_featured: true
+categories:
+- news
 thumbnail_image: "/uploads/champions-576cd8.png"
 layout: post
 ---
