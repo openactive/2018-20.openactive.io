@@ -25,46 +25,26 @@ article {
       min-height: 20vh;
       max-height: 370px;
       position: relative;
-      .triangle {
-        position: absolute;
-        left: -1px;
-        bottom: -1px;
-        width: 100%;
-        height: 100%;
-        z-index: 20;
-        background-size: contain;
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%23fff;}%3C/style%3E%3C/defs%3E%3Ctitle%3Ebig-triangle%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-        background-repeat: no-repeat;
-      }
       .mask {
         position: absolute;
-        left: 0;
+        left: -1px;
         top: -1px;
         width: 100%;
         height: 101%;
         z-index: 20;
+        overflow: hidden;
         svg {
-          position: absolute;
-          height: 100%;
-          top: 0;
+          width: 60%;
           .video-1 {
-            fill: $white
+            fill: $white;
+            //&:hover{
+            //  opacity: 0;
+            //}
           }
         }
-      }
-      .stripe {
-        position: absolute;
-        left: -1px;
-        bottom: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 22;
-        background-size: contain;
-        background-repeat: no-repeat;
+
       }
       .image {
-        //-webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 35% 100%);
-        //clip-path: polygon(4% 0, 100% 0, 100% 100%, 35% 100%);
         position: absolute;
         left: 0;
         top: 0;
@@ -78,37 +58,27 @@ article {
         border-right: 0 solid $white;
         grid-column-start: 8;
         grid-column-end: 14;
-        & > div {
-          //-webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
-          //clip-path: polygon(4% 0, 100% 0, 100% 100%, 33% 100%);
-        }
       }
     }
     @media only screen and (max-width: 750px) {
       padding-top: 0;
-      .stripe, .triangle, .mask {
-        display: none;
+      figure {
+        .mask {
+          left:unset;
+          right:-1px;
+          transform: rotate(180deg);
+
+        }
       }
       div {
         grid-column-start: 2;
         grid-column-end: 14;
-        padding-bottom: 4rem;
-
       }
       figure {
         grid-column-start: 2;
         grid-row-start: 2;
         grid-row-end: 2;
-        min-height: 200px;
-        margin-top: -4rem;
-        -webkit-clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
-        clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
 
-        div {
-
-          -webkit-clip-path: polygon(0 12%, 100% 5%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 12%, 100% 5%, 100% 100%, 0% 100%);
-        }
       }
     }
 
@@ -874,9 +844,9 @@ article {
             }
             h4 {
               color: $brand-four;
-                @media only screen and (max-width: 500px) {
-                  font-size:2rem;
-                }
+              @media only screen and (max-width: 500px) {
+                font-size: 2rem;
+              }
 
             }
           }
@@ -1245,6 +1215,33 @@ article {
         }
       }
     }
+    .mask {
+      position: absolute;
+      left: -1px;
+      top: -1px;
+      width: 100%;
+      height: 100%;
+      z-index: 20;
+      overflow: hidden;
+
+      svg {
+        width:60%;
+        .video-1 {
+          fill: $brand-darkblue
+        }
+      }
+    }
+    .triangle {
+      //BLUE TRAINGLE
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%233a3188;}%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 7%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .stripe {
+      //BLUE STRIPE
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 178.86 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%237d338a;}%3C/style%3E%3C/defs%3E%3Ctitle%3Ethin-stripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='14.39 0.05 0 0 164.53 165.78 178.86 165.78 14.39 0.05'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      &.thick {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192.39 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%237d338a;}%3C/style%3E%3C/defs%3E%3Ctitle%3Estripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='192.39 165.78 164.93 138.12 164.89 138.12 27.92 0.11 0 0 164.53 165.78 192.39 165.78'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      }
+    }
 
     figure {
       margin: 0;
@@ -1340,33 +1337,7 @@ article {
       }
     }
   }
-  .mask {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 20;
-    svg {
-      position: absolute;
-      height: 100%;
-      top: 0;
-      .video-1 {
-        fill: $brand-darkblue
-      }
-    }
-  }
-  .triangle {
-    //BLUE TRAINGLE
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 165.47 165.47'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%233a3188;}%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 7%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='0 165.47 165.47 165.47 0 0 0 165.47'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  }
-  .stripe {
-    //BLUE STRIPE
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 178.86 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%237d338a;}%3C/style%3E%3C/defs%3E%3Ctitle%3Ethin-stripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='14.39 0.05 0 0 164.53 165.78 178.86 165.78 14.39 0.05'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    &.thick {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192.39 165.78'%3E%3Cdefs%3E%3Cstyle%3E.cls-1{fill:%237d338a;}%3C/style%3E%3C/defs%3E%3Ctitle%3Estripe%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='cls-1' points='192.39 165.78 164.93 138.12 164.89 138.12 27.92 0.11 0 0 164.53 165.78 192.39 165.78'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    }
-  }
+
 }
 
 .call_to_action {
@@ -1654,7 +1625,7 @@ nav {
         border-left: 1px solid $gray;
         padding-left: 1rem;
         @media only screen and (max-width: 750px) {
-          border:none;
+          border: none;
         }
       }
     }

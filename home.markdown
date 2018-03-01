@@ -32,7 +32,7 @@ layout: home
 
 </div>
 <figure role="group" aria-labelledby="open-active-video">
-<div class="mask">{% include video-overlay.svg %}</div>
+<div class="mask">{% include overlay.svg %}</div>
 <iframe title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE?&modestbranding=1&showinfo=0&rel=0" allowfullscreen></iframe>
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
@@ -158,7 +158,7 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 
 </div>
 <figure>
-<div class="mask">{% include video-overlay.svg %}</div>
+<div class="mask">{% include overlay.svg %}</div>
 <div class="image" style="background: url({{ site.baseurl }}/uploads/accel_cta.png)center center / cover no-repeat;"></div>
 </figure>
 </article>
