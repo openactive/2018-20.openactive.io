@@ -2,7 +2,7 @@
 title: TEST POST
 date: 2018-02-19 10:39:00 Z
 categories:
-- opinion
+- case-study
 tags:
 - Using data
 is_featured: false
