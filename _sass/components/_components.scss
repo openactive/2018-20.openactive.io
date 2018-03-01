@@ -1627,6 +1627,10 @@ nav {
   .one.subgrid {
     grid-column-start: 2;
     grid-column-end: -1;
+    grid-gap: 2rem;
+    @media only screen and (max-width: 600px) {
+      grid-gap: 1rem;
+    }
     .two {
       display: inline-flex;
       flex-direction: column;

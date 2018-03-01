@@ -492,6 +492,12 @@ blockquote {
       margin-bottom: 4rem;
       float: left;
       clear: both;
+      @media only screen and (max-width: 600px) {
+        margin-bottom: 8rem;
+      }
+      @media only screen and (max-width: 500px) {
+        display: none;
+      }
     }
     svg {
       width: 30px;
