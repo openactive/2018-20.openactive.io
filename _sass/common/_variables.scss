@@ -72,6 +72,7 @@ $logo-eight: #f6a635;
 
 $brand-red: #B20037;
 $brand-blue: #253882;
+$brand-darkblue: #0b193e;
 
 // Base Colors
 //
@@ -204,7 +205,7 @@ $globalEight: $brand-eight;
 
   .call_to_action--full-width {
     //background-color: $global;
-    background-color: $brand-blue;
+    background-color: $brand-darkblue;
     .sub-heading-two {
       color: $white;
     }
@@ -264,6 +265,9 @@ $globalEight: $brand-eight;
 
       }
     }
+    input{
+      color: #5A5A5A;
+    }
   }
 
   blockquote.featured {
@@ -281,7 +285,7 @@ $globalEight: $brand-eight;
   }
 
   .invert {
-    background-color: $brand-blue;
+    background-color: $brand-darkblue;
     padding: 4rem 0;
 
     .sub-heading-two {
@@ -580,6 +584,9 @@ article.use, div.use {
         background-color: $usingFour;
       }
     }
+    input{
+      color: #5A5A5A;
+    }
   }
 
   blockquote.featured {
@@ -875,6 +882,9 @@ article.publish, div.publish {
 
       }
     }
+    input{
+      color: #5A5A5A;
+    }
   }
 
   blockquote.featured {
@@ -1133,6 +1143,9 @@ article.startup, div.startup, a.button-primary.startup {
         background-color: $startUpThree;
 
       }
+    }
+    input{
+      color: #5A5A5A;
     }
   }
 

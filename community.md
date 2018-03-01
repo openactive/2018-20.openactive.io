@@ -136,9 +136,7 @@ While our work is technical, you don’t have to be a developer to contribute. O
 
 </div>
 <figure>
-<div class="mask"></div>
-<div class="triangle"></div>
-<div class="stripe"></div>
+<div class="mask">{% include video-overlay.svg %}</div>
 <div class="image" style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
 </figure>
 </article>

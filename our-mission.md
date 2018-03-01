@@ -88,9 +88,7 @@ Let’s look at how we achieve our vision in practice and the progress we’ve m
 
 </div>
 <figure>
-<div class="mask"></div>
-<div class="triangle"></div>
-<div class="stripe"></div>
+<div class="mask">{% include video-overlay.svg %}</div>
 <div class="image" style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>

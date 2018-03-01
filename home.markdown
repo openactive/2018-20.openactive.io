@@ -28,12 +28,12 @@ layout: home
  - Attract people to join activities
  - Innovate to help people get active
 
-[Our Mission]( {{ site.baseurl }}{% link our-mission.md %}){: .button-primary--ghost}
+[Our Mission]( {{ site.baseurl }}{% link our-mission.md %}){: .button-primary--alt}
 
 </div>
 <figure role="group" aria-labelledby="open-active-video">
-
-<iframe title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE" allowfullscreen></iframe>
+<div class="mask">{% include video-overlay.svg %}</div>
+<iframe title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE?&modestbranding=1&showinfo=0&rel=0" allowfullscreen></iframe>
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
@@ -46,7 +46,7 @@ layout: home
 <!-- CASE STUDIES -->
 <!--  ---------------->
 <article class="title-row">
-<h2 class="sub-heading-two">Success Stories</h2>
+<h2 class="sub-heading-two margin-top">Success Stories</h2>
 {% include case-study.html %}
 </article>
 
@@ -158,8 +158,7 @@ Millions find it hard to stay active. OpenActive Accelerator calls for startups 
 
 </div>
 <figure>
-<div class="triangle"></div>
-<div class="stripe"></div>
+<div class="mask">{% include video-overlay.svg %}</div>
 <div class="image" style="background: url({{ site.baseurl }}/uploads/accel_cta.png)center center / cover no-repeat;"></div>
 </figure>
 </article>

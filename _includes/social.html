@@ -1,5 +1,10 @@
 <div id="social" class="g-item social">
     <ul>
+        {% if site.medium_username %}
+        <li>
+            {% include icon-medium.html username=site.medium_username %}
+        </li>
+        {% endif %}
         {% if site.twitter_username %}
         <li>
             {% include icon-twitter.html username=site.twitter_username %}
@@ -29,10 +34,6 @@
             {% include icon-pinterest.html username=site.pinterest_username %}
         </li>
         {% endif %}
-        {% if site.medium_username %}
-        <li>
-            {% include icon-medium.html username=site.medium_username %}
-        </li>
-        {% endif %}
+
     </ul>
 </div>
