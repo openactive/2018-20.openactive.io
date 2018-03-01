@@ -82,8 +82,7 @@ Join the open data revolution with OpenActive and help the nation get active.
 
 </div>
 <figure>
-<div class="triangle"></div>
-<div class="stripe thick"></div>
+<div class="mask">{% include video-overlay.svg %}</div>
 <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>

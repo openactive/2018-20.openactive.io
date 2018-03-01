@@ -38,15 +38,18 @@ article {
       }
       .mask {
         position: absolute;
-        left: -1px;
-        bottom: -1px;
+        left: 0;
+        top: -1px;
         width: 100%;
-        height: 100%;
+        height: 101%;
         z-index: 20;
         svg {
           position: absolute;
-          height: 102%;
-          top: -3px;
+          height: 100%;
+          top: 0;
+          .video-1 {
+            fill: $white
+          }
         }
       }
       .stripe {
@@ -143,7 +146,22 @@ article {
       position: relative;
       //-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
       //clip-path: polygon(0 0, 100% 0, 100% 100%, 29% 100%);
-
+      .mask {
+        position: absolute;
+        left: 0;
+        top: -1px;
+        width: 100%;
+        height: 101%;
+        z-index: 20;
+        svg {
+          position: absolute;
+          height: 100%;
+          top: 0;
+          .video-1 {
+            fill: $white
+          }
+        }
+      }
       .triangle {
         position: absolute;
         left: -1px;
@@ -166,17 +184,16 @@ article {
         background-repeat: no-repeat;
 
       }
-      & div {
-        &:nth-child(3) {
-          //-webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 35% 100%);
-          //clip-path: polygon(4% 0, 100% 0, 100% 100%, 35% 100%);
-          position: absolute;
-          left: 0;
-          top: 0;
-          width: 100%;
-          height: 100%;
-        }
+      .image {
+        //-webkit-clip-path: polygon(4% 0, 100% 0, 100% 100%, 35% 100%);
+        //clip-path: polygon(4% 0, 100% 0, 100% 100%, 35% 100%);
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
       }
+
     }
     @media only screen and (max-width: 750px) {
       .stripe, .triangle {
@@ -883,7 +900,8 @@ article {
   *, h3 {
     color: $white;
   }
-  h4{}
+  h4 {
+  }
 }
 
 article {
@@ -1326,8 +1344,8 @@ article {
       position: absolute;
       height: 100%;
       top: 0;
-      .video-1{
-        fill:$brand-darkblue
+      .video-1 {
+        fill: $brand-darkblue
       }
     }
   }
@@ -1596,6 +1614,9 @@ nav {
 .case-study-slim {
   grid-row: 1;
   padding: 2rem 0;
+  @media only screen and (max-width: 1400px) {
+    grid-row: 2;
+  }
   .one.subgrid {
     grid-column-start: 2;
     grid-column-end: -1;
@@ -1621,6 +1642,9 @@ nav {
         justify-content: center;
         border-left: 1px solid $gray;
         padding-left: 1rem;
+        @media only screen and (max-width: 750px) {
+          border:none;
+        }
       }
     }
     &.case-tab {
@@ -1662,18 +1686,33 @@ nav {
   }
 }
 
-.block-overlay{
+.block-overlay {
   background-color: #e8f1f6;
   grid-column-start: 2;
   grid-column-end: -1;
   grid-row: 1;
   height: 100%;
   z-index: -1;
-  &+.right-col{
+  @media only screen and (max-width: 1400px) {
+    grid-row: 2;
+  }
+  @media only screen and (max-width: 750px) {
+    grid-column-end: 14;
+  }
+  & + .right-col {
     grid-row: 1;
     margin-top: 1rem;
+    @media only screen and (max-width: 1400px) {
+      grid-column-start: 14;
+      grid-column-end: -1;
+      grid-row: 2;
+    }
+    @media only screen and (max-width: 1200px) {
+      display: none;
+    }
   }
 }
+
 //END NAVIGATION LIST STYLES
 /*********************************/
 /*********************************/

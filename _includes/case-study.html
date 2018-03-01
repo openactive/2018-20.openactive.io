@@ -40,7 +40,7 @@
 </div>
 <div class="block-overlay"></div>
 <aside class="right-col">
-{% for post in site.case_studies %}
+{% for post in site.case_studies | limit: 1 %}
 {% if post.is_featured %}
 <div class="case-content" data-id="case-{{ forloop.index }}">
 <h6>DATA EXPOSED</h6>

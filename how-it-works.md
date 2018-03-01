@@ -139,9 +139,7 @@ Now you know how it works, let’s look at how you can make your data available 
 
 </div>
 <figure>
-<div class="mask"></div>
-<div class="triangle"></div>
-<div class="stripe"></div>
+<div class="mask">{% include video-overlay.svg %}</div>
 <div class="image" style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>

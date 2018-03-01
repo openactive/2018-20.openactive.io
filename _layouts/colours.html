@@ -49,10 +49,8 @@ layout: default
             <p>{{page.strapline}}</p>
         </div>
         <figure class="hero">
-            <div class="triangle"></div>
-            <div class="stripe thick"></div>
-
-            <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div class="mask">{% include video-overlay.svg %}</div>
+            <div class="image" style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
         </figure>
         <figure class="sub-menu">
             <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
@@ -68,8 +66,7 @@ layout: default
             <p>{{page.strapline}}</p>
         </div>
         <figure>
-            <div class="triangle"></div>
-            <div class="stripe thick"></div>
+            <div class="mask">{% include video-overlay.svg %}</div>
             <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
         </figure>
     </article>

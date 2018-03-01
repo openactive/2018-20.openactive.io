@@ -155,9 +155,7 @@ Consectetur expedita iste est tempore ipsum qui accusantium. Sequi perferendis e
 
 </div>
 <figure>
-<div class="mask"></div>
-<div class="triangle"></div>
-<div class="stripe"></div>
+<div class="mask">{% include video-overlay.svg %}</div>
 <div class="image" style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
 </figure>
 </article>
