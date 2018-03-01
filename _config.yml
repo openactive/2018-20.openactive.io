@@ -57,11 +57,11 @@ defaults:
     is_featured: false
     thumbnail_image: ''
     categories:
-    - News
-    - Opinion
-    - Interview
-    - Case study
-    - Community update
+    - news
+    - opinion
+    - interview
+    - case-study
+    - community-update
     tags:
     - Using data
     - Publishing data

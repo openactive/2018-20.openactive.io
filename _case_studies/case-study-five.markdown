@@ -1,8 +1,6 @@
 ---
 title: Our parks
 date: 2017-02-01 00:00:00 Z
-categories:
-- Spotlight
 tags:
 - Open Data
 - Collaboration
