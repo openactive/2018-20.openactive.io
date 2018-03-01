@@ -9,7 +9,7 @@
 {% endif %}
 
 {% if post.is_featured %}
-<div class="one subgrid case-tab" data-tab="case-{{ forloop.index }}" style="grid-gap: 2rem;">
+<div class="one subgrid case-tab" data-tab="case-{{ forloop.index }}">
 <div class="two tworight">
 <a href="{{ post.url | relative_url }}">
 <figure role="group" aria-labelledby="fig-{{ forloop.index }}">
@@ -40,7 +40,7 @@
 </div>
 <div class="block-overlay"></div>
 <aside class="right-col">
-{% for post in site.case_studies | limit: 1 %}
+{% for post in site.case_studies %}
 {% if post.is_featured %}
 <div class="case-content" data-id="case-{{ forloop.index }}">
 <h6>DATA EXPOSED</h6>

@@ -52,6 +52,7 @@ html.cssgrid, html {
             &.headline {
               grid-column-start: 2;
               grid-column-end: 12;
+              align-self: end;
             }
             &.navigation {
               grid-column-start: 9;
@@ -292,7 +293,7 @@ html.no-cssgrid {
 $header-border-color: $brand-one;
 $header-border-thickness: 2px;
 $header-border-padding: 1rem;
-
+$header-top-margin: 2rem;
 @media only screen and (min-width: 1000px) {
   body > header {
     position: fixed;
@@ -367,12 +368,14 @@ $header-border-padding: 1rem;
           padding-bottom: 0;
         }
         a svg {
-          padding-bottom: 1rem;
+          padding-bottom: 0;
+          border-bottom: none;
+
         }
       }
     }
     .navigation {
-      margin-top: 3rem;
+      margin-top: $header-top-margin;
       padding-bottom: $header-border-padding;
       @media only screen and (max-width: 1400px) {
         padding-bottom: 1rem;
@@ -386,7 +389,7 @@ $header-border-padding: 1rem;
       }
     }
     .button {
-      margin-top: 3rem;
+      margin-top: $header-top-margin;
       @media only screen and (max-width: 1400px) {
         padding-bottom: 0;
       }
@@ -437,6 +440,16 @@ $header-border-padding: 1rem;
               height: 25px;
               padding-left: 5px;
             }
+          }
+          @media only screen and (max-width: 1400px) {
+            &:nth-child(1n){
+              .icon{
+                display: none;
+              }
+            }
+          }
+          @media only screen and (max-width: 1000px) {
+
           }
         }
       }
@@ -590,6 +603,7 @@ $header-border-padding: 1rem;
         #social {
           align-items: start;
           margin-bottom: 0;
+          width: 40%;
           ul {
             display: inline-flex;
             justify-content: flex-start;
@@ -797,6 +811,7 @@ $header-border-padding: 1rem;
             width: 30px;
             height: 30px;
             padding: 0;
+            display:inline-block;
           }
         }
       }

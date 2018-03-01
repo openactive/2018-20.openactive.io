@@ -659,6 +659,9 @@
       grid-column-start: 2;
       grid-column-end: 14;
       margin-bottom: 1rem;
+      @media only screen and (max-width: 600px) {
+
+      }
       &.one{
         margin-bottom: 0;
       }
