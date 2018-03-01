@@ -15,7 +15,7 @@ layout: default
             {% if thePosts == null %}
               <p>No posts currently</p>
             {% else %}
-            
+
             {% for post in thePosts limit:1 %}
 
             <h2>{{ post.title | escape }}</h2>
