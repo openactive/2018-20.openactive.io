@@ -5,6 +5,11 @@
 // Make type normal across browsers
 *, html, body {
   font-size: $base-font-size;
+
+  @media only screen and (max-width: 500px) {
+    font-size: $mobile-base-font-size;
+  } 
+  
   font-family: $font-family;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
