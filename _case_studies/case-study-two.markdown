@@ -1,7 +1,6 @@
 ---
 title: MyLocalPitch
 date: 2017-12-14 16:18:00 Z
-
 tags:
 - Open Data
 strapline: promoting availability at local sports venues through data sharing.
