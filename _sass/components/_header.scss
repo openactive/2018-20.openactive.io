@@ -289,6 +289,10 @@ html.no-cssgrid {
 /*********************************/
 //DECORATIVE OR COMPATABLE LAYOUT STYLES FOR SCREENS OVER 1000px
 
+$header-border-color: $brand-one;
+$header-border-thickness: 2px;
+$header-border-padding: 1rem;
+
 @media only screen and (min-width: 1000px) {
   body > header {
     position: fixed;
@@ -303,7 +307,7 @@ html.no-cssgrid {
 
       }
       &.navigation {
-        border-bottom: 1px solid $gray;
+        border-bottom: $header-border-thickness solid $header-border-color;
         ul {
           display: inline-flex;
         }
@@ -352,8 +356,8 @@ html.no-cssgrid {
         top: 0;
         width: 150px;
         left: 0;
-        padding-bottom: 2rem;
-        border-bottom: 1px solid lightgrey;
+        padding-bottom: $header-border-padding;
+        border-bottom: $header-border-thickness solid $header-border-color;
       }
       @media only screen and (max-width: 1400px) {
         justify-content: flex-start;
@@ -368,7 +372,8 @@ html.no-cssgrid {
       }
     }
     .navigation {
-      padding-bottom: 2rem;
+      margin-top: 3rem;
+      padding-bottom: $header-border-padding;
       @media only screen and (max-width: 1400px) {
         padding-bottom: 1rem;
       }
@@ -381,13 +386,13 @@ html.no-cssgrid {
       }
     }
     .button {
-      margin-top: 1rem;
+      margin-top: 3rem;
       @media only screen and (max-width: 1400px) {
         padding-bottom: 0;
       }
       .social-button {
-        padding-bottom: 2rem;
-        border-bottom: 1px solid $gray;
+        padding-bottom: $header-border-padding;
+        border-bottom: $header-border-thickness solid $header-border-color;
         width: 150px;
         #social {
           margin-bottom: 1rem;
@@ -437,12 +442,12 @@ html.no-cssgrid {
       }
     }
     .headline {
-      padding-bottom: 2rem;
+      padding-bottom: $header-border-padding;
       font-size: 1.8em;
       margin: 0;
       font-family: $font-family;
       font-weight: 200;
-      border-bottom: 1px solid $gray;
+      border-bottom: $header-border-thickness solid $header-border-color;
       color: $brand-blue;
       @media only screen and (max-width: 1400px) {
         padding-bottom: 1rem;
@@ -492,7 +497,7 @@ html.no-cssgrid {
 @media only screen and (max-width: 1000px) {
   body > header:not(.accelerator-header) {
     position: fixed;
-    border-bottom: 1px solid $gray;
+    border-bottom: $header-border-thickness solid $header-border-color;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;

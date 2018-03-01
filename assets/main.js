@@ -1,30 +1,14 @@
 $(document).ready(function () {
     (function ($) {
 
-        // var mentors = $('.post');
-        // mess_content.each(function(){
-        //     if ($(this).text().length > 120) {
-        //         var obrtext = $(this).text().substr(0,120) ;
-        //         $(this).html(obrtext+"<a href='#'>read more</a>") ;
-        //     }
-        // });
 
-        //GET QUERY STRING
-        // function getQueryStringValue (key) {
-        //     return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
-        // }
-        // var outcome = getQueryStringValue("outcome");
-        //
-        // if(outcome == 'success'){
-        //     $('.vote').hide();
-        //     $('.thanks').show();
-        // }
-
-
+        $( ".ytp-large-play-button" ).mousedown(function() {
+            alert( "Handler for .mousedown() called." );
+        });
 
         $(".further-code").hide();
 
-        $('.data-show').on("click",function(){
+        $('.data-show').on("click", function () {
             if ($(this).html() == 'Show me more') {
                 $(this).html('Show me less');
             } else {
@@ -35,11 +19,11 @@ $(document).ready(function () {
 
 
         //BOOKING SYSTEM FILTER
-        $("#booking-filter").keyup(function(){
+        $("#booking-filter").keyup(function () {
             // Retrieve the input field text and reset the count to zero
             var filter = $(this).val(), count = 0;
             // Loop through the comment list
-            $("nav > .booking-tab").each(function(){
+            $("nav > .booking-tab").each(function () {
                 // If the list item does not contain the text phrase fade it out
                 if ($(this).text().search(new RegExp(filter, "i")) < 0) {
                     $(this).fadeOut();
@@ -279,7 +263,6 @@ $(document).ready(function () {
         $('.show_hide').on("click", function () {
             $(this).children('.slidingDiv').slideToggle();
         });
-
 
 
         var $onScrollNav = $('.mobile_button'),

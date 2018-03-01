@@ -125,7 +125,7 @@ h2 + p, h2 + ul li p, .h2-copy {
 .sub-heading-two {
   text-align: right;
   padding-top: 0.5rem;
-  border-top: 1px solid $gray;
+  border-top: 2px solid $brand-three;
   color: $brand-blue;
   margin: 0;
   font-family: $font-family;
@@ -143,6 +143,9 @@ h2 + p, h2 + ul li p, .h2-copy {
     br {
       display: none;
     }
+  }
+  &.margin-top{
+    margin-top: 1rem;
   }
 }
 

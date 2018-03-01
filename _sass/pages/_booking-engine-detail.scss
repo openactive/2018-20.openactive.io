@@ -1,10 +1,23 @@
 #booking-engine {
-  header{
-    grid-column-start: 2;
-    grid-column-end: 14;
-  }
-  .booking-engine-content{
-    grid-column-start: 2;
-    grid-column-end: 14;
+  .inset-call-to-action {
+    text-align: left;
+    padding-top: 2rem;
+    display: inline-flex;
+    align-self:auto;
+    justify-content: flex-start;
+    h4 {
+      margin-top: 1rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    label{
+      input{
+        margin-top: .2rem;
+      }
+      &:nth-child(1){
+        margin-top: 2rem;
+      }
+    }
   }
 }
