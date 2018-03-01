@@ -37,7 +37,6 @@ collections:
   posts:
     title: Posts
     output: true
-
   uploads:
     title: Uploads
     output: true
@@ -53,12 +52,6 @@ defaults:
 - scope:
     path: ''
     type: posts
-    categories:
-    - news
-    - opinion
-    - interview
-    - case-study
-    - community-update
   values:
     layout: post
     is_featured: false
