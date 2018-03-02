@@ -271,7 +271,7 @@ $globalEight: $brand-eight;
   }
 
   blockquote.featured {
-    background-color: $global;
+    background-color: $brand-darkblue;
 
   }
   .featured {
@@ -360,7 +360,7 @@ $globalEight: $brand-eight;
   }
   .invert-2 {
     @extend .invert;
-    background-color: $global;
+    background-color: $brand-darkblue;
   }
   .invert-3 {
     @extend .invert;

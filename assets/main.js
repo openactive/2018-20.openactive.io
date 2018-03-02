@@ -1,10 +1,26 @@
 $(document).ready(function () {
     (function ($) {
 
+        $(document).ready(function () {
+            $('.video-stream').on('click', function (ev) {
+                console.log('clicked');
+                $("#video")[0].src += "&autoplay=1";
+                ev.preventDefault();
 
-        $( ".ytp-large-play-button" ).mousedown(function() {
-            alert( "Handler for .mousedown() called." );
+            });
         });
+
+        $(".mobile-show").hide();
+        if ($(window).width() < 500) {
+            $(".mobile-show").show();
+            $(".mobile-hide-content:gt(5)").hide();
+
+            $('.mobile-show').on("click", function () {
+                $('.mobile-hide-content').show();
+            });
+
+
+        }
 
         $(".further-code").hide();
 

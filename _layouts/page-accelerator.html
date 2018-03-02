@@ -43,7 +43,7 @@ layout: default-accelerator
         <div class="two">
             <a class="button-primary--ghostlarge" target="_blank"
                onclick="gtag('event', 'accelerator ctas', {'hero': 'clicked', 'event_label': 'apply now'});"
-               href="https://www.f6s.com/openactiveaccelerator/apply">APPLY NOW</a> 
+               href="https://www.f6s.com/openactiveaccelerator/apply">APPLY NOW</a>
         </div>
          <div class="two">
             <a class="button-primary--ghostlarge" target="_blank"
@@ -224,7 +224,7 @@ layout: default-accelerator
             {% for post in sortedPosts %}
             {% assign theImage = post.thumbnail_image %}
 
-            <div class="inline-block-six">
+            <div class="inline-block-six mobile-hide-content">
 
                 <figure>
                     <img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
@@ -263,54 +263,57 @@ layout: default-accelerator
 
             {% endfor %}
         </div>
-    </article>
-
-        <article class="title-row" id="mentorblock">
-            <div class="subgrid">
-        {% assign sortedPosts = site.mentors | sort: 'title' %}
-        {% for post in sortedPosts %}
-        {% assign theImage = post.thumbnail_image %}
-
-        <div class="mentor">
-
-            <figure>
-                <img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
-                <figcaption>
-                    <p><strong>{{ post.title | escape }}</strong></p>
-                    <p>{{ post.second-name | escape }} </p>
-                    <p>{{ post.role | escape }} </p>
-                </figcaption>
-                <div class="social-links">
-                    {% if post.twitter %}
-
-                    <a target="_blank" rel="noopener" href="{{ post.twitter }}">
-                                        <span class="icon icon--twitter">
-                                            {% include twitter.svg %}
-                                        </span>
-                        <span class="hidden" aria-hidden="true">
-                                            Twitter
-                                        </span>
-                    </a>
-                    {% endif %}
-                    {% if post.linkedin %}
-                    <a href="{{ post.linkedin }}" target="_blank">
-                                        <span class="icon icon--twitter">
-                                            {% include linkedin.svg %}
-                                        </span>
-                        <span class="hidden" aria-hidden="true">
-                                            LinkedIn
-                                        </span>
-                    </a>
-                    {% endif %}
-                </div>
-            </figure>
-
-        </div>
-
-
-        {% endfor %}
+        <div class="one buttons">
+            <a class="button-primary--ghost mobile-show">View More</a>
         </div>
     </article>
+
+        <!--<article class="title-row" id="mentorblock">-->
+            <!--<div class="subgrid">-->
+        <!--{% assign sortedPosts = site.mentors | sort: 'title' %}-->
+        <!--{% for post in sortedPosts %}-->
+        <!--{% assign theImage = post.thumbnail_image %}-->
+
+        <!--<div class="mentor">-->
+
+            <!--<figure>-->
+                <!--<img src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>-->
+                <!--<figcaption>-->
+                    <!--<p><strong>{{ post.title | escape }}</strong></p>-->
+                    <!--<p>{{ post.second-name | escape }} </p>-->
+                    <!--<p>{{ post.role | escape }} </p>-->
+                <!--</figcaption>-->
+                <!--<div class="social-links">-->
+                    <!--{% if post.twitter %}-->
+
+                    <!--<a target="_blank" rel="noopener" href="{{ post.twitter }}">-->
+                                        <!--<span class="icon icon&#45;&#45;twitter">-->
+                                            <!--{% include twitter.svg %}-->
+                                        <!--</span>-->
+                        <!--<span class="hidden" aria-hidden="true">-->
+                                            <!--Twitter-->
+                                        <!--</span>-->
+                    <!--</a>-->
+                    <!--{% endif %}-->
+                    <!--{% if post.linkedin %}-->
+                    <!--<a href="{{ post.linkedin }}" target="_blank">-->
+                                        <!--<span class="icon icon&#45;&#45;twitter">-->
+                                            <!--{% include linkedin.svg %}-->
+                                        <!--</span>-->
+                        <!--<span class="hidden" aria-hidden="true">-->
+                                            <!--LinkedIn-->
+                                        <!--</span>-->
+                    <!--</a>-->
+                    <!--{% endif %}-->
+                <!--</div>-->
+            <!--</figure>-->
+
+        <!--</div>-->
+
+
+        <!--{% endfor %}-->
+        <!--</div>-->
+    <!--</article>-->
 
 
     <article class="title-row steps collapse-bottom-with-pad invert-2" id="selection">

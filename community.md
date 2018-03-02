@@ -110,10 +110,14 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 {% assign posts = site.members | sample:18 %}
 {% for post in posts %}
 {% assign theImage = post.thumbnail_image %}
-<div class="six" data-tab="{{ forloop.index }}" markdown="0" >
+<div class="six mobile-hide-content" data-tab="{{ forloop.index }}" markdown="0" >
 <a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
 </div>
 {% endfor %}
+<div class="one buttons">
+<a class="button-primary" href="{% link members-page.md %}">View All</a>
+<a class="button-primary--ghost mobile-show">View More</a>
+</div>
 </article>
 
 
@@ -169,32 +173,27 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Community News</h2>
 
+{% assign thePosts = site.categories[page.community-update] %}
 
+{% if thePosts == null %}
+<p>No posts currently</p>
+{% else %}
 
-{% assign postList = site.posts | where: "categories", "Community" %}
-{% for post in postList limit:1 %}
+{% for post in thePosts limit:1 %}
 
-<div class="two" id="post-{{ forloop.index }}">
-<figure role="group">
-<img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}-post-thumbnail">
-</figure>
-<h3>{{ post.title | escape }}</h3>
-<div class="subgrid brand-one-b">
-<div class="two twoleft">
-{{ post.excerpt }}
-<a class="button-primary" href="{{ post.url | relative_url }}">Read Post</a>
-</div>
-<div class="two twoleft">
-{% include share-page.html %}
+<h2>{{ post.title | escape }}</h2>
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-{{post.date | date: date_format}}
-{{post.author}}
+<span class="post-meta">{{ post.date | date: date_format }}</span>
+<p class="post-snippet">{{post.excerpt}}</p><a href="{{ post.url | relative_url }}" class="button-primary">Read more</a>
 </div>
-</div>
-</div>
+<figure>
+<div class="mask">{% include overlay.svg %}</div>
+<div class="image" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
+</figure>
+
 {% endfor %}
-<div class="two">
-</div>
+{% endif %}
+
 </article>
 
 

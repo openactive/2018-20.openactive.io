@@ -31,9 +31,9 @@ layout: home
 [Our Mission]( {{ site.baseurl }}{% link our-mission.md %}){: .button-primary--alt}
 
 </div>
-<figure role="group" aria-labelledby="open-active-video">
+<figure id="introduction-vid"  role="group" aria-labelledby="open-active-video">
 <div class="mask">{% include overlay.svg %}</div>
-<iframe title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE?&modestbranding=1&showinfo=0&rel=0" allowfullscreen></iframe>
+<iframe id="video" title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE?&modestbranding=1&showinfo=0&rel=0&enablejsapi=1" allowfullscreen></iframe>
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
