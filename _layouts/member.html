@@ -4,20 +4,36 @@ layout: default
 
 <article id="case-study" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header>
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
-  </header>
+    <header>
+        <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    </header>
 
-  <div itemprop="articleBody">
+    <div itemprop="articleBody">
 
-    {{ content }}
+        {{ content }}
 
+        <a class="link" href="{{ post.website }}" rel="noopener" target="_blank">Visit Website</a>
 
-  </div>
+    </div>
 
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
+</article>
+
+<article class="title-row">
+    <h2 class="sub-heading-two">Other Members</h2>
+    <div class="one freegrid-six">
+        {% assign posts = site.members %}
+        {% for post in posts %}
+        {% if post.is_featured %}
+
+        <figure role="group">
+            <a href="{{ post.url | relative_url }}">
+                <img role="logo" src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}">
+                <span class="hidden" aria-hidden="true">{{ post.title | escape }}</span>
+            </a>
+        </figure>
+        {% endif %}
+        {% endfor %}
+    </div>
 </article>
 
 

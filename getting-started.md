@@ -46,6 +46,7 @@ Search our list of booking systems to see if they are already benefiting from ou
 <div class="booking-tab" markdown="0" >
 <a href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
 <span class="hidden">{{post.title}}</span>
+<span class="hidden">{{post.title | downcase}}</span>
 </div>
 {% endfor %}
 <div class="booking-tab marker" markdown="0">

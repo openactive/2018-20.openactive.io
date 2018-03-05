@@ -54,7 +54,33 @@ layout: default
     </article>
 
 
-    </aside>
+    <article class="member-list">
+        <div class="one">
+            <h4>Open Active's other associated Booking Systems listed below are yet to adopt the standards</h4>
+            <p>Please click through to read more about each booking engines's current status</p>
+        </div>
+        <div class="one freegrid-four">
+
+            {% assign sortedPosts = site.booking_engines | sort: 'title' %}
+            {% for post in sortedPosts %}
+            {% if post.is_enabled == false %}
+            {% assign theImage = post.thumbnail_image %}
+            {% if post.member %}
+            {% assign theMember = site.members | where:"title", post.member  | first %}
+            {% assign theImage = theMember.thumbnail_image %}
+            {% endif %}
+
+            <figure role="group">
+                <a class="post-title post-link" href="{{ post.url | relative_url }}">
+                <img role="logo" src="{{theImage | relative_url}}">
+                </a>
+            </figure>
+
+            {% endif %}
+            {% endfor %}
+
+        </div>
+    </article>
    
 
 

@@ -1,9 +1,8 @@
 ---
 title: How It Works
-permalink: "/how-it-works/"
+permalink: "/how-it-works-alt/"
 position: 2
-is_main_navigation: false
-is_secondary_navigation: true
+is_main_navigation: true
 layout: page-headless
 ---
 
@@ -17,12 +16,9 @@ layout: page-headless
 
 <h1>{{ page.title | escape }}</h1>
 
- OpenActive is a community-led initiative using open data to help people get active.
+Open data is a tool that can help activity providers increase the reach and visibility of the opportunities they run.
 
-OpenActive makes discovering and taking part in  sport and fitness activities easier than ever before. With open data, your activities can be available to people across the country,  on websites and apps that attract millions of users, to communities and services that engage local people.
-
-<!-- Our goal is to collect and share opportunity data on what, where, and when physical activity sessions happen, and to make this information openly available to everyone, transforming the way people discover, access, and take part in new activities. -->
-<!-- We believe that open opportunity data will revolutionise the sport and physical sector, helping providers to better deliver activities, attract engaged and active customers, and lead the nation in becoming more active together. -->
+It can also help data users create new apps and services that can help people get active.
 
 </div>
 <div class="two">
@@ -32,6 +28,46 @@ OpenActive makes discovering and taking part in  sport and fitness activities ea
 
 </div>
 </article>
+
+
+
+<article>
+<div class="three">
+{% include placeholder.svg %}
+
+##### Activity providers make the data about their opportunities open.
+
+This is covers timetables, locations and descriptions. This is often already accessible on the web. Making it open means that people can use it in interesting ways.
+
+See below to find out how to make this data open.
+
+</div>
+<div class="three">
+{% include placeholder.svg %}
+
+##### Third parties can list these opportunities in their apps or services.
+
+Because it is openly licensed, anyone has permission ot access, use or share this opportunity data.
+
+These services include straightforward activity finders for a wide audience or tailored tools aimed at specific types of user.
+
+</div>
+<div class="three">
+{% include placeholder.svg %}
+
+##### The data can also be bookable.
+
+This means that a customer can make a booking on a third party's site, and the payment is sent securely to the activity provider.
+
+</div>
+</article>
+
+
+<!--  ---------------->
+<!-- TABS -->
+<!--  ---------------->
+{% include tabs.html %}
+
 
 <!--  ---------------->
 <!-- WHAT IS OPPORTUNITY DATA -->
@@ -55,23 +91,24 @@ OpenActive makes discovering and taking part in  sport and fitness activities ea
 <article>
 <div class="one">
 
-### Open opportunity data is about where and when sport and physical activities happen.
-This data can be made available for anyone to access, use, and share, helping consumers to discover and take part in new activities, and providers to more accurately tailor and grow their services.
+#### Opportunity data helps people decide whether to take part in an activity or not.
+It includes things like **date & time**, **location** and **description.** It describes **events**, **sessions** or **facilities** that are available in the future.
 
-By encouraging organisations to publish their data openly and to a commonly agreed standard, we are not only facilitating open sharing across individual websites, but building a connected, online community that’s free to grow and innovate in response to its consumers’ needs.
+In most cases this information can already be found on the activity provider's own website. Making it open means that it can be listed in lots of different places. Data is made available via an openly licensed feed - or API - that anyone can access, use or share. There won't be anything sensitive in this feed.
 
-Opening up opportunity data across the sector will better connect providers and consumers, and allow sport and physical activity sessions across the country to be easily shared and accessed everywhere, from websites and apps that attract millions of users, to communities and services that engage local people.
+###### Opportunity data **does not** include things like personal data about customers or a record of who has done what.
 
 </div>
 </article>
 
 
 <!--  ---------------->
-<!-- TABS -->
+<!-- CASE STUDIES BLOCK -->
 <!--  ---------------->
-{% include tabs.html %}
-
-
+<article class="title-row">
+<h2 class="sub-heading-two">Success Stories</h2>
+{% include case-study.html %}
+</article>
 
 
 <!--  ---------------->
@@ -81,7 +118,6 @@ Opening up opportunity data across the sector will better connect providers and 
 <h2 class="sub-heading-two">What are the benefits?</h2>
 <div class="one subgrid">
 <div class="three ">
-
 
 #### Sport and Physical Activity Providers
 
@@ -114,14 +150,6 @@ Opening up opportunity data across the sector will better connect providers and 
 </div>
 </article>
 
-<!--  ---------------->
-<!-- CASE STUDIES BLOCK -->
-<!--  ---------------->
-<article class="title-row">
-{% include case-study.html %}
-</article>
-
-
 
 <!--  ---------------->
 <!-- GETTING STARTED TO ACTION -->
@@ -151,20 +179,28 @@ Now you know how it works, let’s look at how you can make your data available 
 <article class="call_to_action title-row ">
 <h2 class="sub-heading-two">Jump In</h2>
 <div class="subgrid">
-<div class="two">
+<div class="three">
 
 ### E-Learning
-Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
+Join the open data revolution with OpenActive and help the nation get active.
 
 [Learn the Basics]( {{ site.baseurl }}{% link e-learning.md %}){:class="button-primary" }
 
 </div>
-<div class="two">
+<div class="three">
 
 ### Developer
 Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusamus in.
 
 [Dive Deep]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
+
+</div>
+<div class="three">
+
+### Community
+This is an open-invitation community of pioneering organisations.
+
+[Get Involved]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
 
 </div>
 </div>

@@ -4,7 +4,6 @@ layout: default
 
 <div class="page global-template" id="join-partner">
 
-
     <article markdown="0" class="hero--sub ">
 
         <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
@@ -13,12 +12,17 @@ layout: default
             <p>{{page.strapline}}</p>
         </div>
         <figure>
-            <div style="background: url({{site.baseurl}}{{page.thumbnail_image}})center center / cover no-repeat;"></div>
+            <!--<div class="mask">{% include hero-mask_1.svg %}</div>-->
+            <div class="mask">{% include overlay.svg %}</div>
+            <div class="image" style="background: url({{site.baseurl}}{{page.thumbnail_image}})top center / cover no-repeat;"></div>
         </figure>
     </article>
 
 
     <article>
+        <div class="two">
+            {{ content }}
+        </div>
         <div class="two">
             <div class="w-embed w-script">
 
@@ -61,7 +65,7 @@ layout: default
                     .mc-checkboxes input[type='checkbox'] {
                         display: block;
                         position: absolute;
-                        margin-top: 2px;
+                        margin-top: 6px!important;
                     }
 
                     .mc-checkboxes label {
@@ -72,8 +76,8 @@ layout: default
 
                     .mc-checkboxes li {
                         margin-top: 15px;
+                        list-style: none;
                     }
-
                     #mce-success-response {
                         background-color: #ddd;
                     }
@@ -178,10 +182,6 @@ layout: default
                 var $mcj = jQuery.noConflict(true);</script>
 
             </div>
-
-        </div>
-        <div class="two">
-            {{ content }}
         </div>
     </article>
 </div>

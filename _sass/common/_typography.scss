@@ -247,7 +247,7 @@ h5 {
 // <h6>Heading Six</h6>
 //
 // Styleguide typography.heading-six
-h6 {
+h6, blockquote > h6 {
   font-size: $header-size / 3.75;
   text-transform: uppercase;
   margin-bottom: .5rem;
@@ -259,7 +259,6 @@ h6 {
     margin-top: 0;
     font-size: $header-size /3.75;
   }
-
 }
 
 // Paragraphs
@@ -272,6 +271,9 @@ p, li {
   &:first-of-type {
     margin-top: 0;
   }
+}
+p + h6 {
+  margin-top: 1rem;
 }
 
 // Links
@@ -464,7 +466,7 @@ article.featured {
     }
 
   }
-  div {
+  div.border {
     margin-top: 0;
     grid-row: 2;
     border-color: $brand-seven;

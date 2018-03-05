@@ -32,10 +32,8 @@ When data is made open using the instructions in Open your data, it will automat
 </div>
 </article>
 
-
-
 <article class="title-row invert">
-<h2 class="sub-heading-two">Data Providers</h2>
+<h2 class="sub-heading-two">Data Dashboard</h2>
 <div class="one subgrid">
 <div class="two">
 
@@ -51,6 +49,11 @@ Review our list of data providers below to see who's already sharing their data.
 </div>
 </div>
 
+</article>
+
+
+<article class="title-row">
+<h2 class="sub-heading-two">Data Providers</h2>
 <div class="one freegrid-four">
 {% assign sortedPosts = site.dataproviders | sort: 'title' %}
 {% for post in sortedPosts %}
@@ -58,7 +61,7 @@ Review our list of data providers below to see who's already sharing their data.
 
 <div>
 <figure>
-<img role="logo" src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+<img role="logo" class="no-link" src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
 </figure>
 </div>
 
@@ -66,23 +69,3 @@ Review our list of data providers below to see who's already sharing their data.
 </div>
 </article>
 
-<!--  ---------------->
-<!-- DEVELOPER CALL TO ACTION -->
-<!--  ---------------->
-<article markdown="0" class="call_to_action--full-width">
-<h2 class="sub-heading-two">Show me the code</h2>
-<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
-
-<div markdown="1" class="one">
-
-###  Developers
-Join the open data revolution with OpenActive and help the nation get active.
-
-[Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
-
-</div>
-<figure>
-<div class="mask">{% include overlay.svg %}</div>
-<div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
-</figure>
-</article>

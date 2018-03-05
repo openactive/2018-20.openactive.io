@@ -16,7 +16,7 @@
                      {% if post.is_featured %} 
                     <div class="six-members" id="member-{{ forloop.index }}">
                         <figure role="group">
-                            <a href="{{ post.url | relative_url }}">
+                            <a href="{{ site.baseurl }}{% link members-page.md %}">
                                 <img role="logo" src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}">
                                 <span class="hidden" aria-hidden="true">{{ post.title | escape }}</span>
                             </a>
