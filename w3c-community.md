@@ -5,7 +5,8 @@ position: 5
 is_secondary_navigation: true
 layout: page-hero
 thumbnail_image: "/uploads/iStock-501777666_optimised.png"
-strapline: Our goal is to develop technical specifications and best practices that support the use of open and shared data about sports and physical activities.
+strapline: Our goal is to develop technical specifications and best practices that
+  support the use of open and shared data about sports and physical activities.
 ---
 
 {::options parse_block_html="true" /}
