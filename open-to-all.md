@@ -5,6 +5,7 @@ layout: page-hero
 strapline: Openness is integral to the OpenActive initiative.
 thumbnail_image: "/uploads/iStock-803099000optimised.png"
 ---
+
 {::options parse_block_html="true" /}
 
 <!--  ---------------->

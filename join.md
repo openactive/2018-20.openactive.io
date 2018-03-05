@@ -6,9 +6,7 @@ is_main_navigation: false
 layout: join
 thumbnail_image: "/uploads/iStock-803099000optimised.png"
 strapline: Get in touch today. Help bring physical activity into the digital age
-
 ---
-
 
 #### Open Invitation
 We can only make this change happen by working together; innovating through collaboration.
