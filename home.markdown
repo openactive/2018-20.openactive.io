@@ -150,19 +150,20 @@ What's happening in the community, and how you can get involved!
 <h2 class="sub-heading-two">Start Ups</h2>
 <div class="one">
 
-### The Accelerator Programme
+{% assign subpage = site.pages | where: 'title', 'Accelerator' %}
+{% for item in subpage %}
+### {{ item.title}}
+{{ item.strapline | markdownify }}
 
-Millions find it hard to stay active. OpenActive Accelerator calls for startups to make it easier with digital innovation using open data.
-
-[Find out more]( {{ site.baseurl }}{% link accelerator.md %}){: .button-primary}
+[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
 <div class="mask">{% include overlay.svg %}</div>
-<div class="image" style="background: url({{ site.baseurl }}/uploads/accel_cta.png)center center / cover no-repeat;"></div>
+<div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
 </figure>
+{% endfor %}
 </article>
-
 
 
 

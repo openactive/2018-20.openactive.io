@@ -149,14 +149,17 @@ Have a question? Get in touch.
 <h2 class="sub-heading-two">Show me the code</h2>
 <div class="one">
 
-### Developer
-Consectetur expedita iste est tempore ipsum qui accusantium. Sequi perferendis et quaerat architecto quod.
+{% assign subpage = site.pages | where: 'title', 'Developer' %}
+{% for item in subpage %}
+### {{ item.title}}
+{{ item.strapline | markdownify }}
 
-[Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
+[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
 <div class="mask">{% include overlay.svg %}</div>
-<div class="image" style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
+<div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
 </figure>
+{% endfor %}
 </article>

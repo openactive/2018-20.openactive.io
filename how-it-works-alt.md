@@ -1,9 +1,11 @@
 ---
-title: How It Works
+title: How It Works Alt
 permalink: "/how-it-works-alt/"
 position: 2
 is_main_navigation: true
 layout: page-headless
+thumbnail_image: "/uploads/iStock-803099000optimised.png"
+strapline: Discover how we can achieve our vision in practice and the progress we’ve made so far.
 ---
 
 {::options parse_block_html="true" /}
@@ -33,7 +35,7 @@ It can also help data users create new apps and services that can help people ge
 
 <article>
 <div class="three">
-{% include placeholder.svg %}
+![Hero]({{ site.baseurl }}/assets/images/placeholder.png)
 
 ##### Activity providers make the data about their opportunities open.
 
@@ -43,7 +45,7 @@ See below to find out how to make this data open.
 
 </div>
 <div class="three">
-{% include placeholder.svg %}
+![Hero]({{ site.baseurl }}/assets/images/placeholder.png)
 
 ##### Third parties can list these opportunities in their apps or services.
 
@@ -53,7 +55,7 @@ These services include straightforward activity finders for a wide audience or t
 
 </div>
 <div class="three">
-{% include placeholder.svg %}
+![Hero]({{ site.baseurl }}/assets/images/placeholder.png)
 
 ##### The data can also be bookable.
 
@@ -160,17 +162,23 @@ In most cases this information can already be found on the activity provider's o
 
 <div markdown="1" class="one">
 
-### Getting Started
-Now you know how it works, let’s look at how you can make your data available or use a dataset for your own application.
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .primary_cta}
+{% assign subpage = site.pages | where: 'title', 'Getting Started' %}
+{% for item in subpage %}
+### {{ item.title}}
+{{ item.strapline | markdownify }}
 
+[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
 <div class="mask">{% include overlay.svg %}</div>
-<div class="image" style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+<div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
 </figure>
+{% endfor %}
+
+
+
 </article>
 
 <!--  ---------------->

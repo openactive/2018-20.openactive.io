@@ -188,7 +188,7 @@ Dive into the detail by looking through our standards documentation and best pra
 </div>
 <div class="four">
 
-### Tutorials
+### E-Learning
 Guidance for developers on getting started, to help you learn how to publish and use your data to benefit your organisation. 
 
 [Discover More]( {{ site.baseurl }}{% link e-learning.md %}){: .link }
@@ -199,20 +199,24 @@ Guidance for developers on getting started, to help you learn how to publish and
 
 
 <!--  ---------------->
-<!-- E-LEARNING CALL TO ACTION -->
+<!-- COMMUNITY CALL TO ACTION -->
 <!--  ---------------->
 <article class="call_to_action--full-width">
-<h2 class="sub-heading-two">Let Me Learn</h2>
+<h2 class="sub-heading-two">Meet our community</h2>
 <div class="one">
 
-### E-Learning
-Join the open data revolution with OpenActive and help the nation get active.
+{% assign subpage = site.pages | where: 'title', 'Community' %}
+{% for item in subpage %}
+### {{ item.title}}
+{{ item.strapline | markdownify }}
 
-[E-Learning]( {{ site.baseurl }}{% link e-learning.md %}){: .button-primary}
+[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
 <div class="mask">{% include overlay.svg %}</div>
-<div class="image" style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
+<div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
 </figure>
+{% endfor %}
+
 </article>

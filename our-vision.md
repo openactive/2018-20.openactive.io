@@ -29,26 +29,38 @@ We are building a future where activity providers' opportunities are no longer s
 
 
 </div>
-
 </article>
 
 <!--  ---------------->
 <!-- QUOTE BLOCK -->
 <!--  ---------------->
-<article class="title-row featured">
-<div class="quote">{% include quote.svg %}</div>
-<blockquote>
+<article class="invert">
+<div class="two">
+
+#### Why are we doing this?
+Helping people get active and increase participation is an important part of Sport England's [Towards an Active Nation](https://www.sportengland.org/news-and-features/news/2016/november/1/open-data-to-boost-activity/) strategy.
+
+We think an open approach is the best way to make this happen.
+
+[Find out More]({{ site.baseurl }}{% link open-to-all.md %}){:.button-primary}
+
+
+</div>
+<div class="two">
+<blockquote class="featured">
+<div class="quote">
+{% include quote.svg %}
+</div>
 
 Almost 18 million (39.4%) of adults in England don’t exercise enough to improve their health and wellbeing.* Increasing the visibility of physical activity makes it easier for someone to choose to take part.
 
 ###### SPORT ENGLAND
 [Active Lives Survey - 16/17](https://www.sportengland.org/media/12458/active-lives-adult-may-16-17-report.pdf){:target="_blank"}
 
+
 </blockquote>
-<div class="border"></div>
-
+</div>
 </article>
-
 
 <!--  ---------------->
 <!-- BENEFITS FOR ACTIVITY PROVIDERS TEXT BLOCK -->
@@ -216,26 +228,26 @@ One of the exciting things about OpenActive is the near limitless range of servi
 </div>
 </article>
 
+
 <!--  ---------------->
-<!-- CALL TO ACTION -->
+<!-- HOW IT WORKS CALL TO ACTION -->
 <!--  ---------------->
-<article class="call_to_action">
-<div class="two list">
+<article class="call_to_action--full-width">
+<h2 class="sub-heading-two">The vision in practice</h2>
+<div class="one">
 
-#### Why are we doing this?
-Helping people get active and increase participation is an important part of Sport England's [Towards an Active Nation](https://www.sportengland.org/news-and-features/news/2016/november/1/open-data-to-boost-activity/) strategy.
+{% assign subpage = site.pages | where: 'title', 'How It Works Alt' %}
+{% for item in subpage %}
+### {{ item.title}}
+{{ item.strapline | markdownify }}
 
-We think an open approach is the best way to make this happen.
-
-[Find out More]({{ site.baseurl }}{% link open-to-all.md %}){:.button-primary}
+[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
-<div class="two list">
+<figure>
+<div class="mask">{% include overlay.svg %}</div>
+<div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
+</figure>
+{% endfor %}
 
-#### How does it work?
-Let’s look at how we achieve our vision in practice and the progress we’ve made so far.
-
-[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
-
-</div>
 </article>

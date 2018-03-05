@@ -61,7 +61,9 @@ Review our list of data providers below to see who's already sharing their data.
 
 <div>
 <figure>
-<img role="logo" class="no-link" src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+<a class="post-title post-link" href="{{ post.url | relative_url }}">
+<img role="logo" src="{{ theImage  | relative_url}}" alt="{{ post.title | escape }} Icon"/>
+</a>
 </figure>
 </div>
 

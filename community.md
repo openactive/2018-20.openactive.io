@@ -107,13 +107,15 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 </div>
 </article>
 <article>
+<div class="one freegrid-six">
 {% assign posts = site.members | sample:18 %}
 {% for post in posts %}
 {% assign theImage = post.thumbnail_image %}
-<div class="six mobile-hide-content" data-tab="{{ forloop.index }}" markdown="0" >
+<div class="mobile-hide-content" data-tab="{{ forloop.index }}" markdown="0" >
 <a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
 </div>
 {% endfor %}
+</div>
 <div class="one buttons">
 <a class="button-primary" href="{% link members-page.md %}">View All</a>
 <a class="button-primary--ghost mobile-show">View More</a>
@@ -129,20 +131,19 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 <h2 class="sub-heading-two">Standards group</h2>
 <div class="one">
 
-### W3C-Community
+{% assign subpage = site.pages | where: 'title', 'W3C Community' %}
+{% for item in subpage %}
+### {{ item.title}}
+{{ item.strapline | markdownify }}
 
-Our goal is to develop technical specifications and best practices that support the use of open and shared data about sports and physical activities.
-
-While our work is technical, you don’t have to be a developer to contribute. Our primary focus is standardising how to publish data about physical activity opportunities, defining best practices and APIs to enable booking events and facilities, and improving interoperability of data across the sector.
-
-
-[W3C Community]( {{ site.baseurl }}{% link w3c-community.md %}){:.button-primary}
+[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
 <div class="mask">{% include overlay.svg %}</div>
-<div class="image" style="background: url({{ site.baseurl }}/uploads/dancin.png)center center / cover no-repeat;"></div>
+<div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
 </figure>
+{% endfor %}
 </article>
 
 

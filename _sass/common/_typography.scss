@@ -379,7 +379,8 @@ blockquote {
     font-family: $font-family;
   }
   &.featured {
-    padding: 2rem;
+    border-left: 1px solid white;
+    padding-left: 2rem;
     background-color: $brand-blue;
     .quote {
       width: 100px;
