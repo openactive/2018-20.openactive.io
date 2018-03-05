@@ -1,6 +1,8 @@
 ---
 title: Get Active London
 date: 2017-05-26 00:00:00 Z
+categories:
+- Spotlight
 tags:
 - Open Data
 - Fitness
@@ -8,7 +10,6 @@ tags:
 - London
 - User Experience
 strapline: Using open data to create a people and publisher-centred activity finder.
-quote: Unde aliquam qui quos possimus sed consequatur quas.
 is_featured: true
 thumbnail_image: "/uploads/london_casestudy1.jpeg"
 member: Get Active London

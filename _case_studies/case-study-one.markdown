@@ -1,6 +1,8 @@
 ---
 title: Table Tennis England
 date: 2017-12-14 16:18:00 Z
+categories:
+- Spotlight
 tags:
 - Open Data
 - Table Tennis
@@ -8,7 +10,6 @@ tags:
 - Table Tennis England
 - Interview
 strapline: Positive feedback for a pioneering organisation.
-quote: Quis est libero in error.
 is_featured: true
 thumbnail_image: "/uploads/spotlight_tabletennis.jpeg"
 member: Table Tennis England

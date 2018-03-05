@@ -1,10 +1,11 @@
 ---
 title: MyLocalPitch
 date: 2017-12-14 16:18:00 Z
+categories:
+- Spotlight
 tags:
 - Open Data
 strapline: promoting availability at local sports venues through data sharing.
-quote: Commodi quod ad veritatis quos.
 is_featured: true
 thumbnail_image: "/uploads/my_local_pitch.jpeg"
 member: MyLocalPitch
