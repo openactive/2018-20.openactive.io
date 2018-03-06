@@ -8,6 +8,9 @@ collections:
   case_studies:
     title: Case Studies
     output: true
+  champions:
+    title: Champions
+    output: true
   dataproviders:
     title: Data Providers
     output: true
@@ -28,9 +31,6 @@ collections:
     output: true
   posts:
     title: Posts
-    output: true
-  champions:
-    title: Champions
     output: true
   uploads:
     title: Uploads
@@ -108,8 +108,8 @@ defaults:
     type: champions
   values:
     thumbnail_image: "/uploads/placeholder.png"
-    role:
-    company:
-    link:
-    linkedin:
+    role: 
+    company: 
+    link: 
+    linkedin: 
 permalink: pretty
