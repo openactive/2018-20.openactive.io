@@ -24,7 +24,7 @@ strapline: Discover how to build unlimited reach for your activities
 #### Booking Systems
 Search our list of booking systems to see if they are already benefiting from our initiative.
 
-[Enabled Booking Systems]( {{ site.baseurl }}{% link booking-engines.md %}){:class="button-primary" }
+[Enabled Booking Systems]( {{ site.baseurl }}{% link booking-systems.md %}){:class="button-primary" }
 
 
 </div>
@@ -57,7 +57,7 @@ Search our list of booking systems to see if they are already benefiting from ou
 {% endif %}
 
 <img class="logo" src="{{ site.baseurl }}/assets/images/blank.svg"/>
-<a href="{{ site.baseurl }}{% link booking-engines.md %}"></a>
+<a href="{{ site.baseurl }}{% link booking-systems.md %}"></a>
 <h4>+{{ num | minus:7 }}</h4>
 </div>
 </nav>
