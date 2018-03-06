@@ -16,11 +16,17 @@ article {
         }
       }
       &:nth-child(2) {
-        grid-column-start: 6;
+        grid-column-start: 7;
         grid-column-end: 14;
         margin: 0;
         grid-row: 1;
         z-index:1;
+        @media only screen and (max-width: 900px) {
+          grid-column-start: 2;
+          grid-column-end: 14;
+          grid-row: auto;
+        }
+
       }
       figure {
         position: relative;
