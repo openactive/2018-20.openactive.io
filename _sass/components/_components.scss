@@ -465,6 +465,7 @@ article {
 
 article {
   &.benefits {
+    grid-row-gap: 1rem;
     .one.subgrid {
       .two {
         &:nth-child(1) {
