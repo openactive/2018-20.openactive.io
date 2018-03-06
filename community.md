@@ -174,7 +174,7 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Community News</h2>
 
-{% assign thePosts = site.categories[page.community-update] %}
+{% assign thePosts = site.categories[community-update] %}
 
 {% if thePosts == null %}
 <p>No posts currently</p>

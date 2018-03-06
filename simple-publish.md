@@ -49,7 +49,7 @@ The steps below are designed for organisations who already have a booking system
 ##### 1) Build your OpenActive API
 Send the [specification](https://github.com/openactive/realtime-paged-data-exchange/blob/master/README.md){:target="_blank"} details to your technical team, and ask them to open up your session data according to the OpenActive specification. Note this is usually an additional API to any that you may already have, and should be simple to implement.
 
-[See more](#){:.show_hide}
+[See more](#){:.show_hide-content}
 <div class="extra-content">
 
 A sentence for your tech team: “Please create a new JSON endpoint that conforms to the OpenActive RTPE specification. The specification is designed to be simple to implement, take a look at the examples in the [Activation Issue Tracker](https://github.com/openactive/activation){:target="_blank"} to get an idea.”
@@ -65,7 +65,7 @@ License your data for anyone to access, use and share. The Open Data Institute r
 Using the recommended licence is low risk and represents no commitment. The cc-by licence is the most common in use for publishing open data, and importantly version 4 includes specific provision for database rights. Generic open data licensing guidance is also available.
 
 
-[See more](#){:.show_hide}
+[See more](#){:.show_hide-content}
 <div class="extra-content">
 
 Once you have selected a licence, inform your developer of your decision so that they can make the appropriate changes to the API.
@@ -82,7 +82,7 @@ If you do not own the data (e.g. in the case of a booking system provider), then
 
 You need to amend your terms and conditions to indicate that your users' sessions will be published openly. You may also give your users an option to opt-out of session publishing, while sending them an e-mail notifying them that you are turning data sharing on.
 
-[See more](#){:.show_hide}
+[See more](#){:.show_hide-content}
 <div class="extra-content">
 
 A simple addition to your Terms and Conditions similar to the following:
@@ -110,7 +110,7 @@ We are now giving your sessions more visibility by publishing information about 
 To publish open data for anyone to freely access, use and share, you must create a webpage that describes the data you are publishing.
 You must also include relevant human and machine readable licensing information, documentation, a mailing list, and ideally an issue tracker. You must specify how dataset users (innovators who want to build on top of/use your data) should attribute your data.
 
-[See more](#){:.show_hide}
+[See more](#){:.show_hide-content}
 <div class="extra-content">
 
 The [Dataset Site Generator](https://github.com/openactive/dataset-site-generator/wiki){:target="_blank"} includes a template site, and complete step-by-step guides designed for non-technical users, to quickly and easily create a subsite that contains all of the above. Although it is possible to do this without the generator by following the ODI guides for [metadata](https://theodi.org/knowledge-opinion/guides/){:target="_blank"} and rights statements, we recommend using the Dataset Site Generator to save you time and to benefit from additional updates - it's free and open source!

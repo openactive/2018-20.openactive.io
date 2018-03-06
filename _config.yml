@@ -29,6 +29,9 @@ collections:
   posts:
     title: Posts
     output: true
+  champions:
+    title: Champions
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -100,4 +103,13 @@ defaults:
     thumbnail_image: "/uploads/placeholder.png"
     member: 
     website: Web address
+- scope:
+    path: ''
+    type: champions
+  values:
+    thumbnail_image: "/uploads/placeholder.png"
+    role:
+    company:
+    link:
+    linkedin:
 permalink: pretty
