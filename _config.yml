@@ -20,6 +20,11 @@ collections:
   faqs:
     title: FAQs
     output: true
+    categories:
+    - About OpenActive
+    - Community
+    - How It Works
+    - About OpenActive Data
   members:
     title: Members
     output: true
@@ -32,6 +37,7 @@ collections:
   posts:
     title: Posts
     output: true
+
   uploads:
     title: Uploads
     output: true
@@ -47,11 +53,25 @@ defaults:
 - scope:
     path: ''
     type: posts
+    categories:
+    - news
+    - opinion
+    - interview
+    - case-study
+    - community-update
   values:
     layout: post
     is_featured: false
     thumbnail_image: ''
-    categories: About OpenActive
+    tags:
+    - Using data
+    - Publishing data
+    - Accelerator
+    - Collaboration
+    - Leadership
+    - Champions
+    - Standards
+    - Literacy and tools
 - scope:
     path: ''
     type: case_studies
@@ -61,16 +81,30 @@ defaults:
     thumbnail_image: "/uploads/placeholder.png"
     member: 
     strapline: 
+    quote: 
 - scope:
     path: ''
     type: mentors
   values:
     layout: mentor
+    second-name: ''
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
     twitter: 
     linkedin: 
     role: 
+- scope:
+    path: ''
+    type: champions
+  values:
+    layout: champion
+    second-name: ''
+    thumbnail_image: "/uploads/placeholder.png"
+    twitter: 
+    linkedin: 
+    role: 
+    company: 
+    link: 
 - scope:
     path: ''
     type: partners
@@ -92,6 +126,7 @@ defaults:
     layout: member
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
+    booking_engine: 
     website: Web address
 - scope:
     path: ''
@@ -103,13 +138,148 @@ defaults:
     thumbnail_image: "/uploads/placeholder.png"
     member: 
     website: Web address
-- scope:
-    path: ''
-    type: champions
-  values:
-    thumbnail_image: "/uploads/placeholder.png"
-    role: 
-    company: 
-    link: 
-    linkedin: 
-permalink: pretty
+compress_html:
+  blanklines: false
+  profile: false
+locale: en-US
+description: Helping physical activity reach everyone. OpenActive is community-led
+  initiative with an ambition to help people in England get active using open data.
+baseurl: 
+url: http://staging.openactive.io
+repository: openactive/openactive-staging
+email: your-email@example.com
+github_username: imaginatecreative
+twitter_username: openactiveio
+youtube_username: 
+facebook_username: 
+instagram_username: 
+pinterest_username: 
+medium_username: https://blog.openactive.io
+markdown: kramdown
+plugins:
+- jekyll-feed
+staticman:
+  branch: master
+atom_feed:
+  path: 
+search: 
+search_full_content: 
+tipue_search:
+  include:
+    pages: true
+
+# ---
+# title: OpenActive
+# timezone: UTC
+# collections:
+#   booking_engines:
+#     title: Booking Systems
+#     output: true
+#   case_studies:
+#     title: Case Studies
+#     output: true
+#   champions:
+#     title: Champions
+#     output: true
+#   dataproviders:
+#     title: Data Providers
+#     output: true
+#   events:
+#     title: Events
+#     output: true
+#   faqs:
+#     title: FAQs
+#     output: true
+#   members:
+#     title: Members
+#     output: true
+#   mentors:
+#     title: Mentors
+#     output: true
+#   partners:
+#     title: Partners
+#     output: true
+#   posts:
+#     title: Posts
+#     output: true
+#   uploads:
+#     title: Uploads
+#     output: true
+#     permalink: "/uploads/:path/"
+# defaults:
+# - scope:
+#     path: ''
+#     type: pages
+#   values:
+#     layout: default
+#     is_main_navigation: false
+#     is_secondary_navigation: false
+# - scope:
+#     path: ''
+#     type: posts
+#   values:
+#     layout: post
+#     is_featured: false
+#     thumbnail_image: ''
+#     categories: About OpenActive
+# - scope:
+#     path: ''
+#     type: case_studies
+#   values:
+#     layout: case-study
+#     is_featured: false
+#     thumbnail_image: "/uploads/placeholder.png"
+#     member: 
+#     strapline: 
+# - scope:
+#     path: ''
+#     type: mentors
+#   values:
+#     layout: mentor
+#     is_featured: false
+#     thumbnail_image: "/uploads/placeholder.png"
+#     twitter: 
+#     linkedin: 
+#     role: 
+# - scope:
+#     path: ''
+#     type: partners
+#   values:
+#     layout: partner
+#     is_featured: false
+#     thumbnail_image: "/uploads/placeholder.png"
+# - scope:
+#     path: ''
+#     type: dataproviders
+#   values:
+#     layout: dataprovider
+#     is_featured: false
+#     thumbnail_image: "/uploads/placeholder.png"
+# - scope:
+#     path: ''
+#     type: members
+#   values:
+#     layout: member
+#     is_featured: false
+#     thumbnail_image: "/uploads/placeholder.png"
+#     website: Web address
+# - scope:
+#     path: ''
+#     type: booking_engines
+#   values:
+#     layout: booking-engine
+#     is_featured: false
+#     is_enabled: false
+#     thumbnail_image: "/uploads/placeholder.png"
+#     member: 
+#     website: Web address
+# - scope:
+#     path: ''
+#     type: champions
+#   values:
+#     thumbnail_image: "/uploads/placeholder.png"
+#     role: 
+#     company: 
+#     link: 
+#     linkedin: 
+# permalink: pretty
