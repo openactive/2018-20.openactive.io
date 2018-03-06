@@ -119,7 +119,7 @@ defaults:
     layout: member
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
-    booking_engine: 
+    booking_engines: 
     website: Web address
 - scope:
     path: ''
