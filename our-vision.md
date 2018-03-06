@@ -165,7 +165,7 @@ One of the exciting things about OpenActive is the near limitless range of servi
 </div>
 <div class="two tworight">
 
-#### Family-focused activity finders where parents can choose physical activities based on age range or skill level. For example services like [Hoop](hoop.co.uk) or [SeeSaw](seesawapp.com){:target="_blank"}.
+#### Family-focused activity finders where parents can choose physical activities based on age range or skill level. For example services like [Hoop](https://www.hoop.co.uk){:target="_blank"} or [SeeSaw](https://www.seesawapp.com){:target="_blank"}.
 
 </div>
 
@@ -182,7 +182,7 @@ One of the exciting things about OpenActive is the near limitless range of servi
 </div>
 <div class="two tworight">
 
-#### Helping youth workers, social prescribers or GPs encourage their clients or patients to get active. For example services like [Healum](https://www.healum.com/) or [Wellaware](https://www.wellaware.org.uk){:target="_blank"}.
+#### Helping youth workers, social prescribers or GPs encourage their clients or patients to get active. For example services like [Healum](https://www.healum.com/){:target="_blank"} or [Wellaware](https://www.wellaware.org.uk){:target="_blank"}.
 
 </div>
 </div>
