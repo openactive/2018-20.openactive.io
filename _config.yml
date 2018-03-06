@@ -2,7 +2,7 @@
 title: OpenActive
 timezone: UTC
 collections:
-  booking_engines:
+  booking_systems:
     title: Booking Systems
     output: true
   case_studies:
@@ -119,13 +119,13 @@ defaults:
     layout: member
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
-    booking_engines: 
+    booking_systems: 
     website: Web address
 - scope:
     path: ''
-    type: booking_engines
+    type: booking_systems
   values:
-    layout: booking-engine
+    layout: booking-system
     is_featured: false
     is_enabled: false
     thumbnail_image: "/uploads/placeholder.png"

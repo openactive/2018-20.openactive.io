@@ -37,7 +37,7 @@ Search our list of booking systems to see if they are already benefiting from ou
 </fieldset>
 </form>
 <nav class="freegrid-four">
-{% for post in site.booking_engines %}
+{% for post in site.booking_systems %}
 {% assign theImage = post.thumbnail_image %}
 {% if post.member %}
 {% assign theMember = site.members | where:"title", post.member  | first %}
@@ -50,8 +50,8 @@ Search our list of booking systems to see if they are already benefiting from ou
 </div>
 {% endfor %}
 <div class="booking-tab marker" markdown="0">
-{% if site.booking_engines %}
-{% for post in site.booking_engines %}
+{% if site.booking_systems %}
+{% for post in site.booking_systems %}
 {% assign num = forloop.length %}
 {% endfor %}
 {% endif %}
