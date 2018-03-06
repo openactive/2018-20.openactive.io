@@ -20,9 +20,9 @@ $(document).ready(function () {
             function() {
                 $(this).parent('.fluid-vids').siblings('.mask').fadeOut();
             },
-            function() {
-                $(this).parent('.fluid-vids').siblings('.mask').fadeIn();
-            }
+            // function() {
+            //     $(this).parent('.fluid-vids').siblings('.mask').fadeIn();
+            // }
         );
 
         $(".mobile-show").hide();
