@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 // Heading One Styles
 //
-// Hero Text
+// Hei level heading text
 //
 // Weight: 1
 //
@@ -63,7 +63,18 @@ h1 {
   color: $brand-blue;
   font-weight: 800;
 }
-
+// Paragraph following H1
+//
+// Paragraph following H1
+//
+// Weight: 2
+//
+// Markup:
+// <h1>Heading One</h1>
+// <p>The first paragraph following a heading will appear larger than the body copy. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
+// <p>Paragraphs after that will appear as normal body copy size. Sed et et qui et magni. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
+//
+// Styleguide typography.heading-one.paragraph
 h1 + p,
 h1 + ol + p,
 .h1-copy {
@@ -87,7 +98,7 @@ h1 + h2 {
 //
 // Hero Text
 //
-// Weight: 2
+// Weight: 3
 //
 // Markup:
 // <h2>Heading Two</h2>
@@ -99,6 +110,19 @@ h2 {
   color: $brand-blue;
 }
 
+// Paragraph following H2
+//
+// Paragraph following H2
+//
+// Weight: 4
+//
+// Markup:
+// <h2>Heading Two</h2>
+// <p>Ut perferendis rerum aut quia voluptates eum. Sed et et qui et magni. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
+// <p>Ut perferendis rerum aut quia voluptates eum. Sed et et qui et magni. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
+//
+// Styleguide typography.heading-two.paragraph
+
 h2 + p, h2 + ul li p, .h2-copy {
   font-size: $header-size/  2.1;
   font-family: $font-family;
@@ -108,7 +132,7 @@ h2 + p, h2 + ul li p, .h2-copy {
 //
 // Heading text for sections, appears in left columns at larger screens
 //
-// Weight: 3
+// Weight: 5
 //
 // Markup:
 // <h2 class="sub-heading-two">Heading Two</h2>
@@ -171,7 +195,7 @@ html.no-cssgrid {
 //
 // Smaller Sub Heading Text
 //
-// Weight: 4
+// Weight: 6
 //
 // Markup:
 // <h3>Heading Three</h3>
@@ -185,7 +209,18 @@ h3 {
     font-weight: 800;
   }
 }
-
+// Paragraph following H3
+//
+// Paragraph following H3
+//
+// Weight: 6
+//
+// Markup:
+// <h3>Heading Three</h3>
+// <p>Ut perferendis rerum aut quia voluptates eum. Sed et et qui et magni. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
+// <p>Ut perferendis rerum aut quia voluptates eum. Sed et et qui et magni. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
+//
+// Styleguide typography.heading-three.paragraph
 h3 + p,
 h3 + ol li,
 h3 + ol + p,
@@ -208,6 +243,20 @@ h4 {
   color: $brand-blue;
   font-size: $header-size / 1.7;
 }
+
+
+// Paragraph following H4
+//
+// Paragraph following H4
+//
+// Weight: 7
+//
+// Markup:
+// <h4>Heading Four</h4>
+// <p>Ut perferendis rerum aut quia voluptates eum. Sed et et qui et magni. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
+// <p>Ut perferendis rerum aut quia voluptates eum. Sed et et qui et magni. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
+//
+// Styleguide typography.heading-four.paragraph
 h4 + p,
 h4 + ol li,
 h4 + ol + p,
@@ -219,7 +268,7 @@ h4 + ol + p,
 //
 // Heading Text
 //
-// Weight: 6
+// Weight: 8
 //
 // Markup:
 // <h5>Heading Five</h5>
@@ -228,20 +277,33 @@ h4 + ol + p,
 h5 {
   color: $brand-blue;
   font-size: $header-size / 2.16346;
-  h4 + p,
-  h5 + ol li,
-  h6 + ol + p,
-  .h3-copy {
-    font-size: $header-size/  2.16346;
-    font-family: $font-family;
-  }
+}
+
+// Paragraph following H5
+//
+// Paragraph following H5
+//
+// Weight: 9
+//
+// Markup:
+// <h5>Heading Five</h5>
+// <p>Ut perferendis rerum aut quia voluptates eum. Sed et et qui et magni. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
+// <p>Ut perferendis rerum aut quia voluptates eum. Sed et et qui et magni. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
+//
+// Styleguide typography.heading-five.paragraph
+h5 + p,
+h5 + ol li,
+h5 + ol + p,
+.h5-copy {
+  font-size: $header-size/  2.16346;
+  font-family: $font-family;
 }
 
 // Heading Six Styles
 //
 // Smallest Heading Text
 //
-// Weight: 7
+// Weight: 10
 //
 // Markup:
 // <h6>Heading Six</h6>
@@ -316,7 +378,7 @@ ul, ol {
 //
 // list of item, perhaps steps or components
 //
-// Weight: 7
+// Weight: 11
 //
 // Markup:
 // <ul>

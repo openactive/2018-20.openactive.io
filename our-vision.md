@@ -65,7 +65,7 @@ Almost 18 million (39.4%) of adults in England don’t exercise enough to improv
 <!--  ---------------->
 <!-- BENEFITS FOR ACTIVITY PROVIDERS TEXT BLOCK -->
 <!--  ---------------->
-<article class="title-row">
+<article class="title-row benefits">
 <h2 class="sub-heading-two">Activity Providers</h2>
 
 <div class="one">
@@ -81,8 +81,7 @@ OpenActive can help you increase your visibility and allow you to reach new cust
 <div class="one subgrid">
 <div class="two tworight">
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-(Image of lots of people)
+{% include people.svg %}
 
 </div>
 <div class="two tworight">
@@ -98,8 +97,7 @@ OpenActive can help you increase your visibility and allow you to reach new cust
 <div class="one subgrid">
 <div class="two tworight">
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-(Fully Booked Sign)
+{% include fully-booked.svg %}
 
 </div>
 <div class="two tworight">
@@ -115,8 +113,7 @@ OpenActive can help you increase your visibility and allow you to reach new cust
 <div class="one subgrid">
 <div class="two tworight">
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-(Somebody playing tennis)
+{% include tennis.svg %}
 
 </div>
 <div class="two tworight">
@@ -131,7 +128,7 @@ OpenActive can help you increase your visibility and allow you to reach new cust
 <!--  ---------------->
 <!-- BENEFITS FOR DATA USES TEXT BLOCK -->
 <!--  ---------------->
-<article class="title-row">
+<article class="title-row benefits">
 <h2 class="sub-heading-two">Using Data</h2>
 <div class="one">
 
@@ -146,8 +143,7 @@ One of the exciting things about OpenActive is the near limitless range of servi
 <div class="one subgrid">
 <div class="two tworight">
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-(Search magnifying glass)
+{% include magnifying-glass.svg %}
 
 </div>
 <div class="two tworight">
@@ -164,8 +160,7 @@ One of the exciting things about OpenActive is the near limitless range of servi
 <div class="one subgrid">
 <div class="two tworight">
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-(Image of family)
+{% include family.svg %}
 
 </div>
 <div class="two tworight">
@@ -182,7 +177,7 @@ One of the exciting things about OpenActive is the near limitless range of servi
 <div class="one subgrid">
 <div class="two tworight">
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)](Stethoscope / Heart)
+{% include stethoscope.svg %}
 
 </div>
 <div class="two tworight">
@@ -198,8 +193,7 @@ One of the exciting things about OpenActive is the near limitless range of servi
 <div class="one subgrid">
 <div class="two tworight">
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-(Upward Graph)
+{% include upward-graph.svg %}
 
 </div>
 <div class="two tworight">
@@ -216,8 +210,7 @@ One of the exciting things about OpenActive is the near limitless range of servi
 <div class="one subgrid">
 <div class="two tworight">
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-(Two people shaking hands)
+{% include shaking-hands.svg %}
 
 </div>
 <div class="two tworight">
@@ -236,7 +229,7 @@ One of the exciting things about OpenActive is the near limitless range of servi
 <h2 class="sub-heading-two">The vision in practice</h2>
 <div class="one">
 
-{% assign subpage = site.pages | where: 'title', 'How It Works Alt' %}
+{% assign subpage = site.pages | where: 'title', 'How It Works' %}
 {% for item in subpage %}
 ### {{ item.title}}
 {{ item.strapline | markdownify }}

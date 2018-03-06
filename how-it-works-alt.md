@@ -2,7 +2,8 @@
 title: How It Works Alt
 permalink: "/how-it-works-alt/"
 position: 2
-is_main_navigation: true
+is_main_navigation: false
+is_secondary_navigation: true
 layout: page-headless
 thumbnail_image: "/uploads/iStock-803099000optimised.png"
 strapline: Discover how we can achieve our vision in practice and the progress we’ve

@@ -20,7 +20,7 @@ article {
         grid-column-end: 14;
         margin: 0;
         grid-row: 1;
-        z-index:1;
+        z-index: 1;
         @media only screen and (max-width: 900px) {
           grid-column-start: 2;
           grid-column-end: 14;
@@ -461,6 +461,40 @@ article {
 
 /*********************************/
 /*********************************/
+// BENEFITS STYLES
+
+article {
+  &.benefits {
+    .one.subgrid {
+      .two {
+        &:nth-child(1) {
+          padding: 2rem;
+          svg{
+            max-height: 200px;
+            max-width: 200px;
+          }
+          @media only screen and (max-width: 900px) {
+            padding: 1rem;
+          }
+        }
+        &:nth-child(2) {
+          display: inherit;
+          align-items: center;
+          *{
+            margin:0;
+          }
+        }
+      }
+    }
+  }
+}
+
+// END BENEFITS STYLES
+/*********************************/
+/*********************************/
+
+/*********************************/
+/*********************************/
 // BOOKING ENGINE STYLES
 .booking-engines-section {
   .two {
@@ -796,10 +830,10 @@ article {
               align-self: auto;
               flex-direction: column;
               text-align: left;
-              h5{
+              h5 {
                 margin: 0;
               }
-              h6{
+              h6 {
                 margin-top: 1rem;
               }
             }
@@ -826,7 +860,7 @@ article {
               }
               & > p {
                 order: 1;
-                img{
+                img {
                   display: block;
                   margin: 1rem auto 0 auto;
                 }
@@ -1283,9 +1317,9 @@ article {
       h3 {
         margin-top: 0;
         font-size: $header-size;
-      @media only screen and (max-width: 500px) {
-        font-size: 2rem;
-      }
+        @media only screen and (max-width: 500px) {
+          font-size: 2rem;
+        }
 
         & + p {
           font-size: $header-size/  2;
@@ -1342,7 +1376,7 @@ article {
       }
     }
     @media only screen and (max-width: 1400px) {
-      figure{
+      figure {
         grid-row: 1/ 3;
       }
     }

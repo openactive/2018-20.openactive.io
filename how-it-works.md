@@ -2,9 +2,12 @@
 title: How It Works
 permalink: "/how-it-works/"
 position: 2
-is_main_navigation: false
-is_secondary_navigation: true
+is_main_navigation: true
+is_secondary_navigation: false
 layout: page-headless
+thumbnail_image: "/uploads/iStock-803099000optimised.png"
+strapline: Discover how we can achieve our vision in practice and the progress we’ve
+  made so far.
 ---
 
 {::options parse_block_html="true" /}
