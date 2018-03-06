@@ -3,27 +3,27 @@ $(document).ready(function () {
 
 
 
-        // $(".extra-content").hide();
-        //
-        // $('.show_hide').on("click",function(event){
-        //     event.preventDefault();
-        //     $(this).parent('p').siblings('.extra-content').slideToggle();
-        //     if ($(this).html() == 'See more') {
-        //         $(this).html('See less');
-        //     } else {
-        //         $(this).html('See more');
-        //     }
-        // });
+        $(".extra-content").hide();
 
-
-        $(document).ready(function () {
-            $('.video-stream').on('click', function (ev) {
-                console.log('clicked');
-                $("#video")[0].src += "&autoplay=1";
-                ev.preventDefault();
-
-            });
+        $('.show_hide-content').on("click",function(event){
+            event.preventDefault();
+            $(this).parent('p').siblings('.extra-content').slideToggle();
+            if ($(this).html() == 'See more') {
+                $(this).html('See less');
+            } else {
+                $(this).html('See more');
+            }
         });
+
+
+        $('#video').hover(
+            function() {
+                $(this).parent('.fluid-vids').siblings('.mask').fadeOut();
+            },
+            function() {
+                $(this).parent('.fluid-vids').siblings('.mask').fadeIn();
+            }
+        );
 
         $(".mobile-show").hide();
         if ($(window).width() < 500) {

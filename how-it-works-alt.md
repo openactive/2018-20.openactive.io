@@ -106,56 +106,7 @@ In most cases this information can already be found on the activity provider's o
 
 
 <!--  ---------------->
-<!-- CASE STUDIES BLOCK -->
-<!--  ---------------->
-<article class="title-row">
-<h2 class="sub-heading-two">Success Stories</h2>
-{% include case-study.html %}
-</article>
-
-
-<!--  ---------------->
-<!-- WHAT ARE THE BENEFITS -->
-<!--  ---------------->
-<article class="title-row">
-<h2 class="sub-heading-two">What are the benefits?</h2>
-<div class="one subgrid">
-<div class="three ">
-
-#### Sport and Physical Activity Providers
-
-* With open data publishing, your services and events can be shared everywhere, from high-traffic apps to community-driven pages.
-* Improve data skills and understanding within your organisation and harness technology to benefit your business.
-* Drive innovation, and collaborate with OpenActive to revolutionise the sector.
-
-</div>
-<div class="three">
-
-#### Data Users and Developers
-
-* Harness open and accessible data from across the sport and physical sector.
-* Use data to help develop new products and enhance existing services to get people more active.
-* Be at the cutting edge of shaping consistent data standards and growing engagement with data publishers.
-
-</div>
-
-<div class="three">
-
-#### Influential Organisations
-
-* Build engagement in sport and physical activities by improving the reach and visibility of services nationwide.
-* Support new members of OpenActive by showing them how publishing open data can help them improve and grow their activities.
-* Improve data skills and understanding within your organisation and harness technology to benefit your business.
-* Provide members with the opportunity to join our community and shape the initiative.
-
-
-</div>
-</div>
-</article>
-
-
-<!--  ---------------->
-<!-- GETTING STARTED TO ACTION -->
+<!-- GETTING STARTED CALL TO ACTION -->
 <!--  ---------------->
 <article markdown="0" class="call_to_action--full-width">
 <h2 class="sub-heading-two">Where now?</h2>

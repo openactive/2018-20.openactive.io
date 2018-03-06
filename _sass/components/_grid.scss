@@ -1043,12 +1043,12 @@
     .freegrid-four{
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      grid-gap: 1rem;
+      grid-gap: 2rem;
     }
     .freegrid-five{
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-gap: 1rem;
+      grid-gap: 2rem;
     }
     .freegrid-six{
       display: grid;
@@ -1056,8 +1056,8 @@
       @media only screen and (max-width: 600px) {
         grid-template-columns: repeat(3, 1fr);
       }
-
       grid-gap: 1rem;
+
     }
   }
 }

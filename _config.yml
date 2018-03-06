@@ -8,6 +8,9 @@ collections:
   case_studies:
     title: Case Studies
     output: true
+  champions:
+    title: Champions
+    output: true
   dataproviders:
     title: Data Providers
     output: true
@@ -100,4 +103,13 @@ defaults:
     thumbnail_image: "/uploads/placeholder.png"
     member: 
     website: Web address
+- scope:
+    path: ''
+    type: champions
+  values:
+    thumbnail_image: "/uploads/placeholder.png"
+    role: 
+    company: 
+    link: 
+    linkedin: 
 permalink: pretty
