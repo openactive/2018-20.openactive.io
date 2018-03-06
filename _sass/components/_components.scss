@@ -1277,6 +1277,10 @@ article {
       h3 {
         margin-top: 0;
         font-size: $header-size;
+      @media only screen and (max-width: 500px) {
+        font-size: 2rem;
+      }
+
         & + p {
           font-size: $header-size/  2;
           font-family: $font-family;
@@ -1822,7 +1826,9 @@ nav {
 .share-page {
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
+  @media only screen and (min-width: 750px) {
+    justify-content: space-between;
+  }
   border-bottom: 1px solid $gray;
   padding-bottom: 0.5rem;
   width: 100%;
