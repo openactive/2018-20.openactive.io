@@ -11,7 +11,7 @@ layout: default
             {{ content }}
         </div>
     </article>
-    {% assign posts = site.booking_engines | where:"is_enabled", true %}}
+    {% assign posts = site.booking_systems | where:"is_enabled", true %}}
     {% for post in posts %}
     {% assign num = forloop.length %}
     {% endfor %}
@@ -23,7 +23,7 @@ layout: default
         </div>
         <div class="one">
 
-            {% assign sortedPosts = site.booking_engines | sort: 'title' %}
+            {% assign sortedPosts = site.booking_systems | sort: 'title' %}
             {% for post in sortedPosts %}
             {% if post.is_enabled %}
             {% assign theImage = post.thumbnail_image %}
@@ -61,7 +61,7 @@ layout: default
         </div>
         <div class="one freegrid-six">
 
-            {% assign sortedPosts = site.booking_engines | sort: 'title' %}
+            {% assign sortedPosts = site.booking_systems | sort: 'title' %}
             {% for post in sortedPosts %}
             {% if post.is_enabled == false %}
             {% assign theImage = post.thumbnail_image %}

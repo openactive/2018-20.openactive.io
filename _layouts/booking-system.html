@@ -38,7 +38,7 @@ layout: default
 <article>
     <div class='one'>
         <div class="subgrid">
-            {% assign sortedPosts = site.booking_engines | sort: 'title' %}
+            {% assign sortedPosts = site.booking_systems | sort: 'title' %}
             {% for post in sortedPosts %}
             {% if post.is_enabled %}
             {% assign theImage = post.thumbnail_image %}
