@@ -75,6 +75,20 @@ $globalSeven: $brand-seven;
 $globalEight: $brand-eight;
 
 
+.invert{
+  svg:not(.ignore) {
+    path, polygon, circle, ellipse,rect.devices-4 {
+      fill:$white;
+    }
+    .devices-3{
+      fill:transparent;
+    }
+    .pickdata-2,.pickdata-3, rect.signup-3,rect.signup-2,rect.signup-1, .devices-2, rect.devices-4{
+      stroke:$white;
+    }
+  }
+}
+
 .global {
   &.a {
     background-color: $global;
@@ -252,11 +266,7 @@ $globalEight: $brand-eight;
     .sub-heading-two {
       color: $white;
     }
-    svg {
-      path, polygon {
-         fill:$white;
-      }
-    }
+
     a.button-primary {
       background-color: $brand-two;
       &:hover {
@@ -744,6 +754,9 @@ article.publish, div.publish {
     }
   }
 }
+
+
+
 
 .publish-template {
   h1, h2, h3, h4, h5, h6 {
