@@ -16,7 +16,7 @@ $logo-eight: #f6a635;
 // Base primary colors for branding.
 //
 // $paragraph-color - #505050;
-// $heading-color - #000000;
+// $heading-color - #253882;
 // $white -  #ffffff;
 // $grey -  #ccc;
 // $darkgrey -  #777f88;
@@ -39,24 +39,6 @@ $brand-darkblue: #0b193e;
 
 //@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700');
 
-// Global Colors
-//
-// Weight: 2
-//
-// The global template colours
-//
-// $brand-one  -  #3B3089;
-// $brand-two  -  #146ebb;
-// $brand-three -  #2da6dd;
-// $brand-four  -  #64d4f5;
-// $brand-five  -  #832b94;
-// $brand-six -     #f2389b;
-// $brand-seven -   #ff4731;
-// $brand-eight -   #ffa244;
-
-//
-// Styleguide colours.brand
-
 $brand-one: #3B3089;
 $brand-two: #146ebb;
 $brand-three: #2da6dd;
@@ -66,6 +48,22 @@ $brand-six: #f2389b;
 $brand-seven: #ff4731;
 $brand-eight: #ffa244;
 
+// Global Colors
+//
+// Weight: 2
+//
+// Global template colours
+//
+// $global -  #3B3089 Global One
+// $globalTwo  -  #146ebb, Global Two
+// $globalThree -  #2da6dd Global Three
+// $globalFour  -  #64d4f5 Global Four
+// $globalFive  -  #832b94 Global Five
+// $globalSix -     #f2389b Global Six
+// $globalSeven -   #ff4731 Global Seven
+// $globalEight -   #ffa244 Global Eight
+//
+// Styleguide colours.global
 
 $global: $brand-one;
 $globalTwo: $brand-two;
@@ -255,8 +253,8 @@ $globalEight: $brand-eight;
       color: $white;
     }
     svg {
-      path {
-        // fill:$white;
+      path, polygon {
+         fill:$white;
       }
     }
     a.button-primary {
@@ -390,15 +388,15 @@ $globalEight: $brand-eight;
 
 // Use Colors
 //
-// Weight: 4
+// Weight: 3
 //
-// Colours for Using user routes
+// Using template colours
 //
-// $using  -  #2541a2;
-// $usingTwo -  #3B3089;
-// $usingThree -  #832b94;
-// $usingFour  -  #984da7;
-// $usingFive  -  #f2389b;
+// $using  -  #2541a2, Using One
+// $usingTwo -  #3B3089, Global One
+// $usingThree -  #832b94, Global Five
+// $usingFour  -  #984da7, Using Four
+// $usingFive  -  #f2389b, Global Six
 //
 // Styleguide colours.use
 
@@ -681,17 +679,17 @@ article.use, div.use {
 
 // Publish Colors
 //
-// Weight: 5
+// Weight: 4
 //
-// Colours for sharing user routes
+// Publish template colours
 //
-// $publish  -  #3B3089;
-// $publishTwo -  #074474;
-// $publishThree -  #146ebb;
-// $publishFour  -  #00b4cf;
-// $publishFive  -  #64d4f5;
+// $publish  -  #3B3089, Global One
+// $publishTwo -  #074474, Publish Two
+// $publishThree -  #146ebb, Global Three
+// $publishFour  -  #00b4cf, Publish Four
+// $publishFive  -  #64d4f5, Global Four
 //
-// Styleguide colours.general
+// Styleguide colours.publish
 
 
 $publish: $brand-one;
@@ -966,23 +964,22 @@ article.publish, div.publish {
 //
 // Weight: 5
 //
-// Colours for start up routes
+// Start-Up template colours
 //
-// $startUp  -  #984da7;
-// $startUpTwo -  #074474;
-
-// $startUpThree -  #d02724;
-// $startUpFour  -  #00b4cf;
-
-// $startUpFive  -  #64d4f5;
+// $startUp  -  #984da7, Start Up One
+// $startUpTwo -  #074474, Brand Six
+// $startUpThree -  #d02724, Start Up Three
+// $startUpFour  -  #00b4cf, Brand Seven
+// $startUpFive  -  #64d4f5, Brand Eight
 //
-// Styleguide colours.general
+// Styleguide colours.startup
 
 $startUp: #984da7;
 $startUpTwo: $brand-six;
 $startUpThree: #d02724;
 $startUpFour: $brand-seven;
 $startUpFive: $brand-eight;
+
 article.startup, div.startup, a.button-primary.startup {
   background-color: $startUpFour;
   &.call_to_action--full-width {
@@ -1268,8 +1265,6 @@ $base-font-size: 16px;
 
 $mobile-base-font-size: 13px;
 
-
-
 // Paragraph Styles
 $paragraph-color: #5A5A5A;
 $paragraph-size: rem(17px);
@@ -1277,7 +1272,7 @@ $paragraph-line-height: 1.5;
 $paragraph-margin: 1.3rem;
 
 // Header Styles
-$header-color: #5A5A5A;
+$header-color: #253882;
 $header-size: rem(45px);
 $header-line-height: 1.8rem;
 $header-margin: $paragraph-margin * 1.2;

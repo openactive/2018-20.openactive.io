@@ -662,7 +662,7 @@
       @media only screen and (max-width: 600px) {
 
       }
-      &.one{
+      &.one {
         margin-bottom: 0;
       }
       .one {
@@ -1001,7 +1001,7 @@
       }
     }
 
-    .left-col{
+    .left-col {
       grid-column-start: 1;
       grid-column-end: 1;
       align-self: start;
@@ -1020,14 +1020,14 @@
         p {
           grid-row: 1;
           grid-column: 13;
-          svg{
-            width:15px;
+          svg {
+            width: 15px;
             padding-top: 0;
           }
         }
       }
     }
-    .right-col{
+    .right-col {
       grid-column-start: 14;
       grid-column-end: -1;
       align-self: start;
@@ -1040,17 +1040,20 @@
         width: 100%;
       }
     }
-    .freegrid-four{
+    .freegrid-four {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 2rem;
     }
-    .freegrid-five{
+    .freegrid-five {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
       grid-gap: 2rem;
+      div {
+        text-align: center;
+      }
     }
-    .freegrid-six{
+    .freegrid-six {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
       @media only screen and (max-width: 600px) {
@@ -1639,7 +1642,7 @@ html.no-cssgrid {
   }
 }
 
-div.inline-block-five{
+div.inline-block-five {
   //adjust in line with margins
   width: 18.2%;
   //adjust to fit needs then set media queries below
@@ -1683,7 +1686,8 @@ div.inline-block-five{
     width: 100%;
   }
 }
-div.inline-block-six{
+
+div.inline-block-six {
   //adjust in line with margins
   width: 14.4%;
   //adjust to fit needs then set media queries below

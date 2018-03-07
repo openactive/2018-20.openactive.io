@@ -41,17 +41,27 @@ OpenActive makes discovering and taking part in  sport and fitness activities ea
 <!--  ---------------->
 <article markdown="0" class="opportunity-data title-row">
 <h2 class="sub-heading-two">Opportunity Data Explained</h2>
-<div class="four">{% include time.svg %}
+<div class="one freegrid-five">
+<div>
+{% include time.svg %}
 <h5>Time</h5>
 </div>
-<div class="four">{% include cost.svg %}
+<div>
+{% include cost.svg %}
 <h5>Price</h5>
 </div>
-<div class="four">{% include description.svg %}
+<div>
+{% include description.svg %}
 <h5>Description</h5>
 </div>
-<div class="four">{% include location.svg %}
+<div>
+{% include location.svg %}
 <h5>Location</h5>
+</div>
+<div>
+{% include details.svg %}
+<h5>Details</h5>
+</div>
 </div>
 </article>
 
