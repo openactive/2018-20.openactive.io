@@ -61,9 +61,7 @@ a.button-primary {
   display: inline-block;
   vertical-align: top;
   padding: 10px 30px;
-  //margin: 1rem 0 0 0 ;
-  margin: 0;
-
+  margin: 1rem 0 0 0;
   background-color: $brand-five;
   color: $white;
   line-height: 1;
@@ -96,12 +94,8 @@ a.button-primary {
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
   }
-}
-.button-primary + .button-primary,.button-primary--ghost + .button-primary--ghost,.button-primary + .button-primary--ghost{
-  margin-bottom: 1rem;
-}
 
-
+}
 
 // Primary Large Styles
 //
@@ -122,7 +116,7 @@ a.button-primary--large {
   font-size: $base-font-size;
   display: inline-block;
   vertical-align: top;
-  margin: 0;
+  margin: 1rem 0 0 0;
   background-color: $brand-five;
   color: $white;
   line-height: 1;
@@ -175,8 +169,7 @@ a.button-primary--alt {
   display: inline-block;
   vertical-align: top;
   padding: 15px 35px;
-  //margin: 1rem 0 0 0 ;
-  margin: 0;
+  margin: 1rem 0 0 0;
   background-color: $brand-seven;
   color: $white;
   line-height: 1;
@@ -208,6 +201,15 @@ a.button-primary--alt {
   }
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
+  }
+}
+
+p > a {
+  &.button-primary {
+    margin: 0;
+    &--alt{
+      margin: 0;
+    }
   }
 }
 

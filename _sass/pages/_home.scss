@@ -139,9 +139,6 @@ html.cssgrid {
   .what-we-do{
     .two{
       &:nth-child(2){
-        a{
-          margin-bottom: 1rem;
-        }
       }
       &:nth-child(3){
         @media only screen and (max-width: 1000px) {

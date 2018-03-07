@@ -13,12 +13,10 @@
 
 // Typography
 //
-// These elements represent headings for their sections.
-// These elements have a rank given by the number in their name. The h1 element has the highest rank, the h6 element has the lowest rank, and two elements with the same name have equal rank.
-//
 // Weight: 1
 //
 // Styleguide typography
+@import "style-guide/typography";
 @import "common/typography";
 // Buttons
 //

@@ -467,28 +467,18 @@ article {
   &.benefits {
     grid-row-gap: 1rem;
     .one.subgrid {
-      .two {
-        &:nth-child(1) {
-          padding: 2rem;
-          svg{
-            max-height: 200px;
-            max-width: 200px;
-          }
-          @media only screen and (max-width: 900px) {
-            padding: 1rem;
-          }
-        }
-        &:nth-child(2) {
-          display: inherit;
-          align-items: center;
-          *{
-            margin:0;
-          }
+      .three {
+        text-align: center;
+        svg {
+          max-height: 150px;
+          max-width: 200px;
+          margin-bottom: 1rem;
         }
       }
     }
   }
 }
+
 
 // END BENEFITS STYLES
 /*********************************/
@@ -531,6 +521,9 @@ article {
       &:nth-child(n+1):nth-child(-n+7) {
         display: inline-block;
       }
+    }
+    .freegrid-four{
+      grid-gap: 1rem;
     }
     .marker {
       display: grid;
@@ -831,6 +824,8 @@ article {
               align-self: auto;
               flex-direction: column;
               text-align: left;
+              justify-content: center;
+              display: inline-flex;
               h5 {
                 margin: 0;
               }
@@ -1784,7 +1779,6 @@ nav {
       border-top-width: 5px;
     }
     div {
-
     }
   }
 }

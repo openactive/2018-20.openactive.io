@@ -120,7 +120,7 @@
       .two {
         align-self: stretch;
         grid-row: auto;
-        * {
+        *:not(a) {
           &:nth-child(1) {
             margin-top: 0;
           }
@@ -1064,7 +1064,7 @@
 
 article {
   .one {
-    * {
+    *:not(a) {
       &:nth-child(1) {
         margin-top: 0;
       }
