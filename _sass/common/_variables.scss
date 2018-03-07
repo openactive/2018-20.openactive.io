@@ -1,65 +1,3 @@
-//@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700');
-
-// Primary Colors
-//
-// Weight: 1
-//
-// The primary colors used in the logo.
-//
-//$brand-one  -  #69c5e3;
-//$brand-two  -  #1ba5d8;
-//$brand-three -  #0d65a0;
-//$brand-four  -  #263d75;
-//$brand-five  -  #33377c;
-//$brand-six -     #7f307a;
-//$brand-seven -   #904d8c;
-//$brand-eight -   #d12d81;
-//$brand-nine -    #a92633;
-//$brand-ten -     #db4640;
-//$brand-eleven - #ec9e52;
-//
-// Styleguide colours.brand
-
-// Colors
-//$brand-one: #69c5e3;
-//$brand-two: #1ba5d8;
-//$brand-three: #0d65a0;
-//$brand-four: #263d75;
-//$brand-five: #33377c;
-//$brand-six: #7f307a;
-//$brand-seven: #904d8c;
-//$brand-eight: #d12d81;
-//$brand-nine: #a92633;
-//$brand-ten: #db4640;
-//$brand-eleven: #ec9e52;
-
-// FROM PDF
-$brand-one: #3B3089;
-$brand-two: #146ebb;
-$brand-three: #2da6dd;
-$brand-four: #64d4f5;
-$brand-five: #832b94;
-$brand-six: #f2389b;
-$brand-seven: #ff4731;
-$brand-eight: #ffa244;
-
-// Logo Colors
-//
-// Weight: 2
-//
-// The primary colors used in the logo.
-//
-//$logo-one - #74cbf3;
-//$logo-two - #009ee3;
-//$logo-three - #0067b1;
-//$logo-four - #433d90;
-//$logo-five - #931e80;
-//$logo-six - #e11482;
-//$logo-seven - #e63b2e;
-//$logo-eight - #f6a635;
-//
-// Styleguide colours.logo
-
 // FROM LOGO
 $logo-one: #74cbf3;
 $logo-two: #009ee3;
@@ -70,22 +8,24 @@ $logo-six: #e11482;
 $logo-seven: #e63b2e;
 $logo-eight: #f6a635;
 
-$brand-red: #B20037;
-$brand-blue: #253882;
-$brand-darkblue: #0b193e;
 
 // Base Colors
 //
-// Weight: 2
+// Weight: 1
 //
 // Base primary colors for branding.
 //
 // $paragraph-color - #505050;
 // $heading-color - #000000;
 // $white -  #ffffff;
+// $grey -  #ccc;
+// $darkgrey -  #777f88;
 // $black - #2b2b2b;
 // $blockquote-color - #505050;
 // $link-color - #4eaff6;
+// $brand-red -   #B20037;
+// $brand-blue -   #253882;
+// $brand-darkblue -   #0b193e;
 //
 // Styleguide colours.base
 
@@ -93,16 +33,39 @@ $white: #ffffff;
 $gray: #ccc;
 $darkgray: #777f88;
 $black: #2b2b2b;
+$brand-red: #B20037;
+$brand-blue: #253882;
+$brand-darkblue: #0b193e;
+
+//@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700');
 
 // Global Colors
 //
-// Weight: 3
+// Weight: 2
 //
-// Colours for general Routes
+// The global template colours
 //
-// $share - #ec9e52;
+// $brand-one  -  #3B3089;
+// $brand-two  -  #146ebb;
+// $brand-three -  #2da6dd;
+// $brand-four  -  #64d4f5;
+// $brand-five  -  #832b94;
+// $brand-six -     #f2389b;
+// $brand-seven -   #ff4731;
+// $brand-eight -   #ffa244;
+
 //
-// Styleguide colours.sharing
+// Styleguide colours.brand
+
+$brand-one: #3B3089;
+$brand-two: #146ebb;
+$brand-three: #2da6dd;
+$brand-four: #64d4f5;
+$brand-five: #832b94;
+$brand-six: #f2389b;
+$brand-seven: #ff4731;
+$brand-eight: #ffa244;
+
 
 $global: $brand-one;
 $globalTwo: $brand-two;
@@ -431,7 +394,11 @@ $globalEight: $brand-eight;
 //
 // Colours for Using user routes
 //
-// $use - #7f307a;
+// $using  -  #2541a2;
+// $usingTwo -  #3B3089;
+// $usingThree -  #832b94;
+// $usingFour  -  #984da7;
+// $usingFive  -  #f2389b;
 //
 // Styleguide colours.use
 
@@ -718,8 +685,14 @@ article.use, div.use {
 //
 // Colours for sharing user routes
 //
+// $publish  -  #3B3089;
+// $publishTwo -  #074474;
+// $publishThree -  #146ebb;
+// $publishFour  -  #00b4cf;
+// $publishFive  -  #64d4f5;
 //
 // Styleguide colours.general
+
 
 $publish: $brand-one;
 $publishTwo: #074474;
@@ -995,6 +968,13 @@ article.publish, div.publish {
 //
 // Colours for start up routes
 //
+// $startUp  -  #984da7;
+// $startUpTwo -  #074474;
+
+// $startUpThree -  #d02724;
+// $startUpFour  -  #00b4cf;
+
+// $startUpFive  -  #64d4f5;
 //
 // Styleguide colours.general
 
