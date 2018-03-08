@@ -107,7 +107,7 @@ defaults:
   values:
     layout: partner
     member: 
-    dataprovider:
+    faq:
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
 - scope:
