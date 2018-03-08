@@ -134,6 +134,12 @@ defaults:
     thumbnail_image: "/uploads/placeholder.png"
     member: 
     website: Web address
+- scope:
+    path: ''
+    type: customers
+  values:
+    thumbnail_image: "/uploads/placeholder.png"
+    bookingsystem:
 compress_html:
   blanklines: false
   profile: false
