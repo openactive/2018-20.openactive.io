@@ -107,7 +107,7 @@ defaults:
   values:
     layout: partner
     member: 
-    case_study:
+    case_study: 
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
 - scope:
