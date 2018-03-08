@@ -11,6 +11,9 @@ collections:
   champions:
     title: Champions
     output: true
+  customers:
+    title: Customers
+    output: true
   dataproviders:
     title: Data Providers
     output: true
