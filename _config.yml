@@ -119,11 +119,7 @@ defaults:
     layout: member
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
-<<<<<<< HEAD
     bookingsystem:
-=======
-    bookingsystems: 
->>>>>>> e518aca8712c131cf34600e8d508898615117346
     website: Web address
 - scope:
     path: ''
