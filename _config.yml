@@ -106,6 +106,7 @@ defaults:
     type: partners
   values:
     layout: partner
+    member: 
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
 - scope:
