@@ -119,7 +119,7 @@ defaults:
     layout: member
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
-    bookingsystems:
+    bookingsystems: 
     website: Web address
 - scope:
     path: ''
@@ -166,6 +166,8 @@ search_full_content:
 tipue_search:
   include:
     pages: true
-
-exclude: [node_modules, README.md]
-keep_files: [images]
+exclude:
+- node_modules
+- README.md
+keep_files:
+- images
