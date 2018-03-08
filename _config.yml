@@ -119,13 +119,13 @@ defaults:
     layout: member
     is_featured: false
     thumbnail_image: "/uploads/placeholder.png"
-    bookingsystems:
+    bookingsystem:
     website: Web address
 - scope:
     path: ''
     type: bookingsystems
   values:
-    layout: booking-system
+    layout: bookingsystem
     is_featured: false
     is_enabled: false
     thumbnail_image: "/uploads/placeholder.png"
