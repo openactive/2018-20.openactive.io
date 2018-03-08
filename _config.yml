@@ -132,14 +132,8 @@ defaults:
     member: 
     website: Web address
 compress_html:
-  clippings: []
-  comments: []
-  endings: []
-  ignore:
-    envs: []
   blanklines: false
   profile: false
-  startings: []
 locale: en-US
 description: Helping physical activity reach everyone. OpenActive is community-led
   initiative with an ambition to help people in England get active using open data.
