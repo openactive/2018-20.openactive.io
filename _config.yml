@@ -139,7 +139,7 @@ defaults:
     type: customers
   values:
     thumbnail_image: "/uploads/placeholder.png"
-    partner:
+    partner: 
 compress_html:
   blanklines: false
   profile: false
