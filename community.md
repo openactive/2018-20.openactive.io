@@ -140,7 +140,7 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 
 </div>
 <figure>
-<div class="mask">{% include overlay.svg %}</div>
+<div class="mask"></div>
 <div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
 </figure>
 {% endfor %}

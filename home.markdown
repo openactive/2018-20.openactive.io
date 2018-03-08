@@ -32,7 +32,7 @@ layout: home
 
 </div>
 <figure id="introduction-vid"  role="group" aria-labelledby="open-active-video">
-<div class="mask">{% include overlay.svg %}</div>
+<div class="mask"></div>
 <iframe id="video" title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE?&modestbranding=1&showinfo=0&rel=0&enablejsapi=1" allowfullscreen></iframe>
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
@@ -159,7 +159,7 @@ What's happening in the community, and how you can get involved!
 
 </div>
 <figure>
-<div class="mask">{% include overlay.svg %}</div>
+<div class="mask"></div>
 <div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
 </figure>
 {% endfor %}

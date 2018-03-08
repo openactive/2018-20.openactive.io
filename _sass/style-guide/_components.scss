@@ -1,100 +1,116 @@
-// Headings
+// Call to Action
 //
-// Headings for sections
+// Full Width, commonly used to direct users to new pages. often found at the bottom of pages leading to the next step.
 //
 // Weight: 1
 //
 // Markup:
-// <h1>H1 - This is the highest level heading.</h1>
-// <h2>H2 - This is the second highest level heading.</h2>
-// <h3>H3 - This is the third highest level heading.</h3>
-// <h4>H4 - This is the fourth highest level heading.</h4>
-// <h5>H5 - This is the fifth highest level heading.</h5>
-// <h6>H6 - This is the sixth highest level heading.</h6>
+// <article class="call_to_action--full-width">
+//    <h2 class="sub-heading-two">The vision in practice</h2>
+//    <div class="one">
+//      <h3 id="how-it-works">How It Works</h3>
+//      <p>Discover how we can achieve our vision in practice and the progress we’ve made so far.</p>
+//      <p><a href="/how-it-works/" class="button-primary">Find out more</a></p>
+//    </div>
+//    <figure>
+//    <div class="mask"></div>
+//    <div class="image" style="background: url(/uploads/iStock-803099000optimised.png)center center / cover no-repeat;"></div>
+//    </figure>
+// </article>
 //
-// Styleguide typography.headings
+// Styleguide components.call-to-action.full-width
 
-// Body
+// Call to Action
 //
-// Body
+// Three
 //
 // Weight: 2
 //
 // Markup:
-// <p>Corrupti atque ad libero qui eos ut quis. Voluptatum consequuntur nihil et dicta. Cumque repellendus eum consequatur consequatur animi consectetur iusto non. Odit at impedit at repellendus.</p>
+// <article class="call_to_action">
+//    <div class="subgrid">
+//        <div class="two">
+//            <div class="line-graphic"></div>
+//            <h3 id="publish-data">Publish Data</h3>
+//            <p>Take the first step enabling open data publishing in your system</p>
+//            <p><a href="/community/" class="button-primary">Community</a></p>
+//        </div>
+//        <div class="two">
+//            <div class="line-graphic"></div>
+//            <h3 id="use-data">Use Data</h3>
+//            <p>Take the first step enabling open data publishing in your system.</p>
+//            <p><a href="/community/" class="button-primary">Community</a></p>
+//        </div>
+//    </div>
+// </article>
 //
-// Styleguide typography.body
+// Styleguide components.call-to-action.two
 
-// Blockquote
+
+// Call to Action
 //
-// blockquote
+// Three
+//
+// Weight: 2
+//
+// Markup:
+// <article class="call_to_action">
+//    <div class="subgrid">
+//        <div class="three">
+//            <h4 id="getting-started">Getting Started</h4>
+//            <p>Take the first step enabling open data in your system.</p>
+//            <a href="/getting-started/" class="button-primary">Getting Started</a>
+//        </div>
+//        <div class="three">
+//            <h4 id="developer">Developer</h4>
+//            <p>Get stuck into the docs and start using or publishing data today!</p>
+//            <a href="/developer/" class="button-primary">Developer</a>
+//        </div>
+//        <div class="three">
+//            <h4 id="community">Community</h4>
+//            <p>What’s happening in the community, and how you can get involved!</p>
+//            <a href="/community/" class="button-primary">Community</a>
+//        </div>
+//    </div>
+// </article>
+//
+// Styleguide components.call-to-action.three
+
+
+// Call to Action
+//
+// Four
 //
 // Weight: 3
 //
 // Markup:
-// <blockquote>
-// <p>Doloribus accusantium sed non autem nobis error. Asperiores laudantium est est harum.</p>
-// <h6>Corrupti atque</h6>
-// </blockquote>
+// <article class="call_to_action title-row">
+//    <h2 class="sub-heading-two">Title</h2>
+//    <div class="subgrid">
+//       <div class="four">
+//           <h3>How to's</h3>
+//           <p>Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.</p>
+//           <a class="link" href="{{ site.baseurl }}{% link community.md %}">How to's</a>
+//       </div>
+//       <div class="four">
+//           <h3>Discussions</h3>
+//           <p>Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusamus in.</p>
+//           <a class="link" href="{{ site.baseurl }}{% link community.md %}">Discussions</a>
+//       </div>
+//       <div class="four">
+//           <h3>References</h3>
+//           <p>Facilis assumenda officiis dicta. Rerum dolor ullam reprehenderit molestiae.</p>
+//           <a class="link" href="{{ site.baseurl }}{% link community.md %}">References</a>
+//       </div>
+//       <div class="four">
+//           <h3>Tutorials</h3>
+//           <p>Natus sit architecto rerum fugit alias aut magnam. Impedit est ea eaque voluptas aliquid magnam alias.</p>
+//           <a class="link" href="{{ site.baseurl }}{% link community.md %}">Tutorials</a>
+//       </div>
+//    </div>
+// </article>
 //
-// Styleguide typography.blockquote
+// Styleguide components.call-to-action.four
 
-// Unordered List Styles
-//
-// list of item, perhaps steps or components
-//
-// Weight: 4
-//
-// Markup:
-// <ul>
-//    <li>Item</li>
-//    <li>Item</li>
-//    <li>Item</li>
-//    <li>Item</li>
-// </ul>
-//
-// Styleguide typography.unordered-list
 
 
-// Ordered List Styles
-//
-// list of item, perhaps steps or components
-//
-// Weight: 5
-//
-// Markup:
-// <ol>
-//    <li>Item</li>
-//    <li>Item</li>
-//    <li>Item</li>
-//    <li>Item</li>
-// </ol>
-//
-// Styleguide typography.ordered-list
-
-// Example Usage
-//
-// Markup:
-// <h1>Heading One</h1>
-// <p>The first paragraph following a heading will appear larger than the body copy. Reprehenderit qui dolorem labore sapiente qui assumenda atque.</p>
-// <p>Paragraphs after that will appear as normal body copy size. Sed et et qui et magni. Reprehenderit qui dolorem labore sapiente qui assumenda atque. Adipisci et alias facere est. Ut aliquam ratione ipsa similique optio explicabo reprehenderit. Sed ullam aut aut doloribus perferendis eum voluptas doloremque. Velit ex error consequatur at. Atque fuga qui voluptatum veritatis voluptatem iusto veritatis et. Quae eum aut aut odio ea quasi cum.</p>
-// <h2>Heading Two</h2>
-// <p>The first paragraph following a heading will appear larger than the body copy. Totam nisi perferendis sit ullam sit. Quo omnis ratione pariatur dicta fugit ullam iure. Dolore totam ratione et ad fuga ea.</p>
-// <p>Paragraphs after that will appear as normal body copy size. Corrupti atque ad libero qui eos ut quis. Voluptatum consequuntur nihil et dicta. Cumque repellendus eum consequatur consequatur animi consectetur iusto non. Odit at impedit at repellendus.</p>
-// <blockquote>
-// <p>Doloribus accusantium sed non autem nobis error. Asperiores laudantium est est harum.</p>
-// <h6>Corrupti atque</h6>
-// </blockquote>
-// <p>Facere qui enim repudiandae natus qui rerum. Modi error amet maxime. Reiciendis et sit aspernatur doloribus deleniti. Explicabo perferendis velit amet quia quod explicabo. Corrupti atque ad libero qui eos ut quis. Voluptatum consequuntur nihil et dicta. Cumque repellendus eum consequatur consequatur animi consectetur iusto non. Odit at impedit at repellendus.</p>
-// <h3>Heading Two</h3>
-// <ul>
-//    <li>Item</li>
-//    <li>Item</li>
-//    <li>Item</li>
-//    <li>Item</li>
-// </ul>
-// <a class="button-primary {{modifier_class}}">Button</a>&nbsp;<a class="button-primary--ghost {{modifier_class}}">Button</a>
-//
-// Weight: 6
-//
-// Styleguide typography.example

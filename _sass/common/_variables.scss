@@ -54,14 +54,14 @@ $brand-eight: #ffa244;
 //
 // Global template colours
 //
-// $global -  #3B3089 - Global One
-// $globalTwo  -  #146ebb - Global Two
-// $globalThree -  #2da6dd - Global Three
-// $globalFour  -  #64d4f5 - Global Four
-// $globalFive  -  #832b94 - Global Five
-// $globalSix -     #f2389b - Global Six
-// $globalSeven -   #ff4731 - Global Seven
-// $globalEight -   #ffa244 - Global Eight
+// $global -  #3B3089; Global One
+// $globalTwo  -  #146ebb; Global Two
+// $globalThree -  #2da6dd; Global Three
+// $globalFour  -  #64d4f5; Global Four
+// $globalFive  -  #832b94; Global Five
+// $globalSix -     #f2389b; Global Six
+// $globalSeven -   #ff4731; Global Seven
+// $globalEight -   #ffa244; Global Eight
 //
 // Styleguide colours.global
 
@@ -402,11 +402,11 @@ $globalEight: $brand-eight;
 //
 // Using template colours
 //
-// $using  -  #2541a2, Using One
-// $usingTwo -  #3B3089, Global One
-// $usingThree -  #832b94, Global Five
-// $usingFour  -  #984da7, Using Four
-// $usingFive  -  #f2389b, Global Six
+// $using  -  #2541a2; Using One
+// $usingTwo -  #3B3089; Global One
+// $usingThree -  #832b94; Global Five
+// $usingFour  -  #984da7; Using Four
+// $usingFive  -  #f2389b; Global Six
 //
 // Styleguide colours.use
 
@@ -693,11 +693,11 @@ article.use, div.use {
 //
 // Publish template colours
 //
-// $publish  -  #3B3089, Global One
-// $publishTwo -  #074474, Publish Two
-// $publishThree -  #146ebb, Global Three
-// $publishFour  -  #00b4cf, Publish Four
-// $publishFive  -  #64d4f5, Global Four
+// $publish  -  #3B3089; Global One
+// $publishTwo -  #074474; Publish Two
+// $publishThree -  #146ebb; Global Three
+// $publishFour  -  #00b4cf; Publish Four
+// $publishFive  -  #64d4f5; Global Four
 //
 // Styleguide colours.publish
 
@@ -707,6 +707,7 @@ $publishTwo: #074474;
 $publishThree: $brand-two;
 $publishFour: #00b4cf;
 $publishFive: $brand-four;
+
 article.publish, div.publish {
   background-color: $publish;
   &.call_to_action--full-width {
@@ -979,11 +980,11 @@ article.publish, div.publish {
 //
 // Start-Up template colours
 //
-// $startUp  -  #984da7, Start Up One
-// $startUpTwo -  #074474, Brand Six
-// $startUpThree -  #d02724, Start Up Three
-// $startUpFour  -  #00b4cf, Brand Seven
-// $startUpFive  -  #64d4f5, Brand Eight
+// $startUp  -  #984da7; Start Up One
+// $startUpTwo -  #f2389b; Brand Six
+// $startUpThree -  #d02724; Start Up Three
+// $startUpFour  -  #ff4731; Brand Seven
+// $startUpFive  -  #ffa244; Brand Eight
 //
 // Styleguide colours.startup
 

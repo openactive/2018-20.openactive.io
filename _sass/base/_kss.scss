@@ -2,3 +2,51 @@
   margin-top: 0;
   line-height: 1;
 }
+.kss-section{
+  .call_to_action--full-width{
+    grid-template-columns: repeat(12, [col] 1fr);
+    display: grid;
+    grid-gap: 1rem;
+    figure{
+      grid-column-start: 12;
+      grid-column-end: -1;
+    }
+  }
+  .call_to_action{
+    grid-template-columns: repeat(12, [col] 1fr);
+    display: grid;
+    grid-gap: 1rem;
+    .subgrid{
+      display: inherit;
+      //grid-template-columns: repeat(4, [col] 1fr);
+      grid-column-start: 2;
+      grid-column-end: 14;
+      grid-gap: 1rem;
+      .three{
+        &:nth-child(3n+1) {
+          grid-column: col / span 4;
+        }
+        &:nth-child(3n+2) {
+          grid-column: col 5 / span 4;
+        }
+        &:nth-child(3n+3) {
+          grid-column: col 9/ span 4;
+        }
+      }
+      .four{
+        &:nth-child(4n+1) {
+          grid-column: col / span 3;
+        }
+        &:nth-child(4n+2) {
+          grid-column: col 4 / span 3;
+        }
+        &:nth-child(4n+3) {
+          grid-column: col 7 / span 3;
+        }
+        &:nth-child(4n+4) {
+          grid-column: col 10/ span 3;
+        }
+      }
+    }
+  }
+}

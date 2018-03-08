@@ -50,18 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
-// Heading One
-//
-// Highest level heading text
-//
-// Weight: 1
-//
-// Markup:
-// <h1>This is the highest level heading</h1>
-//
-// Styleguide typography.heading-one
 h1 {
   font-size: $header-size;
   line-height: 1;
@@ -88,15 +76,6 @@ h1 + h2 {
 }
 
 // Heading Two
-//
-// Second highest level heading
-//
-// Weight: 2
-//
-// Markup:
-// <h2>This is the second highest level heading</h2>
-//
-// Styleguide typography.heading-two
 h2 {
   font-size: $header-size / 1.4;
   font-weight: 800;
@@ -108,15 +87,6 @@ h2 + p, h2 + ul li p, .h2-copy {
 }
 
 // Sub Heading Two Styles
-//
-// Heading text for sections, appears in left columns at larger screens
-//
-// Weight: 3
-//
-// Markup:
-// <h2 class="sub-heading-two">Left column heading two</h2>
-//
-// Styleguide typography.heading-two.sub-heading-two
 @supports (display: grid) {
   .sub-heading-two {
     grid-column-start: 1;
@@ -170,15 +140,6 @@ html.no-cssgrid {
 }
 
 // Heading Three
-//
-// Third highest level heading
-//
-// Weight: 4
-//
-// Markup:
-// <h3>This is the third highest level heading</h3>
-//
-// Styleguide typography.heading-three
 h3 {
 
   font-size: $header-size / 1.5;
@@ -196,15 +157,6 @@ h3 + ol + p,
 }
 
 // Heading Four
-//
-// Fourth highest level heading
-//
-// Weight: 5
-//
-// Markup:
-// <h4>This is the fourth highest level heading</h4>
-//
-// Styleguide typography.heading-four
 h4 {
 
   font-size: $header-size / 1.7;
@@ -219,15 +171,6 @@ h4 + ol + p,
 
 
 // Heading Five
-//
-// Fifth highest level heading
-//
-// Weight: 6
-//
-// Markup:
-// <h5>This is the fifth highest level heading</h5>
-//
-// Styleguide typography.heading-five
 h5 {
 
   font-size: $header-size / 2.16346;
@@ -241,15 +184,6 @@ h5 + ol + p,
 }
 
 // Heading Six
-//
-// Sixth highest level heading
-//
-// Weight: 7
-//
-// Markup:
-// <h6>This is the sixth highest level heading</h6>
-//
-// Styleguide typography.heading-six
 h6, blockquote > h6 {
   font-size: $header-size / 3.75;
   text-transform: uppercase;
@@ -264,15 +198,6 @@ h6, blockquote > h6 {
 }
 
 // Paragraph Text
-//
-// Body Copy
-//
-// Weight: 8
-//
-// Markup:
-// <h6>Body copy text</h6>
-//
-// Styleguide typography.paragraph
 p, li {
   margin-top: $paragraph-margin;
   font-size: $paragraph-size;
@@ -323,21 +248,7 @@ ul, ol {
   }
 }
 
-// Unordered List Styles
-//
-// list of item, perhaps steps or components
-//
-// Weight: 9
-//
-// Markup:
-// <ul>
-//    <li>Item</li>
-//    <li>Item</li>
-//    <li>Item</li>
-//    <li>Item</li>
-// </ul>
-//
-// Styleguide typography.unordered-list
+
 ul {
 
   li {

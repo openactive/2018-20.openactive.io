@@ -3,6 +3,10 @@ layout: default
 ---
 
 <div class="page global-template">
+
+    {{content}}
+
+
     <div class="fixed">
         <div class="buttons">
             <a class="global-btn button-primary global-palette">Global Colours</a>
@@ -50,7 +54,8 @@ layout: default
         </div>
         <figure class="hero">
             <div class="mask">{% include video-overlay.svg %}</div>
-            <div class="image" style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div class="image"
+                 style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
         </figure>
         <figure class="sub-menu">
             <div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
@@ -257,16 +262,15 @@ layout: default
 
         <figure>
             <div class="mask">{% include video-overlay.svg %}</div>
-            <!--<div class="triangle"></div>-->
-            <!--<div class="stripe"></div>-->
-            <div class="image" style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+            <div class="image"
+                 style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
         </figure>
 
     </article>
 
+
     <article class="call_to_action--wide">
         <div class="one">
-
             <h3>Open Data Essentials</h3>
             <p>Open Data Institute's e-Learning programme developed for the European Commission. This programme has been
                 designed to enable you to discover what open data is and how it is changing the lives of everyone on our
@@ -277,7 +281,7 @@ layout: default
             <br/>
             <a class="button-primary" href="http://accelerate.theodi.org/#/" target="_blank" rel="noopener">Learn About
                 Open Data</a>
-            <i class="line-graphic">{% include line-graphic-corner.svg %}</i>
+            <div class="line-graphic">{% include line-graphic-corner.svg %}</div>
 
         </div>
     </article>
@@ -426,3 +430,5 @@ layout: default
 
 
 </div>
+
+
