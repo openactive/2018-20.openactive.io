@@ -5,7 +5,6 @@
 //
 // Markup:
 // <a class="{{modifier_class}}">Link</a>
-// [How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
 //
 // :hover             - Subtle hover highlight.
 //
@@ -40,7 +39,7 @@ a:active {
 //
 // Primary call to action
 //
-// Weight: 1
+// Weight: 2
 //
 // :hover       - Hover state.
 // :active      - Active state.
@@ -58,7 +57,8 @@ button[type=submit],
 button.primary_cta,
 button.button-primary,
 a.button-primary {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   vertical-align: top;
   padding: 10px 30px;
   margin: 1rem 0 0 0;
@@ -67,29 +67,28 @@ a.button-primary {
   line-height: 1;
   font-weight: 600;
   font-family: $font-family;
-  font-size: $base-font-size / 1.5;
+  font-size: $base-font-size / 1.2;
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 1px;
-
   border-radius: 5px;
   border: 1px solid transparent;
-
   transition-property: background-color;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
 
   &:hover {
-    background-color: rgba($brand-five, 0.5);
+    background-color: rgba($brand-six, 0.5);
     color: $white;
   }
   &:active {
-    background-color: $brand-five;
+    background-color: $brand-six;
     color: $white;
   }
   &.disabled {
     background-color: $gray;
+    cursor: default;
   }
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
@@ -97,65 +96,12 @@ a.button-primary {
 
 }
 
-// Primary Large Styles
-//
-// Primary Ghost call to action
-//
-// Weight: 1
-//
-// :hover       - Hover state.
-// :active      - Active state.
-// .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
-//
-// Markup:
-// <a class="button-primary--ghostlarge {{modifier_class}}">Button</a>
-//
-// Styleguide buttons.primary-ghost
-a.button-primary--large {
-  padding: 20px 40px;
-  font-size: $base-font-size;
-  display: inline-block;
-  vertical-align: top;
-  margin: 1rem 0 0 0;
-  background-color: $brand-five;
-  color: $white;
-  line-height: 1;
-  font-weight: 600;
-  font-family: $font-family;
-  text-transform: uppercase;
-  cursor: pointer;
-  text-decoration: none;
-  letter-spacing: 1px;
 
-  border-radius: 5px;
-  border: 1px solid transparent;
-
-  transition-property: background-color;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-
-  &:hover {
-    background-color: rgba($brand-five, 0.5);
-    color: $white;
-  }
-  &:active {
-    background-color: $brand-five;
-    color: $white;
-  }
-  &.disabled {
-    background-color: $gray;
-  }
-  @media only screen and (max-width: 768px) {
-    padding: 15px 25px;
-  }
-
-}
-
-// Primary Alt Styles
+// Primary Alt Button
 //
-// Primary Alternative call to action
+// Primary Alternative Button
 //
-// Weight: 1
+// Weight: 3
 //
 // :hover       - Hover state.
 // :active      - Active state.
@@ -166,9 +112,10 @@ a.button-primary--large {
 //
 // Styleguide buttons.primary-alt
 a.button-primary--alt {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   vertical-align: top;
-  padding: 15px 35px;
+  padding: 10px 30px;
   margin: 1rem 0 0 0;
   background-color: $brand-seven;
   color: $white;
@@ -180,16 +127,14 @@ a.button-primary--alt {
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 1px;
-
   border-radius: 5px;
   border: 1px solid transparent;
-
   transition-property: background-color;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
 
   &:hover {
-    background-color: $brand-eight;
+    background-color: rgba($brand-eight,0.5);
     color: $white;
   }
   &:active {
@@ -198,6 +143,7 @@ a.button-primary--alt {
   }
   &.disabled {
     background-color: $gray;
+    cursor: default;
   }
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
@@ -210,14 +156,26 @@ p > a {
     &--alt{
       margin: 0;
     }
+    &--ghost{
+      margin: 0;
+    }
+  }
+  & + .button-primary{
+    margin: 0;
+    &--alt{
+      margin: 0;
+    }
+    &--ghost{
+      margin: 0;
+    }
   }
 }
 
-// Primary Ghost Styles
+// Primary Ghost Button
 //
-// Primary Ghost call to action
+// Primary Ghost Button
 //
-// Weight: 1
+// Weight: 4
 //
 // :hover       - Hover state.
 // :active      - Active state.
@@ -228,21 +186,109 @@ p > a {
 //
 // Styleguide buttons.primary-ghost
 a.button-primary--ghost {
-  @extend .button-primary;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: top;
+  padding: 10px 30px;
+  margin: 1rem 0 0 0;
+  line-height: 1;
+  font-weight: 600;
+  font-family: $font-family;
+  font-size: $base-font-size / 1.2;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
   background-color: transparent;
   border: 1px solid $brand-five;
   color: $brand-five;
   &:hover {
+    background-color: rgba($brand-five,0.5);
     color: $white;
+  }
+  &:active {
+    background-color: $brand-five;
+    color: $white;
+  }
+  &.disabled {
+    border: 1px solid $gray;
+    color: $gray;
+  }
+  &.disabled:hover {
+    background-color: transparent;
+    border: 1px solid $gray;
+    color: $gray;
+    cursor: default;
+  }
+}
+
+
+// Primary Large Button
+//
+// Primary Large Button
+//
+// Weight: 5
+//
+// :hover       - Hover state.
+// :active      - Active state.
+// .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
+//
+// Markup:
+// <a class="button-primary--large {{modifier_class}}">Button</a>
+//
+// Styleguide buttons.primary-large
+a.button-primary--large {
+  padding: 20px 40px;
+  font-size: $base-font-size;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: top;
+  margin: 1rem 0 0 0;
+  background-color: $brand-five;
+  color: $white;
+  line-height: 1;
+  font-weight: 600;
+  font-family: $font-family;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    background-color: rgba($brand-six, 0.5);
+    color: $white;
+  }
+  &:active {
+    background-color: $brand-six;
+    color: $white;
+  }
+  &.disabled {
+    background-color: $gray;
+  }
+  &.disabled:hover {
+    cursor: default;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 15px 25px;
   }
 
 }
 
-// Primary Large Styles
+
+// Primary Large Button
 //
-// Primary Ghost call to action
+// Primary Ghost Large Button
 //
-// Weight: 1
+// Weight: 6
 //
 // :hover       - Hover state.
 // :active      - Active state.
@@ -251,16 +297,45 @@ a.button-primary--ghost {
 // Markup:
 // <a class="button-primary--ghostlarge {{modifier_class}}">Button</a>
 //
-// Styleguide buttons.primary-ghost
+// Styleguide buttons.primary-ghostlarge
 a.button-primary--ghostlarge {
-  @extend .button-primary;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: top;
+  margin: 1rem 0 0 0;
+  line-height: 1;
+  font-weight: 600;
+  font-family: $font-family;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
   background-color: transparent;
   border: 1px solid $brand-five;
   padding: 20px 40px;
   color: $brand-five;
   font-size: $base-font-size;
   &:hover {
+    background-color: rgba($brand-five,0.5);
     color: $white;
+  }
+  &:active {
+    background-color: $brand-five;
+    color: $white;
+  }
+  &.disabled {
+    border: 1px solid $gray;
+    color: $gray;
+  }
+  &.disabled:hover {
+    background-color: transparent;
+    border: 1px solid $gray;
+    color: $gray;
+    cursor: default;
   }
 
 }
@@ -269,7 +344,7 @@ a.button-primary--ghostlarge {
 //
 // Secondary call to action
 //
-// Weight: 2
+// Weight: 7
 //
 // :hover       - Hover state.
 // :active      - Active state.
@@ -282,7 +357,8 @@ a.button-primary--ghostlarge {
 a.secondary_cta,
 span.secondary_cta > a,
 a.button-secondary {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   vertical-align: top;
   padding: 7px 10px;
 
@@ -316,6 +392,7 @@ a.button-secondary {
   &.disabled {
     background-color: $gray;
     color: $white;
+    cursor: default;
   }
   @media only screen and (max-width: 768px) {
     padding: 10px 20px;
@@ -326,7 +403,7 @@ a.button-secondary {
 //
 // Secondary Ghost call to action
 //
-// Weight: 1
+// Weight: 8
 //
 // :hover       - Hover state.
 // :active      - Active state.

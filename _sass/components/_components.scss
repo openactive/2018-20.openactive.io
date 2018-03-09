@@ -79,7 +79,7 @@ article {
       .mask {
         position: absolute;
         left: -3px;
-        top: 0;
+        top: -1px;
         width: 100%;
         height: 101%;
         z-index: 20;
@@ -1110,6 +1110,37 @@ article {
       }
 
     }
+    .one.stripe{
+      background-color: $brand-darkblue;
+      padding: 4rem 20rem 4rem 2rem;
+      *:not(figure){
+        z-index: 30;
+        position: relative;
+      }
+      & + figure{
+        .mask {
+          position: absolute;
+          left: -1px;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 20;
+          overflow: hidden;
+          background: url('images/overlay-blue.svg');
+          background-size: 300px;
+          background-repeat: no-repeat;
+        }
+      }
+      & + figure + .line-graphic{
+        position: absolute;
+        height: 100%;
+        max-height: 200px;
+        background: url('images/slim-line-graphic.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 80px;
+      }
+    }
     .two {
       position: relative;
       padding: 3rem 5rem;
@@ -1141,6 +1172,7 @@ article {
           background-repeat: no-repeat;
           background-size: contain;
           width: 30%;
+          max-width: 120px;
           background-position: bottom;
         }
       }
@@ -1248,6 +1280,7 @@ article {
       grid-column-end: 14;
       padding: 4rem;
       position: relative;
+      background-color: $brand-darkblue;
       * {
         color: $white;
       }
@@ -1255,11 +1288,12 @@ article {
         right: 0;
         bottom: 0;
         z-index: 1;
-        svg {
-          height: 110px;
-          bottom: 0;
-          right: 0;
-        }
+        background: url('images/line-graphic-corner.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 30%;
+        max-width: 120px;
+        background-position: bottom;
       }
       .button-primary {
       }

@@ -1,6 +1,6 @@
 ---
-title: How It Works Alt
-permalink: "/how-it-works-alt/"
+title: How It Works alt 2
+permalink: "/how-it-works-alt-2/"
 position: 2
 is_main_navigation: false
 is_secondary_navigation: true
@@ -28,50 +28,12 @@ It can also help data users create new apps and services that can help people ge
 <div class="two">
 
 
-![Hero]({{ site.baseurl }}/assets/images/placeholder.png)
+* Activity providers make the data about their opportunities open.
+* Third parties can list these opportunities in their apps or services.
+* The data can also be bookable.
 
 </div>
 </article>
-
-
-
-<article>
-<div class="three">
-![Hero]({{ site.baseurl }}/assets/images/placeholder.png)
-
-##### Activity providers make the data about their opportunities open.
-
-This is covers timetables, locations and descriptions. This is often already accessible on the web. Making it open means that people can use it in interesting ways.
-
-See below to find out how to make this data open.
-
-</div>
-<div class="three">
-![Hero]({{ site.baseurl }}/assets/images/placeholder.png)
-
-##### Third parties can list these opportunities in their apps or services.
-
-Because it is openly licensed, anyone has permission ot access, use or share this opportunity data.
-
-These services include straightforward activity finders for a wide audience or tailored tools aimed at specific types of user.
-
-</div>
-<div class="three">
-![Hero]({{ site.baseurl }}/assets/images/placeholder.png)
-
-##### The data can also be bookable.
-
-This means that a customer can make a booking on a third party's site, and the payment is sent securely to the activity provider.
-
-</div>
-</article>
-
-
-<!--  ---------------->
-<!-- TABS -->
-<!--  ---------------->
-{% include tabs.html %}
-
 
 <!--  ---------------->
 <!-- WHAT IS OPPORTUNITY DATA -->
@@ -126,6 +88,13 @@ In most cases this information can already be found on the activity provider's o
 
 </div>
 </article>
+
+
+<!--  ---------------->
+<!-- TABS -->
+<!--  ---------------->
+{% include tabs.html %}
+
 
 
 <!--  ---------------->

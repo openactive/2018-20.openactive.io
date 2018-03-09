@@ -679,7 +679,7 @@ $header-top-margin: 2rem;
     width: 100%;
     background-color: $white;
     z-index: 200;
-    height: 100px;
+    height: 70px;
     transition: height 0.5s ease;
 
     figure, div, aside, nav, h1 {
@@ -695,8 +695,8 @@ $header-top-margin: 2rem;
       margin: 1rem;
       text-align: right;
       width: 100%;
-      max-width: 100px;
-      min-width: 100px;
+      max-width: 80px;
+      min-width: 70px;
 
       a {
         margin: 0;

@@ -346,20 +346,19 @@ blockquote {
 
 article.featured {
   grid-row-gap: 0;
-  background-color: $brand-blue;
+  background-color: $brand-darkblue;
   .quote {
     grid-row: 1;
     grid-column-start: 2;
     grid-column-end: 14;
     margin-top: 2rem;
-    svg {
-      width: 30px;
-      height: 30px;
-      margin-bottom: 1rem;
-    }
-    .quote-svg {
-      fill: $white;
-    }
+    background: url('images/quote.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1rem;
   }
   blockquote {
     grid-row: 2;

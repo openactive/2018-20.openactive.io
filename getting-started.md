@@ -136,7 +136,7 @@ Find resources designed to explain open data to your colleagues.
 #### Contact us
 Have a question? Get in touch.
 
-[Contact]( {{ site.baseurl }}{% link contact.md %}){: .button-primary}
+<a class="button-primary" href="mailto:hello@openactive.io">Contact</a>
 
 </div>
 </div>

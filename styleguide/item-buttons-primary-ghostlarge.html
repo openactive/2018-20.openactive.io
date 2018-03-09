@@ -81,63 +81,49 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-3" id="kssref-components-call-to-action-two">
+            <header class="kss-section kss-section--depth-2" id="kssref-buttons-primary-ghostlarge">
 
             <article class="kss-section__content">
-                <p class="kss-section__source">Source: <span>style-guide/_components.scss</span>, line <span>42</span></p>
+                <p class="kss-section__source">Source: <span>components/_buttons.scss</span>, line <span>268</span></p>
 
-              <a class="kss-section__permalink" href="#kssref-components-call-to-action-two">
-                <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">5.2.3</span>
-                  <span class="kss-section__name">Call to Action (50%)</span>
-                </h3>
+              <a class="kss-section__permalink" href="#kssref-buttons-primary-ghostlarge">
+                <h2 class="kss-section__item kss-section__item--depth-2">
+                  <span class="kss-section__ref">3.6</span>
+                  <span class="kss-section__name">Primary Large Button</span>
+                </h2>
               </a>
 
-                <div class="kss-section__description"><p>50% Call to Action Blocks</p>
+                <div class="kss-section__description"><p>Primary Ghost Large Button</p>
 </div>
 
             </article>
 
               <article class="kss-section__modifiers">
-                <h1 class="kss-modifiers__heading">Example</h1>
+                <h1 class="kss-modifiers__heading">Examples</h1>
 
+                  <h2 class="kss-modifiers__name">Default styling</h2>
 
-                <div class="kss-modifiers__example"><article class="call_to_action">
-   <div class="subgrid">
-       <div class="two">
-           <div class="line-graphic"></div>
-           <h3 id="publish-data">Publish Data</h3>
-           <p>Take the first step enabling open data publishing in your system</p>
-           <p><a href="/community/" class="button-primary">Community</a></p>
-       </div>
-       <div class="two">
-           <div class="line-graphic"></div>
-           <h3 id="use-data">Use Data</h3>
-           <p>Take the first step enabling open data publishing in your system.</p>
-           <p><a href="/community/" class="button-primary">Community</a></p>
-       </div>
-   </div>
-</article></div>
+                <div class="kss-modifiers__example"><a class="button-primary--ghostlarge [modifier class]">Button</a></div>
 
+                  <h2 class="kss-modifiers__name">:hover</h2>
+
+                  <p class="kss-modifiers__description">Hover state.</p>
+
+                  <div class="kss-modifiers__example"><a class="button-primary--ghostlarge pseudo-class-hover">Button</a></div>
+                  <h2 class="kss-modifiers__name">:active</h2>
+
+                  <p class="kss-modifiers__description">Active state.</p>
+
+                  <div class="kss-modifiers__example"><a class="button-primary--ghostlarge pseudo-class-active">Button</a></div>
+                  <h2 class="kss-modifiers__name">.disabled</h2>
+
+                  <p class="kss-modifiers__description">Disabled button. If you use <code>&lt;button&gt;</code> element, that is acceptable to add <code>disabled</code> attribute instead.</p>
+
+                  <div class="kss-modifiers__example"><a class="button-primary--ghostlarge disabled">Button</a></div>
               </article>
 
                 <article class="kss-section__markup">
-                  <pre><code class="language-markup">&lt;article class&#x3D;&quot;call_to_action&quot;&gt;
-   &lt;div class&#x3D;&quot;subgrid&quot;&gt;
-       &lt;div class&#x3D;&quot;two&quot;&gt;
-           &lt;div class&#x3D;&quot;line-graphic&quot;&gt;&lt;/div&gt;
-           &lt;h3 id&#x3D;&quot;publish-data&quot;&gt;Publish Data&lt;/h3&gt;
-           &lt;p&gt;Take the first step enabling open data publishing in your system&lt;/p&gt;
-           &lt;p&gt;&lt;a href&#x3D;&quot;/community/&quot; class&#x3D;&quot;button-primary&quot;&gt;Community&lt;/a&gt;&lt;/p&gt;
-       &lt;/div&gt;
-       &lt;div class&#x3D;&quot;two&quot;&gt;
-           &lt;div class&#x3D;&quot;line-graphic&quot;&gt;&lt;/div&gt;
-           &lt;h3 id&#x3D;&quot;use-data&quot;&gt;Use Data&lt;/h3&gt;
-           &lt;p&gt;Take the first step enabling open data publishing in your system.&lt;/p&gt;
-           &lt;p&gt;&lt;a href&#x3D;&quot;/community/&quot; class&#x3D;&quot;button-primary&quot;&gt;Community&lt;/a&gt;&lt;/p&gt;
-       &lt;/div&gt;
-   &lt;/div&gt;
-&lt;/article&gt;</code></pre>
+                  <pre><code class="language-markup">&lt;a class&#x3D;&quot;button-primary--ghostlarge [modifier class]&quot;&gt;Button&lt;/a&gt;</code></pre>
                 </article>
 
             </header>

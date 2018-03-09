@@ -375,14 +375,12 @@
       display: inline-block;
       right: 0;
       bottom: 0;
-      width: 380px;
-      svg {
-        position: absolute;
-        height: 50%;
-        bottom: 0;
-        /* max-height: 250px; */
-        right: 0;
-      }
+      max-width: 300px;
+      background: url('images/line-graphic-corner.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom;
+      width: 100%;
       @media only screen and (max-width: 1000px) {
         display: none;
       }

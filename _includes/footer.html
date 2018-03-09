@@ -41,6 +41,10 @@
                 {% endif %}
                 {% endif %}
                 {% endfor %}
+                <li>
+                    <a role="menuitem" {% if p.url== page.url %}class="active" {% endif %}
+                       href="mailto:hello@openactive.io" aria-label="email hello@openactive.io">Contact</a>
+                </li>
             </ul>
             {% include social.html %}
         </nav>

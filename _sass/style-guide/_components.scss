@@ -1,6 +1,7 @@
-// Call to Action
+// Call to Action (100%)
 //
 // Full Width, commonly used to direct users to new pages. often found at the bottom of pages leading to the next step.
+// `<article class="call_to_action--full-width "></article>`
 //
 // Weight: 1
 //
@@ -20,11 +21,29 @@
 //
 // Styleguide components.call-to-action.full-width
 
-// Call to Action
+
+// Call to Action (wide)
 //
-// Three
 //
 // Weight: 2
+//
+// Markup:
+// <article class="call_to_action--wide">
+//    <div class="one">
+//        <h3 id="open-data-essentials">Open Data Essentials</h3>
+//        <p>Open Data Institute’s e-Learning programme developed for the European Commission. This programme has been designed to enable you to discover what open data is and how it is changing the lives of everyone on our planet. There are 13 lessons for you to explore covering the essentials of open data, how to plan and measure success and how to implement an open data programme technically. This programme is free and should take a maximum of 2-3 hours to complete.</p>
+//        <p><a href="http://accelerate.theodi.org/#/" class="button-primary" target="_blank" rel="noopener">Learn About Open Data</a></p>
+//        <div class="line-graphic"></div>
+//    </div>
+// </article>
+//
+// Styleguide components.call-to-action.wide
+
+// Call to Action (50%)
+//
+// 50% Call to Action Blocks
+//
+// Weight: 3
 //
 // Markup:
 // <article class="call_to_action">
@@ -47,11 +66,11 @@
 // Styleguide components.call-to-action.two
 
 
-// Call to Action
+// Call to Action (33%)
 //
-// Three
+// 33% Call to Action Blocks
 //
-// Weight: 2
+// Weight: 4
 //
 // Markup:
 // <article class="call_to_action">
@@ -77,11 +96,11 @@
 // Styleguide components.call-to-action.three
 
 
-// Call to Action
+// Call to Action (25%)
 //
-// Four
+// 25% Call to Action Blocks
 //
-// Weight: 3
+// Weight: 5
 //
 // Markup:
 // <article class="call_to_action title-row">
@@ -111,6 +130,25 @@
 // </article>
 //
 // Styleguide components.call-to-action.four
+
+// Blockquote
+//
+// Full Width Blockquote
+//
+// Weight: 6
+//
+// Markup:
+// <article class="title-row featured">
+//    <div class="quote"></div>
+//    <blockquote>
+//        <p>Dolore nulla voluptas natus et sapiente. Deserunt sequi eius culpa labore. Totam quam nihil alias delectus natus voluptas. Qui omnis vitae atque sequi.</p>
+//        <h6 id="bob-smith">Bob Smith</h6>
+//        <p>Health Center</p>
+//    </blockquote>
+//    <div class="border"></div>
+// </article>
+//
+// Styleguide components.blockquote.featured
 
 
 

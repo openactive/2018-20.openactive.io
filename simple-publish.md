@@ -137,7 +137,7 @@ The Open Data Institute encourages all publishers to create an [Open Data Certif
 ### Find out more
 If you are interested in opening up your opportunity data or finding out more about it, the Open Data Institute is offering free consultations to discuss the benefits and help you do this. Please contact us to find out more.
 
-[Contact]( {{ site.baseurl }}{% link contact.md %}){: .button-primary}
+<a class="button-primary" href="mailto:hello@openactive.io">Contact</a>
 
 
 </div>
@@ -155,22 +155,23 @@ This guidance is evolving, and everyone is welcome to contribute. Shape the dire
 
 
 <!--  ---------------->
-<!-- DEVELOPER CALL TO ACTION -->
+<!-- ACCELERATOR BLOCKS -->
 <!--  ---------------->
-<article markdown="0" class="call_to_action--full-width">
-<h2 class="sub-heading-two">Show me the code</h2>
-<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+<article class="call_to_action--full-width global">
+<h2 class="sub-heading-two">Start Ups</h2>
+<div class="one">
 
-<div markdown="1" class="one">
+{% assign subpage = site.pages | where: 'title', 'Developer' %}
+{% for item in subpage %}
+### {{ item.title}}
+{{ item.strapline | markdownify }}
 
-###  Developers
-Join the open data revolution with OpenActive and help the nation get active.
-
-[Developer]( {{ site.baseurl }}{% link developer.md %}){: .primary_cta}
+[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
-<div class="mask">{% include overlay.svg %}</div>
-<div style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+<div class="mask"></div>
+<div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
 </figure>
+{% endfor %}
 </article>

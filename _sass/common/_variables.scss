@@ -196,7 +196,7 @@ $globalEight: $brand-eight;
   }
   .call_to_action {
     .one, .one.stripe {
-      background: none $global !important;
+      background: none $brand-darkblue !important;
       .button-primary {
         background-color: $globalFive;
         &:hover {
@@ -215,7 +215,7 @@ $globalEight: $brand-eight;
   }
   .call_to_action--wide {
     .one {
-      background: none $global !important;
+      background: none $brand-darkblue !important;
       .button-primary {
         background-color: $globalFive;
         &:hover {

@@ -39,28 +39,39 @@ OpenActive makes discovering and taking part in  sport and fitness activities ea
 <!--  ---------------->
 <!-- WHAT IS OPPORTUNITY DATA -->
 <!--  ---------------->
-<article markdown="0" class="opportunity-data title-row">
+<article class="opportunity-data title-row">
 <h2 class="sub-heading-two">Opportunity Data Explained</h2>
 <div class="one freegrid-five">
 <div>
-{% include time.svg %}
-<h5>Time</h5>
+
+![time]({{ site.baseurl }}/assets/images/time.png)
+##### Time
+
 </div>
 <div>
-{% include cost.svg %}
-<h5>Price</h5>
+
+![cost]({{ site.baseurl }}/assets/images/cost.png)
+##### Price
+
 </div>
 <div>
-{% include description.svg %}
-<h5>Description</h5>
+
+![description]({{ site.baseurl }}/assets/images/description.png)
+##### Description
+
 </div>
 <div>
-{% include location.svg %}
-<h5>Location</h5>
+
+![location]({{ site.baseurl }}/assets/images/location.png)
+##### Location
+
 </div>
 <div>
-{% include details.svg %}
-<h5>Details</h5>
+
+
+![details]({{ site.baseurl }}/assets/images/details.png)
+##### Details
+
 </div>
 </div>
 </article>
@@ -167,7 +178,7 @@ Now you know how it works, let’s look at how you can make your data available 
 <div class="two">
 
 ### E-Learning
-Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
+Get into all the details surrounding the technical requirements of our data standards
 
 [Learn the Basics]( {{ site.baseurl }}{% link e-learning.md %}){:class="button-primary" }
 
@@ -175,7 +186,7 @@ Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
 <div class="two">
 
 ### Developer
-Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusamus in.
+Get into all the details surrounding the technical requirements of our data standards
 
 [Dive Deep]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
 

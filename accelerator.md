@@ -59,7 +59,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 <a class="button-primary--ghostlarge" target="_blank" onclick="gtag('event', 'accelerator ctas', {'hero': 'clicked', 'event_label': 'access the data'});" href="http://status.openactive.io/" target="_blank">Access the data</a>
 </div>
 
-<div class="line-graphic">{% include line-graphic-corner.svg %}</div>
+<div class="line-graphic"></div>
 </article>
 
 
