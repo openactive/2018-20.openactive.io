@@ -19,7 +19,7 @@ $(document).ready(function () {
         $('#video').hover(
             function() {
                 $(this).parent('.fluid-vids').siblings('.mask').fadeOut();
-            },
+            }
             // function() {
             //     $(this).parent('.fluid-vids').siblings('.mask').fadeIn();
             // }

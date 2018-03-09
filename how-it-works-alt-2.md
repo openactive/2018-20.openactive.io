@@ -38,45 +38,8 @@ It can also help data users create new apps and services that can help people ge
 <!--  ---------------->
 <!-- WHAT IS OPPORTUNITY DATA -->
 <!--  ---------------->
-<article  class="opportunity-data title-row">
-<h2 class="sub-heading-two">Opportunity Data Explained</h2>
-<div class="one freegrid-five">
-
-<div>
-
-![time]({{ site.baseurl }}/assets/images/time.png)
-##### Time
-
-</div>
-<div>
-
-![cost]({{ site.baseurl }}/assets/images/cost.png)
-##### Price
-
-</div>
-<div>
-
-![description]({{ site.baseurl }}/assets/images/description.png)
-##### Description
-
-</div>
-<div>
-
-![location]({{ site.baseurl }}/assets/images/location.png)
-##### Location
-
-</div>
-<div>
-
-
-![details]({{ site.baseurl }}/assets/images/details.png)
-##### Details
-
-</div>
-</div>
-</article>
-
-<article>
+<article class="title-row invert">
+<h2 class="sub-heading-two">What is Opportunity Data?</h2>
 <div class="one">
 
 #### Opportunity data helps people decide whether to take part in an activity or not.
@@ -91,70 +54,141 @@ In most cases this information can already be found on the activity provider's o
 
 
 <!--  ---------------->
+<!-- INCLUDED -->
+<!--  ---------------->
+
+<article class="tile-row">
+<h2 class="sub-heading-two">Included</h2>
+<div class="one freegrid-five">
+
+<div>
+
+![time]({{ site.baseurl }}/assets/images/icons/clock.svg)
+#### Time
+
+</div>
+<div>
+
+![Price]({{ site.baseurl }}/assets/images/icons/money_1.svg)
+#### Prices
+
+</div>
+<div>
+
+![Locations]({{ site.baseurl }}/assets/images/icons/pin_1.svg)
+#### Locations
+
+</div>
+<div>
+
+![Availability]({{ site.baseurl }}/assets/images/icons/availability_2.svg)
+#### Availability
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/description_2.svg)
+#### Descriptions
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/images.svg)
+#### Images
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Gender Restriction
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Age Range
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Difficulty Level
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Events
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Sessions
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Facilities
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Leagues and Ringers
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Courses
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Online Classes
+
+</div>
+
+
+</div>
+</article>
+
+<!--  ---------------->
+<!-- NOT INCLUDED -->
+<!--  ---------------->
+<article class="title-row">
+<h2 class="sub-heading-two">Not Included</h2>
+<div class="one freegrid-three">
+
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Partcipation and attendance data
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Commercially Sensitive Data
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+#### Customer Data
+
+</div>
+
+</div>
+</article>
+
+
+
+
+<!--  ---------------->
 <!-- TABS -->
 <!--  ---------------->
 {% include tabs.html %}
-
-
-
-<!--  ---------------->
-<!-- GETTING STARTED CALL TO ACTION -->
-<!--  ---------------->
-<article markdown="0" class="call_to_action--full-width">
-<h2 class="sub-heading-two">Where now?</h2>
-<i class="line-graphic">{% include slim-line-graphic.svg %}</i>
-
-<div markdown="1" class="one">
-
-
-{% assign subpage = site.pages | where: 'title', 'Getting Started' %}
-{% for item in subpage %}
-### {{ item.title}}
-{{ item.strapline | markdownify }}
-
-[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
-
-</div>
-<figure>
-<div class="mask"></div>
-<div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
-</figure>
-{% endfor %}
-
-
-
-</article>
-
-<!--  ---------------->
-<!-- LEARN/DEVELOP CALL TO ACTION -->
-<!--  ---------------->
-<article class="call_to_action title-row ">
-<h2 class="sub-heading-two">Jump In</h2>
-<div class="subgrid">
-<div class="three">
-
-### E-Learning
-Join the open data revolution with OpenActive and help the nation get active.
-
-[Learn the Basics]( {{ site.baseurl }}{% link e-learning.md %}){:class="button-primary" }
-
-</div>
-<div class="three">
-
-### Developer
-Sapiente voluptatem quia fuga optio. Dignissimos et occaecati consequatur accusamus in.
-
-[Dive Deep]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
-
-</div>
-<div class="three">
-
-### Community
-This is an open-invitation community of pioneering organisations.
-
-[Get Involved]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
-
-</div>
-</div>
-</article>
-

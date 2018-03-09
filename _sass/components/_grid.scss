@@ -1040,10 +1040,21 @@
         width: 100%;
       }
     }
+    .freegrid-three {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+      div {
+        text-align: center;
+      }
+    }
     .freegrid-four {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 2rem;
+      div {
+        text-align: center;
+      }
     }
     .freegrid-five {
       display: grid;
