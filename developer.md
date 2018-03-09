@@ -49,7 +49,7 @@ Opportunity data includes enough information for a participant to decide whether
   "title": "Tai",
   "description": "Tai chi Class",
   "remainingSpaces": "12",
-  "time": "2017-03-22T20:00:00",
+  "time": "2017-03-22T20:00:00 Z",
 }
 ```
 
@@ -68,7 +68,7 @@ Opportunity data includes enough information for a participant to decide whether
   "type": "Event",
   "name": "Tai chi Class",
   "url": "http://www.example.org/events/1",
-  "startDate": "2017-03-22T20:00:00",
+  "startDate": "2017-03-22T20:00:00 Z",
   "activity": "Tai Chi",
   "location": {
     "type": "Place",

@@ -61,6 +61,7 @@ Search our list of booking systems to see if they are already benefiting from ou
 <h4>+{{ num | minus:7 }}</h4>
 </div>
 </nav>
+<span class="notListed">Booking not listed? <a href="mailto:hello@openactive.io?subject=Add this booking system please">Let us know.</a></span>
 </div>
 </article>
 
@@ -102,19 +103,19 @@ Search our list of booking systems to see if they are already benefiting from ou
 <!-- CALL TO ACTION -->
 <!--  ---------------->
 <article>
-<div class="one">
+<!-- <div class="one">
 
 ### I’m interested, but how can I help?
 
 If you think your organisation would benefit from open data, but the decision isn’t in your hands, explore the links below for accessible documents to share with your team or employer.
 </div>
 </article>
-
+ -->
 
 <!--  ---------------->
 <!-- CALL TO ACTION -->
 <!--  ---------------->
-<article class="call_to_action">
+<!-- <article class="call_to_action">
 <div class="subgrid">
 <div class="three">
 #### Convince Your Company
@@ -140,11 +141,12 @@ Have a question? Get in touch.
 
 </div>
 </div>
-</article>
+</article> -->
 
 <!--  ---------------->
 <!-- DEVELOPER CALL TO ACTION -->
 <!--  ---------------->
+
 <article class="call_to_action--full-width">
 <h2 class="sub-heading-two">Show me the code</h2>
 <div class="one">

@@ -65,6 +65,9 @@ html.cssgrid,html {
           grid-column-end: 14;
           border-top: 1px solid $gray;
           .supporters {
+              h6 {
+                margin-top:0;
+              }
             &:nth-child(1) {
               margin-bottom: 1rem;
               img {
@@ -96,6 +99,9 @@ html.cssgrid,html {
             align-items: center;
             justify-content: space-between;
             .supporters {
+                            h6 {
+                margin-top:0;
+              }
               display: inline-flex;
               &:nth-child(1) {
                 margin-right: 2rem;
@@ -121,6 +127,9 @@ html.cssgrid,html {
           }
           .right-border {
             .supporters {
+                            h6 {
+                margin-top:0;
+              }
               &:nth-child(1) {
                 img {
                   max-width: 100px;
@@ -328,6 +337,9 @@ html.no-cssgrid {
           padding-top: 2rem;
           border-top: 1px solid $gray;
           .supporters {
+                          h6 {
+                margin-top:0;
+              }
             img{
               width:100%;
             }
@@ -360,6 +372,9 @@ html.no-cssgrid {
             align-items: center;
             justify-content: space-between;
             .supporters {
+                            h6 {
+                margin-top:0;
+              }
               display: inline-flex;
               &:nth-child(1) {
                 margin-right: 2rem;
@@ -385,6 +400,9 @@ html.no-cssgrid {
           }
           .right-border {
             .supporters {
+                            h6 {
+                margin-top:0;
+              }
               &:nth-child(1) {
                 img {
                   max-width: 100px;
@@ -468,4 +486,6 @@ html.no-cssgrid {
   img {
     max-width: 200px;
   }
+
+
 }

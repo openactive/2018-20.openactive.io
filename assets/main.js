@@ -55,13 +55,22 @@ $(document).ready(function () {
             var filter = $(this).val(), count = 0;
             // Loop through the comment list
             $("nav > .booking-tab").each(function () {
+                console.log(count);
                 // If the list item does not contain the text phrase fade it out
                 if ($(this).text().search(new RegExp(filter, "i")) < 0) {
                     $(this).fadeOut();
+
                     // Show the list item if the phrase matches and increase the count by 1
                 } else {
                     $('.booking-tab:lt(8)').show();
                     count++;
+                }
+
+                if (count == 0) {
+                    $('.notListed').fadeIn();
+                
+                } else {
+                     $('.notListed').fadeOut();
                 }
             });
 

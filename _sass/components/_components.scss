@@ -516,6 +516,10 @@ article {
     .freegrid-four{
       grid-gap: 1rem;
     }
+
+    .notListed {
+      display:none;
+    }
     .marker {
       display: grid;
       justify-content: center;
