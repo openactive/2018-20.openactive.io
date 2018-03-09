@@ -53,138 +53,143 @@ In most cases this information can already be found on the activity provider's o
 </article>
 
 
-<!--  ---------------->
-<!-- INCLUDED -->
-<!--  ---------------->
+<article class="title-row what-data">
+<h2 class="sub-heading-two">What in the Data?</h2>
+<div class="wrapper included">
 
-<article class="tile-row">
-<h2 class="sub-heading-two">Included</h2>
-<div class="one freegrid-five">
+#### Included
+##### Properties
+<div class="properties">
+
+
 
 <div>
 
 ![time]({{ site.baseurl }}/assets/images/icons/clock.svg)
-#### Time
+###### Time
 
 </div>
 <div>
 
 ![Price]({{ site.baseurl }}/assets/images/icons/money_1.svg)
-#### Prices
+###### Prices
 
 </div>
 <div>
 
 ![Locations]({{ site.baseurl }}/assets/images/icons/pin_1.svg)
-#### Locations
+###### Locations
 
 </div>
 <div>
 
 ![Availability]({{ site.baseurl }}/assets/images/icons/availability_2.svg)
-#### Availability
+###### Availability
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/description_2.svg)
-#### Descriptions
+###### Descriptions
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/images.svg)
-#### Images
+###### Images
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Gender Restriction
+###### Gender Restriction
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Age Range
+###### Age Range
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Difficulty Level
+###### Difficulty Level
+
+</div>
+
+
+
+</div>
+##### Data Types
+<div class="types">
+
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+###### Events
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Events
+###### Sessions
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Sessions
+###### Facilities
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Facilities
+###### Leagues and Ringers
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Leagues and Ringers
+###### Courses
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Courses
+###### Online Classes
+
+</div>
+
+
+</div>
+
+</div>
+<div class="wrapper not-included">
+
+#### Not Included
+
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+###### Partcipation and attendance data
 
 </div>
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Online Classes
+###### Commercially Sensitive Data
 
 </div>
+<div>
 
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+###### Customer Data
+
+</div>
 
 </div>
 </article>
-
-<!--  ---------------->
-<!-- NOT INCLUDED -->
-<!--  ---------------->
-<article class="title-row">
-<h2 class="sub-heading-two">Not Included</h2>
-<div class="one freegrid-three">
-
-<div>
-
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Partcipation and attendance data
-
-</div>
-<div>
-
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Commercially Sensitive Data
-
-</div>
-<div>
-
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-#### Customer Data
-
-</div>
-
-</div>
-</article>
-
 
 
 

@@ -470,7 +470,6 @@ article {
   }
 }
 
-
 // END BENEFITS STYLES
 /*********************************/
 /*********************************/
@@ -513,12 +512,12 @@ article {
         display: inline-block;
       }
     }
-    .freegrid-four{
+    .freegrid-four {
       grid-gap: 1rem;
     }
 
     .notListed {
-      display:none;
+      display: none;
     }
     .marker {
       display: grid;
@@ -814,7 +813,7 @@ article {
           & > div {
             display: inline-flex;
             margin: 1rem 0;
-            svg{
+            svg {
               min-width: 200px;
               padding-right: 2rem;
             }
@@ -1114,14 +1113,14 @@ article {
       }
 
     }
-    .one.stripe{
+    .one.stripe {
       background-color: $brand-darkblue;
       padding: 4rem 20rem 4rem 2rem;
-      *:not(figure){
+      *:not(figure) {
         z-index: 30;
         position: relative;
       }
-      & + figure{
+      & + figure {
         .mask {
           position: absolute;
           left: -1px;
@@ -1135,7 +1134,7 @@ article {
           background-repeat: no-repeat;
         }
       }
-      & + figure + .line-graphic{
+      & + figure + .line-graphic {
         position: absolute;
         height: 100%;
         max-height: 200px;
@@ -2441,4 +2440,52 @@ article {
 
 .thanks {
   display: none;
+}
+
+.what-data {
+  .wrapper {
+    &.included {
+      h4#included{
+        margin-top: 0;
+      }
+      grid-column-start: 2;
+      grid-column-end: 11;
+      .properties,.types  {
+        div{
+          width: 50px;
+          margin-right: 1rem;
+          display: inline-block;
+          vertical-align: top;
+          text-align: center;
+        }
+      }
+    }
+    &.not-included {
+      h4#not-included{
+        margin-top: 0;
+      }
+      grid-column-start: 11;
+      grid-column-end: 14;
+      div{
+        width:100%;
+        display: inline-block;
+        vertical-align: top;
+        p,h6{
+          display: inline-block;
+          vertical-align: top;
+        }
+        p{
+          width:30%;
+        }
+        h6{
+          width: 70%;
+          margin-top: 0;
+        }
+        img{
+          max-width: 50px;
+          display: inline-block;
+        }
+      }
+    }
+  }
 }
