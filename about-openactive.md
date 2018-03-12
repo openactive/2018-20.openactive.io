@@ -1,6 +1,6 @@
 ---
-title: Our Mission
-permalink: "/our-misson/"
+title: About OpenActive
+permalink: "/about-openactive/"
 position: 1
 is_main_navigation: false
 is_secondary_navigation: true
@@ -38,8 +38,6 @@ By harnessing open data – that anyone can access, use and share – we are hel
 </article>
 
 
-
-
 <!--  ---------------->
 <!-- FIFTY-TEXT BLOCK -->
 <!--  ---------------->
@@ -75,6 +73,35 @@ By joining the open data revolution, you and your organisation can benefit from 
 
 
 <!--  ---------------->
+<!-- TEXT AREA-->
+<!--  ---------------->
+<article class="title-row">
+<h2 class="sub-heading-two">Open for All</h2>
+<div class="one">
+
+#### Openness is integral to the OpenActive initiative.
+Assets we produce (standards, training, tools) and the data published by others are be openly licensed, meaning that they will be free for anyone to access, use or share.
+The community is also open for anyone to join. This is important to us as we think it is the best way to create a robust data infrastructure, but also to ensure that people embed this change and make it sustainable.
+
+</div>
+</article>
+
+<!--  ---------------->
+<!-- TEXT AREA-->
+<!--  ---------------->
+<article class="title-row">
+<h2 class="sub-heading-two">Who is coordinating OpenActive</h2>
+<div class="one">
+
+#### OpenActive is coordinated by the Open Data Institute.
+The ODI is a not-for-profit organisation and was co-founded in 2012 by the inventor of the web Sir Tim Berners-Lee and AI expert Sir Nigel Shadbolt to address today’s global challenges using the web of data.
+The ODI's responsibility is to coordinate the development of the data standards, to grow the community and to help organisations publish and use open opportunity data. We receive National Lottery funding to do this; this means that we are obliged to manage the initiative in a way that benefits the community rather than just one single commercial entity.
+Our role is to make sure that we build a community that is fair for everyone.
+
+</div>
+</article>
+
+<!--  ---------------->
 <!-- HOW IT WORKS CALL TO ACTION -->
 <!--  ---------------->
 <article markdown="0" class="call_to_action--full-width">
@@ -89,7 +116,7 @@ Let’s look at how we achieve our vision in practice and the progress we’ve m
 
 </div>
 <figure>
-<div class="mask">{% include overlay.svg %}</div>
+<div class="mask"></div>
 <div class="image" style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>
@@ -109,7 +136,7 @@ Find out all about the open active community and how you can support it.
 
 [Get Involved]( {{ site.baseurl }}{% link community.md %}){: .primary_cta}
 
-<i class="line-graphic">{% include line-graphic-corner.svg %}</i>
+<div class="line-graphic"></div>
 
 </div>
 </article>

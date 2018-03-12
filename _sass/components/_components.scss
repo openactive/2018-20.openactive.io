@@ -936,7 +936,8 @@ article {
             }
           }
           .tabPanel {
-            * {
+
+            *:not(a) {
               color: $white;
             }
             h4 {
@@ -2442,21 +2443,36 @@ article {
   display: none;
 }
 
+
+//HOW IT WORKS PAGE
 .what-data {
+  .one{
+    grid-row: 1;
+  }
   .wrapper {
     &.included {
-      h4#included{
-        margin-top: 0;
-      }
       grid-column-start: 2;
-      grid-column-end: 11;
+      grid-column-end: 14;
+      grid-row:2 ;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       .properties,.types  {
+        .properties-inner, .types-inner{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 2rem;
+        }
         div{
-          width: 50px;
-          margin-right: 1rem;
-          display: inline-block;
-          vertical-align: top;
+          display: inline-flex;
+          flex-direction: column;
           text-align: center;
+          img{
+            max-width: 75px;
+            margin-bottom: 1rem;
+          }
+          h6{
+            margin-top: auto;
+          }
         }
       }
     }
@@ -2464,27 +2480,37 @@ article {
       h4#not-included{
         margin-top: 0;
       }
-      grid-column-start: 11;
+      grid-column-start: 2;
       grid-column-end: 14;
-      div{
-        width:100%;
-        display: inline-block;
-        vertical-align: top;
-        p,h6{
-          display: inline-block;
-          vertical-align: top;
+      grid-row:3;
+      .not-included-inner{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        div{
+          display: inline-flex;
+          flex-direction: column;
+          text-align: center;
+          img{
+            max-width: 75px;
+            margin-bottom: 1rem;
+          }
+          h6{
+            margin-top: auto;
+          }
         }
-        p{
-          width:30%;
-        }
-        h6{
-          width: 70%;
-          margin-top: 0;
-        }
-        img{
-          max-width: 50px;
-          display: inline-block;
-        }
+      }
+    }
+  }
+}
+
+//OUR VISON PAGE
+.benefits{
+  .one{
+    .three{
+      img{
+        max-width: 250px;
+        padding: 0 2rem;
+        box-sizing: border-box;
       }
     }
   }

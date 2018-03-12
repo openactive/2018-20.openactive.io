@@ -416,7 +416,7 @@ a.button-secondary {
 a.button-secondary--ghost {
   @extend .button-secondary;
   background-color: transparent;
-  border: 1px solid $brand-three;
+  border: 1px solid $white;
   color: $brand-three;
   &:hover {
     color: $white;

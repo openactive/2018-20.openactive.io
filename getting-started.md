@@ -12,7 +12,6 @@ strapline: Discover how to build unlimited reach for your activities
 
 
 
-
 <!--  ---------------->
 <!-- BOOKING SYSTEMS-->
 <!--  ---------------->
@@ -103,19 +102,19 @@ Search our list of booking systems to see if they are already benefiting from ou
 <!-- CALL TO ACTION -->
 <!--  ---------------->
 <article>
-<!-- <div class="one">
+<div class="one">
 
 ### I’m interested, but how can I help?
 
 If you think your organisation would benefit from open data, but the decision isn’t in your hands, explore the links below for accessible documents to share with your team or employer.
 </div>
 </article>
- -->
+
 
 <!--  ---------------->
 <!-- CALL TO ACTION -->
 <!--  ---------------->
-<!-- <article class="call_to_action">
+<article class="call_to_action">
 <div class="subgrid">
 <div class="three">
 #### Convince Your Company
@@ -141,7 +140,7 @@ Have a question? Get in touch.
 
 </div>
 </div>
-</article> -->
+</article>
 
 <!--  ---------------->
 <!-- DEVELOPER CALL TO ACTION -->

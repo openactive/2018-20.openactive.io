@@ -28,7 +28,7 @@ layout: home
  - Attract people to join activities
  - Innovate to help people get active
 
-[Our Mission]( {{ site.baseurl }}{% link our-mission.md %}){: .button-primary--alt}
+[Our Vision]( {{ site.baseurl }}{% link our-vision.md %}){: .button-primary--alt}
 
 </div>
 <figure id="introduction-vid"  role="group" aria-labelledby="open-active-video">
@@ -146,7 +146,7 @@ What's happening in the community, and how you can get involved!
 <!--  ---------------->
 <!-- ACCELERATOR BLOCKS -->
 <!--  ---------------->
-<article class="call_to_action--full-width global">
+<article class="call_to_action--full-width">
 <h2 class="sub-heading-two">Start Ups</h2>
 <div class="one">
 

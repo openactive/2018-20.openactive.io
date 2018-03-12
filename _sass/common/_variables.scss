@@ -87,6 +87,7 @@ $globalEight: $brand-eight;
       stroke:$white;
     }
   }
+
 }
 
 .global {
@@ -171,10 +172,11 @@ $globalEight: $brand-eight;
   }
   a.button-secondary--ghost {
     background-color: transparent;
-    border-color: $globalFour;
-    color: $globalFour;
+    border-color: $white;
+    color: $white;
     &:hover {
-      background-color: $globalThree;
+      background-color: $white;
+      color: $brand-darkblue;
     }
   }
 

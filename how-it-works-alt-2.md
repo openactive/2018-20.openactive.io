@@ -12,13 +12,14 @@ strapline: Discover how we can achieve our vision in practice and the progress w
 
 {::options parse_block_html="true" /}
 
+
 <!--  ---------------->
 <!-- HERO BLOCK -->
 <!--  ---------------->
 <article class="hero--simple">
 <div class="two">
 
-<h1>{{ page.title | escape }}</h1>
+# {{ page.title | escape }}
 
 Open data is a tool that can help activity providers increase the reach and visibility of the opportunities they run.
 
@@ -31,6 +32,15 @@ It can also help data users create new apps and services that can help people ge
 * Activity providers make the data about their opportunities open.
 * Third parties can list these opportunities in their apps or services.
 * The data can also be bookable.
+
+</div>
+</article>
+<article>
+<div class="one">
+
+
+
+{% include ecosystem.svg %}
 
 </div>
 </article>
@@ -55,14 +65,21 @@ In most cases this information can already be found on the activity provider's o
 
 <article class="title-row what-data">
 <h2 class="sub-heading-two">What in the Data?</h2>
-<div class="wrapper included">
+<div class="one">
 
 #### Included
-##### Properties
+
+
+</div>
+
+<div class="wrapper included">
+
+
 <div class="properties">
 
+##### Data Properties
 
-
+<div class="properties-inner">
 <div>
 
 ![time]({{ site.baseurl }}/assets/images/icons/clock.svg)
@@ -117,13 +134,17 @@ In most cases this information can already be found on the activity provider's o
 ###### Difficulty Level
 
 </div>
+</div>
 
 
 
 </div>
-##### Data Types
+
 <div class="types">
 
+##### Types of Data
+
+<div class="types-inner">
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
@@ -160,15 +181,19 @@ In most cases this information can already be found on the activity provider's o
 ###### Online Classes
 
 </div>
+</div>
 
 
 </div>
 
 </div>
+
+
 <div class="wrapper not-included">
 
 #### Not Included
 
+<div class=" not-included-inner">
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
@@ -189,6 +214,7 @@ In most cases this information can already be found on the activity provider's o
 </div>
 
 </div>
+</div>
 </article>
 
 
@@ -197,3 +223,72 @@ In most cases this information can already be found on the activity provider's o
 <!-- TABS -->
 <!--  ---------------->
 {% include tabs.html %}
+
+<!--  ---------------->
+<!-- WHAT ARE THE BENEFITS -->
+<!--  ---------------->
+<article class="title-row">
+<h2 class="sub-heading-two">What are the benefits?</h2>
+<div class="one subgrid">
+<div class="three ">
+
+
+#### Sport and Physical Activity Providers
+
+* With open data publishing, your services and events can be shared everywhere, from high-traffic apps to community-driven pages.
+* Improve data skills and understanding within your organisation and harness technology to benefit your business.
+* Drive innovation, and collaborate with OpenActive to revolutionise the sector.
+
+</div>
+<div class="three">
+
+#### Data Users and Developers
+
+* Harness open and accessible data from across the sport and physical sector.
+* Use data to help develop new products and enhance existing services to get people more active.
+* Be at the cutting edge of shaping consistent data standards and growing engagement with data publishers.
+
+</div>
+
+<div class="three">
+
+#### Influential Organisations
+
+* Build engagement in sport and physical activities by improving the reach and visibility of services nationwide.
+* Support new members of OpenActive by showing them how publishing open data can help them improve and grow their activities.
+* Improve data skills and understanding within your organisation and harness technology to benefit your business.
+* Provide members with the opportunity to join our community and shape the initiative.
+
+
+</div>
+</div>
+</article>
+
+<!--  ---------------->
+<!-- CASE STUDIES BLOCK -->
+<!--  ---------------->
+<article class="title-row">
+{% include case-study.html %}
+</article>
+
+<!--  ---------------->
+<!-- GETTING STARTED TO ACTION -->
+<!--  ---------------->
+<article class="call_to_action--full-width">
+<h2 class="sub-heading-two">Where now?</h2>
+<div class="one">
+
+{% assign subpage = site.pages | where: 'title', 'Getting Started' %}
+{% for item in subpage %}
+### {{ item.title}}
+{{ item.strapline | markdownify }}
+
+[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
+
+</div>
+<figure>
+<div class="mask"></div>
+<div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
+</figure>
+{% endfor %}
+</article>
