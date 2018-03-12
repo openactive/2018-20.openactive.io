@@ -41,32 +41,6 @@ It can also help data users create new apps and services that can help people ge
 </article>
 
 <article>
-<div class="four">
-
-##### Your activities
-
-</div>
-<div class="four">
-
-
-##### Your booking system
-
-</div>
-<div class="four">
-
-
-##### Many appsand services
-
-</div>
-<div class="four">
-
-
-##### Many more people
-
-</div>
-</article>
-
-<article>
 <div class="three">
 
 * Activity providers make the data about their opportunities open.
@@ -89,36 +63,10 @@ It can also help data users create new apps and services that can help people ge
 <!--  ---------------->
 <!-- WHAT IS OPPORTUNITY DATA -->
 <!--  ---------------->
-<article class="title-row invert">
-<h2 class="sub-heading-two">What is Opportunity Data?</h2>
-<div class="one">
-
-#### Opportunity data helps people decide whether to take part in an activity or not.
-It includes things like **date & time**, **location** and **description.** It describes **events**, **sessions** or **facilities** that are available in the future.
-
-In most cases this information can already be found on the activity provider's own website. Making it open means that it can be listed in lots of different places. Data is made available via an openly licensed feed - or API - that anyone can access, use or share. There won't be anything sensitive in this feed.
-
-###### Opportunity data **does not** include things like personal data about customers or a record of who has done what.
-
-</div>
-</article>
-
-
 <article class="title-row what-data">
-<h2 class="sub-heading-two">What in the Data?</h2>
-<div class="one">
+<h2 class="sub-heading-two">What's in the Data?</h2>
 
-#### Included
-
-
-</div>
-
-<div class="wrapper included">
-
-
-<div class="types">
-
-##### Types of Data
+<div class="wrapper types">
 
 <div class="types-inner">
 <div>
@@ -159,14 +107,17 @@ In most cases this information can already be found on the activity provider's o
 </div>
 </div>
 
+
 </div>
 
 
 <div class="wrapper fields">
 
+#### Data Properties
+
 <div class="properties">
 
-##### Data Properties
+##### Included
 
 <div class="properties-inner">
 <div>
@@ -226,16 +177,14 @@ In most cases this information can already be found on the activity provider's o
 </div>
 
 
-
 </div>
 
 
-
+<div class="border">
 </div>
-
 <div class="not-included">
 
-#### Not Included
+##### Not Included
 
 <div class="not-included-inner">
 <div>
@@ -257,6 +206,7 @@ In most cases this information can already be found on the activity provider's o
 
 </div>
 
+</div>
 </div>
 </div>
 </article>
