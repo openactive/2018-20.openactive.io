@@ -2454,23 +2454,18 @@ article {
         display: grid;
         grid-gap: 1rem;
         grid-template-columns: repeat(6, 1fr);
+        text-align: center;
       }
     }
     &.fields {
       grid-template-columns: repeat(12, unquote("[col]") 1fr);
       grid-gap: 1rem;
       display: grid;
-      h4#data-properties {
-        grid-column-start: 1;
-        grid-column-end: 14;
-        margin: 0;
-        padding-bottom: 0.5rem;
+      h5 {
+        margin-top: 0;
       }
       .properties {
         grid-column: col / span 7;
-        h5#included{
-
-        }
         .properties-inner {
           display: grid;
           grid-gap: 1rem;
@@ -2478,9 +2473,9 @@ article {
           text-align: center;
         }
       }
-      .border{
+      .border {
         grid-column: col 9/ span 1;
-        border-left: 1px solid $brand-three;
+        border-left: 3px solid $brand-three;
       }
       .not-included {
         grid-column: col 10 / span 3;
@@ -2488,6 +2483,7 @@ article {
           display: grid;
           grid-gap: 1rem;
           grid-template-columns: repeat(1, 1fr);
+          text-align: center;
         }
       }
     }

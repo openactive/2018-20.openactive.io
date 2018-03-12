@@ -40,25 +40,6 @@ It can also help data users create new apps and services that can help people ge
 </div>
 </article>
 
-<article>
-<div class="three">
-
-* Activity providers make the data about their opportunities open.
-
-</div>
-<div class="three">
-
-
-* Third parties can list these opportunities in their apps or services.
-
-</div>
-<div class="three">
-
-
-* The data can also be bookable.
-
-</div>
-</article>
 
 <!--  ---------------->
 <!-- WHAT IS OPPORTUNITY DATA -->
@@ -112,8 +93,6 @@ It can also help data users create new apps and services that can help people ge
 
 
 <div class="wrapper fields">
-
-#### Data Properties
 
 <div class="properties">
 
