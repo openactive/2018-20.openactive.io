@@ -116,6 +116,54 @@ In most cases this information can already be found on the activity provider's o
 <div class="wrapper included">
 
 
+<div class="types">
+
+##### Types of Data
+
+<div class="types-inner">
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+###### Events
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+###### Sessions
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+###### Facilities
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+###### Leagues and Ringers
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+###### Courses
+
+</div>
+<div>
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+###### Online Classes
+
+</div>
+</div>
+
+</div>
+
+
+<div class="wrapper fields">
+
 <div class="properties">
 
 ##### Data Properties
@@ -181,60 +229,15 @@ In most cases this information can already be found on the activity provider's o
 
 </div>
 
-<div class="types">
-
-##### Types of Data
-
-<div class="types-inner">
-<div>
-
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-###### Events
-
-</div>
-<div>
-
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-###### Sessions
-
-</div>
-<div>
-
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-###### Facilities
-
-</div>
-<div>
-
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-###### Leagues and Ringers
-
-</div>
-<div>
-
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-###### Courses
-
-</div>
-<div>
-
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
-###### Online Classes
-
-</div>
-</div>
 
 
 </div>
 
-</div>
-
-
-<div class="wrapper not-included">
+<div class="not-included">
 
 #### Not Included
 
-<div class=" not-included-inner">
+<div class="not-included-inner">
 <div>
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
