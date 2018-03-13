@@ -174,8 +174,12 @@ Family-focused activity finders where parents can choose physical activities bas
 
 ![Stethoscope]({{ site.baseurl }}/assets/images/vision/stethoscope.svg)
 
+</div>
+<div class="two tworight">
+
 Helping youth workers, social prescribers or GPs encourage their clients or patients to get active. For example services like [Healum](https://www.healum.com/){:target="_blank"} or [Wellaware](https://www.wellaware.org.uk){:target="_blank"}.
 
+</div>
 </div>
 
 <!-- THREE -->
