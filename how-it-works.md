@@ -49,18 +49,18 @@ It can also help data users create new apps and services that can help people ge
 
 
 </div>
-<div class="diagram-caption">
+<!-- <div class="diagram-caption"> -->
 
-###### Your Activities
+<!-- ###### Your Activities -->
 
-###### Your Booking System
+<!-- ###### Your Booking System -->
 
-###### Many Apps & Services
+<!-- ###### Many Apps & Services -->
 
-###### Many More People
+<!-- ###### Many More People -->
 
 
-</div>
+<!-- </div> -->
 
 </div>
 
