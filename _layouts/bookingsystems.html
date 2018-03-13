@@ -11,6 +11,12 @@ layout: default
             {{ content }}
         </div>
     </article>
+    <!--  ---------------->
+    <!-- BOOKING SYSTEMS -->
+    <!--  ---------------->
+    {% include booking-systems.html %}
+
+
     {% assign posts = site.bookingsystems | where:"is_enabled", true %}}
     {% for post in posts %}
     {% assign num = forloop.length %}

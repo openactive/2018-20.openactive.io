@@ -87,7 +87,9 @@ $globalEight: $brand-eight;
       stroke:$white;
     }
   }
-
+  blockquote.featured{
+    padding: 0 2rem;
+  }
 }
 
 .global {
@@ -1270,7 +1272,7 @@ article.startup, div.startup, a.button-primary.startup {
     # Simple Typography Settings
 \*------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:800,400|Source+Sans+Pro:300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,400|Source+Sans+Pro:300,400,700&subset=latin-ext');
 
 // Font Family
 $font-family: 'Source+Sans+Pro', sans-serif;

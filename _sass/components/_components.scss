@@ -313,6 +313,7 @@ article {
     }
   }
 }
+
 .how-work-hero {
   padding-top: 2rem;
   .inner {
@@ -343,6 +344,7 @@ article {
     &:nth-child(2n+1) {
       #how-it-works {
         width: 120%;
+        margin-top: 0;
       }
     }
     &:nth-child(2n+2) {
@@ -657,6 +659,29 @@ article {
   }
 }
 
+#tabs {
+  .tabPanel {
+    .slim-booking {
+      fieldset {
+        padding: 0;
+        border: none;
+        margin: 0;
+      }
+      nav.freegrid-four {
+        .booking-tab {
+          display: none;
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+      .notListed {
+        display: none;
+      }
+    }
+  }
+}
+
 // END OF BOOKING ENGINE STYLES
 /*********************************/
 /*********************************/
@@ -900,6 +925,11 @@ article {
             font-weight: 600;
             color: $brand-four;
           }
+          .last {
+            img {
+              opacity: 0;
+            }
+          }
           & > div {
             display: inline-flex;
             margin: 1rem 0;
@@ -921,6 +951,7 @@ article {
                 margin-top: 1rem;
               }
             }
+
             & > p {
               flex: 1 1 30%;
               align-self: auto;
@@ -1812,6 +1843,9 @@ nav {
         justify-content: center;
         border-left: 1px solid $gray;
         padding-left: 1rem;
+        blockquote {
+          border: none;
+        }
         @media only screen and (max-width: 750px) {
           border: none;
         }
@@ -2534,7 +2568,6 @@ article {
 .thanks {
   display: none;
 }
-
 
 .what-data {
   .title {
