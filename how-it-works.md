@@ -37,10 +37,15 @@ It can also help data users create new apps and services that can help people ge
 
 <div class="diagram">
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-1.svg)
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-2.svg)
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-3.svg)
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-4.svg)
+<!-- ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-1.svg) -->
+<!-- ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-2.svg) -->
+<!-- ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-3.svg) -->
+<!-- ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-4.svg) -->
+
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/Untitled-1.gif)
+
+
 
 
 </div>

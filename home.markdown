@@ -24,9 +24,7 @@ layout: home
 
 # Helping physical activity reach everyone
 
- - Improve our nation’s physical health
- - Attract people to join activities
- - Innovate to help people get active
+We are supporting innovation to help people get active.
 
 [Our Vision]( {{ site.baseurl }}{% link our-vision.md %}){: .button-primary--alt}
 
@@ -74,12 +72,12 @@ From leisure operators to National Governing Bodies, local sports clubs to event
 <div class="two twoleft">
 
 #### Opportunity data
-**Includes details such as:**
+##### **Includes details such as:**
 * How much will it cost?
 * When is a court available?
 * Where is the class?
 
-**But not personal data like:**
+##### **But not personal data like:**
 * Name / Address
 * Age / Sex
 * Weight / Height
