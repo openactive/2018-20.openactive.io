@@ -139,7 +139,7 @@ One of the exciting things about OpenActive is the near limitless range of servi
 </article>
 <article class="title-row benefits">
 
-
+<!-- ONE -->
 <div class="one subgrid">
 <div class="two tworight">
 
@@ -154,6 +154,7 @@ Enriching services that people already use to find activities and opportunities.
 </div>
 </div>
 
+<!-- TWO -->
 <div class="one subgrid">
 <div class="two tworight">
 
@@ -182,7 +183,7 @@ Helping youth workers, social prescribers or GPs encourage their clients or pati
 </div>
 </div>
 
-<!-- THREE -->
+<!-- FOUR -->
 <div class="one subgrid">
 <div class="two tworight">
 
