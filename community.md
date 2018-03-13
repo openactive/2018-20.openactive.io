@@ -169,37 +169,6 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 
 
 <!--  ---------------->
-<!-- NEWS -->
-<!--  ---------------->
-<article class="post-list title-row">
-<h2 class="sub-heading-two"> Community News</h2>
-
-{% assign thePosts = site.categories[community-update] %}
-
-{% if thePosts == null %}
-<p>No posts currently</p>
-{% else %}
-
-{% for post in thePosts limit:1 %}
-
-<h2>{{ post.title | escape }}</h2>
-{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-<span class="post-meta">{{ post.date | date: date_format }}</span>
-<p class="post-snippet">{{post.excerpt}}</p><a href="{{ post.url | relative_url }}" class="button-primary">Read more</a>
-</div>
-<figure>
-<div class="mask">{% include overlay.svg %}</div>
-<div class="image" style="background: url({{post.thumbnail_image | relative_url}})top center / cover no-repeat;"></div>
-</figure>
-
-{% endfor %}
-{% endif %}
-
-</article>
-
-
-
-<!--  ---------------->
 <!-- FAQS -->
 <!--  ---------------->
 <article class="faq-snippet title-row invert-2">

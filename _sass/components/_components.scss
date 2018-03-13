@@ -320,11 +320,11 @@ article {
     //LAYOUT
     &:nth-child(2n+1) {
       grid-column-start: 2;
-      grid-column-end: 6;
+      grid-column-end: 8;
       grid-row: 1;
     }
     &:nth-child(2n+2) {
-      grid-column-start: 6;
+      grid-column-start: 8;
       grid-column-end: 14;
       grid-row: 1;
     }
@@ -1059,9 +1059,11 @@ article {
             }
           }
           .tabPanel {
-
             *:not(a) {
               color: $white;
+            }
+            &>div{
+              width: 100%;
             }
             h4 {
               color: $brand-four;
@@ -2636,3 +2638,10 @@ article {
   }
 }
 
+.dashboard{
+  .two{
+    img{
+      max-width: 200px;
+    }
+  }
+}

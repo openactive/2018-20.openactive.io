@@ -90,7 +90,7 @@ Opportunity data includes enough information for a participant to decide whether
 #### Publishing Opportunities
 The specification defines a data model to help different platforms and applications to publish data in a consistent way.
 
-[Opportunity Data Primer]( https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
+[Data Primer]( https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
 [Describing Events](https://www.openactive.io/opportunity-data-primer/#describing-events){: .button-primary--ghost target="_blank"}
 
 
@@ -101,22 +101,53 @@ The specification defines a data model to help different platforms and applicati
 <!--  ---------------->
 <!-- DASHBOARD -->
 <!--  ---------------->
-<article class="title-row">
-<h2 class="sub-heading-two">Data Dashboard</h2>
-<div class="two">
+<article class="title-row dashboard">
+<h2 class="sub-heading-two">Data Tools</h2>
+<div class="two tworight">
 
-![Hero]({{ site.baseurl }}/assets/images/dash.png)
+![Hero]({{ site.baseurl }}/assets/images/icons/dash.svg)
+
 
 </div>
-<div class="two">
+<div class="two tworight">
 
-##### The Opportunity Data Dashboard lists all of the opportunity data feeds we have currently available.
+#### The Opportunity Data Dashboard
+The dashboard lists all of the opportunity data feeds we have currently available.
+
 Explore the dashboard to find the data you need, identify which feeds conform to our standards, and provide feedback to publishers.
 
 
-[Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .button-primary}
+[Vist dashboard](http://status.openactive.io/){:target="_blank"}{:.button-primary}
 
 </div>
+</article>
+<article class="dashboard">
+<div class="two tworight">
+
+![Hero]({{ site.baseurl }}/assets/images/icons/dash-map.svg)
+
+</div>
+<div class="two tworight">
+
+
+#### The Open Data Map
+The map displays all of the activity data available across the country.
+
+Explore the map to find the data you need, identify which areas care embracing open data, and which are yet to.
+
+
+[View data map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed){:target="_blank"}{:.button-primary}
+
+</div>
+</article>
+
+
+<!--  ---------------->
+<!-- CASE STUDIES -->
+<!--  ---------------->
+<article class="title-row">
+<h2 class="sub-heading-two margin-top">Success Stories</h2>
+{% include case-study.html %}
 </article>
 
 
@@ -125,40 +156,7 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 <!-- CALL TO ACTION -->
 <!--  ---------------->
 <article class="call_to_action title-row">
-<h2 class="sub-heading-two">Quick Start</h2>
-<div class="subgrid">
-<div class="two list">
-
-### Publish Your Data
-
-1. Open your organisation’s data to allow customers to easily access events and services
-2. With open data, your activities can be discovered, shared, and engaged with by people nationwide
-3. By publishing your data, your activities will be shared across websites and apps that attract millions of users, to communities and services that engage local people
-
-[Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .button-primary}
-
-
-</div>
-<div class="two list">
-
-### Using Data
-
-1. Developers and innovators can use data to create new products and services to benefit the sports and physical sector
-2. By harnessing open data, we can build growth and reach across the sector
-3. Easy access to opportunity data can help people to get active, and boost participation in activities nationwide
-4. We encourage you to explore the data published so far, and discover what’s useful for you
-
-[Use Data]( {{ site.baseurl }}{% link simple-use.md %}){: .button-primary}
-
-</div>
-</div>
-</article>
-
-<!--  ---------------->
-<!-- CALL TO ACTION -->
-<!--  ---------------->
-<article class="call_to_action title-row">
-<h2 class="sub-heading-two">Resource</h2>
+<h2 class="sub-heading-two">Resources</h2>
 
 <div class="subgrid">
 <div class="four">
