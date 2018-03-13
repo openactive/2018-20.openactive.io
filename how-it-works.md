@@ -16,8 +16,11 @@ strapline: Discover how we can achieve our vision in practice and the progress w
 <!--  ---------------->
 <!-- HERO BLOCK -->
 <!--  ---------------->
-<article class="hero--simple">
-<div class="one">
+
+
+<article class="how-work-hero">
+<div class="inner">
+
 
 # {{ page.title | escape }}
 
@@ -25,64 +28,103 @@ Open data is a tool that can help activity providers increase the reach and visi
 
 It can also help data users create new apps and services that can help people get active.
 
+* Activity providers make the data about their opportunities open.
+* Your activities can be available to people across the country.
+* They are listed and bookable in websites and apps that attract millions of users, to communities and services that engage local people.
+
+</div>
+<div class="inner">
+
+<div class="diagram">
+
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-1.svg)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-2.svg)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-3.svg)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-4.svg)
+
+
+</div>
+<div class="diagram-caption">
+
+###### Your Activities
+
+###### Your Booking System
+
+###### Many Apps & Services
+
+###### Many More People
+
+
+</div>
+
 </div>
 
 </article>
 
 
-<article>
+<article class="title-row invert">
+<h2 class="sub-heading-two">Opportunity Data</h2>
 <div class="one">
 
+#### Open opportunity data is about where and when sport and physical activities happen.
+This data can be made available for anyone to access, use, and share, helping consumers to discover and take part in new activities, and providers to more accurately tailor and grow their services.
 
-
-{% include ecosystem.svg %}
+By encouraging organisations to publish their data openly and to a commonly agreed standard, we are not only facilitating open sharing across individual websites, but building a connected, online community that’s free to grow and innovate in response to its consumers’ needs.
 
 </div>
+
 </article>
+
 
 
 <!--  ---------------->
 <!-- WHAT IS OPPORTUNITY DATA -->
 <!--  ---------------->
-<article class="title-row what-data">
+<article class="what-data title-row">
 <h2 class="sub-heading-two">What's in the Data?</h2>
+<div class="one types">
 
-<div class="wrapper types">
+<div class="title">
+
+### Data types
+Opportunity data covers many types of physical activities. From 1on1 classes, mass participation events to gym classes and yoga sessions.
+
+</div>
 
 <div class="types-inner">
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/events.svg)
 ###### Events
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/sessions.svg)
 ###### Sessions
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/facilities.svg)
 ###### Facilities
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/leagues.svg)
 ###### Leagues and Ringers
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/courses.svg)
 ###### Courses
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/online-classes.svg)
 ###### Online Classes
 
 </div>
@@ -91,12 +133,13 @@ It can also help data users create new apps and services that can help people ge
 
 </div>
 
+<div class="one properties">
 
-<div class="wrapper fields">
+<div class="title">
 
-<div class="properties">
+##### Data properties included:
 
-##### Included
+</div>
 
 <div class="properties-inner">
 <div>
@@ -158,34 +201,34 @@ It can also help data users create new apps and services that can help people ge
 
 </div>
 
+<div class="one not-included">
 
-<div class="border">
+<div class="title">
+
+##### Data properties not included:
+
 </div>
-<div class="not-included">
-
-##### Not Included
 
 <div class="not-included-inner">
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/attendance.svg)
 ###### Partcipation and attendance data
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/sensitive.svg)
 ###### Commercially Sensitive Data
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/placeholder.png)
+![what_open_data.png]({{ site.baseurl }}/assets/images/icons/customer.svg)
 ###### Customer Data
 
 </div>
 
-</div>
 </div>
 </div>
 </article>
