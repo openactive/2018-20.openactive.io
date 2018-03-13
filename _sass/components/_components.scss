@@ -806,7 +806,7 @@ article {
           text-align: left;
           margin-bottom: 1rem;
           h4 {
-            font-size: 2.7rem;
+            font-size: 2rem;
             font-weight: 600;
             color: $brand-four;
           }
@@ -2546,7 +2546,7 @@ article {
       grid-template-columns: repeat(9, 1fr);
       div {
         text-align: center;
-        img{
+        img {
           background-color: #d3e9f147;
           border-radius: 50%;
         }
@@ -2561,18 +2561,16 @@ article {
 //OUR VISON PAGE
 .benefits {
   .one {
-    .three {
-      img {
-        max-width: 250px;
-        padding: 0 2rem;
-        box-sizing: border-box;
-      }
+    img {
+      max-width: 250px;
+      padding: 0 2rem;
+      box-sizing: border-box;
     }
   }
 }
 
-.how-work-hero{
-  .inner{
+.how-work-hero {
+  .inner {
     //LAYOUT
     &:nth-child(2n+1) {
       grid-column-start: 2;
@@ -2597,62 +2595,62 @@ article {
       }
     }
     //STYLES
-    &:nth-child(2n+1){
-      #how-it-works{
+    &:nth-child(2n+1) {
+      #how-it-works {
         width: 120%;
       }
     }
-    &:nth-child(2n+2){
+    &:nth-child(2n+2) {
       display: inline-flex;
-      div.diagram{
-        width:69%;
+      div.diagram {
+        width: 69%;
         display: inline-block;
         vertical-align: top;
       }
-      div.diagram-caption{
+      div.diagram-caption {
         align-self: stretch;
         display: inline-flex;
         flex-direction: column;
         justify-content: space-between;
-        width:31%;
+        width: 31%;
         vertical-align: top;
         padding-left: 2rem;
         margin-top: 5rem;
-        h6{
+        h6 {
           text-align: left;
           padding-top: 0.5rem;
           border-top: 2px solid $brand-three;
-          margin-bottom:0;
-          &#your-booking-system{
+          margin-bottom: 0;
+          &#your-booking-system {
             margin-top: 8rem;
           }
         }
       }
     }
     @media only screen and (max-width: 1000px) {
-      &:nth-child(2n+1){
-        #how-it-works{
+      &:nth-child(2n+1) {
+        #how-it-works {
           width: 100%;
         }
       }
-      &:nth-child(2n+2){
-        div.diagram{
+      &:nth-child(2n+2) {
+        div.diagram {
 
         }
-        div.diagram-caption{
+        div.diagram-caption {
           margin-top: 2rem;
         }
       }
     }
     @media only screen and (max-width: 500px) {
-      &:nth-child(2n+1){
+      &:nth-child(2n+1) {
 
       }
-      &:nth-child(2n+2){
-        div.diagram{
-          width:100%;
+      &:nth-child(2n+2) {
+        div.diagram {
+          width: 100%;
         }
-        div.diagram-caption{
+        div.diagram-caption {
           display: none;
         }
       }

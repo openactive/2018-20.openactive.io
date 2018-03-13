@@ -79,26 +79,47 @@ OpenActive can help you increase your visibility and allow you to reach new cust
 
 
 <article class="benefits">
-<div class="one">
+
+<!-- ONE-->
+<div class="one subgrid">
+<div class="two tworight">
 
 ![People]({{ site.baseurl }}/assets/images/vision/people.svg)
+
+</div>
+<div class="two tworight">
 
 Get your opportunities in front of more people.
 
 </div>
-<div class="one">
+</div>
+
+<!-- TWO -->
+<div class="one subgrid">
+<div class="two tworight">
 
 ![fully-booked]({{ site.baseurl }}/assets/images/vision/fully-booked.svg)
+
+</div>
+<div class="two tworight">
 
 Find new ways to promote quiet sessions or fill spare capacity.
 
 </div>
-<div class="one">
+</div>
+
+<!-- THREE -->
+<div class="one subgrid">
+<div class="two tworight">
 
 ![Tennis]({{ site.baseurl }}/assets/images/vision/tennis.svg)
 
+</div>
+<div class="two tworight">
+
 Describe your opportunities in a way that helps new customers decide to take part.
 
+</div>
 </div>
 
 </article>
@@ -119,24 +140,36 @@ One of the exciting things about OpenActive is the near limitless range of servi
 <article class="title-row benefits">
 
 
-<div class="one">
+<div class="one subgrid">
+<div class="two tworight">
 
 
 ![Magnifying Glass]({{ site.baseurl }}/assets/images/vision/magnifying-glass.svg)
 
+</div>
+<div class="two tworight">
+
 Enriching services that people already use to find activities and opportunities. For example services like [Change4Life](https://www.nhs.uk/change4life){:target="_blank"}.
 
 </div>
+</div>
 
-<div class="one">
+<div class="one subgrid">
+<div class="two tworight">
 
 ![Family]({{ site.baseurl }}/assets/images/vision/family.svg)
+
+</div>
+<div class="two tworight">
 
 Family-focused activity finders where parents can choose physical activities based on age range or skill level. For example services like [Hoop](https://www.hoop.co.uk){:target="_blank"} or [SeeSaw](https://www.seesawapp.com){:target="_blank"}.
 
 </div>
+</div>
 
-<div class="one">
+<!-- THREE -->
+<div class="one subgrid">
+<div class="two tworight">
 
 
 ![Stethoscope]({{ site.baseurl }}/assets/images/vision/stethoscope.svg)
@@ -145,22 +178,34 @@ Helping youth workers, social prescribers or GPs encourage their clients or pati
 
 </div>
 
-<div class="one">
+<!-- THREE -->
+<div class="one subgrid">
+<div class="two tworight">
 
 ![Upward-graph]({{ site.baseurl }}/assets/images/vision/upward-graph.svg)
+
+</div>
+<div class="two tworight">
 
 Tools that are specifically designed to help people form habits. For example campaigns like [This Girl Can](http://www.thisgirlcan.co.uk/){:target="_blank"}.
 
 </div>
+</div>
 
 
-<div class="one">
+<!-- THREE -->
+<div class="one subgrid">
+<div class="two tworight">
 
 ![People]({{ site.baseurl }}/assets/images/vision/shaking-hands.svg)
+
+</div>
+<div class="two tworight">
 
 Apps that emphasise the social aspect of physical activity or help someone find an option 'for people like me'. For example [Find a Player](https://findaplayer.com/){:target="_blank"}.
 
 
+</div>
 </div>
 
 </article>
