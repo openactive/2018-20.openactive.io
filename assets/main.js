@@ -2,10 +2,9 @@ $(document).ready(function () {
     (function ($) {
 
 
-
         $(".extra-content").hide();
 
-        $('.show_hide-content').on("click",function(event){
+        $('.show_hide-content').on("click", function (event) {
             event.preventDefault();
             $(this).parent('p').siblings('.extra-content').slideToggle();
             if ($(this).html() == 'See more') {
@@ -17,7 +16,7 @@ $(document).ready(function () {
 
 
         $('#video').hover(
-            function() {
+            function () {
                 $(this).parent('.fluid-vids').siblings('.mask').fadeOut();
             }
             // function() {
@@ -68,9 +67,9 @@ $(document).ready(function () {
 
                 if (count == 0) {
                     $('.notListed').fadeIn();
-                
+
                 } else {
-                     $('.notListed').fadeOut();
+                    $('.notListed').fadeOut();
                 }
             });
 
@@ -329,23 +328,21 @@ $(document).ready(function () {
         }
 
 
-        if ($(window).width() < 1500) {
-            $(window).scroll(function () {
-                if ($(window).scrollTop() > activateAtY) {
-                    deactivateHeader();
-                    // $('#nav-icon3').removeClass('open');
-                    // $('.mobile-nav').css('display', 'none');
-                } else {
-                    activateHeader();
-                    // $('.mobile-nav').css('display', 'inline-flex');
-                    // if ($('#nav-icon3').hasClass('open')) {
-                    //     $('#nav-icon3').removeClass('open');
-                    //     $('.mobile-nav').slideUp();
-                    // }
-                }
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > activateAtY) {
+                deactivateHeader();
+                // $('#nav-icon3').removeClass('open');
+                // $('.mobile-nav').css('display', 'none');
+            } else {
+                activateHeader();
+                // $('.mobile-nav').css('display', 'inline-flex');
+                // if ($('#nav-icon3').hasClass('open')) {
+                //     $('#nav-icon3').removeClass('open');
+                //     $('.mobile-nav').slideUp();
+                // }
+            }
 
-            });
-        }
+        });
 
 
         //looks for iframes wraps and adapts the height and width

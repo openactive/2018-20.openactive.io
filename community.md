@@ -16,7 +16,7 @@ strapline: Innovation through Collaboration
 <article>
 <div class="one">
 
-### Who’s involved?
+## Who’s involved?
 
 OpenActive’s collaborative community includes ambitious start-ups supported through our Accelerator programme, members of the OpenActive Champions programme of masterclasses, who are using peer-to-peer networking to transform the sector using open data, and the skilled technical community of developers working to improve data knowledge and engagement.
 
@@ -88,8 +88,10 @@ Explore the dashboard to learn more about our community and the datasets already
 <h2 class="sub-heading-two">Members</h2>
 <div class="one">
 
-### The Community
-Our community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide. Building the data revolution in the sport and physical sector is a collaborative effort between consumers, organisations, and innovative start-ups, designed to support and benefit the industry at all levels.
+## The Community
+Our community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide.
+
+Building the data revolution in the sport and physical sector is a collaborative effort between consumers, organisations, and innovative start-ups, designed to support and benefit the industry at all levels.
 
 </div>
 </article>
@@ -100,7 +102,7 @@ Our community is dynamic and self-supporting, allowing us to tap into an ever gr
 <article>
 <div class="one">
 
-### Meet the Members
+## Meet the Members
 
 OpenActive’s open-invitation community is continuing to grow. Discover who has joined us so far.
 
@@ -153,7 +155,7 @@ OpenActive’s open-invitation community is continuing to grow. Discover who has
 <article>
 <div class="one">
 
-### OpenActive Champions
+## OpenActive Champions
 
 The OpenActive Champions are ten advocates embracing and influencing local transformation with open opportunity data. As a peer-network, they’re committed to develop local knowledge, share good practice and drive innovation to get people active.
 

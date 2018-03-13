@@ -19,7 +19,7 @@ strapline: Our goal is to develop technical specifications and best practices th
 <h2 class="sub-heading-two">About Us</h2>
 <div class="one">
 
-#### The Open Data Institute and the OpenActive community are working together to improve how systems in the sport and physical activity ecosystem connect.
+### The Open Data Institute and the OpenActive community are working together to improve how systems in the sport and physical activity ecosystem connect.
 
 This discussion takes place in our [W3C Community Group](https://www.w3.org/community/openactive/), where we are developing the standards for opportunity data that will make it easier to publish, find and use. We are at the start of a long term change in the physical activity sector and work in this area is evolving. We welcome you to contribute and join the open conversation by joining our W3C Community Group.
 

@@ -57,7 +57,7 @@ strapline: Discover how to build unlimited reach for your activities
 <article>
 <div class="one">
 
-### I’m interested, but how can I help?
+## I’m interested, but how can I help?
 
 If you think your organisation would benefit from open data, but the decision isn’t in your hands, explore the links below for accessible documents to share with your team or employer.
 </div>

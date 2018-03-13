@@ -14,7 +14,7 @@ layout: page-headless
 <article class="hero--video">
 <div class="two">
 
-### We want to make it as easy to find and book a badminton court as it is to book a hotel room.
+# We want to make it as easy to find and book a badminton court as it is to book a hotel room.
 
 We are building a future where activity providers' opportunities are no longer stuck in a single website, but can be listed in a wide range of apps and services.
 
@@ -38,7 +38,7 @@ We are building a future where activity providers' opportunities are no longer s
 <article class="invert">
 <div class="two">
 
-#### Why are we doing this?
+## Why are we doing this?
 Helping people get active and increase participation is an important part of Sport England's [Towards an Active Nation](https://www.sportengland.org/news-and-features/news/2016/november/1/open-data-to-boost-activity/) strategy.
 
 We think an [open approach]({{ site.baseurl }}{% link about-openactive.md %}) is the best way to make this happen.
@@ -70,7 +70,7 @@ Almost 18 million (39.4%) of adults in England don’t exercise enough to improv
 
 <div class="one">
 
-#### How will this benefit activity providers?
+### How will this benefit activity providers?
 OpenActive can help you increase your visibility and allow you to reach new customers.
 
 </div>
@@ -109,7 +109,7 @@ Describe your opportunities in a way that helps new customers decide to take par
 <h2 class="sub-heading-two">Using Data</h2>
 <div class="one">
 
-#### What kind of services can be built with open opportunity data?
+### What kind of services can be built with open opportunity data?
 One of the exciting things about OpenActive is the near limitless range of services that can be created from generic activity finders for a wide audience to very tailored services aimed at specific types of user.
 
 </div>

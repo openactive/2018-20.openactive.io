@@ -60,7 +60,7 @@ We are supporting innovation to help people get active.
 <h2 class="sub-heading-two">What we do</h2>
 <div class="two twoleft">
 
-#### Our goal is to make data on what, where and when physical activity sessions happen, openly available.
+### Our goal is to make data on what, where and when physical activity sessions happen, openly available.
 
 We are bringing together sports and physical activity organisations from across the sector to open up their opportunity data.
 
@@ -150,7 +150,7 @@ What's happening in the community, and how you can get involved!
 
 {% assign subpage = site.pages | where: 'title', 'Accelerator' %}
 {% for item in subpage %}
-### {{ item.title}}
+## {{ item.title}}
 {{ item.strapline | markdownify }}
 
 [Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}

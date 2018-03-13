@@ -17,7 +17,7 @@ layout: page-hero
 <article>
 <div class="one">
 
-#### The open data being gathered by OpenActive and associated partners will transform the sport and physical sector.
+### The open data being gathered by OpenActive and associated partners will transform the sport and physical sector.
 
 We’ve made it easy for developers to understand and engage with our data standards and the Opportunity Data Dashboard, to ensure relevant organisations nationwide can join us in revolutionising the way people find, access, and participate in new activities.
 
@@ -34,7 +34,7 @@ Because no single platform or app holds all the data available under OpenActive,
 <h2 class="sub-heading-two">The Data</h2>
 <div class="code left">
 
-#### Opportunity Data
+### Opportunity Data
 This is data that describes a physical activity including **what** it is, **where** and **when** it's taking place.
 
 Opportunity data includes enough information for a participant to decide whether an activity is right for them.
@@ -111,7 +111,7 @@ The specification defines a data model to help different platforms and applicati
 </div>
 <div class="two tworight">
 
-#### The Opportunity Data Dashboard
+### The Opportunity Data Dashboard
 The dashboard lists all of the opportunity data feeds we have currently available.
 
 Explore the dashboard to find the data you need, identify which feeds conform to our standards, and provide feedback to publishers.
@@ -130,7 +130,7 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 <div class="two tworight">
 
 
-#### The Open Data Map
+### The Open Data Map
 The map displays all of the activity data available across the country.
 
 Explore the map to find the data you need, identify which areas care embracing open data, and which are yet to.

@@ -294,8 +294,11 @@ $header-border-color: $brand-one;
 $header-border-thickness: 2px;
 $header-border-padding: 1rem;
 $header-top-margin: 2rem;
+$header-padding-bottom: 2rem;
 @media only screen and (min-width: 1000px) {
   body > header {
+    margin-bottom:$header-padding-bottom;
+    border-bottom: 3px solid white;
     position: fixed;
     z-index: 50;
     background-color: white;
@@ -672,7 +675,7 @@ $header-top-margin: 2rem;
 .on-scroll {
   &#mainHeader {
     position: fixed;
-    border-bottom: 1px solid $gray;
+    border-bottom: $header-border-thickness solid $header-border-color;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
