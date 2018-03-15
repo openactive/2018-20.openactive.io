@@ -1571,6 +1571,7 @@ article {
       @extend .blue-gradient-bc !optional;
       .button-primary {
         background-color: $brand-two;
+        border: 1px solid $white;
         &:hover {
           background-color: $brand-one;
         }
@@ -1580,6 +1581,7 @@ article {
       @extend .purple-gradient-bc !optional;
       .button-primary {
         background-color: $brand-five;
+         border: 1px solid $white;
         &:hover {
           background-color: $brand-six;
         }
@@ -1589,6 +1591,7 @@ article {
       @extend .red-gradient-bc !optional;
       .button-primary {
         background-color: $startUpThree;
+         border: 1px solid $white;
         &:hover {
           background-color: $startUpFive;
         }
