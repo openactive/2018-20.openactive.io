@@ -384,7 +384,7 @@ Up to 10 selected startups invited to join the accelerator
 <div class="subgrid">
 <div class="three blue-gradient-bc">
 
-#### Startup applications are now closed
+#### Startup applications are now closed\\
 
 </div>
 <div class="three blue-gradient-bc">
