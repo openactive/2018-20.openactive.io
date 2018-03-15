@@ -26,13 +26,15 @@ layout: page-headless
 
 Open data is a tool that can help activity providers increase the reach and visibility of the opportunities they run.
 
-1. An activity provider puts information about their activities into a event listing system or booking system.
+1. An activity provider puts information about their activities into their event listing system or booking system.
 
 1. If that booking system is OpenActive-enabled, an activity provider can publish their activity information as open "*opportunity data*", usually by ticking a box in the settings.
 
 1. The activity information is then listed and bookable in websites and apps that attract millions of users, through to communities and services that engage local people.
 
 1. This means the activity provider reachs a much larger number of people.
+
+[Get started]({{ site.baseurl }}{% link getting-started.md %}){:.button-primary}
 
 </div>
 <div class="inner">
