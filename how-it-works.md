@@ -4,10 +4,10 @@ permalink: "/how-it-works/"
 position: 2
 is_main_navigation: true
 is_secondary_navigation: false
-layout: page-headless
 thumbnail_image: "/uploads/iStock-803099000optimised.png"
 strapline: Discover how we can achieve our vision in practice and the progress we’ve
   made so far.
+layout: page-headless
 ---
 
 {::options parse_block_html="true" /}
@@ -86,7 +86,7 @@ By encouraging organisations to publish their data openly and to a commonly agre
 <!-- WHAT IS OPPORTUNITY DATA -->
 <!--  ---------------->
 <article class="what-data title-row">
-<h2 class="sub-heading-two">What's in the Data?</h2>
+<h2 class="sub-heading-two">What data is being made open?</h2>
 <div class="one types">
 
 <div class="title">
