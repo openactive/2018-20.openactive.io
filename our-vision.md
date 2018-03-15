@@ -109,7 +109,7 @@ Describe your opportunities in a way that helps new customers decide to take par
 <h2 class="sub-heading-two">Using Data</h2>
 <div class="one">
 
-### What kind of services can be built with open opportunity data?
+### What kind of services can use open opportunity data?
 One of the exciting things about OpenActive is the near limitless range of services that can be created from generic activity finders for a wide audience to very tailored services aimed at specific types of user.
 
 </div>
