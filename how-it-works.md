@@ -28,9 +28,9 @@ Open data is a tool that can help activity providers increase the reach and visi
 
 It can also help data users create new apps and services that can help people get active.
 
-* Activity providers make the data about their opportunities open.
-* Your activities can be available to people across the country.
-* They are listed and bookable in websites and apps that attract millions of users, to communities and services that engage local people.
+1. Activity providers make the data about their opportunities open.
+1. Your activities can be available to people across the country.
+1. They are listed and bookable in websites and apps that attract millions of users, to communities and services that engage local people.
 
 </div>
 <div class="inner">
