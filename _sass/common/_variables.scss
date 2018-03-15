@@ -340,6 +340,17 @@ $globalEight: $brand-eight;
     blockquote h6 {
       color: $white !important;
     }
+
+
+    .line-graphic {
+        position: absolute;
+        height: 100%;
+        right: 100px;
+        margin-top: 100px;
+    }
+
+
+
   }
 
   .invert-2 {
@@ -1300,8 +1311,21 @@ $paragraph-margin: 1.3rem;
 // Header Styles
 $header-color: #253882;
 $header-size: rem(45px);
-$header-line-height: 1.8rem;
+//$header-line-height: 1.8rem;
+$header-line-height: 1;
 $header-margin: $paragraph-margin * 1.2;
+
+//DECORATIVE OR COMPATABLE LAYOUT STYLES FOR SCREENS OVER 1000px
+
+$header-border-color: $brand-one;
+$header-border-thickness: 2px;
+$header-border-padding: 1rem;
+$header-top-margin: 2rem;
+$header-padding-bottom: 2rem;
+
+
+
+
 
 // Blockquote Styles
 $blockquote-color: #5A5A5A;

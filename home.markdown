@@ -31,7 +31,7 @@ We are supporting innovation to help people get active.
 </div>
 <figure id="introduction-vid"  role="group" aria-labelledby="open-active-video">
 <div class="mask"></div>
-<iframe id="video" title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE?&modestbranding=1&showinfo=0&rel=0&enablejsapi=1" allowfullscreen></iframe>
+<iframe id="video" title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE?&modestbranding=1&showinfo=0&rel=0&enablejsapi=1" allowfullscreen ></iframe>
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
@@ -83,6 +83,7 @@ From leisure operators to National Governing Bodies, local sports clubs to event
 * Weight / Height
 
 </div>
+<i class="line-graphic">{% include line-graphic-side.svg %}</i>
 </article>
 
 

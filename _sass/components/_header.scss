@@ -288,13 +288,8 @@ html.no-cssgrid {
 
 /*********************************/
 /*********************************/
-//DECORATIVE OR COMPATABLE LAYOUT STYLES FOR SCREENS OVER 1000px
 
-$header-border-color: $brand-one;
-$header-border-thickness: 2px;
-$header-border-padding: 1rem;
-$header-top-margin: 2rem;
-$header-padding-bottom: 2rem;
+
 @media only screen and (min-width: 1000px) {
   body > header {
     margin-bottom:$header-padding-bottom;
@@ -411,7 +406,7 @@ $header-padding-bottom: 2rem;
             margin: 0;
             li {
               display: inline-block;
-              margin: 0 5px;
+              margin: 0 5px 0 0;
               span {
                 display: block;
                 text-align: center;
@@ -616,7 +611,7 @@ $header-padding-bottom: 2rem;
             margin: 0;
             li {
               display: inline-block;
-              margin: 0 5px;
+              margin: 0 5px 0 0;
               span {
                 display: block;
                 text-align: center;
@@ -784,7 +779,7 @@ $header-padding-bottom: 2rem;
           margin: 0;
           li {
             display: inline-block;
-            margin: 0 5px;
+            margin: 0 5px 0 0;
             span {
               display: block;
               text-align: center;
