@@ -78,6 +78,9 @@ defaults:
     member: 
     strapline: 
     quote: 
+    exposedData:
+    - Time
+    - Prices
 - scope:
     path: ''
     type: mentors
