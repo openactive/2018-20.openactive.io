@@ -14,6 +14,13 @@ tags:
 - Newham
 - Data Publishing
 - Openactive
+exposedData:
+- Time
+- Prices
+- Locations
+- Availability
+- Descriptions
+- Difficulty Level
 layout: case-study
 ---
 

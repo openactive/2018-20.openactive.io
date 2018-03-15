@@ -155,13 +155,13 @@ Opportunity data covers many types of physical activities. From 1on1 classes, ma
 </div>
 <div>
 
-![Price]({{ site.baseurl }}/assets/images/icons/price.svg)
+![Price]({{ site.baseurl }}/assets/images/icons/prices.svg)
 ###### Prices
 
 </div>
 <div>
 
-![Locations]({{ site.baseurl }}/assets/images/icons/location.svg)
+![Locations]({{ site.baseurl }}/assets/images/icons/locations.svg)
 ###### Locations
 
 </div>

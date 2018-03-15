@@ -1874,6 +1874,21 @@ nav {
   width: 150px;
   padding: 0;
   grid-row: 1;
+
+  .exposedData {
+    width:75%;
+    p {
+      display:inline;
+
+      img {
+      width:30px;
+      display:inline;
+    }
+
+    }
+    
+  }
+
   h6 {
     margin-top: .5rem;
   }

@@ -44,9 +44,11 @@
 {% if post.is_featured %}
 <div class="case-content" data-id="case-{{ forloop.index }}">
 <h6>DATA EXPOSED</h6>
-{% for data in page.dataExposed %}
-  <p>{{ data }}</p>
+<div class="exposedData">
+{% for data in post.exposedData %}
+  <img src="/assets/images/icons/{{ data | split: ' ' | first }}.svg" title=" {{ data  }}"/> 
 {% endfor %}
+</div>
 </div>
 {% endif %}
 {% endfor %}

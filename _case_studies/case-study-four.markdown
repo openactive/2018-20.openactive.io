@@ -19,6 +19,7 @@ exposedData:
 - Prices
 - Locations
 - Availability
+- Descriptions
 layout: case-study
 ---
 

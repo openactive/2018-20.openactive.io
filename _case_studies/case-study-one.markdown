@@ -9,6 +9,8 @@ tags:
 - Ping Pong
 - Table Tennis England
 - Interview
+exposedData:
+- Locations
 strapline: Positive feedback for a pioneering organisation.
 is_featured: true
 thumbnail_image: "/uploads/spotlight_tabletennis.jpeg"
