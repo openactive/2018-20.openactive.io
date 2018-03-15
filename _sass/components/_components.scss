@@ -1948,7 +1948,7 @@ nav {
     figure {
       margin: 0 0 1rem 0;
     }
-    h3 {
+    h4 {
       padding-top: 1rem;
       border-top-style: solid;
       border-top-width: 5px;
@@ -2037,7 +2037,7 @@ nav {
   display: inline-flex;
   align-items: center;
   @media only screen and (min-width: 750px) {
-    justify-content: space-between;
+    //justify-content: space-between;
   }
   border-bottom: 1px solid $gray;
   padding-bottom: 0.5rem;
@@ -2045,12 +2045,18 @@ nav {
   a {
     order: 0;
     align-self: auto;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
+    margin-right:10px;
     .svg.twitter, .svg.facebook, .svg.instagram, .svg.google {
       fill: $brand-one;
     }
   }
+}
+
+.meta {
+  font-size:0.75rem;
+  margin-top: 0.6rem !important;
 }
 
 //STYLES FOR LEFT HAND COLUMN GRAPHIC

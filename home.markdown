@@ -181,11 +181,11 @@ What's happening in the community, and how you can get involved!
 <img src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title | escape }}-post-thumbnail">
 </a>
 </figure>
-<h3>{{ post.title | escape }}</h3>
+<h4>{{ post.title | escape }}</h4>
 <div class="subgrid brand-one-b">
 <div class="two twoleft">
 {{ post.excerpt }}
-<a class="button-primary" href="{{ post.url | relative_url }}">Read Post</a>
+<a class="link" href="{{ post.url | relative_url }}">Read Post</a>
 </div>
 <div class="two twoleft">
 <div markdown="0" class="share-page">
@@ -195,7 +195,9 @@ What's happening in the community, and how you can get involved!
 
 </div>
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-{{post.date | date: date_format}}
+{{ post.date | date: date_format}}
+{: .meta}
+
 {{post.author}}
 </div>
 </div>
