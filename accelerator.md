@@ -386,7 +386,6 @@ Up to 10 selected startups invited to join the accelerator
 
 #### Startup applications are now closed
 
-<a class="button-primary" target="_blank" rel="noopener" onclick="gtag('event', 'accelerator ctas', {'Low CTA': 'clicked', 'event_label': 'start'});" href="https://www.f6s.com/openactiveaccelerator/apply">Start</a>
 </div>
 <div class="three blue-gradient-bc">
 
