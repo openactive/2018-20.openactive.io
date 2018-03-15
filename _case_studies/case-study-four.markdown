@@ -1,6 +1,11 @@
 ---
-title: Active Newham
+title: activeNewham
 date: 2017-03-31 00:00:00 Z
+is_featured: true
+thumbnail_image: "/uploads/case_study4_1.png"
+member: Active Newham
+strapline: The pivotal role of cross-sector collaboration in publishing activeNewham
+  open data.
 categories:
 - Spotlight
 tags:
@@ -9,11 +14,6 @@ tags:
 - Newham
 - Data Publishing
 - Openactive
-strapline: The pivotal role of cross-sector collaboration in publishing activeNewham
-  open data.
-is_featured: true
-thumbnail_image: "/uploads/case_study4_1.png"
-member: Active Newham
 layout: case-study
 ---
 
