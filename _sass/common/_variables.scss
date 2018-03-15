@@ -332,7 +332,16 @@ $globalEight: $brand-eight;
     h1,h2,h3,h4,h5,h6,p,li{
       color: $white;
     }
+
+    a:link , a:visited , a:hover , a:active {
+      color: $white;
+    }
+
+    blockquote h6 {
+      color: $white !important;
+    }
   }
+
   .invert-2 {
     @extend .invert;
     background-color: $brand-darkblue;
