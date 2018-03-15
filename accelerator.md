@@ -13,7 +13,6 @@ layout: page-accelerator
 
 {::options parse_block_html="true" /}
 
-
 <!--  ---------------->
 <!-- HERO BLOCK -->
 <!--  ---------------->
@@ -23,17 +22,18 @@ style="background: url({{site.baseurl}}{{page.thumbnail_image}})center 43% / cov
 <div class="one">
 
 ### For millions, staying active is hard.
+
 ### Let’s make it easier.
+
 Almost 18 million (39.4%) of adults in England don’t exercise enough to improve their health and
 wellbeing.
 
 ###### Sport England
 
 <p><a href="https://www.sportengland.org/media/12458/active-lives-adult-may-16-17-report.pdf"
-  target="_blank">Active Lives Survey - 16/17</a></p>
+target="_blank">Active Lives Survey - 16/17</a></p>
 </div>
 </article>
-
 
 <!--  ---------------->
 <!-- TEXT BLOCK -->
@@ -42,7 +42,6 @@ wellbeing.
 <div class="one">
 
 **We want to get people active using data.** For months, activity providers have been openly publishing their opportunity data for our OpenActive Accelerator. Now it’s over to you. If you have an innovative idea that uses open opportunity data to help people discover and take part in physical activities, [we want to hear from you.](https://docs.google.com/document/d/1o06BCIxYRc1-7vQy4z6N7RL7ebw5kj8QaAkLb4v-8og/edit){:target="_blank"}
-
 
 Open opportunity data helps people decide whether an activity is (or isn’t) for them. It includes real-time information and integrated booking options, for classes, sessions and clubs, spare places in leagues, tennis courts and football pitches for hire. You can use opportunity data in many ways to
 inspire people to be more active, remove pain points and deliver better customer experiences.</p>
@@ -62,8 +61,6 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 <div class="line-graphic"></div>
 </article>
 
-
-
 <!--  ---------------->
 <!-- START-UPS BLOCK -->
 <!--  ---------------->
@@ -75,6 +72,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include opendata.svg %}
 
 **Open data**
+
 ###### Unique access from key physical activity providers.
 
 </figure>
@@ -84,6 +82,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include officespace.svg %}
 
 **Office space**
+
 ###### Including day-to-day business support.
 
 </figure>
@@ -93,6 +92,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include mentorship.svg %}
 
 **Mentorship**
+
 ###### Matched with industry leaders that are the best fit for your startup.
 
 </figure>
@@ -102,6 +102,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include workshops.svg %}
 
 **Workshops**
+
 ###### From business modelling to marketing, you’ll hone skills to succeed.
 
 </figure>
@@ -111,6 +112,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include oneonone.svg %}
 
 **1:1s**
+
 ###### Weekly sessions with the OpenActive Accelerator team.
 
 </figure>
@@ -120,6 +122,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include perks.svg %}
 
 **Perks**
+
 ###### Access to professional services inc. data hosting.
 
 </figure>
@@ -129,6 +132,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include networking.svg %}
 
 **Networking**
+
 ###### Weekly opportunities to grow your network
 
 </figure>
@@ -138,6 +142,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include partners.svg %}
 
 **Partners**
+
 ###### Supporters and business leads.
 
 </figure>
@@ -147,6 +152,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include investors.svg %}
 
 **Investors**
+
 ###### We’ll connect you with the right people and advice at the right time.
 
 </figure>
@@ -156,6 +162,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include demo.svg %}
 
 **Demo Day**
+
 ###### Demonstrate your products and services at an invite-only pitch to investors.
 
 </figure>
@@ -249,13 +256,13 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include quote.svg %}
 </div>
 
-
-The Open Data Institute sits at the heart of the open data movement globally…[it] enabled us to build
+The Open Data Institute sits at the heart of the open data movement globally…\[it\] enabled us to build
 a product that consistently "wows" the householders that use our platform and helps them live more
 happily together.
-###### Nick Katz
-###### Co-founder & CEO, acasa (formerly Splittable)
 
+###### Nick Katz
+
+###### Co-founder & CEO, acasa (formerly Splittable)
 
 </blockquote>
 </div>
@@ -308,7 +315,6 @@ LinkedIn
 
 </div>
 
-
 {% endfor %}
 </div>
 <div class="one buttons">
@@ -357,7 +363,6 @@ Written application via F6S
 
 Up to 10 selected startups invited to join the accelerator
 
-
 </div>
 </div>
 </article>
@@ -379,7 +384,7 @@ Up to 10 selected startups invited to join the accelerator
 <div class="subgrid">
 <div class="three blue-gradient-bc">
 
-#### Apply as a startup
+#### Startup applications are now closed
 
 <a class="button-primary" target="_blank" rel="noopener" onclick="gtag('event', 'accelerator ctas', {'Low CTA': 'clicked', 'event_label': 'start'});" href="https://www.f6s.com/openactiveaccelerator/apply">Start</a>
 </div>
@@ -418,7 +423,7 @@ Up to 10 selected startups invited to join the accelerator
 {% endfor %}
 </div>
 <div class="one">
-<p><a class="button-primary" href="{{ site.baseurl }}{% link faqs.md %}">Visit our FAQs</a>&nbsp;<a class="button-primary--ghost" href="mailto:Lisa.ellwood@theodi.org?subject=OpenActive application query">get
+<p><a class="button-primary" href="{{ site.baseurl }}{% link faqs.md %}">Visit our FAQs</a> <a class="button-primary--ghost" href="mailto:Lisa.ellwood@theodi.org?subject=OpenActive application query">get
 in touch</a></p>
 </div>
 </article>
