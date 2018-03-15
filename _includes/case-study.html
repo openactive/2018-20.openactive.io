@@ -46,7 +46,7 @@
 <h6>DATA EXPOSED</h6>
 <div class="exposedData">
 {% for data in post.exposedData %}
-  <img src="/assets/images/icons/{{ data | split: ' ' | first }}.svg" title=" {{ data  }}"/> 
+  <img src="{{ site.baseurl }}/assets/images/icons/{{ data | split: ' ' | first }}.svg" title=" {{ data  }}"/> 
 {% endfor %}
 </div>
 </div>
