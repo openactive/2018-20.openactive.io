@@ -167,7 +167,7 @@ Apps that emphasise the social aspect of physical activity or help someone find 
 ### {{ item.title}}
 {{ item.strapline | markdownify }}
 
-[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
+[Find out how]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
