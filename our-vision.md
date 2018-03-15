@@ -159,7 +159,7 @@ Apps that emphasise the social aspect of physical activity or help someone find 
 <!-- HOW IT WORKS CALL TO ACTION -->
 <!--  ---------------->
 <article class="call_to_action--full-width">
-<h2 class="sub-heading-two">The vision in practice</h2>
+<h2 class="sub-heading-two">Where now?</h2>
 <div class="one">
 
 {% assign subpage = site.pages | where: 'title', 'How It Works' %}
