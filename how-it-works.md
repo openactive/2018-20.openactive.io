@@ -304,7 +304,7 @@ Opportunity data covers many types of physical activities. From 1on1 classes, ma
 ### {{ item.title}}
 {{ item.strapline | markdownify }}
 
-[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
+[Get started]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
