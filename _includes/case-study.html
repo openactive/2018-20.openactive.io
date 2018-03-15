@@ -44,11 +44,9 @@
 {% if post.is_featured %}
 <div class="case-content" data-id="case-{{ forloop.index }}">
 <h6>DATA EXPOSED</h6>
-<p>Date</p>
-<p>Location</p>
-<p>Disabled Access</p>
-<p>{{ post.title | escape }}</p>
-
+{% for data in page.dataExposed %}
+  <p>{{ data }}</p>
+{% endfor %}
 </div>
 {% endif %}
 {% endfor %}
