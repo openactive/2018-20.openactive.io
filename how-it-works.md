@@ -36,6 +36,8 @@ Open data is a tool that can help activity providers increase the reach and visi
 
 [Get started]({{ site.baseurl }}{% link getting-started.md %}){:.button-primary}
 
+[I don't have a booking system]({{ site.baseurl }}{% link getting-started.md %}){:.button-primary}
+
 </div>
 <div class="inner">
 
