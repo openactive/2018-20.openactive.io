@@ -71,7 +71,7 @@ It can also help data users create new apps and services that can help people ge
 <h2 class="sub-heading-two">Opportunity Data</h2>
 <div class="one">
 
-### Open opportunity data is about where and when sport and physical activities happen.
+### Open "opportunity data" is about where and when sport and physical activities happen.
 This data can be made available for anyone to access, use, and share, helping consumers to discover and take part in new activities, and providers to more accurately tailor and grow their services.
 
 By encouraging organisations to publish their data openly and to a commonly agreed standard, we are not only facilitating open sharing across individual websites, but building a connected, online community that’s free to grow and innovate in response to its consumers’ needs.
@@ -91,7 +91,7 @@ By encouraging organisations to publish their data openly and to a commonly agre
 
 <div class="title">
 
-## Data types
+## Opportunity data types
 Opportunity data covers many types of physical activities. From 1on1 classes, mass participation events to gym classes and yoga sessions.
 
 </div>
