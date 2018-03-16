@@ -88,10 +88,9 @@ That’s it! You should now have a working demo containing open opportunity data
 To start evolving this into something that meets your real-world needs, please see the following resources.
 
 ### FAQ
-Aggregating open opportunity data
-Making your opportunities bookable
-Documentation
-etc
+* Aggregating open opportunity data
+* Making your opportunities bookable
+* Documentation etc
 
 
 
