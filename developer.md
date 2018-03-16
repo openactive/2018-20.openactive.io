@@ -155,6 +155,35 @@ Explore the map to find the data you need, identify which areas care embracing o
 <!--  ---------------->
 <!-- CALL TO ACTION -->
 <!--  ---------------->
+
+<article class=" title-row">
+<h2 class="sub-heading-two">References</h2>
+<div class="one">
+<h3>Open Data Publishing</h3>
+<p></p>
+[ Paging specification](https://www.openactive.io/realtime-paged-data-exchange/){:target="_blank"}{: .link} - The specification for the OpenActive API transport
+
+[ Modelling specification](https://www.openactive.io/modelling-opportunity-data/){:target="_blank"}{: .link} - The specification for the OpenActive API data fields
+
+[ Beta Namespace](https://www.openactive.io/ns-beta/ /){:target="_blank"}{: .link} - Additional fields that are available for use but still under discussion
+
+[ British Cycling Annotated Example](https://github.com/openactive/activation/issues/104){:target="_blank"}{: .link} - A "batteries included" example of a publishing endpoint
+
+[ Opportunity data primer](https://www.openactive.io/opportunity-data-primer/){:target="_blank"}{: .link} - Examples of publishing
+
+[ schema.org](http://schema.org/){:target="_blank"}{: .link} - Google's vocabulary on which the OpenActive specifications are based
+
+<h3>Activities List</h3>
+<p></p>
+[ OpenActive activity list ](https://www.openactive.io/activity-list/){:target="_blank"}{: .link} - A canonical list of activities for reference in OpenActive data feeds
+
+<h3>Open Booking</h3>
+<p></p>
+[ Open Booking API 0.3 Draft ](https://docs.google.com/document/d/1QMj_w2tuOvxRfctu70JjSv1WgFKvNfU5URCmIB4sSu8/edit){:target="_blank"}{: .link} -  A draft version of the OpenActive booking specification
+</div>
+</article>
+
+
 <!-- <article class="call_to_action title-row">
 <h2 class="sub-heading-two">Resources</h2>
 
@@ -193,7 +222,7 @@ Guidance for developers on getting started, to help you learn how to publish and
 
 </div>
 </div>
-</article> -->
+</article>
 
 
 <!--  ---------------->
