@@ -78,6 +78,22 @@ If your booking system isn't listed then you may need to ask them to create an O
 
 </div>
 
+<!--STEP THREE-->
+<div>
+
+![Your data is now open]({{ site.baseurl }}/assets/images/icons/tab1-step3.svg)
+
+
+<div class="step-text">
+
+##### C. I have a custom-built booking or listing system
+Your need to ask your developers to need to create an OpenActive feed. This should take around 3 days development time.
+
+[Developer Area]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary--ghost" }
+
+
+</div>
+</div>
 
 <div class="last">
 
