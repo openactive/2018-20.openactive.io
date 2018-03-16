@@ -28,7 +28,7 @@ layout: home
 We are supporting innovation to help people get active.
 
 [Our Vision]( {{ site.baseurl }}{% link our-vision.md %}){: .button-primary--alt}
-<br/><button id="play-button" class="button-primary--alt">Watch Video</button>
+ <button id="play-button" class="button-primary--alt">Watch Video</button>
 </div>
 <figure id="introduction-vid"  role="group" aria-labelledby="open-active-video">
 

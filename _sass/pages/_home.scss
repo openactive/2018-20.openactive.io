@@ -29,7 +29,7 @@ html.cssgrid {
       }
       div.content {
         grid-column-start: 2;
-        grid-column-end: 7;
+        grid-column-end: 8;
         grid-row: 1;
         align-self: stretch;
         display: inline-flex;
@@ -75,7 +75,7 @@ html.cssgrid {
           align-items: center;
           vertical-align: top;
           padding: 10px 30px;
-          margin: 1rem 0 0 0;
+          margin: 8px 0 0 0;
           background-color: $brand-seven;
           color: $white;
           line-height: 1;
@@ -91,9 +91,12 @@ html.cssgrid {
           transition-property: background-color;
           transition-duration: 0.2s;
           transition-timing-function: ease-in-out;
+           @media only screen and (max-width: 900px) {
+            display:none;
+           }
       }
       figure {
-        grid-column-start: 7;
+        grid-column-start: 8;
         grid-column-end: 14;
         margin: 0;
         margin-left: rem;
