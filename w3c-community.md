@@ -4,10 +4,8 @@ permalink: "/w3c-community/"
 position: 5
 is_secondary_navigation: true
 thumbnail_image: "/uploads/iStock-501777666_optimised.png"
-strapline: |-
-  Our goal is to develop technical specifications and best practices that support the use of open and shared data about sports and physical activities.
-
-  [Visit the W3C Community Group](https://www.w3.org/community/openactive/){: .button-primary}
+strapline: Our goal is to develop technical specifications and best practices that
+  support the use of open and shared data about sports and physical activities.
 layout: page-hero
 ---
 
