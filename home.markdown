@@ -112,9 +112,7 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 <div class="one">
 
 ## The OpenActive Community
-Our open-invitation community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide.
-
-Building the data revolution in the sport and physical sector is a collaborative effort between consumers, organisations, and innovative start-ups, designed to support and benefit the industry at all levels.
+Our open-invitation community is dynamic and self-supporting, and we'd welcome you to join.
 
 </div>
 </article>
