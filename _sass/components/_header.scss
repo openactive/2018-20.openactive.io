@@ -876,8 +876,8 @@ html.no-cssgrid {
       align-self: end;
     }
     &.social-button-accelerator {
-      grid-column-start: 13;
-      grid-column-end: 14;
+      grid-column-start: -1;
+     
       grid-row: 1;
       align-self: center;
     }
@@ -903,8 +903,8 @@ html.no-cssgrid {
 
       }
       &.social-button-accelerator {
-        grid-column-start: 11;
-        grid-column-end: 13;
+        grid-column-start: -1;
+       
       }
       &.button-accelerator {
         grid-column-start: 12;
@@ -925,8 +925,8 @@ html.no-cssgrid {
         grid-column-end: 6;
       }
       &.social-button-accelerator {
-        grid-column-start: 9;
-        grid-column-end: 12;
+        grid-column-start: -1;
+       
         justify-content: end;
         display: inherit;
       }
@@ -942,8 +942,8 @@ html.no-cssgrid {
         grid-column-end: 6;
       }
       &.social-button-accelerator {
-        grid-column-start: 9;
-        grid-column-end: 12;
+        grid-column-start: -1;
+     
         justify-content: end;
         display: inherit;
       }
