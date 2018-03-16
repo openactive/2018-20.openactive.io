@@ -36,8 +36,7 @@ If your system is OpenActive-enabled, tick the box. Otherwise ask them to add th
 From websites and apps that attract millions of users, to communities and services that engage local people.
 
 ##### 4. You reach more people
-
-<p> </p>
+Across a wide range of demographics, without any additional effort.
 
 [Get started]({{ site.baseurl }}{% link getting-started.md %}){:.button-primary}
 
