@@ -149,7 +149,7 @@ You build a simple open API to allow customers to publish their activity listing
 ##### 2. Amend your terms and build an opt-out
 If you don't own the data, either include some text in your T&Cs or add a tick-box in your system to allow your customers to turn open data publishing on and off.
 
-[See Guidance]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
+[See Guidance]( {{ site.baseurl }}{% link community/toolkit.markdown %}){:class="button-primary" }
 
 
 </div>
