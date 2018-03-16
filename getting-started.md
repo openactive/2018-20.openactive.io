@@ -89,7 +89,7 @@ If your booking system isn't listed then you may need to ask them to create an O
 ##### C. I have a custom-built booking or listing system
 Your need to ask your developers to need to create an OpenActive feed. This should take around 3 days development time.
 
-[Developer Area]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary--ghost" }
+[Booking System Guidance]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary--ghost" }
 
 
 </div>
@@ -191,7 +191,7 @@ Create a "dataset" page on your website, making your data available for anyone t
 
 <div class="step-text">
 
-##### 4 .Your customers' activities are available everywhere
+##### 4. Your customers' activities are available everywhere
 From websites and apps that attract millions of users, through to communities and services that engage local people.
 
 Data users may from time to time provide feedback or suggestions on how you can improve the data you allow your customers to publish.
