@@ -271,7 +271,7 @@ There are many white-label widgets available from organisations who make it easy
 
 There are also aggregators that provide one API to access all the data, and of course you can collect and display the data directly yourself.
 
-[See procurement Guide]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
+<!-- [See procurement Guide]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" } -->
 [Visit active//choice](https://www.activechoice.org/){:target="_blank"}{:class="button-primary" }
 [Developer Area]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
 
@@ -292,7 +292,7 @@ Provide feedback on the data via GitHub or reach out directly to the activity pr
 
 Join the OpenActive community and help use your local or commercial influence to get more data
 
-[Feedback guidance]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
+<!-- [Feedback guidance]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" } -->
 [Join the community]( {{ site.baseurl }}{% link community.md %}){:class="button-primary" }
 [Visit Active//choice](https://www.activechoice.org/){:target="_blank"}{: .button-primary}
 [Go to developer area]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}

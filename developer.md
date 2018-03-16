@@ -27,10 +27,11 @@ Because no single platform or app holds all the data available under OpenActive,
 </article>
 <article>
 <div class="two">
-[How to publish OpenActive data]( https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
+[How to publish OpenActive data]( https://github.com/openactive/realtime-paged-data-exchange/blob/master/README.md ){: .button-primary target="_blank"}
 </div>
 <div class="two">
-[How to use OpenActive data]( https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
+
+[How to use OpenActive data]( {{ site.baseurl }}{% link use-data.md %}){:class="button-primary" }
 </div>
 </article>
 
