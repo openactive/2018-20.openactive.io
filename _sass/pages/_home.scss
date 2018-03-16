@@ -145,6 +145,22 @@ html.cssgrid {
     .accelerator {
     }
 
+        .icons {
+
+        margin: 1rem 0 0 0;
+        padding: 0;
+        li {
+            list-style: none;
+            font-size:.75rem;
+
+            img {
+                width: 30px;
+                display: inline;
+            }
+        }
+       
+    }
+
   }
 }
 

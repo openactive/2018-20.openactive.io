@@ -44,17 +44,17 @@ target="_blank">Active Lives Survey - 16/17</a></p>
 **We want to get people active using data.** For months, activity providers have been openly publishing their opportunity data for our OpenActive Accelerator. Now it’s over to you. If you have an innovative idea that uses open opportunity data to help people discover and take part in physical activities, [we want to hear from you.](https://docs.google.com/document/d/1o06BCIxYRc1-7vQy4z6N7RL7ebw5kj8QaAkLb4v-8og/edit){:target="_blank"}
 
 Open opportunity data helps people decide whether an activity is (or isn’t) for them. It includes real-time information and integrated booking options, for classes, sessions and clubs, spare places in leagues, tennis courts and football pitches for hire. You can use opportunity data in many ways to
-inspire people to be more active, remove pain points and deliver better customer experiences.</p>
+inspire people to be more active, remove pain points and deliver better customer experiences.
 
 Developments in **data**, social media, VR and AI are having a huge impact on people’s lives, changing the way we travel and entertain ourselves. In the sport and physical activity sector information about activity opportunities are often siloed making it harder to innovate, until now.
 
 That's why we're launching the ODI's OpenActive Accelerator supported by Sport England.
 
 </div>
-<div class="two">
+<!-- <div class="two">
 <a class="button-primary--ghostlarge" target="_blank" onclick="gtag('event', 'accelerator ctas', {'hero': 'clicked', 'event_label': 'apply now'});" href="https://www.f6s.com/openactiveaccelerator/apply">APPLY NOW</a>
-</div>
-<div class="two">
+</div> -->
+<div class="one">
 <a class="button-primary--ghostlarge" target="_blank" onclick="gtag('event', 'accelerator ctas', {'hero': 'clicked', 'event_label': 'access the data'});" href="http://status.openactive.io/" target="_blank">Access the data</a>
 </div>
 

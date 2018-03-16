@@ -77,15 +77,15 @@ From leisure operators to National Governing Bodies, local sports clubs to event
 
 #### OpenActive data
 ##### **Includes details such as:**
-* How much will it cost?
-* When is a court available?
-* Where is the class?
-
+* ![icons]({{ site.baseurl }}/assets/images/icons/prices.svg) How much will it cost?
+* ![icons]({{ site.baseurl }}/assets/images/icons/availability.svg)  When is a court available?
+* ![icons]({{ site.baseurl }}/assets/images/icons/locations.svg)  Where is the class?
+{:.icons}
 ##### **But not data like:**
-* Participation and attendance data
-* Commercially sensitive data
-* Customer data
-
+* ![icons]({{ site.baseurl }}/assets/images/icons/attendance.svg)  Participation and attendance data
+* ![icons]({{ site.baseurl }}/assets/images/icons/sensitive.svg)  Commercially sensitive data
+* ![icons]({{ site.baseurl }}/assets/images/icons/customer.svg)  Customer data
+{:.icons}
 </div>
 <i class="line-graphic">{% include line-graphic-side.svg %}</i>
 </article>
