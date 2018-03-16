@@ -33,7 +33,7 @@ Use any listing system or booking system. If you don’t have one, it’s quick 
 If your system is OpenActive-enabled, tick the box. Otherwise ask them to add the tick box.
 
 ##### 3. Your activities are available everywhere
-From websites and apps that attract millions of users, through to communities and services that engage local people.
+From websites and apps that attract millions of users, to communities and services that engage local people.
 
 ##### 4. You reach more people
 This means the activity provider reaches a much larger number of people.
