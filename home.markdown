@@ -110,8 +110,59 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 
 
 <!--  ---------------->
+<!-- Community -->
+<!--  ---------------->
+<article class="title-row">
+<h2 class="sub-heading-two">Members</h2>
+<div class="one">
+
+## The OpenActive Community
+Our community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide.
+
+Building the data revolution in the sport and physical sector is a collaborative effort between consumers, organisations, and innovative start-ups, designed to support and benefit the industry at all levels.
+
+</div>
+</article>
+
+
+
+<!--  ---------------->
+<!-- MEMBERS -->
+<!--  ---------------->
+<article>
+<div class="one">
+
+## Meet the Members
+
+OpenActive’s open-invitation community is continuing to grow. Discover who has joined us so far.
+
+</div>
+</article>
+<article>
+<div class="one freegrid-six">
+{% assign posts = site.members | sample:18 %}
+{% for post in posts %}
+{% assign theImage = post.thumbnail_image %}
+<div class="mobile-hide-content" data-tab="{{ forloop.index }}" markdown="0" >
+<a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
+</div>
+{% endfor %}
+</div>
+<div class="one buttons">
+<a class="button-primary" href="{% link members-page.md %}">View All</a>
+<a class="button-primary--ghost mobile-show">View More</a>
+</div>
+</article>
+
+
+
+
+
+
+<!--  ---------------->
 <!-- CALL TO ACTION BLOCKS -->
 <!--  ---------------->
+<!-- 
 <article class="call_to_action">
 <div class="subgrid">
 <div class="three">
@@ -143,6 +194,7 @@ What's happening in the community, and how you can get involved!
 </div>
 </div>
 </article>
+-->
 
 <!--  ---------------->
 <!-- ACCELERATOR BLOCKS -->
