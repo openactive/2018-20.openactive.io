@@ -7,5 +7,4 @@ is_secondary_navigation: true
 layout: bookingsystems
 ---
 
-corrupti cumque dolorum illo. Tenetur mollitia beatae dolorem saepe dignissimos et sit.
-
+This page lists the booking systems that are OpenActive-enabled.
