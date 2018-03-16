@@ -3,14 +3,15 @@ title: Use Data
 permalink: "/use-data/"
 position: 23
 is_main_navigation: false
-layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
 strapline: Using OpenActive data to list opportunities
+layout: page-hero
 ---
 
 <article>
 <div class="one" markdown="1">
 ### Introduction
+(This article was originally posted by Sally Lait at https://sallylait.com/labs/oa-datauseguide/)
 
 The goal of this quick start guide is to rapidly introduce you to what it means to use OpenActive data, and to start to become familiar with some of the important principles.
 
@@ -30,7 +31,7 @@ The feed URL is lw-colchester-openactive.herokuapp.com/ and you can find more in
 
 If everything has gone correctly, your browser developer tools console should show something like this:
 
-IMAGE HERE
+![output.jpg](/uploads/output.jpg)
 
 The data returned is JSON, and includes a set of session items. Each of these items will have a state of updated, or deleted, which we’ll discuss in more detail with regards to paging in the next section. In the following box we have a deleted session and an updated session.
 
