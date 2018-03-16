@@ -99,13 +99,6 @@ Your need to ask your developers to need to create an OpenActive feed. This shou
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab1-step4.svg)
 
-
-<div class="step-text">
-
-[Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
-
-
-</div>
 </div>
 
 </div>
