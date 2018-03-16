@@ -15,7 +15,7 @@ layout: page-hero
 <!--  ---------------->
 <!-- TABS -->
 <!--  ---------------->
-<article markdown="0" class="tabs invert">
+<article markdown="0" class="tabs">
 <h2 class="sub-heading-two">Where to start?</h2>
 <div id="tabs">
 <div class="tabsList " role="tablist">
