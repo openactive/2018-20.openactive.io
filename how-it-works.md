@@ -27,13 +27,13 @@ layout: page-headless
 Open opportunity data helps activity providers reach more people.
 
 ##### 1. Get your activities online
-An activity provider puts information about their activities into their event listing system or booking system. If you don’t have one, it’s quick and easy to get one.
+Use any listing system or booking system. If you don’t have one, it’s quick and easy to get one.
 
 ##### 2. Tick the box to open your data
-If that booking system is OpenActive-enabled, an activity provider can publish their activity information as open "opportunity data", usually by ticking a box in the settings.
+If your system is OpenActive-enabled, tick the box. Otherwise ask them to add the tick box.
 
 ##### 3. Your activities are available everywhere
-This allows the activity information to be listed and bookable on websites and apps that attract millions of users, through to communities and services that engage local people.
+From websites and apps that attract millions of users, through to communities and services that engage local people.
 
 ##### 4. You reach more people
 This means the activity provider reaches a much larger number of people.
