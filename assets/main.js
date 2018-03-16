@@ -200,7 +200,7 @@ $(document).ready(function () {
                         format: '',
                         theme: 'default'
                     });
-                    startupsod.update(124);
+                    startupsod.update(10);
 
                     var el = document.querySelector('.world');
                     worldod = new Odometer({

@@ -448,6 +448,14 @@ article {
 /*********************************/
 /*********************************/
 // PEOPLE STYLES
+
+
+.champDetail {
+  img {
+     width: 70% !important;
+  }
+}
+
 .people {
   text-align: center;
   .inline-block-six, .inline-block-five {
@@ -925,8 +933,8 @@ article {
           }
         }
         .tabPanel {
-          //display: none;
-          opacity: 0;
+          display: none;
+          //opacity: 0;
           pointer-events: none;
           transition-property: opacity;
           transition-duration: 0.3s;
@@ -1018,8 +1026,8 @@ article {
             pointer-events: initial;
           }
           &.current {
-            //display: block;
-            opacity: 1;
+            display: block;
+            //opacity: 1;
             pointer-events: initial;
             transition-property: opacity;
             transition-duration: 0.3s;

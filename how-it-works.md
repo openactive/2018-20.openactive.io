@@ -292,7 +292,9 @@ Opportunity data covers many types of physical activities. From 1on1 classes, ma
 <!--  ---------------->
 <!-- CASE STUDIES BLOCK -->
 <!--  ---------------->
-<article class="title-row">
+<article class="what-data title-row">
+<h2 class="sub-heading-two">Case Studies</h2>
+
 {% include case-study.html %}
 </article>
 

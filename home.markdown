@@ -28,10 +28,10 @@ layout: home
 We are supporting innovation to help people get active.
 
 [Our Vision]( {{ site.baseurl }}{% link our-vision.md %}){: .button-primary--alt}
-
+<br/><button id="play-button" class="button-primary--alt">Watch Video</button>
 </div>
 <figure id="introduction-vid"  role="group" aria-labelledby="open-active-video">
-<button id="play-button" class="button-primary--alt">Watch Video</button>
+
 <div class="mask"></div>
 <iframe id="video" title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/kfVCRaMJarE?&modestbranding=1&showinfo=0&rel=0&enablejsapi=1" allowfullscreen ></iframe>
 

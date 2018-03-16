@@ -155,7 +155,7 @@ Explore the map to find the data you need, identify which areas care embracing o
 <!--  ---------------->
 <!-- CALL TO ACTION -->
 <!--  ---------------->
-<article class="call_to_action title-row">
+<!-- <article class="call_to_action title-row">
 <h2 class="sub-heading-two">Resources</h2>
 
 <div class="subgrid">
@@ -193,7 +193,7 @@ Guidance for developers on getting started, to help you learn how to publish and
 
 </div>
 </div>
-</article>
+</article> -->
 
 
 <!--  ---------------->

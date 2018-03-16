@@ -19,7 +19,7 @@
 </a>
 </div>
 <div class="two tworight">
-<h4>{{ post.title | escape }}</h4>
+<a href="{{ post.url}}"><h4>{{ post.title | escape }}</h4></a>
 <!--<p>{{ post.strapline }}</p>-->
 
 <figure>
@@ -42,14 +42,20 @@
 <aside class="right-col">
 {% for post in site.case_studies %}
 {% if post.is_featured %}
+{% assign isdata = post.exposedData %}
+	{% if isdata %}
 <div class="case-content" data-id="case-{{ forloop.index }}">
+	
 <h6>DATA EXPOSED</h6>
 <div class="exposedData">
 {% for data in post.exposedData %}
-  <img src="{{ site.baseurl }}/assets/images/icons/{{ data | split: ' ' | first | downcase }}.svg" title=" {{ data  }}"/> 
+<img src="{{ site.baseurl }}/assets/images/icons/{{ data | split: ' ' | first | downcase }}.svg" title=" {{ data  }}"/> 
 {% endfor %}
+
 </div>
+
 </div>
+{% endif %}
 {% endif %}
 {% endfor %}
 </aside>
