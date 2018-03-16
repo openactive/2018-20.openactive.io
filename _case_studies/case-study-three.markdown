@@ -9,7 +9,6 @@ tags:
 - Data Provider
 - London
 - User Experience
-
 strapline: Using open data to create a people and publisher-centred activity finder.
 is_featured: true
 thumbnail_image: "/uploads/london_casestudy1.jpeg"

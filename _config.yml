@@ -78,7 +78,7 @@ defaults:
     member: 
     strapline: 
     quote: 
-    exposedData:
+    exposedData: 
 - scope:
     path: ''
     type: mentors
