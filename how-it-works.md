@@ -35,7 +35,7 @@ If that booking system is OpenActive-enabled, an activity provider can publish t
 ##### 3. Your activities are available everywhere
 This allows the activity information to be listed and bookable on websites and apps that attract millions of users, through to communities and services that engage local people.
 
-##### 4. Your reach more people
+##### 4. You reach more people
 This means the activity provider reaches a much larger number of people.
 
 [Get started]({{ site.baseurl }}{% link getting-started.md %}){:.button-primary}
