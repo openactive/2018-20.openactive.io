@@ -361,6 +361,7 @@ Join the OpenActive community and help use your local or commercial influence to
 <!--  ---------------->
 <!-- CALL TO ACTION -->
 <!--  ---------------->
+<!-- 
 <article>
 <div class="one">
 
@@ -369,11 +370,12 @@ Join the OpenActive community and help use your local or commercial influence to
 If you think your organisation would benefit from open data, but the decision isn’t in your hands, explore the links below for accessible documents to share with your team or employer.
 </div>
 </article>
-
+-->
 
 <!--  ---------------->
 <!-- CALL TO ACTION -->
 <!--  ---------------->
+<!-- 
 <article class="call_to_action">
 <div class="subgrid">
 <div class="three">
@@ -401,6 +403,7 @@ Have a question? Get in touch.
 </div>
 </div>
 </article>
+-->
 
 <!--  ---------------->
 <!-- DEVELOPER CALL TO ACTION -->
