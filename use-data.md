@@ -45,6 +45,11 @@ For now, familiarise yourself with the following and make sure that you understa
 Knowing whether to retrieve more data
 We’ve just output the first page of data. Along with the items, you’ll also see that we’re returning a key named ‘next’. Where there is another page of results, this key will have a value, and that value will be different to the URL of the last request made.
 
+![paging1.jpg](/uploads/paging1.jpg)
+An example of where there is another page to follow
+![paging2.jpg](/uploads/paging2.jpg)
+An example of where there no more pages of data to follow
+
 ### How data is ordered
 At this point it’s really important to understand that OpenActive data conforms to the RPDE specification.
 
@@ -54,7 +59,7 @@ As such, the first page of data accessed from the root URL will contain the olde
 
 To better illustrate, consider the following image. The items in this are ordered first by modified timestamp, and second by ID.
 
-IMAGE HERE 00
+![image00.png](/uploads/image00.png)
 
 If an item is modified (or deleted), its record will move to the end of the set. If the item in red (with ID 2) becomes updated, its timestamp would be modified and it would move to the end of the list. If we'd previously encountered it whilst doing our first pass of paging through the entire data set, we'd get the updated version at the end whilst polling for changes.
 
