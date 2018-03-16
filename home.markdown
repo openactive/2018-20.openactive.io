@@ -102,12 +102,7 @@ From leisure operators to National Governing Bodies, local sports clubs to event
 <p class="reset-style">
 Open data is data that anyone can access, use or share. Simple as that. When big companies or governments release non-personal data, it enables small businesses, citizens and medical researchers to develop resources which make crucial improvements to their communities.</p>
 </div>
-<div class="one">
-
-</div>
 </article>
-
-
 
 <!--  ---------------->
 <!-- Community -->
@@ -117,24 +112,9 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 <div class="one">
 
 ## The OpenActive Community
-Our community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide.
+Our open-invitation community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide.
 
 Building the data revolution in the sport and physical sector is a collaborative effort between consumers, organisations, and innovative start-ups, designed to support and benefit the industry at all levels.
-
-</div>
-</article>
-
-
-
-<!--  ---------------->
-<!-- MEMBERS -->
-<!--  ---------------->
-<article>
-<div class="one">
-
-## Meet the Members
-
-OpenActive’s open-invitation community is continuing to grow. Discover who has joined us so far.
 
 </div>
 </article>
