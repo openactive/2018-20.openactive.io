@@ -25,7 +25,14 @@ Because no single platform or app holds all the data available under OpenActive,
 
 </div>
 </article>
-
+<article>
+<div class="two">
+[How to publish OpenActive data]( https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
+</div>
+<div class="two">
+[How to use OpenActive data]( https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
+</div>
+</article>
 
 <!--  ---------------->
 <!-- CODE -->
