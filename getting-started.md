@@ -135,7 +135,7 @@ aria-labelledby="booking-systems">
 You build a simple open API to allow customers to publish their activity listings information openly using the OpenActive data standards as a " *dataset* "
 
 [See Instructions]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary--ghost" }
-[See Existing implimentations](http://status.openactive.io/){:target="_blank"}{:class="button-secondary--ghost" }
+[See Existing implementations](http://status.openactive.io/){:target="_blank"}{:class="button-secondary--ghost" }
 
 
 </div>
