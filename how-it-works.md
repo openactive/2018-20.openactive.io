@@ -32,10 +32,10 @@ An activity provider puts information about their activities into their event li
 ##### 2. Tick the box to open your data
 If that booking system is OpenActive-enabled, an activity provider can publish their activity information as open "*opportunity data*", usually by ticking a box in the settings.
 
-##### 3. Your data is now open
+##### 3. Your activities are available everywhere
 This allows the activity information to be listed and bookable on websites and apps that attract millions of users, through to communities and services that engage local people.
 
-##### 4. Your activities are available everywhere
+##### 4. Your reach more people
 This means the activity provider reaches a much larger number of people.
 
 [Get started]({{ site.baseurl }}{% link getting-started.md %}){:.button-primary}
