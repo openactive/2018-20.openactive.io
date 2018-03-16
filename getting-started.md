@@ -48,7 +48,7 @@ aria-labelledby="activity-provider">
 <div class="step-text">
 
 
-##### 1. Get your activities online
+##### A. I don't have a system where I keep my data online
 You may already use a system to list your activities online. If you don't have one, it's quick and easy to get one.
 
 [View OpenActive-enabled systems]( {{ site.baseurl }}{% link bookingsystems.md %}){:class="button-secondary--ghost " }
@@ -66,7 +66,7 @@ You may already use a system to list your activities online. If you don't have o
 
 <div class="step-text">
 
-##### 2. Tick the box to open your data
+##### B. I do have system where I list my activities
 Find out if your booking system is [OpenActive-enabled]
 If your booking system isn't listed then you may need to ask them to create an OpenActive feed, or you may need to build your own.
 
