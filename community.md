@@ -3,9 +3,9 @@ title: Community
 permalink: "/community/"
 position: 5
 is_main_navigation: true
-layout: page-hero
 thumbnail_image: "/uploads/iStock-501777666_optimised.png"
 strapline: Innovation through Collaboration
+layout: page-hero
 ---
 
 {::options parse_block_html="true" /}
@@ -89,7 +89,7 @@ Explore the dashboard to learn more about our community and the datasets already
 <div class="one">
 
 ## The Community
-Our community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide.
+Our open-invitation community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide.
 
 Building the data revolution in the sport and physical sector is a collaborative effort between consumers, organisations, and innovative start-ups, designed to support and benefit the industry at all levels.
 
@@ -99,15 +99,6 @@ Building the data revolution in the sport and physical sector is a collaborative
 <!--  ---------------->
 <!-- MEMBERS -->
 <!--  ---------------->
-<article>
-<div class="one">
-
-## Meet the Members
-
-OpenActive’s open-invitation community is continuing to grow. Discover who has joined us so far.
-
-</div>
-</article>
 <article>
 <div class="one freegrid-six">
 {% assign posts = site.members | sample:18 %}
