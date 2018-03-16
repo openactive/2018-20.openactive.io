@@ -1,11 +1,12 @@
 ---
 title: Booking System Guidance
-permalink: "/booking-system-guidance/"
 date: 2018-03-16 16:12:00 Z
+permalink: "/booking-system-guidance/"
 is_main_navigation: false
 layout: page-hero
 thumbnail_image: "/uploads/dancin.png"
-strapline: You need to amend your terms and conditions to indicate that your users' sessions will be published openly. 
+strapline: You need to amend your terms and conditions to indicate that your users'
+  sessions will be published openly.
 ---
 
 {::options parse_block_html="true" /}
