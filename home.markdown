@@ -51,14 +51,16 @@ We are supporting innovation to help people get active.
 </article>
 
 
-
-
+<!--  ---------------->
+<!-- BOOKING SYSTEMS -->
+<!--  ---------------->
+{% include booking-systems.html %}
 
 
 <!--  ---------------->
 <!-- WHAT WE DO -->
 <!--  ---------------->
-<article class="invert title-row what-we-do">
+<article class="title-row what-we-do">
 <h2 class="sub-heading-two">What we do</h2>
 <div class="two twoleft">
 
@@ -101,8 +103,6 @@ From leisure operators to National Governing Bodies, local sports clubs to event
 Open data is data that anyone can access, use or share. Simple as that. When big companies or governments release non-personal data, it enables small businesses, citizens and medical researchers to develop resources which make crucial improvements to their communities.</p>
 </div>
 <div class="one">
-
-![what_open_data.png]({{ site.baseurl }}/uploads/what_open_data.png)
 
 </div>
 </article>
