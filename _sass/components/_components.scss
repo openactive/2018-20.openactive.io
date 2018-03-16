@@ -2037,14 +2037,20 @@ nav {
         .two {
           &:nth-child(1) {
             justify-content: center;
-            display: inline-flex;
+            vertical-align:top;
             align-items: center;
+            grid-column: col / span 2;
           }
           &:nth-child(2) {
             a.link {
               float: right;
             }
           }
+        }
+        .tworight {
+
+          grid-column: col 3 / span 10;
+
         }
       }
     }
