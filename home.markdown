@@ -119,7 +119,9 @@ Building the data revolution in the sport and physical sector is a collaborative
 </div>
 </article>
 <article>
+<div class="one">
 ### Some of our members
+</div>
 <div class="one freegrid-six">
 {% assign posts = site.members | sample:18 %}
 {% for post in posts %}
