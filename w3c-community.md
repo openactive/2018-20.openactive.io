@@ -25,6 +25,8 @@ This discussion takes place in our [W3C Community Group](https://www.w3.org/comm
 
 > A W3C Community Group is an open forum, without fees, where Web developers and other stakeholders develop specifications, hold discussions, develop test suites, and connect with W3C’s international community of Web experts.
 
+[ Visit the W3C Community Group](https://www.w3.org/community/openactive/){:target="_blank"}{: .button-primary}
+
 You can read more about the role of community groups on the [W3C website](https://www.w3.org/community/about/faq/#what-is-a-w3c-community-group)
 
 
