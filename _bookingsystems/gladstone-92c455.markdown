@@ -1,6 +1,8 @@
 ---
 title: Gladstone
 date: 2018-03-16 07:54:00 Z
+is_featured: true
+is_enabled: true
 thumbnail_image: "/uploads/gladstone.png"
 website: http://www.gladstonesoftware.co.uk/
 ---
