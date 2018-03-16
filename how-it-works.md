@@ -40,8 +40,6 @@ This means the activity provider reaches a much larger number of people.
 
 [Get started]({{ site.baseurl }}{% link getting-started.md %}){:.button-primary}
 
-[I don't have a booking system]({{ site.baseurl }}{% link getting-started.md %}){:.button-primary}
-
 </div>
 <div class="inner">
 
