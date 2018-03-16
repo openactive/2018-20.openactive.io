@@ -81,10 +81,10 @@ From leisure operators to National Governing Bodies, local sports clubs to event
 * When is a court available?
 * Where is the class?
 
-##### **But not personal data like:**
-* Name / Address
-* Age / Sex
-* Weight / Height
+##### **But not data like:**
+* Participation and attendance data
+* Commercially sensitive data
+* Customer data
 
 </div>
 <i class="line-graphic">{% include line-graphic-side.svg %}</i>
