@@ -3,7 +3,6 @@ title: HSBC UK Ride Social
 date: 2018-03-17 13:49:00 Z
 is_enabled: true
 thumbnail_image: "/uploads/british-cycling-ride-social.png"
-member: British Cycling
 website: https://www.letsride.co.uk/ride-social-get-started
 ---
 
