@@ -71,13 +71,13 @@ layout: default
 {% for item in subpage %}
 
 <div class="one">
-### OpenActive Community
-If you're using this booking system and have opened your data, we welcome you to join the OpenActive community.
-[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
+    <h3>OpenActive Community</h3>
+    <p>If you're using this booking system and have opened your data, we welcome you to join the OpenActive community.</p>
+    <a href="{{ site.baseurl }}{{ item.permalink }}" class="button-primary">Find out more</a>
 </div>
 <figure>
-<div class="mask"></div>
-<div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
+    <div class="mask"></div>
+    <div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
 </figure>
 
 {% endfor %}
