@@ -6,4 +6,6 @@ member: Bookwhen
 website: https://bookwhen.com
 ---
 
+Bookwhen is an online booking system with the flexibility to meet your needs. It is especially suitable for small to medium size activity providers.
+
 To enable publishing for your events, simply log into Bookwhen, then visit this setting page. Simply tick the box and press “Publish data”. All your sessions will be automatically published as you create and update them.
