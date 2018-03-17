@@ -68,19 +68,16 @@ layout: default
 <h2 class="sub-heading-two">Join our community</h2>
 <div class="one">
 
-{% assign subpage = site.pages | where: 'title', 'Community' %}
-{% for item in subpage %}
-### {{ item.title}}
+### OpenActive Community
 If you're using this booking system and have opened your data, we welcome you to join the OpenActive community.
 
-[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
-
+[Find out more]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
+    
 </div>
 <figure>
 <div class="mask"></div>
 <div class="image" style="background: url({{ site.baseurl }}{{ item.thumbnail_image }})center center / cover no-repeat;"></div>
 </figure>
-{% endfor %}
 
 </article>
 
