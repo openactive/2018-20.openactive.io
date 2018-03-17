@@ -24,7 +24,7 @@ We are building a future where activity providers' opportunities are no longer s
 <div class="two">
 <figure role="group" aria-labelledby="open-active-video">
 <div class="mask"></div>
-<iframe id="video" title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/QIeIzX_HkSY?&modestbranding=1&showinfo=0&rel=0&enablejsapi=1" allowfullscreen></iframe>
+<iframe id="video" title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/OJqCAn0sv44?showinfo=0&rel=0&enablejsapi=1" allowfullscreen></iframe>
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
 
