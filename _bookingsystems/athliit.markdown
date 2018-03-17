@@ -8,4 +8,4 @@ website: https://athliit.com/en/
 
 The Athliit platform provides you with all the tools needed for sports management. It includes an intuitive management system, an integrated ticketing system, a scheduling tool, court booking and more.
 
-If you create an event within Athliit, you don’t need to do anything at all. All Athliit Events are automatically published as open data.
+When you create an event within Athliit, you don’t need to do anything at all. All Athliit Events are automatically published as open data.
