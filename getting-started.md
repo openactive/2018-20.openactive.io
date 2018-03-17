@@ -49,7 +49,7 @@ aria-labelledby="activity-provider">
 
 
 ##### A. I don't have a system where I keep my data online
-You may already use a booking system or listing system to list your activities online. If you don’t have one, it’s quick and easy to get one.
+You may already use a booking system or club management system to list your activities online. If you don’t have one, it’s quick and easy to get one.
 
 [View OpenActive-enabled systems]( {{ site.baseurl }}{% link bookingsystems.md %}){:class="button-primary " }
 
