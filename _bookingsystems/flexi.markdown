@@ -6,3 +6,5 @@ member: Flexi Digital
 ---
 
 When you add a session to Flexi, simply ensure that the session is listed with a visibility of “Public” to publish it as open data.
+
+![flexi-oa-screenshot.png](/uploads/flexi-oa-screenshot.png)
