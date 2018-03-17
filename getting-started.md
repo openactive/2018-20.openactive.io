@@ -67,8 +67,7 @@ You may already use a booking system or club management system to list your acti
 <div class="step-text">
 
 ##### B. I do have system where I list my activities
-Find out if your booking system is [OpenActive-enabled]
-If your booking system isn't listed then you may need to ask them to create an OpenActive feed, or you may need to build your own.
+Find out if your booking system is OpenActive-enabled by searching for it below. If your booking system isn't listed then you may need to ask them to create an OpenActive feed.
 
 <div class="slim-booking">
 {% include booking-systems-slim.html %}
