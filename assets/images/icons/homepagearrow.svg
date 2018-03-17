@@ -4,7 +4,7 @@
 	 viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:none;stroke:url(#SVGID_1_);stroke-width:9.2736;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:url(#SVGID_1_);}
 	.st2{fill:none;stroke:url(#SVGID_2_);stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
 <g id="white">
@@ -17,26 +17,24 @@
 	</g>
 </g>
 <g id="orange">
-	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="528.9705" y1="523.0513" x2="549.7931" y2="502.2287" gradientTransform="matrix(0 1 -1 0 591.4514 -404.8819)">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="160.417" y1="142.8127" x2="210.0288" y2="192.4245">
 		<stop  offset="0" style="stop-color:#FEEC31"/>
 		<stop  offset="0.3707" style="stop-color:#F08F33"/>
 		<stop  offset="1" style="stop-color:#E2322E"/>
 	</linearGradient>
-	<polyline class="st1" points="55,144 69.3,158.3 102.6,125 	"/>
+	<path class="st1" d="M214.5,162.3l-52.2-19.8c-1.5-0.6-2.9,0.8-2.3,2.3l19.9,52.2c0.6,1.7,3,1.6,3.5-0.1l4.8-17.9l13.4,13.4
+		c1.2,1.2,2.7,1.7,4.2,1.7c1.5,0,3-0.6,4.2-1.7c2.3-2.3,2.3-6.1,0-8.4l-13.5-13.5l17.9-4.8C216.2,165.3,216.2,162.9,214.5,162.3z"/>
 </g>
 <g id="Blue">
 	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="24.7069" y1="29.4153" x2="224.551" y2="229.2594">
-		<stop  offset="0" style="stop-color:#16ADE4"/>
-		<stop  offset="0.1517" style="stop-color:#0192D1"/>
-		<stop  offset="0.2845" style="stop-color:#057FC2"/>
-		<stop  offset="0.3579" style="stop-color:#0A78BC"/>
-		<stop  offset="0.7261" style="stop-color:#343579"/>
-		<stop  offset="0.9658" style="stop-color:#262551"/>
+		<stop  offset="0" style="stop-color:#00AEE7"/>
+		<stop  offset="0.1635" style="stop-color:#0090D1"/>
+		<stop  offset="0.2887" style="stop-color:#007EC2"/>
+		<stop  offset="0.3579" style="stop-color:#0077BD"/>
+		<stop  offset="0.7261" style="stop-color:#363579"/>
+		<stop  offset="0.9658" style="stop-color:#1C1B55"/>
 	</linearGradient>
 	<path class="st2" d="M231.6,214.2h-214c-3.1,0-5.7-2.6-5.7-5.7V50.2c0-3.1,2.6-5.7,5.7-5.7h214c3.1,0,5.7,2.6,5.7,5.7v158.3
-		C237.3,211.6,234.8,214.2,231.6,214.2z M12,70.8h225.3 M136.9,148.9h69.7 M136.9,168.3h69.7 M114,171.2V108c0-1.1-0.9-2-2-2H45.6
-		c-1.1,0-2,0.9-2,2v63.2c0,1.1,0.9,2,2,2H112C113.1,173.2,114,172.3,114,171.2z M209.3,127.8v-16.5c0-0.6-0.5-1.1-1.1-1.1h-72.6
-		c-0.6,0-1.1,0.5-1.1,1.1v16.5c0,0.6,0.5,1.1,1.1,1.1h72.6C208.8,128.9,209.3,128.4,209.3,127.8z"/>
+		C237.3,211.6,234.8,214.2,231.6,214.2z M12,70.8h225.3"/>
 </g>
 </svg>

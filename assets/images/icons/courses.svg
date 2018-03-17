@@ -1,1 +1,40 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 113.39 113.39"><defs><style>.cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{fill:none;stroke-linecap:round;stroke-miterlimit:10;}.cls-1,.cls-2,.cls-3{stroke-width:4.19px;}.cls-1{stroke:url(#linear-gradient);}.cls-2{stroke:url(#linear-gradient-2);}.cls-3{stroke:url(#linear-gradient-3);}.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{stroke-width:4.19px;}.cls-4{stroke:url(#linear-gradient-4);}.cls-5{stroke:url(#linear-gradient-5);}.cls-6{stroke:url(#linear-gradient-6);}.cls-7{stroke:url(#linear-gradient-7);}.cls-8{stroke:url(#linear-gradient-8);}.cls-9{stroke:url(#linear-gradient-9);}</style><linearGradient id="linear-gradient" x1="56.69" y1="27.64" x2="56.69" y2="91.2" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1d9ad7"/><stop offset="0.03" stop-color="#1b92d1"/><stop offset="0.14" stop-color="#1572b8"/><stop offset="0.2" stop-color="#1366af"/><stop offset="0.49" stop-color="#423f92"/><stop offset="0.74" stop-color="#404294"/></linearGradient><linearGradient id="linear-gradient-2" x1="56.69" y1="25.71" x2="56.69" y2="88.98" xlink:href="#linear-gradient"/><linearGradient id="linear-gradient-3" x1="56.69" y1="22.18" x2="56.69" y2="88.8" xlink:href="#linear-gradient"/><linearGradient id="linear-gradient-4" x1="38.17" y1="36.59" x2="38.17" y2="40.79" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f7a834"/><stop offset="1" stop-color="#ee7133"/></linearGradient><linearGradient id="linear-gradient-5" x1="38.17" y1="51.09" x2="38.17" y2="55.28" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ee7033"/><stop offset="0.26" stop-color="#ed6833"/><stop offset="0.67" stop-color="#ea5131"/><stop offset="1" stop-color="#e73a30"/></linearGradient><linearGradient id="linear-gradient-6" x1="38.17" y1="65.59" x2="38.17" y2="69.78" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ea5230"/><stop offset="1" stop-color="#e73a30"/></linearGradient><linearGradient id="linear-gradient-7" x1="75.65" y1="36.59" x2="75.65" y2="40.79" xlink:href="#linear-gradient-4"/><linearGradient id="linear-gradient-8" x1="75.65" y1="51.09" x2="75.65" y2="55.28" xlink:href="#linear-gradient-5"/><linearGradient id="linear-gradient-9" x1="75.65" y1="65.59" x2="75.65" y2="69.78" xlink:href="#linear-gradient-6"/></defs><title>courses</title><path class="cls-1" d="M94.77,29.74h1.7a3.59,3.59,0,0,1,3.59,3.59V85.51a3.59,3.59,0,0,1-3.59,3.59H16.91a3.59,3.59,0,0,1-3.59-3.59V33.33a3.59,3.59,0,0,1,3.59-3.59"/><line class="cls-2" x1="56.69" y1="27.81" x2="56.69" y2="86.88"/><path class="cls-3" d="M92,83.65c-26.66,0-32.09-1.41-35.12,2.95a.27.27,0,0,1-.42,0c-4.4-4.38-9.8-3-35-3a2.21,2.21,0,0,1-2.21-2.21v-55a2.21,2.21,0,0,1,2.21-2.21c28.93,0,32.94.33,35.29,3.53C59.07,24,65.32,24.29,92,24.29a2.21,2.21,0,0,1,2.21,2.21V81.44A2.21,2.21,0,0,1,92,83.65Z"/><line class="cls-4" x1="27" y1="38.69" x2="49.33" y2="38.69"/><line class="cls-5" x1="27" y1="53.19" x2="49.33" y2="53.19"/><line class="cls-6" x1="27" y1="67.68" x2="49.33" y2="67.68"/><line class="cls-7" x1="64.48" y1="38.69" x2="86.81" y2="38.69"/><line class="cls-8" x1="64.48" y1="53.19" x2="86.81" y2="53.19"/><line class="cls-9" x1="64.48" y1="67.68" x2="86.81" y2="67.68"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:16;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:url(#SVGID_1_);stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:url(#SVGID_2_);stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="White">
+	<path class="st0" d="M226.5,51.1V40.8c0-2.2-1.8-4-4-4c-68.1,0-88.5,0.7-97.4,7.7c-8.9-7-29.3-7.7-97.4-7.7c-2.2,0-4,1.8-4,4v10.3
+		c-8.9,0.4-15.2,6.5-15.2,14.7v133.9c0,7.3,6,13.3,13.3,13.3H125h0.2h103.2c7.3,0,13.3-6,13.3-13.3V65.9
+		C241.8,57.6,235.4,51.6,226.5,51.1z M16.5,199.8V65.9c0-4.6,3.6-6.5,7.2-6.7v135.8c0,1.1,0.4,2.1,1.2,2.9c0.8,0.8,1.8,1.2,2.9,1.1
+		c0.2,0,24.5-0.5,38.5-0.5c12.8-0.1,46.5-0.3,54.7,6.7H21.8C18.9,205.1,16.5,202.7,16.5,199.8z M233.8,199.8c0,2.9-2.4,5.3-5.3,5.3
+		h-99.3c8.2-7,41.9-6.8,54.7-6.7c14.1,0.1,38.3,0.5,38.5,0.5c1.1,0,2.1-0.4,2.9-1.1c0.8-0.8,1.2-1.8,1.2-2.9V59.1
+		c3.7,0.3,7.2,2.2,7.2,6.7V199.8z"/>
+</g>
+<g id="Orange">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="64.9274" y1="55.7062" x2="185.3226" y2="176.1014">
+		<stop  offset="0" style="stop-color:#FFEE25"/>
+		<stop  offset="0.3707" style="stop-color:#F08F34"/>
+		<stop  offset="1" style="stop-color:#E2312D"/>
+	</linearGradient>
+	<path class="st1" d="M48,78.3h57.9 M48,115.9h57.9 M48,153.5h57.9 M202.3,78.3h-57.9 M202.3,115.9h-57.9 M202.3,153.5h-57.9"/>
+</g>
+<g id="Blue_1_">
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="29.0996" y1="33.8238" x2="221.1504" y2="225.8746">
+		<stop  offset="0" style="stop-color:#00ADE6"/>
+		<stop  offset="5.543736e-02" style="stop-color:#00A3DE"/>
+		<stop  offset="0.25" style="stop-color:#0083C5"/>
+		<stop  offset="0.3579" style="stop-color:#0077BC"/>
+		<stop  offset="0.7261" style="stop-color:#353579"/>
+		<stop  offset="0.9658" style="stop-color:#1D1A55"/>
+	</linearGradient>
+	<path class="st2" d="M125.2,209.1H21.8c-5.1,0-9.3-4.2-9.3-9.3V65.9c0-6.8,5.4-10.8,12.2-10.8 M125,203.3V50.1
+		c-6.1-8.3-22.2-9.3-97.3-9.3v154.1c0,0,24.3-0.5,38.6-0.5c26.1-0.2,50.6,0.9,58,8.3 M125,209.1h103.4c5.1,0,9.3-4.2,9.3-9.3V65.9
+		c0-6.8-5.4-10.8-12.2-10.8 M125.9,202.6c7.4-7.3,31.9-8.4,58-8.3c14.3,0.1,38.6,0.5,38.6,0.5V40.8c-75.1,0-91.2,1-97.3,9.3v153.2"
+		/>
+</g>
+</svg>
