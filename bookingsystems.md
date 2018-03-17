@@ -8,3 +8,5 @@ layout: bookingsystems
 ---
 
 This page lists the booking systems that are OpenActive-enabled.
+
+We recommend you choose the system that is the most useful for your business or club, so that it does more for you than just opening data.
