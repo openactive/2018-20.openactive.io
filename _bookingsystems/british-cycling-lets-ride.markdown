@@ -2,7 +2,7 @@
 title: British Cycling Let's Ride
 date: 2018-03-17 13:49:00 Z
 is_enabled: true
-thumbnail_image: "/uploads/british-cycling-ride-social.png"
+thumbnail_image: "/uploads/british-cycling-logo.png"
 website: https://www.letsride.co.uk/ride-social-get-started
 ---
 
