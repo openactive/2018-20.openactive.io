@@ -8,4 +8,4 @@ website: http://www.gladstonesoftware.co.uk/
 
 Flexible Leisure Management software for enterprise, single clubs and education, Gladstone 360 is the next generation platform for todays leisure operators.
 
-Gladstone has an arrangement with the Open Data Institute to allow its customers to make data open. If you're a Gladstone customer, simply contact your account manager and ask them to enable open data.
+Gladstone has an arrangement with the Open Data Institute to allow its customers to make data open. If you're a Gladstone customer using the Connect product, simply contact apiservices@gladstonesoftware.co.uk and with a request to "Enable OpenActive for my Gladstone installation".
