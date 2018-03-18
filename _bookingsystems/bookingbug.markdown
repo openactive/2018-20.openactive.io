@@ -8,4 +8,4 @@ website: https://www.bookingbug.co.uk/
 
 BookingBug helps organisations simplify scheduling, while maximising staff and resource utilisation.
 
-To turn on OpenActive publishing simply send an e-mail to [support@bookingbug.com](mailto:support@bookingbug.com) asking for it to be switched on.
+To turn on OpenActive publishing simply send an e-mail to [support@bookingbug.com](mailto:support@bookingbug.com) with a request to enable OpenActive open data publishing.
