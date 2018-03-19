@@ -7,7 +7,7 @@ article {
     // weird, this was commented out before.. 
     padding-top: 2rem;
     .two {
-      h1,h2,h3{
+      h1, h2, h3 {
         font-size: $header-size / 1.5;
         & + p {
           margin-top: 0;
@@ -39,25 +39,28 @@ article {
       }
       figure {
         position: relative;
-        .mask{
-                  position: absolute;
-                  left: -28%;
-                  top: 0px;
-                  width: 100%;
-                  height: 103%;
-                  z-index: 20;
-                  pointer-events: none;
-                  overflow: hidden;
-                  background: url('images/overlay.svg');
-                  background-size: 300px;
-                  background-repeat: no-repeat;
-                  @media only screen and (max-width: 900px) {
-                    transform: rotate(180deg);
-                    right: -1px;
-                    position: absolute;
-                    left: unset;
-                  }
-                }
+        .mask {
+          position: absolute;
+          left: -28%;
+          top: 0px;
+          width: 100%;
+          height: 103%;
+          z-index: 20;
+          pointer-events: none;
+          overflow: hidden;
+          background: url('images/overlay.svg');
+          background-size: 300px;
+          background-repeat: no-repeat;
+          @media only screen and (max-width: 900px) {
+            transform: rotate(180deg);
+            right: -1px;
+            position: absolute;
+            left: unset;
+          }
+          @media only screen and (max-width: 700px) {
+            display: none;
+          }
+        }
       }
     }
 
@@ -133,6 +136,13 @@ article {
         grid-row-start: 2;
         grid-row-end: 2;
 
+      }
+    }
+    @media only screen and (max-width: 700px) {
+      figure {
+        .mask {
+          display: none;
+        }
       }
     }
 
@@ -449,10 +459,9 @@ article {
 /*********************************/
 // PEOPLE STYLES
 
-
 .champDetail {
   img {
-     width: 70% !important;
+    width: 70% !important;
   }
 }
 
@@ -902,9 +911,6 @@ article {
               padding: 0;
             }
           }
-          @media only screen and (max-width: 1000px) {
-            display: none;
-          }
           .icon_wrap_accordian {
             position: absolute;
             right: 0;
@@ -934,7 +940,6 @@ article {
         }
         .tabPanel {
           display: none;
-          //opacity: 0;
           pointer-events: none;
           transition-property: opacity;
           transition-duration: 0.3s;
@@ -982,15 +987,9 @@ article {
               @media only screen and (max-width: 1400px) {
                 width: 100%;
               }
-              //img {
-              //  max-width: 50%;
-              //  min-width: 200px;
-              //  padding: 0;
-              //  margin: 0 auto 0 0;
-              //}
             }
             @media only screen and (max-width: 750px) {
-              flex-direction: column;
+              //flex-direction: column;
               .step-text {
                 order: 0;
               }
@@ -1000,6 +999,11 @@ article {
                   display: block;
                   margin: 1rem auto 0 auto;
                 }
+              }
+            }
+            @media only screen and (max-width: 600px) {
+              & > p {
+                display: none;
               }
             }
             &:nth-last-child(1) {
@@ -1035,7 +1039,7 @@ article {
           }
         }
         @media only screen and (max-width: 1000px) {
-          width: 100%;
+          width: 100%!important;
           .tablink {
             transform: skew(0deg);
             width: 100%;
@@ -1062,6 +1066,9 @@ article {
       svg {
         right: 0;
       }
+      @media only screen and (max-width: 1000px) {
+        display: none;
+      }
     }
     &.invert {
       padding: 4rem 0;
@@ -1083,7 +1090,7 @@ article {
             *:not(a) {
               color: $white;
             }
-            &>div{
+            & > div {
               width: 100%;
             }
             h4 {
@@ -1490,7 +1497,7 @@ article {
         grid-column-end: 14;
         grid-row: 2;
       }
-      h2,h3 {
+      h2, h3 {
         margin-top: 0;
       }
     }
@@ -1590,7 +1597,7 @@ article {
       @extend .purple-gradient-bc !optional;
       .button-primary {
         background-color: $brand-five;
-         border: 1px solid $white;
+        border: 1px solid $white;
         &:hover {
           background-color: $brand-six;
         }
@@ -1600,7 +1607,7 @@ article {
       @extend .red-gradient-bc !optional;
       .button-primary {
         background-color: $startUpThree;
-         border: 1px solid $white;
+        border: 1px solid $white;
         &:hover {
           background-color: $startUpFive;
         }
@@ -1845,14 +1852,14 @@ nav {
       align-items: flex-start;
 
       a {
-        text-decoration:none;
-    
-          h4 {
-            margin-bottom: 0;
-            padding-left: 2rem;
-          }
+        text-decoration: none;
 
+        h4 {
+          margin-bottom: 0;
+          padding-left: 2rem;
         }
+
+      }
       img {
         margin: 0 auto;
       }
@@ -1895,18 +1902,18 @@ nav {
   grid-row: 1;
 
   .exposedData {
-    width:75%;
-        p {
-        display: inline;
+    width: 75%;
+    p {
+      display: inline;
 
-        img {
-            width: 20px;
-            margin: 5px;
-            display: inline;
-        }
+      img {
+        width: 20px;
+        margin: 5px;
+        display: inline;
+      }
 
     }
-    
+
   }
 
   h6 {
@@ -2038,7 +2045,7 @@ nav {
         .two {
           &:nth-child(1) {
             justify-content: center;
-            vertical-align:top;
+            vertical-align: top;
             align-items: center;
             grid-column: col / span 2;
           }
@@ -2053,6 +2060,16 @@ nav {
           grid-column: col 3 / span 10;
 
         }
+      }
+    }
+  }
+  &.not-enabled{
+    .one{
+      figure{
+        background-color: $white;
+        display: inline-flex;
+        align-items: center;
+        img{ }
       }
     }
   }
@@ -2073,7 +2090,7 @@ nav {
     align-self: auto;
     height: 20px;
     width: 20px;
-    margin-right:10px;
+    margin-right: 10px;
     .svg.twitter, .svg.facebook, .svg.instagram, .svg.google {
       fill: $brand-one;
     }
@@ -2081,7 +2098,7 @@ nav {
 }
 
 .meta {
-  font-size:0.75rem;
+  font-size: 0.75rem;
   margin-top: 0.6rem !important;
 }
 
@@ -2632,6 +2649,9 @@ article {
       display: grid;
       grid-gap: 1rem;
       grid-template-columns: repeat(6, 1fr);
+      @media only screen and (max-width: 750px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
       div {
         text-align: center;
         p {
@@ -2650,11 +2670,15 @@ article {
       @media only screen and (max-width: 1000px) {
         grid-template-columns: repeat(6, 1fr);
       }
+      @media only screen and (max-width: 750px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
       div {
         text-align: center;
         img {
           // background-color: #d3e9f147;
           // border-radius: 50%;
+          max-width: 75px;
         }
       }
     }
@@ -2665,13 +2689,21 @@ article {
       display: grid;
       grid-gap: 1rem;
       grid-template-columns: repeat(9, 1fr);
+      @media only screen and (max-width: 1000px) {
+        grid-template-columns: repeat(6, 1fr);
+      }
+      @media only screen and (max-width: 750px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
       div {
         text-align: center;
         img {
           // background-color: #d3e9f147;
           // border-radius: 50%;
+          max-width: 75px;
         }
       }
+
     }
   }
   h6 {
@@ -2690,9 +2722,9 @@ article {
   }
 }
 
-.dashboard{
-  .two{
-    img{
+.dashboard {
+  .two {
+    img {
       max-width: 200px;
     }
   }

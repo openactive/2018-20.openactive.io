@@ -365,14 +365,15 @@ a.button-secondary {
   align-items: center;
   vertical-align: top;
   padding: 7px 10px;
-
-  background-color: $brand-three;
+  margin-bottom: 1rem;
+  background-color: $brand-five;
   color: $white;
-
   line-height: 1;
+  font-weight: 600;
+
   font-family: $font-family;
   font-size: $base-font-size / 1.5;
-  font-weight: 400;
+
   text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
@@ -386,11 +387,11 @@ a.button-secondary {
   transition-timing-function: ease-in-out;
 
   &:hover {
-    background-color: rgba($brand-three, 0.5);
+    background-color: rgba($brand-six, 0.5);
     color: $white;
   }
   &:active {
-    background-color: $brand-three;
+    background-color: rgba($brand-six, 0.5);
     color: $white;
   }
   &.disabled {

@@ -48,10 +48,10 @@ aria-labelledby="activity-provider">
 <div class="step-text">
 
 
-##### A. I don't have a system where I keep my data online
+##### Option A. I don't have a system where I keep my data online
 You may already use a booking system or club management system to list your activities online. If you don’t have one, it’s quick and easy to get one.
 
-[View OpenActive-enabled systems]( {{ site.baseurl }}{% link bookingsystems.md %}){:class="button-primary " }
+[View OpenActive-enabled systems]( {{ site.baseurl }}{% link bookingsystems.md %}){:class="button-secondary" }
 
 
 
@@ -66,7 +66,7 @@ You may already use a booking system or club management system to list your acti
 
 <div class="step-text">
 
-##### B. I do have system where I list my activities
+##### Option B. I do have system where I list my activities
 Find out if your booking system is OpenActive-enabled by searching for it below. If your booking system isn't listed then you may need to ask them to create an OpenActive feed.
 
 <div class="slim-booking">
@@ -85,10 +85,12 @@ Find out if your booking system is OpenActive-enabled by searching for it below.
 
 <div class="step-text">
 
-##### C. I have a custom-built booking or listing system
+##### Option C. I have a custom-built booking or listing system
 Your need to ask your developers to need to create an OpenActive feed. This should take around 3 days development time.
 
-[Booking System Guidance]( {{ site.baseurl }}{% link booking-system-guidance.markdown %}){:class="button-primary" }
+[Booking System Guidance]( {{ site.baseurl }}{% link booking-system-guidance.markdown %}){:class=" button-secondary" }
+
+
 
 
 </div>
@@ -129,8 +131,8 @@ aria-labelledby="booking-systems">
 ##### 1. Create Simple API
 You build a simple open API to allow customers to publish their activity listings information openly using the OpenActive data standards as a " *dataset* "
 
-[See Instructions]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
-[See Existing implementations](http://status.openactive.io/){:target="_blank"}{:class="button-primary" }
+[See Instructions]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary" }
+[See Existing implementations](http://status.openactive.io/){:target="_blank"}{:class="button-secondary" }
 
 
 </div>
@@ -148,7 +150,7 @@ You build a simple open API to allow customers to publish their activity listing
 ##### 2. Amend your terms and build an opt-out
 If you don't own the data, either include some text in your T&Cs or add a tick-box in your system to allow your customers to turn open data publishing on and off.
 
-[See Guidance]( {{ site.baseurl }}{% link community/toolkit.markdown %}){:class="button-primary" }
+[See Guidance]( {{ site.baseurl }}{% link community/toolkit.markdown %}){:class="button-secondary" }
 
 
 </div>
@@ -165,8 +167,8 @@ If you don't own the data, either include some text in your T&Cs or add a tick-b
 ##### 3. Make a dataset page so people can find your customers' data
 Create a "dataset" page on your website, making your data available for anyone to access, use or share. This page is automatically indexed by Google and included in the OpenActive dataset directory.
 
-[See Existing implimentations](http://status.openactive.io/){:target="_blank"}{:class="button-primary" }
-[Instructions to create a dataset site](https://github.com/openactive/dataset-site-generator/wiki){:target="_blank"}{:class="button-primary" }
+[See Existing implimentations](http://status.openactive.io/){:target="_blank"}{:class="button-secondary" }
+[Instructions to create a dataset site](https://github.com/openactive/dataset-site-generator/wiki){:target="_blank"}{:class="button-secondary" }
 
 
 </div>
@@ -185,8 +187,8 @@ From websites and apps that attract millions of users, through to communities an
 Data users may from time to time provide feedback or suggestions on how you can improve the data you allow your customers to publish.
 We'll publicise your data to make sure that as many people use it as possible.
 
-[See Examples]({{ site.baseurl }}{% link our-vision.md %}/#what-kind-of-services-can-be-built-with-open-opportunity-data){: .button-primary}
-[Go to Developer area]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
+[See Examples]({{ site.baseurl }}{% link our-vision.md %}/#what-kind-of-services-can-be-built-with-open-opportunity-data){: .button-secondary}
+[Go to Developer area]( {{ site.baseurl }}{% link developer.md %}){: .button-secondary}
 
 
 </div>
@@ -201,6 +203,7 @@ We'll publicise your data to make sure that as many people use it as possible.
 <!--  ---------------->
 <h3 class="tablink" role="tab presentation" aria-selected="false">
 <a href="#use-data">Use Data</a>
+
 <i class="icon_wrap_accordian">
 <i class="icon"></i>
 </i>
@@ -226,9 +229,9 @@ aria-labelledby="use-data">
 ##### 1. Understand what open data is available and how you can help
 Browse our status dashboard and map to understand the kinds of data available, and read our advocacy guidance to find out how to create more open data.
 
-[Status Dashboard](http://status.openactive.io/){:target="_blank"}{:class="button-primary" }
-[Open data Map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed){:target="_blank"}{:class="button-primary" }
-[Advocacy Guidance]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
+[Status Dashboard](http://status.openactive.io/){:target="_blank"}{:class="button-secondary" }
+[Open data Map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed){:target="_blank"}{:class="button-secondary" }
+[Advocacy Guidance]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary" }
 
 
 
@@ -249,7 +252,7 @@ From websites and apps that attract millions of users, through to communities an
 
 If you already have a website that engages an audience or an app or a tool, it might make sense to include the data there. It might also make sense for you to build a whole new app, website or service, depending on whether you're a long-term business or a short-term campaign.
 
-[See Examples]({{ site.baseurl }}{% link our-vision.md %}/#what-kind-of-services-can-be-built-with-open-opportunity-data){: .button-primary}
+[See Examples]({{ site.baseurl }}{% link our-vision.md %}/#what-kind-of-services-can-be-built-with-open-opportunity-data){: .button-secondary}
 
 
 
@@ -271,8 +274,8 @@ There are many white-label widgets available from organisations who make it easy
 There are also aggregators that provide one API to access all the data, and of course you can collect and display the data directly yourself.
 
 <!-- [See procurement Guide]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" } -->
-[Visit active//choice](https://www.activechoice.org/){:target="_blank"}{:class="button-primary" }
-[Developer Area]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" }
+[Visit active//choice](https://www.activechoice.org/){:target="_blank"}{:class="button-secondary" }
+[Developer Area]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary" }
 
 
 </div>
@@ -292,9 +295,9 @@ Provide feedback on the data via GitHub or reach out directly to the activity pr
 Join the OpenActive community and help use your local or commercial influence to get more data
 
 <!-- [Feedback guidance]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" } -->
-[Join the community]( {{ site.baseurl }}{% link community.md %}){:class="button-primary" }
-[Visit Active//choice](https://www.activechoice.org/){:target="_blank"}{: .button-primary}
-[Go to developer area]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
+[Join the community]( {{ site.baseurl }}{% link community.md %}){:class="button-secondary" }
+[Visit Active//choice](https://www.activechoice.org/){:target="_blank"}{: .button-secondary}
+[Go to developer area]( {{ site.baseurl }}{% link developer.md %}){: .button-secondary}
 
 </div>
 </div>

@@ -40,7 +40,7 @@ html.cssgrid {
           font-size: 2.3rem;
           line-height: 1.2;
         }
-        a{
+        a {
           margin-top: 0.5rem;
         }
         @media only screen and (max-width: 900px) {
@@ -67,33 +67,33 @@ html.cssgrid {
       }
 
       #play-button {
-          // position: absolute;
-          // z-index: 2;
-          // left: 35%;
-          // top: 39%;
-          display: inline-flex;
-          align-items: center;
-          vertical-align: top;
-          padding: 10px 30px;
-          margin: 8px 0 0 0;
-          background-color: $brand-seven;
-          color: $white;
-          line-height: 1;
-          font-weight: 600;
-          font-family: $font-family;
-          font-size: $base-font-size / 1.2;
-          text-transform: uppercase;
-          cursor: pointer;
-          text-decoration: none;
-          letter-spacing: 1px;
-          border-radius: 5px;
-          border: 1px solid transparent;
-          transition-property: background-color;
-          transition-duration: 0.2s;
-          transition-timing-function: ease-in-out;
-           @media only screen and (max-width: 900px) {
-            display:none;
-           }
+        // position: absolute;
+        // z-index: 2;
+        // left: 35%;
+        // top: 39%;
+        display: inline-flex;
+        align-items: center;
+        vertical-align: top;
+        padding: 10px 30px;
+        margin: 8px 0 0 0;
+        background-color: $brand-seven;
+        color: $white;
+        line-height: 1;
+        font-weight: 600;
+        font-family: $font-family;
+        font-size: $base-font-size / 1.2;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-decoration: none;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        border: 1px solid transparent;
+        transition-property: background-color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+        @media only screen and (max-width: 900px) {
+          display: none;
+        }
       }
       figure {
         grid-column-start: 8;
@@ -108,7 +108,7 @@ html.cssgrid {
           grid-column-end: 14;
           grid-row: 2;
         }
-        .mask{
+        .mask {
           position: absolute;
           left: -28%;
           top: 0px;
@@ -125,6 +125,9 @@ html.cssgrid {
             right: -1px;
             position: absolute;
             left: unset;
+          }
+          @media only screen and (max-width: 700px) {
+            display: none;
           }
         }
       }
@@ -144,23 +147,38 @@ html.cssgrid {
     }
     .accelerator {
     }
+    .what-we-do {
 
-        .icons {
+      .icons {
 
         margin: 1rem 0 0 0;
         padding: 0;
         li {
-            list-style: none;
-            font-size:.75rem;
-
-            img {
-                width: 30px;
-                display: inline;
-            }
+          list-style: none;
+          font-size: .75rem;
+          margin-bottom: 0.5rem;
+          img {
+            width: 30px;
+            display: inline;
+          }
         }
-       
-    }
 
+      }
+      .line-graphic{
+        right: 0;
+        position: absolute;
+        height: 100%;
+        width: 130px;
+        display: inline-flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-top: 8rem;
+        z-index: 0;
+        svg{
+          right:0;
+        }
+      }
+    }
   }
 }
 
@@ -180,11 +198,11 @@ html.cssgrid {
       text-align: center;
     }
   }
-  .what-we-do{
-    .two{
-      &:nth-child(2){
+  .what-we-do {
+    .two {
+      &:nth-child(2) {
       }
-      &:nth-child(3){
+      &:nth-child(3) {
         @media only screen and (max-width: 1000px) {
           columns: 2;
         }

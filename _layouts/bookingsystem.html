@@ -13,7 +13,7 @@ layout: default
 {% if page.is_enabled %}
 
 
-<article>
+<article id="booking-engine-enabled">
     <div class="one">
         <div class="subgrid" id="member-{{ forloop.index }}">
             <figure role="group" class="two tworight">
@@ -56,7 +56,10 @@ layout: default
 
             {% endif %}
             {% endfor %}
+
         </div>
+        <a class="button-primary" href="{{ site.baseurl }}{% link bookingsystems.md %}">All Booking Systems</a>
+
     </div>
 </article>
 
@@ -88,7 +91,7 @@ layout: default
 {% else %}
 
 
-<article id="booking-engine" itemscope itemtype="http://schema.org/BlogPosting">
+<article id="booking-engine-not-enabled" itemscope itemtype="http://schema.org/BlogPosting">
 
     <div class="two twoleft">
         <h3>{{ page.title | escape }} does not yet have OpenActive publishing built-in?</h3>
