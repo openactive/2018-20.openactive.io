@@ -51,7 +51,7 @@ Across a wide range of demographics, without any additional effort.
 <!-- ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/eco-4.svg) -->
 
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/Untitled-1.gif)
+![what_open_data.png]({{ site.baseurl }}/assets/images/first.svg)
 
 
 
