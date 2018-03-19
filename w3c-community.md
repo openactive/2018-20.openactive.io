@@ -41,11 +41,17 @@ You can read more about the role of community groups on the [W3C website](https:
 <article class="title-row">
 <h2 class="sub-heading-two">Community Activity</h2>
 <div class="one subgrid">
-<div class="two twoleft">
+<div class="two">
+
+### Previous Meetings
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLVWjdeMZoXg58QRB_GPT3PGFYgp1IU8ja" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-<div class="two twoleft">
-<iframe width="100%" height="100%" src="https://calendar.google.com/calendar/embed?showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&height=600&wkst=1&bgcolor=%23FFFFFF&src=theodi.org_lcp83ia9k0a3e81h50sordnut4%40group.calendar.google.com&color=%23333333&ctz=Europe%2FLondon" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="two">
+
+### Upcoming Meetings
+
+<iframe width="100%" height="90%" src="https://calendar.google.com/calendar/embed?showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&height=600&wkst=1&bgcolor=%23FFFFFF&src=theodi.org_lcp83ia9k0a3e81h50sordnut4%40group.calendar.google.com&color=%23333333&ctz=Europe%2FLondon" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 </div>
 </article>

@@ -23,6 +23,11 @@
             </div>
         </div>
         <ul class="mobile-nav nav-style" role="menubar">
+
+            <li>
+                <a role="menuitem"
+                   href=" {{ site.baseurl }}{% link home.markdown %}" aria-label="Go to Home page">Overview</a>
+            </li>
             {% assign navigation_pages = site.html_pages | sort: 'position' %}
             {% for p in navigation_pages %}
             {% if p.is_main_navigation %}
