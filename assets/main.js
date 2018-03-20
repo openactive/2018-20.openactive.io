@@ -48,32 +48,66 @@ $(document).ready(function () {
         });
 
 
-        //BOOKING SYSTEM FILTER
-        $("#booking-filter").keyup(function () {
-            // Retrieve the input field text and reset the count to zero
-            var filter = $(this).val(), count = 0;
-            // Loop through the comment list
-            $("nav > .booking-tab").each(function () {
-                console.log(count);
-                // If the list item does not contain the text phrase fade it out
-                if ($(this).text().search(new RegExp(filter, "i")) < 0) {
-                    $(this).fadeOut();
+        // //BOOKING SYSTEM FILTER
+        // $("#booking-filter").keyup(function () {
+        //     // Retrieve the input field text and reset the count to zero
+        //     var filter = $(this).val(), count = 0;
+        //     // Loop through the comment list
+        //     $("nav > .booking-tab").each(function () {
+        //         console.log(count);
+        //         // If the list item does not contain the text phrase fade it out
+        //         if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+        //
+        //             // $(this).fadeOut();
+        //             $(this).addClass('hide');
+        //
+        //             // Show the list item if the phrase matches and increase the count by 1
+        //         } else {
+        //
+        //             // $('.booking-tab:lt(8)').show();
+        //             $('.booking-tab:lt(8)').removeClass('hide');
+        //             count++;
+        //         }
+        //
+        //         if (count == 0) {
+        //             $('.notListed').fadeIn();
+        //
+        //         } else {
+        //             $('.notListed').fadeOut();
+        //         }
+        //     });
+        //
+        // });
+        $('.booking-tab.slim').addClass('hide');
+        $('.booking-tab:gt(7)').addClass('hide');
+        $('#booking-filter').keyup(function () {
+            var filter = this.value.toLowerCase();  // no need to call jQuery here
 
-                    // Show the list item if the phrase matches and increase the count by 1
-                } else {
-                    $('.booking-tab:lt(8)').show();
-                    count++;
+            $('nav > .booking-tab').each(function() {
+                /* cache a reference to the current .media (you're using it twice) */
+                var _this = $(this);
+                var title = _this.text().toLowerCase();
+
+                /*
+                 title and filter are normalized in lowerCase letters
+                 for a case insensitive search
+                 */
+                if (title.indexOf(filter) < 0) {
+                    _this.addClass('hide');
                 }
-
-                if (count == 0) {
-                    $('.notListed').fadeIn();
-
-                } else {
-                    $('.notListed').fadeOut();
+                else{
+                    _this.removeClass('hide');
                 }
             });
-
         });
+        $('#booking-filter').keyup(function () {
+            var filter = this.value;
+            if(filter <= 0){
+                $('.booking-tab:gt(7)').addClass('hide');
+                $('.booking-tab.slim').addClass('hide');
+            }
+        });
+
 
 
         hljs.initHighlightingOnLoad();

@@ -629,7 +629,7 @@ article {
       }
     }
     .booking-tab:not(.marker) {
-      display: none;
+
       &:nth-child(n+1):nth-child(-n+7) {
         display: inline-block;
       }
@@ -688,6 +688,14 @@ article {
     }
   }
 }
+.hide {
+  position: absolute;
+  top: -999999em;
+  left: auto;
+  width: 1px;
+  height: 1px;
+  overflow:hidden;
+}
 
 #tabs {
   .tabPanel {
@@ -699,7 +707,6 @@ article {
       }
       nav.freegrid-four {
         .booking-tab {
-          display: none;
           img {
             max-width: 100%;
           }

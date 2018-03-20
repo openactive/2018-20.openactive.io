@@ -12,7 +12,7 @@
 {% assign theMember = site.members | where:"title", post.member  | first %}
 {% assign theImage = theMember.thumbnail_image %}
 {% endif %}
-<div class="booking-tab" markdown="0" >
+<div class="booking-tab slim" markdown="0" >
 <a href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
 <span class="hidden">{{post.title}}</span>
 <span class="hidden">{{post.title | downcase}}</span>
