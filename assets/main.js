@@ -48,36 +48,7 @@ $(document).ready(function () {
         });
 
 
-        // //BOOKING SYSTEM FILTER
-        // $("#booking-filter").keyup(function () {
-        //     // Retrieve the input field text and reset the count to zero
-        //     var filter = $(this).val(), count = 0;
-        //     // Loop through the comment list
-        //     $("nav > .booking-tab").each(function () {
-        //         console.log(count);
-        //         // If the list item does not contain the text phrase fade it out
-        //         if ($(this).text().search(new RegExp(filter, "i")) < 0) {
-        //
-        //             // $(this).fadeOut();
-        //             $(this).addClass('hide');
-        //
-        //             // Show the list item if the phrase matches and increase the count by 1
-        //         } else {
-        //
-        //             // $('.booking-tab:lt(8)').show();
-        //             $('.booking-tab:lt(8)').removeClass('hide');
-        //             count++;
-        //         }
-        //
-        //         if (count == 0) {
-        //             $('.notListed').fadeIn();
-        //
-        //         } else {
-        //             $('.notListed').fadeOut();
-        //         }
-        //     });
-        //
-        // });
+
         $('.booking-tab.slim').addClass('hide');
         $('.booking-tab:gt(7)').addClass('hide');
         $('#booking-filter').keyup(function () {
