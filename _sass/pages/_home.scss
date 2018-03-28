@@ -46,6 +46,7 @@ html.cssgrid {
         @media only screen and (max-width: 900px) {
           grid-column-start: 2;
           grid-column-end: 14;
+          grid-row: 2;
         }
         .hero_tab_content {
           margin: 1rem 0;
@@ -99,14 +100,14 @@ html.cssgrid {
         grid-column-start: 8;
         grid-column-end: 14;
         margin: 0;
-        margin-left: rem;
+        margin-left: 0;
         grid-row: 1;
         position: relative;
         z-index: 1;
         @media only screen and (max-width: 900px) {
           grid-column-start: 2;
           grid-column-end: 14;
-          grid-row: 2;
+          grid-row: 1;
         }
         .mask {
           position: absolute;

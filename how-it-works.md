@@ -102,45 +102,57 @@ By encouraging organisations to publish their data openly and to a commonly agre
 <div class="title">
 
 ## Opportunity data types
-Opportunity data covers many types of physical activities. From 1on1 classes, mass participation events to gym classes and yoga sessions.
+Opportunity data covers many types of physical activities. From 1on1 classes, mass participation events to gym classes and yoga sessions. Below are just some examples fo the types of data we are helping to open.
 
 </div>
 
 <div class="types-inner">
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/events.svg)
+![events]({{ site.baseurl }}/assets/images/icons/events.svg)
 ###### Events
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/sessions.svg)
+![sessions]({{ site.baseurl }}/assets/images/icons/sessions.svg)
 ###### Sessions
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/facilities.svg)
+![facilities]({{ site.baseurl }}/assets/images/icons/facilities.svg)
 ###### Facilities
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/leagues.svg)
+![leagues]({{ site.baseurl }}/assets/images/icons/leagues.svg)
 ###### Leagues and Ringers
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/courses.svg)
+![courses]({{ site.baseurl }}/assets/images/icons/courses.svg)
 ###### Courses
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/online-classes.svg)
+![online classes]({{ site.baseurl }}/assets/images/icons/online-classes.svg)
 ###### Online Classes
+
+</div>
+<div>
+
+![routes]({{ site.baseurl }}/assets/images/icons/routes.svg)
+###### Routes
+
+</div>
+<div>
+
+![Personal Trainer]({{ site.baseurl }}/assets/images/icons/trainer.svg)
+###### Personal Trainers
 
 </div>
 </div>
@@ -183,32 +195,38 @@ Opportunity data covers many types of physical activities. From 1on1 classes, ma
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/descriptions.svg)
+![descriptions]({{ site.baseurl }}/assets/images/icons/descriptions.svg)
 ###### Descriptions
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/images.svg)
+![images]({{ site.baseurl }}/assets/images/icons/images.svg)
 ###### Images
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/gender.svg)
+![gender]({{ site.baseurl }}/assets/images/icons/gender.svg)
 ###### Gender Restriction
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/age.svg)
+![age]({{ site.baseurl }}/assets/images/icons/age.svg)
 ###### Age Range
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/difficulty.svg)
+![difficulty]({{ site.baseurl }}/assets/images/icons/difficulty.svg)
 ###### Difficulty Level
+
+</div>
+<div>
+
+![difficulty]({{ site.baseurl }}/assets/images/icons/accessibility.svg)
+###### Accessibility
 
 </div>
 </div>
