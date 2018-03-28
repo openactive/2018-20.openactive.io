@@ -11,3 +11,5 @@ _site
 .idea/workspace.xml
 node_modules/
 .DS_Store
+CNAME
+_config.yml
