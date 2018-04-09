@@ -33,7 +33,7 @@ We are supporting innovation to help people get active.
 <figure id="introduction-vid"  role="group" aria-labelledby="open-active-video">
 
 <div class="mask"></div>
-<iframe id="video" title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/v8AG9Al4-9k?showinfo=0&rel=0&enablejsapi=1" allowfullscreen ></iframe>
+<iframe id="video" title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/chizr_7kRfk?showinfo=0&rel=0&enablejsapi=1" allowfullscreen ></iframe>
 
 <figcaption id="open-active-video" class="hidden" >{{ post.title | escape }}</figcaption>
 </figure>
