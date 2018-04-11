@@ -371,6 +371,10 @@ article {
         width: 100%;
         display: inline-block;
         vertical-align: top;
+
+        img {
+          opacity:0;
+        }
       }
       div.diagram-caption {
         align-self: stretch;

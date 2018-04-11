@@ -8,9 +8,7 @@ layout: page-headless
 <article>
 <div class="one">
 
-### Thanks For Voting 
+### Thanks for voting.
 
 </div>
 </article>
-
-

@@ -68,9 +68,9 @@ Body copy. Is ma ped qui ut occaeruptat alit andipsa ndella sed que volor aut of
 <h2 class="sub-heading-two">Wide Call to Action</h2>
 <div class="one">
 
-### Open Data Essentials
-Open Data Institute's e-Learning programme developed for the European Commission. This programme has been designed to enable you to discover what open data is and how it is changing the lives of everyone on our planet.
-There are 13 lessons for you to explore covering the essentials of open data, how to plan and measure success and how to implement an open data programme technically. This programme is free and should take a maximum of 2-3 hours to complete.
+### Open data essentials
+The Open Data Institute's e-Learning programme developed for the European Commission. This programme has been designed to enable you to discover what open data is and how it is changing the lives of everyone on our planet.
+There are 13 lessons for you to explore covering the essentials of open data, how to plan and measure success, and how to implement an open data programme technically. This programme is free and should take a maximum of 2-3 hours to complete.
 
 [Learn About Open Data](http://accelerate.theodi.org/#/){:.button-primary target="_blank" rel="noopener"}
 
@@ -112,8 +112,8 @@ There are 13 lessons for you to explore covering the essentials of open data, ho
 <div class="subgrid">
 <div class="two">
 <div class="line-graphic"></div>
-### Publish Data
-Take the first step enabling open data publishing in your system
+### Publish data
+Take the first step towards enabling open data publishing in your system
 
 [Community]({{ site.baseurl }}{% link community.md %}){:.button-primary}
 
@@ -121,8 +121,8 @@ Take the first step enabling open data publishing in your system
 <div class="two">
 <div class="line-graphic"></div>
 
-### Use Data
-Take the first step enabling open data publishing in your system.
+### Use data
+Take the first step towards enabling open data publishing in your system.
 
 [Community]({{ site.baseurl }}{% link community.md %}){:.button-primary}
 
@@ -139,8 +139,8 @@ Take the first step enabling open data publishing in your system.
 <div class="subgrid">
 <div class="three">
 
-#### Getting Started
-Take the first step enabling open data in your system.
+#### Getting started
+Take the first step towards enabling open data in your system.
 
 [Getting Started]({{ site.baseurl }}{% link getting-started.md %}){:.button-primary}
 
@@ -174,7 +174,7 @@ What's happening in the community, and how you can get involved!
 <div class="subgrid">
 <div class="four">
 
-### How to's
+### How to
 Aspernatur exercitationem commodi nobis laborum incidunt sunt qui delectus.
 
 [How to's]({{ site.baseurl }}{% link community.md %}){:.link}

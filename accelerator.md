@@ -21,9 +21,9 @@ style="background: url({{site.baseurl}}{{page.thumbnail_image}})center 43% / cov
 <!--style="background: linear-gradient(to right, #3B3089 0%, transparent 100%),  url({{site.baseurl}}{{page.thumbnail_image}})center 43% / cover no-repeat;">-->
 <div class="one">
 
-### For millions, staying active is hard.
+### For millions, staying active is hard
 
-### Let’s make it easier.
+### Let’s make it easier
 
 Almost 18 million (39.4%) of adults in England don’t exercise enough to improve their health and
 wellbeing.
@@ -41,12 +41,12 @@ target="_blank">Active Lives Survey - 16/17</a></p>
 <article class="intro-text invert">
 <div class="one">
 
-**We want to get people active using data.** For months, activity providers have been openly publishing their opportunity data for our OpenActive Accelerator. Now it’s over to you. If you have an innovative idea that uses open opportunity data to help people discover and take part in physical activities, [we want to hear from you.](https://docs.google.com/document/d/1o06BCIxYRc1-7vQy4z6N7RL7ebw5kj8QaAkLb4v-8og/edit){:target="_blank"}
+**We want to get people active using data.** For months, activity providers have been openly publishing their opportunity data for our OpenActive Accelerator. Now, it’s over to you. If you have an innovative idea that uses open opportunity data to help people discover and take part in physical activities, [we want to hear from you.](https://docs.google.com/document/d/1o06BCIxYRc1-7vQy4z6N7RL7ebw5kj8QaAkLb4v-8og/edit){:target="_blank"}
 
-Open opportunity data helps people decide whether an activity is (or isn’t) for them. It includes real-time information and integrated booking options, for classes, sessions and clubs, spare places in leagues, tennis courts and football pitches for hire. You can use opportunity data in many ways to
-inspire people to be more active, remove pain points and deliver better customer experiences.
+Open opportunity data helps people decide whether an activity is (or isn’t) for them. It includes real-time information and integrated booking options for classes, sessions and clubs, spare places in leagues, tennis courts, and football pitches for hire. You can use opportunity data in many ways to inspire people to be more active, remove pain points, and deliver better customer experiences.
 
-Developments in **data**, social media, VR and AI are having a huge impact on people’s lives, changing the way we travel and entertain ourselves. In the sport and physical activity sector information about activity opportunities are often siloed making it harder to innovate, until now.
+Developments in **data**, social media, VR and AI are having a huge impact on people’s lives, changing the way we travel and entertain ourselves. In the sport and physical activity sector, information about activity opportunities are often siloed, making it harder to innovate -
+ until now.
 
 That's why we're launching the ODI's OpenActive Accelerator supported by Sport England.
 
@@ -103,7 +103,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 
 **Workshops**
 
-###### From business modelling to marketing, you’ll hone skills to succeed.
+###### From business modelling to marketing, you’ll hone the skills you need to succeed.
 
 </figure>
 </div>
@@ -143,7 +143,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 
 **Partners**
 
-###### Supporters and business leads.
+###### Supporters and business leads
 
 </figure>
 </div>
@@ -256,9 +256,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 {% include quote.svg %}
 </div>
 
-The Open Data Institute sits at the heart of the open data movement globally…\[it\] enabled us to build
-a product that consistently "wows" the householders that use our platform and helps them live more
-happily together.
+The Open Data Institute sits at the heart of the open data movement globally…\[it\] enabled us to build a product that consistently "wows" the householders that use our platform and helps them live more happily together.
 
 ###### Nick Katz
 

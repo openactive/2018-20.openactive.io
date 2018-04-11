@@ -1,6 +1,8 @@
 $(document).ready(function () {
     (function ($) {
-
+        $('.diagram img').each(function( i ){
+          $(this).delay(1000*i).fadeTo(1000,1);
+        });
 
         $(".extra-content").hide();
 
@@ -68,6 +70,7 @@ $(document).ready(function () {
                 }
                 else{
                     _this.removeClass('hide');
+
                 }
             });
         });
@@ -77,6 +80,16 @@ $(document).ready(function () {
                 $('.booking-tab:gt(7)').addClass('hide');
                 $('.booking-tab.slim').addClass('hide');
             }
+        });
+
+        $('#booking-filter').keyup(function () { 
+    
+             $('.notListed').fadeIn();
+        });
+
+        $('#booking-filter').blur(function () { 
+             $('.notListed').fadeOut();
+             $('#booking-filter').val('');
         });
 
 

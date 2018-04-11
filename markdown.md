@@ -10,7 +10,7 @@ layout: page-headless
 
 # Welcome to OpenActive
 
-Increase the health of the nation by joining open data revolution. Increase the health of the nation by joining open data revolution.
+Increase the health of the nation by joining the open data revolution.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
 

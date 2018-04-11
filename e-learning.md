@@ -3,12 +3,12 @@ title: E-learning
 permalink: "/e-learning"
 position: 16
 is_main_navigation: false
-layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
 strapline: The Open Data Institute are providing a free, online open data e-learning
   course, including a set of practical modules covering what open data is, its business
   benefits, how it can be published and prioritised to gain real value from it. Give
   it a try and send us your feedback!
+layout: page-hero
 ---
 
 {::options parse_block_html="true" /}
@@ -36,7 +36,7 @@ Understanding open data is the first step to using it. This module looks at what
 <div class="line-graphic"></div>
 
 ### Creating impact from open data
-Physical activity providers can use open data to get more people involved, create better experiences for participants and run their organisations more efficiently. This module looks how the public sector, businesses and individuals are creating impact with open data.
+Physical activity providers can use open data to get more people involved, create better experiences for participants, and run their organisations more efficiently. This module looks at how the public sector, businesses, and individuals are creating impact with open data.
 **In this module, we&rsquo;ll explore the following:**
 
 
@@ -138,7 +138,7 @@ Publishing open physical activity data can bring you a wide range of benefits. B
 <div class="line-graphic"></div>
 
 ### The potential futures of physical activity data
-In previous modules we've looked at what open means. In this module we will explore different degrees of openness, what the future looks like and the journey to get there.
+In previous modules we've looked at what open means. In this module we will explore different degrees of openness, what the future looks like, and the journey to get there.
 **In this module we&rsquo;ll explore the following:**
 
 * Open, shared and closed data
@@ -154,7 +154,7 @@ In previous modules we've looked at what open means. In this module we will expl
 <div class="line-graphic"></div>
 
 ### Business in an open data-led physical activity sector
-One of the big questions that comes with opening up data is 'what will happen to those operating in the sector and how will their businesses be affected?'. This module looks at how the current market and the impact an open future will have on businesses within the physical activity sector.
+One of the big questions that comes with opening up data is 'what will happen to those operating in the sector and how will their businesses be affected?'. This module looks at the current market, and the impact an open future will have on businesses within the physical activity sector.
 **In this module we&rsquo;ll explore the following:**
 
 * The value of an open ecosystem

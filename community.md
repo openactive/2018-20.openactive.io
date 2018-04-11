@@ -23,10 +23,10 @@ OpenActive’s collaborative community includes ambitious start-ups supported th
 Explore the dashboard to learn more about our community and the datasets already published.
 
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .primary_cta}
+[Community toolkit](https://openactive.io/community/toolkit/){:target="_blank"}{: .primary_cta}
 
 </div>
 </article>
-
 
 <!--  ---------------->
 <!-- STATS ROW -->
@@ -39,7 +39,7 @@ Explore the dashboard to learn more about our community and the datasets already
 <div class="wrap">
 <div class="odometer com-members">0</div>
 </div>
-<figcaption>Community Members </figcaption>
+<figcaption>Community members </figcaption>
 </figure>
 </div>
 
@@ -49,7 +49,7 @@ Explore the dashboard to learn more about our community and the datasets already
 
 <div class="odometer com-startups">0</div>
 </div>
-<figcaption>Accelerator Start ups </figcaption>
+<figcaption>Accelerator start ups </figcaption>
 
 </figure>
 </div>
@@ -60,7 +60,7 @@ Explore the dashboard to learn more about our community and the datasets already
 
 <div class="odometer com-published">0</div>
 </div>
-<figcaption>Data-sets Published </figcaption>
+<figcaption>Data-sets published </figcaption>
 
 </figure>
 </div>
@@ -71,15 +71,12 @@ Explore the dashboard to learn more about our community and the datasets already
 
 <div class="odometer com-champions">0</div>
 </div>
-<figcaption>OpenActive Champions </figcaption>
+<figcaption>OpenActive champions </figcaption>
 
 </figure>
 </div>
 
 </article>
-
-
-
 
 <!--  ---------------->
 <!-- TEXT BLOCK -->
@@ -88,7 +85,8 @@ Explore the dashboard to learn more about our community and the datasets already
 <h2 class="sub-heading-two">Members</h2>
 <div class="one">
 
-## The Community
+## The community
+
 Our open-invitation community is dynamic and self-supporting, allowing us to tap into an ever growing base of engaged individuals and organisations across the sector to support activities nationwide.
 
 Building the data revolution in the sport and physical sector is a collaborative effort between consumers, organisations, and innovative start-ups, designed to support and benefit the industry at all levels.
@@ -115,8 +113,6 @@ Building the data revolution in the sport and physical sector is a collaborative
 </div>
 </article>
 
-
-
 <!--  ---------------->
 <!-- W3C COMMUNITY CALL TO ACTION -->
 <!--  ---------------->
@@ -126,10 +122,12 @@ Building the data revolution in the sport and physical sector is a collaborative
 
 {% assign subpage = site.pages | where: 'title', 'W3C Community' %}
 {% for item in subpage %}
+
 ### {{ item.title}}
+
 {{ item.strapline | markdownify }}
 
-[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
+\[Find out more\]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
@@ -139,16 +137,15 @@ Building the data revolution in the sport and physical sector is a collaborative
 {% endfor %}
 </article>
 
-
 <!--  ---------------->
 <!-- CHAMPIONS -->
 <!--  ---------------->
 <article>
 <div class="one">
 
-## OpenActive Champions
+## OpenActive champions
 
-The OpenActive Champions are ten advocates embracing and influencing local transformation with open opportunity data. As a peer-network, they’re committed to develop local knowledge, share good practice and drive innovation to get people active.
+The OpenActive Champions are ten advocates embracing and influencing local transformation with open opportunity data. As a peer-network, they’re committed to developing local knowledge, sharing good practice, and driving innovation to get people active.
 
 </div>
 </article>
@@ -158,8 +155,6 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 <!--  ---------------->
 
 {% include champions.html %}
-
-
 
 <!--  ---------------->
 <!-- FAQS -->

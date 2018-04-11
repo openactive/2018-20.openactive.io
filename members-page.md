@@ -9,5 +9,6 @@ layout: members
 ### A community innovating through collaboration
 
 This is an open-invitation community of pioneering organisations.
+
 If you are interested in getting involved please join us to find out more.
 

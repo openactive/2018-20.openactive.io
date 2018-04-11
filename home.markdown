@@ -8,7 +8,6 @@ layout: home
 
 {::options parse_block_html="true" /}
 
-
 <!--  ---------------->
 <!-- HERO BLOCK -->
 <!--  ---------------->
@@ -20,7 +19,6 @@ layout: home
 <!-- <div class="hero-tab" data-tab="h3"></div> -->
 <!-- </nav> -->
 
-
 <div class="content">
 
 # Helping physical activity reach everyone
@@ -28,7 +26,7 @@ layout: home
 We are supporting innovation to help people get active.
 
 [Our Vision]( {{ site.baseurl }}{% link our-vision.md %}){: .button-primary--alt}
- <button id="play-button" class="button-primary--alt">Watch Video</button>
+<button id="play-button" class="button-primary--alt">Watch Video</button>
 </div>
 <figure id="introduction-vid"  role="group" aria-labelledby="open-active-video">
 
@@ -40,8 +38,6 @@ We are supporting innovation to help people get active.
 
 </article>
 
-
-
 <!--  ---------------->
 <!-- CASE STUDIES -->
 <!--  ---------------->
@@ -50,12 +46,10 @@ We are supporting innovation to help people get active.
 {% include case-study.html %}
 </article>
 
-
 <!--  ---------------->
 <!-- BOOKING SYSTEMS -->
 <!--  ---------------->
 {% include booking-systems.html %}
-
 
 <!--  ---------------->
 <!-- WHAT WE DO -->
@@ -64,32 +58,40 @@ We are supporting innovation to help people get active.
 <h2 class="sub-heading-two">What we do</h2>
 <div class="two twoleft">
 
-### Our goal is to make data on what, where and when physical activity sessions happen, openly available.
+### Our goal is to make data on what, where and when physical activity sessions happen openly available.
 
-We are bringing together sports and physical activity organisations from across the sector to open up their opportunity data.
+Stewarded by the Open Data Institute (ODI), we're a growing community of sport and physical activity organisations and individuals. We're working collaboratively as a sector to open up data about physical activity opportunities.
 
-From leisure operators to National Governing Bodies, local sports clubs to event providers, walking groups to fitness instructors. We are also helping other organisations to use this opportunity data to build interesting tools and experiences for consumers.
+From leisure operators to national governing bodies, local sports clubs to event providers, walking groups to fitness instructors, the ODI is helping organisations use opportunity data to build interesting products, tools and experiences for consumers.
 
 [How it works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary} [Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghost}
 
 </div>
 <div class="two twoleft">
 
-#### OpenActive data
+#### OpenActive open opportunity data
+
 ##### **Includes details such as:**
+
 * ![icons]({{ site.baseurl }}/assets/images/icons/prices.svg) How much will it cost?
+
 * ![icons]({{ site.baseurl }}/assets/images/icons/availability.svg)  When is a court available?
-* ![icons]({{ site.baseurl }}/assets/images/icons/locations.svg)  Where is the class?
+
+* ![icons]({{ site.baseurl }}/assets/images/icons/locations.svg)  Where is the class? 
 {:.icons}
+
 ##### **But not data like:**
+
 * ![icons]({{ site.baseurl }}/assets/images/icons/attendance.svg)  Participation and attendance data
+
 * ![icons]({{ site.baseurl }}/assets/images/icons/sensitive.svg)  Commercially sensitive data
+
 * ![icons]({{ site.baseurl }}/assets/images/icons/customer.svg)  Customer data
 {:.icons}
+
 </div>
 <i class="line-graphic">{% include line-graphic-side.svg %}</i>
 </article>
-
 
 <!--  ---------------->
 <!-- OPEN DATA ILLUSTRATION -->
@@ -100,7 +102,7 @@ From leisure operators to National Governing Bodies, local sports clubs to event
 
 <h3>What is Open Data?</h3>
 <p class="reset-style">
-Open data is data that anyone can access, use or share. Simple as that. When big companies or governments release non-personal data, it enables small businesses, citizens and medical researchers to develop resources which make crucial improvements to their communities.</p>
+Open data is data that anyone can access, use or share. Simple as that. When big companies or governments release non-personal data, it enables small businesses, citizens and researchers to develop useful resources, which make crucial improvements to their communities and markets.</p>
 </div>
 </article>
 
@@ -112,7 +114,8 @@ Open data is data that anyone can access, use or share. Simple as that. When big
 <div class="one">
 
 ## The OpenActive Community
-Our open-invitation community is dynamic and self-supporting, and we'd welcome you to join.
+
+Our open-invitation community is dynamic and self-supporting, and we welcome you to join us.
 
 </div>
 </article>
@@ -132,22 +135,17 @@ Our open-invitation community is dynamic and self-supporting, and we'd welcome y
 </div>
 </article>
 
-
-
-
-
-
 <!--  ---------------->
 <!-- CALL TO ACTION BLOCKS -->
 <!--  ---------------->
-<!-- 
+<!--
 <article class="call_to_action">
 <div class="subgrid">
 <div class="three">
 
 #### Getting Started
 
-Take the first step enabling open data in your system.
+Take the first step and switch on open data publishing in your booking system.
 
 [Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
@@ -183,7 +181,9 @@ What's happening in the community, and how you can get involved!
 
 {% assign subpage = site.pages | where: 'title', 'Accelerator' %}
 {% for item in subpage %}
+
 ## {{ item.title}}
+
 {{ item.strapline | markdownify }}
 
 [Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
@@ -195,10 +195,6 @@ What's happening in the community, and how you can get involved!
 </figure>
 {% endfor %}
 </article>
-
-
-
-
 
 <!--  ---------------->
 <!-- NEWS BLOCK -->

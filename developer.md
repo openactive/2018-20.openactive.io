@@ -17,9 +17,9 @@ layout: page-hero
 <article>
 <div class="one">
 
-### The open data being gathered by OpenActive and associated partners will transform the sport and physical sector.
+### The open data being gathered by OpenActive and associated partners will transform the sport and physical sector
 
-We’ve made it easy for developers to understand and engage with our data standards and the Opportunity Data Dashboard, to ensure relevant organisations nationwide can join us in revolutionising the way people find, access, and participate in new activities.
+We’ve made it easy for developers to understand and engage with our data standards and the Opportunity Data Dashboard, to ensure relevant organisations nationwide can join us in transforming the way people find, access, and take part in new activities.
 
 Because no single platform or app holds all the data available under OpenActive, we’ve designed the first set of OpenActive standards to support developers in harvesting and collecting data from multiple sources.
 
@@ -42,7 +42,7 @@ Because no single platform or app holds all the data available under OpenActive,
 <h2 class="sub-heading-two">The Data</h2>
 <div class="code left">
 
-### Opportunity Data
+### Opportunity data
 This is data that describes a physical activity including **what** it is, **where** and **when** it's taking place.
 
 Opportunity data includes enough information for a participant to decide whether an activity is right for them.
@@ -95,7 +95,7 @@ Opportunity data includes enough information for a participant to decide whether
 </div>
 <div class="further-code right">
 
-#### Publishing Opportunities
+#### Publishing opportunities
 The specification defines a data model to help different platforms and applications to publish data in a consistent way.
 
 [Data Primer]( https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
@@ -119,8 +119,8 @@ The specification defines a data model to help different platforms and applicati
 </div>
 <div class="two tworight">
 
-### The Opportunity Data Dashboard
-The dashboard lists all of the opportunity data feeds we have currently available.
+### The opportunity data dashboard
+The dashboard lists all opportunity data feeds currently available.
 
 Explore the dashboard to find the data you need, identify which feeds conform to our standards, and provide feedback to publishers.
 
@@ -138,10 +138,10 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 <div class="two tworight">
 
 
-### The Open Data Map
-The map displays all of the activity data available across the country.
+### The open data map
+The map displays all activity data available in England.
 
-Explore the map to find the data you need, identify which areas care embracing open data, and which are yet to.
+Explore the map to find the data you need, identify which areas are embracing open data, and which are yet to.
 
 
 [View data map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed){:target="_blank"}{:.button-primary}
@@ -154,7 +154,7 @@ Explore the map to find the data you need, identify which areas care embracing o
 <!-- CASE STUDIES -->
 <!--  ---------------->
 <article class="title-row">
-<h2 class="sub-heading-two margin-top">Success Stories</h2>
+<h2 class="sub-heading-two margin-top">Success stories</h2>
 {% include case-study.html %}
 </article>
 
@@ -181,11 +181,11 @@ Explore the map to find the data you need, identify which areas care embracing o
 
 [ schema.org](http://schema.org/){:target="_blank"}{: .link} - Google's vocabulary on which the OpenActive specifications are based
 
-<h3>Activities List</h3>
+<h3>Activities list</h3>
 <p></p>
 [ OpenActive activity list ](https://www.openactive.io/activity-list/){:target="_blank"}{: .link} - A canonical list of activities for reference in OpenActive data feeds
 
-<h3>Open Booking</h3>
+<h3>Open booking</h3>
 <p></p>
 [ Open Booking API 0.3 Draft ](https://docs.google.com/document/d/1QMj_w2tuOvxRfctu70JjSv1WgFKvNfU5URCmIB4sSu8/edit){:target="_blank"}{: .link} -  A draft version of the OpenActive booking specification
 </div>
@@ -198,7 +198,7 @@ Explore the map to find the data you need, identify which areas care embracing o
 <div class="subgrid">
 <div class="four">
 
-### How-to Guides
+### How-to guides
 
 Molestiae corporis rerum blanditiis voluptas vel. Vero dolorum commodi laboriosam quia. Qui hic optio doloremque.
 
@@ -223,7 +223,7 @@ Dive into the detail by looking through our standards documentation and best pra
 </div>
 <div class="four">
 
-### E-Learning
+### eLearning
 Guidance for developers on getting started, to help you learn how to publish and use your data to benefit your organisation. 
 
 [Discover More]( {{ site.baseurl }}{% link e-learning.md %}){: .link }

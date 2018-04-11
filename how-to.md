@@ -11,7 +11,7 @@ layout: page-hero
 ---
 
 <article class="call_to_action title-row">
-<h2 class="sub-heading-two">Other Resources</h2>
+<h2 class="sub-heading-two">Other resources</h2>
 <div class="subgrid">
 <div markdown="1" class="four">
 

@@ -3,11 +3,11 @@ title: Start Ups
 permalink: "/start-ups/"
 position: 34
 is_main_navigation: false
-layout: page-hero
 thumbnail_image: "/uploads/sideplank.jpg"
 strapline: The OpenActive Accelerator is part of a groundbreaking open data initiative
   created to encourage digital innovation in the sport and physical activity sector.
   Join us and help revolutionise the industry.
+layout: page-hero
 ---
 
 {::options parse_block_html="true" /}
@@ -43,7 +43,7 @@ Content for this page is detailed in the
 
 ### The OpenActive Enterprise
 
-OpenActive exists to revolutionise the sport and physical sector, by harnessing open data to make details about where and when activities happen accessible to everyone. 
+OpenActive exists to transform the sport and physical sector, by harnessing open data to make details about where and when activities happen accessible to everyone. 
 
 By opening up this data, we are supporting millions of people in overcoming everyday barriers to physical activity, and growing the sector by extending its reach and engagement.
 
@@ -65,14 +65,14 @@ OpenActive member organisations and individuals are working openly together to b
 
 The Open Data Institute has already supported over 120 innovative data startups worldwide, from helping to create pioneering transport services, to transforming the retail and finance sectors. Now, the ODI is bringing new growth and wider impact to the sport and physical activity sector, using open data to make it easier than ever before for millions of people across the nation to get active.  
 
->“We’re supporting talented startups working with data who are determined to transform the way people discover and take part in physical activities. It’s hard for people to stay active and it doesn’t have to be. Data will play a huge role in enabling innovation. We’re creating a place for innovators who can make it easier to find information, remove barriers that are stopping people from exercising regularly, and improve the journey of becoming and staying active.
+>“We’re supporting talented startups working with data who are determined to transform the way people discover and take part in physical activities. It’s hard for people to stay active, and it doesn’t have to be. Data will play a huge role in enabling innovation. We’re creating a place for innovators who can make it easier to find information, remove barriers that are stopping people from exercising regularly, and improve the journey of becoming and staying active.
 
->Together with our data expertise, network and support we can validate your ideas into marketable solutions, as we have achieved with over 120 startups worldwide.
+>Together with our data expertise, network, and support, we can turn your ideas into marketable solutions, as we have achieved with over 120 startups worldwide.
 
->It’s going to be an exciting journey and we’d love to have you on board to catalase positive change in the sport and physical activity sector. Let’s make it happen.”
+>It’s going to be an exciting journey and we’d love to have you on board to catalyse positive change in the sport and physical activity sector. Let’s make it happen.”
 
 
-### Why Partner With Us?
+### Why partner with us?
 
 The OpenActive Accelerator stimulates innovation with open opportunity data across the sector, helping 18 million adults across England to maintain an active lifestyle. 
 
