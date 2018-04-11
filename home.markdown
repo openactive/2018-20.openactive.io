@@ -10,7 +10,7 @@ layout: home
 
 <!--  ---------------->
 <!-- HERO BLOCK -->
-<!--  ---------------->
+<!--   ---------------->
 <article class="hero--home">
 
 <!-- <nav class="hero_tab_nav"> -->
@@ -58,7 +58,7 @@ We are supporting innovation to help people get active.
 <h2 class="sub-heading-two">What we do</h2>
 <div class="two twoleft">
 
-### Our goal is to make data on what, where and when physical activity sessions happen openly available.
+### Our goal is to make data on what, where and when physical activity sessions happen openly available
 
 Stewarded by the Open Data Institute (ODI), we're a growing community of sport and physical activity organisations and individuals. We're working collaboratively as a sector to open up data about physical activity opportunities.
 
