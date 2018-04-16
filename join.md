@@ -11,4 +11,4 @@ layout: join
 #### Open Invitation
 We can only make this change happen by working together; innovating through collaboration.
 
-If you want to get in touch or get involved then please fill in our contact form.
+If you want to get in touch or get involved, please sign up.

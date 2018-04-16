@@ -9,6 +9,7 @@ layout: default
 {% assign theImage = theMember.thumbnail_image %}
 {% endif %}
 
+{% assign bookingsystemKey = page.title | slugify %}
 
 {% if page.is_enabled %}
 
@@ -114,56 +115,23 @@ layout: default
 
     <div class="two twoleft inset-call-to-action">
 
-
-
-
             <figure role="group" class="two tworight">
                 <img role="logo" src="{{ theImage | relative_url}}">
             </figure>
 
-            {% assign comments = site.data.comments[page.slug] %}
-            {% for comment in comments %}
-            {% assign num = forloop.length %}
-            {% endfor %}
-            {% assign thesize = num.size %}
+            <script>
+              window.addEventListener("load", function() {
+                const database = firebase.firestore();
+                database.collection("bookingsystems").doc("{{bookingsystemKey}}").get().then(function(system) {
+                  var votes = system.exists ? system.data().votes || 0 : 0;
+                  if (votes > 0) document.getElementById("votes").innerHTML = "has " + votes + " vote" + (votes > 1 ? "s" : "");
+                });
+              });
+            </script>
+        
+            <h4>{{ page.title | escape }} <span id="votes"></span></h4>
 
-
-            {% if thesize > 1 %}
-            <h4>{{ page.title | escape }} has {{thesize}} Votes</h4>
-
-            {% else %}
-
-            <h4>{{ page.title | escape }} has no Votes :( </h4>
-
-            {% endif %}
-
-
-            <form method="POST"
-                  action="https://api.staticman.net/v2/entry/{{site.repository}}/{{site.staticman.branch}}/comments">
-                <input name="options[redirect]" type="hidden" value="http://staging.openactive.io/thanks">
-                <!-- e.g. "2016-01-02-this-is-a-post" -->
-                <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-                <input name="fields[replying_to]" type="hidden" id="comment-parent" value="">
-
-                <p>You can vote to add your organisation to the list by voting. Enter your name and email
-                    below.</p>
-
-
-                <label>Name <input name="fields[name]" type="text"></label>
-                <label>E-mail <input name="fields[email]" type="email"></label>
-
-                <!--<input type="hidden" name="options[reCaptcha][siteKey]" value="6Lc3GkkUAAAAAGpkfzgRtDMfEZAJyTLEiXsdJJHi">-->
-                <!--<input type="hidden" name="options[reCaptcha][secret]" value="6Lc3GkkUAAAAAO2BVkX_w6KrqHfJ68BPUi-GqlHM">-->
-                <!--<div class="g-recaptcha" data-sitekey="6Lc3GkkUAAAAAGpkfzgRtDMfEZAJyTLEiXsdJJHi" data-theme="light" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>-->
-
-                <button type="submit">Go!</button>
-
-            </form>
-
-
-
-
-
+            <p>You can help show demand for OpenActive in this booking system by voting, simply <a href="/join">join</a> OpenActive to vote!</p>
     </div>
 </article>
 {% endif %}

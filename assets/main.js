@@ -4,6 +4,19 @@ $(document).ready(function () {
           $(this).delay(1000*i).fadeTo(1000,1);
         });
 
+
+        TweenMax.staggerFrom(".unticked .svg", 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 1);
+
+
+        $('.open').change(function() {
+            TweenMax.staggerTo(".unticked .svg", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);
+            $('.ticked').css({
+                'opacity' : '1',
+            });
+            TweenMax.staggerFrom(".ticked .svg", 2, {scale:0.5, opacity:0, delay:1, ease:Elastic.easeOut, force3D:true}, 1);
+        });
+
+
         $(".extra-content").hide();
 
         $('.show_hide-content').on("click", function (event) {

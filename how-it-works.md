@@ -41,28 +41,49 @@ Across a wide range of demographics, without any additional effort.
 [Get started]({{ site.baseurl }}{% link getting-started.md %}){:.button-primary}
 
 </div>
-<div class="inner">
+<div class="inner animate">
 
-<div class="diagram">
+<div class="block">
+<div class="unticked">
+<div class="svg one">
+<img src="{{ site.baseurl }}/assets/images/animation/first_ut.svg">
+</div>
+<div class="svg two">
+<img src="{{ site.baseurl }}/assets/images/animation/second_ut.svg">
+</div>
+<div class="svg three">
+<img src="{{ site.baseurl }}/assets/images/animation/third_ut.svg">
+</div>
+<div class="svg four">
+<img src="{{ site.baseurl }}/assets/images/animation/four_ut.svg">
+</div>
+
+<div class="svg five checkbox" markdown="0">
+<input id="chkTest" class="open" type="checkbox">
+<label for="chkTest">OPEN YOUR DATA</label>
+</div>
+</div>
 
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/first_1.svg)
-![what_open_data.png]({{ site.baseurl }}/assets/images/first_2.svg)
-![what_open_data.png]({{ site.baseurl }}/assets/images/first_3.svg)
-![what_open_data.png]({{ site.baseurl }}/assets/images/first_4.svg)
 
 </div>
-<!-- <div class="diagram-caption"> -->
 
-<!-- ###### Your Activities -->
-
-<!-- ###### Your Booking System -->
-
-<!-- ###### Many Apps & Services -->
-
-<!-- ###### Many More People -->
-
-<!-- </div> -->
+<div class="block ticked_wrap">
+<div class="ticked">
+<div class="svg five">
+<img src="{{ site.baseurl }}/assets/images/animation/first_t.svg">
+</div>
+<div class="svg six">
+<img src="{{ site.baseurl }}/assets/images/animation/second_t.svg">
+</div>
+<div class="svg seven">
+<img src="{{ site.baseurl }}/assets/images/animation/third_t.svg">
+</div>
+<div class="svg eight">
+<img src="{{ site.baseurl }}/assets/images/animation/four_t.svg">
+</div>
+</div>
+</div>
 
 </div>
 

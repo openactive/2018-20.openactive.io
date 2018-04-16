@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="page global-template">
+    <script>
+        ui.start('#firebaseui-auth-container', {});
+    </script>
+    <article markdown="0" class="hero--sub ">
+        <div class="three">
+            {{content}}
+            <div id="firebaseui-auth-container"></div>
+            <a href="/profile">Please go to here</a>
+        </div>
+    </article>
+</div>

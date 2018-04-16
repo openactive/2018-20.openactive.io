@@ -345,6 +345,7 @@ article {
       grid-column-start: 8;
       grid-column-end: 14;
       grid-row: 1;
+
     }
     @media only screen and (max-width: 1000px) {
       &:nth-child(2n+1) {
@@ -366,35 +367,6 @@ article {
       }
     }
     &:nth-child(2n+2) {
-      display: inline-flex;
-      div.diagram {
-        width: 100%;
-        display: inline-block;
-        vertical-align: top;
-
-        img {
-          opacity:0;
-        }
-      }
-      div.diagram-caption {
-        align-self: stretch;
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 31%;
-        vertical-align: top;
-        padding-left: 2rem;
-        margin-top: 5rem;
-        h6 {
-          text-align: left;
-          padding-top: 0.5rem;
-          border-top: 2px solid $brand-three;
-          margin-bottom: 0;
-          &#your-booking-system {
-            margin-top: 8rem;
-          }
-        }
-      }
     }
     @media only screen and (max-width: 1000px) {
       &:nth-child(2n+1) {
@@ -403,12 +375,6 @@ article {
         }
       }
       &:nth-child(2n+2) {
-        div.diagram {
-
-        }
-        div.diagram-caption {
-          margin-top: 2rem;
-        }
       }
     }
     @media only screen and (max-width: 500px) {
@@ -416,14 +382,105 @@ article {
 
       }
       &:nth-child(2n+2) {
-        div.diagram {
-          width: 100%;
-        }
-        div.diagram-caption {
-          display: none;
-        }
       }
     }
+
+    &.animate {
+      display: grid;
+      grid-gap: 0;
+      grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
+      align-items: start;
+      margin-bottom: 3rem;
+      .open{
+        margin-top: 20px;
+      }
+      .block {
+        grid-column: col / span 12;
+        grid-row: 1;
+        text-align: center;
+        .ticked {
+          opacity: 0;
+        }
+      }
+
+    }
+    .checkbox * {
+      box-sizing: border-box;
+      position: relative;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .checkbox {
+      display: inline-block;
+      margin-top: 20px;
+      cursor: pointer;
+      padding: 10px 20px;
+      margin: 1rem 0 0 0;
+      background-color: $brand-five;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      color: $white;
+    }
+
+    .checkbox > input {
+      display: none;
+    }
+
+    .checkbox > label {
+      vertical-align: top;
+      padding-left: 30px;
+      cursor: pointer;
+      font-family: $font-family;
+      font-size: $base-font-size / 1.2;
+      font-weight: 600;
+      padding-top:3px;
+    }
+
+    .checkbox > [type="checkbox"] + label:before {
+      color: #777;
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: inline-block;
+      min-height: 15px;
+      height: 15px;
+      width: 15px;
+      border: 2px solid #777;
+      font-size: 15px;
+      vertical-align: top;
+      text-align: center;
+      transition: all 0.2s ease-in;
+      content: '';
+    }
+
+    .checkbox > [type="checkbox"] + label:before {
+      border-radius: 25%;
+      border: 2px solid $white;
+
+    }
+    .checkbox > [type="checkbox"] + label:hover:before {
+      border-color: $white;
+
+    }
+    .checkbox > [type="checkbox"]:checked + label:before {
+      width: 8px;
+      height: 16px;
+      border-top: transparent;
+      border-left: transparent;
+      border-color: $logo-eight;
+      border-width: 4px;
+      transform: rotate(45deg);
+      top: -4px;
+      left: 4px;
+      border-radius: 0;
+    }
+
   }
 }
 
@@ -692,13 +749,14 @@ article {
     }
   }
 }
+
 .hide {
   position: absolute;
   top: -999999em;
   left: auto;
   width: 1px;
   height: 1px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 #tabs {
@@ -1050,7 +1108,7 @@ article {
           }
         }
         @media only screen and (max-width: 1000px) {
-          width: 100%!important;
+          width: 100% !important;
           .tablink {
             transform: skew(0deg);
             width: 100%;
@@ -2074,13 +2132,14 @@ nav {
       }
     }
   }
-  &.not-enabled{
-    .one{
-      figure{
+  &.not-enabled {
+    .one {
+      figure {
         background-color: $white;
         display: inline-flex;
         align-items: center;
-        img{ }
+        img {
+        }
       }
     }
   }

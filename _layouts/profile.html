@@ -1,0 +1,269 @@
+---
+layout: default
+---
+
+<script type="text/javascript">
+const fsClient = filestack.init('Az84MaTiRiOpHcC4Ae0jQz');
+  
+const database = firebase.firestore();
+
+const getUserData = () => getDataKeyedWithUser("users");
+const getOrgData = () => getDataKeyedWithUser("organisations");
+const writeUserData = data => writeDataKeyedWithUser("users", data);
+const writeOrgData = data => writeDataKeyedWithUser("organisations", data);
+const deleteUserData = data =>
+  database.collection("users").doc(firebase.auth().currentUser.uid).delete();
+  
+const writeDataKeyedWithUser = (collection, data) => 
+  database.collection(collection).doc(firebase.auth().currentUser.uid).update(data).catch(function(error) {
+    if (error.code == "not-found") {
+      database.collection(collection).doc(firebase.auth().currentUser.uid).set(data);
+    } else throw error;
+  });
+ 
+const getDataKeyedWithUser = (collection) =>
+  database.collection(collection).doc(firebase.auth().currentUser.uid).get()
+    .then(doc => doc.exists ? doc.data() : {});
+
+const writeData = (selector, write, data, extra = Promise.resolve()) => {
+  document.getElementById(selector).innerHTML = "Saving...";
+  extra
+    .then(write(data))
+    .then(() => {
+      document.getElementById(selector).innerHTML = "Save";
+    })
+    .catch(error => alert(error));
+};
+
+const bindIdsUser = ["first-name", "last-name", "email", "phone", "organisation", "user-booking-system"];
+const bindIdsCheck = ["publishing", "using", "spreading", "mailing"];
+const bindIdsCheckDefaultTrue = ["publishing"];
+const bindIdsOrg = ["name", "description", "url"];
+
+initApp = function() {
+  document.getElementById("save-user").onclick = e => {
+    e.preventDefault();
+    
+    var data = {};
+    data.userSaved = true;
+
+    bindIdsUser.forEach(key => {
+      data[key] = document.getElementById(key).value || "";
+    });
+    bindIdsCheck.forEach(key => {
+      data[key] = document.getElementById(key).checked || false;
+    });
+
+    writeData(
+      "save-user",
+      writeUserData,
+      data,
+      firebase
+        .auth()
+        .currentUser.updateEmail(document.getElementById("email").value)
+      .then(writeOrgData({
+         "booking-system": document.getElementById("user-booking-system").value || ""
+      }))
+    );
+  };
+  document.getElementById("save-org").onclick = e => {
+    e.preventDefault();
+    
+    var data = {};
+    data.orgSaved = true;
+
+    bindIdsOrg.forEach(key => {
+      data[key] = document.getElementById(key).value || "";
+    });
+
+    writeData("save-org", writeOrgData, data);
+  };
+
+  document.getElementById("delete-user").onclick = e => {
+    e.preventDefault();
+    deleteUserData().then(function() {
+      firebase.auth().currentUser.delete().then(function() {
+        firebase.auth().signOut();
+      }).catch(function(error) {
+        alert(error);
+      });
+    });
+  };
+  
+  document.getElementById("upload-logo").onclick = e => {
+    e.preventDefault();
+    fsClient.pick({
+      fromSources:["local_file_system","url"],
+      accept: 'image/png',
+      minFiles: 1,
+      maxFiles: 1,
+      transformations: {
+        crop:true
+      },
+      maxSize: (100 * 1024 * 1024)
+    }).then(function(result) {
+      var data = {};
+      data.logo = result.filesUploaded[0].url;
+      document.getElementById("logo-img").style.cssText = "display:block";
+      document.getElementById("logo-img").src = data.logo;
+      writeData("save-org", writeOrgData, data);
+    });
+  };
+
+  firebase.auth().onAuthStateChanged(
+    function(user) {
+      if (!user) {
+        window.location = "/join";
+      }
+
+      if (user) {
+        if (!user.emailVerified) {
+          user.sendEmailVerification().catch(function(error) {
+            console.warn(error);
+          });
+          window.location = "/verify";
+        } else {
+          getUserData()
+          .then(userData => {
+            console.log(userData);
+
+            if (userData.userSaved) {
+              bindIdsUser.forEach(key => {
+                document.getElementById(key).value = userData[key];
+              });
+              bindIdsCheck.forEach(key => {
+                document.getElementById(key).checked = userData[key];
+              });
+              document.getElementById("save-user").innerHTML = "Save";
+            } else {
+              bindIdsCheckDefaultTrue.forEach(key => {
+                document.getElementById(key).checked = true;
+              });
+            }
+
+            document.getElementById("email").value = user.email;
+          })
+          .then(getOrgData)
+          .then(orgData => {
+            if (orgData.orgSaved) {
+              bindIdsOrg.forEach(key => {
+                document.getElementById(key).value = orgData[key];
+              });
+              if (orgData.logo) {
+                document.getElementById("logo-img").style.cssText = "display:block";
+                document.getElementById("logo-img").src = orgData.logo;
+              }
+              document.getElementById("save-org").innerHTML = "Save";
+            }
+      }).then(() => {
+            document.querySelector(".loading").style.cssText = "display:none";
+            document.querySelector(".loading-hide").style.cssText =
+              "display:grid";
+          });
+        }
+      }
+    },
+    function(error) {
+      console.log(error);
+    }
+  );
+};
+
+window.addEventListener("load", function() {
+  initApp();
+});
+
+</script>
+<div class="page global-template" id="join-partner">
+
+    <article markdown="0" class="hero--sub ">
+        <div class="one">
+            <h1>OpenActive Membership</h1>
+        </div>
+    </article>
+
+    <article class="loading"><div class="three"><h2>Loading...</h2></div></article>
+    <article style="display:none" class="loading-hide">
+        <div class="one">
+            <h2>My private profile</h2>
+            <p>Completing your profile below will give you access to member events and additional support from the community.</p>
+            <form>
+                <label for="first-name">First name</label>
+                <input type="text" class="text-input noEnterSubmit" id="first-name" value="" />
+                <label for="last-name">Last name</label>
+                <input type="text" class="text-input noEnterSubmit" id="last-name" value="" />
+                <label for="organisation">Organisation</label>
+                <input type="text" class="text-input noEnterSubmit" id="organisation" value="" />
+                <label for="email">Email address</label>
+                <input type="text" class="text-input noEnterSubmit" id="email" value="" />
+                <label for="phone">Phone number</label>
+                <input type="text" class="text-input noEnterSubmit" id="phone" value="" />
+
+                <checkbox-section>
+                    <label for="publishing">
+                        <h3>Publishing data</h3>I'm interested in publicising my activities and/or facilities as open data</label>
+                    <input type="checkbox" id="publishing" checked=true />
+
+                    <div>
+                        <h6>Help us to help you. Which booking system do you use?</h6>
+                        <p>This will also add 1 to the votes on the booking system's page.</p>
+                        <select id="user-booking-system">
+                            <option value="">Select...</option>
+                            <option value="other">Other</option>
+                            {% assign sortedPosts = site.bookingsystems | sort_natural: 'title' %}
+                            {% for post in sortedPosts %}
+                            <option value="{{post.title | slugify}}">{{post.title}}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </checkbox-section>
+
+                <checkbox-section>
+
+                    <label for="using">
+                        <h3>Using data</h3>I'm interested in using my website or other channels to help promote activities published
+                        through OpenActive to a wider audience</label>
+                    <input type="checkbox" id="using" value="" />
+                </checkbox-section>
+                <checkbox-section>
+                    <label for="spreading">
+                        <h3>Spreading the word</h3>I'm interested in helping more people to hear about OpenActive</label>
+                    <input type="checkbox" id="spreading" value="" />
+                </checkbox-section>
+                <checkbox-section>
+                    <label for="mailing">
+                        <h3>Sign me up to the mailing list</h3>
+                    </label>
+                    <input type="checkbox" id="mailing" value="" />
+                </checkbox-section>
+        
+                <button type="submit" id="save-user">Join</button>
+        
+    <button type="button" id="delete-user">Delete My Account</button>
+
+            </form>
+            <br />
+            <h2>My organisation's public profile</h2>
+            <p>Include a brief profile of your organisation to be featured on the <a href="/members-page.html" target="_blank">supporters page</a>.</p>
+
+            <form>
+                <label for="name">Organisation name</label>
+                <input type="text" class="text-input noEnterSubmit" id="name" value="" />
+                <label for="description">Organisation description</label>
+    <textarea id="description" class="text-input"></textarea>
+                <label for="url">Organisation website</label>
+                <input type="text" class="text-input noEnterSubmit" id="url" value="" />
+
+                <label for="logo">Organisation logo</label>
+                <img id="logo-img"/>
+                <button type="button" id="upload-logo" >Upload Logo</button>
+
+                <br/>
+                <button type="submit" id="save-org">Publish to OpenActive website</button>
+
+            </form>
+
+        </div>
+
+    </article>
+</div>
