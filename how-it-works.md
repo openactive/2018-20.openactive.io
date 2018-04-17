@@ -353,7 +353,7 @@ Opportunity data covers many types of physical activities. From one-to-one class
 <h2 class="sub-heading-two">Where now?</h2>
 <div class="one">
 
-{% assign subpage = site.pages | where: 'title', 'Getting Started' %}
+{% assign subpage = site.pages | where: 'title', 'Getting started' %}
 {% for item in subpage %}
 
 ### {{ item.title}}
