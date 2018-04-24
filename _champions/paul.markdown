@@ -1,6 +1,7 @@
 ---
 title: Paul
 date: 2018-02-23 14:45:00 Z
+position: 5
 second-name: Makinen
 thumbnail_image: "/uploads/2f8591bc-2a84-491f-a405-d4a22fb0a30a.png"
 linkedin: https://www.linkedin.com/in/paul-makinen-bb720510/

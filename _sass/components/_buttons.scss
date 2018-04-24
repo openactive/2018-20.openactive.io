@@ -111,7 +111,8 @@ a.button-primary {
 // <a class="button-primary--alt {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.primary-alt
-a.button-primary--alt {
+a.button-primary--alt,
+button.button-primary--alt {
   display: inline-flex;
   align-items: center;
   vertical-align: top;
@@ -191,7 +192,9 @@ p > a {
 // <a class="button-primary--ghost {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.primary-ghost
-a.button-primary--ghost {
+a.button-primary--ghost,
+.firebaseui-id-secondary-link,
+button.button-primary--ghost{
   display: inline-flex;
   align-items: center;
   vertical-align: top;
@@ -235,8 +238,9 @@ a.button-primary--ghost {
     padding: 15px 25px;
   }
 }
-
-
+.firebaseui-id-secondary-link {
+  margin: 1rem 1rem 0 0!important;
+}
 // Primary Large Button
 //
 // Primary Large Button
@@ -251,7 +255,7 @@ a.button-primary--ghost {
 // <a class="button-primary--large {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.primary-large
-a.button-primary--large {
+a.button-primary--large{
   padding: 20px 40px;
   font-size: $base-font-size;
   display: inline-flex;
@@ -308,7 +312,7 @@ a.button-primary--large {
 // <a class="button-primary--ghostlarge {{modifier_class}}">Button</a>
 //
 // Styleguide buttons.primary-ghostlarge
-a.button-primary--ghostlarge {
+a.button-primary--ghostlarge{
   display: inline-flex;
   align-items: center;
   vertical-align: top;

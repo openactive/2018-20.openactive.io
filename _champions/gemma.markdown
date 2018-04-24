@@ -1,6 +1,7 @@
 ---
 title: Gemma
 date: 2018-02-23 14:39:00 Z
+position: 3
 second-name: Finlay-Gray
 thumbnail_image: "/uploads/165f463.jpg"
 linkedin: https://www.linkedin.com/in/gemma-finlay-gray-11305b3b/

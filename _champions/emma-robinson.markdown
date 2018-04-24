@@ -1,6 +1,7 @@
 ---
 title: Emma
 date: 2018-03-15 19:49:00 Z
+position: 8
 second-name: Robinson
 thumbnail_image: "/uploads/emma-2016-headshot-50pc.jpg"
 role: Research and Insight Manager

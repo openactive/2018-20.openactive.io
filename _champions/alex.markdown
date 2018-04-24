@@ -1,6 +1,7 @@
 ---
 title: Alex
 date: 2018-03-16 15:03:00 Z
+position: 9
 second-name: Zurita
 thumbnail_image: "/uploads/alex.jpg"
 twitter: https://twitter.com/jalexzurita

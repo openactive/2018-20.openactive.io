@@ -50,7 +50,7 @@ We think [working openly ]({{ site.baseurl }}{% link about-openactive.md %}) wit
 {% include quote.svg %}
 </div>
 
-Almost 18 million (39.4%) of adults in England don’t exercise enough to improve their health and wellbeing.* Increasing the visibility of physical activity makes it easier for someone to choose to take part.
+Almost 18 million (39.4%) of adults in England don’t exercise enough to improve their health and wellbeing.\* Increasing the visibility of physical activity makes it easier for someone to choose to take part.
 
 ###### SPORT ENGLAND
 

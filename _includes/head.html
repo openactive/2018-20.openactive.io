@@ -15,6 +15,28 @@ g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
 g.clearUserCookie=function(){};
 })(window,document,window['_fs_namespace'],'script','user');
 </script>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+      window.addEventListener("load", function(){
+          window.cookieconsent.initialise({
+              "palette": {
+                  "popup": {
+                      "background": "#0067b1"
+                  },
+                  "button": {
+                      "background": "#931e80",
+                      "text": "#ffffff",
+                      "padding" : "10px 30px"
+
+                  }
+              },
+              "theme": "edgeless",
+              "content": {
+                  "href": "/privacy-and-cookie-policy"
+              }
+          })});
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 
 

@@ -3,14 +3,27 @@ layout: default
 ---
 
 <div class="page global-template">
+    <article markdown="0" class="hero--sub ">
+
+        <i class="line-graphic">{% include slim-line-graphic.svg %}</i>
+        <div>
+            <h1>{{page.title}}</h1>
+            <p>{{page.strapline}}</p>
+        </div>
+        <figure>
+
+            <div class="mask"></div>
+            <div class="image" style="background: url({{site.baseurl}}{{page.thumbnail_image}})top center / cover no-repeat;"></div>
+        </figure>
+    </article>
     <script>
         ui.start('#firebaseui-auth-container', {});
     </script>
-    <article markdown="0" class="hero--sub ">
-        <div class="three">
+    <article markdown="0">
+        <div class="one">
             {{content}}
             <div id="firebaseui-auth-container"></div>
-            <a href="/profile">Please go to here</a>
+            <a class="button-primary" href="/profile">Please go to here</a>
         </div>
     </article>
 </div>

@@ -1,6 +1,7 @@
 ---
 title: Shirley
 date: 2018-03-16 14:57:00 Z
+position: 1
 second-name: Veevers
 thumbnail_image: "/uploads/080192d3-b685-4c6f-b861-cccdf4a1bb78.JPG"
 twitter: https://twitter.com/shirleyveevers

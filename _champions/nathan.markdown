@@ -1,6 +1,7 @@
 ---
 title: Nathan
 date: 2018-02-28 13:54:00 Z
+position: 7
 second-name: Matley
 thumbnail_image: "/uploads/Nathan%20Matley.jpg"
 linkedin: https://www.linkedin.com/in/nathanmatley/

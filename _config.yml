@@ -34,6 +34,9 @@ collections:
   posts:
     title: Posts
     output: true
+  startups:
+    title: Startups
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -46,6 +49,7 @@ defaults:
     layout: default
     is_main_navigation: false
     is_secondary_navigation: false
+    position: 1
 - scope:
     path: ''
     type: posts
@@ -157,5 +161,3 @@ medium_username: https://blog.openactive.io
 markdown: kramdown
 plugins:
 - jekyll-feed
-staticman:
-  branch: master

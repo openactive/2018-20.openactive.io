@@ -147,3 +147,12 @@ main {
     }
   }
 }
+.form_wrap{
+  width: 49%;
+  margin-top: 1rem!important;
+  display: inline-block;
+  vertical-align: top;
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+  }
+}

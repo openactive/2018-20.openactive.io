@@ -1,6 +1,7 @@
 ---
 title: Lawrie
 date: 2018-02-06 17:39:00 Z
+position: 0
 second-name: Baker
 thumbnail_image: "/uploads/lawrie-baker.jpg"
 twitter: https://twitter.com/amitpateluk

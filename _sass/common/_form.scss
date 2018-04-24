@@ -166,156 +166,165 @@
 //
 // Styleguide forms.input.slider
 fieldset {
-    width: 100%;
-    max-width: 400px;
-    font-family: sans-serif;
-    border: 1px solid $brand-three;
-    border-radius: 5px;
-    padding: 15px;
-    margin: 20px 0;
+  width: 100%;
+  max-width: 400px;
+  font-family: sans-serif;
+  border: 1px solid $brand-three;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
 }
 
 fieldset legend {
-    background: $brand-three;
-    padding: 5px 10px;
-    font-size: $header-size / 2;
-    border-radius: 5px;
-    margin-left: 10px;
+  background: $brand-three;
+  padding: 5px 10px;
+  font-size: $header-size / 2;
+  border-radius: 5px;
+  margin-left: 10px;
 }
 
 form {
-    width: 100%;
-    input[type=submit]:not.primary_cta {
-        display: block;
-    }
+  width: 100%;
+  input[type=submit]:not.primary_cta {
+    display: block;
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: $brand-one;
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 2px;
+  }
 }
 
 input,
 select,
 textarea,
 label {
-    font-size: 15px;
-    margin-bottom: 2px;
+  font-size: 15px;
+  margin-bottom: 2px;
 }
 
 label {
-    display: inline-block;
+  display: inline-block;
 }
 
 input,
 select,
 textarea {
-    width: 100%;
-    max-width: 400px;
-    border: 1px solid $brand-three;
-    margin-bottom: 20px;
-    padding: 4px;
-    box-sizing: border-box;
-    &.primary_cta {
-        display: inline-block;
-        width: auto;
-    }
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid $brand-three;
+  margin-bottom: 20px;
+  padding: 4px;
+  box-sizing: border-box;
+  &.primary_cta {
+    display: inline-block;
+    width: auto;
+  }
 }
 
 input[type=radio],
 input[type=checkbox] {
-    display: inline-block;
-    width: auto;
+  display: inline-block;
+  width: auto;
 }
 
 input:focus,
 select:focus,
 textarea:focus {
-    border: 1px solid $brand-three;
-    background-color: #EBF2F4;
+  border: 1px solid $brand-three;
+  background-color: #EBF2F4;
 }
 
 textarea {
-    height: 150px;
-    resize: none;
+  height: 150px;
+  resize: none;
 }
 
 label {
-    display: block;
+  display: block;
 }
 
 .required {
-    font-weight: bold;
-    color: #F00;
+  font-weight: bold;
+  color: #F00;
 }
 
 #loading {
-    width: 32px;
-    height: 32px;
-    background-image: url(../img/loading.gif);
-    display: block;
-    position: absolute;
-    right: 130px;
-    bottom: 16px;
-    display: none;
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/loading.gif);
+  display: block;
+  position: absolute;
+  right: 130px;
+  bottom: 16px;
+  display: none;
 }
 
 #errors {
-    border: solid 1px #E58E8E;
-    padding: 10px;
-    margin: 25px 0px;
-    display: block;
-    width: 437px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    background: #FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
-    display: none;
+  border: solid 1px #E58E8E;
+  padding: 10px;
+  margin: 25px 0px;
+  display: block;
+  width: 437px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: #FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
+  display: none;
 }
 
 #errors li {
-    padding: 2px;
-    list-style: none;
+  padding: 2px;
+  list-style: none;
 }
 
 #errors li:before {
-    content: ' - ';
+  content: ' - ';
 }
 
 #errors #info {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #errors #info:before {
-    content: '';
+  content: '';
 }
 
 #success {
-    border: solid 1px #83D186;
-    padding: 25px 10px;
-    margin: 25px 0px;
-    display: block;
-    width: 437px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    background: #D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
-    font-weight: bold;
-    display: none;
+  border: solid 1px #83D186;
+  padding: 25px 10px;
+  margin: 25px 0px;
+  display: block;
+  width: 437px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: #D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
+  font-weight: bold;
+  display: none;
 }
 
 #errors.visible,
 #success.visible {
-    display: block;
+  display: block;
 }
 
 #req-field-desc {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
 
 input:required,
 textarea:required {
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    -o-box-shadow: none;
-    box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
 }
 
 /* Normalize placeholder styles */
@@ -323,67 +332,67 @@ textarea:required {
 /* chrome, safari */
 
 ::-webkit-input-placeholder {
-    color: #CCC;
-    font-style: italic;
+  color: #CCC;
+  font-style: italic;
 }
 
 /* mozilla */
 
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-    color: #CCC;
-    font-style: italic;
+  color: #CCC;
+  font-style: italic;
 }
 
 /* ie (faux placeholder) */
 
 input.placeholder-text,
 textarea.placeholder-text {
-    color: #CCC;
-    font-style: italic;
+  color: #CCC;
+  font-style: italic;
 }
 
 checkbox-section {
-    padding-left: 50px;
-    margin-bottom: 16px;
-    display: block;
-    position: relative;
+  padding-left: 50px;
+  margin-bottom: 16px;
+  display: block;
+  position: relative;
 }
 
 checkbox-section input[type=checkbox] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: white;
-    border: 1px solid black;
-    padding: 9px;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 30px;
-    width: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+  border: 1px solid black;
+  padding: 9px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 30px;
+  width: 30px;
 }
 
 checkbox-section input[type=checkbox]:active,
 checkbox-section input[type=checkbox]:checked:active {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 checkbox-section input[type=checkbox]:checked {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
-    color: #99a1a7;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+  color: #99a1a7;
 }
 
 checkbox-section input[type=checkbox]:checked:after {
-    content: '\2714';
-    font-size: 2em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  content: '\2714';
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
