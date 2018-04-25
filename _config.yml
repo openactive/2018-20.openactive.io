@@ -141,6 +141,17 @@ defaults:
   values:
     thumbnail_image: "/uploads/placeholder.png"
     partner: 
+- scope:
+    path: ''
+    type: startups
+  values:
+    layout: startup
+    thumbnail_image: "/uploads/placeholder.png"
+    twitter: 
+    linkedin: 
+    role: 
+    company: 
+    link: 
 compress_html:
   blanklines: false
   profile: false

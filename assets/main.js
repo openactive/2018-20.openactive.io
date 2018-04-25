@@ -1,5 +1,12 @@
 $(document).ready(function () {
     (function ($) {
+
+
+
+        $(".demo").ycp({
+            apikey : 'AIzaSyB_zuXrp0TyGsod6g2PtzT5jlIO0j6z1X8'
+        });
+
         $('.diagram img').each(function( i ){
           $(this).delay(1000*i).fadeTo(1000,1);
         });
@@ -549,6 +556,29 @@ $(document).ready(function () {
                 .addClass('current')
                 .attr("aria-hidden", "false");
         });
+
+        var hash = document.location.hash;
+        if (hash) {
+            $('.tabsList .tablink')
+                .removeClass('current')
+                .attr("aria-selected", "false");
+            $('.tabPanel')
+                .removeClass('current')
+                .attr("aria-hidden", "true");
+
+            $('.tabsList .tablink a').each(function(){
+                if($(this).attr('href') == hash ){
+                    $(this).parent('.tablink')
+                        .addClass('current')
+                        .attr("aria-selected", "true");
+                }
+            });
+            $(hash)
+                .addClass('current')
+                .attr("aria-hidden", "false");
+            $("html, body").animate({ scrollTop: $('#tabs').offset().top -100 }, 1500);
+
+        }
 
         $('.notes-toggle').on("click", function () {
             $('.note-wrap').slideToggle();

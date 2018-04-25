@@ -23,7 +23,7 @@ OpenActive’s collaborative community includes ambitious start-ups supported th
 Explore the dashboard to learn more about our community and the datasets already published.
 
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .primary_cta}
-[Community toolkit](https://openactive.io/community/toolkit/){:target="_blank"}{: .primary_cta}
+[Community toolkit]( {{ site.baseurl }}{% link community/toolkit.markdown %}){:target="_blank"}{: .primary_cta}
 
 </div>
 </article>
@@ -127,7 +127,7 @@ Building the data revolution in the sport and physical sector is a collaborative
 
 {{ item.strapline | markdownify }}
 
-\[Find out more\]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
+[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
@@ -156,6 +156,26 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 
 {% include champions.html %}
 
+<!--  ---------------->
+<!-- START-UPS -->
+<!-- 
+<article>
+<div class="one">
+
+## OpenActive Startups
+
+The OpenActive Accelerator launches on 1 May! Check back then to find out more about the startups on the programme.
+
+</div>
+</article>
+ ---------------->
+<!--  ---------------->
+<!-- START-UPS  -->
+<!--  
+
+{% include startup.html %}
+
+---------------->
 <!--  ---------------->
 <!-- FAQS -->
 <!--  ---------------->

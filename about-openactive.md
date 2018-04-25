@@ -55,6 +55,10 @@ As a result, people find it hard to browse local opportunities, and services wan
 </div>
 <div class="two">
 
+
+
+
+
 ### How do you fit in?
 
 The OpenActive community was created by a group of engaged sport and physical activity organisations, with the aim of reaching new audiences with better opportunities to get active, by harnessing data and capitalising on innovative solutions.
@@ -115,9 +119,8 @@ The ODI's role is to build a community that is fair for everyone.
 
 ### How it works
 
-Let’s look at how we achieve our vision in practice and the progress we’ve made so far.
-
-\[How it Works\]( {{ site.baseurl }}{% link how-it-works.md %}){: .primary_cta}
+Let’s look at how we achieve our vision in practice and the progress we’ve made so far.  
+[How it Works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary}
 
 </div>
 <figure>
@@ -125,6 +128,10 @@ Let’s look at how we achieve our vision in practice and the progress we’ve m
 <div class="image" style="background: url({{ site.baseurl }}/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>
+
+
+
+
 
 <!--  ---------------->
 <!-- COMMUNITY CALL TO ACTION -->
@@ -139,7 +146,7 @@ Let’s look at how we achieve our vision in practice and the progress we’ve m
 This is an open-invitation community of pioneering organisations. If you are interested in getting involved please join us to find out more.
 Find out all about the open active community and how you can support it.
 
-\[Get involved\]( {{ site.baseurl }}{% link community.md %}){: .primary_cta}
+[Get involved]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
 
 <div class="line-graphic"></div>
 
