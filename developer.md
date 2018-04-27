@@ -173,7 +173,7 @@ Explore the map to find the data you need, identify which areas are embracing op
 
 [ Modelling specification](https://www.openactive.io/modelling-opportunity-data/){:target="_blank"}{: .link} - The specification for the OpenActive API data fields
 
-[ Beta Namespace](https://www.openactive.io/ns-beta/ /){:target="_blank"}{: .link} - Additional fields that are available for use but still under discussion
+[ Beta Namespace](https://www.openactive.io/ns-beta/){:target="_blank"}{: .link} - Additional fields that are available for use but still under discussion
 
 [ British Cycling Annotated Example](https://github.com/openactive/activation/issues/104){:target="_blank"}{: .link} - A "batteries included" example of a publishing endpoint
 
