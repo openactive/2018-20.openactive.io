@@ -410,7 +410,7 @@ Up to 10 selected startups invited to join the accelerator
 
 ## OpenActive Startups
 
-The OpenActive Startups Amet assumenda est ab asperiores incidunt unde. Officia tempore rem eaque. Rerum tenetur aliquid ut eos deserunt suscipit.
+The OpenActive accelerator launches on 1 May! Check back to find out more about the startups in the programme.
 
 </div>
 </article>
