@@ -46,16 +46,16 @@ Across a wide range of demographics, without any additional effort.
 <div class="block">
 <div class="unticked">
 <div class="svg one">
-<img src="{{ site.baseurl }}/assets/images/animation/first_ut.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/first_ut.svg">
 </div>
 <div class="svg two">
-<img src="{{ site.baseurl }}/assets/images/animation/second_ut.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/second_ut.svg">
 </div>
 <div class="svg three">
-<img src="{{ site.baseurl }}/assets/images/animation/third_ut.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/third_ut.svg">
 </div>
 <div class="svg four">
-<img src="{{ site.baseurl }}/assets/images/animation/four_ut.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/four_ut.svg">
 </div>
 
 <div class="svg five checkbox" markdown="0">
@@ -71,16 +71,16 @@ Across a wide range of demographics, without any additional effort.
 <div class="block ticked_wrap">
 <div class="ticked">
 <div class="svg five">
-<img src="{{ site.baseurl }}/assets/images/animation/first_t.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/first_t.svg">
 </div>
 <div class="svg six">
-<img src="{{ site.baseurl }}/assets/images/animation/second_t.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/second_t.svg">
 </div>
 <div class="svg seven">
-<img src="{{ site.baseurl }}/assets/images/animation/third_t.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/third_t.svg">
 </div>
 <div class="svg eight">
-<img src="{{ site.baseurl }}/assets/images/animation/four_t.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/four_t.svg">
 </div>
 </div>
 </div>
@@ -123,56 +123,56 @@ Opportunity data covers many types of physical activities. From one-to-one class
 <div class="types-inner">
 <div>
 
-![events]({{ site.baseurl }}/assets/images/icons/events.svg)
+![events]({{ site.baseurl }}/resources/images/icons/events.svg)
 
 ###### Events
 
 </div>
 <div>
 
-![sessions]({{ site.baseurl }}/assets/images/icons/sessions.svg)
+![sessions]({{ site.baseurl }}/resources/images/icons/sessions.svg)
 
 ###### Sessions
 
 </div>
 <div>
 
-![facilities]({{ site.baseurl }}/assets/images/icons/facilities.svg)
+![facilities]({{ site.baseurl }}/resources/images/icons/facilities.svg)
 
 ###### Facilities
 
 </div>
 <div>
 
-![leagues]({{ site.baseurl }}/assets/images/icons/leagues.svg)
+![leagues]({{ site.baseurl }}/resources/images/icons/leagues.svg)
 
 ###### Leagues and Ringers
 
 </div>
 <div>
 
-![courses]({{ site.baseurl }}/assets/images/icons/courses.svg)
+![courses]({{ site.baseurl }}/resources/images/icons/courses.svg)
 
 ###### Courses
 
 </div>
 <div>
 
-![online classes]({{ site.baseurl }}/assets/images/icons/online-classes.svg)
+![online classes]({{ site.baseurl }}/resources/images/icons/online-classes.svg)
 
 ###### Online Classes
 
 </div>
 <div>
 
-![routes]({{ site.baseurl }}/assets/images/icons/routes.svg)
+![routes]({{ site.baseurl }}/resources/images/icons/routes.svg)
 
 ###### Routes
 
 </div>
 <div>
 
-![Personal Trainer]({{ site.baseurl }}/assets/images/icons/trainer.svg)
+![Personal Trainer]({{ site.baseurl }}/resources/images/icons/trainer.svg)
 
 ###### Personal Trainers
 
@@ -192,70 +192,70 @@ Opportunity data covers many types of physical activities. From one-to-one class
 <div class="properties-inner">
 <div>
 
-![time]({{ site.baseurl }}/assets/images/icons/time.svg)
+![time]({{ site.baseurl }}/resources/images/icons/time.svg)
 
 ###### Time
 
 </div>
 <div>
 
-![Price]({{ site.baseurl }}/assets/images/icons/prices.svg)
+![Price]({{ site.baseurl }}/resources/images/icons/prices.svg)
 
 ###### Prices
 
 </div>
 <div>
 
-![Locations]({{ site.baseurl }}/assets/images/icons/locations.svg)
+![Locations]({{ site.baseurl }}/resources/images/icons/locations.svg)
 
 ###### Locations
 
 </div>
 <div>
 
-![Availability]({{ site.baseurl }}/assets/images/icons/availability.svg)
+![Availability]({{ site.baseurl }}/resources/images/icons/availability.svg)
 
 ###### Availability
 
 </div>
 <div>
 
-![descriptions]({{ site.baseurl }}/assets/images/icons/descriptions.svg)
+![descriptions]({{ site.baseurl }}/resources/images/icons/descriptions.svg)
 
 ###### Descriptions
 
 </div>
 <div>
 
-![images]({{ site.baseurl }}/assets/images/icons/images.svg)
+![images]({{ site.baseurl }}/resources/images/icons/images.svg)
 
 ###### Images
 
 </div>
 <div>
 
-![gender]({{ site.baseurl }}/assets/images/icons/gender.svg)
+![gender]({{ site.baseurl }}/resources/images/icons/gender.svg)
 
 ###### Gender restriction
 
 </div>
 <div>
 
-![age]({{ site.baseurl }}/assets/images/icons/age.svg)
+![age]({{ site.baseurl }}/resources/images/icons/age.svg)
 
 ###### Age range
 
 </div>
 <div>
 
-![difficulty]({{ site.baseurl }}/assets/images/icons/difficulty.svg)
+![difficulty]({{ site.baseurl }}/resources/images/icons/difficulty.svg)
 
 ###### Difficulty level
 
 </div>
 <div>
 
-![difficulty]({{ site.baseurl }}/assets/images/icons/accessibility.svg)
+![difficulty]({{ site.baseurl }}/resources/images/icons/accessibility.svg)
 
 ###### Accessibility
 
@@ -275,21 +275,21 @@ Opportunity data covers many types of physical activities. From one-to-one class
 <div class="not-included-inner">
 <div>
 
-![attendance]({{ site.baseurl }}/assets/images/icons/attendance.svg)
+![attendance]({{ site.baseurl }}/resources/images/icons/attendance.svg)
 
 ###### Participation and attendance data
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/sensitive.svg)
+![what_open_data.png]({{ site.baseurl }}/resources/images/icons/sensitive.svg)
 
 ###### Commercially sensitive data
 
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/customer.svg)
+![what_open_data.png]({{ site.baseurl }}/resources/images/icons/customer.svg)
 
 ###### Customer data
 

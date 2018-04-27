@@ -45,7 +45,7 @@ Review our list of data providers below to see who's already sharing their data.
 
 </div>
 <div class="two">
-<a href="http://status.openactive.io/" target="_blank"><img src="{{site.baseurl }}/assets/images/dash.png"></a>
+<a href="http://status.openactive.io/" target="_blank"><img src="{{ site.baseurl }}/resources/images/dash.png"></a>
 </div>
 </div>
 

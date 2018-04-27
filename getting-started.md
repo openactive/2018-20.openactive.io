@@ -8,7 +8,6 @@ strapline: Discover how to build unlimited reach for your activities
 layout: page-hero
 ---
 
-
 ---
 
 {::options parse_block_html="true" /}
@@ -42,7 +41,7 @@ aria-labelledby="activity-provider">
 <!--STEP ONE-->
 <div>
 
-![Webpage icon]({{ site.baseurl }}/assets/images/icons/tab1-step1.svg)
+![Webpage icon]({{ site.baseurl }}/resources/images/icons/tab1-step1.svg)
 
 <div class="step-text">
 
@@ -57,7 +56,7 @@ You may already use a booking system or club management system to list your acti
 <!--STEP TWO-->
 <div>
 
-![Tick box ]({{ site.baseurl }}/assets/images/icons/tab1-step2.svg)
+![Tick box ]({{ site.baseurl }}/resources/images/icons/tab1-step2.svg)
 
 <div class="step-text">
 
@@ -76,7 +75,7 @@ Find out if your booking system is OpenActive-enabled by searching for it below.
 <!--STEP THREE-->
 <div>
 
-![Your data is now open]({{ site.baseurl }}/assets/images/icons/tab1-step3.svg)
+![Your data is now open]({{ site.baseurl }}/resources/images/icons/tab1-step3.svg)
 
 <div class="step-text">
 
@@ -113,7 +112,7 @@ aria-labelledby="booking-systems">
 <!--STEP ONE-->
 <div>
 
-![Booking Systems]({{ site.baseurl }}/assets/images/icons/tab2-step1.svg)
+![Booking Systems]({{ site.baseurl }}/resources/images/icons/tab2-step1.svg)
 
 <div class="step-text">
 
@@ -130,7 +129,7 @@ You build a simple open API to allow customers to publish their activity listing
 <!--STEP TWO-->
 <div>
 
-![Open Data]({{ site.baseurl }}/assets/images/icons/tab2-step2.svg)
+![Open Data]({{ site.baseurl }}/resources/images/icons/tab2-step2.svg)
 
 <div class="step-text">
 
@@ -147,7 +146,7 @@ If you don't own the data, either include some text in your T&Cs or add a tick b
 <!--STEP THREE-->
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab2-step3.svg)
+![what_open_data.png]({{ site.baseurl }}/resources/images/icons/tab2-step3.svg)
 
 <div class="step-text">
 
@@ -163,7 +162,7 @@ Create a 'dataset' page on your website, making your data available for anyone t
 <!--STEP FOUR-->
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab2-step4.svg)
+![what_open_data.png]({{ site.baseurl }}/resources/images/icons/tab2-step4.svg)
 
 <div class="step-text">
 
@@ -203,7 +202,7 @@ aria-labelledby="use-data">
 </div>
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab3-step1.svg)
+![what_open_data.png]({{ site.baseurl }}/resources/images/icons/tab3-step1.svg)
 
 <div class="step-text">
 
@@ -221,7 +220,7 @@ Browse our status dashboard and map to understand the kinds of data available, a
 <!--STEP TWO-->
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab3-step2.svg)
+![what_open_data.png]({{ site.baseurl }}/resources/images/icons/tab3-step2.svg)
 
 <div class="step-text">
 
@@ -240,7 +239,7 @@ If you already have a website that engages an audience, an app, or a tool, it's 
 <!--STEP THREE-->
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab3-step3.svg)
+![what_open_data.png]({{ site.baseurl }}/resources/images/icons/tab3-step3.svg)
 
 <div class="step-text">
 
@@ -260,7 +259,7 @@ There are also data aggregators that provide one API to access all the data, and
 <!--STEP FOUR-->
 <div>
 
-![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab3-step4.svg)
+![what_open_data.png]({{ site.baseurl }}/resources/images/icons/tab3-step4.svg)
 
 <div class="step-text">
 

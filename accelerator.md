@@ -371,7 +371,7 @@ Up to 10 selected startups invited to join the accelerator
 <article class="title-row invert-5">
 <h2 class="sub-heading-two">Timeline</h2>
 <div class="one">
-<img src="{{ site.baseurl }}/assets/images/TimelineNew.png">
+<img src="{{ site.baseurl }}/resources/images/TimelineNew.png">
 </div>
 </article>
 

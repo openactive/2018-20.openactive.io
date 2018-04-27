@@ -218,7 +218,7 @@ $(window).scroll(function () {
         <a class="button-primary" href="{{ site.baseurl }}{% link start-ups.md %}">Start Ups</a>
     </div>
     <figure class="brand-three-bc">
-        <div style="background: url({{ site.url }}/openactive/assets/images/sideplank.jpg)center center / cover no-repeat;"></div>
+        <div style="background: url({{ site.url }}/resources/images/sideplank.jpg)center center / cover no-repeat;"></div>
     </figure>
 </article>
 ```

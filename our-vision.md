@@ -79,19 +79,19 @@ OpenActive can help you increase your visibility and allow you to reach new cust
 <div class="one subgrid">
 <div class="three">
 
-![People]({{ site.baseurl }}/assets/images/vision/people.svg)
+![People]({{ site.baseurl }}/resources/images/vision/people.svg)
 Get your opportunities in front of more people.
 
 </div>
 <div class="three">
 
-![fully-booked]({{ site.baseurl }}/assets/images/vision/fully-booked.svg)
+![fully-booked]({{ site.baseurl }}/resources/images/vision/fully-booked.svg)
 Find new ways to promote quiet sessions or fill spare capacity.
 
 </div>
 <div class="three">
 
-![Tennis]({{ site.baseurl }}/assets/images/vision/tennis.svg)
+![Tennis]({{ site.baseurl }}/resources/images/vision/tennis.svg)
 Describe your opportunities in a way that helps new customers decide to take part.
 
 </div>
@@ -118,31 +118,31 @@ OpenActive has the potential to offer a near-limitless range of services. The da
 <div class="one subgrid">
 <div class="three">
 
-![Magnifying Glass]({{ site.baseurl }}/assets/images/vision/magnifying-glass.svg)
+![Magnifying Glass]({{ site.baseurl }}/resources/images/vision/magnifying-glass.svg)
 Enriching services that people already use to find activities and opportunities. For example, services like [Change4Life](https://www.nhs.uk/change4life){:target="_blank"}.
 
 </div>
 <div class="three">
 
-![Family]({{ site.baseurl }}/assets/images/vision/family.svg)
+![Family]({{ site.baseurl }}/resources/images/vision/family.svg)
 Family-focused activity finders where parents can choose physical activities based on age range or skill level. For example, services like [Hoop](https://www.hoop.co.uk){:target="_blank"} or [SeeSaw](https://www.seesawapp.com){:target="_blank"}.
 
 </div>
 <div class="three">
 
-![Stethoscope]({{ site.baseurl }}/assets/images/vision/stethoscope.svg)
+![Stethoscope]({{ site.baseurl }}/resources/images/vision/stethoscope.svg)
 Helping youth workers, social care professionals, or GPs encourage their clients or patients to get active. For example, services like [Healum](https://www.healum.com/){:target="_blank"} or [Wellaware](https://www.wellaware.org.uk){:target="_blank"}.
 
 </div>
 <div class="three">
 
-![Upward-graph]({{ site.baseurl }}/assets/images/vision/upward-graph.svg)
+![Upward-graph]({{ site.baseurl }}/resources/images/vision/upward-graph.svg)
 Tools that are specifically designed to help people form active habits. For example, campaigns like [This Girl Can](http://www.thisgirlcan.co.uk/){:target="_blank"}.
 
 </div>
 <div class="three">
 
-![People]({{ site.baseurl }}/assets/images/vision/shaking-hands.svg)
+![People]({{ site.baseurl }}/resources/images/vision/shaking-hands.svg)
 Apps that emphasise the social rewards of physical activity or help someone find an option 'for people like me'. For example, [Find a Player](https://findaplayer.com/){:target="_blank"}.
 
 </div>

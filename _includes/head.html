@@ -87,14 +87,14 @@ g.clearUserCookie=function(){};
   <!--<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">-->
   <!--<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>-->
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <script  src="{{ "/assets/js/siema.min.js" | relative_url }}"></script>
-  <script  src="{{ "/assets/js/ycp.js" | relative_url }}"></script>
-  <script  src="{{ "/assets/main.js" | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ "/resources/main.css" | relative_url }}">
+  <script  src="{{ "/resources/js/siema.min.js" | relative_url }}"></script>
+  <script  src="{{ "/resources/js/ycp.js" | relative_url }}"></script>
+  <script  src="{{ "/resources/main.js" | relative_url }}"></script>
 
 
-  <script src="{{ "/assets/js/highlight.min.js" | relative_url }}"></script>
-  <script src="{{ "/assets/js/odometer.js" | relative_url }}"></script>
+  <script src="{{ "/resources/js/highlight.min.js" | relative_url }}"></script>
+  <script src="{{ "/resources/js/odometer.js" | relative_url }}"></script>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ " /feed.xml" | relative_url }}">
@@ -145,7 +145,7 @@ g.clearUserCookie=function(){};
           <meta content="{{ site.url }}/about/" property="article:author">
         {% endif %}
         {% if page.image %}
-          <meta content="/assets/{{ page.image }}" property="og:image">
+          <meta content="/resources/{{ page.image }}" property="og:image">
         {% else %}
           <meta content="http://www.sushkelly.co.uk/assets/twitter.jpg" property="og:image">
         {% endif %} -->
@@ -153,11 +153,11 @@ g.clearUserCookie=function(){};
   <meta content="{{ category }}" property="article:section"> {% endfor %} {% endif %} {% if page.tags %} {% for tag in page.tags %}
   <meta content="{{ tag }}" property="article:tag"> {% endfor %} {% endif %} {% if page.tipue_search_active or layout.tipue_search_active %}
 
-  <link rel="stylesheet" href="{{ "assets/tipuesearch/css/normalize.css " | relative_url }}">
-  <script src="{{ "assets/tipuesearch/tipuesearch_content.js " | relative_url }}"></script>
-  <link rel="stylesheet" href="{{ "assets/tipuesearch/css/tipuesearch.css " | relative_url }}">
-  <script src="{{ "assets/tipuesearch/tipuesearch_set.js " | relative_url }}"></script>
-  <script src="{{ "assets/tipuesearch/tipuesearch.min.js " | relative_url }}"></script> {% endif %} 
+  <link rel="stylesheet" href="{{ "resources/tipuesearch/css/normalize.css " | relative_url }}">
+  <script src="{{ "resources/tipuesearch/tipuesearch_content.js " | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ "resources/tipuesearch/css/tipuesearch.css " | relative_url }}">
+  <script src="{{ "resources/tipuesearch/tipuesearch_set.js " | relative_url }}"></script>
+  <script src="{{ "resources/tipuesearch/tipuesearch.min.js " | relative_url }}"></script> {% endif %} 
 
   <script>
     // Inject YouTube API script

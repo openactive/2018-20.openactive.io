@@ -158,7 +158,7 @@ locale: en-US
 description: Helping physical activity reach everyone. OpenActive is community-led
   initiative with an ambition to help people in England get active using open data.
 baseurl: 
-url: https://staging.openactive.io
+url: https://www.openactive.io
 repository: openactive/openactive-staging
 email: your-email@example.com
 github_username: imaginatecreative
