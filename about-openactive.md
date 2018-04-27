@@ -103,7 +103,7 @@ The community is open for anyone to join as we believe it's the best way to crea
 #### OpenActive is co-ordinated by the Open Data Institute.
 
 The [Open Data Institute (ODI)](http://theodi.org) is a not-for-profit organisation and was co-founded in 2012 by the inventor of the web, Sir Tim Berners-Lee, and AI expert Sir Nigel Shadbolt, to address today’s global challenges using the web of data.
-The ODI's responsibility as stewards of  OpenActive is to co-ordinate the development of the data standards, grow the community and help organisations publish and use [open opportunity data](https://beta.openactive.io/how-it-works/). We receive National Lottery funding from Sport England, obliging the ODI to manage the initiative to benefit the whole community above a single commercial entity.
+The ODI's responsibility as stewards of  OpenActive is to co-ordinate the development of the data standards, grow the community and help organisations publish and use [open opportunity data]( {{ site.baseurl }}{% link how-it-works.md %}). We receive National Lottery funding from Sport England, obliging the ODI to manage the initiative to benefit the whole community above a single commercial entity.
 The ODI's role is to build a community that is fair for everyone.
 
 </div>
