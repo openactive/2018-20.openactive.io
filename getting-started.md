@@ -138,9 +138,9 @@ You build a simple open API to allow customers to publish their activity listing
 
 If you don't own the data, either include some text in your T&Cs or add a tick box in your system to allow your customers to switch open data publishing on and off.
 
-[See Guidance]( {{ site.baseurl }}{% link 
-developer.md %}){:class="button-secondary" }
+[View OpenActive-enabled systems]( {{ site.baseurl }}{% link bookingsystems.md %}){:class="button-secondary" }
 
+[See Guidance]( {{ site.baseurl }}{% link how-to-publish-your-data.markdown %}){:class="button-secondary" }
 </div>
 </div>
 
@@ -174,7 +174,7 @@ From websites and apps that attract millions of users, through to communities an
 Data users may, from time to time, provide feedback or suggestions on how you can improve the data your customers publish.
 We'll publicise your data to make sure that as many people use it as possible.
 
-[See Examples]({{ site.baseurl }}{% link our-vision.md %}/#using-data){: .button-secondary}
+[See Examples]({{ site.baseurl }}{% link our-vision.md %}/#What kind of services can use open opportunity data?){: .button-secondary}
 
 </div>
 </div>

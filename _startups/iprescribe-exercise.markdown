@@ -1,6 +1,7 @@
 ---
 title: iPrescribe Exercise
 date: 2018-04-27 10:52:00 Z
+published: false
 tags:
 - startups
 thumbnail_image: "/uploads/logo%20full%20size%20-%20Lewis%20Manning.jpg"

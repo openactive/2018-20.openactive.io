@@ -1,6 +1,7 @@
 ---
 title: Onigo Escapes
 date: 2018-04-27 10:58:00 Z
+published: false
 tags:
 - startups
 thumbnail_image: "/uploads/OnigoLogo%20-%20Arthur%20Stril.png"
