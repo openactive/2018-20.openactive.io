@@ -404,7 +404,7 @@ Up to 10 selected startups invited to join the accelerator
 
 <!--  ---------------->
 <!-- START-UPS -->
-<!--  
+<!--  ---------------->
 <article>
 <div class="one">
 
@@ -414,14 +414,14 @@ The OpenActive Startups Amet assumenda est ab asperiores incidunt unde. Officia 
 
 </div>
 </article>
----------------->
+
 <!--  ---------------->
 <!-- START-UPS  -->
-<!--  
+<!--  ---------------->
 
 {% include startup.html %}
 
----------------->
+
 
 <!--  ---------------->
 <!-- FAQ'S BLOCK -->

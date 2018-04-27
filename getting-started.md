@@ -8,9 +8,10 @@ strapline: Discover how to build unlimited reach for your activities
 layout: page-hero
 ---
 
+
+---
+
 {::options parse_block_html="true" /}
-
-
 
 <!--  ---------------->
 <!-- TABS -->
@@ -43,17 +44,13 @@ aria-labelledby="activity-provider">
 
 ![Webpage icon]({{ site.baseurl }}/assets/images/icons/tab1-step1.svg)
 
-
-
 <div class="step-text">
 
-
 ##### Option A. I don't have a system where I keep my data online
+
 You may already use a booking system or club management system to list your activities online. If you don’t use one yet, it’s quick and easy to set up.
 
 [View OpenActive-enabled systems]( {{ site.baseurl }}{% link bookingsystems.md %}){:class="button-secondary" }
-
-
 
 </div>
 </div>
@@ -62,11 +59,10 @@ You may already use a booking system or club management system to list your acti
 
 ![Tick box ]({{ site.baseurl }}/assets/images/icons/tab1-step2.svg)
 
-
-
 <div class="step-text">
 
 ##### Option B. I do have a system where I list my activities
+
 Find out if your booking system is OpenActive-enabled by searching for it below. If your booking system isn't listed, you may need to ask your system provider to create an OpenActive feed.
 
 <div class="slim-booking">
@@ -82,21 +78,16 @@ Find out if your booking system is OpenActive-enabled by searching for it below.
 
 ![Your data is now open]({{ site.baseurl }}/assets/images/icons/tab1-step3.svg)
 
-
 <div class="step-text">
 
 ##### Option C. I have a custom-built booking or listing system
+
 Your developers will need to create an OpenActive feed. This should take around 3 days of development time.
 
 [Booking System Guidance]( {{ site.baseurl }}{% link getting-started.md %}#booking-systems){:class=" button-secondary" onclick="window.location.reload()"}
 
-
-
-
 </div>
 </div>
-
-
 
 </div>
 <!--  ---------------->
@@ -113,7 +104,6 @@ Your developers will need to create an OpenActive feed. This should take around 
 <div markdown="1" role="tabpanel" id="booking-systems" class="tabPanel" aria-hidden="true"
 aria-labelledby="booking-systems">
 
-
 <div>
 
 ### Booking Systems
@@ -125,15 +115,14 @@ aria-labelledby="booking-systems">
 
 ![Booking Systems]({{ site.baseurl }}/assets/images/icons/tab2-step1.svg)
 
-
 <div class="step-text">
 
 ##### 1. Create Simple API
-You build a simple open API to allow customers to publish their activity listings openly using the OpenActive data standard as a ' *dataset* '
+
+You build a simple open API to allow customers to publish their activity listings openly using the OpenActive data standard as a 'dataset'.
 
 [See Instructions]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary" }
 [See Existing implementations](http://status.openactive.io/){:target="_blank"}{:class="button-secondary" }
-
 
 </div>
 </div>
@@ -143,15 +132,14 @@ You build a simple open API to allow customers to publish their activity listing
 
 ![Open Data]({{ site.baseurl }}/assets/images/icons/tab2-step2.svg)
 
-
-
 <div class="step-text">
 
 ##### 2. Amend your terms and build an opt-out
+
 If you don't own the data, either include some text in your T&Cs or add a tick box in your system to allow your customers to switch open data publishing on and off.
 
-[See Guidance]( {{ site.baseurl }}{% link community/toolkit.markdown %}){:class="button-secondary" }
-
+[See Guidance]( {{ site.baseurl }}{% link 
+developer.md %}){:class="button-secondary" }
 
 </div>
 </div>
@@ -161,15 +149,14 @@ If you don't own the data, either include some text in your T&Cs or add a tick b
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab2-step3.svg)
 
-
 <div class="step-text">
 
 ##### 3. Make a dataset page so people can find your customers' data
+
 Create a 'dataset' page on your website, making your data available for anyone to access, use, or share. This page is automatically indexed by Google and included in the OpenActive dataset directory.
 
 [See Existing implimentations](http://status.openactive.io/){:target="_blank"}{:class="button-secondary" }
 [Instructions to create a dataset site](https://github.com/openactive/dataset-site-generator/wiki){:target="_blank"}{:class="button-secondary" }
-
 
 </div>
 </div>
@@ -178,23 +165,19 @@ Create a 'dataset' page on your website, making your data available for anyone t
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab2-step4.svg)
 
-
 <div class="step-text">
 
 ##### 4. Your customers' activities are available everywhere
+
 From websites and apps that attract millions of users, through to communities and services that engage local people.
 
 Data users may, from time to time, provide feedback or suggestions on how you can improve the data your customers publish.
 We'll publicise your data to make sure that as many people use it as possible.
 
-[See Examples]({{ site.baseurl }}{% link our-vision.md %}/#what-kind-of-services-can-be-built-with-open-opportunity-data){: .button-secondary}
-[Go to Developer area]( {{ site.baseurl }}{% link developer.md %}){: .button-secondary}
-
+[See Examples]({{ site.baseurl }}{% link our-vision.md %}/#what-kind-of-services-can-use-open-opportunity-data-?){: .button-secondary}
 
 </div>
 </div>
-
-
 
 </div>
 
@@ -222,18 +205,15 @@ aria-labelledby="use-data">
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab3-step1.svg)
 
-
-
 <div class="step-text">
 
 ##### 1. Understand what open data is available and how you can help
+
 Browse our status dashboard and map to understand the kinds of data available, and read our advocacy guidance to find out how to create more open data.
 
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{:class="button-secondary" }
 [Open data Map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed){:target="_blank"}{:class="button-secondary" }
 [Advocacy Guidance]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary" }
-
-
 
 </div>
 </div>
@@ -241,20 +221,17 @@ Browse our status dashboard and map to understand the kinds of data available, a
 <!--STEP TWO-->
 <div>
 
-
 ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab3-step2.svg)
-
 
 <div class="step-text">
 
 ##### 2. Decide where you want to put the data
+
 From websites and apps that attract millions of users, through to communities and services that engage local people, there are lots of ways to use OpenActive data.
 
 If you already have a website that engages an audience, an app, or a tool, it's useful to include the data in the same place. You might want to build a whole new app, website, or service, depending on whether you're a long-term business or a short-term campaign.
 
 [See Examples]({{ site.baseurl }}{% link our-vision.md %}/#what-kind-of-services-can-be-built-with-open-opportunity-data){: .button-secondary}
-
-
 
 </div>
 
@@ -265,10 +242,10 @@ If you already have a website that engages an audience, an app, or a tool, it's 
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab3-step3.svg)
 
-
 <div class="step-text">
 
 ##### 3. Decide how you want to consume the open data
+
 There are many white-labelled widgets available from organisations who make it easy for you to feature open data on your website.
 
 There are also data aggregators that provide one API to access all the data, and of course you can collect and display the data directly yourself.
@@ -276,7 +253,6 @@ There are also data aggregators that provide one API to access all the data, and
 <!-- [See procurement Guide]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" } -->
 [Visit active//choice](https://www.activechoice.org/){:target="_blank"}{:class="button-secondary" }
 [Developer Area]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary" }
-
 
 </div>
 </div>
@@ -286,10 +262,10 @@ There are also data aggregators that provide one API to access all the data, and
 
 ![what_open_data.png]({{ site.baseurl }}/assets/images/icons/tab3-step4.svg)
 
-
 <div class="step-text">
 
 ##### 4. Engage with activity providers and the community
+
 Provide feedback on the data via GitHub or directly reach out to the activity provider or booking system.
 
 Join the OpenActive community and use your local or commercial influence to get more data
@@ -297,14 +273,10 @@ Join the OpenActive community and use your local or commercial influence to get 
 <!-- [Feedback guidance]( {{ site.baseurl }}{% link developer.md %}){:class="button-primary" } -->
 [Join the community]( {{ site.baseurl }}{% link community.md %}){:class="button-secondary" }
 [Visit Active//choice](https://www.activechoice.org/){:target="_blank"}{: .button-secondary}
-[Go to developer area]( {{ site.baseurl }}{% link developer.md %}){: .button-secondary}
+
 
 </div>
 </div>
-
-
-
-
 
 </div>
 </div>
@@ -327,7 +299,6 @@ Join the OpenActive community and use your local or commercial influence to get 
 
 <!-- [Publish Data]( {{ site.baseurl }}{% link simple-publish.md %}){: .button-primary} -->
 
-
 <!-- </div> -->
 <!-- <div class="two  list"> -->
 
@@ -344,12 +315,10 @@ Join the OpenActive community and use your local or commercial influence to get 
 <!-- </div> -->
 <!-- </article> -->
 
-
-
 <!--  ---------------->
 <!-- CALL TO ACTION -->
 <!--  ---------------->
-<!-- 
+<!--
 <article>
 <div class="one">
 
@@ -360,15 +329,16 @@ If you think your organisation would benefit from open data, but the decision is
 </article>
 -->
 
-
 <!--  ---------------->
 <!-- CALL TO ACTION -->
 <!--  ---------------->
-<!-- 
+<!--
 <article class="call_to_action">
 <div class="subgrid">
 <div class="three">
+
 #### Convince your company
+
 Discover downloadable documents to give to your company.
 
 [Convince Company]( {{ site.baseurl }}{% link convince-company.md %}){: .button-primary}
@@ -377,6 +347,7 @@ Discover downloadable documents to give to your company.
 <div class="three">
 
 #### Tell your team
+
 Find resources designed to explain open data to your colleagues.
 
 [Tell Team]( {{ site.baseurl }}{% link tell-team.md %}){: .button-primary}
@@ -385,6 +356,7 @@ Find resources designed to explain open data to your colleagues.
 <div class="three">
 
 #### Contact us
+
 Have a question? Get in touch.
 
 <a class="button-primary" href="mailto:hello@openactive.io">Contact</a>
@@ -404,7 +376,9 @@ Have a question? Get in touch.
 
 {% assign subpage = site.pages | where: 'title', 'Developer' %}
 {% for item in subpage %}
+
 ### {{ item.title}}
+
 {{ item.strapline | markdownify }}
 
 [Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}

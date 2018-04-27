@@ -149,8 +149,7 @@ defaults:
     thumbnail_image: "/uploads/placeholder.png"
     twitter: 
     linkedin: 
-    role: 
-    company: 
+    tagline: 
     link: 
 compress_html:
   blanklines: false

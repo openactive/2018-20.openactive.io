@@ -10,6 +10,28 @@ layout: default
        <h3 itemprop="name headline">{{ page.title | escape }}&nbsp;{{ page.second-name | escape }}</h3>
       <p>{{ page.company }}</p>
       <p>{{ page.role }}</p>
+      <div class="social-links detail">
+
+        {% if page.linkedin %}
+        <a href="{{ page.linkedin }}" target="_blank">
+          <span class="icon icon--twitter">{% include linkedin.svg %}</span>
+          <span class="hidden" aria-hidden="true">LinkedIn</span>
+        </a>
+        {% endif %}
+        {% if page.link %}
+        <a href="{{ page.link }}" target="_blank">
+          <span class="icon icon--site">{% include site.svg %}</span>
+          <span class="hidden" aria-hidden="true">website</span>
+        </a>
+        {% endif %}
+        {% if page.twitter %}
+        <a target="_blank" rel="noopener" href="{{ page.twitter }}">
+          <span class="icon icon--twitter">{% include twitter.svg %}</span>
+          <span class="hidden" aria-hidden="true">Twitter</span>
+        </a>
+        {% endif %}
+
+      </div>
     </div>
     <figure class="brand-three-bc">
         <div style="background: url({{ site.baseurl }}{{ page.thumbnail_image }})center center / cover no-repeat;"></div>

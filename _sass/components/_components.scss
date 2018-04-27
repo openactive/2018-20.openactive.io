@@ -391,7 +391,7 @@ article {
       grid-template-columns: [full-start] minmax(calc(calc(100% - 1008px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1008px) / 2), 1fr) [full-end];
       align-items: start;
       margin-bottom: 3rem;
-      .open{
+      .open {
         margin-top: 20px;
       }
       .block {
@@ -438,7 +438,7 @@ article {
       font-family: $font-family;
       font-size: $base-font-size / 1.2;
       font-weight: 600;
-      padding-top:3px;
+      padding-top: 3px;
     }
 
     .checkbox > [type="checkbox"] + label:before {
@@ -528,6 +528,7 @@ article {
 
 .people {
   text-align: center;
+  .one{}
   .inline-block-six, .inline-block-five {
     text-align: center;
     position: relative;
@@ -564,6 +565,11 @@ article {
     }
 
     .svg.linkedin {
+      width: 17px;
+      height: 17px;
+      fill: $brand-one;
+    }
+    .svg.site {
       width: 17px;
       height: 17px;
       fill: $brand-one;
@@ -2797,5 +2803,23 @@ article {
     img {
       max-width: 200px;
     }
+  }
+}
+
+.social-links.detail {
+  width: 50%;
+  display: inline-flex;
+  flex-direction: row;
+  border-top: 1px solid white;
+  svg {
+    fill: $white;
+    width: 25px;
+    margin-right: 5px;
+    height: 25px;
+    margin-top: 10px!important;
+  }
+  svg.twitter {
+    width: 30px;
+    height: 30px;
   }
 }

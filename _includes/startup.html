@@ -13,9 +13,7 @@
 </a>
 <figcaption>
 <p><strong>{{ post.title | escape }}</strong></p>
-<p>{{ post.second-name | escape }} </p>
-<p>{{ post.company | escape }} </p>
-<p>{{ post.role | escape }} </p>
+<p></p>
 </figcaption>
 
 <div class="social-links">
@@ -40,6 +38,19 @@ Twitter
 </span>
 <span class="hidden" aria-hidden="true">
 LinkedIn
+</span>
+</a>
+
+{% endif %}
+
+{% if post.link %}
+
+<a href="{{ post.link }}" target="_blank">
+<span class="icon icon--site">
+{% include site.svg %}
+</span>
+<span class="hidden" aria-hidden="true">
+website
 </span>
 </a>
 

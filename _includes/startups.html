@@ -45,6 +45,20 @@ LinkedIn
 
 {% endif %}
 
+
+{% if post.link %}
+
+<a href="{{ post.link }}" target="_blank">
+<span class="icon icon--site">
+{% include site.svg %}
+</span>
+<span class="hidden" aria-hidden="true">
+website
+</span>
+</a>
+
+{% endif %}
+
 </div>
 </figure>
 
@@ -52,6 +66,7 @@ LinkedIn
 
 
 {% endfor %}
+
 
 </div>
 </article>

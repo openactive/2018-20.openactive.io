@@ -158,7 +158,7 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 
 <!--  ---------------->
 <!-- START-UPS -->
-<!-- 
+<!--  ---------------->
 <article>
 <div class="one">
 
@@ -168,14 +168,14 @@ The OpenActive Accelerator launches on 1 May! Check back then to find out more a
 
 </div>
 </article>
- ---------------->
+
 <!--  ---------------->
 <!-- START-UPS  -->
-<!--  
+<!--  ---------------->
 
 {% include startup.html %}
 
----------------->
+
 <!--  ---------------->
 <!-- FAQS -->
 <!--  ---------------->
