@@ -62,7 +62,7 @@ This document includes materials for the OpenActive Champions to support their e
 
 ### OpenActive developer documentation
 
-[Access documentation pages](https://beta.openactive.io/developer/)
+[Access documentation pages](https://openactive.io/developer/)
 
 ### OpenActive open data map
 
