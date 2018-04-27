@@ -576,7 +576,9 @@ $(document).ready(function () {
             $(hash)
                 .addClass('current')
                 .attr("aria-hidden", "false");
-            $("html, body").animate({ scrollTop: $('#tabs').offset().top -100 }, 1500);
+            if ( $('#tabs').length ) {
+               $("html, body").animate({ scrollTop: $('#tabs').offset().top -100 }, 1500);
+            }
 
         }
 

@@ -8,7 +8,6 @@ layout: page-hero
 
 {::options parse_block_html="true" /}
 
-
 <!--  ---------------->
 <!-- TEXT AREA-->
 <!--  ---------------->
