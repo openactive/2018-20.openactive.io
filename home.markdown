@@ -201,6 +201,9 @@ What's happening in the community, and how you can get involved!
 <!--  ---------------->
 <!-- NEWS BLOCK -->
 <!--  ---------------->
+
+<!--
+
 <article class="post-list title-row">
 <h2 class="sub-heading-two"> Latest News</h2>
 {% assign thePosts = site.posts | where: "is_featured", "true" %}
@@ -234,3 +237,5 @@ What's happening in the community, and how you can get involved!
 </div>
 {% endfor %}
 </article>
+
+-->
