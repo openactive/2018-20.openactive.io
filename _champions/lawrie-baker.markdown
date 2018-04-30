@@ -4,8 +4,8 @@ date: 2018-02-06 17:39:00 Z
 position: 0
 second-name: Baker
 thumbnail_image: "/uploads/lawrie-baker.jpg"
-twitter: https://twitter.com/amitpateluk
-linkedin: 'https://www.linkedin.com/in/amitpateluk/ '
+twitter: https://twitter.com/lawriebaker
+linkedin: https://uk.linkedin.com/in/lawrie-baker-03b3b255
 role: Sport Operations Manager
 company: Active Surrey
 link: http://www.activesurrey.com/about-us/active-surrey-staff
