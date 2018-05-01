@@ -1,10 +1,9 @@
 ---
 title: GoSweat
 date: 2018-04-27 10:44:00 Z
-published: false
 tags:
 - startups
-thumbnail_image: "/uploads/Screen%20Shot%202018-04-27%20at%2012.04.00.png"
+thumbnail_image: "/uploads/Screen%20Shot%202018-04-30%20at%2016.33.01-f4037c.png"
 twitter: https://twitter.com/GoSweat365
 tagline: Discover, book and experience your perfect way to Sweat
 link: https://www.gosweat.com/

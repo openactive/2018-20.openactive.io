@@ -125,10 +125,9 @@ Let’s look at how we achieve our vision in practice and the progress we’ve m
 </div>
 <figure>
 <div class="mask"></div>
-<div class="image" style="background: url({{ site.baseurl }}/resources/images/sideplank.jpg)center center / cover no-repeat;"></div>
+<div class="image" style="background: url({{ site.baseurl }}/uploads/Lesson-in-karate-school.jpg)center center / cover no-repeat;"></div>
 </figure>
 </article>
-
 
 
 

@@ -1,10 +1,9 @@
 ---
 title: Find a Race
 date: 2018-04-27 08:46:00 Z
-published: false
 tags:
 - startups
-thumbnail_image: "/uploads/far-logo-rgb%20-%20David%20Wearn.png"
+thumbnail_image: "/uploads/Screen%20Shot%202018-04-30%20at%2016.33.16.png"
 twitter: https://twitter.com/findarace
 linkedin: https://www.linkedin.com/company/findarace-com/
 tagline: Search, discover and book mass participation sports events

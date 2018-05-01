@@ -33,7 +33,7 @@ is_secondary_navigation: true
                 </figure>
                 <div class="two tworight">
                     <div class="wrap">
-                        <h5><a class="post-title post-link" href="{{ post.website }}" rel="noopener" target="_blank">{{
+                        <h5><a class="post-title post-link" href="{{ post.url | relative_url }}" >{{
                             post.title |
                             escape
                             }}</a></h5>

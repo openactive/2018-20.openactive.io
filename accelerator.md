@@ -266,6 +266,20 @@ The Open Data Institute sits at the heart of the open data movement globally…\
 </div>
 
 </article>
+<!--  ---------------->
+<!-- START-UPS -->
+<!--  ---------------->
+<article>
+<div class="one">
+</div>
+</article>
+
+<!--  ---------------->
+<!-- START-UPS  -->
+<!--  ---------------->
+
+{% include startup.html %}
+
 
 <!--  ---------------->
 <!-- MENTORS BLOCK -->
@@ -323,7 +337,7 @@ LinkedIn
 <!--  ---------------->
 <!-- MENTORS BLOCK -->
 <!--  ---------------->
-
+<!--  
 <article class="title-row steps collapse-bottom-with-pad invert-2" id="selection">
 <h2 class="sub-heading-two">How we select startups</h2>
 <div class="one non-grid">
@@ -364,6 +378,7 @@ Up to 10 selected startups invited to join the accelerator
 </div>
 </div>
 </article>
+---->
 
 <!--  ---------------->
 <!-- TIME LINE BLOCK -->
@@ -402,24 +417,6 @@ Up to 10 selected startups invited to join the accelerator
 
 
 
-<!--  ---------------->
-<!-- START-UPS -->
-<!--  ---------------->
-<article>
-<div class="one">
-
-## OpenActive Startups
-
-The OpenActive accelerator launches on 1 May! Check back to find out more about the startups in the programme.
-
-</div>
-</article>
-
-<!--  ---------------->
-<!-- START-UPS  -->
-<!--  ---------------->
-
-{% include startup.html %}
 
 
 

@@ -1,10 +1,9 @@
 ---
 title: Outdoor Nation
 date: 2018-04-27 11:12:00 Z
-published: false
 tags:
 - startups
-thumbnail_image: "/uploads/OutdoorNation%20logo.jpeg"
+thumbnail_image: "/uploads/Screen%20Shot%202018-04-30%20at%2016.46.07.png"
 twitter: https://twitter.com/outdoornationuk
 tagline: 'Passionate about getting more people active outdoors through adventurous
   activities in the UK’s National Parks and Areas of Outstanding National Beauty. '
