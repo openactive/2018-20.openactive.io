@@ -60,6 +60,18 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 
 <div class="line-graphic"></div>
 </article>
+<!--  ---------------->
+<!-- START-UPS -->
+<!--  ---------------->
+<article>
+<div class="one">
+</div>
+</article>
+{% include startup.html %}
+<!--  ---------------->
+<!-- START-UPS  -->
+<!--  ---------------->
+
 
 <!--  ---------------->
 <!-- START-UPS BLOCK -->
@@ -266,19 +278,7 @@ The Open Data Institute sits at the heart of the open data movement globally…\
 </div>
 
 </article>
-<!--  ---------------->
-<!-- START-UPS -->
-<!--  ---------------->
-<article>
-<div class="one">
-</div>
-</article>
 
-<!--  ---------------->
-<!-- START-UPS  -->
-<!--  ---------------->
-
-{% include startup.html %}
 
 
 <!--  ---------------->
