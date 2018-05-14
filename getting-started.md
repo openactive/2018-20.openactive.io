@@ -38,31 +38,20 @@ aria-labelledby="activity-provider">
 ### Activity Providers
 
 </div>
+
+
 <!--STEP ONE-->
-<div>
-
-![Webpage icon]({{ site.baseurl }}/resources/images/icons/tab1-step1.svg)
-
-<div class="step-text">
-
-##### Option A. I don't have a system where I keep my data online
-
-You may already use a booking system or club management system to list your activities online. If you don’t use one yet, it’s quick and easy to set up.
-
-[View OpenActive-enabled systems]( {{ site.baseurl }}{% link bookingsystems.md %}){:class="button-secondary" }
-
-</div>
-</div>
-<!--STEP TWO-->
 <div>
 
 ![Tick box ]({{ site.baseurl }}/resources/images/icons/tab1-step2.svg)
 
 <div class="step-text">
 
-##### Option B. I do have a system where I list my activities
+##### Option A. I have an online system where I list my activities
 
 Find out if your booking system is OpenActive-enabled by searching for it below. If your booking system isn't listed, you may need to ask your system provider to create an OpenActive feed.
+
+**Start typing the name of your booking system in the box below:**
 
 <div class="slim-booking">
 {% include booking-systems-slim.html %}
@@ -71,6 +60,24 @@ Find out if your booking system is OpenActive-enabled by searching for it below.
 </div>
 
 </div>
+
+
+<!--STEP TWO-->
+<div>
+
+![Webpage icon]({{ site.baseurl }}/resources/images/icons/tab1-step1.svg)
+
+<div class="step-text">
+
+##### Option B. I don't have a system where I keep my data online
+
+You may already use a booking system or club management system to list your activities online. If you don’t use one yet, it’s quick and easy to set up.
+
+[View OpenActive-enabled systems]( {{ site.baseurl }}{% link bookingsystems.md %}){:class="button-secondary" }
+
+</div>
+</div>
+
 
 <!--STEP THREE-->
 <div>
