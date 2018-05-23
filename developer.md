@@ -143,6 +143,7 @@ The map displays all activity data available in England.
 
 Explore the map to find the data you need, identify which areas are embracing open data, and which are yet to.
 
+![imin attribution - powered by (1).png](/uploads/imin%20attribution%20-%20powered%20by%20(1).png)
 
 [View data map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed){:target="_blank"}{:.button-primary}
 
