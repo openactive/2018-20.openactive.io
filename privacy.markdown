@@ -16,41 +16,93 @@ layout: page-hero
 <!-- YOUR CONTENT  GOES IN THIS CONTAINER -->
 <!--  ---------------->
 
-**At times we may collect and process your personal information; this, along with many of the tools we use, is standard among many sites. We do respect, and aim to protect, your privacy.**
+**We collect data about you when you use this website. We do this so that we can understand what interests people and how we can improve the site. We share some of this data with third parties who provide us with analytics and other services.**
 
-WHAT WE COLLECT
 
-* We collect personal data that you send us by email and/or when you fill in online forms.
+You have [rights over what is done with data that is about you](https://ico.org.uk/for-the-public/). You can contact us at [hello@openactive.io](mailto:hello@openactive.io) if you want to get a copy of that data. You can also ask us to update it, delete it or stop using it.
 
-* We collect data about your computer, such as your IP address, operating system and web browser, and the pages that you visit.
 
-* Our website uses cookies to tell you apart from other users when we look at how people use the site.
+## What data do we collect and why?
 
-HOW WE USE THIS INFORMATION
+When you join the community and mailing list, we ask for and keep the following:
 
-* We will only use your personal data to contact you in response to a request by you or to provide information that we think you may want.
+* your name, so we know how to address you
 
-* We will not give your personal data to third parties, unless you have given us permission, or we are required to do so by law.
+* your email address, so we can contact you
 
-* We will inform you before collecting your data if we intend to use it for marketing purposes. At any time you can ask us not to process your personal data for such purposes by contacting us at <datacontroller@theodi.org>. Alternatively you can simply [unsubscribe](http://openactive.us13.list-manage2.com/unsubscribe?u=9e6648557f84731796a4ac873&id=1665f95799) from the OpenActive mailing list to opt-out of our broadcast communications.
+We store this data until you delete your account, which you can do from your account page on the website, by updating your preferences on Mailchimp or by contacting us at [hello@openactive.io](mailto:hello@openactive.io).
 
-* You can access your data under The Data Protection Act 1998 for a small administration fee.
+We collect data as you use this website about:
 
-* The data we collect from you may be stored and processed outside the European Economic Area.
+* what pages you access, so that we know what content is popular
 
-OTHER CAVEATS
+* any non-sensitive text you enter and your mouse movements, so that we can improve the user experience 
 
-* If you follow a link from our site to another you are no longer covered by our privacy policy.
+* the device and software you use, so that we know how to design the site
 
-* Any changes we may make to our privacy policy in the future will be posted on this page or sent to you by e-mail.
+* your location, so that we know where in the world we reach
 
-* This website uses FullStory, a service that allows us to collect information from you concerning your use of this website and only this website, including but not limited to pages visited, links clicked, non-sensitive text entered, and mouse movements. FullStory is used to help us enhance and improve the user experience on this website and to perform any other function that we reasonably believe in good faith is required to protect and ensure the proper functionality and security of this website.
+We do not link this back to your name or email address and we only store it in aggregated form.
 
-CONTACTS
+Your browser stores some of this data using cookies. Your browser sends cookie data to us and third parties every time you visit our pages. [Our cookie policy](https://theodi.org/about-the-odi/legal/cookie-policy/) has more information about the cookies we use and why we use them.
 
-Questions, comments and requests regarding this privacy policy are welcomed and should be sent to <datacontroller@theodi.org>. 
 
-For the purpose of the Data Protection Act 1998 (the Act), the data controller is Open Data Institute of 65 Clifton Street, London, EC2A 4JE. Our nominated representative for the purpose of the Act is Jeni Tennison.
+## How do we use this data?
+
+We use this data to:
+
+* contact you in response to a request by you or to provide information that we think you may want
+
+* understand what the users of our website need so we can improve it
+
+* add you to our supporters page 
+
+We do not use it for any automated decision making.
+
+
+## How do we share this data?
+
+We share this data with a few third parties, who process it to give us better understanding.
+
+* [Google Analytics](https://www.google.com/analytics/#?modal_active=none), to analyse the users of our website
+
+* [FullStory](https://www.fullstory.com/), a service that allows us to collect information that will help us improve the user experience of the website.
+
+We have made sure the third parties who are not in the EU protect the data to the same extent as companies in the EU.
+
+We may also need to share this data with the authorities if they ask us to do so.
+
+
+## What rights and control do you have?
+
+Because we operate in the UK, [you have rights](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/) over the data about that we collect. You can:
+
+* ask for a copy of data we have collected about you
+
+* ask us to update that data
+
+* ask us to delete it
+
+* ask us to stop using it
+
+If you ask for a copy of data we have about you, we have to provide it to you free of charge. You can ask us to send it directly to a third party. We have to provide it in a commonly-used machine-readable format.
+
+You can do some of these things through the website, by editing or deleting your account. Otherwise, contact [hello@openactive.io](mailto:hello@openactive.io).
+
+Please tell us if you have concerns about how we collect, use or share data about you. You can also [raise your concerns](https://ico.org.uk/for-the-public/raising-concerns/) with the UK Information Commissioner’s Office.
+
+
+## When might this policy change?
+
+We created this privacy policy on **23rd May 2018**. If you have an account with us, we will tell you in the future before we update this privacy policy.
+
+
+## Who can I talk to about this policy?
+
+Please send any questions about this privacy policy to [hello@openactive.io](mailto:hello@openactive.io). 
+
+The data controller for this website is Open Data Institute of 65 Clifton Street, London, EC2A 4JE. Our data protection officer is [Leigh Dodds](mailto:leigh.dodds@theodi.org).
+
 
 </div>
 </article>
