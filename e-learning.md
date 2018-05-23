@@ -3,6 +3,7 @@ title: E-learning
 permalink: "/e-learning"
 position: 16
 is_main_navigation: false
+is_secondary_navigation: true
 thumbnail_image: "/uploads/Lesson-in-karate-school.jpg"
 strapline: The Open Data Institute are providing a free, online open data e-learning
   course, including a set of practical modules covering what open data is, its business

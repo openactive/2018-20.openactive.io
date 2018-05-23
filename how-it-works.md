@@ -99,7 +99,7 @@ This data can be made available for anyone to access, use, and share, helping co
 
 By encouraging organisations to publish their data openly and to a commonly agreed standard, we are not only facilitating open sharing across individual websites, but building a connected, online community that’s free to grow and innovate in response to its consumers’ needs.
 
-[Get a deeper understanding]({{ site.baseurl }}{% link e-learning.md %}){:.button-primary}
+[Check out our e-learning]({{ site.baseurl }}{% link e-learning.md %}){:.button-primary}
 
 </div>
 
