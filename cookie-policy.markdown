@@ -1,6 +1,8 @@
 ---
 title: Cookie policy
 date: 2018-05-24 11:01:00 Z
+is_main_navigation: false
+is_secondary_navigation: false
 ---
 
 {::options parse_block_html="true" /}

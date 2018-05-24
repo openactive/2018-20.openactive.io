@@ -44,7 +44,7 @@ We collect data as you use this website about:
 
 We do not link this back to your name or email address and we only store it in aggregated form.
 
-Your browser stores some of this data using cookies. Your browser sends cookie data to us and third parties every time you visit our pages. [Our cookie policy](https://theodi.org/about-the-odi/legal/cookie-policy/) has more information about the cookies we use and why we use them.
+Your browser stores some of this data using cookies. Your browser sends cookie data to us and third parties every time you visit our pages. [Our cookie policy](https://www.openactive.io/cookie-policy.html){:target="_blank"}{: .link} - has more information about the cookies we use and why we use them.
 
 
 ## How do we use this data?
