@@ -73,20 +73,20 @@ From leisure operators to national governing bodies, local sports clubs to event
 
 ##### **Includes details such as:**
 
-* ![icons]({{ site.baseurl }}/resources/images/icons/prices.svg) How much will it cost?
+* ![Price tag icon]({{ site.baseurl }}/resources/images/icons/prices.svg) How much will it cost?
 
-* ![icons]({{ site.baseurl }}/resources/images/icons/availability.svg)  When is a court available?
+* ![Calendar icon]({{ site.baseurl }}/resources/images/icons/availability.svg)  When is a court available?
 
-* ![icons]({{ site.baseurl }}/resources/images/icons/locations.svg)  Where is the class? 
+* ![Map marker icon]({{ site.baseurl }}/resources/images/icons/locations.svg)  Where is the class? 
 {:.icons}
 
 ##### **But not data like:**
 
-* ![icons]({{ site.baseurl }}/resources/images/icons/attendance.svg)  Participation and attendance data
+* ![Graph trending upwards icon]({{ site.baseurl }}/resources/images/icons/attendance.svg)  Participation and attendance data
 
-* ![icons]({{ site.baseurl }}/resources/images/icons/sensitive.svg)  Commercially sensitive data
+* ![Eye crossed out icon]({{ site.baseurl }}/resources/images/icons/sensitive.svg)  Commercially sensitive data
 
-* ![icons]({{ site.baseurl }}/resources/images/icons/customer.svg)  Customer data
+* ![Customer card icon]({{ site.baseurl }}/resources/images/icons/customer.svg)  Customer data
 {:.icons}
 
 
