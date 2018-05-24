@@ -1,7 +1,7 @@
 ---
-title: Privacy / Cookie policy
+title: Privacy policy
 date: 2018-04-16 11:38:00 Z
-permalink: "/privacy-and-cookie-policy"
+permalink: "/privacy-policy"
 position: 31
 is_main_navigation: false
 is_secondary_navigation: true
