@@ -180,7 +180,7 @@ From websites and apps that attract millions of users, through to communities an
 Data users may, from time to time, provide feedback or suggestions on how you can improve the data your customers publish.
 We'll publicise your data to make sure that as many people use it as possible.
 
-[See Examples]({{ site.baseurl }}{% link our-vision.md %}/#what-kind-of-services-can-use-open-opportunity-data){: .button-secondary}
+[See Examples]({{ site.baseurl }}{% link our-vision.md %}#what-kind-of-services-can-use-open-opportunity-data){: .button-secondary}
 
 </div>
 </div>

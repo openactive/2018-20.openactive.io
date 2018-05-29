@@ -31,7 +31,8 @@ Because no single platform or app holds all the data available under OpenActive,
 </div>
 <div class="two">
 
-[How to use OpenActive data]( {{ site.baseurl }}{% link use-data.md %}){:class="button-primary" }
+[How to use OpenActive data]( {{ site.baseurl }}{% link getting-started.md %}#use-data){:class=" button-primary"}
+
 </div>
 </article>
 

@@ -220,7 +220,7 @@ Opportunity data covers many types of physical activities. From one-to-one class
 </div>
 <div>
 
-![descriptions]({{ site.baseurl }}/resources/images/icons/descriptions.svg)
+![descriptions]({{ site.baseurl }}/resources/images/icons/descriptions2.svg)
 
 ###### Descriptions
 
