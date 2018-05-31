@@ -89,7 +89,7 @@ If you ask for a copy of data we have about you, we have to provide it to you fr
 
 You can do some of these things through the website, by editing or deleting your account. Otherwise, contact [hello@openactive.io](mailto:hello@openactive.io).
 
-Please tell us if you have concerns about how we collect, use or share data about you. You can also [raise your concerns](https://ico.org.uk/for-the-public/raising-concerns/) with the UK Information Commissioner’s Office.
+Please tell us if you have concerns about how we collect, use or share data about you. You can also [raise your concerns](https://ico.org.uk/your-data-matters/raising-concerns/) with the UK Information Commissioner’s Office.
 
 
 ## When might this policy change?

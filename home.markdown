@@ -127,7 +127,7 @@ Our open-invitation community is dynamic and self-supporting, and we welcome you
 {% for post in posts %}
 {% assign theImage = post.thumbnail_image %}
 <div class="mobile-hide-content" data-tab="{{ forloop.index }}" markdown="0" >
-<a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
+<a href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}" alt="{{ post.title}}" /></a>
 </div>
 {% endfor %}
 </div>
