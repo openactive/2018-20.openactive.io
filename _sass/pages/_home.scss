@@ -148,38 +148,7 @@ html.cssgrid {
     }
     .accelerator {
     }
-    .what-we-do {
 
-      .icons {
-
-        margin: 1rem 0 0 0;
-        padding: 0;
-        li {
-          list-style: none;
-          font-size: .75rem;
-          margin-bottom: 0.5rem;
-          img {
-            width: 30px;
-            display: inline;
-          }
-        }
-
-      }
-      .line-graphic{
-        right: 0;
-        position: absolute;
-        height: 100%;
-        width: 130px;
-        display: inline-flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        padding-top: 8rem;
-        z-index: 0;
-        svg{
-          right:0;
-        }
-      }
-    }
   }
 }
 
@@ -210,6 +179,38 @@ html.cssgrid {
         @media only screen and (max-width: 750px) {
           columns: 1;
         }
+      }
+    }
+  }
+  .what-we-do {
+
+    .icons {
+
+      margin: 1rem 0 0 0;
+      padding: 0;
+      li {
+        list-style: none;
+        font-size: .75rem;
+        margin-bottom: 0.5rem;
+        img {
+          width: 30px;
+          display: inline;
+        }
+      }
+
+    }
+    .line-graphic{
+      right: 0;
+      position: absolute;
+      height: 100%;
+      width: 130px;
+      display: inline-flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      padding-top: 8rem;
+      z-index: 0;
+      svg{
+        right:0;
       }
     }
   }

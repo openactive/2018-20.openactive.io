@@ -21,7 +21,8 @@ layout: home
 
 <div class="content">
 
-# Helping physical activity reach everyone
+# Helping physical activity reach everyone 
+
 
 We are supporting innovation to help people get active.
 

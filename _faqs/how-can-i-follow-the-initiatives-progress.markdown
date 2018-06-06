@@ -2,7 +2,7 @@
 title: How can I follow the initiative’s progress?
 date: 2018-02-07 12:00:00 Z
 categories:
-- About OpenActive Data
+- About OpenActive
 ---
 
-Start by following us on [Twitter](https://twitter.com/openactiveio). We’ll be sharing details about our OpenActive Accelerator at every stage, from the calls for applications to the programme itself. And we promise you’ll hear all about our mentors and open opportunity data too.
+Join the [mailing list](http://openactive.us13.list-manage1.com/subscribe?u=9e6648557f84731796a4ac873&id=1665f95799) and follow us on [Twitter](https://twitter.com/openactiveio).

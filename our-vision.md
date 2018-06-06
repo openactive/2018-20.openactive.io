@@ -89,7 +89,7 @@ Get your opportunities in front of more people.
 Find new ways to promote quiet sessions or fill spare capacity.
 
 </div>
-<div class="three">
+<div class="three" id="examples-scroll">
 
 ![Tennis]({{ site.baseurl }}/resources/images/vision/tennis.svg)
 Describe your opportunities in a way that helps new customers decide to take part.

@@ -1,8 +1,9 @@
 ---
-title: What is open opportunity data?
+title: What is OpenActive data?
 date: 2018-02-07 11:34:00 Z
+categories:
+- About OpenActive Data
 ---
 
- ‘Open opportunity data’ is data about where and when sport and physical activities happen – for example: when a yoga class is, a boxing class age restriction, a tennis court hire cost, where a group run is taking place.
+OpenActive data is ‘open opportunity data’ about sports opportunities. By making this openly available, more people will be able to find out about local opportunities, and this will make getting active easier. [OpenActive e-learning modules](https://www.openactive.io/e-learning) will take you through what ‘open opportunity data’ is and why it is important.
 
-The data is openly available for anyone to access, use and share, with an open license. It does not include personal data about customers, or commercially restricted data.

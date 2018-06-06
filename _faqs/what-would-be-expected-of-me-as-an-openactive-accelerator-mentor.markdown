@@ -6,4 +6,4 @@ categories:
 is_featured: true
 ---
 
-Our mentors advise closely aligned startups in person and remotely. We'd love to hear from you. [Send us your details](mailto:lisa.ellwood@theodi.org) and we'll be in touch.
+Our mentors advise the startups in person and remotely. We’d love to hear from you. We'd love to hear from you. [Send us your details](mailto:lisa.ellwood@theodi.org) and we'll be in touch.

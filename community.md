@@ -103,7 +103,7 @@ Building the data revolution in the sport and physical sector is a collaborative
 {% for post in posts %}
 {% assign theImage = post.thumbnail_image %}
 <div class="mobile-hide-content" data-tab="{{ forloop.index }}" markdown="0" >
-<a  href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
+<a href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}" alt="{{ post.title }}"/></a>
 </div>
 {% endfor %}
 </div>

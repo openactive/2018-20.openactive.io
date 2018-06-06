@@ -6,4 +6,4 @@ categories:
 is_featured: true
 ---
 
-Contact [Lisa Ellwood](mailto:lisa.ellwood@theodi.org), OpenActive Accelerator Programme Manager. 
+Contact [Lisa Ellwood](mailto:lisa.ellwood@theodi.org), the OpenActive Startup Accelerator Manager. 

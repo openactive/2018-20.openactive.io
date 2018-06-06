@@ -1,6 +1,7 @@
 ---
 title: What makes data open?
 date: 2018-02-07 11:55:00 Z
+published: false
 ---
 
 [Open data](https://theodi.org/guides/what-open-data){: target="_blank"} is data that anyone can access, use and share.

@@ -1186,18 +1186,20 @@ html.no-cssgrid {
         }
         @media only screen and (max-width: 1200px) {
           &:nth-child(2n+1) {
-            width: 68.7%;
+            width: 28.7%;
+
           }
           &:nth-child(2n+2) {
-            width: 28.7%;
+            width: 68.7%;
+
           }
         }
         @media only screen and (max-width: 950px) {
           &:nth-child(2n+1) {
-            width: 68.5%;
+            width: 28.5%;
           }
           &:nth-child(2n+2) {
-            width: 28.5%;
+            width: 68.5%;
           }
         }
       }
@@ -1216,34 +1218,36 @@ html.no-cssgrid {
           margin-left: 1%;
         }
         &.tworight {
-          &:nth-child(2n+1) {
+          &:nth-child(2n+2) {
             width: 28.8%;
           }
-          &:nth-child(2n+2) {
+          &:nth-child(2n+3) {
             width: 68.8%;
           }
           @media only screen and (max-width: 1200px) {
-            &:nth-child(2n+1) {
+            &:nth-child(2n+2) {
               width: 68.7%;
             }
-            &:nth-child(2n+2) {
+            &:nth-child(2n+3) {
               width: 28.7%;
             }
           }
         }
         &.twoleft {
-          &:nth-child(2n+1) {
+          &:nth-child(2n+2) {
             width: 68.8%;
           }
-          &:nth-child(2n+2) {
+          &:nth-child(2n+3) {
             width: 28.8%;
           }
           @media only screen and (max-width: 1200px) {
-            &:nth-child(2n+1) {
-              width: 68.7%;
-            }
             &:nth-child(2n+2) {
+              width: 68.7%;
+
+            }
+            &:nth-child(2n+3) {
               width: 28.7%;
+
             }
           }
         }
@@ -1651,6 +1655,39 @@ html.no-cssgrid {
       }
     }
   }
+
+  .right-col {
+    display: none;
+  }
+  .freegrid-three {
+    div {
+      width: 30%;
+      display: inline-block;
+
+    }
+  }
+  .freegrid-four {
+    div {
+      width: 24%;
+      display: inline-block;
+
+    }
+  }
+  .freegrid-five {
+    div {
+      width: 14%;
+      display: inline-block;
+    }
+  }
+  .freegrid-six {
+    div {
+      width: 16%;
+      display: inline-block;
+
+    }
+
+  }
+
 }
 
 div.inline-block-five {

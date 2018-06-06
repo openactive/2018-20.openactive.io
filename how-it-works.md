@@ -46,16 +46,16 @@ Across a wide range of demographics, without any additional effort.
 <div class="block">
 <div class="unticked">
 <div class="svg one">
-<img src="{{ site.baseurl }}/resources/images/animation/first_ut.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/first_ut.svg" alt="Your activities" />
 </div>
 <div class="svg two">
-<img src="{{ site.baseurl }}/resources/images/animation/second_ut.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/second_ut.svg" alt="Your booking systems" />
 </div>
 <div class="svg three">
-<img src="{{ site.baseurl }}/resources/images/animation/third_ut.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/third_ut.svg" alt="Your website" />
 </div>
 <div class="svg four">
-<img src="{{ site.baseurl }}/resources/images/animation/four_ut.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/four_ut.svg" alt="Your network" />
 </div>
 
 <div class="svg five checkbox" markdown="0">
@@ -71,16 +71,16 @@ Across a wide range of demographics, without any additional effort.
 <div class="block ticked_wrap">
 <div class="ticked">
 <div class="svg five">
-<img src="{{ site.baseurl }}/resources/images/animation/first_t.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/first_t.svg" alt="Your activities" />
 </div>
 <div class="svg six">
-<img src="{{ site.baseurl }}/resources/images/animation/second_t.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/second_t.svg" alt="When your booking system is open" />
 </div>
 <div class="svg seven">
-<img src="{{ site.baseurl }}/resources/images/animation/third_t.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/third_t.svg" alt="More apps and services" />
 </div>
 <div class="svg eight">
-<img src="{{ site.baseurl }}/resources/images/animation/four_t.svg">
+<img src="{{ site.baseurl }}/resources/images/animation/four_t.svg" alt="Larger community reach" />
 </div>
 </div>
 </div>
