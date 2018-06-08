@@ -1900,8 +1900,11 @@ nav {
         color: $nav-color;
         text-decoration: none;
         font-weight: 600;
+        &:active{
+
+        }
         &:focus {
-          outline: none;
+          //outline: none;
         }
       }
     }

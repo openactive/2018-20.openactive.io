@@ -140,7 +140,9 @@ Building the data revolution in the sport and physical sector is a collaborative
 <!--  ---------------->
 <!-- CHAMPIONS -->
 <!--  ---------------->
-<article>
+<article class="title-row">
+<h2 class="sub-heading-two">Champions</h2>
+
 <div class="one">
 
 ## OpenActive champions
