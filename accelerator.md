@@ -449,7 +449,7 @@ in touch</a></p>
 <!-- PARTNERS BLOCK -->
 <!--  ---------------->
 <article class="title-row partners">
-<h2 class="sub-heading-two">Supporters and data providers</h2>
+<h2 class="sub-heading-two">Supporters </h2>
 
 {% assign sortedPosts = site.partners | sort: 'title' %}
 {% for post in sortedPosts %}
@@ -461,7 +461,18 @@ in touch</a></p>
 </figure>
 </div>
 
+
 {% endfor %}
+
+</article>
+
+
+<!--  ---------------->
+<!-- DATA PROVIDERS BLOCK -->
+<!--  ---------------->
+<article class="title-row partners">
+<h2 class="sub-heading-two">Data Providers</h2>
+
 
 {% assign sortedPosts = site.dataproviders | sort: 'title' %}
 {% for post in sortedPosts %}
