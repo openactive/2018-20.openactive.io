@@ -35,11 +35,11 @@ layout: default
             {% assign theImage = post.thumbnail_image %}
             {% if post.member %}
             {% assign theMember = site.members | where:"title", post.member  | first %}
-            {% assign theImage = theMember.thumbnail_image %} 
+            {% assign theImage = theMember.thumbnail_image %}
             {% endif %}
             <div class="subgrid" id="member-{{ forloop.index }}">
                 <figure role="group" class="two tworight">
-                    <img role="logo" src="{{theImage | relative_url}}">
+                    <img role="logo" src="{{theImage | relative_url}}" alt="{{ post.title }}">
                 </figure>
                 <div class="two tworight">
                     <div class="wrap">
@@ -88,7 +88,7 @@ layout: default
 
         </div>
     </article>
-   
+
 
 
 </div>

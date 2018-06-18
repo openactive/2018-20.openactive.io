@@ -29,7 +29,7 @@ is_secondary_navigation: true
             {% for post in sortedPosts %}
             <div class="subgrid" id="member-{{ forloop.index }}">
                 <figure role="group" class="two tworight">
-                    <img role="logo" src="{{post.thumbnail_image | relative_url}}">
+                    <img role="logo" src="{{post.thumbnail_image | relative_url}}" alt="{{ post.title }}">
                 </figure>
                 <div class="two tworight">
                     <div class="wrap">
@@ -55,5 +55,3 @@ is_secondary_navigation: true
 
 
 </div>
-
-

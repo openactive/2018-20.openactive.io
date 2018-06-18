@@ -8,7 +8,7 @@
 
 <h4>Activity provider quick start</h4>
 <p>Reach more customers. Search our list of booking and listing systems to see if yours is already OpenActive-enabled.</p>
-<p><img src="{{ site.baseurl }}/resources/images/home_tick.svg"></p>
+<p><img src="{{ site.baseurl }}/resources/images/home_tick.svg" alt="Icons showing a page and checkbox" /></p>
   
   
 </div>
@@ -28,7 +28,7 @@
 {% assign theImage = theMember.thumbnail_image %}
 {% endif %}
 <div class="booking-tab" markdown="0" >
-<a href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}"/></a>
+<a href="{{ post.url | relative_url }}"><img role="logo" src="{{ theImage  | relative_url}}" alt="{{post.title}} logo" /></a>
 <span class="hidden">{{post.title}}</span>
 <span class="hidden">{{post.title | downcase}}</span>
 </div>
@@ -40,7 +40,7 @@
 {% endfor %}
 {% endif %}
 
-<img class="logo" src="{{ site.baseurl }}/resources/images/blank.svg"/>
+<img class="logo" src="{{ site.baseurl }}/resources/images/blank.svg" alt="Blank logo" />
 <a href="{{ site.baseurl }}{% link bookingsystems.md %}"></a>
 <h4>+{{ num | minus:7 }}</h4>
 </div>
