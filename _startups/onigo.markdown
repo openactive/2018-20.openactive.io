@@ -3,7 +3,7 @@ title: Onigo
 date: 2018-04-27 10:58:00 Z
 tags:
 - startups
-thumbnail_image: "/uploads/Screen%20Shot%202018-05-03%20at%2010.16.04.png"
+thumbnail_image: "/uploads/Onigo%20Logo-ba6d18.png"
 twitter: https://twitter.com/PlayOnigo
 tagline: Onigo aims to become the largest physical activity provider in the world,
   without owning any facility. We create tech-enabled real-world experiences in the

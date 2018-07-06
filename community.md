@@ -161,7 +161,8 @@ The OpenActive Champions are ten advocates embracing and influencing local trans
 <!--  ---------------->
 <!-- START-UPS -->
 <!--  ---------------->
-<article>
+<article class="title-row">
+<h2 class="sub-heading-two">Start-Ups</h2>
 <div class="one">
 
 ## OpenActive Startups
