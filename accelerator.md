@@ -2,7 +2,7 @@
 title: Accelerator
 permalink: "/accelerator/"
 position: 30
-is_main_navigation: false
+is_main_navigation: true
 is_secondary_navigation: true
 thumbnail_image: "/uploads/cover12_2.jpg"
 strapline: The OpenActive Accelerator is part of a groundbreaking open data initiative
@@ -25,13 +25,13 @@ style="background: url({{site.baseurl}}{{page.thumbnail_image}})center 43% / cov
 
 ### Let’s make it easier
 
-Almost 18 million (39.4%) of adults in England don’t exercise enough to improve their health and
-wellbeing.
+Almost 18 million (39.4%) of adults in England don’t exercise enough to improve their health and wellbeing.
 
 ###### Sport England
 
 <p><a href="https://www.sportengland.org/media/12458/active-lives-adult-may-16-17-report.pdf"
 target="_blank">Active Lives Survey - 16/17</a></p>
+
 </div>
 </article>
 
@@ -40,13 +40,10 @@ target="_blank">Active Lives Survey - 16/17</a></p>
 <!--  ---------------->
 <article class="intro-text invert">
 <div class="one">
-
 **We want to get people active using data.** For months, activity providers have been openly publishing their opportunity data for our OpenActive Accelerator. Now, it’s over to you. If you have an innovative idea that uses open opportunity data to help people discover and take part in physical activities, [we want to hear from you.](https://docs.google.com/document/d/1o06BCIxYRc1-7vQy4z6N7RL7ebw5kj8QaAkLb4v-8og/edit){:target="_blank"}
 
 Open opportunity data helps people decide whether an activity is (or isn’t) for them. It includes real-time information and integrated booking options for classes, sessions and clubs, spare places in leagues, tennis courts, and football pitches for hire. You can use opportunity data in many ways to inspire people to be more active, remove pain points, and deliver better customer experiences.
-
-Developments in **data**, social media, VR and AI are having a huge impact on people’s lives, changing the way we travel and entertain ourselves. In the sport and physical activity sector, information about activity opportunities are often siloed, making it harder to innovate -
- until now.
+Developments in **data**, social media, VR and AI are having a huge impact on people’s lives, changing the way we travel and entertain ourselves. In the sport and physical activity sector, information about activity opportunities are often siloed, making it harder to innovate until now.
 
 That's why we're launching the ODI's OpenActive Accelerator supported by Sport England.
 
@@ -61,23 +58,24 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 <div class="line-graphic"></div>
 </article>
 <!--  ---------------->
-<!-- START-UPS -->
+<!-- STARTUPS -->
 <!--  ---------------->
 <article>
+<h2 class="sub-heading-two">Startups</h2>
 <div class="one">
 </div>
 </article>
 {% include startup.html %}
 <!--  ---------------->
-<!-- START-UPS  -->
+<!-- STARTUPS  -->
 <!--  ---------------->
 
 
 <!--  ---------------->
-<!-- START-UPS BLOCK -->
+<!-- STARTUPS BLOCK -->
 <!--  ---------------->
 <article id="hover-blocks" class="title-row">
-<h2 class="sub-heading-two">What startups get</h2>
+<h2 class="sub-heading-two">Services</h2>
 <div class="one">
 <div class="inline-block-five">
 <figure>
@@ -186,7 +184,7 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 <!-- STATS & QUOTE BLOCK -->
 <!--  ---------------->
 <article class="invert stats title-row">
-<h2 class="sub-heading-two">Our experience supporting startups</h2>
+<h2 class="sub-heading-two">The Startup Programmes at the ODI</h2>
 
 <div class="two stats">
 <div class="subgrid">
