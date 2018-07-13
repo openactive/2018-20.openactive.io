@@ -189,7 +189,7 @@ Explore the map to find the data you need, identify which areas are embracing op
 
 <h3>Open booking</h3>
 <p></p>
-[ Open Booking API 0.3 Draft ](https://docs.google.com/document/d/1QMj_w2tuOvxRfctu70JjSv1WgFKvNfU5URCmIB4sSu8/edit){:target="_blank"}{: .link} -  A draft version of the OpenActive booking specification
+[ Open Booking API Editor's Draft ](https://www.openactive.io/open-booking-api/EditorsDraft){:target="_blank"}{: .link} -  A draft version of the OpenActive booking specification
 </div>
 </article>
 
