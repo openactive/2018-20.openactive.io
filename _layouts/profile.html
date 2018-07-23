@@ -63,8 +63,15 @@ layout: default
                     .currentUser.updateEmail(document.getElementById("email").value)
                     .then(writeOrgData({
                         "booking-system": document.getElementById("user-booking-system").value || ""
-                    }))
+                    })),
             );
+            //SUCCESS MESSAGE
+            var x = document.getElementById("success-message");
+            x.style.display = "block";
+            setTimeout(function () {
+                x.style.display = "none";
+            }, 5000);   // 5 seconds
+
         };
         document.getElementById("save-org").onclick = e => {
             e.preventDefault();
@@ -77,6 +84,13 @@ layout: default
             });
 
             writeData("save-org", writeOrgData, data);
+
+            //SUCCESS MESSAGE
+            var x = document.getElementById("success-message-org");
+            x.style.display = "block";
+            setTimeout(function () {
+                x.style.display = "none";
+            }, 5000);   // 5 seconds
         };
 
         document.getElementById("delete-user").onclick = e => {
@@ -185,7 +199,8 @@ layout: default
         <figure>
 
             <div class="mask"></div>
-            <div class="image" style="background: url({{site.baseurl}}{{page.thumbnail_image}})top center / cover no-repeat;"></div>
+            <div class="image"
+                 style="background: url({{site.baseurl}}{{page.thumbnail_image}})top center / cover no-repeat;"></div>
         </figure>
     </article>
 
@@ -194,8 +209,13 @@ layout: default
         <div class="three"><h2>Loading...</h2></div>
     </article>
     <article style="display:none" class="loading-hide">
-        <div class="one">
-            <hr>
+
+        <div class="one profile-tabs">
+            <h3><a href="#public-profile">Private Profile</a></h3>
+            <h3><a href="#organisation-profile">Organisation's Public Profile</a></h3>
+        </div>
+
+        <div class="one profilePanel" id="public-profile">
             <h2>My private profile</h2>
             <p>Completing your profile below will give you access to member events and additional support from the
                 community.</p>
@@ -216,7 +236,8 @@ layout: default
                     <checkbox-section>
                         <label for="publishing">
                             <h5>Publishing data</h5>
-                            <p class="h6-copy">I'm interested in publicising my activities and/or facilities as open data</p></label>
+                            <p class="h6-copy">I'm interested in publicising my activities and/or facilities as open
+                                data</p></label>
                         <input type="checkbox" id="publishing" checked=true/>
 
                         <div>
@@ -237,13 +258,15 @@ layout: default
 
                         <label for="using">
                             <h5>Using data</h5>
-                            <p class="h6-copy">I'm interested in using my website or other channels to help promote activities published through OpenActive to a wider audience</p></label>
+                            <p class="h6-copy">I'm interested in using my website or other channels to help promote
+                                activities published through OpenActive to a wider audience</p></label>
                         <input type="checkbox" id="using" value=""/>
                     </checkbox-section>
                     <checkbox-section>
                         <label for="spreading">
                             <h5>Spreading the word</h5>
-                            <p class="h6-copy">I'm interested in helping more people to hear about OpenActive</p></label>
+                            <p class="h6-copy">I'm interested in helping more people to hear about OpenActive</p>
+                        </label>
                         <input type="checkbox" id="spreading" value=""/>
                     </checkbox-section>
                     <checkbox-section>
@@ -254,10 +277,12 @@ layout: default
                     </checkbox-section>
 
                 </div>
-                <button type="submit" id="save-user">Join</button>
+                <button type="submit" id="save-user" onClick="sucessMessage();">Join</button>
                 <button class="button-primary--ghost" type="button" id="delete-user">Delete My Account</button>
+                <div id="success-message" class="success-message-styling"><h4>Thanks the content has been submitted!</h4></div>
             </form>
-            <hr>
+        </div>
+        <div class="one profilePanel" id="organisation-profile">
             <h2>My organisation's public profile</h2>
             <p>Include a brief profile of your organisation to be featured on the <a href="/members-page.html"
                                                                                      target="_blank">supporters page</a>.
@@ -276,6 +301,7 @@ layout: default
                 <button class="button-primary--alt" type="button" id="upload-logo">Upload Logo</button>
                 <br/>
                 <button type="submit" id="save-org">Publish to OpenActive website</button>
+                <div id="success-message-org" class="success-message-styling"><h4>Thanks the content has been submitted!</h4></div>
 
             </form>
 

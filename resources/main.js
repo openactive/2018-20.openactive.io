@@ -2,25 +2,36 @@ $(document).ready(function () {
     (function ($) {
 
 
-
         $(".demo").ycp({
-            apikey : 'AIzaSyB_zuXrp0TyGsod6g2PtzT5jlIO0j6z1X8'
+            apikey: 'AIzaSyB_zuXrp0TyGsod6g2PtzT5jlIO0j6z1X8'
         });
 
-        $('.diagram img').each(function( i ){
-          $(this).delay(1000*i).fadeTo(1000,1);
+        $('.diagram img').each(function (i) {
+            $(this).delay(1000 * i).fadeTo(1000, 1);
         });
 
 
-        TweenMax.staggerFrom(".unticked .svg", 2, {scale:0.5, opacity:0, delay:0.5, ease:Elastic.easeOut, force3D:true}, 1);
+        TweenMax.staggerFrom(".unticked .svg", 2, {
+            scale: 0.5,
+            opacity: 0,
+            delay: 0.5,
+            ease: Elastic.easeOut,
+            force3D: true
+        }, 1);
 
 
-        $('.open').change(function() {
-            TweenMax.staggerTo(".unticked .svg", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);
+        $('.open').change(function () {
+            TweenMax.staggerTo(".unticked .svg", 0.5, {opacity: 0, y: -100, ease: Back.easeIn}, 0.1);
             $('.ticked').css({
-                'opacity' : '1',
+                'opacity': '1',
             });
-            TweenMax.staggerFrom(".ticked .svg", 2, {scale:0.5, opacity:0, delay:1, ease:Elastic.easeOut, force3D:true}, 1);
+            TweenMax.staggerFrom(".ticked .svg", 2, {
+                scale: 0.5,
+                opacity: 0,
+                delay: 1,
+                ease: Elastic.easeOut,
+                force3D: true
+            }, 1);
         });
 
 
@@ -70,13 +81,12 @@ $(document).ready(function () {
         });
 
 
-
         $('.booking-tab.slim').addClass('hide');
         $('.booking-tab:gt(7)').addClass('hide');
         $('#booking-filter').keyup(function () {
             var filter = this.value.toLowerCase();  // no need to call jQuery here
 
-            $('nav > .booking-tab').each(function() {
+            $('nav > .booking-tab').each(function () {
                 /* cache a reference to the current .media (you're using it twice) */
                 var _this = $(this);
                 var title = _this.text().toLowerCase();
@@ -88,7 +98,7 @@ $(document).ready(function () {
                 if (title.indexOf(filter) < 0) {
                     _this.addClass('hide');
                 }
-                else{
+                else {
                     _this.removeClass('hide');
 
                 }
@@ -96,22 +106,21 @@ $(document).ready(function () {
         });
         $('#booking-filter').keyup(function () {
             var filter = this.value;
-            if(filter <= 0){
+            if (filter <= 0) {
                 $('.booking-tab:gt(7)').addClass('hide');
                 $('.booking-tab.slim').addClass('hide');
             }
         });
 
-        $('#booking-filter').keyup(function () { 
-    
-             $('.notListed').fadeIn();
+        $('#booking-filter').keyup(function () {
+
+            $('.notListed').fadeIn();
         });
 
-        $('#booking-filter').blur(function () { 
-             $('.notListed').fadeOut();
-             $('#booking-filter').val('');
+        $('#booking-filter').blur(function () {
+            $('.notListed').fadeOut();
+            $('#booking-filter').val('');
         });
-
 
 
         hljs.initHighlightingOnLoad();
@@ -412,7 +421,7 @@ $(document).ready(function () {
                     /*
                      * Calculate the video ratio based on the iframe's w/h dimensions
                      */
-                    var videoRatio = ( iframe.height / iframe.width ) * 100;
+                    var videoRatio = (iframe.height / iframe.width) * 100;
 
                     /*
                      * Replace the iframe's dimensions and position
@@ -556,36 +565,69 @@ $(document).ready(function () {
                 .addClass('current')
                 .attr("aria-hidden", "false");
         });
+        if ($('#tabs').length) {
+            var hash = document.location.hash;
+            if (hash) {
+                $('.tabsList .tablink')
+                    .removeClass('current')
+                    .attr("aria-selected", "false");
+                $('.tabPanel')
+                    .removeClass('current')
+                    .attr("aria-hidden", "true");
 
-        var hash = document.location.hash;
-        if (hash) {
-            $('.tabsList .tablink')
-                .removeClass('current')
-                .attr("aria-selected", "false");
-            $('.tabPanel')
-                .removeClass('current')
-                .attr("aria-hidden", "true");
-
-            $('.tabsList .tablink a').each(function(){
-                if($(this).attr('href') == hash ){
-                    $(this).parent('.tablink')
-                        .addClass('current')
-                        .attr("aria-selected", "true");
+                $('.tabsList .tablink a').each(function () {
+                    if ($(this).attr('href') == hash) {
+                        $(this).parent('.tablink')
+                            .addClass('current')
+                            .attr("aria-selected", "true");
+                    }
+                });
+                $(hash)
+                    .addClass('current')
+                    .attr("aria-hidden", "false");
+                if ($('#tabs').length) {
+                    $("html, body").animate({scrollTop: $('#tabs').offset().top - 100}, 1500);
                 }
-            });
-            $(hash)
-                .addClass('current')
-                .attr("aria-hidden", "false");
-            if ( $('#tabs').length ) {
-               $("html, body").animate({ scrollTop: $('#tabs').offset().top -100 }, 1500);
-            }
 
+            }
         }
 
         $('.notes-toggle').on("click", function () {
             $('.note-wrap').slideToggle();
         });
 
+
+
+        //PROFILE PAGE
+        //TABS
+        //cache a reference to the tabs
+        var tabsTabProfile = $('.profile-tabs h3');
+        $('.profile-tabs h3:first')
+            .addClass('current')
+            .attr("aria-selected", "true");
+        $('.profilePanel:first')
+            .addClass('current')
+            .attr("aria-hidden", "false");
+
+        //on click to tab, turn it on, and turn previously-on tab off
+        tabsTabProfile.click(function ($e) {
+            $e.preventDefault();
+            var tab_idTabProfile = $(this).find('a').attr('href');
+            $('.profile-tabs h3')
+                .removeClass('current')
+                .attr("aria-selected", "false");
+
+            $('.profilePanel')
+                .removeClass('current')
+                .attr("aria-hidden", "true");
+
+            $(this)
+                .addClass('current')
+                .attr("aria-selected", "true");
+            $(tab_idTabProfile)
+                .addClass('current')
+                .attr("aria-hidden", "false");
+        });
 
         //MATCH HEIGHT OF CASE STUDY CONTENT
         // $('.matchHeight').matchHeight({
@@ -604,9 +646,9 @@ $(document).ready(function () {
 
         function o() {
             var e, n, t, o, s, i, l;
-            for (var a in w)if (w.hasOwnProperty(a)) {
-                if (e = [], n = w[a], n.name && (e.push(n.name.toLowerCase()), n.options && n.options.aliases && n.options.aliases.length))for (t = 0; t < n.options.aliases.length; t++)e.push(n.options.aliases[t].toLowerCase());
-                for (o = r(n.fn, "function") ? n.fn() : n.fn, s = 0; s < e.length; s++)i = e[s], l = i.split("."), 1 === l.length ? Modernizr[l[0]] = o : (!Modernizr[l[0]] || Modernizr[l[0]] instanceof Boolean || (Modernizr[l[0]] = new Boolean(Modernizr[l[0]])), Modernizr[l[0]][l[1]] = o), C.push((o ? "" : "no-") + l.join("-"))
+            for (var a in w) if (w.hasOwnProperty(a)) {
+                if (e = [], n = w[a], n.name && (e.push(n.name.toLowerCase()), n.options && n.options.aliases && n.options.aliases.length)) for (t = 0; t < n.options.aliases.length; t++) e.push(n.options.aliases[t].toLowerCase());
+                for (o = r(n.fn, "function") ? n.fn() : n.fn, s = 0; s < e.length; s++) i = e[s], l = i.split("."), 1 === l.length ? Modernizr[l[0]] = o : (!Modernizr[l[0]] || Modernizr[l[0]] instanceof Boolean || (Modernizr[l[0]] = new Boolean(Modernizr[l[0]])), Modernizr[l[0]][l[1]] = o), C.push((o ? "" : "no-") + l.join("-"))
             }
         }
 
@@ -635,7 +677,7 @@ $(document).ready(function () {
 
         function u(e, n, t) {
             var o;
-            for (var s in e)if (e[s] in n)return t === !1 ? e[s] : (o = n[e[s]], r(o, "function") ? a(o, t || n) : o);
+            for (var s in e) if (e[s] in n) return t === !1 ? e[s] : (o = n[e[s]], r(o, "function") ? a(o, t || n) : o);
             return !1
         }
 
@@ -671,18 +713,18 @@ $(document).ready(function () {
 
         function m(e, t, r, o) {
             var s, i, a, u, f = "modernizr", c = l("div"), d = p();
-            if (parseInt(r, 10))for (; r--;)a = l("div"), a.id = o ? o[r] : f + (r + 1), c.appendChild(a);
+            if (parseInt(r, 10)) for (; r--;) a = l("div"), a.id = o ? o[r] : f + (r + 1), c.appendChild(a);
             return s = l("style"), s.type = "text/css", s.id = "s" + f, (d.fake ? d : c).appendChild(s), d.appendChild(c), s.styleSheet ? s.styleSheet.cssText = e : s.appendChild(n.createTextNode(e)), c.id = f, d.fake && (d.style.background = "", d.style.overflow = "hidden", u = _.style.overflow, _.style.overflow = "hidden", _.appendChild(d)), i = t(c, e), d.fake ? (d.parentNode.removeChild(d), _.style.overflow = u, _.offsetHeight) : c.parentNode.removeChild(c), !!i
         }
 
         function g(n, r) {
             var o = n.length;
             if ("CSS" in e && "supports" in e.CSS) {
-                for (; o--;)if (e.CSS.supports(d(n[o]), r))return !0;
+                for (; o--;) if (e.CSS.supports(d(n[o]), r)) return !0;
                 return !1
             }
             if ("CSSSupportsRule" in e) {
-                for (var s = []; o--;)s.push("(" + d(n[o]) + ":" + r + ")");
+                for (var s = []; o--;) s.push("(" + d(n[o]) + ":" + r + ")");
                 return s = s.join(" or "), m("@supports (" + s + ") { #modernizr { position: absolute; } }", function (e) {
                     return "absolute" == c(e, null, "position")
                 })
@@ -697,16 +739,16 @@ $(document).ready(function () {
 
             if (s = r(s, "undefined") ? !1 : s, !r(o, "undefined")) {
                 var u = g(e, o);
-                if (!r(u, "undefined"))return u
+                if (!r(u, "undefined")) return u
             }
-            for (var c, d, p, m, y, v = ["modernizr", "tspan", "samp"]; !N.style && v.length;)c = !0, N.modElem = l(v.shift()), N.style = N.modElem.style;
-            for (p = e.length, d = 0; p > d; d++)if (m = e[d], y = N.style[m], i(m, "-") && (m = f(m)), N.style[m] !== t) {
-                if (s || r(o, "undefined"))return a(), "pfx" == n ? m : !0;
+            for (var c, d, p, m, y, v = ["modernizr", "tspan", "samp"]; !N.style && v.length;) c = !0, N.modElem = l(v.shift()), N.style = N.modElem.style;
+            for (p = e.length, d = 0; p > d; d++) if (m = e[d], y = N.style[m], i(m, "-") && (m = f(m)), N.style[m] !== t) {
+                if (s || r(o, "undefined")) return a(), "pfx" == n ? m : !0;
                 try {
                     N.style[m] = o
                 } catch (h) {
                 }
-                if (N.style[m] != y)return a(), "pfx" == n ? m : !0
+                if (N.style[m] != y) return a(), "pfx" == n ? m : !0
             }
             return a(), !1
         }
@@ -752,7 +794,7 @@ $(document).ready(function () {
         Modernizr._q.unshift(function () {
             delete N.style
         }), S.testAllProps = v, S.testAllProps = h, Modernizr.addTest("cssgridlegacy", h("grid-columns", "10px", !0)), Modernizr.addTest("cssgrid", h("grid-template-rows", "none", !0)), o(), s(C), delete S.addTest, delete S.addAsyncTest;
-        for (var T = 0; T < Modernizr._q.length; T++)Modernizr._q[T]();
+        for (var T = 0; T < Modernizr._q.length; T++) Modernizr._q[T]();
         e.Modernizr = Modernizr
     }(window, document);
 });
