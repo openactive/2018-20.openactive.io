@@ -18,9 +18,7 @@ layout: page-hero
 
 **We collect data about you when you use this website. We do this so that we can understand what interests people and how we can improve the site. We share some of this data with third parties who provide us with analytics and other services.**
 
-
 You have [rights over what is done with data that is about you](https://ico.org.uk/for-the-public/). You can contact us at [hello@openactive.io](mailto:hello@openactive.io) if you want to get a copy of that data. You can also ask us to update it, delete it or stop using it.
-
 
 ## What data do we collect and why?
 
@@ -36,7 +34,7 @@ We collect data as you use this website about:
 
 * what pages you access, so that we know what content is popular
 
-* any non-sensitive text you enter and your mouse movements, so that we can improve the user experience 
+* any non-sensitive text you enter and your mouse movements, so that we can improve the user experience
 
 * the device and software you use, so that we know how to design the site
 
@@ -44,8 +42,7 @@ We collect data as you use this website about:
 
 We do not link this back to your name or email address and we only store it in aggregated form.
 
-Your browser stores some of this data using cookies. Your browser sends cookie data to us and third parties every time you visit our pages. [Our cookie policy](https://www.openactive.io/cookie-policy.html){:target="_blank"}{: .link} - has more information about the cookies we use and why we use them.
-
+Your browser stores some of this data using cookies. Your browser sends cookie data to us and third parties every time you visit our pages. Our cookie policy has more information about the cookies we use and why we use them.
 
 ## How do we use this data?
 
@@ -55,10 +52,9 @@ We use this data to:
 
 * understand what the users of our website need so we can improve it
 
-* add you to our supporters page 
+* add you to our supporters page
 
 We do not use it for any automated decision making.
-
 
 ## How do we share this data?
 
@@ -71,7 +67,6 @@ We share this data with a few third parties, who process it to give us better un
 We have made sure the third parties who are not in the EU protect the data to the same extent as companies in the EU.
 
 We may also need to share this data with the authorities if they ask us to do so.
-
 
 ## What rights and control do you have?
 
@@ -91,18 +86,15 @@ You can do some of these things through the website, by editing or deleting your
 
 Please tell us if you have concerns about how we collect, use or share data about you. You can also [raise your concerns](https://ico.org.uk/your-data-matters/raising-concerns/) with the UK Information Commissioner’s Office.
 
-
 ## When might this policy change?
 
 We created this privacy policy on **23rd May 2018**. If you have an account with us, we will tell you in the future before we update this privacy policy.
 
-
 ## Who can I talk to about this policy?
 
-Please send any questions about this privacy policy to [hello@openactive.io](mailto:hello@openactive.io). 
+Please send any questions about this privacy policy to [hello@openactive.io](mailto:hello@openactive.io).
 
 The data controller for this website is Open Data Institute of 65 Clifton Street, London, EC2A 4JE. Our data protection officer is [Leigh Dodds](mailto:leigh.dodds@theodi.org).
-
 
 </div>
 </article>
