@@ -49,9 +49,9 @@ That's why we're launching the ODI's OpenActive Accelerator supported by Sport E
 
 The ODI’s OpenActive Accelerator, in partnership with Sport England, supports startups creating new tech products that get people active.
 
-Startups get access to a network of mentors, partners and ‘open opportunity data’: data about location and time of specific physical activities. These include real-time information about classes, spare places in leagues, facilities and clubs, such as yoga classes or football pitches for hire.
+Startups get access to a network of mentors, partners and ‘open opportunity data’: data about the location and time of specific physical activities. These include real-time information about classes, facilities, and spare places in leagues, such as yoga classes or football pitches for hire.
 
-Startups use opportunity data to build innovative ways to get people active satisfying users needs and delivering experiences aligned with the mobile era we are facing now.
+Startups use opportunity data to build innovative ways to get people active, satisfy user needs and deliver experiences aligned with the digital era we are facing now.
 
 </div>
 <!-- <div class="two">
