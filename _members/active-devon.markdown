@@ -1,7 +1,7 @@
 ---
 title: Active Devon
 date: 2018-07-06 13:45:00 Z
-published: false
+thumbnail_image: "/uploads/Active-Devon-Logo.png"
 website: http://www.activedevon.org
 ---
 

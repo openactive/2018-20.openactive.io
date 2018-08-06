@@ -1,7 +1,7 @@
 ---
 title: Racefully
 date: 2018-07-06 13:38:00 Z
-published: false
+thumbnail_image: "/uploads/Racefully-logo.png"
 website: http://raceful.ly
 ---
 
