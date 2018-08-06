@@ -47,6 +47,12 @@ Developments in **data**, social media, VR and AI are having a huge impact on pe
 
 That's why we're launching the ODI's OpenActive Accelerator supported by Sport England.
 
+The ODI’s OpenActive Accelerator, in partnership with Sport England, supports startups creating new tech products that get people active.
+
+Startups get access to a network of mentors, partners and ‘open opportunity data’: data about location and time of specific physical activities. These include real-time information about classes, spare places in leagues, facilities and clubs, such as yoga classes or football pitches for hire.
+
+Startups use opportunity data to build innovative ways to get people active satisfying users needs and delivering experiences aligned with the mobile era we are facing now.
+
 </div>
 <!-- <div class="two">
 <a class="button-primary--ghostlarge" target="_blank" onclick="gtag('event', 'accelerator ctas', {'hero': 'clicked', 'event_label': 'apply now'});" href="https://www.f6s.com/openactiveaccelerator/apply">APPLY NOW</a>
