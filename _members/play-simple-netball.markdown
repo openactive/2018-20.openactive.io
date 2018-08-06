@@ -1,7 +1,7 @@
 ---
 title: Play Simple Netball
 date: 2018-07-12 09:12:00 Z
-published: false
+thumbnail_image: "/uploads/Play-Simple-Netball-Logo.jpg"
 website: http://simplenetball.co.uk
 ---
 

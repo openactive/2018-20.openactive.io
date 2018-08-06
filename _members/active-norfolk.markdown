@@ -1,7 +1,7 @@
 ---
 title: Active Norfolk
 date: 2018-07-12 09:11:00 Z
-published: false
+thumbnail_image: "/uploads/Active-Norfolk-logo.jpg"
 website: http://www.activenorfolk.org/
 ---
 
