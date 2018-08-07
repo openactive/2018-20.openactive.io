@@ -27,11 +27,11 @@ Because no single platform or app holds all the data available under OpenActive,
 </article>
 <article>
 <div class="two">
-[How to publish OpenActive data]( https://github.com/openactive/realtime-paged-data-exchange/blob/master/README.md ){: .button-primary target="_blank"}
+[How to publish OpenActive data](https://github.com/openactive/realtime-paged-data-exchange/blob/master/README.md){: .button-primary target="_blank"}
 </div>
 <div class="two">
 
-[How to use OpenActive data]( {{ site.baseurl }}{% link getting-started.md %}#use-data){:class=" button-primary"}
+\[How to use OpenActive data\]( {{ site.baseurl }}{% link getting-started.md %}#use-data){:class=" button-primary"}
 
 </div>
 </article>
@@ -44,6 +44,7 @@ Because no single platform or app holds all the data available under OpenActive,
 <div class="code left">
 
 ### Opportunity data
+
 This is data that describes a physical activity including **what** it is, **where** and **when** it's taking place.
 
 Opportunity data includes enough information for a participant to decide whether an activity is right for them.
@@ -52,15 +53,12 @@ Opportunity data includes enough information for a participant to decide whether
 <div class="code right">
 <div class="terminal">
 
-
-```json
-{
-  "title": "Tai",
-  "description": "Tai chi Class",
-  "remainingSpaces": "12",
-  "time": "2017-03-22T20:00:00 Z",
-}
-```
+    {
+      "title": "Tai",
+      "description": "Tai chi Class",
+      "remainingSpaces": "12",
+      "time": "2017-03-22T20:00:00 Z",
+    }
 
 </div>
 
@@ -71,41 +69,38 @@ Opportunity data includes enough information for a participant to decide whether
 <div class="further-code left">
 <div class="terminal">
 
-```json
-{
-  "@context": "https://www.openactive.io/ns/oa.jsonld",
-  "type": "Event",
-  "name": "Tai chi Class",
-  "url": "http://www.example.org/events/1",
-  "startDate": "2017-03-22T20:00:00 Z",
-  "activity": "Tai Chi",
-  "location": {
-    "type": "Place",
-    "name": "ExampleCo Gym",
-    "address": {
-      "type": "PostalAddress",
-      "streetAddress": "1 High Street",
-      "addressLocality": "Bristol",
-      "postalCode": "BS1 4SD"
+    {
+      "@context": "https://www.openactive.io/ns/oa.jsonld",
+      "type": "Event",
+      "name": "Tai chi Class",
+      "url": "http://www.example.org/events/1",
+      "startDate": "2017-03-22T20:00:00 Z",
+      "activity": "Tai Chi",
+      "location": {
+        "type": "Place",
+        "name": "ExampleCo Gym",
+        "address": {
+          "type": "PostalAddress",
+          "streetAddress": "1 High Street",
+          "addressLocality": "Bristol",
+          "postalCode": "BS1 4SD"
+        }
+      }
     }
-  }
-}
-```
 
 </div>
 </div>
 <div class="further-code right">
 
 #### Publishing opportunities
+
 The specification defines a data model to help different platforms and applications to publish data in a consistent way.
 
-[Data Primer]( https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
+[Data Primer](https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
 [Describing Events](https://www.openactive.io/opportunity-data-primer/#describing-events){: .button-primary--ghost target="_blank"}
-
 
 </div>
 </article>
-
 
 <!--  ---------------->
 <!-- DASHBOARD -->
@@ -114,17 +109,16 @@ The specification defines a data model to help different platforms and applicati
 <h2 class="sub-heading-two">Data Tools</h2>
 <div class="two tworight">
 
-![Hero]({{ site.baseurl }}/resources/images/icons/dash.svg)
-
+!\[Hero\]({{ site.baseurl }}/resources/images/icons/dash.svg)
 
 </div>
 <div class="two tworight">
 
 ### The opportunity data dashboard
+
 The dashboard lists all opportunity data feeds currently available.
 
 Explore the dashboard to find the data you need, identify which feeds conform to our standards, and provide feedback to publishers.
-
 
 [Vist dashboard](http://status.openactive.io/){:target="_blank"}{:.button-primary}
 
@@ -133,24 +127,21 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 <article class="dashboard">
 <div class="two tworight">
 
-![Hero]({{ site.baseurl }}/resources/images/icons/dash-map.svg)
+!\[Hero\]({{ site.baseurl }}/resources/images/icons/dash-map.svg)
 
 </div>
 <div class="two tworight">
 
-
 ### The open data map
+
 The map displays all activity data available in England.
 
-Explore the map to find the data you need, identify which areas are embracing open data, and which are yet to.
-
-![imin attribution - powered by (1).png](/uploads/imin%20attribution%20-%20powered%20by%20(1).png)
+Explore the map to find the data you need, identify which areas are embracing open data, and which are yet to.![imin attribution - powered by (1)-656c8c.png](/uploads/imin%20attribution%20-%20powered%20by%20(1)-656c8c.png)
 
 [View data map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed){:target="_blank"}{:.button-primary}
 
 </div>
 </article>
-
 
 <!--  ---------------->
 <!-- CASE STUDIES -->
@@ -159,8 +150,6 @@ Explore the map to find the data you need, identify which areas are embracing op
 <h2 class="sub-heading-two margin-top">Success stories</h2>
 {% include case-study.html %}
 </article>
-
-
 
 <!--  ---------------->
 <!-- CALL TO ACTION -->
@@ -193,7 +182,6 @@ Explore the map to find the data you need, identify which areas are embracing op
 </div>
 </article>
 
-
 <!-- <article class="call_to_action title-row">
 <h2 class="sub-heading-two">Resources</h2>
 
@@ -204,36 +192,38 @@ Explore the map to find the data you need, identify which areas are embracing op
 
 Molestiae corporis rerum blanditiis voluptas vel. Vero dolorum commodi laboriosam quia. Qui hic optio doloremque.
 
-[Discover More]( {{ site.baseurl }}{% link how-to.md %}){:.link}
+\[Discover More\]( {{ site.baseurl }}{% link how-to.md %}){:.link}
 
 </div>
 <div class="four">
 
 ### Discussions
+
 Learn more about how we’re making opportunity data easier to access, use, and share nationwide.
 
-[Discover More]( {{ site.baseurl }}{% link discussions.md %}){:.link}
+\[Discover More\]( {{ site.baseurl }}{% link discussions.md %}){:.link}
 
 </div>
 <div class="four">
 
 ### References
+
 Dive into the detail by looking through our standards documentation and best practice guidance.
 
-[Discover More]( {{ site.baseurl }}/slate/build){:.link target="_blank"}
+\[Discover More\]( {{ site.baseurl }}/slate/build){:.link target="_blank"}
 
 </div>
 <div class="four">
 
 ### eLearning
-Guidance for developers on getting started, to help you learn how to publish and use your data to benefit your organisation. 
 
-[Discover More]( {{ site.baseurl }}{% link e-learning.md %}){: .link }
+Guidance for developers on getting started, to help you learn how to publish and use your data to benefit your organisation.
+
+\[Discover More\]( {{ site.baseurl }}{% link e-learning.md %}){: .link }
 
 </div>
 </div>
 </article>
-
 
 <!--  ---------------->
 <!-- COMMUNITY CALL TO ACTION -->
@@ -244,10 +234,12 @@ Guidance for developers on getting started, to help you learn how to publish and
 
 {% assign subpage = site.pages | where: 'title', 'Community' %}
 {% for item in subpage %}
+
 ### {{ item.title}}
+
 {{ item.strapline | markdownify }}
 
-[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
+\[Find out more\]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
