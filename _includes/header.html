@@ -7,12 +7,9 @@
 
         {% include openactivelogostacked.svg %}
 
+{% raw %}
         </a>
-    </figure><!--
-
-    --><h1 class="g-item headline">Using data to help people get active</h1><!--
-
-    -->
+    </figure><!----><h1 class="g-item headline">Using data to help people get active</h1><!---->
     <nav tabindex="-1" class="g-item navigation">
         <div class="mobile_button" onclick="openNav()">
             <div id="nav-icon3">
@@ -32,7 +29,8 @@
             {% if p.is_main_navigation %}
             {% if p.position %}
             <li {%="" if="" p.url="=" page.url="" %}class="active" endif="" %}="">
-                <a role="menuitem" href="{{ p.url | relative_url }}" aria-label="Go to Page {{ p.title }}">{{ p.title }}</a>
+                <a role="menuitem" href="{{ p.url | relative_url }}" 
+aria-label="Go to Page {{ p.title }}">{{ p.title }}</a>
             </li>
             {% endif %}
             {% endif %}
@@ -51,10 +49,7 @@
         <!--{% endfor %}-->
         <!--</ul>-->
 
-
-    </nav><!--
-
-    -->
+    </nav><!---->
     <aside class="g-item button">
         <div class="social-button">
             {% include social.html %}
@@ -66,7 +61,7 @@
     </aside>
 </header>
 <div id="sticky-phantom"></div>
-
+{% endraw %}
 
 
 
