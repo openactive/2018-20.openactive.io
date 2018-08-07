@@ -89,6 +89,7 @@ By joining the open data revolution, you and your organisation can benefit from 
 
 The assets we produce (standards, training, tools) and the data we publish are openly licensed, making them free for anyone to access, use, or share.
 The community is open for anyone to join as we believe it's the best way to create a robust data infrastructure while ensuring people embrace this change in a sustainable way.
+Read more about our [Digital Guiding Principles](digital-guiding-principles).
 
 </div>
 </article>

@@ -52,47 +52,48 @@ We are supporting innovation to help people get active.
 {% include booking-systems-1-copy.html %}
 
 <!--  ---------------->
-<!-- WHAT WE DO -->
-<!--  ---------------->
-<article class="title-row what-we-do">
-<h2 class="sub-heading-two">What we do</h2>
-<div class="two twoleft">
-
-<h3> Our goal is to make data on what, where and when physical activity sessions happen openly available. </h3>
-
-Stewarded by the Open Data Institute (ODI), we're a growing community of sport and physical activity organisations and individuals. We're working collaboratively as a sector to open up data about physical activity opportunities.
-
-From leisure operators to national governing bodies, local sports clubs to event providers, walking groups to fitness instructors, the ODI is helping organisations use opportunity data to build interesting products, tools and experiences for consumers. 
-
-[How it works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary} [Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghost}
-
-</div>
-<div class="two twoleft">
-
-#### OpenActive open opportunity data
-
-##### **Includes details such as:**
-
-* ![Price tag icon]({{ site.baseurl }}/resources/images/icons/prices.svg) How much will it cost?
-
-* ![Calendar icon]({{ site.baseurl }}/resources/images/icons/availability.svg)  When is a court available?
-
-* ![Map marker icon]({{ site.baseurl }}/resources/images/icons/locations.svg)  Where is the class?
-  {:.icons}
-
-##### **But not data like:**
-
-* ![Graph trending upwards icon]({{ site.baseurl }}/resources/images/icons/attendance.svg)  Participation and attendance data
-
-* ![Eye crossed out icon]({{ site.baseurl }}/resources/images/icons/sensitive.svg)  Commercially sensitive data
-
-* ![Customer card icon]({{ site.baseurl }}/resources/images/icons/customer.svg)  Customer data
-  {:.icons}
-
-</div>
-<i class="line-graphic">{% include line-graphic-side.svg %}</i>
-</article>
-
+ <!-- WHAT WE DO -->
+ <!--  ---------------->
+ <article class="title-row what-we-do">
+ <h2 class="sub-heading-two">What we do</h2>
+ <div class="two twoleft">
+ 
+ ### Our goal is to make data on what, where and when physical activity sessions happen openly available.
+ 
+ Stewarded by the Open Data Institute (ODI), we're a growing community of sport and physical activity organisations and individuals. We're working collaboratively as a sector to open up data about physical activity opportunities.
+ 
+ From leisure operators to national governing bodies, local sports clubs to event providers, walking groups to fitness instructors, the ODI is helping organisations use opportunity data to build interesting products, tools and experiences for consumers.
+ 
+ [How it works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary} [Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghost}
+ 
+ </div>
+ <div class="two twoleft">
+ 
+ #### OpenActive open opportunity data
+ 
+ ##### **Includes details such as:**
+ 
+ * ![Price tag icon]({{ site.baseurl }}/resources/images/icons/prices.svg) How much will it cost?
+ 
+ * ![Calendar icon]({{ site.baseurl }}/resources/images/icons/availability.svg)  When is a court available?
+ 
+ * ![Map marker icon]({{ site.baseurl }}/resources/images/icons/locations.svg)  Where is the class? 
+ {:.icons}
+ 
+ ##### **But not data like:**
+ 
+ * ![Graph trending upwards icon]({{ site.baseurl }}/resources/images/icons/attendance.svg)  Participation and attendance data
+ 
+ * ![Eye crossed out icon]({{ site.baseurl }}/resources/images/icons/sensitive.svg)  Commercially sensitive data
+ 
+ * ![Customer card icon]({{ site.baseurl }}/resources/images/icons/customer.svg)  Customer data
+ {:.icons}
+ 
+ 
+ 
+ </div>
+ <i class="line-graphic">{% include line-graphic-side.svg %}</i>
+ </article>
 <!--  ---------------->
 <!-- OPEN DATA ILLUSTRATION -->
 <!--  ---------------->

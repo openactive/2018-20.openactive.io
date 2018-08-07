@@ -71,6 +71,8 @@ Take a look at all activity data available across the country
 
 [View map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed)
 
+![imin attribution - powered by (1)-808e04.png](/uploads/imin%20attribution%20-%20powered%20by%20(1)-808e04.png)
+
 ### OpenActive dashboard
 
 View our OpenActive dashboard on Geckoboard that visualises the initiative's progress. The dashboard provides information about publication and communication efforts, use of opportunity data (when and where sport activities are happening), and different progress trends of the OpenActive initiative.
