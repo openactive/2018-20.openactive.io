@@ -1,7 +1,7 @@
 ---
 title: OpenActive Digital Guiding Principles
 date: 2018-08-07 15:02:00 Z
-is_secondary_navigation: true
+is_secondary_navigation: false
 ---
 
 {::options parse_block_html="true" /}
@@ -14,9 +14,7 @@ is_secondary_navigation: true
 <div class="one">
 <h1>{{ page.title | escape }}</h1>
 
-These principles are intended to apply to everything that falls under the OpenActive digital banner, whether it’s the website, or standalone tools.
-
-They should inform what we do, and act as something to validate decisions against.
+<p>These principles are intended to apply to everything that falls under the OpenActive digital banner, whether it’s the website, or standalone tools. They should inform what we do, and act as something to validate decisions against.</p>
 
 </div>
 </article>
@@ -24,6 +22,7 @@ They should inform what we do, and act as something to validate decisions agains
 <!--  ---------------->
 <!-- TEXT BLOCK -->
 <!--  ---------------->
+
 <article>
 <div class="one">
 
