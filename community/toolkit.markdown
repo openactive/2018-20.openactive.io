@@ -13,6 +13,9 @@ layout: page-hero
 <!-- YOUR CONTENT  GOES IN THIS CONTAINER -->
 <!--  ---------------->
 
+<div class="mask"></div>
+<iframe id="video" title="OpenActive intro video" width="560" height="315"  src="https://www.youtube.com/embed/a2FdmspmCNk?showinfo=0&rel=0&enablejsapi=1" allowfullscreen ></iframe>
+
 ## Welcome to the OpenActive community toolkit
 
 Here you can access and download OpenActive's brand assets and useful resources to help you share information about OpenActive within your own organisation and community.
