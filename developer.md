@@ -28,10 +28,11 @@ Because no single platform or app holds all the data available under OpenActive,
 <article>
 <div class="two">
 [How to publish OpenActive data](https://github.com/openactive/realtime-paged-data-exchange/blob/master/README.md){: .button-primary target="_blank"}
+
 </div>
 <div class="two">
 
-\[How to use OpenActive data\]( {{ site.baseurl }}{% link getting-started.md %}#use-data){:class=" button-primary"}
+[How to use OpenActive data](https://www.openactive.io/getting-started/){:target="_blank"}{: .button-primary}
 
 </div>
 </article>

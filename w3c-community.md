@@ -59,6 +59,15 @@ You can read more about the role of community groups on the [W3C website](https:
 
 ### Upcoming meetings
 
+**Agendas:**
+
+15th August - booking feedback
+
+29th August - final feedback before booking 1.0 & modelling 1.2/2/0 releases
+
+
+
+
 <iframe width="100%" height="500px" src="https://calendar.google.com/calendar/embed?showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&height=600&wkst=1&bgcolor=%23FFFFFF&src=theodi.org_lcp83ia9k0a3e81h50sordnut4%40group.calendar.google.com&color=%23333333&ctz=Europe%2FLondon" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </div>
