@@ -21,8 +21,7 @@ layout: home
 
 <div class="content">
 
-# Helping physical activity reach everyone 
-
+# Helping physical activity reach everyone
 
 We are supporting innovation to help people get active.
 
@@ -51,48 +50,37 @@ We are supporting innovation to help people get active.
 <!-- BOOKING SYSTEMS -->
 <!--  ---------------->
 {% include booking-systems.html %}
-
+ 
 <!--  ---------------->
 <!-- WHAT WE DO -->
 <!--  ---------------->
+
 <article class="title-row what-we-do">
 <h2 class="sub-heading-two">What we do</h2>
 <div class="two twoleft">
 
 ### Our goal is to make data on what, where and when physical activity sessions happen openly available.
+ Stewarded by the Open Data Institute (ODI), we're a growing community of sport and physical activity organisations and individuals. We're working collaboratively as a sector to open up data about physical activity opportunities.
+ From leisure operators to national governing bodies, local sports clubs to event providers, walking groups to fitness instructors, the ODI is helping organisations use opportunity data to build interesting products, tools and experiences for consumers.
 
-Stewarded by the Open Data Institute (ODI), we're a growing community of sport and physical activity organisations and individuals. We're working collaboratively as a sector to open up data about physical activity opportunities.
+ [How it works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary} 
+[Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghost}
+ </div>
 
-From leisure operators to national governing bodies, local sports clubs to event providers, walking groups to fitness instructors, the ODI is helping organisations use opportunity data to build interesting products, tools and experiences for consumers.
-
-[How it works]( {{ site.baseurl }}{% link how-it-works.md %}){: .button-primary} [Get Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary--ghost}
-
-</div>
 <div class="two twoleft">
-
 #### OpenActive open opportunity data
-
 ##### **Includes details such as:**
-
-* ![Price tag icon]({{ site.baseurl }}/resources/images/icons/prices.svg) How much will it cost?
-
-* ![Calendar icon]({{ site.baseurl }}/resources/images/icons/availability.svg)  When is a court available?
-
-* ![Map marker icon]({{ site.baseurl }}/resources/images/icons/locations.svg)  Where is the class? 
+ * ![Price tag icon]({{ site.baseurl }}/resources/images/icons/prices.svg) How much will it cost?
+ * ![Calendar icon]({{ site.baseurl }}/resources/images/icons/availability.svg)  When is a court available?
+ * ![Map marker icon]({{ site.baseurl }}/resources/images/icons/locations.svg)  Where is the class? 
 {:.icons}
 
 ##### **But not data like:**
-
-* ![Graph trending upwards icon]({{ site.baseurl }}/resources/images/icons/attendance.svg)  Participation and attendance data
-
-* ![Eye crossed out icon]({{ site.baseurl }}/resources/images/icons/sensitive.svg)  Commercially sensitive data
-
-* ![Customer card icon]({{ site.baseurl }}/resources/images/icons/customer.svg)  Customer data
+ * ![Graph trending upwards icon]({{ site.baseurl }}/resources/images/icons/attendance.svg)  Participation and attendance data
+ * ![Eye crossed out icon]({{ site.baseurl }}/resources/images/icons/sensitive.svg)  Commercially sensitive data
+ * ![Customer card icon]({{ site.baseurl }}/resources/images/icons/customer.svg)  Customer data
 {:.icons}
-
-
-
-</div>
+ </div>
 <i class="line-graphic">{% include line-graphic-side.svg %}</i>
 </article>
 
@@ -150,7 +138,7 @@ Our open-invitation community is dynamic and self-supporting, and we welcome you
 
 Take the first step and switch on open data publishing in your booking system.
 
-[Getting Started]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
+\[Getting Started\]( {{ site.baseurl }}{% link getting-started.md %}){: .button-primary}
 
 </div>
 <div class="three">
@@ -159,7 +147,7 @@ Take the first step and switch on open data publishing in your booking system.
 
 Get stuck into the docs and start using or publishing data today!
 
-[Developer]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
+\[Developer\]( {{ site.baseurl }}{% link developer.md %}){: .button-primary}
 
 </div>
 <div class="three">
@@ -168,7 +156,7 @@ Get stuck into the docs and start using or publishing data today!
 
 What's happening in the community, and how you can get involved!
 
-[Community]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
+\[Community\]( {{ site.baseurl }}{% link community.md %}){: .button-primary}
 
 </div>
 </div>
