@@ -60,7 +60,7 @@ Across a wide range of demographics, without any additional effort.
 
 <div class="svg five checkbox" markdown="0">
 <input id="chkTest" class="open" type="checkbox">
-<label for="chkTest">OPEN YOUR DATA</label>
+<label for="chkTest">WHAT OPENING YOUR DATA DOES</label>
 </div>
 </div>
 
