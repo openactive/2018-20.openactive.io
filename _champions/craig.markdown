@@ -3,7 +3,7 @@ title: Craig
 date: 2018-02-23 14:42:00 Z
 position: 6
 second-name: Hyslop
-thumbnail_image: "/uploads/Craig-Champions.png"
+thumbnail_image: "/uploads/Craig-Champions-1.jpeg"
 role: Sport Strategy Officer
 company: Bristol City Council
 ---
