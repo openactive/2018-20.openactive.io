@@ -14,4 +14,4 @@ Our aim is to deliver software that provides a complete multi-channel experience
 
 Gladstone has been working with OpenActive to enable our Leisure Management Platform to share and publish class and facility availability openly, to allow it to be used by providers like - Change4Life, Hoop, BBC Get Inspired, Ordnance Survey and others. 
 
-If you are a customer on the Gladstone Hosted platform, and would like to find out more please [visit us](https://offers.gladstonesoftware.co.uk/openactive_sign_up) or otherwise simply [contact us](mailto:apiservices@gladstonesoftware.co.uk) with a request to “Enable OpenActive for my Gladstone installation.
+If you are a customer on the Gladstone Hosted platform, and would like to find out more please [visit us](https://offers.gladstonesoftware.co.uk/openactive_sign_up) or otherwise simply [contact us](mailto:apiservices@gladstonesoftware.co.uk) with a request to “Enable OpenActive for my Gladstone installation".
