@@ -2,6 +2,7 @@
 title: Pitchbooking
 date: 2018-07-09 15:52:00 Z
 thumbnail_image: https://cdn.filestackcontent.com/XTZpIaLhSKThxcUxWdgE
+bookingsystem: Other
 website: https://pitchbooking.com
 ---
 
