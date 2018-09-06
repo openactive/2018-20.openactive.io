@@ -1,18 +1,13 @@
 <header id="mainHeader">
-
-    <figure id="logo" class="g-item logo" role="group">
+     <figure id="logo" class="g-item logo" role="group">
         {% assign default_paths = site.pages | map: "path" %}
         {% assign page_paths = site.header_pages | default: default_paths %}
         <a href="{{ "/" | relative_url }}">
-
-        {% include openactivelogostacked.svg %}
-
-        </a>
+         {% include openactivelogostacked.svg %}
+         </a>
     </figure><!--
-
-    --><h1 class="g-item headline">Using data to help people get active</h1><!--
-
-    -->
+     --><h1 class="g-item headline">Using data to help people get active</h1><!--
+     -->
     <nav tabindex="-1" class="g-item navigation">
         <div class="mobile_button" onclick="openNav()">
             <div id="nav-icon3">
@@ -23,8 +18,7 @@
             </div>
         </div>
         <ul class="mobile-nav nav-style" role="menubar">
-
-            <li>
+             <li>
                 <a role="menuitem"
                    href=" {{ site.baseurl }}{% link home.markdown %}" aria-label="Go to Home page">Overview</a>
             </li>
@@ -40,10 +34,8 @@
             {% endif %}
             {% endfor %}
         </ul>
-
-        <!--{% assign links = site.data.menu %}-->
-
-        <!--<ul class="mobile-nav nav-style">-->
+         <!--{% assign links = site.data.menu %}-->
+         <!--<ul class="mobile-nav nav-style">-->
         <!--{% for link in links %}-->
         <!--<li class="{% if link.url== page.url %}active {% endif %}">-->
         <!--<a role="menuitem" href="{{ link.url }}">-->
@@ -52,11 +44,8 @@
         <!--</li>-->
         <!--{% endfor %}-->
         <!--</ul>-->
-
-
-    </nav><!--
-
-    -->
+     </nav><!--
+     -->
     <aside class="g-item button">
         <div class="social-button">
             {% include social.html %}
@@ -68,9 +57,3 @@
     </aside>
 </header>
 <div id="sticky-phantom"></div>
-
-
-
-
-
-
