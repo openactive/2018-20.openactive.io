@@ -5,4 +5,4 @@ categories:
 - Publishing Open Opportunity Data
 ---
 
-There are a number of apps and services that already use open data, including those in the OpenActive accelerator. These apps and services allow you to reach new customers, without any extra effort required.
+There are a number of apps and services that already use open data, including those in the OpenActive Accelerator. These apps and services allow you to reach new customers, without any extra effort required.

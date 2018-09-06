@@ -6,4 +6,4 @@ categories:
 - Publishing Open Opportunity Data
 ---
 
-Join our [w3c community group](https://www.openactive.io/w3c-community/).
+Join our [W3C community group](https://www.openactive.io/w3c-community/).
