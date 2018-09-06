@@ -32,10 +32,6 @@
             {% for p in navigation_pages %}
             {% if p.is_main_navigation %}
             {% if p.position %}
-            <li>
-                <a role="menuitem" {% if p.url== page.url %}class="active" {% endif %}
-                   target="_blank" href="https://blog.openactive.io/" aria-label="view our blog">Blog</a>
-            </li>
             <li {% if p.url== page.url %}class="active" {% endif %}>
                 <a role="menuitem"
                    href="{{ p.url | relative_url }}" aria-label="Go to Page {{ p.title }}">{{ p.title }}</a>

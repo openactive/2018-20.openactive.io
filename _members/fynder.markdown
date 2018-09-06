@@ -1,7 +1,6 @@
 ---
 title: Fynder
 date: 2018-01-26 01:18:00 Z
-published: false
 is_featured: false
 thumbnail_image: "/uploads/fynder.png"
 website: https://fynder.io/
