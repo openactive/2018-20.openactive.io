@@ -9,12 +9,14 @@ layout: default
         {% assign aboutOpen = site.faqs | where: "categories", "About OpenActive" %}
         <h2 class="sub-heading-two">About OpenActive</h2>
         {% for post in aboutOpen %}
+        
         <div class="one">
             <h3>{{ post.title | escape }}</h3>
             <span class="post-meta">{{post.category}}</span>
             <p class="post-snippet">{{post.content}}</p>
         </div>
         {% endfor %}
+   
     </article>
 
     <article class="news-content">
