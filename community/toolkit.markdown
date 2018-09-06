@@ -58,6 +58,12 @@ Take a look at the most frequently asked questions and how to answer them
 
 [Read our FAQs](http://openactive.io/faqs.html)
 
+### Delivering OpenActive as part of your contract
+
+This document shows the requirements for meeting your client’s contractual expectations for delivering on OpenActive
+
+[Access document](https://docs.google.com/document/d/1jThOY_Ryj8FNztySqI_4sdHO8Hz2GHxs8qsXdooV8A0/edit#heading=h.bvhkznw9lj0)
+
 ### Resources for OpenActive Champions
 
 This document includes materials for the OpenActive Champions to support their engagement activities
@@ -72,7 +78,7 @@ This document includes materials for the OpenActive Champions to support their e
 
 Take a look at all activity data available across the country
 
-The OpenActive team is currently working on a new open data map. We'll update this as soon as its available! 
+The OpenActive team is currently working on a new open data map. We'll update this as soon as its available!
 
 [View map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed)
 
