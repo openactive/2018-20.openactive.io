@@ -23,7 +23,7 @@ OpenActive’s collaborative community includes ambitious start-ups supported th
 Explore the dashboard to learn more about our community and the datasets already published.
 
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .primary_cta}
-[Community toolkit]( {{ site.baseurl }}{% link community/toolkit.markdown %}){:target="_blank"}{: .primary_cta}
+\[Community toolkit\]( {{ site.baseurl }}{% link community/toolkit.markdown %}){: .primary_cta}
 
 </div>
 </article>
@@ -127,7 +127,7 @@ Building the data revolution in the sport and physical sector is a collaborative
 
 {{ item.strapline | markdownify }}
 
-[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
+\[Find out more\]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
@@ -177,7 +177,6 @@ The OpenActive Accelerator is supporting 10 startups that use open opportunity d
 <!--  ---------------->
 
 {% include startup.html %}
-
 
 <!--  ---------------->
 <!-- FAQS -->
