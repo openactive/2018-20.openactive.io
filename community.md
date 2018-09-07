@@ -23,7 +23,9 @@ OpenActive’s collaborative community includes ambitious start-ups supported th
 Explore the dashboard to learn more about our community and the datasets already published.
 
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .primary_cta}
-[Community toolkit](http://openactive.io/community/toolkit.html){: .primary_cta}
+\[Community toolkit\]( {{ site.baseurl }}{% link community/toolkit.markdown %}){:target="_blank"}{: .primary_cta}
+
+<a class="button-primary" href="/community/toolkit.html">Community Toolkit</a>
 
 </div>
 </article>
