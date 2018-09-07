@@ -307,7 +307,7 @@ $(document).ready(function () {
                         format: '',
                         theme: 'default'
                     });
-                    members.update(84);
+                    members.update(93);
 
                     var el = document.querySelector('.com-startups');
                     startups = new Odometer({

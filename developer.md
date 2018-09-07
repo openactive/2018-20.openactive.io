@@ -135,13 +135,11 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 
 ### The open data map
 
-The map displays all activity data available in England.
+The map displays all activity data available in England from the last month and is updated regularly.
 
-Explore the map to find the data you need, identify which areas are embracing open data, and which are yet to.
+Explore the map to find the data you need, identify which areas are embracing open data, and which are yet to. 
 
-[View data map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed){:target="_blank"}{:.button-primary}
-
-![imin attribution - powered by (1)-a5bc1e.png](/uploads/imin%20attribution%20-%20powered%20by%20(1)-a5bc1e.png)
+[View data map](http://mgo.ms/s/6lmxv){:target="_blank"}{:.button-primary}
 
 </div>
 </article>

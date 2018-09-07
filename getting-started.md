@@ -217,11 +217,9 @@ Browse our status dashboard and map to understand the kinds of data available, a
 
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{:class="button-secondary" }
 
-[Open data Map](https://philiphorgan.carto.com/builder/6ac0f185-8322-4b95-ae66-b55768390fa9/embed){:target="_blank"}{:class="button-secondary" }
+[Open data Map](http://mgo.ms/s/6lmxv){:target="_blank"}{:class="button-secondary" }
 
 [Advocacy Guidance]( {{ site.baseurl }}{% link developer.md %}){:class="button-secondary" }
-
-![imin attribution - powered by (1)-66760e.png](/uploads/imin%20attribution%20-%20powered%20by%20(1)-66760e.png)
 
 </div>
 </div>
