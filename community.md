@@ -24,7 +24,7 @@ Explore the dashboard to learn more about our community and the datasets already
 
 [Status Dashboard](http://status.openactive.io/){:target="_blank"}{: .primary_cta} 
 &nbsp;
-[Community toolkit](http://openactive.io/community/toolkit){: .primary_cta}
+[Community toolkit](https://www.openactive.io/community/toolkit.html){: .primary_cta}
 
 </div>
 </article>
