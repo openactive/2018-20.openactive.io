@@ -5,10 +5,10 @@ categories:
 - Spotlight
 tags:
 - Open Data
-strapline: promoting availability at local sports venues through data sharing.
 is_featured: true
 thumbnail_image: "/uploads/my_local_pitch.jpeg"
 member: MyLocalPitch
+strapline: promoting availability at local sports venues through data sharing.
 layout: case-study
 ---
 
