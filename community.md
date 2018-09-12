@@ -128,7 +128,7 @@ Building the data revolution in the sport and physical sector is a collaborative
 
 {{ item.strapline | markdownify }}
 
-\[Find out more\]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
+[Find out more]( {{ site.baseurl }}{{ item.permalink }}){: .button-primary}
 
 </div>
 <figure>
