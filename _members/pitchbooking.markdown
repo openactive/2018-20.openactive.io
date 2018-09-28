@@ -1,7 +1,7 @@
 ---
 title: Pitchbooking
 date: 2018-07-09 15:52:00 Z
-thumbnail_image: https://cdn.filestackcontent.com/XTZpIaLhSKThxcUxWdgE
+thumbnail_image: "/uploads/pitchbooking-logo.png"
 bookingsystem: Other
 website: https://pitchbooking.com
 ---
