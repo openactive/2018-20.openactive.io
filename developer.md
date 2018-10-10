@@ -27,12 +27,12 @@ Because no single platform or app holds all the data available under OpenActive,
 </article>
 <article>
 <div class="two">
-[How to publish OpenActive data](https://github.com/openactive/realtime-paged-data-exchange/blob/master/README.md){: .button-primary target="_blank"}
+[How to publish OpenActive data](https://developer.openactive.io/){: .button-primary}
 
 </div>
 <div class="two">
 
-[How to use OpenActive data](https://www.openactive.io/getting-started/){:target="_blank"}{: .button-primary}
+[How to use OpenActive data](https://developer.openactive.io/using-data/){: .button-primary}
 
 </div>
 </article>
@@ -97,7 +97,6 @@ Opportunity data includes enough information for a participant to decide whether
 
 The specification defines a data model to help different platforms and applications to publish data in a consistent way.
 
-[Data Primer](https://www.openactive.io/opportunity-data-primer/){: .button-primary target="_blank"}
 [Describing Events](https://www.openactive.io/opportunity-data-primer/#describing-events){: .button-primary--ghost target="_blank"}
 
 </div>
@@ -128,7 +127,7 @@ Explore the dashboard to find the data you need, identify which feeds conform to
 <article class="dashboard">
 <div class="two tworight">
 
-![Hero]({{ site.baseurl }}/resources/images/icons/dash.svg)
+![Hero]({{ site.baseurl }}/resources/images/icons/dash-map.svg)
 
 </div>
 <div class="two tworight">
@@ -161,6 +160,11 @@ Explore the map to find the data you need, identify which areas are embracing op
 <div class="one">
 <h3>Open Data Publishing</h3>
 <p></p>
+  
+[ Developer documentation](https://developer.openactive.io/){: .link} - Reference documentation associated with the OpenActive specifications.
+  
+[ Validator](https://validator.openactive.io/){: .link} - A validator to check your implementation, including feed samples.
+  
 [ Paging specification](https://www.openactive.io/realtime-paged-data-exchange/){:target="_blank"}{: .link} - The specification for the OpenActive API transport
 
 [ Modelling specification](https://www.openactive.io/modelling-opportunity-data/){:target="_blank"}{: .link} - The specification for the OpenActive API data fields
@@ -168,8 +172,6 @@ Explore the map to find the data you need, identify which areas are embracing op
 [ Beta Namespace](https://www.openactive.io/ns-beta/){:target="_blank"}{: .link} - Additional fields that are available for use but still under discussion
 
 [ British Cycling Annotated Example](https://github.com/openactive/activation/issues/104){:target="_blank"}{: .link} - A "batteries included" example of a publishing endpoint
-
-[ Opportunity data primer](https://www.openactive.io/opportunity-data-primer/){:target="_blank"}{: .link} - Examples of publishing
 
 [ schema.org](http://schema.org/){:target="_blank"}{: .link} - Google's vocabulary on which the OpenActive specifications are based
 
