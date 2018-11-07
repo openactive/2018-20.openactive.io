@@ -76,7 +76,7 @@ This document includes materials for the OpenActive Champions to support their e
 
 ### OpenActive open data map
 
-Take a look at all activity data available across the country! Our maps reflect all the opportunity data points supplied to us by publishers from the last month, and is updated regularly.
+Take a look at a sample of data available across the country! Our map reflects a week's snapshot of opportunity data points supplied to us by publishers, and is updated regularly.
 
 [View map](http://mgo.ms/s/6lmxv)
 
