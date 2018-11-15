@@ -174,7 +174,7 @@ Opportunity data covers many types of physical activities. From one-to-one class
 
 ![Personal Trainer]({{ site.baseurl }}/resources/images/icons/trainer.svg)
 
-###### Personal Trainers
+###### Coaches
 
 </div>
 </div>
