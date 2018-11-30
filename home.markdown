@@ -38,6 +38,41 @@ We are supporting innovation to help people get active.
 
 </article>
 
+
+<!--  ---------------->
+<!-- SPOTLIGHT -->
+<!--  ---------------->
+<article class="title-row">
+<h2 class="sub-heading-two">Spotlight</h2>
+
+<div class="one case-study-slim title-row" style="padding: 0;" markdown="0">
+
+<div class="one subgrid">
+<div class="two tworight">
+<figure role="group" aria-labelledby="fig-spotlight"  style="width: 280px;">
+<iframe id="video" title="Change4Life and OpenActive" width="560" height="315"  src="https://www.youtube.com/embed/zpxOz4FuQRw?showinfo=0&rel=0&enablejsapi=1" allowfullscreen ></iframe>
+<figcaption aria-hidden="true" id="fig-spotlight" class="hidden" >Change4Life and OpenActive Video</figcaption>
+</figure>
+</div>
+<div class="two tworight">
+<a href="https://change4life.service.nhs.uk/change4life/activities/sports-and-activities/activity-finder"><h4>Change4Life</h4></a>
+<!--<p>strapline</p>-->
+
+<figure>
+<blockquote class="featured--alt">
+<!--<p>quote</p>-->
+<i class="quote">{% include quote.svg %}</i>
+<p>We are using open data to encourage adoption of physical activity as part of the Change4Life campaign. The Change4Life website receives an average of 200,000 unique web visits every month. </p>
+</blockquote>
+</figure>
+
+</div>
+
+</div>
+</div>
+</article>
+
+
 <!--  ---------------->
 <!-- CASE STUDIES -->
 <!--  ---------------->
