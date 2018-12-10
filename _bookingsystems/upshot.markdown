@@ -1,6 +1,7 @@
 ---
 title: Upshot
 date: 2018-03-17 14:25:00 Z
+is_enabled: true
 thumbnail_image: "/uploads/upshot-logo.png"
 member: Upshot
 website: http://www.upshot.org.uk
