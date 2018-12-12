@@ -1,6 +1,7 @@
 ---
 title: Buump LTD
 date: 2018-10-26 14:12:00 Z
+thumbnail_image: "/uploads/Buump-Colour.png"
 website: http://www.buumpactive.com/
 ---
 
