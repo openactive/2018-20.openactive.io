@@ -86,7 +86,7 @@ View our OpenActive dashboard on Geckoboard that visualises the initiative's pro
 
 [View dashboard](https://share.geckoboard.com/dashboards/DTZRCARKEXHZGUVC)
 
-This toolkit is updated monthly. Noticed something isn't quite right? [Let us know](Maito:hello@openactive.io) and we'll sort it.
+This toolkit is updated monthly. Noticed something isn't quite right? [Let us know](Mailto:hello@openactive.io) and we'll sort it.
 
 </div>
 </article>
