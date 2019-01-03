@@ -1,8 +1,7 @@
 ---
 title: Classfinder
 date: 2018-12-10 12:16:00 Z
-thumbnail_image: "/uploads/Class%20Finder%20new%20logo.png"
-member: emd
+thumbnail_image: "/uploads/classfinder%20logo.png"
 website: https://www.classfinder.org.uk/
 ---
 
