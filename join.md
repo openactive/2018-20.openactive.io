@@ -13,7 +13,7 @@ We can only make this change happen by working together; innovating through coll
 
 Membership for the OpenActive community is free.
 
-If you want to [get in touch](mailto:hello@openactive.io) or get involved, sign up to our community and [monthly newsletter](https://us13.list-manage.com/subscribe?u=9e6648557f84731796a4ac873&id=1665f95799) to find out more!
+[Get in touch](mailto:hello@openactive.io) to get involved, sign up to our community and [monthly newsletter](https://us13.list-manage.com/subscribe?u=9e6648557f84731796a4ac873&id=1665f95799) to find out more!
 
 You can also sign up to our [online chat](https://www.openactive.io/public-openactive-w3c/) to be at the heart of live discussions in the community: [![Join the chat](https://slack.openactive.io/badge.svg)](https://www.openactive.io/public-openactive-w3c/)
 
