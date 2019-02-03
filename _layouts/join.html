@@ -26,29 +26,31 @@ layout: default
             <div class="w-embed w-script">
                 <div>
                     <script type="text/javascript">
-                        // FirebaseUI config.
-                        var uiConfig = {
-                          signInSuccessUrl: '/profile',
-                          signInOptions: [
-                            {
-                              provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
-                              //requireDisplayName: false
-                            }
-                          ],
+                        $(function() {
+                            // FirebaseUI config.
+                            var uiConfig = {
+                              signInSuccessUrl: '/profile',
+                              signInOptions: [
+                                {
+                                  provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+                                  //requireDisplayName: false
+                                }
+                              ],
 
-                          credentialHelper: firebaseui.auth.CredentialHelper.NONE,
-                          // Terms of service url.
-                          tosUrl: '/tos'
-                        };
+                              credentialHelper: firebaseui.auth.CredentialHelper.NONE,
+                              // Terms of service url.
+                              tosUrl: '/tos'
+                            };
 
-                        firebase.auth().onAuthStateChanged(function(user) {
-                          if (!user) {
-                            document.getElementById("logged-in-container").style.cssText = "display:none;";
-                            ui.start('#firebaseui-auth-container', uiConfig);
-                          } else {
-                            document.getElementById("logged-in-container").style.cssText = "display:block;";
-                            document.getElementById("email").innerHTML = user.email;
-                          }
+                            firebase.auth().onAuthStateChanged(function(user) {
+                              if (!user) {
+                                document.getElementById("logged-in-container").style.cssText = "display:none;";
+                                ui.start('#firebaseui-auth-container', uiConfig);
+                              } else {
+                                document.getElementById("logged-in-container").style.cssText = "display:block;";
+                                document.getElementById("email").innerHTML = user.email;
+                              }
+                            });
                         });
                     </script>
 
