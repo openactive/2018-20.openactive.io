@@ -62,7 +62,7 @@ Take a look at the most frequently asked questions and how to answer them
 
 This document shows the requirements for meeting your client’s contractual expectations for delivering on OpenActive
 
-[Access document](https://docs.google.com/document/d/1jThOY_Ryj8FNztySqI_4sdHO8Hz2GHxs8qsXdooV8A0/edit#heading=h.bvhkznw9lj0)
+[Access document](https://docs.google.com/document/d/1_OYISajB90tiCFHqwqWXn09CR3P_3uE7jEM4RtUnMak/edit)
 
 ### Resources for OpenActive Champions
 
