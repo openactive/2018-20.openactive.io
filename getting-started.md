@@ -10,13 +10,28 @@ layout: page-hero
 
 ---
 
+<article class="title-row">
+<h2 class="sub-heading-two">Step 1: Understand OpenActive</h2>
+<div class="one">
+
+<h3>Join one of our OpenActive Webinars</h3>
+
+<p>Our documentation if a useful reference, however the best place to get started is still to join one of our webinars.</p>
+
+<p>Our webinars run every two weeks, and are a great opportunity to ask both technical and non-technical questions about OpenActive to understand how to make the most out of this opportunity for your organisation.</p>
+
+<p><a href="https://bookwhen.com/openactive" class="button-primary">Book webinar</a></p>
+
+</div>
+</article>
+
 {::options parse_block_html="true" /}
 
 <!--  ---------------->
 <!-- TABS -->
 <!--  ---------------->
 <article markdown="0" class="tabs ">
-<h2 class="sub-heading-two">Where to start?</h2>
+<h2 class="sub-heading-two">Step 2: Explore the right option for you</h2>
 <div id="tabs">
 <div class="tabsList " role="tablist">
 
@@ -87,7 +102,7 @@ You may already use a booking system or club management system to list your acti
 
 Your developers will need to create an OpenActive feed. This should take around 3 days of development time.
 
-[Booking System Guidance]( {{ site.baseurl }}{% link getting-started.md %}#booking-systems){:class=" button-secondary" onclick="window.location.reload()"}
+Click the "Booking Systems" tab above to find out more.
 
 </div>
 </div>
