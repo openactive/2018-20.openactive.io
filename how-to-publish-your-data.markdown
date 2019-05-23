@@ -11,7 +11,7 @@ permalink: "/how-to-publish-your-data/"
 
 <div class="one">
 
-Your data must be licensed for anyone to access, use and share. The Open Data Institute recommends the [Creative Commons Attribution Licence (cc-by) version 4](https://creativecommons.org/licenses/by/4.0/).
+Your published data must be licensed for anyone to access, use and share. The Open Data Institute recommends the [Creative Commons Attribution Licence (cc-by) version 4](https://creativecommons.org/licenses/by/4.0/).
 
 If you **do not** own the data (e.g. in the case of a booking system provider), then you need to ensure that you obtain permission to publish the data.
 
