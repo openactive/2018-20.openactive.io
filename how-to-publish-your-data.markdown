@@ -11,7 +11,7 @@ permalink: "/how-to-publish-your-data/"
 
 <div class="one">
 
-License your data for anyone to access, use and share. The Open Data Institute recommends the [Creative Commons Attribution Licence (cc-by) version 4](https://creativecommons.org/licenses/by/4.0/). Inform your tech team.
+Your data must be licensed for anyone to access, use and share. The Open Data Institute recommends the [Creative Commons Attribution Licence (cc-by) version 4](https://creativecommons.org/licenses/by/4.0/).
 
 If you **do not** own the data (e.g. in the case of a booking system provider), then you need to ensure that you obtain permission to publish the data.
 
@@ -20,7 +20,7 @@ You need to amend your terms and conditions to indicate that your users' session
 A simple addition to your Terms and Conditions similar to the following:
 
 > **Publishing Sessions Openly**
-> Information about your session that is already available publicly (e.g. title, location, description, date/time, price, images) will be published as open data for anyone to access, use and share, licensed under the[Creative Commons Attribution License (cc-by) version 4](https://creativecommons.org/licenses/by/4.0/). This gives your sessions more visibility by publishing them openly to apps and websites that will help you promote your sessions, including but not limited to those listed [here](https://www.openactive.io/pioneers.html). This will help more people find your sessions, and will not incur any additional cost to you. [You may opt-out of this free service in your settings page.\]
+> Information about your session that is already available publicly (e.g. title, location, description, date/time, price, images) will be published as open data for anyone to access, use and share, licensed under the [Creative Commons Attribution License (cc-by) version 4](https://creativecommons.org/licenses/by/4.0/). This gives your sessions more visibility by publishing them openly to apps and websites that will help you promote your sessions, including but not limited to those listed [here](https://www.openactive.io/pioneers.html). This will help more people find your sessions, and will not incur any additional cost to you. [You may opt-out of this free service in your settings page.\]
 
 A simple opt-out checkbox visible in your application as below:
 
