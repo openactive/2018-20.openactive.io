@@ -2,6 +2,7 @@
 title: Playfinder
 date: 2019-11-20 10:23:00 Z
 thumbnail_image: "/uploads/Playfinder.jpg"
+member: Playfinder
 ---
 
 **Pitch problems**
