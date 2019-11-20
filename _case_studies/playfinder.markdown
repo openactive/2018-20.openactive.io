@@ -10,8 +10,6 @@ According to research conducted by Sport England and the Football Association, �
 
 The research found that a common theme is that people want it to be easier to find a venue to play at — almost 1 in 5 people would play more if it was easier to find a venue. On the opposite side of the fence venue providers are also keen to improve utilisation of their facilities, and to increase revenue.
 
-![Playfinder.jpg](/uploads/Playfinder.jpg)
-
 Research by Playfinder, formerly My Local Pitch, an online service which allows venues to promote their availability, echoed this: where booking processes existed, they were often over-complicated and inaccessible, which was deterring people from playing. Many venues did not make their availability easy to see, or it was not online at all. And whilst some sessions were heavily over-subscribed, others struggled to promote their spare capacity.
 
 Playfinder began with a problem faced by countless sports players in cities across the world. Founders Jamie Foale and Sandford London were trying to book a football pitch in London for their Sunday league team, but couldn’t get past the answer machines and unanswered emails. When the company launched in 2014, the core challenge for Playfinder was to help people to find an available slot at a convenient location, and to book it.
