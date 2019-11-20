@@ -7,4 +7,4 @@ website: www.ActivePartnerships.org
 layout: member
 ---
 
-Active Partnerships is a nationwide network of 45 County Sports Partnerships (CSPs) that are committed to Improving Lives by Growing Grassroots Sport and Physical Activity. We do this by providing a range of high quality services and delivering or commissioning customer-led solutions in collaboration with a wide range of partners, which ultimately results in National Reach and Local Impact.
+Active Partnerships' vision is an active lifestyle is the social norm for everyone. There are 43 Active Partnerships across England who work collaboratively with local partners to create the conditions for an active nation, using the power of sport and physical activity to transform lives.
